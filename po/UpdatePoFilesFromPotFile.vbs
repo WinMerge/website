@@ -99,25 +99,25 @@ Function GetContentFromPoFile(ByVal sPoPath)
           iMsgStarted = 1
           Set oMatch = reMsgCtxt.Execute(sLine)(0)
           sMsgCtxt = oMatch.SubMatches(0)
-          oSubContent.sMsgCtxt2 = sLine & vbCrLf
+          oSubContent.sMsgCtxt2 = sLine & vbLf
         ElseIf reMsgId.Test(sLine) Then 'If "msgid"...
           iMsgStarted = 2
           Set oMatch = reMsgId.Execute(sLine)(0)
           sMsgId = oMatch.SubMatches(0)
-          oSubContent.sMsgId2 = sLine & vbCrLf
+          oSubContent.sMsgId2 = sLine & vbLf
         ElseIf Left(sLine, 8) = "msgstr """ Then 'If "msgstr"...
           iMsgStarted = 3
-          oSubContent.sMsgStr2 = sLine & vbCrLf
+          oSubContent.sMsgStr2 = sLine & vbLf
         ElseIf reMsgContinued.Test(sLine) Then 'If "msgctxt", "msgid" or "msgstr" continued...
           If iMsgStarted = 1 Then
             sMsgCtxt = sMsgCtxt & oMatch.SubMatches(0)
-            oSubContent.sMsgCtxt2 = oSubContent.sMsgCtxt2 & sLine & vbCrLf
+            oSubContent.sMsgCtxt2 = oSubContent.sMsgCtxt2 & sLine & vbLf
           ElseIf iMsgStarted = 2 Then
             Set oMatch = reMsgContinued.Execute(sLine)(0)
             sMsgId = sMsgId & oMatch.SubMatches(0)
-            oSubContent.sMsgId2 = oSubContent.sMsgId2 & sLine & vbCrLf
+            oSubContent.sMsgId2 = oSubContent.sMsgId2 & sLine & vbLf
           ElseIf iMsgStarted = 3 Then
-            oSubContent.sMsgStr2 = oSubContent.sMsgStr2 & sLine & vbCrLf
+            oSubContent.sMsgStr2 = oSubContent.sMsgStr2 & sLine & vbLf
           End If
         End If
       Else 'If comment line...
@@ -126,13 +126,13 @@ Function GetContentFromPoFile(ByVal sPoPath)
           Case "#~" 'Obsolete message...
             iMsgStarted = 0
           Case "#." 'Extracted comment...
-            oSubContent.sExtractedComments = oSubContent.sExtractedComments & sLine & vbCrLf
+            oSubContent.sExtractedComments = oSubContent.sExtractedComments & sLine & vbLf
           Case "#:" 'Reference...
-            oSubContent.sReferences = oSubContent.sReferences & sLine & vbCrLf
+            oSubContent.sReferences = oSubContent.sReferences & sLine & vbLf
           Case "#," 'Flag...
-            oSubContent.sFlags = oSubContent.sFlags & sLine & vbCrLf
+            oSubContent.sFlags = oSubContent.sFlags & sLine & vbLf
           Case Else 'Translator comment...
-            oSubContent.sTranslatorComments = oSubContent.sTranslatorComments & sLine & vbCrLf
+            oSubContent.sTranslatorComments = oSubContent.sTranslatorComments & sLine & vbLf
         End Select
       End If
     ElseIf iMsgStarted <> 0 Then 'If empty line AND there is pending translation...
@@ -170,7 +170,7 @@ Sub CreateUpdatedPoFile(ByVal sPoPath, ByVal oEnglishPotContent, ByVal oLanguage
   oPoFile.Write oLanguage.sTranslatorComments
   oPoFile.Write oLanguage.sMsgId2
   oPoFile.Write oLanguage.sMsgStr2
-  oPoFile.Write vbCrLf
+  oPoFile.Write vbLf
   For Each sKey In oEnglishPotContent.Keys 'For all English content...
     If sKey <> "__head__" Then
       Set oEnglish = oEnglishPotContent(sKey)
@@ -186,7 +186,7 @@ Sub CreateUpdatedPoFile(ByVal sPoPath, ByVal oEnglishPotContent, ByVal oLanguage
       oPoFile.Write oLanguage.sMsgCtxt2
       oPoFile.Write oLanguage.sMsgId2
       oPoFile.Write oLanguage.sMsgStr2
-      oPoFile.Write vbCrLf
+      oPoFile.Write vbLf
     End If
   Next
   oPoFile.Close
