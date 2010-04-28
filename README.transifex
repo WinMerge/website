@@ -4,8 +4,8 @@ Transifex.net Token Verification
 The list of tokens bellow guarantee the respective users to be able to enable 
 submission on components using the following repository url:
 
-http://bitbucket.org/kimmov/winmerge-web
+ssh://hg@bitbucket.org/kimmov/winmerge-web/
 
 Tokens:
 
-mByM8hvQ9j3DJkxgXq4CeUrgwdAuSTNb / gerundt
+PDrGzgtmq7kAQeD8WTeFkbLDpgys32zH / gerundt
