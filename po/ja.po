@@ -20,7 +20,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Poedit-Language: Japanese\n"
 "X-Poedit-SourceCharset: utf-8\n"
-"X-Poedit-Basepath: ../../Web/\n"
+"X-Poedit-Basepath: ../htdocs/\n"
 
 #: about\screenshots\index.php:26
 #, c-format

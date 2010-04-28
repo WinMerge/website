@@ -20,7 +20,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Poedit-Language: Dutch\n"
 "X-Poedit-Country: BELGIUM\n"
-"X-Poedit-Basepath: ../../Web/\n"
+"X-Poedit-Basepath: ../htdocs/\n"
 
 #: about\screenshots\index.php:26
 #, c-format

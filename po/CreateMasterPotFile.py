@@ -75,7 +75,7 @@ def getTranslationsFromPhpFile(filepath, translations):
 
 def main():
     translations = {}
-    php_dir = abspath('../Web')
+    php_dir = abspath('../htdocs')
     php_files = getPhpFiles(php_dir)
     for php_file in php_files: #For all php files...
         getTranslationsFromPhpFile(php_file, translations)
@@ -100,7 +100,7 @@ def main():
     potfile.write('"Content-Transfer-Encoding: 8bit\\n"\n')
     potfile.write('"X-Poedit-Language: English\\n"\n')
     potfile.write('"X-Poedit-SourceCharset: utf-8\\n"\n')
-    potfile.write('"X-Poedit-Basepath: ../Web/\\n"\n')
+    potfile.write('"X-Poedit-Basepath: ../htdocs/\\n"\n')
     potfile.write('\n')
     for translation in translations: #For all translations...
         references = translations[translation]
