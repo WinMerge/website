@@ -329,7 +329,7 @@ msgstr "Mailinglistor"
 #: about\index.php:41
 #, c-format
 msgid "Compares one folder or includes all subfolders"
-msgstr "Jämför en katalog eller inkluderar alla underkataloger"
+msgstr "Jämför en katalog eller inkludera alla underkataloger"
 
 #: 404.php:12
 #, c-format
@@ -509,11 +509,6 @@ msgstr "<a href=\"%1$s\">Lär dig mer</a> eller <a href=\"%2$s\">Ladda ner nu!</
 #, c-format
 msgid "We currently have WinMerge translated into the languages listed below:"
 msgstr "Vi har nu översatt WinMerge till de språk som listas nedan:"
-
-#: translations\index.php:33
-#, c-format
-msgid "You can find a more technical view about the <a href=\"%1$s\">translation system</a> in our <a href=\"%2$s\">Development Wiki</a>."
-msgstr "Du kan hitta en mer teknisk beskrivning av <a href=\"%1$s\">översättningssystemet</a> i vår <a href=\"%2$s\">Utvecklings-Wiki</a>."
 
 #: translations\translations.inc:131
 #: translations\translations.inc:288
@@ -908,6 +903,11 @@ msgstr "Prenumeranter av denna lista får noter om varje kodändring tillhandah�
 msgid "This is WinMerge packaged with a PortableApps.com Launcher as a <a href=\"%s\">portable app</a>, so you can compare files on the go."
 msgstr "Detta är WinMerge paketterat med en PortableApps.com startare som en <a href=\"%s\">portabel applikation</a>, så du kan jämföra filer direkt."
 
+#: links.php:45
+#, c-format
+msgid "A <a href="%s">Facebook</a> group for people interested in WinMerge."
+msgstr "En <a href="%s">Facebook</a> grupp för människor intresserade av WinMerge."  
+
 #: index.php:47
 #, c-format
 msgid "If you are interested in contributing work to the project, see our <a href=\"%s\">developer page</a> for further information on how you may contribute."
@@ -1019,7 +1019,7 @@ msgstr "Det enklaste sättet att installera WinMerge är att ladda ner och köra
 #: about\screenshots\index.php:23
 #, c-format
 msgid "In the tree view, folders are expandable and collapsible, containing files and subfolders. This is useful for an easier navigation in deeply nested directory structures. <em>The tree view is available only in recursive compares."
-msgstr "I trädfönstret, är kataloger expanderbara och imploderbara, innehållande filer och underkataloger. Detta är användbart för enkel navigation i djupt liggande katalogstrukturer. <em>Trädfönstret är bara tillgändligt i rekursiva jämförelser."
+msgstr "I trädfönstret, är kataloger expanderbara och imploderbara, innehållande filer och underkataloger. Detta är användbart för enkel navigation i djupt liggande katalogstrukturer. <em>Trädfönstret är bara tillgängligt i rekursiva jämförelser."
 
 #: index.php:42
 #: downloads\pad-file.php:96
@@ -1088,7 +1088,7 @@ msgstr "Eller du kan enkelt packa upp <a href=\"%s\">det binära zip-paketet</a>
 #: downloads\pad-file.php:56
 #, c-format
 msgid "English Descriptions"
-msgstr "Engelska besrivningar"
+msgstr "Engelska beskrivningar"
 
 #: engine\page.inc:325
 #: support\index.php:37
@@ -1131,6 +1131,11 @@ msgstr "WinMerge är ett Open Source skillnads och lägg ihop-verktyg för Windo
 #, c-format
 msgid "Beta Versions"
 msgstr "Beta-versioner"
+
+#: translations\index.php:33
+#, c-format
+msgid "You can find a more technical view about the <a href=\"%1$s\">translation system</a> in our <a href=\"%2$s\">Development Wiki</a>."
+msgstr "Du kan hitta en mer teknisk beskrivning av <a href=\"%1$s\">översättningssystemet</a> i vår <a href=\"%2$s\">Utvecklings-Wiki</a>."
 
 #: downloads\pad-file.php:76
 #, c-format
@@ -1666,6 +1671,11 @@ msgstr "Licens"
 msgid "Other Versions"
 msgstr "Andra versioner"
 
+#: docs\index.php:13
+#, c-format
+msgid "The <a href=\"%s\">quick tour</a> describe the main  features from WinMerge at one page."
+msgstr "<a href=\"%s\">Snabbguiden</a> beskriver de huvudsakliga funktionerna i WinMerge på en sida."
+
 #: engine\page.inc:321
 #, c-format
 msgid "Discussion Forums"
@@ -1722,7 +1732,7 @@ msgstr "Releasenoteringar"
 #: links.php:16
 #, c-format
 msgid "<b>GnuWin32</b> provides Win32 ports of tools with a <a href=\"%1$s\">GNU</a> or similar <a href=\"%2$s\">open source license</a>."
-msgstr "<b>GnuWin32</b> har Win32 portar av verktyg med en <a href=\"%1$s\">GNU</a> eller liknande <a href=\"%2$s\">open source license</a>."
+msgstr "<b>GnuWin32</b> har Win32 portar av verktyg med en <a href=\"%1$s\">GNU</a> eller liknande <a href=\"%2$s\">open source licens</a>."
 
 #: engine\page.inc:308
 #, c-format
@@ -1763,18 +1773,13 @@ msgstr "<b>WinSCP</b> är en open source <acronym title=\"SSH Filöverföringspr
 #: links.php:12
 #, c-format
 msgid "<b>7-Zip</b> is a file archiver with high compression ratio."
-msgstr "b>7-Zip</b> är en filkomprimerare med en hög kompressionsgrad."
+msgstr "<b>7-Zip</b> är en filkomprimerare med en hög kompressionsgrad."
 
 #: about\index.php:5
 #: about\index.php:12
 #, c-format
 msgid "WinMerge is highly useful for determining what has changed between project versions, and then merging changes between versions. WinMerge can be used as an external differencing/merging tool or as a standalone application."
 msgstr "WinMerge är mycket användbart för att se vad som har ändrats mellan projektversioner, och sedan lägga samman ändringar mellan versioner. WinMerge kan användas som ett extern skillnads/lägga ihop-verktyg eller som en självständig applikation."
-
-#: docs\index.php:13
-#, c-format
-msgid "The <a href=\"%s\">quick tour</a> describe the main  features from WinMerge at one page."
-msgstr "<a href=\"%s\">Snabbguiden</a> beskriver de huvudsakliga funktionerna i WinMerge på en sida."
 
 #: engine\engine.inc:22
 #, c-format
