@@ -4,9 +4,6 @@
 # Maintainer:
 # * Hans Eriksson <hans.ericson at bredband.net>
 #
-# ID line follows -- this is updated by SVN
-# $Id$
-#
 msgid ""
 msgstr ""
 "Project-Id-Version: WinMerge\n"

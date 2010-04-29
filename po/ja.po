@@ -4,9 +4,6 @@
 # Translators:
 # * Takashi Sawanaka <sawanaka at d1.dion.ne.jp>
 #
-# ID line follows -- this is updated by SVN
-# $Id$
-#
 msgid ""
 msgstr ""
 "Project-Id-Version: WinMerge\n"

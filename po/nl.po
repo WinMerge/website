@@ -4,9 +4,6 @@
 # Maintainer:
 # * Thomas De Rocker <thomasderocker@yahoo.com>
 #
-# ID line follows -- this is updated by SVN
-# $Id$
-#
 msgid ""
 msgstr ""
 "Project-Id-Version: WinMerge site\n"

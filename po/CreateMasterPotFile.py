@@ -8,8 +8,6 @@
 # This file is part of WinMerge. WinMerge is free software under the terms of the
 # GNU General Public License. You should have received a copy of the license
 # along with WinMerge.  If not, see <http://www.gnu.org/licenses/>.
-#
-# $Id$
 
 from os import sep
 from os.path import abspath, isfile, join, splitext, walk
@@ -83,9 +81,6 @@ def main():
     potfile = open('en-US.pot', 'w')
     potfile.write('# This file is part from WinMerge <http://winmerge.org/>\n')
     potfile.write('# Released under the "GNU General Public License"\n')
-    potfile.write('#\n')
-    potfile.write('# ID line follows -- this is updated by SVN\n')
-    potfile.write('# $' + 'Id' + '$\n')
     potfile.write('#\n')
     potfile.write('msgid ""\n')
     potfile.write('msgstr ""\n')
