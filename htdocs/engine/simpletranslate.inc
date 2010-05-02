@@ -518,6 +518,10 @@
             $msgstarted = 0;
           }
           
+          if ($i == ($linescount - 1)) { //if last line...
+            $msgstarted = 0;
+          }
+          
           if ($msgstarted == 0) { //if NOT inside a translation...
             if ($msgid != '') {
               $msgid = str_replace('\"', '"', $msgid);
