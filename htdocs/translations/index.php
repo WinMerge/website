@@ -34,10 +34,11 @@
 ?>
 
 <h3><a name="status"><?php __e('Status');?></a></h3>
-<p><?php __e('The following two pages inform you about the translations status of the stable and developer version of WinMerge:');?></p>
+<p><?php __e('The following pages inform you about the translations status of the stable version, developer version and website of WinMerge:');?></p>
 <ul>
   <li><a href="status_branch.php"><?php __e('Stable Version (Branch)');?></a> <?php $page->printRssFeedLink('status_branch_rss.php'); ?></li>
   <li><a href="status_trunk.php"><?php __e('Unstable Version (Trunk)');?></a> <?php $page->printRssFeedLink('status_trunk_rss.php'); ?></li>
+  <li><a href="status_website.php"><?php __e('Website');?></a></li>
 </ul>
 <?php
   $page->printFoot();

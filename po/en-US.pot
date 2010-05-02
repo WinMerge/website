@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WinMerge\n"
 "Report-Msgid-Bugs-To: http://bugs.winmerge.org\n"
-"POT-Creation-Date: 2010-04-28 21:50+0000\n"
+"POT-Creation-Date: 2010-05-02 12:01+0000\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: English <winmerge-translate@lists.sourceforge.net>\n"
@@ -132,6 +132,11 @@ msgstr ""
 msgid "WinMerge is an <a href=\"%s\">Open Source</a> differencing and merging tool for Windows. WinMerge can compare both folders and files, presenting differences in a visual text format that is easy to understand and handle."
 msgstr ""
 
+#: translations\translations.inc:182
+#, c-format
+msgid "Total: Unknown"
+msgstr ""
+
 #: support\mailing-lists.php:32
 #: support\mailing-lists.php:42
 #: support\mailing-lists.php:62
@@ -207,6 +212,11 @@ msgstr ""
 #: docs\index.php:13
 #, c-format
 msgid "The <a href=\"%s\">quick tour</a> describes the main WinMerge features in one page."
+msgstr ""
+
+#: engine\page.inc:334
+#, c-format
+msgid "WinMerge Translations Status (Website)"
 msgstr ""
 
 #: downloads\index.php:27
@@ -460,6 +470,11 @@ msgstr ""
 msgid "Total: %d"
 msgstr ""
 
+#: engine\page.inc:334
+#, c-format
+msgid "Status (Website)"
+msgstr ""
+
 #: about\index.php:69
 #, c-format
 msgid "See the <a href=\"%s\">screenshots page</a> for more screenshots."
@@ -491,6 +506,11 @@ msgstr ""
 #: about\screenshots\index.php:16
 #, c-format
 msgid "Open-dialog"
+msgstr ""
+
+#: translations\index.php:37
+#, c-format
+msgid "The following pages inform you about the translations status of the stable version, developer version and website of WinMerge:"
 msgstr ""
 
 #: engine\engine.inc:22
@@ -651,6 +671,11 @@ msgstr ""
 msgid "Quick Tour"
 msgstr ""
 
+#: translations\status_website.php:10
+#, c-format
+msgid "Translations Status"
+msgstr ""
+
 #: translations\translations.inc:136
 #: translations\translations_branch.inc:71
 #, c-format
@@ -751,11 +776,6 @@ msgstr ""
 msgid "Support List"
 msgstr ""
 
-#: translations\index.php:37
-#, c-format
-msgid "The following two pages inform you about the translations status of the stable and developer version of WinMerge:"
-msgstr ""
-
 #: support\mailing-lists.php:12
 #: support\mailing-lists.php:20
 #, c-format
@@ -767,9 +787,9 @@ msgstr ""
 msgid "WinMerge allows selecting/opening paths in several ways. Using the Open-dialog is just one of them."
 msgstr ""
 
-#: translations\translations.inc:182
+#: translations\index.php:41
 #, c-format
-msgid "Total: Unknown"
+msgid "Website"
 msgstr ""
 
 #: downloads\pad-file.php:76
@@ -802,12 +822,9 @@ msgstr ""
 msgid "WinMerge Mailing Lists"
 msgstr ""
 
-#: translations\translations.inc:131
-#: translations\translations.inc:288
-#: translations\translations_branch.inc:66
-#: translations\translations_branch.inc:182
+#: docs\releasenotes.php:6
 #, c-format
-msgid "Language"
+msgid "WinMerge, release notes, summary, changes, enhancements, bug fixes, known issues, release"
 msgstr ""
 
 #: downloads\source-code.php:5
@@ -904,9 +921,12 @@ msgstr ""
 msgid "WinMerge, support, discussion forums, mailing lists, tracker, donate, bugs, support requests, patches, feature requests, todo, open source, sourceforge.net"
 msgstr ""
 
-#: docs\releasenotes.php:6
+#: translations\translations.inc:131
+#: translations\translations.inc:288
+#: translations\translations_branch.inc:66
+#: translations\translations_branch.inc:182
 #, c-format
-msgid "WinMerge, release notes, summary, changes, enhancements, bug fixes, known issues, release"
+msgid "Language"
 msgstr ""
 
 #: index.php:37
@@ -1369,6 +1389,11 @@ msgstr ""
 msgid "WinMerge, tracker, shortcuts, sourceforge, project page, bug, patch, support request, feature request, todo item"
 msgstr ""
 
+#: translations\status_website.php:13
+#, c-format
+msgid "See more information on Transifex.net"
+msgstr ""
+
 #: about\index.php:40
 #, c-format
 msgid "Fast compare using file sizes and dates"
@@ -1588,6 +1613,11 @@ msgstr ""
 msgid "Japanese WinMerge Version"
 msgstr ""
 
+#: translations\status_website.php:8
+#, c-format
+msgid "We move the sources from the website to a <a href=\"%1$s\">bitbucket Mercurial repository</a> and use now <a href=\"%2$s\">Transifex</a> as platform for the translations."
+msgstr ""
+
 #: 404.php:15
 #, c-format
 msgid "Were you looking for..."
@@ -1760,6 +1790,13 @@ msgstr ""
 msgid "Translators"
 msgstr ""
 
+#: translations\status_website.php:5
+#: translations\status_website.php:7
+#: translations\status_website.php:12
+#, c-format
+msgid "Translations Status (Website)"
+msgstr ""
+
 #: support\tracker-shortcuts.php:41
 #, c-format
 msgid "ID:"
@@ -1861,7 +1898,7 @@ msgstr ""
 msgid "View all file releases&hellip;"
 msgstr ""
 
-#: engine\page.inc:383
+#: engine\page.inc:384
 #, c-format
 msgid "Bookmark this on Delicious"
 msgstr ""

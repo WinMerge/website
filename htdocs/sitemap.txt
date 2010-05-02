@@ -38,3 +38,4 @@ http://winmerge.org/translations/
 http://winmerge.org/translations/instructions.php
 http://winmerge.org/translations/status_branch.php
 http://winmerge.org/translations/status_trunk.php
+http://winmerge.org/translations/status_website.php
