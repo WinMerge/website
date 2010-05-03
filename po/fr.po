@@ -135,6 +135,11 @@ msgstr "Une bonne information dans un rapport de bogue signifie souvent que votr
 msgid "WinMerge is an <a href=\"%s\">Open Source</a> differencing and merging tool for Windows. WinMerge can compare both folders and files, presenting differences in a visual text format that is easy to understand and handle."
 msgstr "WinMerge est un outil <a href=\"%s\">Open Source</a> de différenciation et de fusion pour Windows. WinMerge peut comparer et les dossiers et les fichiers, en repésentant les différences dans un fichier texte visuel qui est facile à comprendre ou manipuler."
 
+#: translations\translations.inc:182
+#, c-format
+msgid "Total: Unknown"
+msgstr "Total: Inconnu"
+
 #: support\mailing-lists.php:32
 #: support\mailing-lists.php:42
 #: support\mailing-lists.php:62
@@ -210,6 +215,11 @@ msgstr "Page du projet"
 #: docs\index.php:13
 #, c-format
 msgid "The <a href=\"%s\">quick tour</a> describes the main WinMerge features in one page."
+msgstr ""
+
+#: engine\page.inc:334
+#, c-format
+msgid "WinMerge Translations Status (Website)"
 msgstr ""
 
 #: downloads\index.php:27
@@ -463,6 +473,11 @@ msgstr ""
 msgid "Total: %d"
 msgstr "Total: %d"
 
+#: engine\page.inc:334
+#, c-format
+msgid "Status (Website)"
+msgstr ""
+
 #: about\index.php:69
 #, c-format
 msgid "See the <a href=\"%s\">screenshots page</a> for more screenshots."
@@ -495,6 +510,11 @@ msgstr "Si vous voulez mettre à jour l'une de ces traductions ou ajouter une au
 #, c-format
 msgid "Open-dialog"
 msgstr "Dialogue-ouvert"
+
+#: translations\index.php:37
+#, c-format
+msgid "The following pages inform you about the translations status of the stable version, developer version and website of WinMerge:"
+msgstr ""
 
 #: engine\engine.inc:22
 #, c-format
@@ -654,6 +674,11 @@ msgstr "Télécharger la version actuelle de Winmerge %1$s, qui a été publiée
 msgid "Quick Tour"
 msgstr ""
 
+#: translations\status_website.php:10
+#, c-format
+msgid "Translations Status"
+msgstr ""
+
 #: translations\translations.inc:136
 #: translations\translations_branch.inc:71
 #, c-format
@@ -754,11 +779,6 @@ msgstr "Forums de discussion de Winmerge"
 msgid "Support List"
 msgstr "Liste du support"
 
-#: translations\index.php:37
-#, c-format
-msgid "The following two pages inform you about the translations status of the stable and developer version of WinMerge:"
-msgstr "Les deux pages suivantes vous informent sur le statut des traduction des versions stables et développeur de Winmerge:"
-
 #: support\mailing-lists.php:12
 #: support\mailing-lists.php:20
 #, c-format
@@ -770,10 +790,10 @@ msgstr "Liste d'annonces"
 msgid "WinMerge allows selecting/opening paths in several ways. Using the Open-dialog is just one of them."
 msgstr "Winmerge permet de sélectionner/ouvrir les emplacements de plusieurs manière. L'utilisation du dialogue-ouvert est juste l'un d'entre eux."
 
-#: translations\translations.inc:182
+#: translations\index.php:41
 #, c-format
-msgid "Total: Unknown"
-msgstr "Total: Inconnu"
+msgid "Website"
+msgstr ""
 
 #: downloads\pad-file.php:76
 #, c-format
@@ -805,13 +825,10 @@ msgstr "Captures d'écran des fonctions de Winmerge comme la comparaison, les r�
 msgid "WinMerge Mailing Lists"
 msgstr "Listes de mailing de Winmerge"
 
-#: translations\translations.inc:131
-#: translations\translations.inc:288
-#: translations\translations_branch.inc:66
-#: translations\translations_branch.inc:182
+#: docs\releasenotes.php:6
 #, c-format
-msgid "Language"
-msgstr "langue"
+msgid "WinMerge, release notes, summary, changes, enhancements, bug fixes, known issues, release"
+msgstr "WinMerge, notes de version, résumé, changements, amélioration, résolution de bogues, problèmes connus, version"
 
 #: downloads\source-code.php:5
 #, c-format
@@ -907,10 +924,13 @@ msgstr "Traqueur Winmerge"
 msgid "WinMerge, support, discussion forums, mailing lists, tracker, donate, bugs, support requests, patches, feature requests, todo, open source, sourceforge.net"
 msgstr "WinMerge, support, forums de discussion, listes de mailing, traqueur, donner, bogues, requêtes de support, patches, requêtes de fonction, à faire, open source, sourceforge.net"
 
-#: docs\releasenotes.php:6
+#: translations\translations.inc:131
+#: translations\translations.inc:288
+#: translations\translations_branch.inc:66
+#: translations\translations_branch.inc:182
 #, c-format
-msgid "WinMerge, release notes, summary, changes, enhancements, bug fixes, known issues, release"
-msgstr "WinMerge, notes de version, résumé, changements, amélioration, résolution de bogues, problèmes connus, version"
+msgid "Language"
+msgstr "langue"
 
 #: index.php:37
 #: downloads\index.php:88
@@ -1376,6 +1396,11 @@ msgstr "Autres"
 msgid "WinMerge, tracker, shortcuts, sourceforge, project page, bug, patch, support request, feature request, todo item"
 msgstr "WinMerge, traqueur, raccourcis, sourceforge, page projet, bogue, patch, requête de support, requête de fonction, objet \"à faire\""
 
+#: translations\status_website.php:13
+#, c-format
+msgid "See more information on Transifex.net"
+msgstr ""
+
 #: about\index.php:40
 #, c-format
 msgid "Fast compare using file sizes and dates"
@@ -1595,6 +1620,11 @@ msgstr "Nous avons actuellement traduit Winmerge dans les langues listées ci-de
 msgid "Japanese WinMerge Version"
 msgstr "Version japonaise de Winmerge"
 
+#: translations\status_website.php:8
+#, c-format
+msgid "We move the sources from the website to a <a href=\"%1$s\">bitbucket Mercurial repository</a> and use now <a href=\"%2$s\">Transifex</a> as platform for the translations."
+msgstr ""
+
 #: 404.php:15
 #, c-format
 msgid "Were you looking for..."
@@ -1767,6 +1797,13 @@ msgstr "Mots clés anglais"
 msgid "Translators"
 msgstr "traducteurs"
 
+#: translations\status_website.php:5
+#: translations\status_website.php:7
+#: translations\status_website.php:12
+#, c-format
+msgid "Translations Status (Website)"
+msgstr ""
+
 #: support\tracker-shortcuts.php:41
 #, c-format
 msgid "ID:"
@@ -1868,7 +1905,7 @@ msgstr "Liste de développement"
 msgid "View all file releases&hellip;"
 msgstr "Voir toutes les versions de fichier&hellip;"
 
-#: engine\page.inc:383
+#: engine\page.inc:384
 #, c-format
 msgid "Bookmark this on Delicious"
 msgstr "Ajouter aux favoris sur Délicious"

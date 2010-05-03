@@ -1,9 +1,9 @@
 # This file is part from WinMerge <http://winmerge.org/>
 # Released under the "GNU General Public License"
-# 
+#
 # Maintainer:
 # * Tim Gerundt <tim at gerundt.de>
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: WinMerge\n"
@@ -39,7 +39,8 @@ msgstr "Sie können auch zusätzliche <a href=\"%1$s\">Plugins</a> und den gesam
 msgid "WinMerge Change Log"
 msgstr "WinMerge Versionshistorie"
 
-#: about\screenshots\index.php:27 about\screenshots\index.php:28
+#: about\screenshots\index.php:27
+#: about\screenshots\index.php:28
 #, c-format
 msgid "Location Pane"
 msgstr "Positionsleiste"
@@ -79,7 +80,9 @@ msgstr "Darüber hinaus hat WinMerge viele hilfreiche Funktionen, die das Vergle
 msgid "<a href=\"%s\">Documentation</a>?"
 msgstr "<a href=\"%s\">Dokumentation</a>?"
 
-#: downloads\index.php:28 downloads\index.php:34 downloads\plugins.php:22
+#: downloads\index.php:28
+#: downloads\index.php:34
+#: downloads\plugins.php:22
 #: downloads\source-code.php:18
 #, c-format
 msgid "7z-Format (%s MB)"
@@ -105,7 +108,8 @@ msgstr "Patch"
 msgid "Folder compare shows all files and subfolders found from compared folders as list. Folder compare allows synchronising folders by copying and deleting files and subfolders. Folder compare view can be versatile customised."
 msgstr "Der Ordnervergleich zeigt alle gefundenen Dateien und Unterordner der verglichenen Ordner als Liste. Der Ordnervergleich synchronisiert Ordner durch Kopieren und Löschen von Dateien und Unterordnern. Die Ordnervergleichs-Ansicht kann vielseitig angepasst werden.angepasst werden."
 
-#: engine\page.inc:278 engine\page.inc:322
+#: engine\page.inc:278
+#: engine\page.inc:322
 #, c-format
 msgid "WinMerge Support"
 msgstr "WinMerge Support"
@@ -125,12 +129,19 @@ msgstr "Vergleicht ein Ordner oder auch alle Unterordner"
 msgid "Good information in a bug report makes it more likely that your bug will be fixed quickly."
 msgstr "Gute Informationen in einem Fehlerbericht machen es wahrscheinlich, dass Ihr Fehler schnell behoben wird."
 
-#: index.php:19 about\index.php:11
+#: index.php:19
+#: about\index.php:11
 #, c-format
 msgid "WinMerge is an <a href=\"%s\">Open Source</a> differencing and merging tool for Windows. WinMerge can compare both folders and files, presenting differences in a visual text format that is easy to understand and handle."
 msgstr "WinMerge ist ein <a href=\"%s\">Open-Source</a>-Programm zum Unterscheiden und Zusammenführen von Dateien sowie Ordner. Das Windows-Tool stellt Unterschiede in einem visuellen Text-Format dar, das einfach zu verstehen und zu handhaben ist."
 
-#: support\mailing-lists.php:32 support\mailing-lists.php:42
+#: translations\translations.inc:182
+#, c-format
+msgid "Total: Unknown"
+msgstr "Gesamt: Unbekannt"
+
+#: support\mailing-lists.php:32
+#: support\mailing-lists.php:42
 #: support\mailing-lists.php:62
 #, c-format
 msgid "Normal Traffic"
@@ -161,8 +172,11 @@ msgstr "WinMerge Übersetzungs-Status (Stabiler „Branch“)"
 msgid "If you are interested in contributing work to the project, see our <a href=\"%s\">developer page</a> for further information on how you may contribute."
 msgstr "Wenn Sie sich für die Arbeit am Projekt interessiert sind, lesen Sie unsere <a href=\"%s\">Entwickler-Seite</a> für weitere Informationen, wie Sie beitragen können."
 
-#: engine\page.inc:296 engine\page.inc:301 engine\page.inc:307
-#: engine\page.inc:322 engine\page.inc:330
+#: engine\page.inc:296
+#: engine\page.inc:301
+#: engine\page.inc:307
+#: engine\page.inc:322
+#: engine\page.inc:330
 #, c-format
 msgid "Index"
 msgstr "Index"
@@ -172,7 +186,8 @@ msgstr "Index"
 msgid "7-Zip Plugin"
 msgstr "7-Zip Plugin"
 
-#: translations\instructions.php:5 translations\instructions.php:8
+#: translations\instructions.php:5
+#: translations\instructions.php:8
 #, c-format
 msgid "Translations instructions"
 msgstr "Übersetzungsanleitung"
@@ -202,7 +217,14 @@ msgstr "Projektseite"
 msgid "The <a href=\"%s\">quick tour</a> describes the main WinMerge features in one page."
 msgstr "Der englische <a href=\"%s\">Schnelleinstieg</a> beschreibt die wichtigsten WinMerge-Funktionen auf einer Seite."
 
-#: downloads\index.php:27 downloads\index.php:33 downloads\source-code.php:17
+#: engine\page.inc:334
+#, c-format
+msgid "WinMerge Translations Status (Website)"
+msgstr ""
+
+#: downloads\index.php:27
+#: downloads\index.php:33
+#: downloads\source-code.php:17
 #, c-format
 msgid "Zip-Format (%s MB)"
 msgstr "Zip-Format (%s MB)"
@@ -212,12 +234,15 @@ msgstr "Zip-Format (%s MB)"
 msgid "Contact"
 msgstr "Kontakt"
 
-#: engine\engine.inc:19 translations\index.php:24
+#: engine\engine.inc:19
+#: translations\index.php:24
 #, c-format
 msgid "English"
 msgstr "Englisch"
 
-#: downloads\pad-file.php:7 downloads\pad-file.php:9 downloads\pad-file.php:80
+#: downloads\pad-file.php:7
+#: downloads\pad-file.php:9
+#: downloads\pad-file.php:80
 #: engine\page.inc:319
 #, c-format
 msgid "PAD File"
@@ -238,7 +263,8 @@ msgstr "Dies ist WinMerge mit einem PortableApps.com Launcher als eine <a href=\
 msgid "But please consider making a <a href=\"%s\">donation</a> to support the continued development of WinMerge."
 msgstr "Aber ziehen Sie bitte eine <a href=\"%s\">Spende</a> in Betracht, um die weitere Entwicklung von WinMerge zu unterstützen."
 
-#: downloads\pad-file.php:58 downloads\pad-file.php:60
+#: downloads\pad-file.php:58
+#: downloads\pad-file.php:60
 #: downloads\pad-file.php:62
 #, c-format
 msgid "English Description (%d chars)"
@@ -269,8 +295,11 @@ msgstr "Diese Liste wird für die Koordinierung der Übersetzungen verwendet."
 msgid "The easiest way to install WinMerge is to download and run the Installer. Read the <a href=\"%s\">online manual</a> for help using it."
 msgstr "Der einfachste Weg WinMerge zu installieren ist, es herunterzuladen und das Installationsprogramm auszuführen. Lesen Sie das englische <a href=\"%s\">Online-Handbuch</a> für die Hilfe bei der Installation."
 
-#: index.php:42 downloads\pad-file.php:96 engine\page.inc:278
-#: support\index.php:8 support\index.php:10
+#: index.php:42
+#: downloads\pad-file.php:96
+#: engine\page.inc:278
+#: support\index.php:8
+#: support\index.php:10
 #, c-format
 msgid "Support"
 msgstr "Support"
@@ -295,7 +324,8 @@ msgstr "Positionsleiste zeigt Karte der verglichenen Dateien"
 msgid "For information on using WinMerge, see our <a href=\"%s\">online Manual</a>, or you can use the local help file (just press <code>F1</code> inside WinMerge) for offline use."
 msgstr "Weitere Informationen zur Verwendung von WinMerge finden Sie in unserem englischen <a href=\"%s\">Online-Handbuch</a>, oder Sie können die lokale Hilfe-Datei (drücken Sie einfach <code>F1</code> in WinMerge) für die Offline-Nutzung verwenden."
 
-#: engine\page.inc:327 support\index.php:37
+#: engine\page.inc:327
+#: support\index.php:37
 #, c-format
 msgid "Donate"
 msgstr "Spenden"
@@ -310,7 +340,8 @@ msgstr "Versionskontrolle"
 msgid "The Open Discussion forum is the fastest way to get help. A other way is a subscription to the support mailing list."
 msgstr "Das englische Open Discussion-Forum ist der schnellste Weg um Hilfe zu bekommen. Eine andere Möglichkeit ist das Abonnieren der Support-Verteilerliste."
 
-#: about\screenshots\index.php:30 about\screenshots\index.php:31
+#: about\screenshots\index.php:30
+#: about\screenshots\index.php:31
 #, c-format
 msgid "Splash Screen"
 msgstr "Startbildschirm"
@@ -385,33 +416,42 @@ msgstr "Veröffentlichungsdatum"
 msgid "Todo Item"
 msgstr "Todo-Eintrag"
 
-#: support\mailing-lists.php:25 support\mailing-lists.php:35
-#: support\mailing-lists.php:45 support\mailing-lists.php:55
-#: support\mailing-lists.php:65 support\mailing-lists.php:75
+#: support\mailing-lists.php:25
+#: support\mailing-lists.php:35
+#: support\mailing-lists.php:45
+#: support\mailing-lists.php:55
+#: support\mailing-lists.php:65
+#: support\mailing-lists.php:75
 #, c-format
 msgid "Archive"
 msgstr "Archiv"
 
-#: engine\page.inc:276 engine\page.inc:307
+#: engine\page.inc:276
+#: engine\page.inc:307
 #, c-format
 msgid "WinMerge Documentation"
 msgstr "WinMerge Dokumentation"
 
-#: engine\page.inc:326 support\tracker-shortcuts.php:7
+#: engine\page.inc:326
+#: support\tracker-shortcuts.php:7
 #: support\tracker-shortcuts.php:9
 #, c-format
 msgid "Tracker Shortcuts"
 msgstr "Tracker-Abkürzungen"
 
-#: translations\translations.inc:85 translations\translations.inc:97
-#: translations\translations.inc:135 translations\translations_branch.inc:53
+#: translations\translations.inc:85
+#: translations\translations.inc:97
+#: translations\translations.inc:135
+#: translations\translations_branch.inc:53
 #: translations\translations_branch.inc:70
 #: translations\translations_branch.inc:120
 #, c-format
 msgid "Untranslated"
 msgstr "Unübersetzt"
 
-#: index.php:15 about\index.php:66 about\screenshots\index.php:12
+#: index.php:15
+#: about\index.php:66
+#: about\screenshots\index.php:12
 #: about\screenshots\index.php:13
 #, c-format
 msgid "File Comparison"
@@ -427,17 +467,25 @@ msgstr "Niederländisch"
 msgid "WinMerge Facebook Group"
 msgstr "WinMerge Facebook-Gruppe"
 
-#: translations\translations.inc:180 translations\translations_branch.inc:106
+#: translations\translations.inc:180
+#: translations\translations_branch.inc:106
 #, c-format
 msgid "Total: %d"
 msgstr "Gesamt: %d"
+
+#: engine\page.inc:334
+#, c-format
+msgid "Status (Website)"
+msgstr ""
 
 #: about\index.php:69
 #, c-format
 msgid "See the <a href=\"%s\">screenshots page</a> for more screenshots."
 msgstr "Schauen Sie sich die <a href=\"%s\">Screenshots-Seite</a> für mehr Bildschirmfotos an."
 
-#: about\license.php:7 about\license.php:9 engine\page.inc:304
+#: about\license.php:7
+#: about\license.php:9
+#: engine\page.inc:304
 #, c-format
 msgid "License"
 msgstr "Lizenz"
@@ -457,10 +505,16 @@ msgstr "WinMerge Übersetzungsanleitung"
 msgid "If you would like to update any of these translations or add another translation, then please follow <a href=\"%s\">these instructions</a>."
 msgstr "Wenn Sie eine dieser Übersetzungen aktualisieren oder eine andere Übersetzung hinzufügen möchten, dann befolgen Sie bitte <a href=\"%s\">diese Anweisungen</a>."
 
-#: about\screenshots\index.php:15 about\screenshots\index.php:16
+#: about\screenshots\index.php:15
+#: about\screenshots\index.php:16
 #, c-format
 msgid "Open-dialog"
 msgstr "Öffnen-Dialog"
+
+#: translations\index.php:37
+#, c-format
+msgid "The following pages inform you about the translations status of the stable version, developer version and website of WinMerge:"
+msgstr ""
 
 #: engine\engine.inc:22
 #, c-format
@@ -507,7 +561,8 @@ msgstr "Entwickler"
 msgid "Regular Expression based file filters allow excluding and including items"
 msgstr "Auf regulären Ausdrücken basierte Dateifilter ermöglichen das Ein- und Ausschließlichen von Objekten"
 
-#: translations\status_branch.php:18 translations\status_trunk.php:18
+#: translations\status_branch.php:18
+#: translations\status_trunk.php:18
 #, c-format
 msgid "The translations status is currently not available..."
 msgstr "Der Übersetzungs-Status ist derzeit nicht verfügbar..."
@@ -547,8 +602,11 @@ msgstr "WinMerge, Screenshots, Dateivergleich, Öffnen-Dialog, Ordnervergleichs-
 msgid "English (Template)"
 msgstr "Englisch (Vorlage)"
 
-#: about\history.php:20 docs\changelog.php:7 docs\changelog.php:8
-#: docs\index.php:16 engine\page.inc:312
+#: about\history.php:20
+#: docs\changelog.php:7
+#: docs\changelog.php:8
+#: docs\index.php:16
+#: engine\page.inc:312
 #, c-format
 msgid "Change Log"
 msgstr "Versionshistorie"
@@ -588,7 +646,9 @@ msgstr "Seite nicht gefunden..."
 msgid "Resolve conflict files"
 msgstr "Konflikt-Dateien lösen"
 
-#: engine\page.inc:279 translations\index.php:8 translations\index.php:10
+#: engine\page.inc:279
+#: translations\index.php:8
+#: translations\index.php:10
 #, c-format
 msgid "Translations"
 msgstr "Übersetzungen"
@@ -608,12 +668,19 @@ msgstr "Veröffentlichungsstatus"
 msgid "Download the current WinMerge version %1$s, which was released at %2$s. For detailed info on what is new, read the change log and the release notes."
 msgstr "Laden Sie das aktuelle WinMerge %1$s herunter, welches am %2$s freigegeben wurde. Für detaillierte Informationen über die Änderungen lesen Sie die Versionshistorie und die Versionshinweise."
 
-#: docs\index.php:12 engine\page.inc:309
+#: docs\index.php:12
+#: engine\page.inc:309
 #, c-format
 msgid "Quick Tour"
 msgstr "Schnelleinstieg"
 
-#: translations\translations.inc:136 translations\translations_branch.inc:71
+#: translations\status_website.php:10
+#, c-format
+msgid "Translations Status"
+msgstr ""
+
+#: translations\translations.inc:136
+#: translations\translations_branch.inc:71
 #, c-format
 msgid "Last Update"
 msgstr "Letztes Update"
@@ -673,7 +740,8 @@ msgstr "Dokumentation von WinMerge wie Handbuch, Versionshinweise, Versionshisto
 msgid "The <a href=\"%s\">Development Wiki</a> contains much information about the WinMerge development."
 msgstr "Das <a href=\"%s\">Entwickler-Wiki</a> enthält viele Informationen über die WinMerge-Entwicklung."
 
-#: downloads\plugins.php:7 downloads\plugins.php:9
+#: downloads\plugins.php:7
+#: downloads\plugins.php:9
 #, c-format
 msgid "Download Plugins"
 msgstr "Plugins herunterladen"
@@ -683,7 +751,8 @@ msgstr "Plugins herunterladen"
 msgid "Admin rights for the installer"
 msgstr "Administrationsrechte für den Setup"
 
-#: downloads\index.php:20 downloads\plugins.php:15
+#: downloads\index.php:20
+#: downloads\plugins.php:15
 #, c-format
 msgid "Installer"
 msgstr "Setup"
@@ -693,7 +762,8 @@ msgstr "Setup"
 msgid "WinMerge %s - latest stable version"
 msgstr "WinMerge %s - Aktuelle stabile Version"
 
-#: downloads\index.php:40 downloads\source-code.php:24
+#: downloads\index.php:40
+#: downloads\source-code.php:24
 #, c-format
 msgid "SHA-1 Checksums"
 msgstr "SHA-1 Prüfsummen"
@@ -703,17 +773,14 @@ msgstr "SHA-1 Prüfsummen"
 msgid "WinMerge Discussion Forums"
 msgstr "WinMerge Diskussionsforen"
 
-#: support\mailing-lists.php:13 support\mailing-lists.php:30
+#: support\mailing-lists.php:13
+#: support\mailing-lists.php:30
 #, c-format
 msgid "Support List"
 msgstr "Support-Liste"
 
-#: translations\index.php:37
-#, c-format
-msgid "The following two pages inform you about the translations status of the stable and developer version of WinMerge:"
-msgstr "Die beiden folgenden Seiten informieren Sie über den Übersetzungs-Status der Stabilen- und der Entwickler-Version von WinMerge:"
-
-#: support\mailing-lists.php:12 support\mailing-lists.php:20
+#: support\mailing-lists.php:12
+#: support\mailing-lists.php:20
 #, c-format
 msgid "Announce List"
 msgstr "Ankündigungsliste"
@@ -723,10 +790,10 @@ msgstr "Ankündigungsliste"
 msgid "WinMerge allows selecting/opening paths in several ways. Using the Open-dialog is just one of them."
 msgstr "WinMerge ermöglicht die Auswahl/Öffnung von Pfaden in mehrfacher Hinsicht. Der „Öffnen-Dialog“ ist nur eine der Möglichkeiten."
 
-#: translations\translations.inc:182
+#: translations\index.php:41
 #, c-format
-msgid "Total: Unknown"
-msgstr "Gesamt: Unbekannt"
+msgid "Website"
+msgstr ""
 
 #: downloads\pad-file.php:76
 #, c-format
@@ -758,19 +825,18 @@ msgstr "Screenshots von WinMerge-Funktionen wie dem Dateivergleich, den Ordnerve
 msgid "WinMerge Mailing Lists"
 msgstr "WinMerge Verteilerlisten"
 
-#: translations\translations.inc:131 translations\translations.inc:288
-#: translations\translations_branch.inc:66
-#: translations\translations_branch.inc:182
+#: docs\releasenotes.php:6
 #, c-format
-msgid "Language"
-msgstr "Sprache"
+msgid "WinMerge, release notes, summary, changes, enhancements, bug fixes, known issues, release"
+msgstr "WinMerge, Versionshinweise, Zusammenfassung, Änderungen, Verbesserungen, Fehlerbereinigungen, bekannten Probleme, Veröffentlichung"
 
 #: downloads\source-code.php:5
 #, c-format
 msgid "Download the source code of WinMerge, which is released under the GNU General Public License."
 msgstr "Laden Sie den Quellcode von WinMerge herunter, welcher unter der GNU General Public License veröffentlicht ist."
 
-#: engine\page.inc:274 engine\page.inc:296
+#: engine\page.inc:274
+#: engine\page.inc:296
 #, c-format
 msgid "WinMerge Home"
 msgstr "WinMerge Home"
@@ -780,7 +846,8 @@ msgstr "WinMerge Home"
 msgid "Download WinMerge Source Code"
 msgstr "WinMerge Quelltext herunterladen"
 
-#: downloads\index.php:13 downloads\source-code.php:39
+#: downloads\index.php:13
+#: downloads\source-code.php:39
 #, c-format
 msgid "WinMerge %s"
 msgstr "WinMerge %s"
@@ -825,7 +892,8 @@ msgstr "Um die Sprache zu ändern, wählen Sie die gewünschte Sprache aus der <
 msgid "Plugins"
 msgstr "Plugins"
 
-#: about\index.php:67 about\screenshots\index.php:18
+#: about\index.php:67
+#: about\screenshots\index.php:18
 #: about\screenshots\index.php:19
 #, c-format
 msgid "Folder Comparison Results"
@@ -856,12 +924,16 @@ msgstr "WinMerge Tracker"
 msgid "WinMerge, support, discussion forums, mailing lists, tracker, donate, bugs, support requests, patches, feature requests, todo, open source, sourceforge.net"
 msgstr "WinMerge, Support, Diskussionsforen, Verteilerlisten, Tracker, Spenden, Fehler, Supportanfragen, Patches, Funktionsanfragen, Todo, Open-Source, sourceforge.net"
 
-#: docs\releasenotes.php:6
+#: translations\translations.inc:131
+#: translations\translations.inc:288
+#: translations\translations_branch.inc:66
+#: translations\translations_branch.inc:182
 #, c-format
-msgid "WinMerge, release notes, summary, changes, enhancements, bug fixes, known issues, release"
-msgstr "WinMerge, Versionshinweise, Zusammenfassung, Änderungen, Verbesserungen, Fehlerbereinigungen, bekannten Probleme, Veröffentlichung"
+msgid "Language"
+msgstr "Sprache"
 
-#: index.php:37 downloads\index.php:88
+#: index.php:37
+#: downloads\index.php:88
 #, c-format
 msgid "Y-m-d"
 msgstr "d.m.Y"
@@ -886,13 +958,16 @@ msgstr "Name"
 msgid "Developer Version"
 msgstr "Entwickler-Version"
 
-#: docs\index.php:14 docs\releasenotes.php:7 docs\releasenotes.php:10
+#: docs\index.php:14
+#: docs\releasenotes.php:7
+#: docs\releasenotes.php:10
 #: engine\page.inc:310
 #, c-format
 msgid "Release Notes"
 msgstr "Versionshinweise"
 
-#: translations\translations.inc:85 translations\translations_branch.inc:53
+#: translations\translations.inc:85
+#: translations\translations_branch.inc:53
 #, c-format
 msgid "Untranslated: %d%%"
 msgstr "Unübersetzt: %d%%"
@@ -902,9 +977,12 @@ msgstr "Unübersetzt: %d%%"
 msgid "<b>WinSCP</b> is an open source <acronym title=\"SSH File Transfer Protocol\">SFTP</acronym>, <acronym title=\"File Transfer Protocol\">FTP</acronym> and <acronym title=\"Secure Copy Protocol\">SCP</acronym> client for Windows."
 msgstr "<b>WinSCP</b> ist ein Open-Source <acronym title=\"SSH File Transfer Protocol\">SFTP</acronym>-, <acronym title=\"File Transfer Protocol\">FTP</acronym>- und <acronym title=\"Secure Copy Protocol\">SCP</acronym>-Client für Windows."
 
-#: support\mailing-lists.php:23 support\mailing-lists.php:33
-#: support\mailing-lists.php:43 support\mailing-lists.php:53
-#: support\mailing-lists.php:63 support\mailing-lists.php:73
+#: support\mailing-lists.php:23
+#: support\mailing-lists.php:33
+#: support\mailing-lists.php:43
+#: support\mailing-lists.php:53
+#: support\mailing-lists.php:63
+#: support\mailing-lists.php:73
 #, c-format
 msgid "Subscribe"
 msgstr "Abonnieren"
@@ -969,7 +1047,9 @@ msgstr "WinMerge, Versionshistorie, Änderungen, Veröffentlichung, Tracker-Eint
 msgid "Can show folder compare results in a tree-style view"
 msgstr "Ordnervergleichs-Ergebnisse können in einer Baumansicht angezeigt werden"
 
-#: about\history.php:7 about\history.php:9 engine\page.inc:303
+#: about\history.php:7
+#: about\history.php:9
+#: engine\page.inc:303
 #, c-format
 msgid "History"
 msgstr "Historie"
@@ -1034,7 +1114,8 @@ msgstr "Sie können diese Seite nutzen, um eine Abkürzung zu erstellen:Sie kön
 msgid "<a href=\"%1$s\">Learn More</a> or <a href=\"%2$s\">Download Now!</a>"
 msgstr "<a href=\"%1$s\">Mehr erfahren</a> oder <a href=\"%2$s\">jetzt herunterladen!</a>"
 
-#: support\mailing-lists.php:15 support\mailing-lists.php:50
+#: support\mailing-lists.php:15
+#: support\mailing-lists.php:50
 #, c-format
 msgid "Translate List"
 msgstr "Übersetzungsliste"
@@ -1054,7 +1135,9 @@ msgstr "Sie müssen Sich bei <a href=\"%s\">SourceForge.net kostenlos registrier
 msgid "More Screenshots&hellip;"
 msgstr "Mehr Screenshots&hellip;"
 
-#: about\index.php:7 about\index.php:10 engine\page.inc:275
+#: about\index.php:7
+#: about\index.php:10
+#: engine\page.inc:275
 #: engine\page.inc:301
 #, c-format
 msgid "About WinMerge"
@@ -1075,22 +1158,28 @@ msgstr "Wünsche auf der <a href=\"%s\">Funktionsanfragen-Liste</a> werden auch 
 msgid "Known Issues"
 msgstr "Bekannte Probleme"
 
-#: translations\translations.inc:83 translations\translations_branch.inc:51
+#: translations\translations.inc:83
+#: translations\translations_branch.inc:51
 #, c-format
 msgid "Fuzzy: %d%%"
 msgstr "Unklar: %d%%"
 
-#: about\screenshots\index.php:21 about\screenshots\index.php:22
+#: about\screenshots\index.php:21
+#: about\screenshots\index.php:22
 #, c-format
 msgid "Folder Compare Tree View"
 msgstr "Ordnervergleichs-Baumansicht"
 
-#: docs\index.php:7 docs\index.php:9 engine\page.inc:276
+#: docs\index.php:7
+#: docs\index.php:9
+#: engine\page.inc:276
 #, c-format
 msgid "Documentation"
 msgstr "Dokumentation"
 
-#: about\history.php:19 docs\index.php:10 engine\page.inc:308
+#: about\history.php:19
+#: docs\index.php:10
+#: engine\page.inc:308
 #, c-format
 msgid "Manual"
 msgstr "Handbuch"
@@ -1145,8 +1234,10 @@ msgstr "Visuelles Vergleichen und Zusammenführen von Textdateien"
 msgid "You can also read the <a href=\"%1$s\">Release Notes</a> or search for <a href=\"%2$s\">other versions</a>."
 msgstr "Sie können auch die <a href=\"%1$s\">Versionshinweise</a> lesen oder nach <a href=\"%2$s\">anderen Versionen</a> suchen."
 
-#: about\index.php:64 about\screenshots\index.php:7
-#: about\screenshots\index.php:9 engine\page.inc:302
+#: about\index.php:64
+#: about\screenshots\index.php:7
+#: about\screenshots\index.php:9
+#: engine\page.inc:302
 #, c-format
 msgid "Screenshots"
 msgstr "Screenshots"
@@ -1156,7 +1247,8 @@ msgstr "Screenshots"
 msgid "Tutorial"
 msgstr "Anleitung"
 
-#: downloads\index.php:9 downloads\index.php:73
+#: downloads\index.php:9
+#: downloads\index.php:73
 #, c-format
 msgid "Project File Releases"
 msgstr "Projekt-Dateifreigaben"
@@ -1196,15 +1288,19 @@ msgstr "Beta-Versionen"
 msgid "You can find a more technical view about the <a href=\"%1$s\">translation system</a> in our <a href=\"%2$s\">Development Wiki</a>."
 msgstr "Sie können eine mehr technische Sicht über das <a href=\"%1$s\">Übersetzung-System</a> in unserem <a href=\"%2$s\">Entwickler-Wiki</a> finden."
 
-#: translations\index.php:7 translations\status_trunk.php:7
+#: translations\index.php:7
+#: translations\status_trunk.php:7
 #: translations\status_trunk.php:9
 #, c-format
 msgid "Translations Status (Unstable Trunk)"
 msgstr "Übersetzungs-Status (Unstabiler „Trunk“)"
 
-#: support\mailing-lists.php:24 support\mailing-lists.php:34
-#: support\mailing-lists.php:44 support\mailing-lists.php:54
-#: support\mailing-lists.php:64 support\mailing-lists.php:74
+#: support\mailing-lists.php:24
+#: support\mailing-lists.php:34
+#: support\mailing-lists.php:44
+#: support\mailing-lists.php:54
+#: support\mailing-lists.php:64
+#: support\mailing-lists.php:74
 #, c-format
 msgid "Unsubscribe"
 msgstr "Abbestellen"
@@ -1244,7 +1340,8 @@ msgstr "Experimentelle Builds"
 msgid "Archive file support using 7-Zip"
 msgstr "Archivdatei-Unterstützung mithilfe von 7-Zip"
 
-#: translations\index.php:6 translations\status_branch.php:7
+#: translations\index.php:6
+#: translations\status_branch.php:7
 #: translations\status_branch.php:10
 #, c-format
 msgid "Translations Status (Stable Branch)"
@@ -1299,6 +1396,11 @@ msgstr "Weitere"
 msgid "WinMerge, tracker, shortcuts, sourceforge, project page, bug, patch, support request, feature request, todo item"
 msgstr "WinMerge, Tracker, Abkürzungen, sourceforge, Projekt-Seite, Fehler, Patch, Support-Anfrage, Funktions-Anfrage, Todo-Eintrag"
 
+#: translations\status_website.php:13
+#, c-format
+msgid "See more information on Transifex.net"
+msgstr ""
+
 #: about\index.php:40
 #, c-format
 msgid "Fast compare using file sizes and dates"
@@ -1324,7 +1426,8 @@ msgstr "Rudimentäre <em>Visual SourceSafe</em>- und <em>Rational ClearCase</em>
 msgid "<a href=\"%s\">Screenshots</a>?"
 msgstr "<a href=\"%s\">Screenshots</a>?"
 
-#: docs\index.php:18 engine\page.inc:313
+#: docs\index.php:18
+#: engine\page.inc:313
 #, c-format
 msgid "Development Wiki"
 msgstr "Entwickler-Wiki"
@@ -1369,7 +1472,8 @@ msgstr "<b>GnuWin32</b> bietet Win32-Portierung von Werkzeugen mit einer <a href
 msgid "<a href=\"%s\">Downloads</a>?"
 msgstr "<a href=\"%s\">Downloads</a>?"
 
-#: about\index.php:5 about\index.php:12
+#: about\index.php:5
+#: about\index.php:12
 #, c-format
 msgid "WinMerge is highly useful for determining what has changed between project versions, and then merging changes between versions. WinMerge can be used as an external differencing/merging tool or as a standalone application."
 msgstr "WinMerge ist sehr nützlich zum Bestimmen, was sich zwischen Projekt-Versionen geändert hat und zum anschließenden Zusammenführen der Änderungen zwischen den Versionen. WinMerge kann als externes Vergleichs-/Zusammenführungs-Tool oder als eigenstände Anwendung verwendet werden."
@@ -1389,7 +1493,8 @@ msgstr "Typ:"
 msgid "Tools"
 msgstr "Tools"
 
-#: downloads\index.php:22 downloads\plugins.php:17
+#: downloads\index.php:22
+#: downloads\plugins.php:17
 #, c-format
 msgid "Exe-Format (%s MB)"
 msgstr "Exe-Format (%s MB)"
@@ -1434,7 +1539,8 @@ msgstr "Zurückgezogen wegen Setup-Fehler!"
 msgid "<a href=\"%s\">Support</a>?"
 msgstr "<a href=\"%s\">Support</a>?"
 
-#: support\mailing-lists.php:22 support\mailing-lists.php:52
+#: support\mailing-lists.php:22
+#: support\mailing-lists.php:52
 #, c-format
 msgid "Low Traffic"
 msgstr "Wenig Verkehr"
@@ -1459,7 +1565,9 @@ msgstr "WinMerge-Tracker-Abkürzungen"
 msgid "The easiest way to get informations about the latest stable version from WinMerge for your web site is the <a href=\"%s\">Portable Application Description</a> file, which you find here:"
 msgstr "Der einfachste Weg, um Informationen über die neueste stabile Version von WinMerge für Ihre Website zu erhalten, ist die <a href=\"%s\">Portable Application Description</a>-Datei, die Sie hier finden:"
 
-#: engine\page.inc:324 support\mailing-lists.php:7 support\mailing-lists.php:9
+#: engine\page.inc:324
+#: support\mailing-lists.php:7
+#: support\mailing-lists.php:9
 #, c-format
 msgid "Mailing Lists"
 msgstr "Verteilerlisten"
@@ -1469,12 +1577,15 @@ msgstr "Verteilerlisten"
 msgid "Tracker Shortcuts are shorter and nicer URLs to Tracker items from our SF.net project page. And you can use this page to create a shortcut."
 msgstr "Tracker-Abkürzungen sind kürzere und schönere URLs zu Tracker-Artikeln auf unserer SF.net Projekt-Seite. Sie können diese Seite nutzen, um eine Abkürzung zu erstellen."
 
-#: downloads\index.php:25 downloads\plugins.php:20
+#: downloads\index.php:25
+#: downloads\plugins.php:20
 #, c-format
 msgid "Binaries"
 msgstr "Binärdateien"
 
-#: links.php:6 about\license.php:30 engine\page.inc:297
+#: links.php:6
+#: about\license.php:30
+#: engine\page.inc:297
 #, c-format
 msgid "Links"
 msgstr "Links"
@@ -1509,6 +1620,11 @@ msgstr "Wir haben aktuell WinMerge in die folgenden Sprachen übersetzt:"
 msgid "Japanese WinMerge Version"
 msgstr "Japanische WinMerge-Version"
 
+#: translations\status_website.php:8
+#, c-format
+msgid "We move the sources from the website to a <a href=\"%1$s\">bitbucket Mercurial repository</a> and use now <a href=\"%2$s\">Transifex</a> as platform for the translations."
+msgstr ""
+
 #: 404.php:15
 #, c-format
 msgid "Were you looking for..."
@@ -1534,7 +1650,8 @@ msgstr "Unterstützt Microsoft Windows 98/ME/2000/XP/2003/Vista/2008"
 msgid "Downloads"
 msgstr "Downloads"
 
-#: engine\page.inc:279 engine\page.inc:330
+#: engine\page.inc:279
+#: engine\page.inc:330
 #, c-format
 msgid "WinMerge Translations"
 msgstr "WinMerge Übersetzungen"
@@ -1559,7 +1676,8 @@ msgstr "Reguläre Ausdrücke"
 msgid "<a href=\"%s\">Manual</a>?"
 msgstr "<a href=\"%s\">Handbuch</a>?"
 
-#: index.php:8 index.php:30
+#: index.php:8
+#: index.php:30
 #, c-format
 msgid "Project News"
 msgstr "Projekt-Neuigkeiten"
@@ -1569,8 +1687,10 @@ msgstr "Projekt-Neuigkeiten"
 msgid "Version %1$s; %2$s MB"
 msgstr "Version %1$s; %2$s MB"
 
-#: translations\translations.inc:81 translations\translations.inc:95
-#: translations\translations.inc:133 translations\translations_branch.inc:49
+#: translations\translations.inc:81
+#: translations\translations.inc:95
+#: translations\translations.inc:133
+#: translations\translations_branch.inc:49
 #: translations\translations_branch.inc:68
 #: translations\translations_branch.inc:118
 #, c-format
@@ -1592,12 +1712,14 @@ msgstr "Für nähere Informationen und den Download gehen Sie zur <a href=\"%s\"
 msgid "The translations instructions are currently not available..."
 msgstr "Der Übersetzungs-Status ist derzeit nicht verfügbar..."
 
-#: support\mailing-lists.php:14 support\mailing-lists.php:40
+#: support\mailing-lists.php:14
+#: support\mailing-lists.php:40
 #, c-format
 msgid "User List"
 msgstr "Benutzer-Liste"
 
-#: support\mailing-lists.php:17 support\mailing-lists.php:70
+#: support\mailing-lists.php:17
+#: support\mailing-lists.php:70
 #, c-format
 msgid "SVN List"
 msgstr "SVN-Liste"
@@ -1612,7 +1734,8 @@ msgstr "WinMerge Links"
 msgid "Error 404 (Page Not Found)"
 msgstr "Fehler 404 (Seite nicht gefunden)"
 
-#: translations\translations.inc:132 translations\translations_branch.inc:67
+#: translations\translations.inc:132
+#: translations\translations_branch.inc:67
 #, c-format
 msgid "Graph"
 msgstr "Diagramm"
@@ -1632,7 +1755,8 @@ msgstr "Tab-Leiste"
 msgid "Or you may simply unzip the <a href=\"%s\">binary zip package</a> into the desired location, and run <code>WinMergeU.exe</code> (except for Windows 98/ME users who should use <code>WinMerge.exe</code>)."
 msgstr "Oder Sie können einfach das <a href=\"%s\">Binärdateien-Zip-Archiv</a> an die gewünschte Stelle entpacken und führen <code>WinMergeU.exe</code> aus (außer unter Windows 98/ME, wo Sie <code>WinMerge.exe</code> nutzen sollten)."
 
-#: translations\translations.inc:81 translations\translations_branch.inc:49
+#: translations\translations.inc:81
+#: translations\translations_branch.inc:49
 #, c-format
 msgid "Translated: %d%%"
 msgstr "Übersetzt: %d%%"
@@ -1652,8 +1776,10 @@ msgstr "WinMerge, Über, Funktionen, Dateivergleich, Ordnervergleich, Versionsko
 msgid "Status (Stable Branch)"
 msgstr "Status (Stabiler „Branch“)"
 
-#: translations\translations.inc:83 translations\translations.inc:96
-#: translations\translations.inc:134 translations\translations_branch.inc:51
+#: translations\translations.inc:83
+#: translations\translations.inc:96
+#: translations\translations.inc:134
+#: translations\translations_branch.inc:51
 #: translations\translations_branch.inc:69
 #: translations\translations_branch.inc:119
 #, c-format
@@ -1665,10 +1791,18 @@ msgstr "Unklar"
 msgid "English Keywords"
 msgstr "Englische Stichwörter"
 
-#: translations\status_branch.php:14 translations\translations.inc:285
+#: translations\status_branch.php:14
+#: translations\translations.inc:285
 #, c-format
 msgid "Translators"
 msgstr "Übersetzer"
+
+#: translations\status_website.php:5
+#: translations\status_website.php:7
+#: translations\status_website.php:12
+#, c-format
+msgid "Translations Status (Website)"
+msgstr ""
 
 #: support\tracker-shortcuts.php:41
 #, c-format
@@ -1685,12 +1819,14 @@ msgstr "PDF-Schnelleinstieg"
 msgid "The <a href=\"%s\">manual</a> explains how to use WinMerge, and documents its capabilities and limitations."
 msgstr "Das <a href=\"%s\">Handbuch</a> erklärt wie man WinMerge verwendet und dokumentiert Fähigkeiten sowie Einschränkungen."
 
-#: links.php:43 downloads\index.php:69
+#: links.php:43
+#: downloads\index.php:69
 #, c-format
 msgid "WinMerge Portable"
 msgstr "WinMerge Portable"
 
-#: about\screenshots\index.php:24 about\screenshots\index.php:25
+#: about\screenshots\index.php:24
+#: about\screenshots\index.php:25
 #, c-format
 msgid "Highlight Line Diff"
 msgstr "Zeilenunterschiede hervorheben"
@@ -1730,7 +1866,9 @@ msgstr "Tracker-Statistiken"
 msgid "WinMerge Release Notes"
 msgstr "WinMerge Versionshinweise"
 
-#: downloads\index.php:10 downloads\index.php:12 engine\page.inc:316
+#: downloads\index.php:10
+#: downloads\index.php:12
+#: engine\page.inc:316
 #, c-format
 msgid "Download WinMerge"
 msgstr "WinMerge herunterladen"
@@ -1740,7 +1878,8 @@ msgstr "WinMerge herunterladen"
 msgid "<b>7-Zip</b> is a file archiver with high compression ratio."
 msgstr "<b>7-Zip</b> ist ein Dateienpacker mit hoher Kompressionsrate."
 
-#: downloads\source-code.php:7 downloads\source-code.php:10
+#: downloads\source-code.php:7
+#: downloads\source-code.php:10
 #, c-format
 msgid "Download Source Code"
 msgstr "Quelltext herunterladen"
@@ -1755,7 +1894,8 @@ msgstr "Erkennung von verschobenen Zeilen"
 msgid "WinMerge is <a href=\"%1$s\">Open Source</a> software under the <a href=\"%2$s\">GNU General Public License</a>."
 msgstr "WinMerge ist <a href=\"%1$s\">Open-Source</a>-Software unter der <a href=\"%2$s\">GNU General Public License</a>."
 
-#: support\mailing-lists.php:16 support\mailing-lists.php:60
+#: support\mailing-lists.php:16
+#: support\mailing-lists.php:60
 #, c-format
 msgid "Development List"
 msgstr "Entwickler-Liste"
@@ -1765,7 +1905,8 @@ msgstr "Entwickler-Liste"
 msgid "View all file releases&hellip;"
 msgstr "Alle Dateifreigaben ansehen&hellip;"
 
-#: engine\page.inc:383
+#: engine\page.inc:384
 #, c-format
 msgid "Bookmark this on Delicious"
-msgstr "Bookmarken Sie diese Seite bei Delicious"
+msgstr ""
+

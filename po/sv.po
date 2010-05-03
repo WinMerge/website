@@ -135,6 +135,11 @@ msgstr "Bra information i en felrapport gör det mer sannorlikt att ditt fel fix
 msgid "WinMerge is an <a href=\"%s\">Open Source</a> differencing and merging tool for Windows. WinMerge can compare both folders and files, presenting differences in a visual text format that is easy to understand and handle."
 msgstr "WinMerge är ett <a href=\"%s\">Open Source</a> skillnads och hopläggningsverktyg för Windows. WinMerge kan jämföra både kataloger och filer, presentera skillnader i ett visuellt textformat som är enkelt att förstå och hantera."
 
+#: translations\translations.inc:182
+#, c-format
+msgid "Total: Unknown"
+msgstr "Totalt: Okänt"
+
 #: support\mailing-lists.php:32
 #: support\mailing-lists.php:42
 #: support\mailing-lists.php:62
@@ -210,6 +215,11 @@ msgstr "Projektsida"
 #: docs\index.php:13
 #, c-format
 msgid "The <a href=\"%s\">quick tour</a> describes the main WinMerge features in one page."
+msgstr ""
+
+#: engine\page.inc:334
+#, c-format
+msgid "WinMerge Translations Status (Website)"
 msgstr ""
 
 #: downloads\index.php:27
@@ -463,6 +473,11 @@ msgstr ""
 msgid "Total: %d"
 msgstr "Totalt: %d"
 
+#: engine\page.inc:334
+#, c-format
+msgid "Status (Website)"
+msgstr ""
+
 #: about\index.php:69
 #, c-format
 msgid "See the <a href=\"%s\">screenshots page</a> for more screenshots."
@@ -495,6 +510,11 @@ msgstr "Om du vill uppdatera någon av dessa översättningar eller lägga till 
 #, c-format
 msgid "Open-dialog"
 msgstr "Öppna-dialog"
+
+#: translations\index.php:37
+#, c-format
+msgid "The following pages inform you about the translations status of the stable version, developer version and website of WinMerge:"
+msgstr ""
 
 #: engine\engine.inc:22
 #, c-format
@@ -654,6 +674,11 @@ msgstr "Ladda ner den aktuella WinMerge versionen %1$s, som släpptes %2$s. För
 msgid "Quick Tour"
 msgstr "Snabbguide"
 
+#: translations\status_website.php:10
+#, c-format
+msgid "Translations Status"
+msgstr ""
+
 #: translations\translations.inc:136
 #: translations\translations_branch.inc:71
 #, c-format
@@ -754,11 +779,6 @@ msgstr "WinMerges Diskussionsforum"
 msgid "Support List"
 msgstr "Supportlista"
 
-#: translations\index.php:37
-#, c-format
-msgid "The following two pages inform you about the translations status of the stable and developer version of WinMerge:"
-msgstr "Följande två sidor informerar dig om översättningstatus på den stabila och utvecklingsversionen av WinMerge:"
-
 #: support\mailing-lists.php:12
 #: support\mailing-lists.php:20
 #, c-format
@@ -770,10 +790,10 @@ msgstr "Annonseringslista"
 msgid "WinMerge allows selecting/opening paths in several ways. Using the Open-dialog is just one of them."
 msgstr "WinMerge tillåter val/öppning av sökvägar på olika sätt. Att använda Öppna-dialogen är bara ett av dem."
 
-#: translations\translations.inc:182
+#: translations\index.php:41
 #, c-format
-msgid "Total: Unknown"
-msgstr "Totalt: Okänt"
+msgid "Website"
+msgstr ""
 
 #: downloads\pad-file.php:76
 #, c-format
@@ -805,13 +825,10 @@ msgstr "Skärmdumpar från WinMerge funktioner som filjämförelse, katalogjämf
 msgid "WinMerge Mailing Lists"
 msgstr "WinMerge brevlistor"
 
-#: translations\translations.inc:131
-#: translations\translations.inc:288
-#: translations\translations_branch.inc:66
-#: translations\translations_branch.inc:182
+#: docs\releasenotes.php:6
 #, c-format
-msgid "Language"
-msgstr "Språk"
+msgid "WinMerge, release notes, summary, changes, enhancements, bug fixes, known issues, release"
+msgstr "WinMerge, releasenoteringar, sammanfattning, ändringar, förbättringar, felfixar, kända problem, releaser"
 
 #: downloads\source-code.php:5
 #, c-format
@@ -907,10 +924,13 @@ msgstr "WinMerge Tracker"
 msgid "WinMerge, support, discussion forums, mailing lists, tracker, donate, bugs, support requests, patches, feature requests, todo, open source, sourceforge.net"
 msgstr "WinMerge, support, discussionsforum, mailinglistor, tracker, donera, fel, supportäskanden, patchar, funktionsäskanden, att göra, Open Source, sourceforge.net"
 
-#: docs\releasenotes.php:6
+#: translations\translations.inc:131
+#: translations\translations.inc:288
+#: translations\translations_branch.inc:66
+#: translations\translations_branch.inc:182
 #, c-format
-msgid "WinMerge, release notes, summary, changes, enhancements, bug fixes, known issues, release"
-msgstr "WinMerge, releasenoteringar, sammanfattning, ändringar, förbättringar, felfixar, kända problem, releaser"
+msgid "Language"
+msgstr "Språk"
 
 #: index.php:37
 #: downloads\index.php:88
@@ -1376,6 +1396,11 @@ msgstr "Andra"
 msgid "WinMerge, tracker, shortcuts, sourceforge, project page, bug, patch, support request, feature request, todo item"
 msgstr "WinMerge, Tracker, genvägar, sourceforge, projektsida, fel, patch, supportäskande, funktionsäskande, att göra objekt"
 
+#: translations\status_website.php:13
+#, c-format
+msgid "See more information on Transifex.net"
+msgstr ""
+
 #: about\index.php:40
 #, c-format
 msgid "Fast compare using file sizes and dates"
@@ -1595,6 +1620,11 @@ msgstr "Vi har nu översatt WinMerge till de språk som listas nedan:"
 msgid "Japanese WinMerge Version"
 msgstr "Japansk WinMerge-version"
 
+#: translations\status_website.php:8
+#, c-format
+msgid "We move the sources from the website to a <a href=\"%1$s\">bitbucket Mercurial repository</a> and use now <a href=\"%2$s\">Transifex</a> as platform for the translations."
+msgstr ""
+
 #: 404.php:15
 #, c-format
 msgid "Were you looking for..."
@@ -1767,6 +1797,13 @@ msgstr "Engelska nyckelord"
 msgid "Translators"
 msgstr "Översättare"
 
+#: translations\status_website.php:5
+#: translations\status_website.php:7
+#: translations\status_website.php:12
+#, c-format
+msgid "Translations Status (Website)"
+msgstr ""
+
 #: support\tracker-shortcuts.php:41
 #, c-format
 msgid "ID:"
@@ -1868,7 +1905,7 @@ msgstr "Utvecklingslista"
 msgid "View all file releases&hellip;"
 msgstr "Visa alla filreleaser&hellip;"
 
-#: engine\page.inc:383
+#: engine\page.inc:384
 #, c-format
 msgid "Bookmark this on Delicious"
 msgstr "Bokmärk detta på Delicious"
