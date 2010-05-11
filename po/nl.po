@@ -480,7 +480,7 @@ msgstr "Open-dialoog"
 #: translations\index.php:37
 #, c-format
 msgid "The following pages inform you about the translations status of the stable version, developer version and website of WinMerge:"
-msgstr ""
+msgstr "De volgende pagina's geven informatie over de vertaalstatus van de stabiele versie, de ontwikkelingsversie en de website van WinMerge:"
 
 #: engine\engine.inc:22
 #, c-format
@@ -1537,7 +1537,7 @@ msgstr "Japanse WinMerge-versie"
 #: translations\status_website.php:8
 #, c-format
 msgid "We move the sources from the website to a <a href=\"%1$s\">bitbucket Mercurial repository</a> and use now <a href=\"%2$s\">Transifex</a> as platform for the translations."
-msgstr ""
+msgstr "We verplaatsen de bronnen van de website naar een <a href=\"%1$s\">bitbucket Mercurial repository</a> en gebruiken nu <a href=\"%2$s\">Transifex</a> als een platform voor de vertalingen."
 
 #: 404.php:15
 #, c-format
