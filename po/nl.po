@@ -378,7 +378,7 @@ msgstr "Bestandsvergelijking"
 #: engine\engine.inc:20
 #, c-format
 msgid "German"
-msgstr "Duits"
+msgstr "Deutsch"
 
 #: support\index.php:14
 #, c-format
@@ -485,7 +485,7 @@ msgstr ""
 #: engine\engine.inc:22
 #, c-format
 msgid "Japanese"
-msgstr "Japans"
+msgstr "日本語 (Japanese)"
 
 #: downloads\index.php:69
 #, c-format
@@ -565,7 +565,7 @@ msgstr "WinMerge, screenshots, bestandsvergelijking, open-dialoog, mapvergelijki
 #: translations\translations_branch.inc:104
 #, c-format
 msgid "English (Template)"
-msgstr "Engels (Template)"
+msgstr "Engels (sjabloon)"
 
 #: about\history.php:20 docs\changelog.php:7 docs\changelog.php:8
 #: docs\index.php:16 engine\page.inc:312
@@ -879,7 +879,7 @@ msgstr "WinMerge, ondersteuning, discussieforums, maillijsten, tracker, doneren,
 #: translations\translations_branch.inc:182
 #, c-format
 msgid "Language"
-msgstr "Taal"
+msgstr "Language"
 
 #: index.php:37 downloads\index.php:88
 #, c-format
@@ -977,7 +977,7 @@ msgstr "WinMerge PAD-bestand"
 #: engine\engine.inc:21
 #, c-format
 msgid "French"
-msgstr "Frans"
+msgstr "Français"
 
 #: docs\changelog.php:6
 #, c-format
@@ -1522,7 +1522,7 @@ msgstr "Verschilpaneel toont het huidige verschil in twee verticale panelen"
 #: engine\engine.inc:24
 #, c-format
 msgid "Swedish"
-msgstr "Zweeds"
+msgstr "Svenska"
 
 #: translations\index.php:11
 #, c-format
