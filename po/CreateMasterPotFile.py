@@ -81,7 +81,7 @@ def main():
     potfile = open('en-US.pot', 'wb') #Open as binary to prevent the translation of EOL characters!
     potfile.write('# This file is part from WinMerge <http://winmerge.org/>\n')
     potfile.write('# Released under the "GNU General Public License"\n')
-    potfile.write('#\n')
+    potfile.write('# \n')
     potfile.write('msgid ""\n')
     potfile.write('msgstr ""\n')
     potfile.write('"Project-Id-Version: WinMerge\\n"\n')
@@ -98,9 +98,24 @@ def main():
     potfile.write('"X-Poedit-Basepath: ../htdocs/\\n"\n')
     potfile.write('\n')
     for translation in translations: #For all translations...
+        #--------------------------------------------------------------------------------
+        # References...
+        #--------------------------------------------------------------------------------
+        reference_line = ''
         references = translations[translation]
         for reference in references: #For all references...
-            potfile.write('#: %s:%u\n' % (reference[0].replace(php_dir + sep, ''), reference[1]))
+            reference_id = '%s:%u' % (reference[0].replace(php_dir + sep, ''), reference[1])
+            if reference_line: #If NOT first reference...
+                if len(reference_line + reference_id) > 77: #If reference line to long...
+                    potfile.write('%s\n' % reference_line)
+                    reference_line = '#: ' + reference_id
+                else: #If reference line NOT to long...
+                    reference_line += ' ' + reference_id
+            else: #If first reference...
+                reference_line = '#: ' + reference_id
+        if reference_line: #If reference line exists...
+            potfile.write('%s\n' % reference_line)
+        #--------------------------------------------------------------------------------
         potfile.write('#, c-format\n')
         potfile.write('msgid "%s"\n' % (translation.replace('"', '\\"')))
         potfile.write('msgstr ""\n')
