@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WinMerge site\n"
 "Report-Msgid-Bugs-To: http://bugs.winmerge.org\n"
-"POT-Creation-Date: 2010-05-02 12:01+0000\n"
+"POT-Creation-Date: 2010-05-15 19:11+0000\n"
 "PO-Revision-Date: 2009-09-16 19:57+0100\n"
 "Last-Translator: Thomas De Rocker <thomasderocker@yahoo.com>\n"
 "Language-Team: Dutch\n"
@@ -1625,7 +1625,7 @@ msgstr "De vertaalinstructies zijn op dit moment niet beschikbaar..."
 #: downloads\plugins.php:29
 #, c-format
 msgid "You can also search for <a href=\"%s\">other versions</a>."
-msgstr ""
+msgstr "U kan ook zoeken naar <a href=\"%s\">andere versies</a>."
 
 #: support\mailing-lists.php:14 support\mailing-lists.php:40
 #, c-format
@@ -1810,4 +1810,3 @@ msgstr "Bekijk alle bestanden releases&hellip;"
 #, c-format
 msgid "Bookmark this on Delicious"
 msgstr "Bladwijzer aanmaken op Delicious"
-
