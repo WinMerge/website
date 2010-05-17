@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WinMerge\n"
 "Report-Msgid-Bugs-To: http://bugs.winmerge.org\n"
-"POT-Creation-Date: 2010-05-02 12:01+0000\n"
+"POT-Creation-Date: 2010-05-15 19:11+0000\n"
 "PO-Revision-Date: 2009-11-21 15:14+0100\n"
 "Last-Translator: Tim Gerundt <tim at gerundt.de>\n"
 "Language-Team: German <winmerge-translate@lists.sourceforge.net>\n"
@@ -1320,7 +1320,7 @@ msgid "WinMerge, tracker, shortcuts, sourceforge, project page, bug, patch, supp
 msgstr "WinMerge, Tracker, Abkürzungen, sourceforge, Projekt-Seite, Fehler, Patch, Support-Anfrage, Funktions-Anfrage, Todo-Eintrag"
 
 #: translations\status_website.php:13
-#, c-format, fuzzy
+#, fuzzy, c-format
 msgid "See more information on Transifex.net"
 msgstr "Weitere Informationen bei Transifex.net"
 
@@ -1625,7 +1625,7 @@ msgstr "Der Übersetzungs-Status ist derzeit nicht verfügbar..."
 #: downloads\plugins.php:29
 #, c-format
 msgid "You can also search for <a href=\"%s\">other versions</a>."
-msgstr ""
+msgstr "Sie können auch nach <a href=\"%s\">anderen Versionen</a> suchen."
 
 #: support\mailing-lists.php:14 support\mailing-lists.php:40
 #, c-format
@@ -1810,4 +1810,3 @@ msgstr "Alle Dateifreigaben ansehen&hellip;"
 #, c-format
 msgid "Bookmark this on Delicious"
 msgstr "Bookmarken Sie diese Seite bei Delicious"
-
