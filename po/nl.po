@@ -225,7 +225,7 @@ msgstr "Contact"
 #: engine\engine.inc:19 translations\index.php:24
 #, c-format
 msgid "English"
-msgstr "Engels"
+msgstr "English"
 
 #: downloads\pad-file.php:7 downloads\pad-file.php:9 downloads\pad-file.php:80
 #: engine\page.inc:319
