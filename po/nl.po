@@ -110,7 +110,7 @@ msgstr "Mapvergelijking toont alle bestanden en submappen gevonden van vergeleke
 msgid "WinMerge Support"
 msgstr "WinMerge ondersteuning"
 
-#: support\index.php:17
+#: support\index.php:18
 #, c-format
 msgid "We require registering because anonymous submissions caused a lot of spam and also because there were no possibility to contact people for asking more information."
 msgstr "We vereisen registratie omdat anonieme inzendingen veel spam veroorzaakten, en ook omdat er geen mogelijkheid was om mensen te contacteren om meer informatie te vragen."
@@ -120,7 +120,7 @@ msgstr "We vereisen registratie omdat anonieme inzendingen veel spam veroorzaakt
 msgid "Compares one folder or includes all subfolders"
 msgstr "Vergelijkt een map of met eventueel alle submappen"
 
-#: support\index.php:15
+#: support\index.php:16
 #, c-format
 msgid "Good information in a bug report makes it more likely that your bug will be fixed quickly."
 msgstr "Goede informatie in een bugrapport zorgt voor een snellere oplossing van uw bug."
@@ -243,7 +243,7 @@ msgstr "WinMerge %s - Broncode"
 msgid "This is WinMerge packaged with a PortableApps.com Launcher as a <a href=\"%s\">portable app</a>, so you can compare files on the go."
 msgstr "Dit is WinMerge samengevoegd met een PortableApps.com Launcher als een <a href=\"%s\">portable app</a>, zodat u bestanden kan vergelijken zonder dat het programma geïnstalleerd hoeft te worden."
 
-#: support\index.php:39
+#: support\index.php:49
 #, c-format
 msgid "But please consider making a <a href=\"%s\">donation</a> to support the continued development of WinMerge."
 msgstr "Gelieve te overwegen om een <a href=\"%s\">donatie</a> te maken om de voortgezette ontwikkeling van Winmerge te ondersteunen."
@@ -264,7 +264,7 @@ msgstr "Downloaden"
 msgid "Home"
 msgstr "Home"
 
-#: support\index.php:38
+#: support\index.php:48
 #, c-format
 msgid "Since WinMerge is an <a href=\"%s\">Open Source</a> project, you may use it free of charge."
 msgstr "Omdat WinMerge een <a href=\"%s\">Open Source</a>-project is, mag u het gratis gebruiken."
@@ -280,7 +280,7 @@ msgid "The easiest way to install WinMerge is to download and run the Installer.
 msgstr "De gemakkelijkste manier om WinMerge te installeren is de installer te downloaden en openen. Lees de <a href=\"%s\">online handleiding</a> voor hulp om hem te gebruiken."
 
 #: index.php:42 downloads\pad-file.php:96 engine\page.inc:278
-#: support\index.php:8 support\index.php:10
+#: support\index.php:9 support\index.php:11
 #, c-format
 msgid "Support"
 msgstr "Ondersteuning"
@@ -305,7 +305,7 @@ msgstr "Het locatievenster toont een kaart van de vergeleken bestanden"
 msgid "For information on using WinMerge, see our <a href=\"%s\">online Manual</a>, or you can use the local help file (just press <code>F1</code> inside WinMerge) for offline use."
 msgstr "Voor informatie over het gebruik van WinMerge, zie onze <a href=\"%s\">online handleiding</a>, of u kan het lokale helpbestand gebruiken (druk op <code>F1</code> binnen Winmerge) voor offline gebruik."
 
-#: engine\page.inc:327 support\index.php:37
+#: engine\page.inc:327 support\index.php:47
 #, c-format
 msgid "Donate"
 msgstr "Doneren"
@@ -315,7 +315,7 @@ msgstr "Doneren"
 msgid "Version Control"
 msgstr "Versie-controle"
 
-#: support\index.php:6
+#: support\index.php:7
 #, c-format
 msgid "The Open Discussion forum is the fastest way to get help. A other way is a subscription to the support mailing list."
 msgstr "Het Open Discussion-forum is de snelste manier om hulp te krijgen. Een andere manier is een inschrijving op de ondersteuningsmaillijst."
@@ -334,6 +334,11 @@ msgstr "Status"
 #, c-format
 msgid "WinMerge is an Open Source differencing and merging tool for Windows. WinMerge can compare both folders and files, presenting differences in a visual text format that is easy to understand and handle."
 msgstr "WinMerge is een Open Source vergelijkings- en samenvoegingstool voor Windows. WinMerge kan mappen en bestanden vergelijken, de verschillen voorstellend in een visueel tekstformaat dat gemakkelijk te begrijpen en behandelen is."
+
+#: support\index.php:38
+#, c-format
+msgid "Active Forum Topics"
+msgstr ""
 
 #: downloads\index.php:58
 #, c-format
@@ -380,7 +385,7 @@ msgstr "Bestandsvergelijking"
 msgid "German"
 msgstr "Deutsch"
 
-#: support\index.php:14
+#: support\index.php:15
 #, c-format
 msgid "Please attach as much information as you can: at a minimum, the version number of WinMerge that you are using. If you can, also attach a configuration log which, you can display by clicking <span class=\"guimenu\">Help</span> &#8594; <span class=\"guimenuitem\">Configuration</span> in the WinMerge window."
 msgstr "Gelieve zoveel mogelijk informatie bij te voegen: minimum het versienummer van de WinMerge-versie die u gebruikt. Voeg indien mogelijk ook een configuratielog bij, die u kan verkrijgen door te klikken op <span class=\"guimenu\">Help</span> &#8594; <span class=\"guimenuitem\">Configuratie</span> in het WinMerge-venster."
@@ -573,7 +578,7 @@ msgstr "Engels (sjabloon)"
 msgid "Change Log"
 msgstr "Lijst met aanpassingen"
 
-#: support\index.php:11
+#: support\index.php:12
 #, c-format
 msgid "The <a href=\"%s\">Open Discussion forum</a> is the fastest way to get help. Please be patient, it may take some time for somebody to answer."
 msgstr "Het <a href=\"%s\">Open Discussion forum</a> is de snelste manier om hulp te krijgen. Wees geduldig, het kan even duren voordat iemand antwoordt."
@@ -763,7 +768,7 @@ msgstr "WinMerge screenshots"
 msgid "Download additional plugins for WinMerge, like the 7-Zip plugin or the xdocdiff Plugin."
 msgstr "Extra plugins voor WinMerge downloaden, zoals de 7-Zip plugin of de xdocdiff-plugin."
 
-#: support\index.php:12
+#: support\index.php:13
 #, c-format
 msgid "A other way is a subscription to the <a href=\"%s\">support mailing list</a>."
 msgstr "Een andere manier is een abonnement op de <a href=\"%s\">ondersteuning-mailinglijst </a>."
@@ -869,10 +874,15 @@ msgstr "xdocdiff-plugin"
 msgid "WinMerge Tracker"
 msgstr "WinMerge tracker"
 
-#: support\index.php:7
+#: support\index.php:8
 #, c-format
 msgid "WinMerge, support, discussion forums, mailing lists, tracker, donate, bugs, support requests, patches, feature requests, todo, open source, sourceforge.net"
 msgstr "WinMerge, ondersteuning, discussieforums, maillijsten, tracker, doneren, bugs, ondersteuningsaanvragen, patches, functie-aanvragen,te doen, open source, sourceforge.net"
+
+#: support\index.php:44
+#, c-format
+msgid "View all active topics&hellip;"
+msgstr ""
 
 #: translations\translations.inc:131 translations\translations.inc:288
 #: translations\translations_branch.inc:66
@@ -1064,7 +1074,7 @@ msgstr "Vertaallijst"
 msgid "WinMerge Quick Tour"
 msgstr "WinMerge rondleiding"
 
-#: support\index.php:16
+#: support\index.php:17
 #, c-format
 msgid "You must <a href=\"%s\">register with SourceForge.net</a> before posting a bug report (registration is free)."
 msgstr "U moet <a href=\"%s\">registreren bij SourceForge.net</a> voordat u een bugrapport kan posten (registratie is gratis)."
@@ -1085,7 +1095,7 @@ msgstr "Over WinMerge"
 msgid "WinMerge, PAD file, Portable Application Description"
 msgstr "WinMerge, PAD-bestand, Portable Application Description"
 
-#: support\index.php:19
+#: support\index.php:20
 #, c-format
 msgid "Wish list items on the <a href=\"%s\">feature request list</a> will also be considered, but we make absolutely no promises."
 msgstr "Wenslijst-items op de <a href=\"%s\">functie-aanvragenlijst</a> zullen ook in overweging genomen worden, maar we maken absoluut geen beloften."
@@ -1574,7 +1584,7 @@ msgstr "WinMerge vertalingen"
 msgid "Supported Languages"
 msgstr "Ondersteunde talen"
 
-#: support\index.php:18
+#: support\index.php:19
 #, c-format
 msgid "We rarely sent direct emails but you will get notifications when we ask questions in the bug item."
 msgstr "We verzenden sporadisch directe e-mails maar u zal berichten krijgen wanneer we vragen stellen in het bug-item."
@@ -1746,7 +1756,7 @@ msgstr "Druk verkeer"
 msgid "Discussion Forums"
 msgstr "Discussieforums"
 
-#: support\index.php:13
+#: support\index.php:14
 #, c-format
 msgid "If you find a bug, please submit it as a <a href=\"%s\">bug report</a>."
 msgstr "Als u een bug vindt, gelieve hem in te zenden als een <a href=\"%s\">bugrapport</a>."
@@ -1761,7 +1771,7 @@ msgstr "WinMerge, vrij, open source, Windows, windiff, diff, samenvoegen, vergel
 msgid "Here is the current <a href=\"%s\">change log</a>."
 msgstr "Hier is de huidige <a href=\"%s\">lijst met wijzigingen</a>."
 
-#: support\index.php:21
+#: support\index.php:22
 #, c-format
 msgid "Tracker Statistics"
 msgstr "Tracker-statistieken"
@@ -1810,3 +1820,4 @@ msgstr "Bekijk alle bestanden releases&hellip;"
 #, c-format
 msgid "Bookmark this on Delicious"
 msgstr "Bladwijzer aanmaken op Delicious"
+
