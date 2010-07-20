@@ -1,6 +1,7 @@
 <?php
   include('../engine/engine.inc');
   include('../engine/simplepie/simplepie.inc');
+  include('activetopics.inc');
 
   $page = new Page;
   $page->setDescription(__('The Open Discussion forum is the fastest way to get help. A other way is a subscription to the support mailing list.'));
@@ -32,6 +33,15 @@
       print("  <li><a href=\"".$item->get_link()."\">".$title."</a></li>\n");
     }
   }
+  print("</ul>\n");
+
+  $page->printSubHeading(__('Active Forum Topics'));
+  $activetopics = new Forum_ActiveTopics('http://sourceforge.net/apps/phpbb/winmerge/');
+  print("<ul class=\"rssfeeditems\">\n");
+  foreach ($activetopics->getTopics(0, 5) as $topic) { //for all active topics...
+    print("  <li><a href=\"".$topic->getLink()."\">".$topic->getTitle()."</a></li>\n");
+  }
+  print("  <li><a href=\"http://sourceforge.net/apps/phpbb/winmerge/search.php?st=0&amp;search_id=active_topics\">".__('View all active topics&hellip;')."</a></li>\n");
   print("</ul>\n");
 
   $page->printSubHeading(__('Donate'));
