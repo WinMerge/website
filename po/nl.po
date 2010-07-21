@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WinMerge site\n"
 "Report-Msgid-Bugs-To: http://bugs.winmerge.org\n"
-"POT-Creation-Date: 2010-05-15 19:11+0000\n"
+"POT-Creation-Date: 2010-07-20 21:44+0000\n"
 "PO-Revision-Date: 2009-09-16 19:57+0100\n"
 "Last-Translator: Thomas De Rocker <thomasderocker@yahoo.com>\n"
 "Language-Team: Dutch\n"
@@ -338,7 +338,7 @@ msgstr "WinMerge is een Open Source vergelijkings- en samenvoegingstool voor Win
 #: support\index.php:38
 #, c-format
 msgid "Active Forum Topics"
-msgstr ""
+msgstr "Actieve forumtopics"
 
 #: downloads\index.php:58
 #, c-format
@@ -882,7 +882,7 @@ msgstr "WinMerge, ondersteuning, discussieforums, maillijsten, tracker, doneren,
 #: support\index.php:44
 #, c-format
 msgid "View all active topics&hellip;"
-msgstr ""
+msgstr "Alle actieve topics weergeven&hellip;"
 
 #: translations\translations.inc:131 translations\translations.inc:288
 #: translations\translations_branch.inc:66
@@ -1820,4 +1820,3 @@ msgstr "Bekijk alle bestanden releases&hellip;"
 #, c-format
 msgid "Bookmark this on Delicious"
 msgstr "Bladwijzer aanmaken op Delicious"
-
