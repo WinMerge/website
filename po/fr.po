@@ -1,9 +1,9 @@
 # This file is part from WinMerge <http://winmerge.org/>
 # Released under the "GNU General Public License"
-#
+# 
 # Translators:
 # * Frédéric Dectot <fred.dec@free.fr>
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: WinMerge\n"
@@ -1821,3 +1821,7 @@ msgstr "Voir toutes les versions de fichier&hellip;"
 msgid "Bookmark this on Delicious"
 msgstr "Ajouter aux favoris sur Délicious"
 
+#: engine\engine.inc:25
+#, c-format
+msgid "Turkish"
+msgstr ""

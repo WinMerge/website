@@ -1,9 +1,9 @@
 # This file is part from WinMerge <http://winmerge.org/>
 # Released under the "GNU General Public License"
-#
+# 
 # Translators:
 # * Takashi Sawanaka <sawanaka at d1.dion.ne.jp>
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: WinMerge\n"
@@ -1821,3 +1821,7 @@ msgstr "すべてのリリースされたファイルをみる&hellip;"
 msgid "Bookmark this on Delicious"
 msgstr "このページを Delicious へブックマークする"
 
+#: engine\engine.inc:25
+#, c-format
+msgid "Turkish"
+msgstr ""

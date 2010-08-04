@@ -1330,7 +1330,7 @@ msgid "WinMerge, tracker, shortcuts, sourceforge, project page, bug, patch, supp
 msgstr "WinMerge, Tracker, Abkürzungen, sourceforge, Projekt-Seite, Fehler, Patch, Support-Anfrage, Funktions-Anfrage, Todo-Eintrag"
 
 #: translations\status_website.php:13
-#, fuzzy, c-format
+#, c-format, fuzzy
 msgid "See more information on Transifex.net"
 msgstr "Weitere Informationen bei Transifex.net"
 
@@ -1820,3 +1820,8 @@ msgstr "Alle Dateifreigaben ansehen&hellip;"
 #, c-format
 msgid "Bookmark this on Delicious"
 msgstr "Bookmarken Sie diese Seite bei Delicious"
+
+#: engine\engine.inc:25
+#, c-format
+msgid "Turkish"
+msgstr "Türkisch"

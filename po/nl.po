@@ -1820,3 +1820,8 @@ msgstr "Bekijk alle bestanden releases&hellip;"
 #, c-format
 msgid "Bookmark this on Delicious"
 msgstr "Bladwijzer aanmaken op Delicious"
+
+#: engine\engine.inc:25
+#, c-format
+msgid "Turkish"
+msgstr ""

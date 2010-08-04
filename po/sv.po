@@ -1,9 +1,9 @@
 # This file is part from WinMerge <http://winmerge.org/>
 # Released under the "GNU General Public License"
-#
+# 
 # Maintainer:
 # * Hans Eriksson <hans.ericson at bredband.net>
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: WinMerge\n"
@@ -1821,3 +1821,7 @@ msgstr "Visa alla filreleaser&hellip;"
 msgid "Bookmark this on Delicious"
 msgstr "Bokmärk detta på Delicious"
 
+#: engine\engine.inc:25
+#, c-format
+msgid "Turkish"
+msgstr ""
