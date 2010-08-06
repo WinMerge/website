@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WinMerge\n"
 "Report-Msgid-Bugs-To: http://bugs.winmerge.org\n"
-"POT-Creation-Date: 2010-08-06 08:35+0000\n"
+"POT-Creation-Date: 2010-08-06 17:29+0000\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: English <winmerge-translate@lists.sourceforge.net>\n"
@@ -122,7 +122,7 @@ msgstr ""
 msgid "Good information in a bug report makes it more likely that your bug will be fixed quickly."
 msgstr ""
 
-#: index.php:19 about/index.php:11
+#: about/index.php:11 index.php:19
 #, c-format
 msgid "WinMerge is an <a href=\"%s\">Open Source</a> differencing and merging tool for Windows. WinMerge can compare both folders and files, presenting differences in a visual text format that is easy to understand and handle."
 msgstr ""
@@ -276,7 +276,7 @@ msgstr ""
 msgid "The easiest way to install WinMerge is to download and run the Installer. Read the <a href=\"%s\">online manual</a> for help using it."
 msgstr ""
 
-#: index.php:42 downloads/pad-file.php:96 engine/page.inc:278
+#: downloads/pad-file.php:96 engine/page.inc:278 index.php:42
 #: support/index.php:9 support/index.php:11
 #, c-format
 msgid "Support"
@@ -423,8 +423,8 @@ msgstr ""
 msgid "Untranslated"
 msgstr ""
 
-#: index.php:15 about/index.php:66 about/screenshots/index.php:12
-#: about/screenshots/index.php:13
+#: about/index.php:66 about/screenshots/index.php:12
+#: about/screenshots/index.php:13 index.php:15
 #, c-format
 msgid "File Comparison"
 msgstr ""
@@ -537,6 +537,11 @@ msgstr ""
 #: support/mailing-lists.php:77
 #, c-format
 msgid "Subscribers to this list get notices of each and every code change commited to Subversion."
+msgstr ""
+
+#: about/index.php:40
+#, c-format
+msgid "Fast compare using file sizes and dates"
 msgstr ""
 
 #: about/index.php:76
@@ -820,9 +825,9 @@ msgstr ""
 msgid "WinMerge Manual"
 msgstr ""
 
-#: engine/page.inc:317
+#: about/history.php:7 about/history.php:9 engine/page.inc:303
 #, c-format
-msgid "Download WinMerge Plugins"
+msgid "History"
 msgstr ""
 
 #: about/index.php:15
@@ -888,7 +893,7 @@ msgstr ""
 msgid "Language"
 msgstr ""
 
-#: index.php:37 downloads/index.php:88
+#: downloads/index.php:88 index.php:37
 #, c-format
 msgid "Y-m-d"
 msgstr ""
@@ -996,9 +1001,9 @@ msgstr ""
 msgid "Can show folder compare results in a tree-style view"
 msgstr ""
 
-#: about/history.php:7 about/history.php:9 engine/page.inc:303
+#: engine/page.inc:317
 #, c-format
-msgid "History"
+msgid "Download WinMerge Plugins"
 msgstr ""
 
 #: support/tracker-shortcuts.php:37
@@ -1178,9 +1183,9 @@ msgstr ""
 msgid "Screenshots"
 msgstr ""
 
-#: links.php:30
+#: engine/page.inc:303
 #, c-format
-msgid "Tutorial"
+msgid "WinMerge History"
 msgstr ""
 
 #: downloads/index.php:9 downloads/index.php:73
@@ -1332,9 +1337,9 @@ msgstr ""
 msgid "See more information on Transifex.net"
 msgstr ""
 
-#: about/index.php:40
+#: 404.php:27
 #, c-format
-msgid "Fast compare using file sizes and dates"
+msgid "<a href=\"%s\">Support</a>?"
 msgstr ""
 
 #: about/license.php:14
@@ -1407,9 +1412,9 @@ msgstr ""
 msgid "WinMerge is highly useful for determining what has changed between project versions, and then merging changes between versions. WinMerge can be used as an external differencing/merging tool or as a standalone application."
 msgstr ""
 
-#: engine/page.inc:303
+#: links.php:30
 #, c-format
-msgid "WinMerge History"
+msgid "Tutorial"
 msgstr ""
 
 #: support/tracker-shortcuts.php:23
@@ -1462,11 +1467,6 @@ msgstr ""
 msgid "Withdrawn due to installer bug!"
 msgstr ""
 
-#: 404.php:27
-#, c-format
-msgid "<a href=\"%s\">Support</a>?"
-msgstr ""
-
 #: support/mailing-lists.php:22 support/mailing-lists.php:52
 #, c-format
 msgid "Low Traffic"
@@ -1507,7 +1507,7 @@ msgstr ""
 msgid "Binaries"
 msgstr ""
 
-#: links.php:6 about/license.php:30 engine/page.inc:297
+#: about/license.php:30 engine/page.inc:297 links.php:6
 #, c-format
 msgid "Links"
 msgstr ""
@@ -1734,7 +1734,7 @@ msgstr ""
 msgid "The <a href=\"%s\">manual</a> explains how to use WinMerge, and documents its capabilities and limitations."
 msgstr ""
 
-#: links.php:43 downloads/index.php:69
+#: downloads/index.php:69 links.php:43
 #, c-format
 msgid "WinMerge Portable"
 msgstr ""

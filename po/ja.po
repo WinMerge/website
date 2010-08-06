@@ -125,7 +125,7 @@ msgstr "一つのフォルダまたは、すべてのサブフォルダを含ん
 msgid "Good information in a bug report makes it more likely that your bug will be fixed quickly."
 msgstr "バグ報告に含まれた良い情報は、あなたのバグを素早く修正する助けになります。"
 
-#: index.php:19 about/index.php:11
+#: about/index.php:11 index.php:19
 #, c-format
 msgid "WinMerge is an <a href=\"%s\">Open Source</a> differencing and merging tool for Windows. WinMerge can compare both folders and files, presenting differences in a visual text format that is easy to understand and handle."
 msgstr "WinMerge は、 <a href=\"%s\">オープンソース</a>のWindows 用比較・マージツールです。WinMerge は、フォルダとファイル両方が比較でき、理解しやすく扱いやすいテキスト形式で差異をビジュアルに表現します。"
@@ -279,7 +279,7 @@ msgstr "このリストは、翻訳をまとめるのに使用されます。"
 msgid "The easiest way to install WinMerge is to download and run the Installer. Read the <a href=\"%s\">online manual</a> for help using it."
 msgstr "WinMerge をインストールするもっとも簡単な方法は、インストーラをダウンロードし、実行することです。インストーラ使用時の使い方については、<a href=\"%s\">オンラインマニュアル</a>をお読みください。"
 
-#: index.php:42 downloads/pad-file.php:96 engine/page.inc:278
+#: downloads/pad-file.php:96 engine/page.inc:278 index.php:42
 #: support/index.php:9 support/index.php:11
 #, c-format
 msgid "Support"
@@ -426,8 +426,8 @@ msgstr "トラッカーショートカット"
 msgid "Untranslated"
 msgstr "未訳"
 
-#: index.php:15 about/index.php:66 about/screenshots/index.php:12
-#: about/screenshots/index.php:13
+#: about/index.php:66 about/screenshots/index.php:12
+#: about/screenshots/index.php:13 index.php:15
 #, c-format
 msgid "File Comparison"
 msgstr "ファイル比較"
@@ -891,7 +891,7 @@ msgstr ""
 msgid "Language"
 msgstr "言語"
 
-#: index.php:37 downloads/index.php:88
+#: downloads/index.php:88 index.php:37
 #, c-format
 msgid "Y-m-d"
 msgstr "Y-m-d"
@@ -1509,7 +1509,7 @@ msgstr "トラッカーショートカットは、SF.net プロジェクトペ�
 msgid "Binaries"
 msgstr "バイナリ"
 
-#: links.php:6 about/license.php:30 engine/page.inc:297
+#: about/license.php:30 engine/page.inc:297 links.php:6
 #, c-format
 msgid "Links"
 msgstr "リンク"
@@ -1736,7 +1736,7 @@ msgstr "PDF クイックリファレンス"
 msgid "The <a href=\"%s\">manual</a> explains how to use WinMerge, and documents its capabilities and limitations."
 msgstr "この<a href=\"%s\">マニュアル</a>では、WinMerge の使い方や能力、制限を記載しています。"
 
-#: links.php:43 downloads/index.php:69
+#: downloads/index.php:69 links.php:43
 #, c-format
 msgid "WinMerge Portable"
 msgstr "WinMerge Portable"

@@ -121,7 +121,7 @@ msgstr "Bir klasörü karşılaştırabileceği gibi bütün alt klasörleri de 
 msgid "Good information in a bug report makes it more likely that your bug will be fixed quickly."
 msgstr "Hata bildirimlerinin uygun şekilde yeterli bilgiyi içermesi hataların daha çabuk düzeltilmesini sağlar."
 
-#: index.php:19 about/index.php:11
+#: about/index.php:11 index.php:19
 #, c-format
 msgid "WinMerge is an <a href=\"%s\">Open Source</a> differencing and merging tool for Windows. WinMerge can compare both folders and files, presenting differences in a visual text format that is easy to understand and handle."
 msgstr "WinMerge Windows için yazılmış <a href=\"%s\">Açık Kaynak</a> bir fark arama ve birleştirme aracıdır.  WinMerge klasörleri ve dosyaları karşılaştırabilir, farkları görsel metin biçiminde, kolayca anlaşılıp işlenebilecek şekilde sunar."
@@ -275,7 +275,7 @@ msgstr "Bu liste çevirilerin koordinasyonu için kullanılmaktadır."
 msgid "The easiest way to install WinMerge is to download and run the Installer. Read the <a href=\"%s\">online manual</a> for help using it."
 msgstr "WinMerge programını kurmanın en kolay yolu kurucuyu indirip çalıştırmaktır. Kullanma bilgileri için <a href=\"%s\">çevrimiçi kitabı</a> okuyabilirsiniz."
 
-#: index.php:42 downloads/pad-file.php:96 engine/page.inc:278
+#: downloads/pad-file.php:96 engine/page.inc:278 index.php:42
 #: support/index.php:9 support/index.php:11
 #, c-format
 msgid "Support"
@@ -422,8 +422,8 @@ msgstr "İzleyici Kısayolları"
 msgid "Untranslated"
 msgstr "Çevrilmemiş"
 
-#: index.php:15 about/index.php:66 about/screenshots/index.php:12
-#: about/screenshots/index.php:13
+#: about/index.php:66 about/screenshots/index.php:12
+#: about/screenshots/index.php:13 index.php:15
 #, c-format
 msgid "File Comparison"
 msgstr "Dosya Karşılaştırması"
@@ -887,7 +887,7 @@ msgstr "Tüm etkin konuları göster&hellip;"
 msgid "Language"
 msgstr "Dil"
 
-#: index.php:37 downloads/index.php:88
+#: downloads/index.php:88 index.php:37
 #, c-format
 msgid "Y-m-d"
 msgstr "Y-a-g"
@@ -1505,7 +1505,7 @@ msgstr "İzleyici kısayolları SF.net proje sayfasındaki öge bağlantıların
 msgid "Binaries"
 msgstr "Binary Dosyaları"
 
-#: links.php:6 about/license.php:30 engine/page.inc:297
+#: about/license.php:30 engine/page.inc:297 links.php:6
 #, c-format
 msgid "Links"
 msgstr "Bağlantılar"
@@ -1732,7 +1732,7 @@ msgstr "PDF özet kaynağı"
 msgid "The <a href=\"%s\">manual</a> explains how to use WinMerge, and documents its capabilities and limitations."
 msgstr "<a href=\"%s\">Kitap</a> WinMerge kullanımını anlatmanın yanı sıra programın yeteneklerini ve sınırlamalarını da içerir."
 
-#: links.php:43 downloads/index.php:69
+#: downloads/index.php:69 links.php:43
 #, c-format
 msgid "WinMerge Portable"
 msgstr "WinMerge Portable"

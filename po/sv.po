@@ -125,7 +125,7 @@ msgstr "Jämför en katalog eller inkludera alla underkataloger"
 msgid "Good information in a bug report makes it more likely that your bug will be fixed quickly."
 msgstr "Bra information i en felrapport gör det mer sannorlikt att ditt fel fixas snabbt."
 
-#: index.php:19 about/index.php:11
+#: about/index.php:11 index.php:19
 #, c-format
 msgid "WinMerge is an <a href=\"%s\">Open Source</a> differencing and merging tool for Windows. WinMerge can compare both folders and files, presenting differences in a visual text format that is easy to understand and handle."
 msgstr "WinMerge är ett <a href=\"%s\">Open Source</a> skillnads och hopläggningsverktyg för Windows. WinMerge kan jämföra både kataloger och filer, presentera skillnader i ett visuellt textformat som är enkelt att förstå och hantera."
@@ -279,7 +279,7 @@ msgstr "Denna lista används för att koordinera översättningarna."
 msgid "The easiest way to install WinMerge is to download and run the Installer. Read the <a href=\"%s\">online manual</a> for help using it."
 msgstr "Det enklaste sättet att installera WinMerge är att ladda ner och köra installationsprogrammet. Läs <a href=\"%s\">onlinemanualen</a> för hjälp att använda den."
 
-#: index.php:42 downloads/pad-file.php:96 engine/page.inc:278
+#: downloads/pad-file.php:96 engine/page.inc:278 index.php:42
 #: support/index.php:9 support/index.php:11
 #, c-format
 msgid "Support"
@@ -426,8 +426,8 @@ msgstr "Trackergenvägar"
 msgid "Untranslated"
 msgstr "Oöversatt"
 
-#: index.php:15 about/index.php:66 about/screenshots/index.php:12
-#: about/screenshots/index.php:13
+#: about/index.php:66 about/screenshots/index.php:12
+#: about/screenshots/index.php:13 index.php:15
 #, c-format
 msgid "File Comparison"
 msgstr "Filjämförelse"
@@ -891,7 +891,7 @@ msgstr ""
 msgid "Language"
 msgstr "Språk"
 
-#: index.php:37 downloads/index.php:88
+#: downloads/index.php:88 index.php:37
 #, c-format
 msgid "Y-m-d"
 msgstr "Y.m.d"
@@ -1509,7 +1509,7 @@ msgstr "Trackergenvägar är kortare och vackrare URLer till Trackerobjekt från
 msgid "Binaries"
 msgstr "Binärfiler"
 
-#: links.php:6 about/license.php:30 engine/page.inc:297
+#: about/license.php:30 engine/page.inc:297 links.php:6
 #, c-format
 msgid "Links"
 msgstr "Länkar"
@@ -1736,7 +1736,7 @@ msgstr "PDF snabbreferens"
 msgid "The <a href=\"%s\">manual</a> explains how to use WinMerge, and documents its capabilities and limitations."
 msgstr "<a href=\"%s\">Manualen</a> förklarar hur man ska använda WinMerge, och dokument dess kapacitet och begränsningar."
 
-#: links.php:43 downloads/index.php:69
+#: downloads/index.php:69 links.php:43
 #, c-format
 msgid "WinMerge Portable"
 msgstr "WinMerge Portabel"

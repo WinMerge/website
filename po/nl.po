@@ -125,7 +125,7 @@ msgstr "Vergelijkt een map of met eventueel alle submappen"
 msgid "Good information in a bug report makes it more likely that your bug will be fixed quickly."
 msgstr "Goede informatie in een bugrapport zorgt voor een snellere oplossing van uw bug."
 
-#: index.php:19 about/index.php:11
+#: about/index.php:11 index.php:19
 #, c-format
 msgid "WinMerge is an <a href=\"%s\">Open Source</a> differencing and merging tool for Windows. WinMerge can compare both folders and files, presenting differences in a visual text format that is easy to understand and handle."
 msgstr "WinMerge is een <a href=\"%s\">Open Source</a> vergelijkings- en samenvoegingstool voor Windows. WinMerge kan mappen en bestanden vergelijken, verschillen voorstellend in een visueel tekstformaat dat gemakkelijk te begrijpen en behandelen is."
@@ -279,7 +279,7 @@ msgstr "Deze lijst wordt gebruikt om de vertalingen te coördineren."
 msgid "The easiest way to install WinMerge is to download and run the Installer. Read the <a href=\"%s\">online manual</a> for help using it."
 msgstr "De gemakkelijkste manier om WinMerge te installeren is de installer te downloaden en openen. Lees de <a href=\"%s\">online handleiding</a> voor hulp om hem te gebruiken."
 
-#: index.php:42 downloads/pad-file.php:96 engine/page.inc:278
+#: downloads/pad-file.php:96 engine/page.inc:278 index.php:42
 #: support/index.php:9 support/index.php:11
 #, c-format
 msgid "Support"
@@ -426,8 +426,8 @@ msgstr "Tracker-snelkoppelingen"
 msgid "Untranslated"
 msgstr "Onvertaald"
 
-#: index.php:15 about/index.php:66 about/screenshots/index.php:12
-#: about/screenshots/index.php:13
+#: about/index.php:66 about/screenshots/index.php:12
+#: about/screenshots/index.php:13 index.php:15
 #, c-format
 msgid "File Comparison"
 msgstr "Bestandsvergelijking"
@@ -891,7 +891,7 @@ msgstr "Alle actieve topics weergeven&hellip;"
 msgid "Language"
 msgstr "Language"
 
-#: index.php:37 downloads/index.php:88
+#: downloads/index.php:88 index.php:37
 #, c-format
 msgid "Y-m-d"
 msgstr "d-m-Y"
@@ -1514,7 +1514,7 @@ msgstr "Trackerkoppelingen zijn kortere en leukere URL's naar tracker-items van 
 msgid "Binaries"
 msgstr "Binaries"
 
-#: links.php:6 about/license.php:30 engine/page.inc:297
+#: about/license.php:30 engine/page.inc:297 links.php:6
 #, c-format
 msgid "Links"
 msgstr "Links"
@@ -1741,7 +1741,7 @@ msgstr "PDF snelgids"
 msgid "The <a href=\"%s\">manual</a> explains how to use WinMerge, and documents its capabilities and limitations."
 msgstr "De <a href=\"%s\">handleiding</a> legt uit hoe WinMerge gebruikt wordt, en documenteert zijn mogelijkheden en limitaties."
 
-#: links.php:43 downloads/index.php:69
+#: downloads/index.php:69 links.php:43
 #, c-format
 msgid "WinMerge Portable"
 msgstr "WinMerge portable"

@@ -75,6 +75,7 @@ def main():
     translations = {}
     php_dir = abspath('../htdocs')
     php_files = getPhpFiles(php_dir)
+    php_files.sort()
     for php_file in php_files: #For all php files...
         getTranslationsFromPhpFile(php_file, translations)
     
