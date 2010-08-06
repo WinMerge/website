@@ -3,7 +3,7 @@
 
 # Python script to create the POT file for the website
 #
-# Copyright 2009 Tim Gerundt <tim@gerundt.de>
+# Copyright 2009-2010 Tim Gerundt <tim@gerundt.de>
 #
 # This file is part of WinMerge. WinMerge is free software under the terms of the
 # GNU General Public License. You should have received a copy of the license
@@ -104,7 +104,9 @@ def main():
         reference_line = ''
         references = translations[translation]
         for reference in references: #For all references...
-            reference_id = '%s:%u' % (reference[0].replace(php_dir + sep, ''), reference[1])
+            reference_path = reference[0].replace(php_dir + sep, '') #Switch to relative path
+            reference_path = reference_path.replace('\\', '/') #Switch to linux path separator
+            reference_id = '%s:%u' % (reference_path, reference[1])
             if reference_line: #If NOT first reference...
                 if len(reference_line + reference_id) > 77: #If reference line to long...
                     potfile.write('%s\n' % reference_line)
