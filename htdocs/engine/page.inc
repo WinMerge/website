@@ -306,7 +306,7 @@
         case TAB_DOCS: //if "Documentation" ...
           $subtabs[0] = new Subtab($translations->prepareLink('/docs/'), __('Index'), __('WinMerge Documentation'));
           $subtabs[1] = new Subtab('/docs/manual/', __('Manual'), __('WinMerge Manual'));
-          $subtabs[2] = new Subtab('/docs/tour/', __('Quick Tour'), __('WinMerge Quick Tour'));
+          $subtabs[2] = new Subtab('http://tour.winmerge.org/', __('Quick Tour'), __('WinMerge Quick Tour'));
           $subtabs[3] = new Subtab($translations->prepareLink('/docs/releasenotes.php'), __('Release Notes'), __('WinMerge Release Notes'));
           $subtabs[4] = new Subtab($translations->prepareLink('/docs/releasenotes.php#issues'), __('Known Issues'), __('WinMerge Known Issues'));
           $subtabs[5] = new Subtab($translations->prepareLink('/docs/changelog.php'), __('Change Log'), __('WinMerge Change Log'));

@@ -9,8 +9,8 @@
   $page->printHeading(__('Documentation'));
   $page->printLinkedSubHeading(__('Manual'), 'manual/');
   $page->printPara(__('The <a href="%s">manual</a> explains how to use WinMerge, and documents its capabilities and limitations.', 'manual/'));
-  $page->printLinkedSubHeading(__('Quick Tour'), 'tour/');
-  $page->printPara(__('The <a href="%s">quick tour</a> describes the main WinMerge features in one page.', 'tour/'));
+  $page->printLinkedSubHeading(__('Quick Tour'), 'http://tour.winmerge.org/');
+  $page->printPara(__('The <a href="%s">quick tour</a> describes the main WinMerge features in one page.', 'http://tour.winmerge.org/'));
   $page->printLinkedSubHeading(__('Release Notes'), 'releasenotes.php');
   $page->printPara(__('The <a href="%1$s">release notes</a> are a short summary of important changes, enhancements, bug fixes and <a href="%2$s">known issues</a> in the current WinMerge release.', 'releasenotes.php', 'releasenotes.php#issues'));
   $page->printLinkedSubHeading(__('Change Log'), 'changelog.php');
