@@ -7,8 +7,8 @@
   $page->printHead(__('Documentation'), TAB_DOCS);
 
   $page->printHeading(__('Documentation'));
-  $page->printLinkedSubHeading(__('Manual'), 'manual/');
-  $page->printPara(__('The <a href="%s">manual</a> explains how to use WinMerge, and documents its capabilities and limitations.', 'manual/'));
+  $page->printLinkedSubHeading(__('Manual'), 'http://manual.winmerge.org/');
+  $page->printPara(__('The <a href="%s">manual</a> explains how to use WinMerge, and documents its capabilities and limitations.', 'http://manual.winmerge.org/'));
   $page->printLinkedSubHeading(__('Quick Tour'), 'http://tour.winmerge.org/');
   $page->printPara(__('The <a href="%s">quick tour</a> describes the main WinMerge features in one page.', 'http://tour.winmerge.org/'));
   $page->printLinkedSubHeading(__('Release Notes'), 'releasenotes.php');

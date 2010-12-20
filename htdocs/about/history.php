@@ -16,7 +16,7 @@
     <li>WinMerge 2.12.0 (2009-03-05)</li>
   </ul>
   <ul class="inline">
-    <li><a href="/docs/manual/"><?php __e('Manual');?></a></li>
+    <li><a href="http://manual.winmerge.org/"><?php __e('Manual');?></a></li>
     <li><a href="/docs/changelog.php"><?php __e('Change Log');?></a></li>
   </ul>
 </div>

@@ -62,6 +62,7 @@
   <li><a href="http://patches.winmerge.org/">patches.winmerge.org</a></li>
   <li><a href="http://project.winmerge.org/">project.winmerge.org</a></li>
   <li><a href="http://wiki.winmerge.org/">wiki.winmerge.org</a></li>
+  <li><a href="http://manual.winmerge.org/">manual.winmerge.org</a></li>
   <li><a href="http://tour.winmerge.org/">tour.winmerge.org</a></li>
 </ul>
 <?php

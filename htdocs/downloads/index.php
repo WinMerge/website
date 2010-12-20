@@ -49,7 +49,7 @@
 </pre>
 </div> <!-- #checksums -->
 <?php
-  $page->printPara(__('The easiest way to install WinMerge is to download and run the Installer. Read the <a href="%s">online manual</a> for help using it.', '/docs/manual/Installing.html'));
+  $page->printPara(__('The easiest way to install WinMerge is to download and run the Installer. Read the <a href="%s">online manual</a> for help using it.', 'http://manual.winmerge.org/Installing.html'));
   $page->printPara(__('You can also download additional <a href="%1$s">plugins</a> and the whole <a href="%2$s">source code</a> from WinMerge.', 'plugins.php', 'source-code.php'));
 
   $page->printSubSubHeading(__('Requirements'));

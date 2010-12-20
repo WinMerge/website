@@ -97,6 +97,9 @@ RewriteBase   /
 RewriteRule   ^[0-9]\.[0-9]/$ http://winmerge.org/ [R=permanent]
 RewriteRule   ^[0-9]\.[0-9]/index.php$ http://winmerge.org/ [R=permanent]
 
+#Move manual to a own sub domain...
+Redirect permanent /docs/manual/ http://manual.winmerge.org/
+
 #Move quick tour to a own sub domain...
 Redirect permanent /docs/tour/ http://tour.winmerge.org/
 
