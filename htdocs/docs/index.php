@@ -15,8 +15,8 @@
   $page->printPara(__('The <a href="%1$s">release notes</a> are a short summary of important changes, enhancements, bug fixes and <a href="%2$s">known issues</a> in the current WinMerge release.', 'releasenotes.php', 'releasenotes.php#issues'));
   $page->printLinkedSubHeading(__('Change Log'), 'changelog.php');
   $page->printPara(__('The <a href="%s">change log</a> is a more complete list of changes in the last WinMerge releases.', 'changelog.php'));
-  $page->printLinkedSubHeading(__('Development Wiki'), '/Wiki/');
-  $page->printPara(__('The <a href="%s">Development Wiki</a> contains much information about the WinMerge development.', '/Wiki/'));
+  $page->printLinkedSubHeading(__('Development Wiki'), 'http://wiki.winmerge.org/');
+  $page->printPara(__('The <a href="%s">Development Wiki</a> contains much information about the WinMerge development.', 'http://wiki.winmerge.org/'));
 
   $page->printFoot();
 ?>
