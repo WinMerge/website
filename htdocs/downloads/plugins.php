@@ -8,18 +8,18 @@
   
   $page->printHeading(__('Download Plugins'));
   $page->printSubHeading(__('7-Zip Plugin'));
-  $page->printPara(__('This is the 7-Zip plugin for WinMerge and the current version <strong>%1$s</strong> was released at <strong>%2$s</strong>.', 'DllBuild 0028', '2010-05-13'));
+  $page->printPara(__('This is the 7-Zip plugin for WinMerge and the current version <strong>%1$s</strong> was released at <strong>%2$s</strong>.', 'DllBuild 0028', '2010-12-28'));
 ?>
 <div class="downloadmatrix">
 <ul>
   <li><strong><?php __e('Installer');?></strong>
     <ul>
-      <li><a href="http://downloads.sourceforge.net/winmerge/Merge7zInstaller0028-465-913.exe"><?php __e('Exe-Format (%s MB)', '0.80');?></a></li>
+      <li><a href="http://downloads.sourceforge.net/winmerge/Merge7zInstaller0028-465-920.exe"><?php __e('Exe-Format (%s MB)', '0.97');?></a></li>
     </ul>
   </li>
   <li><strong><?php __e('Binaries');?></strong>
     <ul>
-      <li><a href="http://downloads.sourceforge.net/winmerge/Merge7z0028-465-913.7z"><?php __e('7z-Format (%s MB)', '0.68');?></a></li>
+      <li><a href="http://downloads.sourceforge.net/winmerge/Merge7z0028-465-920.7z"><?php __e('7z-Format (%s MB)', '0.86');?></a></li>
     </ul>
   </li>
 </ul>
