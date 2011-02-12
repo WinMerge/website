@@ -1,0 +1,13 @@
+[main]
+host = https://www.transifex.net
+
+[winmerge-web.translations]
+file_filter = po/<lang>.po
+source_file = po/en-US.pot
+source_lang = en
+trans.de = po/de.po
+trans.fr = po/fr.po
+trans.ja = po/ja.po
+trans.nl = po/nl.po
+trans.sv = po/sv.po
+trans.tr = po/tr.po
