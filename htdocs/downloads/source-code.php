@@ -38,6 +38,8 @@
   <dd><a href="tsvn:https://winmerge.svn.sourceforge.net/svnroot/winmerge/trunk">https://winmerge.svn.sourceforge.net/svnroot/winmerge/trunk</a></dd>
   <dt><?php __e('WinMerge %s', $stablerelease->getVersionNumberMajor());?></dt>
   <dd><a href="tsvn:https://winmerge.svn.sourceforge.net/svnroot/winmerge/branches/<?php echo $stablerelease->getBranchName();?>">https://winmerge.svn.sourceforge.net/svnroot/winmerge/branches/<?php echo $stablerelease->getBranchName();?></a></dd>
+  <dt><?php __e('WinMerge 3 Future');?></dt>
+  <dd><code>hg clone <a href="https://bitbucket.org/grimmdp/winmerge">https://bitbucket.org/grimmdp/winmerge</a></code></dd>
 </dl>
 <?php
   $page->printFoot();
