@@ -26,6 +26,13 @@
   $page->printSubHeading(__('WinMerge %s - latest stable version', $stablerelease->getVersionNumber()));
   $page->printPara(__('<a href="%1$s">WinMerge %2$s</a> is the latest stable version, and is recommended for most users.', 'downloads/', $stablerelease->getVersionNumber()));
   $page->printDownloadNow();
+
+  $page->printSubHeading(__('WinMerge 3'));
+  $page->printPara(__('<a href="%s">WinMerge 3</a> will be modern compare/synchronization tool.', 'https://bitbucket.org/grimmdp/winmerge'),
+                   __('It will be based on Qt library and cross-platform.'),
+                   __('You can use the same tool in Windows and in Linux.'));
+  $page->printPara(__('WinMerge <em>will not</em> be just WinMerge 2 with new GUI. There will be radical changes in how WinMerge works and how it looks. Many features won\'t be available anymore and new features will be added.'));
+  $page->printPara(__('<a href="%s">Read more</a> and get involved!', 'https://bitbucket.org/grimmdp/winmerge/wiki'));
   
   $page->printRssSubHeading(__('Project News'), 'http://sourceforge.net/export/rss2_projnews.php?group_id=13216');
   $feed = new SimplePie();
