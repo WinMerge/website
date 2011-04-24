@@ -9,8 +9,8 @@
 
   $page->printSubHeading(__('Translations Status'));
 ?>
-<p><img src="http://www.transifex.net/projects/p/winmerge-web/c/translations/chart/image_png" alt="<?php __e('Translations Status (Website)');?>"></p>
-<p><a href="http://www.transifex.net/projects/p/winmerge-web/c/translations/" target="_blank"><?php __e('See more information on Transifex.net');?></a></p>
+<p><img src="http://www.transifex.net/projects/p/winmerge-web/resource/translations/chart/image_png" alt="<?php __e('Translations Status (Website)');?>"></p>
+<p><a href="http://www.transifex.net/projects/p/winmerge-web/resource/translations/" target="_blank"><?php __e('See more information on Transifex.net');?></a></p>
 <?php
   $page->printFoot();
 ?>
