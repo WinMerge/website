@@ -141,7 +141,7 @@ msgstr "Total: Inconnu"
 msgid "Normal Traffic"
 msgstr "Trafic normal"
 
-#: index.php:49
+#: index.php:56
 #, c-format
 msgid "The WinMerge Development Team"
 msgstr "L'équipe de développement de Winmerge"
@@ -161,7 +161,7 @@ msgstr "Version instable (tronçon)"
 msgid "WinMerge Translations Status (Stable Branch)"
 msgstr "Statut des traductions de Winmerge (branche stable)"
 
-#: index.php:47
+#: index.php:54
 #, c-format
 msgid "If you are interested in contributing work to the project, see our <a href=\"%s\">developer page</a> for further information on how you may contribute."
 msgstr "Si vous désirez contribuer au travail du projet, voyez notre <a href=\"%s\">page développeur</a> pour de plus amples informations sur comment vous pourriez contribuer."
@@ -279,7 +279,7 @@ msgstr "La liste est utilisée pour la coordination des traductions."
 msgid "The easiest way to install WinMerge is to download and run the Installer. Read the <a href=\"%s\">online manual</a> for help using it."
 msgstr "La plus facile façon d'installer winmerge est de le télécharger et exécuter l'installeur. Lisez le <a href=\"%s\">manuel en ligne</a> pour vous aider à l'utiliser."
 
-#: downloads/pad-file.php:96 engine/page.inc:278 index.php:42
+#: downloads/pad-file.php:96 engine/page.inc:278 index.php:49
 #: support/index.php:9 support/index.php:11
 #, c-format
 msgid "Support"
@@ -462,7 +462,7 @@ msgstr "Voyez la <a href=\"%s\">page des captures d'écran</a> pour plusieurs ca
 msgid "License"
 msgstr "Licence"
 
-#: index.php:39
+#: index.php:46
 #, c-format
 msgid "View all news&hellip;"
 msgstr "Voir toutes les nouvelles&hellip;"
@@ -522,7 +522,7 @@ msgstr "Pour certaines raisons (adresses web mal tapées, références erronnée
 msgid "Reviews of popular comparison software. [<a href=\"%s\">WinMerge Review</a>]"
 msgstr ""
 
-#: index.php:45
+#: index.php:52
 #, c-format
 msgid "Developers"
 msgstr "Développeurs"
@@ -891,7 +891,7 @@ msgstr ""
 msgid "Language"
 msgstr "langue"
 
-#: downloads/index.php:88 index.php:37
+#: downloads/index.php:88 index.php:44
 #, c-format
 msgid "Y-m-d"
 msgstr "Y-m-d"
@@ -1049,7 +1049,7 @@ msgstr ""
 msgid "<a href=\"%1$s\">WinMerge %2$s</a> is the latest stable version, and is recommended for most users."
 msgstr "<a href=\"%1$s\">WinMerge %2$s</a> est la dernière édition stable, et est recommandé pour la plupart des utilisateurs."
 
-#: index.php:48
+#: index.php:55
 #, c-format
 msgid "In addition, WinMerge is translated into a number of different languages. See our <a href=\"%s\">information on translating WinMerge</a> into your own language."
 msgstr "De plus, Winmerge est traduit dans de nombreuses langues. Lisez notre <a href=\"%s\">information sur la traduction de WinMerge</a> dans votre propre langue."
@@ -1239,7 +1239,7 @@ msgstr "Statut de la traduction (tronçon instable)"
 msgid "Unsubscribe"
 msgstr "Se désinsrire"
 
-#: index.php:43
+#: index.php:50
 #, c-format
 msgid "If you need support, look at our <a href=\"%s\">support page</a> for more information how you can get it."
 msgstr "Si vous avez besoin de support, reportez vous sur <a href=\"%s\">la page de support</a> pour plus d'information sur comment vous pouvez l'obtenir."
@@ -1599,7 +1599,7 @@ msgstr ""
 msgid "<a href=\"%s\">Manual</a>?"
 msgstr "<a href=\"%s\">Manuel</a>?"
 
-#: index.php:8 index.php:30
+#: index.php:8 index.php:37
 #, c-format
 msgid "Project News"
 msgstr "Nouvelles du projet"
@@ -1662,7 +1662,7 @@ msgstr "Erreur 404 (Page non trouvée)"
 msgid "Graph"
 msgstr "Graphe"
 
-#: index.php:46
+#: index.php:53
 #, c-format
 msgid "WinMerge is an open source project, which means that the program is maintained and developed by volunteers."
 msgstr "Winmerge est un projet open source, ce qui signifie que le programme est maintenu et développé par des volontaires."
@@ -1824,4 +1824,39 @@ msgstr "Ajouter aux favoris sur Délicious"
 #: engine/engine.inc:25
 #, c-format
 msgid "Turkish"
+msgstr ""
+
+#: index.php:32
+#, c-format
+msgid "It will be based on Qt library and cross-platform."
+msgstr ""
+
+#: downloads/source-code.php:41
+#, c-format
+msgid "WinMerge 3 Future"
+msgstr ""
+
+#: index.php:34
+#, c-format
+msgid "WinMerge <em>will not</em> be just WinMerge 2 with new GUI. There will be radical changes in how WinMerge works and how it looks. Many features won’t be available anymore and new features will be added."
+msgstr ""
+
+#: index.php:30
+#, c-format
+msgid "WinMerge 3"
+msgstr ""
+
+#: index.php:31
+#, c-format
+msgid "<a href=\"%s\">WinMerge 3</a> will be modern compare/synchronization tool."
+msgstr ""
+
+#: index.php:35
+#, c-format
+msgid "<a href=\"%s\">Read more</a> and get involved!"
+msgstr ""
+
+#: index.php:33
+#, c-format
+msgid "You can use the same tool in Windows and in Linux."
 msgstr ""

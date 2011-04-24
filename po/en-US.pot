@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WinMerge\n"
 "Report-Msgid-Bugs-To: http://bugs.winmerge.org\n"
-"POT-Creation-Date: 2010-08-06 17:29+0000\n"
+"POT-Creation-Date: 2011-04-24 13:30+0000\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: English <winmerge-translate@lists.sourceforge.net>\n"
@@ -138,7 +138,7 @@ msgstr ""
 msgid "Normal Traffic"
 msgstr ""
 
-#: index.php:49
+#: index.php:56
 #, c-format
 msgid "The WinMerge Development Team"
 msgstr ""
@@ -158,7 +158,7 @@ msgstr ""
 msgid "WinMerge Translations Status (Stable Branch)"
 msgstr ""
 
-#: index.php:47
+#: index.php:54
 #, c-format
 msgid "If you are interested in contributing work to the project, see our <a href=\"%s\">developer page</a> for further information on how you may contribute."
 msgstr ""
@@ -261,9 +261,9 @@ msgstr ""
 msgid "Home"
 msgstr ""
 
-#: support/index.php:48
+#: 404.php:26
 #, c-format
-msgid "Since WinMerge is an <a href=\"%s\">Open Source</a> project, you may use it free of charge."
+msgid "<a href=\"%s\">Downloads</a>?"
 msgstr ""
 
 #: support/mailing-lists.php:57
@@ -276,7 +276,7 @@ msgstr ""
 msgid "The easiest way to install WinMerge is to download and run the Installer. Read the <a href=\"%s\">online manual</a> for help using it."
 msgstr ""
 
-#: downloads/pad-file.php:96 engine/page.inc:278 index.php:42
+#: downloads/pad-file.php:96 engine/page.inc:278 index.php:49
 #: support/index.php:9 support/index.php:11
 #, c-format
 msgid "Support"
@@ -312,9 +312,9 @@ msgstr ""
 msgid "Version Control"
 msgstr ""
 
-#: support/index.php:7
+#: index.php:32
 #, c-format
-msgid "The Open Discussion forum is the fastest way to get help. A other way is a subscription to the support mailing list."
+msgid "It will be based on Qt library and cross-platform."
 msgstr ""
 
 #: about/screenshots/index.php:30 about/screenshots/index.php:31
@@ -372,6 +372,11 @@ msgstr ""
 msgid "Plugin support"
 msgstr ""
 
+#: downloads/source-code.php:41
+#, c-format
+msgid "WinMerge 3 Future"
+msgstr ""
+
 #: about/index.php:27
 #, c-format
 msgid "File Compare"
@@ -415,6 +420,11 @@ msgstr ""
 msgid "Tracker Shortcuts"
 msgstr ""
 
+#: support/index.php:7
+#, c-format
+msgid "The Open Discussion forum is the fastest way to get help. A other way is a subscription to the support mailing list."
+msgstr ""
+
 #: translations/translations.inc:85 translations/translations.inc:97
 #: translations/translations.inc:135 translations/translations_branch.inc:53
 #: translations/translations_branch.inc:70
@@ -454,12 +464,17 @@ msgstr ""
 msgid "See the <a href=\"%s\">screenshots page</a> for more screenshots."
 msgstr ""
 
+#: index.php:34
+#, c-format
+msgid "WinMerge <em>will not</em> be just WinMerge 2 with new GUI. There will be radical changes in how WinMerge works and how it looks. Many features won’t be available anymore and new features will be added."
+msgstr ""
+
 #: about/license.php:7 about/license.php:9 engine/page.inc:304
 #, c-format
 msgid "License"
 msgstr ""
 
-#: index.php:39
+#: index.php:46
 #, c-format
 msgid "View all news&hellip;"
 msgstr ""
@@ -519,7 +534,7 @@ msgstr ""
 msgid "Reviews of popular comparison software. [<a href=\"%s\">WinMerge Review</a>]"
 msgstr ""
 
-#: index.php:45
+#: index.php:52
 #, c-format
 msgid "Developers"
 msgstr ""
@@ -893,7 +908,7 @@ msgstr ""
 msgid "Language"
 msgstr ""
 
-#: downloads/index.php:88 index.php:37
+#: downloads/index.php:88 index.php:44
 #, c-format
 msgid "Y-m-d"
 msgstr ""
@@ -1051,7 +1066,7 @@ msgstr ""
 msgid "<a href=\"%1$s\">WinMerge %2$s</a> is the latest stable version, and is recommended for most users."
 msgstr ""
 
-#: index.php:48
+#: index.php:55
 #, c-format
 msgid "In addition, WinMerge is translated into a number of different languages. See our <a href=\"%s\">information on translating WinMerge</a> into your own language."
 msgstr ""
@@ -1246,7 +1261,7 @@ msgstr ""
 msgid "Unsubscribe"
 msgstr ""
 
-#: index.php:43
+#: index.php:50
 #, c-format
 msgid "If you need support, look at our <a href=\"%s\">support page</a> for more information how you can get it."
 msgstr ""
@@ -1387,6 +1402,11 @@ msgstr ""
 msgid "Other Versions"
 msgstr ""
 
+#: index.php:30
+#, c-format
+msgid "WinMerge 3"
+msgstr ""
+
 #: engine/page.inc:243
 #, c-format
 msgid "Download Now!"
@@ -1402,9 +1422,9 @@ msgstr ""
 msgid "<b>GnuWin32</b> provides Win32 ports of tools with a <a href=\"%1$s\">GNU</a> or similar <a href=\"%2$s\">open source license</a>."
 msgstr ""
 
-#: 404.php:26
+#: support/index.php:48
 #, c-format
-msgid "<a href=\"%s\">Downloads</a>?"
+msgid "Since WinMerge is an <a href=\"%s\">Open Source</a> project, you may use it free of charge."
 msgstr ""
 
 #: about/index.php:5 about/index.php:12
@@ -1445,6 +1465,11 @@ msgstr ""
 #: downloads/index.php:59
 #, c-format
 msgid "Microsoft Visual C++ 2003 Runtime Components (included in the installer)"
+msgstr ""
+
+#: index.php:31
+#, c-format
+msgid "<a href=\"%s\">WinMerge 3</a> will be modern compare/synchronization tool."
 msgstr ""
 
 #: downloads/pad-file.php:90
@@ -1577,6 +1602,11 @@ msgstr ""
 msgid "WinMerge Translations"
 msgstr ""
 
+#: index.php:35
+#, c-format
+msgid "<a href=\"%s\">Read more</a> and get involved!"
+msgstr ""
+
 #: downloads/pad-file.php:46
 #, c-format
 msgid "Supported Languages"
@@ -1597,7 +1627,7 @@ msgstr ""
 msgid "<a href=\"%s\">Manual</a>?"
 msgstr ""
 
-#: index.php:8 index.php:30
+#: index.php:8 index.php:37
 #, c-format
 msgid "Project News"
 msgstr ""
@@ -1660,7 +1690,7 @@ msgstr ""
 msgid "Graph"
 msgstr ""
 
-#: index.php:46
+#: index.php:53
 #, c-format
 msgid "WinMerge is an open source project, which means that the program is maintained and developed by volunteers."
 msgstr ""
@@ -1787,6 +1817,11 @@ msgstr ""
 #: links.php:12
 #, c-format
 msgid "<b>7-Zip</b> is a file archiver with high compression ratio."
+msgstr ""
+
+#: index.php:33
+#, c-format
+msgid "You can use the same tool in Windows and in Linux."
 msgstr ""
 
 #: downloads/source-code.php:7 downloads/source-code.php:10

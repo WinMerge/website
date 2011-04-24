@@ -141,7 +141,7 @@ msgstr "合計: 不明"
 msgid "Normal Traffic"
 msgstr "普通の投稿量"
 
-#: index.php:49
+#: index.php:56
 #, c-format
 msgid "The WinMerge Development Team"
 msgstr "WinMerge 開発チーム"
@@ -161,7 +161,7 @@ msgstr "不安定版 (トランク)"
 msgid "WinMerge Translations Status (Stable Branch)"
 msgstr "WinMerge の翻訳状況 (安定ブランチ)"
 
-#: index.php:47
+#: index.php:54
 #, c-format
 msgid "If you are interested in contributing work to the project, see our <a href=\"%s\">developer page</a> for further information on how you may contribute."
 msgstr "このプロジェクトに協力していただけるのであれば、どのような協力ができるかについて詳しくは<a href=\"%s\">開発者ページ</a>をご覧ください。"
@@ -279,7 +279,7 @@ msgstr "このリストは、翻訳をまとめるのに使用されます。"
 msgid "The easiest way to install WinMerge is to download and run the Installer. Read the <a href=\"%s\">online manual</a> for help using it."
 msgstr "WinMerge をインストールするもっとも簡単な方法は、インストーラをダウンロードし、実行することです。インストーラ使用時の使い方については、<a href=\"%s\">オンラインマニュアル</a>をお読みください。"
 
-#: downloads/pad-file.php:96 engine/page.inc:278 index.php:42
+#: downloads/pad-file.php:96 engine/page.inc:278 index.php:49
 #: support/index.php:9 support/index.php:11
 #, c-format
 msgid "Support"
@@ -462,7 +462,7 @@ msgstr "<a href=\"%s\">スクリーンショットページ</a>でより多く�
 msgid "License"
 msgstr "ライセンス"
 
-#: index.php:39
+#: index.php:46
 #, c-format
 msgid "View all news&hellip;"
 msgstr "すべてのニュースを表示する &hellip;"
@@ -522,7 +522,7 @@ msgstr "いくつかの理由(ミスタイプしたURL、他のサイトから�
 msgid "Reviews of popular comparison software. [<a href=\"%s\">WinMerge Review</a>]"
 msgstr "人気のある比較ソフトウェアのレビュー [<a href=\"%s\">WinMerge Review</a>]"
 
-#: index.php:45
+#: index.php:52
 #, c-format
 msgid "Developers"
 msgstr "開発者"
@@ -891,7 +891,7 @@ msgstr ""
 msgid "Language"
 msgstr "言語"
 
-#: downloads/index.php:88 index.php:37
+#: downloads/index.php:88 index.php:44
 #, c-format
 msgid "Y-m-d"
 msgstr "Y-m-d"
@@ -1049,7 +1049,7 @@ msgstr "WinMerge に興味がある人々のための<a href=\"%s\">Facebook</a>
 msgid "<a href=\"%1$s\">WinMerge %2$s</a> is the latest stable version, and is recommended for most users."
 msgstr "<a href=\"%1$s\">WinMerge %2$s</a> が最新の安定版です。ほとんどの方にお勧めです。"
 
-#: index.php:48
+#: index.php:55
 #, c-format
 msgid "In addition, WinMerge is translated into a number of different languages. See our <a href=\"%s\">information on translating WinMerge</a> into your own language."
 msgstr "その上、WinMerge はいくつかの言語に翻訳されています。<a href=\"%s\">WinMerge を母国語に翻訳することについての情報</a>をご覧ください。"
@@ -1239,7 +1239,7 @@ msgstr "翻訳状況 (不安定トランク)"
 msgid "Unsubscribe"
 msgstr "購読停止"
 
-#: index.php:43
+#: index.php:50
 #, c-format
 msgid "If you need support, look at our <a href=\"%s\">support page</a> for more information how you can get it."
 msgstr "サポートが必要な場合は、より多くの情報が得られる<a href=\"%s\">サポートページ</a>をご覧ください。"
@@ -1599,7 +1599,7 @@ msgstr "正規表現"
 msgid "<a href=\"%s\">Manual</a>?"
 msgstr "<a href=\"%s\">マニュアル</a>?"
 
-#: index.php:8 index.php:30
+#: index.php:8 index.php:37
 #, c-format
 msgid "Project News"
 msgstr "プロジェクトニュース"
@@ -1662,7 +1662,7 @@ msgstr "エラー 404 (ページが見つかりません)"
 msgid "Graph"
 msgstr "グラフ"
 
-#: index.php:46
+#: index.php:53
 #, c-format
 msgid "WinMerge is an open source project, which means that the program is maintained and developed by volunteers."
 msgstr "WinMerge は、ボランティアによって開発・保守されているオープンソースのプロジェクトです。"
@@ -1824,4 +1824,39 @@ msgstr "このページを Delicious へブックマークする"
 #: engine/engine.inc:25
 #, c-format
 msgid "Turkish"
+msgstr ""
+
+#: index.php:32
+#, c-format
+msgid "It will be based on Qt library and cross-platform."
+msgstr ""
+
+#: downloads/source-code.php:41
+#, c-format
+msgid "WinMerge 3 Future"
+msgstr ""
+
+#: index.php:34
+#, c-format
+msgid "WinMerge <em>will not</em> be just WinMerge 2 with new GUI. There will be radical changes in how WinMerge works and how it looks. Many features won’t be available anymore and new features will be added."
+msgstr ""
+
+#: index.php:30
+#, c-format
+msgid "WinMerge 3"
+msgstr ""
+
+#: index.php:31
+#, c-format
+msgid "<a href=\"%s\">WinMerge 3</a> will be modern compare/synchronization tool."
+msgstr ""
+
+#: index.php:35
+#, c-format
+msgid "<a href=\"%s\">Read more</a> and get involved!"
+msgstr ""
+
+#: index.php:33
+#, c-format
+msgid "You can use the same tool in Windows and in Linux."
 msgstr ""

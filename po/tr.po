@@ -137,7 +137,7 @@ msgstr "Toplam: Bilinmiyor"
 msgid "Normal Traffic"
 msgstr "Normal Trafik"
 
-#: index.php:49
+#: index.php:56
 #, c-format
 msgid "The WinMerge Development Team"
 msgstr "WinMerge Geliştirici Takımı"
@@ -157,7 +157,7 @@ msgstr "Kararsız Sürüm (Gövde)"
 msgid "WinMerge Translations Status (Stable Branch)"
 msgstr "WinMerge Çevirilerinin Durumları (Kararlı Dal)"
 
-#: index.php:47
+#: index.php:54
 #, c-format
 msgid "If you are interested in contributing work to the project, see our <a href=\"%s\">developer page</a> for further information on how you may contribute."
 msgstr "Eğer projeye katkıda bulunmayı düşünürseniz, <a href=\"%s\">geliştirici sayfamıza</a> bakarak nasıl katkıda bulunabileceğinizi öğrenebilirsiniz."
@@ -275,7 +275,7 @@ msgstr "Bu liste çevirilerin koordinasyonu için kullanılmaktadır."
 msgid "The easiest way to install WinMerge is to download and run the Installer. Read the <a href=\"%s\">online manual</a> for help using it."
 msgstr "WinMerge programını kurmanın en kolay yolu kurucuyu indirip çalıştırmaktır. Kullanma bilgileri için <a href=\"%s\">çevrimiçi kitabı</a> okuyabilirsiniz."
 
-#: downloads/pad-file.php:96 engine/page.inc:278 index.php:42
+#: downloads/pad-file.php:96 engine/page.inc:278 index.php:49
 #: support/index.php:9 support/index.php:11
 #, c-format
 msgid "Support"
@@ -458,7 +458,7 @@ msgstr "Başka ekran görüntüleri için <a href=\"%s\">ekran görüntüleri</a
 msgid "License"
 msgstr "Lisans"
 
-#: index.php:39
+#: index.php:46
 #, c-format
 msgid "View all news&hellip;"
 msgstr "Tüm haberleri göster&hellip;"
@@ -518,7 +518,7 @@ msgstr "Bir nedenden dolayı aradığınız sayfa bulunamadı (hatalı web adres
 msgid "Reviews of popular comparison software. [<a href=\"%s\">WinMerge Review</a>]"
 msgstr "Popüler karşılaştırma yazılımı incelemeleri. [<a href=\"%s\">WinMerge İncelemeleri</a>]"
 
-#: index.php:45
+#: index.php:52
 #, c-format
 msgid "Developers"
 msgstr "Geliştiriciler"
@@ -887,7 +887,7 @@ msgstr "Tüm etkin konuları göster&hellip;"
 msgid "Language"
 msgstr "Dil"
 
-#: downloads/index.php:88 index.php:37
+#: downloads/index.php:88 index.php:44
 #, c-format
 msgid "Y-m-d"
 msgstr "Y-a-g"
@@ -1045,7 +1045,7 @@ msgstr "WinMerge severlerin <a href=\"%s\">Facebook</a> grubu."
 msgid "<a href=\"%1$s\">WinMerge %2$s</a> is the latest stable version, and is recommended for most users."
 msgstr "<a href=\"%1$s\">WinMerge %2$s</a>son kararlı sürümdür ve kullanıcıların çoğu için önerilir."
 
-#: index.php:48
+#: index.php:55
 #, c-format
 msgid "In addition, WinMerge is translated into a number of different languages. See our <a href=\"%s\">information on translating WinMerge</a> into your own language."
 msgstr "Ek olarak WinMerge pek çok dile çevrilmiştir. Kendi dilinize çevirmek için <a href=\"%s\">WinMerge çeviri bilgileri</a> bölümüne bakın."
@@ -1235,7 +1235,7 @@ msgstr "Çeviri Durumu (Kararsız Gövde)"
 msgid "Unsubscribe"
 msgstr "Abonelikten Çık"
 
-#: index.php:43
+#: index.php:50
 #, c-format
 msgid "If you need support, look at our <a href=\"%s\">support page</a> for more information how you can get it."
 msgstr "Destek istekleriniz için <a href=\"%s\">destek sayfası</a>na bakarak ayrıntılı bilgi alabilirsiniz."
@@ -1595,7 +1595,7 @@ msgstr "Kurallı deyimler"
 msgid "<a href=\"%s\">Manual</a>?"
 msgstr "<a href=\"%s\">Kitap</a>?"
 
-#: index.php:8 index.php:30
+#: index.php:8 index.php:37
 #, c-format
 msgid "Project News"
 msgstr "Proje Haberleri"
@@ -1658,7 +1658,7 @@ msgstr "Hata 404 (Sayfa Bulunamadı)"
 msgid "Graph"
 msgstr "Grafik"
 
-#: index.php:46
+#: index.php:53
 #, c-format
 msgid "WinMerge is an open source project, which means that the program is maintained and developed by volunteers."
 msgstr "WinMerge bir açık kaynak projesidir. Bunun anlamı programın geliştirilmesi ve bakımının gönüllüler tarafından yapıldığıdır."
@@ -1820,4 +1820,39 @@ msgstr "Bunu Delicious'ta işaretle"
 #: engine/engine.inc:25
 #, c-format
 msgid "Turkish"
+msgstr ""
+
+#: index.php:32
+#, c-format
+msgid "It will be based on Qt library and cross-platform."
+msgstr ""
+
+#: downloads/source-code.php:41
+#, c-format
+msgid "WinMerge 3 Future"
+msgstr ""
+
+#: index.php:34
+#, c-format
+msgid "WinMerge <em>will not</em> be just WinMerge 2 with new GUI. There will be radical changes in how WinMerge works and how it looks. Many features won’t be available anymore and new features will be added."
+msgstr ""
+
+#: index.php:30
+#, c-format
+msgid "WinMerge 3"
+msgstr ""
+
+#: index.php:31
+#, c-format
+msgid "<a href=\"%s\">WinMerge 3</a> will be modern compare/synchronization tool."
+msgstr ""
+
+#: index.php:35
+#, c-format
+msgid "<a href=\"%s\">Read more</a> and get involved!"
+msgstr ""
+
+#: index.php:33
+#, c-format
+msgid "You can use the same tool in Windows and in Linux."
 msgstr ""
