@@ -39,7 +39,7 @@
   $activetopics = new Forum_ActiveTopics('http://sourceforge.net/apps/phpbb/winmerge/');
   print("<ul class=\"rssfeeditems\">\n");
   foreach ($activetopics->getTopics(0, 5) as $topic) { //for all active topics...
-    print("  <li><a href=\"".$topic->getLink()."\">".$topic->getTitle()."</a></li>\n");
+    print("  <li><a href=\"".$topic->getLink()."\">".$topic->getTitle()."</a><em>last post by <strong>".$topic->getLastPostUser()."</strong></em></li>\n");
   }
   print("  <li><a href=\"http://sourceforge.net/apps/phpbb/winmerge/search.php?st=0&amp;search_id=active_topics\">".__('View all active topics&hellip;')."</a></li>\n");
   print("</ul>\n");

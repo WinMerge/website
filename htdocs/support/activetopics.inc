@@ -56,14 +56,28 @@ class Forum_ActiveTopics {
     public function update($days = 30) {
         $this->_topics = array();
         $html = file_get_contents($this->_forumHome . 'search.php?st=' . $days . '&search_id=active_topics');
-        if (preg_match_all('#<a href="\./(.*?)&amp;sid=[a-z0-9]+" class="topictitle">(.*?)</a>#im', $html, $matches)) {
+        $html = strip_tags($html, '<a><dd>');
+        $html = preg_replace(array('#\t#', '#&amp;sid=[a-z0-9]+#'), '', $html);
+        if (preg_match_all('#<a href="\./(.*?)" class="topictitle">(.*?)</a>#im', $html, $matches)) {
+            $lastPostUsers = array();
+            if (preg_match_all('#<dd class="lastpost">\nby <a href="\./(.*?)">(.*?)</a>#i', $html, $lastPosts)) {
+                $lastPostUserLinks = $lastPosts[1];
+                $lastPostUserNames = $lastPosts[2];
+                for ($i = 0; $i < count($lastPostUserLinks); $i++) { //for all users...
+                    $link = $this->_forumHome . $lastPostUserLinks[$i];
+                    $name = $lastPostUserNames[$i];
+
+                    $lastPostUsers[] = new Forum_User($link, $name);
+                }
+            }
             $links = $matches[1];
             $titles = $matches[2];
             for ($i = 0; $i < count($links); $i++) { //for all topics...
                 $link = $this->_forumHome . $links[$i];
                 $title = $titles[$i];
+                $lastPostUser = $lastPostUsers[$i];
 
-                $this->_topics[] = new Forum_Topic($link, $title);
+                $this->_topics[] = new Forum_Topic($link, $title, $lastPostUser);
             }
         }
     }
@@ -84,12 +98,20 @@ class Forum_Topic {
 
     /**
      * ...
+     * @var Forum_User ...
+     */
+    private $_lastPostUser;
+
+    /**
+     * ...
      * @param string $link ...
      * @param string $title ...
+     * @param Forum_User $lastPostUser ...
      */
-    public function __construct($link, $title) {
+    public function __construct($link, $title, $lastPostUser = null) {
         $this->_link = $link;
         $this->_title = $title;
+        $this->_lastPostUser = $lastPostUser;
     }
 
     /**
@@ -106,6 +128,61 @@ class Forum_Topic {
      */
     public function getTitle() {
         return $this->_title;
+    }
+
+    /**
+     * ...
+     * @return Forum_User ...
+     */
+    public function getLastPostUser() {
+        return $this->_lastPostUser;
+    }
+}
+
+class Forum_User {
+    /**
+     * ...
+     * @var string ...
+     */
+    private $_link;
+
+    /**
+     * ...
+     * @var string ...
+     */
+    private $_name;
+
+    /**
+     * ...
+     * @param string $link ...
+     * @param string $name ...
+     */
+    public function __construct($link, $name) {
+        $this->_link = $link;
+        $this->_name = $name;
+    }
+
+    /**
+     * ...
+     * @return string ...
+     */
+    public function getLink() {
+        return $this->_link;
+    }
+
+    /**
+     * ...
+     * @return string ...
+     */
+    public function getName() {
+        return $this->_name;
+    }
+
+    /**
+     * ...
+     */
+    public function __toString() {
+        return $this->_name;
     }
 }
 ?>
