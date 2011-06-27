@@ -243,7 +243,7 @@ msgstr "WinMerge %s - Quelltext"
 msgid "This is WinMerge packaged with a PortableApps.com Launcher as a <a href=\"%s\">portable app</a>, so you can compare files on the go."
 msgstr "Dies ist WinMerge mit einem PortableApps.com Launcher als eine <a href=\"%s\">portable Anwendung</a> verpackt, so können Sie Dateien unterwegs vergleichen."
 
-#: support/index.php:49
+#: support/index.php:54
 #, c-format
 msgid "But please consider making a <a href=\"%s\">donation</a> to support the continued development of WinMerge."
 msgstr "Aber ziehen Sie bitte eine <a href=\"%s\">Spende</a> in Betracht, um die weitere Entwicklung von WinMerge zu unterstützen."
@@ -264,7 +264,7 @@ msgstr "Download"
 msgid "Home"
 msgstr "Home"
 
-#: support/index.php:48
+#: support/index.php:53
 #, c-format
 msgid "Since WinMerge is an <a href=\"%s\">Open Source</a> project, you may use it free of charge."
 msgstr "Da WinMerge ein <a href=\"%s\">Open-Source</a>-Projekt ist, können Sie es kostenlos verwenden."
@@ -305,7 +305,7 @@ msgstr "Positionsleiste zeigt Karte der verglichenen Dateien"
 msgid "For information on using WinMerge, see our <a href=\"%s\">online Manual</a>, or you can use the local help file (just press <code>F1</code> inside WinMerge) for offline use."
 msgstr "Weitere Informationen zur Verwendung von WinMerge finden Sie in unserem englischen <a href=\"%s\">Online-Handbuch</a>, oder Sie können die lokale Hilfe-Datei (drücken Sie einfach <code>F1</code> in WinMerge) für die Offline-Nutzung verwenden."
 
-#: engine/page.inc:327 support/index.php:47
+#: engine/page.inc:327 support/index.php:52
 #, c-format
 msgid "Donate"
 msgstr "Spenden"
@@ -879,7 +879,7 @@ msgstr "WinMerge Tracker"
 msgid "WinMerge, support, discussion forums, mailing lists, tracker, donate, bugs, support requests, patches, feature requests, todo, open source, sourceforge.net"
 msgstr "WinMerge, Support, Diskussionsforen, Verteilerlisten, Tracker, Spenden, Fehler, Supportanfragen, Patches, Funktionsanfragen, Todo, Open-Source, sourceforge.net"
 
-#: support/index.php:44
+#: support/index.php:49
 #, c-format
 msgid "View all active topics&hellip;"
 msgstr "Alle aktive Themen ansehen&hellip;"
@@ -1860,3 +1860,13 @@ msgstr "Verwenden Sie das gleiche Programm unter Windows und Linux."
 #, c-format
 msgid "WinMerge <em>will not</em> be just WinMerge 2 with new GUI. There will be radical changes in how WinMerge works and how it looks. Many features won’t be available anymore and new features will be added."
 msgstr ""
+
+#: support/index.php:45
+#, c-format
+msgid "last post by <strong>%1$s</strong> at %2$s"
+msgstr "letzter Eintrag von <strong>%1$s</strong> am %2$s"
+
+#: support/index.php:45
+#, c-format
+msgid "Y-m-d H:i"
+msgstr "d.m.Y H:i"

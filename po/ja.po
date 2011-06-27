@@ -243,7 +243,7 @@ msgstr "WinMerge %s - ソースコード"
 msgid "This is WinMerge packaged with a PortableApps.com Launcher as a <a href=\"%s\">portable app</a>, so you can compare files on the go."
 msgstr "<a href=\"%s\">ポータブルアプリケーション</a>として PortableApps.com のランチャーと共にパッケージされた WinMergeです。これを使用するといつでもどこでも絶えずファイルを比較できます。"
 
-#: support/index.php:49
+#: support/index.php:54
 #, c-format
 msgid "But please consider making a <a href=\"%s\">donation</a> to support the continued development of WinMerge."
 msgstr "しかしながら、WinMerge の開発継続をサポートするために<a href=\"%s\">寄付</a>をご考慮ください。"
@@ -264,7 +264,7 @@ msgstr "ダウンロード"
 msgid "Home"
 msgstr "ホーム"
 
-#: support/index.php:48
+#: support/index.php:53
 #, c-format
 msgid "Since WinMerge is an <a href=\"%s\">Open Source</a> project, you may use it free of charge."
 msgstr "WinMerge は、<a href=\"%s\">オープンソース</a>プロジェクトですから、無償でご使用いただけます。"
@@ -305,7 +305,7 @@ msgstr "ロケーションペインは、比較されたファイルのマップ
 msgid "For information on using WinMerge, see our <a href=\"%s\">online Manual</a>, or you can use the local help file (just press <code>F1</code> inside WinMerge) for offline use."
 msgstr "WinMerge の使用についての情報は、<a href=\"%s\">オンラインマニュアル</a>をご覧になるか、オフライン用のローカルヘルプファイル(WinMerge 内で<code>F1</code>を押下)をご使用ください。"
 
-#: engine/page.inc:327 support/index.php:47
+#: engine/page.inc:327 support/index.php:52
 #, c-format
 msgid "Donate"
 msgstr "寄付"
@@ -879,7 +879,7 @@ msgstr "WinMerge トラッカー"
 msgid "WinMerge, support, discussion forums, mailing lists, tracker, donate, bugs, support requests, patches, feature requests, todo, open source, sourceforge.net"
 msgstr "WinMerge, サポート, ディスカッションフォーラム, メーリングリスト, トラッカー, 寄付, バグ, サポート要求, パッチ, 機能要求, todo, オープンソース, sourceforge.net"
 
-#: support/index.php:44
+#: support/index.php:49
 #, c-format
 msgid "View all active topics&hellip;"
 msgstr ""
@@ -1859,4 +1859,14 @@ msgstr ""
 #: index.php:33
 #, c-format
 msgid "You can use the same tool in Windows and in Linux."
+msgstr ""
+
+#: support/index.php:45
+#, c-format
+msgid "last post by <strong>%1$s</strong> at %2$s"
+msgstr ""
+
+#: support/index.php:45
+#, c-format
+msgid "Y-m-d H:i"
 msgstr ""

@@ -243,7 +243,7 @@ msgstr "WinMerge %s - källkod"
 msgid "This is WinMerge packaged with a PortableApps.com Launcher as a <a href=\"%s\">portable app</a>, so you can compare files on the go."
 msgstr "Detta är WinMerge paketterat med en PortableApps.com startare som en <a href=\"%s\">portabel applikation</a>, så du kan jämföra filer direkt."
 
-#: support/index.php:49
+#: support/index.php:54
 #, c-format
 msgid "But please consider making a <a href=\"%s\">donation</a> to support the continued development of WinMerge."
 msgstr "Men snälla tänk på om du vill göra en <a href=\"%s\">donation</a> för att stödja den fortsatta utvecklingen av WinMerge."
@@ -264,7 +264,7 @@ msgstr "Ladda ner"
 msgid "Home"
 msgstr "Hem"
 
-#: support/index.php:48
+#: support/index.php:53
 #, c-format
 msgid "Since WinMerge is an <a href=\"%s\">Open Source</a> project, you may use it free of charge."
 msgstr "Eftersom WinMerge är ett <a href=\"%s\">Open Source</a> projekt, kan du använda det gratis."
@@ -305,7 +305,7 @@ msgstr "Skillnadsfält visar en karta på jämförda filer"
 msgid "For information on using WinMerge, see our <a href=\"%s\">online Manual</a>, or you can use the local help file (just press <code>F1</code> inside WinMerge) for offline use."
 msgstr "För information om att använda WinMerge, se vår <a href=\"%s\">online Manual</a>, eller använd den lokala hjälpfilen (tryck bara på <code>F1</code> i WinMerge) för fristående användning."
 
-#: engine/page.inc:327 support/index.php:47
+#: engine/page.inc:327 support/index.php:52
 #, c-format
 msgid "Donate"
 msgstr "Donera"
@@ -879,7 +879,7 @@ msgstr "WinMerge Tracker"
 msgid "WinMerge, support, discussion forums, mailing lists, tracker, donate, bugs, support requests, patches, feature requests, todo, open source, sourceforge.net"
 msgstr "WinMerge, support, discussionsforum, mailinglistor, tracker, donera, fel, supportäskanden, patchar, funktionsäskanden, att göra, Open Source, sourceforge.net"
 
-#: support/index.php:44
+#: support/index.php:49
 #, c-format
 msgid "View all active topics&hellip;"
 msgstr ""
@@ -1859,4 +1859,14 @@ msgstr ""
 #: index.php:33
 #, c-format
 msgid "You can use the same tool in Windows and in Linux."
+msgstr ""
+
+#: support/index.php:45
+#, c-format
+msgid "last post by <strong>%1$s</strong> at %2$s"
+msgstr ""
+
+#: support/index.php:45
+#, c-format
+msgid "Y-m-d H:i"
 msgstr ""

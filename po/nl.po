@@ -243,7 +243,7 @@ msgstr "WinMerge %s - Broncode"
 msgid "This is WinMerge packaged with a PortableApps.com Launcher as a <a href=\"%s\">portable app</a>, so you can compare files on the go."
 msgstr "Dit is WinMerge samengevoegd met een PortableApps.com Launcher als een <a href=\"%s\">portable app</a>, zodat u bestanden kan vergelijken zonder dat het programma geïnstalleerd hoeft te worden."
 
-#: support/index.php:49
+#: support/index.php:54
 #, c-format
 msgid "But please consider making a <a href=\"%s\">donation</a> to support the continued development of WinMerge."
 msgstr "Gelieve te overwegen om een <a href=\"%s\">donatie</a> te maken om de voortgezette ontwikkeling van Winmerge te ondersteunen."
@@ -264,7 +264,7 @@ msgstr "Downloaden"
 msgid "Home"
 msgstr "Home"
 
-#: support/index.php:48
+#: support/index.php:53
 #, c-format
 msgid "Since WinMerge is an <a href=\"%s\">Open Source</a> project, you may use it free of charge."
 msgstr "Omdat WinMerge een <a href=\"%s\">Open Source</a>-project is, mag u het gratis gebruiken."
@@ -305,7 +305,7 @@ msgstr "Het locatievenster toont een kaart van de vergeleken bestanden"
 msgid "For information on using WinMerge, see our <a href=\"%s\">online Manual</a>, or you can use the local help file (just press <code>F1</code> inside WinMerge) for offline use."
 msgstr "Voor informatie over het gebruik van WinMerge, zie onze <a href=\"%s\">online handleiding</a>, of u kan het lokale helpbestand gebruiken (druk op <code>F1</code> binnen Winmerge) voor offline gebruik."
 
-#: engine/page.inc:327 support/index.php:47
+#: engine/page.inc:327 support/index.php:52
 #, c-format
 msgid "Donate"
 msgstr "Doneren"
@@ -879,7 +879,7 @@ msgstr "WinMerge tracker"
 msgid "WinMerge, support, discussion forums, mailing lists, tracker, donate, bugs, support requests, patches, feature requests, todo, open source, sourceforge.net"
 msgstr "WinMerge, ondersteuning, discussieforums, maillijsten, tracker, doneren, bugs, ondersteuningsaanvragen, patches, functie-aanvragen,te doen, open source, sourceforge.net"
 
-#: support/index.php:44
+#: support/index.php:49
 #, c-format
 msgid "View all active topics&hellip;"
 msgstr "Alle actieve topics weergeven&hellip;"
@@ -1859,4 +1859,14 @@ msgstr ""
 #: index.php:33
 #, c-format
 msgid "You can use the same tool in Windows and in Linux."
+msgstr ""
+
+#: support/index.php:45
+#, c-format
+msgid "last post by <strong>%1$s</strong> at %2$s"
+msgstr ""
+
+#: support/index.php:45
+#, c-format
+msgid "Y-m-d H:i"
 msgstr ""

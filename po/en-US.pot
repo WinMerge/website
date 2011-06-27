@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WinMerge\n"
 "Report-Msgid-Bugs-To: http://bugs.winmerge.org\n"
-"POT-Creation-Date: 2011-04-24 13:30+0000\n"
+"POT-Creation-Date: 2011-06-27 21:26+0000\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: English <winmerge-translate@lists.sourceforge.net>\n"
@@ -240,7 +240,7 @@ msgstr ""
 msgid "This is WinMerge packaged with a PortableApps.com Launcher as a <a href=\"%s\">portable app</a>, so you can compare files on the go."
 msgstr ""
 
-#: support/index.php:49
+#: support/index.php:54
 #, c-format
 msgid "But please consider making a <a href=\"%s\">donation</a> to support the continued development of WinMerge."
 msgstr ""
@@ -287,6 +287,11 @@ msgstr ""
 msgid "Just download the <a href=\"%s\">installer</a> and double-click it."
 msgstr ""
 
+#: support/index.php:45
+#, c-format
+msgid "last post by <strong>%1$s</strong> at %2$s"
+msgstr ""
+
 #: downloads/pad-file.php:72
 #, c-format
 msgid "Web Addresses"
@@ -302,7 +307,7 @@ msgstr ""
 msgid "For information on using WinMerge, see our <a href=\"%s\">online Manual</a>, or you can use the local help file (just press <code>F1</code> inside WinMerge) for offline use."
 msgstr ""
 
-#: engine/page.inc:327 support/index.php:47
+#: engine/page.inc:327 support/index.php:52
 #, c-format
 msgid "Donate"
 msgstr ""
@@ -881,6 +886,11 @@ msgstr ""
 msgid "Information"
 msgstr ""
 
+#: support/index.php:45
+#, c-format
+msgid "Y-m-d H:i"
+msgstr ""
+
 #: downloads/plugins.php:31
 #, c-format
 msgid "xdocdiff Plugin"
@@ -896,7 +906,7 @@ msgstr ""
 msgid "WinMerge, support, discussion forums, mailing lists, tracker, donate, bugs, support requests, patches, feature requests, todo, open source, sourceforge.net"
 msgstr ""
 
-#: support/index.php:44
+#: support/index.php:49
 #, c-format
 msgid "View all active topics&hellip;"
 msgstr ""
@@ -1422,7 +1432,7 @@ msgstr ""
 msgid "<b>GnuWin32</b> provides Win32 ports of tools with a <a href=\"%1$s\">GNU</a> or similar <a href=\"%2$s\">open source license</a>."
 msgstr ""
 
-#: support/index.php:48
+#: support/index.php:53
 #, c-format
 msgid "Since WinMerge is an <a href=\"%s\">Open Source</a> project, you may use it free of charge."
 msgstr ""
