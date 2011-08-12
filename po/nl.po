@@ -148,8 +148,8 @@ msgstr "Het WinMerge-ontwikkelingsteam"
 
 #: links.php:18
 #, c-format
-msgid "<b>External diff Tool</b> is an <a href=\"%s\">Eclipse</a> Plugin</a> that allows the launch of WinMerge (or an other external diff tool) for file compares rather than the default built-in Eclipse diff tool."
-msgstr "<b>Externe vergelijkingstool</b> is een <a href=\"%s\">Eclipse</a>-plugin</a> die toestaat dat WinMerge (of een andere externe vergelijkingstoepassing) gebruikt wordt voor bestandsvergelijking in plaats van de standaard ingebouwde Eclipse vergelijkingstoepassing."
+msgid "<b>External diff Tool</b> is an <a href=\"%s\">Eclipse</a> Plugin that allows the launch of WinMerge (or an other external diff tool) for file compares rather than the default built-in Eclipse diff tool."
+msgstr "<b>Externe vergelijkingstool</b> is een <a href=\"%s\">Eclipse</a>-plugin die toestaat dat WinMerge (of een andere externe vergelijkingstoepassing) gebruikt wordt voor bestandsvergelijking in plaats van de standaard ingebouwde Eclipse vergelijkingstoepassing."
 
 #: translations/index.php:40
 #, c-format

@@ -15,7 +15,7 @@
   <dt><a href="http://gnuwin32.sourceforge.net/">GnuWin32</a></dt>
   <dd><?php __e('<b>GnuWin32</b> provides Win32 ports of tools with a <a href="%1$s">GNU</a> or similar <a href="%2$s">open source license</a>.', 'http://www.gnu.org/', 'http://opensource.org/licenses/');?></dd>
   <dt><a href="https://sourceforge.net/projects/externaldiff">External diff Tool</a></dt>
-  <dd><?php __e('<b>External diff Tool</b> is an <a href="%s">Eclipse</a> Plugin</a> that allows the launch of WinMerge (or an other external diff tool) for file compares rather than the default built-in Eclipse diff tool.', 'http://www.eclipse.org/');?></dd>
+  <dd><?php __e('<b>External diff Tool</b> is an <a href="%s">Eclipse</a> Plugin that allows the launch of WinMerge (or an other external diff tool) for file compares rather than the default built-in Eclipse diff tool.', 'http://www.eclipse.org/');?></dd>
   <dt><a href="http://tortoisesvn.tigris.org/">TortoiseSVN</a></dt>
   <dd><?php __e('<b>TortoiseSVN</b> lets you work with files under <em>Subversion</em> version control directly from Windows Explorer.');?></dd>
   <dt><a href="http://frhed.sourceforge.net/">Frhed</a></dt>

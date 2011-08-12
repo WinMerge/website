@@ -148,7 +148,7 @@ msgstr "L'équipe de développement de Winmerge"
 
 #: links.php:18
 #, c-format
-msgid "<b>External diff Tool</b> is an <a href=\"%s\">Eclipse</a> Plugin</a> that allows the launch of WinMerge (or an other external diff tool) for file compares rather than the default built-in Eclipse diff tool."
+msgid "<b>External diff Tool</b> is an <a href=\"%s\">Eclipse</a> Plugin that allows the launch of WinMerge (or an other external diff tool) for file compares rather than the default built-in Eclipse diff tool."
 msgstr ""
 
 #: translations/index.php:40
