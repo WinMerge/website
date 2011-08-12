@@ -1191,7 +1191,7 @@ msgstr "Handleiding"
 msgid "Project File Releases"
 msgstr "Projectbestand-releases"
 
-#: engine/engine.inc:25
+#: engine/engine.inc:26
 #, c-format
 msgid "Turkish"
 msgstr "Türkçe"
@@ -1534,7 +1534,7 @@ msgstr "De <a href=\"%1$s\">vrijgave-opmerkingen</a> zijn een korte opsomming va
 msgid "Difference pane shows current difference in two vertical panes"
 msgstr "Verschilpaneel toont het huidige verschil in twee verticale panelen"
 
-#: engine/engine.inc:24
+#: engine/engine.inc:25
 #, c-format
 msgid "Swedish"
 msgstr "Svenska"
@@ -1869,4 +1869,9 @@ msgstr ""
 #: support/index.php:45
 #, c-format
 msgid "Y-m-d H:i"
+msgstr ""
+
+#: engine/engine.inc:24
+#, c-format
+msgid "Polish"
 msgstr ""

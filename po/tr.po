@@ -1525,7 +1525,7 @@ msgstr "<a href=\"%1$s\">Yayın notları</a> geçerli WinMerge yayınındaki ön
 msgid "Difference pane shows current difference in two vertical panes"
 msgstr "Fark paneli iki dikey panel arasında o andaki bulunulan farkı gösterir"
 
-#: engine/engine.inc:24
+#: engine/engine.inc:25
 #, c-format
 msgid "Swedish"
 msgstr "İsveçce"
@@ -1817,7 +1817,7 @@ msgstr "Yayınlanan tüm dosyaları göster&hellip;"
 msgid "Bookmark this on Delicious"
 msgstr "Bunu Delicious'ta işaretle"
 
-#: engine/engine.inc:25
+#: engine/engine.inc:26
 #, c-format
 msgid "Turkish"
 msgstr ""
@@ -1865,4 +1865,9 @@ msgstr ""
 #: support/index.php:45
 #, c-format
 msgid "Y-m-d H:i"
+msgstr ""
+
+#: engine/engine.inc:24
+#, c-format
+msgid "Polish"
 msgstr ""

@@ -1529,7 +1529,7 @@ msgstr "この<a href=\"%1$s\">リリースノート</a>は、現在の WinMerge
 msgid "Difference pane shows current difference in two vertical panes"
 msgstr "Diff ペインは、2つの縦に並べたペインで現在の差異を表示します"
 
-#: engine/engine.inc:24
+#: engine/engine.inc:25
 #, c-format
 msgid "Swedish"
 msgstr "Swedish"
@@ -1821,7 +1821,7 @@ msgstr "すべてのリリースされたファイルをみる&hellip;"
 msgid "Bookmark this on Delicious"
 msgstr "このページを Delicious へブックマークする"
 
-#: engine/engine.inc:25
+#: engine/engine.inc:26
 #, c-format
 msgid "Turkish"
 msgstr ""
@@ -1869,4 +1869,9 @@ msgstr ""
 #: support/index.php:45
 #, c-format
 msgid "Y-m-d H:i"
+msgstr ""
+
+#: engine/engine.inc:24
+#, c-format
+msgid "Polish"
 msgstr ""

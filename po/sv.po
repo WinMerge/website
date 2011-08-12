@@ -1529,7 +1529,7 @@ msgstr "<a href=\"%1$s\">Releasenoteringarna</a> är en kort sammanfattning av v
 msgid "Difference pane shows current difference in two vertical panes"
 msgstr "Skillnadsfältet visar aktuella skillnader i två vertikala fält"
 
-#: engine/engine.inc:24
+#: engine/engine.inc:25
 #, c-format
 msgid "Swedish"
 msgstr "Svenska"
@@ -1821,7 +1821,7 @@ msgstr "Visa alla filreleaser&hellip;"
 msgid "Bookmark this on Delicious"
 msgstr "Bokmärk detta på Delicious"
 
-#: engine/engine.inc:25
+#: engine/engine.inc:26
 #, c-format
 msgid "Turkish"
 msgstr ""
@@ -1869,4 +1869,9 @@ msgstr ""
 #: support/index.php:45
 #, c-format
 msgid "Y-m-d H:i"
+msgstr ""
+
+#: engine/engine.inc:24
+#, c-format
+msgid "Polish"
 msgstr ""

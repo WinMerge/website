@@ -1529,7 +1529,7 @@ msgstr "Die <a href=\"%1$s\">Versionshinweise</a> sind eine kurze Zusammenfassun
 msgid "Difference pane shows current difference in two vertical panes"
 msgstr "Unterschiedsleiste zeigt Unterschiede in zwei vertikalen Fenstern"
 
-#: engine/engine.inc:24
+#: engine/engine.inc:25
 #, c-format
 msgid "Swedish"
 msgstr "Schwedisch"
@@ -1821,7 +1821,7 @@ msgstr "Alle Dateifreigaben ansehen&hellip;"
 msgid "Bookmark this on Delicious"
 msgstr "Bookmarken Sie diese Seite bei Delicious"
 
-#: engine/engine.inc:25
+#: engine/engine.inc:26
 #, c-format
 msgid "Turkish"
 msgstr "Türkisch"
@@ -1870,3 +1870,8 @@ msgstr "letzter Eintrag von <strong>%1$s</strong> am %2$s"
 #, c-format
 msgid "Y-m-d H:i"
 msgstr "d.m.Y H:i"
+
+#: engine/engine.inc:24
+#, c-format
+msgid "Polish"
+msgstr "Polnisch"

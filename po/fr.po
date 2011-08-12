@@ -1529,7 +1529,7 @@ msgstr "Les <a href=\"%1$s\">notes de version</a> sont un court résumé des cha
 msgid "Difference pane shows current difference in two vertical panes"
 msgstr "Le panneau des différences montre les différences actuelles entre les deux panneaux verticaux"
 
-#: engine/engine.inc:24
+#: engine/engine.inc:25
 #, c-format
 msgid "Swedish"
 msgstr "Suédois"
@@ -1821,7 +1821,7 @@ msgstr "Voir toutes les versions de fichier&hellip;"
 msgid "Bookmark this on Delicious"
 msgstr "Ajouter aux favoris sur Délicious"
 
-#: engine/engine.inc:25
+#: engine/engine.inc:26
 #, c-format
 msgid "Turkish"
 msgstr ""
@@ -1869,4 +1869,9 @@ msgstr ""
 #: support/index.php:45
 #, c-format
 msgid "Y-m-d H:i"
+msgstr ""
+
+#: engine/engine.inc:24
+#, c-format
+msgid "Polish"
 msgstr ""

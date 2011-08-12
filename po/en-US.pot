@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WinMerge\n"
 "Report-Msgid-Bugs-To: http://bugs.winmerge.org\n"
-"POT-Creation-Date: 2011-06-27 21:26+0000\n"
+"POT-Creation-Date: 2011-08-12 12:57+0000\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: English <winmerge-translate@lists.sourceforge.net>\n"
@@ -141,11 +141,6 @@ msgstr ""
 #: index.php:56
 #, c-format
 msgid "The WinMerge Development Team"
-msgstr ""
-
-#: links.php:18
-#, c-format
-msgid "<b>External diff Tool</b> is an <a href=\"%s\">Eclipse</a> Plugin that allows the launch of WinMerge (or an other external diff tool) for file compares rather than the default built-in Eclipse diff tool."
 msgstr ""
 
 #: translations/index.php:40
@@ -886,6 +881,11 @@ msgstr ""
 msgid "Information"
 msgstr ""
 
+#: links.php:18
+#, c-format
+msgid "<b>External diff Tool</b> is an <a href=\"%s\">Eclipse</a> Plugin that allows the launch of WinMerge (or an other external diff tool) for file compares rather than the default built-in Eclipse diff tool."
+msgstr ""
+
 #: support/index.php:45
 #, c-format
 msgid "Y-m-d H:i"
@@ -1218,7 +1218,7 @@ msgstr ""
 msgid "Project File Releases"
 msgstr ""
 
-#: engine/engine.inc:25
+#: engine/engine.inc:26
 #, c-format
 msgid "Turkish"
 msgstr ""
@@ -1562,7 +1562,7 @@ msgstr ""
 msgid "Difference pane shows current difference in two vertical panes"
 msgstr ""
 
-#: engine/engine.inc:24
+#: engine/engine.inc:25
 #, c-format
 msgid "Swedish"
 msgstr ""
@@ -1645,6 +1645,11 @@ msgstr ""
 #: engine/page.inc:244
 #, c-format
 msgid "Version %1$s; %2$s MB"
+msgstr ""
+
+#: engine/engine.inc:24
+#, c-format
+msgid "Polish"
 msgstr ""
 
 #: translations/translations.inc:81 translations/translations.inc:95

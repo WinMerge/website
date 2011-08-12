@@ -17,9 +17,9 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: pl\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
-"X-Poedit-Basepath: ../htdocs/\n"
 "X-Poedit-Language: Polish\n"
 "X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-Basepath: ../htdocs/\n"
 
 #: docs/changelog.php:11
 #, c-format
@@ -1539,7 +1539,7 @@ msgstr "Historia WinMerge"
 msgid "Project File Releases"
 msgstr "Wydania Pliku Projektu"
 
-#: engine/engine.inc:25
+#: engine/engine.inc:26
 #, c-format
 msgid "Turkish"
 msgstr "Türkçe"
@@ -1985,7 +1985,7 @@ msgstr ""
 msgid "Difference pane shows current difference in two vertical panes"
 msgstr "Panel różnic pokazuje bieżące różnice na dwóch pionowych paskach."
 
-#: engine/engine.inc:24
+#: engine/engine.inc:25
 #, c-format
 msgid "Swedish"
 msgstr "Svenska"
@@ -2339,3 +2339,8 @@ msgstr "Przegląd wszystkich wersji pliku&hellip;"
 #, c-format
 msgid "Bookmark this on Delicious"
 msgstr "Dodaj do ulubionych na Delicious"
+
+#: engine/engine.inc:24
+#, c-format
+msgid "Polish"
+msgstr ""
