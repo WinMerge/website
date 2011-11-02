@@ -68,6 +68,7 @@
   <li><a href="http://sourceforge.net/project/showfiles.php?group_id=13216&amp;package_id=92246"><?php __e('Experimental Builds');?></a></li>
   <li><a href="http://portableapps.com/apps/utilities/winmerge_portable"><?php __e('WinMerge Portable');?></a> <?php __e('(by PortableApps.com)');?></li>
   <li><a href="http://www.geocities.co.jp/SiliconValley-SanJose/8165/winmerge.html"><?php __e('Japanese WinMerge Version');?></a> (by Takashi Sawanaka)</li>
+  <li><a href="http://www.geocities.co.jp/SiliconValley-SanJose/8165/unofficial_winmerge_nightly_builds.html"><?php __e('Unofficial WinMerge Builds');?></a> (by Takashi Sawanaka)</li>
 </ul>
 <?php
   $page->printRssSubHeading(__('Project File Releases'), 'http://sourceforge.net/api/file/index/project-id/13216/rss');
