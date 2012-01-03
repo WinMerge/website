@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WinMerge\n"
 "Report-Msgid-Bugs-To: http://bugs.winmerge.org\n"
-"POT-Creation-Date: 2011-08-12 12:57+0000\n"
+"POT-Creation-Date: 2012-01-03 02:09+0000\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: English <winmerge-translate@lists.sourceforge.net>\n"
@@ -209,6 +209,11 @@ msgstr ""
 msgid "Zip-Format (%s MB)"
 msgstr ""
 
+#: engine/engine.inc:20
+#, c-format
+msgid "Greek"
+msgstr ""
+
 #: downloads/pad-file.php:94
 #, c-format
 msgid "Contact"
@@ -382,7 +387,7 @@ msgstr ""
 msgid "File Compare"
 msgstr ""
 
-#: engine/engine.inc:20
+#: engine/engine.inc:21
 #, c-format
 msgid "German"
 msgstr ""
@@ -439,7 +444,7 @@ msgstr ""
 msgid "File Comparison"
 msgstr ""
 
-#: engine/engine.inc:23
+#: engine/engine.inc:24
 #, c-format
 msgid "Dutch"
 msgstr ""
@@ -499,7 +504,7 @@ msgstr ""
 msgid "The following pages inform you about the translations status of the stable version, developer version and website of WinMerge:"
 msgstr ""
 
-#: engine/engine.inc:22
+#: engine/engine.inc:23
 #, c-format
 msgid "Japanese"
 msgstr ""
@@ -918,9 +923,14 @@ msgstr ""
 msgid "Language"
 msgstr ""
 
-#: downloads/index.php:88 index.php:44
+#: downloads/index.php:90 index.php:44
 #, c-format
 msgid "Y-m-d"
+msgstr ""
+
+#: downloads/index.php:71
+#, c-format
+msgid "Unofficial WinMerge Builds"
 msgstr ""
 
 #: engine/page.inc:327
@@ -1011,7 +1021,7 @@ msgstr ""
 msgid "WinMerge PAD File"
 msgstr ""
 
-#: engine/engine.inc:21
+#: engine/engine.inc:22
 #, c-format
 msgid "French"
 msgstr ""
@@ -1213,12 +1223,12 @@ msgstr ""
 msgid "WinMerge History"
 msgstr ""
 
-#: downloads/index.php:9 downloads/index.php:73
+#: downloads/index.php:9 downloads/index.php:75
 #, c-format
 msgid "Project File Releases"
 msgstr ""
 
-#: engine/engine.inc:26
+#: engine/engine.inc:27
 #, c-format
 msgid "Turkish"
 msgstr ""
@@ -1562,7 +1572,7 @@ msgstr ""
 msgid "Difference pane shows current difference in two vertical panes"
 msgstr ""
 
-#: engine/engine.inc:25
+#: engine/engine.inc:26
 #, c-format
 msgid "Swedish"
 msgstr ""
@@ -1647,7 +1657,7 @@ msgstr ""
 msgid "Version %1$s; %2$s MB"
 msgstr ""
 
-#: engine/engine.inc:24
+#: engine/engine.inc:25
 #, c-format
 msgid "Polish"
 msgstr ""
@@ -1859,7 +1869,7 @@ msgstr ""
 msgid "Development List"
 msgstr ""
 
-#: downloads/index.php:90
+#: downloads/index.php:92
 #, c-format
 msgid "View all file releases&hellip;"
 msgstr ""
