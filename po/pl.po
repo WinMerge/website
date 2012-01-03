@@ -1,15 +1,14 @@
 # This file is part from WinMerge <http://winmerge.org/>
 # Released under the "GNU General Public License"
 # 
-# Maintainer:
-# * Begina Felicysym <begina.felicysym@wp.eu>, 2011.
-# 
+# Translators:
+# Begina Felicysym <begina.felicysym@wp.eu>, 2011.
 msgid ""
 msgstr ""
 "Project-Id-Version: WinMerge Website\n"
 "Report-Msgid-Bugs-To: http://bitbucket.org/kimmov/winmerge-web/issues\n"
-"POT-Creation-Date: 2011-06-27 21:26+0000\n"
-"PO-Revision-Date: 2011-08-12 10:32+0000\n"
+"POT-Creation-Date: 2011-08-12 12:57+0000\n"
+"PO-Revision-Date: 2011-08-15 18:05+0000\n"
 "Last-Translator: Begina Felicysym <begina.felicysym@wp.eu>\n"
 "Language-Team: Polish (http://www.transifex.net/projects/p/winmerge-web/team/pl/)\n"
 "MIME-Version: 1.0\n"
@@ -17,9 +16,9 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: pl\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
-"X-Poedit-Language: Polish\n"
-"X-Poedit-SourceCharset: utf-8\n"
 "X-Poedit-Basepath: ../htdocs/\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-SourceCharset: utf-8\n"
 
 #: docs/changelog.php:11
 #, c-format
@@ -195,14 +194,6 @@ msgstr "Normalny Ruch"
 #, c-format
 msgid "The WinMerge Development Team"
 msgstr "Zespół Rozwoju WinMerge"
-
-#: links.php:18
-#, c-format
-msgid ""
-"<b>External diff Tool</b> is an <a href=\"%s\">Eclipse</a> Plugin that "
-"allows the launch of WinMerge (or an other external diff tool) for file "
-"compares rather than the default built-in Eclipse diff tool."
-msgstr ""
 
 #: translations/index.php:40
 #, c-format
@@ -1135,6 +1126,18 @@ msgstr "Wsparcie unikodu"
 #, c-format
 msgid "Information"
 msgstr "Informacja"
+
+#: links.php:18
+#, c-format
+msgid ""
+"<b>External diff Tool</b> is an <a href=\"%s\">Eclipse</a> Plugin that "
+"allows the launch of WinMerge (or an other external diff tool) for file "
+"compares rather than the default built-in Eclipse diff tool."
+msgstr ""
+"<b>Zewnętrzne Narzędzie Porównania</b> to Wtyczka <a href=\"%s\">Eclipse</a>"
+" dająca możliwość uruchomienia WinMerge (lub innego zewnętrznego programu "
+"porównującego) dla wykonania porównań zamiast domyślnego wbudowanego "
+"narzędzia porównania Eclipse."
 
 #: support/index.php:45
 #, c-format
@@ -2084,6 +2087,11 @@ msgstr "Aktualności Projektu"
 msgid "Version %1$s; %2$s MB"
 msgstr "Wersja %1$s; %2$s MB"
 
+#: engine/engine.inc:24
+#, c-format
+msgid "Polish"
+msgstr "Polski"
+
 #: translations/translations.inc:81 translations/translations.inc:95
 #: translations/translations.inc:133 translations/translations_branch.inc:49
 #: translations/translations_branch.inc:68
@@ -2340,7 +2348,4 @@ msgstr "Przegląd wszystkich wersji pliku&hellip;"
 msgid "Bookmark this on Delicious"
 msgstr "Dodaj do ulubionych na Delicious"
 
-#: engine/engine.inc:24
-#, c-format
-msgid "Polish"
-msgstr ""
+
