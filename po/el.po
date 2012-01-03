@@ -1,0 +1,2362 @@
+# This file is part from WinMerge <http://winmerge.org/>
+# Released under the "GNU General Public License"
+# 
+# Translators:
+msgid ""
+msgstr ""
+"Project-Id-Version: WinMerge Website\n"
+"Report-Msgid-Bugs-To: http://bitbucket.org/kimmov/winmerge-web/issues\n"
+"POT-Creation-Date: 2011-08-12 12:57+0000\n"
+"PO-Revision-Date: 2011-12-06 23:28+0000\n"
+"Last-Translator: Epameinondas Soufleros <epsouf@hotmail.gr>\n"
+"Language-Team: Greek (Greece) (http://www.transifex.net/projects/p/winmerge-web/team/el_GR/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: el_GR\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"X-Poedit-Basepath: ../htdocs/\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: docs/changelog.php:11
+#, c-format
+msgid "The change log is currently not available..."
+msgstr "Ο κατάλογος αλλαγών δεν είναι διαθέσιμος αυτήν τη στιγμή..."
+
+#: index.php:13
+#, c-format
+msgid "What is WinMerge?"
+msgstr "Τι είναι το WinMerge;"
+
+#: downloads/index.php:53
+#, c-format
+msgid ""
+"You can also download additional <a href=\"%1$s\">plugins</a> and the whole "
+"<a href=\"%2$s\">source code</a> from WinMerge."
+msgstr ""
+"Μπορείτε να κατεβάσετε και <a href=\"%1$s\">πρόσθετα</a> καθώς και όλον τον "
+"<a href=\"%2$s\">πηγαίο κώδικα</a> από το WinMerge."
+
+#: engine/page.inc:312
+#, c-format
+msgid "WinMerge Change Log"
+msgstr "Κατάλογος αλλαγών WinMerge"
+
+#: about/screenshots/index.php:27 about/screenshots/index.php:28
+#, c-format
+msgid "Location Pane"
+msgstr "Παράθυρο θέσης"
+
+#: translations/index.php:39
+#, c-format
+msgid "Stable Version (Branch)"
+msgstr "Σταθερή έκδοση (κλάδος)"
+
+#: about/license.php:5
+#, c-format
+msgid ""
+"WinMerge is Open Source software under the GNU General Public License. This "
+"means everybody can download the source code and improve and modify it."
+msgstr ""
+"Το WinMerge είναι λογισμικό ανοιχτού κώδικα διεπόμενο από τη Γενική Δημόσια "
+"Άδεια GNU. Αυτό σημαίνει ότι καθένας μπορεί να κατεβάσει τον πηγαίο κώδικα "
+"και να τον βελτιώσει/τροποποιήσει."
+
+#: links.php:31
+#, c-format
+msgid "Regular expressions tutorial"
+msgstr "Μάθημα για τις κανονικές παραστάσεις"
+
+#: about/screenshots/index.php:32
+#, c-format
+msgid "WinMerge 2.8 has a new professional looking splash screen."
+msgstr "Το WinMerge 2.8 έχει μια νέα, επαγγελματική οθόνη εκκίνησης."
+
+#: engine/page.inc:304
+#, c-format
+msgid "WinMerge License"
+msgstr "Άδεια WinMerge"
+
+#: about/index.php:16
+#, c-format
+msgid ""
+"In addition, WinMerge has many helpful supporting features that make "
+"comparing, synchronising, and merging as easy and useful as possible:"
+msgstr ""
+"Επιπλέον, το WinMerge διαθέτει πλήθος χρήσιμων υποστηρικτικών δυνατοτήτων "
+"για μεγιστοποίηση της ευκολίας και χρησιμότητας της σύγκρισης, του "
+"συγχρονισμού και της συγχώνευσης:"
+
+#: 404.php:19
+#, c-format
+msgid "<a href=\"%s\">Documentation</a>?"
+msgstr "<a href=\"%s\">Τεκμηρίωση</a>;"
+
+#: downloads/index.php:28 downloads/index.php:34 downloads/plugins.php:22
+#: downloads/source-code.php:18
+#, c-format
+msgid "7z-Format (%s MB)"
+msgstr "Μορφή 7z (%s MB)"
+
+#: about/index.php:74
+#, c-format
+msgid ""
+"For more information, please see the <a href=\"%1$s\">Installation "
+"section</a> of the <a href=\"%2$s\">Manual</a>."
+msgstr ""
+"Για περισσότερες πληροφορίες, ανατρέξτε στην <a href=\"%1$s\">ενότητα "
+"«Εγκατάσταση»</a> του <a href=\"%2$s\">εγχειριδίου χρήσης</a>."
+
+#: support/tracker-shortcuts.php:10
+#, c-format
+msgid ""
+"<em>Tracker Shortcuts</em> are shorter and nicer URLs to <a "
+"href=\"%1$s\">Tracker</a> items from our <a href=\"%2$s\">SF.net project "
+"page</a>."
+msgstr ""
+"Οι <em>Συντομεύσεις Ιχνηλάτη</em> είναι μικρότερα, πιο εύχρηστα URL προς "
+"στοιχεία του <a href=\"%1$s\">Ιχνηλάτη</a> από τη <a href=\"%2$s\">σελίδα "
+"του έργου μας στο SF.net</a>."
+
+#: support/tracker-shortcuts.php:14
+#, c-format
+msgid "Patch"
+msgstr "Patch"
+
+#: about/screenshots/index.php:20
+#, c-format
+msgid ""
+"Folder compare shows all files and subfolders found from compared folders as"
+" list. Folder compare allows synchronising folders by copying and deleting "
+"files and subfolders. Folder compare view can be versatile customised."
+msgstr ""
+"Η σύγκριση φακέλων δείχνει μια λίστα με όσα αρχεία και υποφακέλους βρέθηκαν "
+"από τους συγκρινόμενους φακέλους. Η σύγκριση φακέλων επιτρέπει το "
+"συγχρονισμό φακέλων μέσω αντιγραφής και διαγραφής αρχείων και υποφακέλων. Η "
+"σύγκριση φακέλων μπορεί να προβληθεί με πολλούς διαφορετικούς τρόπους."
+
+#: engine/page.inc:278 engine/page.inc:322
+#, c-format
+msgid "WinMerge Support"
+msgstr "Υποστήριξη WinMerge"
+
+#: support/index.php:18
+#, c-format
+msgid ""
+"We require registering because anonymous submissions caused a lot of spam "
+"and also because there were no possibility to contact people for asking more"
+" information."
+msgstr ""
+"Χρειάζεται να εγγραφείτε, τόσο γιατί οι ανώνυμοι χρήστες συνήθως στέλνουν "
+"άσχετα μηνύματα (spam) όσο και για να μπορούμε να επικοινωνήσουμε μαζί σας "
+"για να σας ρωτήσουμε κάτι."
+
+#: about/index.php:41
+#, c-format
+msgid "Compares one folder or includes all subfolders"
+msgstr "Συγκρίνει έναν φάκελο ή περιλαμβάνει όλους τους υποφακέλους"
+
+#: support/index.php:16
+#, c-format
+msgid ""
+"Good information in a bug report makes it more likely that your bug will be "
+"fixed quickly."
+msgstr ""
+"Όσες περισσότερες πληροφορίες υπάρχουν σε μια αναφορά σφάλματος τόσο "
+"πιθανότερο είναι ένα σφάλμα να διορθωθεί γρήγορα."
+
+#: about/index.php:11 index.php:19
+#, c-format
+msgid ""
+"WinMerge is an <a href=\"%s\">Open Source</a> differencing and merging tool "
+"for Windows. WinMerge can compare both folders and files, presenting "
+"differences in a visual text format that is easy to understand and handle."
+msgstr ""
+"Το WinMerge είναι ένα <a href=\"%s\">ανοιχτού κώδικα</a> εργαλείο "
+"επισήμανσης και συγχώνευσης αλλαγών για Windows. Το WinMerge μπορεί να "
+"συγκρίνει φακέλους και αρχεία και να παρουσιάσεις τις διαφορές τους σε "
+"εύληπτη και εύκολα επεξεργάσιμη μορφή κειμένου."
+
+#: translations/translations.inc:182
+#, c-format
+msgid "Total: Unknown"
+msgstr "Σύνολο: Άγνωστο"
+
+#: support/mailing-lists.php:32 support/mailing-lists.php:42
+#: support/mailing-lists.php:62
+#, c-format
+msgid "Normal Traffic"
+msgstr "Κανονική κίνηση"
+
+#: index.php:56
+#, c-format
+msgid "The WinMerge Development Team"
+msgstr "Η Ομάδα Ανάπτυξης του WinMerge"
+
+#: translations/index.php:40
+#, c-format
+msgid "Unstable Version (Trunk)"
+msgstr "Μη σταθερή έκδοση (κορμός)"
+
+#: engine/page.inc:332
+#, c-format
+msgid "WinMerge Translations Status (Stable Branch)"
+msgstr "Κατάσταση μεταφράσεων του WinMerge (σταθερός κλάδος)"
+
+#: index.php:54
+#, c-format
+msgid ""
+"If you are interested in contributing work to the project, see our <a "
+"href=\"%s\">developer page</a> for further information on how you may "
+"contribute."
+msgstr ""
+"Αν θα σας ενδιέφερε να συνεισφέρετε στο έργο, δείτε τη <a href=\"%s\">σελίδα"
+" προγραμματιστών</a> μας για περισσότερα σχετικά με το πώς μπορεί να γίνει "
+"αυτό."
+
+#: engine/page.inc:296 engine/page.inc:301 engine/page.inc:307
+#: engine/page.inc:322 engine/page.inc:330
+#, c-format
+msgid "Index"
+msgstr "Ευρετήριο"
+
+#: downloads/plugins.php:10
+#, c-format
+msgid "7-Zip Plugin"
+msgstr "Πρόσθετο 7-Zip"
+
+#: translations/instructions.php:5 translations/instructions.php:8
+#, c-format
+msgid "Translations instructions"
+msgstr "Οδηγίες μετάφρασης"
+
+#: engine/page.inc:325
+#, c-format
+msgid "Tracker"
+msgstr "Ιχνηλάτης"
+
+#: engine/page.inc:311
+#, c-format
+msgid "WinMerge Known Issues"
+msgstr "Γνωστά προβλήματα του WinMerge"
+
+#: links.php:29
+#, c-format
+msgid "Good HOWTO document for regular expressions"
+msgstr "Πολύ καλός οδηγός για κανονικές παραστάσεις"
+
+#: engine/page.inc:298
+#, c-format
+msgid "Project Page"
+msgstr "Σελίδα έργου"
+
+#: docs/index.php:13
+#, c-format
+msgid ""
+"The <a href=\"%s\">quick tour</a> describes the main WinMerge features in "
+"one page."
+msgstr ""
+"Η <a href=\"%s\">ταχεία ξενάγηση</a> περιγράφει τις κύριες δυνατότητες του "
+"WinMerge σε μια σελίδα."
+
+#: engine/page.inc:334
+#, c-format
+msgid "WinMerge Translations Status (Website)"
+msgstr "Κατάσταση μεταφράσεων του WinMerge (ιστοχώρος)"
+
+#: downloads/index.php:27 downloads/index.php:33 downloads/source-code.php:17
+#, c-format
+msgid "Zip-Format (%s MB)"
+msgstr "Μορφή zip (%s MB)"
+
+#: downloads/pad-file.php:94
+#, c-format
+msgid "Contact"
+msgstr "Επικοινωνία"
+
+#: engine/engine.inc:19 translations/index.php:24
+#, c-format
+msgid "English"
+msgstr "Αγγλικά"
+
+#: downloads/pad-file.php:7 downloads/pad-file.php:9 downloads/pad-file.php:80
+#: engine/page.inc:319
+#, c-format
+msgid "PAD File"
+msgstr "Αρχείο PAD"
+
+#: downloads/source-code.php:15
+#, c-format
+msgid "WinMerge %s - Source Code"
+msgstr "WinMerge %s - πηγαίος κώδικας"
+
+#: links.php:44
+#, c-format
+msgid ""
+"This is WinMerge packaged with a PortableApps.com Launcher as a <a "
+"href=\"%s\">portable app</a>, so you can compare files on the go."
+msgstr ""
+"Αυτό είναι το WinMerge σε μορφή <a href=\"%s\">φορητής εφαρμογής</a>, με "
+"χρήση του PortableApps.com, για να συγκρίνετε αρχεία εν κινήσει."
+
+#: support/index.php:54
+#, c-format
+msgid ""
+"But please consider making a <a href=\"%s\">donation</a> to support the "
+"continued development of WinMerge."
+msgstr ""
+"Σκεφθείτε, όμως, να κάνετε μία <a href=\"%s\">δωρεά</a>, για να υποστηρίξετε"
+" την ανάπτυξη του WinMerge."
+
+#: downloads/pad-file.php:58 downloads/pad-file.php:60
+#: downloads/pad-file.php:62
+#, c-format
+msgid "English Description (%d chars)"
+msgstr "Αγγλική περιγραφή (%d χαρακτήρες)"
+
+#: downloads/pad-file.php:42
+#, c-format
+msgid "Download"
+msgstr "Λήψη"
+
+#: engine/page.inc:274
+#, c-format
+msgid "Home"
+msgstr "Αρχική"
+
+#: 404.php:26
+#, c-format
+msgid "<a href=\"%s\">Downloads</a>?"
+msgstr "<a href=\"%s\">Λήψεις</a>;"
+
+#: support/mailing-lists.php:57
+#, c-format
+msgid "This list is used for coordinating the translations."
+msgstr "Αυτή η λίστα είναι για το συντονισμό των μεταφράσεων."
+
+#: downloads/index.php:52
+#, c-format
+msgid ""
+"The easiest way to install WinMerge is to download and run the Installer. "
+"Read the <a href=\"%s\">online manual</a> for help using it."
+msgstr ""
+"Ο ευκολότερος τρόπος εγκατάστασης του WinMerge είναι να κατεβάσετε και να "
+"εκτελέσετε το Πρόγραμμα Εγκατάστασης. Διαβάστε οδηγίες χρήσης στο <a "
+"href=\"%s\">online εγχειρίδιο</a>."
+
+#: downloads/pad-file.php:96 engine/page.inc:278 index.php:49
+#: support/index.php:9 support/index.php:11
+#, c-format
+msgid "Support"
+msgstr "Υποστήριξη"
+
+#: about/index.php:72
+#, c-format
+msgid "Just download the <a href=\"%s\">installer</a> and double-click it."
+msgstr ""
+"Απλώς κατεβάστε το <a href=\"%s\">πρόγραμμα εγκατάστασης</a> και κάντε του "
+"διπλό κλικ."
+
+#: support/index.php:45
+#, c-format
+msgid "last post by <strong>%1$s</strong> at %2$s"
+msgstr "τελευταία δημοσίευση από το μέλος <strong>%1$s</strong> στις %2$s"
+
+#: downloads/pad-file.php:72
+#, c-format
+msgid "Web Addresses"
+msgstr "Διευθύνσεις Ιστού"
+
+#: about/index.php:33
+#, c-format
+msgid "Location pane shows map of files compared"
+msgstr "Το παράθυρο θέσης εμφανίζει χάρτη των συγκρινόμενων αρχείων"
+
+#: about/index.php:77
+#, c-format
+msgid ""
+"For information on using WinMerge, see our <a href=\"%s\">online Manual</a>,"
+" or you can use the local help file (just press <code>F1</code> inside "
+"WinMerge) for offline use."
+msgstr ""
+"Για οδηγίες χρήσης του WinMerge ανατρέξτε στο <a href=\"%s\">online "
+"εγχειρίδιό</a> μας ή, αν είστε offline, στο τοπικό αρχείο βοήθειας "
+"(πιέζοντας <code>F1</code> μέσα από το WinMerge)."
+
+#: engine/page.inc:327 support/index.php:52
+#, c-format
+msgid "Donate"
+msgstr "Δωρεά"
+
+#: about/index.php:45
+#, c-format
+msgid "Version Control"
+msgstr "Έλεγχος έκδοσης"
+
+#: index.php:32
+#, c-format
+msgid "It will be based on Qt library and cross-platform."
+msgstr "Θα βασίζεται στη βιβλιοθήκη Qt και θα υποστηρίζει πολλές πλατφόρμες."
+
+#: about/screenshots/index.php:30 about/screenshots/index.php:31
+#, c-format
+msgid "Splash Screen"
+msgstr "Οθόνη εκκίνησης"
+
+#: translations/index.php:36
+#, c-format
+msgid "Status"
+msgstr "Κατάσταση"
+
+#: index.php:6
+#, c-format
+msgid ""
+"WinMerge is an Open Source differencing and merging tool for Windows. "
+"WinMerge can compare both folders and files, presenting differences in a "
+"visual text format that is easy to understand and handle."
+msgstr ""
+"Το WinMerge είναι ένα ανοιχτού κώδικα εργαλείο επισήμανσης και συγχώνευσης "
+"αλλαγών για Windows. Το WinMerge μπορεί να συγκρίνει φακέλους και αρχεία και"
+" να παρουσιάσεις τις διαφορές τους σε εύληπτη και εύκολα επεξεργάσιμη μορφή "
+"κειμένου."
+
+#: support/index.php:38
+#, c-format
+msgid "Active Forum Topics"
+msgstr "Ενεργά θέματα στο φόρουμ"
+
+#: downloads/index.php:58
+#, c-format
+msgid "Microsoft Windows 98/ME/2000/XP/2003/Vista/2008"
+msgstr "Microsoft Windows 98/ME/2000/XP/2003/Vista/2008"
+
+#: about/index.php:54
+#, c-format
+msgid "Shell Integration (supports 64-bit Windows versions)"
+msgstr "Ενσωμάτωση στο κέλυφος (υποστήριξη για εκδόσεις 64 bit των Windows)"
+
+#: docs/releasenotes.php:5
+#, c-format
+msgid ""
+"The release notes are a short summary of important changes, enhancements, "
+"bug fixes and known issues in the current WinMerge release."
+msgstr ""
+"Οι σημειώσεις κυκλοφορίας είναι μια σύνοψη των σημαντικών αλλαγών, των "
+"βελτιώσεων, των επιδιορθώσεων σφαλμάτων και των γνωστών προβλημάτων στην "
+"τρέχουσα κυκλοφορία του WinMerge."
+
+#: support/mailing-lists.php:6
+#, c-format
+msgid ""
+"WinMerge, mailing lists, announce, support, user, translate, development, "
+"SVN"
+msgstr ""
+"WinMerge, λίστες αλληλογραφίας, ανακοίνωση, υποστήριξη, χρήστης, μετάφραση, "
+"ανάπτυξη, SVN"
+
+#: translations/translations.inc:41
+#, c-format
+msgid "File not found."
+msgstr "Δε βρέθηκε το αρχείο."
+
+#: about/screenshots/index.php:26
+#, c-format
+msgid ""
+"Many times it is useful to see exact differences inside lines. WinMerge can "
+"highlight different areas between lines."
+msgstr ""
+"Πολλές φορές είναι χρήσιμο να δείτε τις ακριβείς διαφορές εντός των γραμμών."
+" Το WinMerge μπορεί να επισημάνει διαφορετικές περιοχές ανάμεσα στις "
+"γραμμές."
+
+#: about/index.php:56
+#, c-format
+msgid "Plugin support"
+msgstr "Υποστήριξη για πρόσθετα"
+
+#: downloads/source-code.php:41
+#, c-format
+msgid "WinMerge 3 Future"
+msgstr "Το μέλλον του WinMerge 3"
+
+#: about/index.php:27
+#, c-format
+msgid "File Compare"
+msgstr "Σύγκριση αρχείων"
+
+#: engine/engine.inc:20
+#, c-format
+msgid "German"
+msgstr "Γερμανικά"
+
+#: support/index.php:15
+#, c-format
+msgid ""
+"Please attach as much information as you can: at a minimum, the version "
+"number of WinMerge that you are using. If you can, also attach a "
+"configuration log which, you can display by clicking <span "
+"class=\"guimenu\">Help</span> &#8594; <span "
+"class=\"guimenuitem\">Configuration</span> in the WinMerge window."
+msgstr ""
+"Καλό είναι να επισυνάψετε όσες περισσότερες πληροφορίες μπορείτε: "
+"τουλάχιστον τον αριθμό έκδοσης του WinMerge που χρησιμοποιείτε. Αν μπορείτε,"
+" επισυνάψτε και ένα αρχείο καταγραφής της διαρρύθμισής σας, το οποίο "
+"μπορείτε να εμφανίσετε με κλικ στο <span class=\"guimenu\">Βοήθεια</span> "
+"&#8594; <span class=\"guimenuitem\">Διαμόρφωση</span> από το παράθυρο του "
+"WinMerge."
+
+#: downloads/pad-file.php:38
+#, c-format
+msgid "Release Date"
+msgstr "Ημερομηνία κυκλοφορίας"
+
+#: support/tracker-shortcuts.php:17
+#, c-format
+msgid "Todo Item"
+msgstr "Υλοποιητέο"
+
+#: support/mailing-lists.php:25 support/mailing-lists.php:35
+#: support/mailing-lists.php:45 support/mailing-lists.php:55
+#: support/mailing-lists.php:65 support/mailing-lists.php:75
+#, c-format
+msgid "Archive"
+msgstr "Αρχειοθήκη"
+
+#: engine/page.inc:276 engine/page.inc:307
+#, c-format
+msgid "WinMerge Documentation"
+msgstr "Τεκμηρίωση WinMerge"
+
+#: engine/page.inc:326 support/tracker-shortcuts.php:7
+#: support/tracker-shortcuts.php:9
+#, c-format
+msgid "Tracker Shortcuts"
+msgstr "Συντομεύσεις ιχνηλάτη"
+
+#: support/index.php:7
+#, c-format
+msgid ""
+"The Open Discussion forum is the fastest way to get help. A other way is a "
+"subscription to the support mailing list."
+msgstr ""
+"Το φόρουμ ανοιχτών συζητήσεων είναι η συντομότερη οδός για να λάβετε "
+"βοήθεια. Άλλη οδός είναι η εγγραφή στη λίστα αλληλογραφίας για υποστήριξη."
+
+#: translations/translations.inc:85 translations/translations.inc:97
+#: translations/translations.inc:135 translations/translations_branch.inc:53
+#: translations/translations_branch.inc:70
+#: translations/translations_branch.inc:120
+#, c-format
+msgid "Untranslated"
+msgstr "Αμετάφραστα"
+
+#: about/index.php:66 about/screenshots/index.php:12
+#: about/screenshots/index.php:13 index.php:15
+#, c-format
+msgid "File Comparison"
+msgstr "Σύγκριση αρχείων"
+
+#: engine/engine.inc:23
+#, c-format
+msgid "Dutch"
+msgstr "Ολλανδικά"
+
+#: links.php:45
+#, c-format
+msgid "WinMerge Facebook Group"
+msgstr "Ομάδα του WinMerge στο Facebook"
+
+#: translations/translations.inc:180 translations/translations_branch.inc:106
+#, c-format
+msgid "Total: %d"
+msgstr "Σύνολο: %d"
+
+#: engine/page.inc:334
+#, c-format
+msgid "Status (Website)"
+msgstr "Κατάσταση (ιστοχώρος)"
+
+#: about/index.php:69
+#, c-format
+msgid "See the <a href=\"%s\">screenshots page</a> for more screenshots."
+msgstr ""
+"Στη <a href=\"%s\">σελίδα Στιγμιότυπα</a> υπάρχουν περισσότερα στιγμιότυπα "
+"οθόνης."
+
+#: index.php:34
+#, c-format
+msgid ""
+"WinMerge <em>will not</em> be just WinMerge 2 with new GUI. There will be "
+"radical changes in how WinMerge works and how it looks. Many features won’t "
+"be available anymore and new features will be added."
+msgstr ""
+"Το WinMerge <em>δεν</em> θα είναι απλώς ένα WinMerge 2 με νέα εμφάνιση. Θα "
+"υπάρξουν ριζικές αλλαγές στη λειτουργία και στην εμφάνιση του WinMerge. "
+"Πολλές δυνατότητες θα πάψουν να υφίστανται, ενώ θα προστεθούν νέες."
+
+#: about/license.php:7 about/license.php:9 engine/page.inc:304
+#, c-format
+msgid "License"
+msgstr "Άδεια"
+
+#: index.php:46
+#, c-format
+msgid "View all news&hellip;"
+msgstr "Προβολή όλων των νέων&hellip;"
+
+#: engine/page.inc:331
+#, c-format
+msgid "WinMerge Translations Instructions"
+msgstr "Οδηγίες μετάφρασης WinMerge"
+
+#: translations/index.php:32
+#, c-format
+msgid ""
+"If you would like to update any of these translations or add another "
+"translation, then please follow <a href=\"%s\">these instructions</a>."
+msgstr ""
+"Αν θέλετε να επικαιροποιήσετε μια απ' αυτές τις μεταφράσεις ή να προσθέσετε "
+"άλλη, ακολουθήστε <a href=\"%s\">αυτές τις οδηγίες</a>."
+
+#: about/screenshots/index.php:15 about/screenshots/index.php:16
+#, c-format
+msgid "Open-dialog"
+msgstr "Πλαίσιο διαλόγου \"Άνοιγμα\""
+
+#: translations/index.php:37
+#, c-format
+msgid ""
+"The following pages inform you about the translations status of the stable "
+"version, developer version and website of WinMerge:"
+msgstr ""
+"Οι επόμενες σελίδες σάς ενημερώνουν για την κατάσταση της μετάφρασης της "
+"σταθερής έκδοσης, της έκδοσης για προγραμματιστές και του ιστοχώρου του "
+"WinMerge."
+
+#: engine/engine.inc:22
+#, c-format
+msgid "Japanese"
+msgstr "Γιαπωνέζικα"
+
+#: downloads/index.php:69
+#, c-format
+msgid "(by PortableApps.com)"
+msgstr "(από το PortableApps.com)"
+
+#: about/history.php:6
+#, c-format
+msgid "WinMerge, history, version number, release date, manual, users guide"
+msgstr ""
+"WinMerge, ιστορικό, αριθμός έκδοσης, ημερομηνία κυκλοφορίας, εγχειρίδιο "
+"χρήσης, οδηγός χρήσης"
+
+#: about/screenshots/index.php:14
+#, c-format
+msgid ""
+"File compare window is basically two files opened to editor into two "
+"horizontal panes. Editing allows user to easily do small changes without "
+"need to open files to other editor or development environment."
+msgstr ""
+"Το παράθυρο σύγκρισης αρχείων είναι στην ουσία δύο αρχεία που εμφανίζονται "
+"το ένα πάνω από το άλλο σε ένα πρόγραμμα επεξεργασίας. Με την επεξεργασία ο "
+"χρήστης μπορεί εύκολα να κάνει μικρές αλλαγές χωρίς να χρειαστεί να ανοίξει "
+"τα αρχεία με άλλο πρόγραμμα επεξεργασίας ή άλλο περιβάλλον ανάπτυξης."
+
+#: downloads/index.php:55
+#, c-format
+msgid "Requirements"
+msgstr "Απαιτήσεις"
+
+#: 404.php:12
+#, c-format
+msgid ""
+"For some reason (mis-typed URL, faulty referral from another site, out-of-"
+"date search engine listing or we simply deleted a file) the page you were "
+"looking for could not be found."
+msgstr ""
+"Για κάποιο λόγο (λάθος στην πληκτρολόγηση του URL, λάθος παραπομπή από άλλον"
+" ιστοχώρο, απαρχαιωμένο εύρημα μηχανής αναζήτησης ή απλώς διαγραφή αρχείο "
+"από εμάς) η σελίδα που αναζητήσατε δεν βρέθηκε."
+
+#: links.php:40
+#, c-format
+msgid ""
+"Reviews of popular comparison software. [<a href=\"%s\">WinMerge Review</a>]"
+msgstr ""
+"Κριτικές δημοφιλών προγραμμάτων σύγκρισης. [<a href=\"%s\">Κριτικής "
+"WinMerge</a>]"
+
+#: index.php:52
+#, c-format
+msgid "Developers"
+msgstr "Προγραμματιστές"
+
+#: about/index.php:39
+#, c-format
+msgid ""
+"Regular Expression based file filters allow excluding and including items"
+msgstr ""
+"Με τα βασιζόμενα σε κανονικές παραστάσεις φίλτρα αρχείων μπορείτε να "
+"εξαιρείτε και να περιλαμβάνετε στοιχεία"
+
+#: translations/status_branch.php:18 translations/status_trunk.php:18
+#, c-format
+msgid "The translations status is currently not available..."
+msgstr "Η κατάσταση των μεταφράσεων δεν είναι διαθέσιμη αυτήν τη στιγμή..."
+
+#: support/mailing-lists.php:77
+#, c-format
+msgid ""
+"Subscribers to this list get notices of each and every code change commited "
+"to Subversion."
+msgstr ""
+"Όσοι έχουν εγγραφεί σε αυτήν τη λίστα ειδοποιούνται για όσες αλλαγές κώδικα "
+"κατατίθενται στο Subversion."
+
+#: about/index.php:40
+#, c-format
+msgid "Fast compare using file sizes and dates"
+msgstr "Γρήγορη σύγκριση με χρήση μεγέθους και ημερομηνιών των αρχείων"
+
+#: about/index.php:76
+#, c-format
+msgid "Using WinMerge"
+msgstr "Χρήση του WinMerge"
+
+#: about/index.php:71
+#, c-format
+msgid "Installation"
+msgstr "Εγκατάσταση"
+
+#: links.php:22
+#, c-format
+msgid ""
+"<b>Frhed</b> is an binary file editor for Windows. It is small but has many "
+"advanced features like ability to load big files partially."
+msgstr ""
+"Το <b>Frhed</b> είναι ένα πρόγραμμα επεξεργασίας δυαδικών αρχείων για "
+"Windows. Είναι μικρό αλλά προηγμένο, με δυνατότητες όπως τη μερική φόρτωση "
+"μεγάλων."
+
+#: translations/index.php:31
+#, c-format
+msgid "Translating"
+msgstr "Μετάφραση"
+
+#: about/screenshots/index.php:6
+#, c-format
+msgid ""
+"WinMerge, screenshots, file comparison, open-dialog, folder comparison "
+"results, highlight line diff, location pane, splash screen"
+msgstr ""
+"WinMerge, στιγμιότυπα, σύγκριση αρχείων, πλαίσιο διαλόγου \"άνοιγμα\", "
+"αποτελέσματα σύγκρισης φακέλων, επισήμανση διαφορών στις γραμμές, παράθυρο "
+"θέσης, οθόνη εκκίνησης"
+
+#: translations/translations_branch.inc:104
+#, c-format
+msgid "English (Template)"
+msgstr "Αγγλικά (πρότυπο)"
+
+#: about/history.php:20 docs/changelog.php:7 docs/changelog.php:8
+#: docs/index.php:16 engine/page.inc:312
+#, c-format
+msgid "Change Log"
+msgstr "Κατάλογος αλλαγών"
+
+#: support/index.php:12
+#, c-format
+msgid ""
+"The <a href=\"%s\">Open Discussion forum</a> is the fastest way to get help."
+" Please be patient, it may take some time for somebody to answer."
+msgstr ""
+"Το <a href=\"%s\">φόρουμ ανοιχτών συζητήσεων</a> είναι η συντομότερη οδός "
+"για να λάβετε βοήθεια. Κάντε υπομονή, ίσως χρειαστεί χρόνος προτού λάβετε "
+"απάντηση."
+
+#: docs/changelog.php:5
+#, c-format
+msgid ""
+"The change log is a more complete list of changes in the last WinMerge "
+"releases."
+msgstr ""
+"Ο κατάλογος αλλαγών είναι μια πλήρης λίστα των αλλαγών στις τελευταίες "
+"κυκλοφορίες του WinMerge."
+
+#: downloads/index.php:8
+#, c-format
+msgid ""
+"WinMerge, free, download, Windows, setup, installer, binaries, runtimes, "
+"stable, beta, experimental, portable"
+msgstr ""
+"WinMerge, δωρεάν, λήψη, Windows, εγκατάσταση, πρόγραμμα εγκατάστασης, "
+"δυαδικά αρχεία, περιβάλλοντα εκτέλεσης, σταθερή, beta, πειραματική, φορητό"
+
+#: downloads/pad-file.php:48
+#, c-format
+msgid "Type"
+msgstr "Τύπος"
+
+#: 404.php:22
+#, c-format
+msgid "<a href=\"%s\">Release Notes</a>?"
+msgstr "<a href=\"%s\">Σημειώσεις κυκλοφορίας</a>;"
+
+#: 404.php:11
+#, c-format
+msgid "Page Not Found..."
+msgstr "Η σελίδα δεν βρέθηκε..."
+
+#: about/index.php:48
+#, c-format
+msgid "Resolve conflict files"
+msgstr "Επίλυση διενέξεων αρχείων"
+
+#: engine/page.inc:279 translations/index.php:8 translations/index.php:10
+#, c-format
+msgid "Translations"
+msgstr "Μεταφράσεις"
+
+#: links.php:35
+#, c-format
+msgid "Miscellaneous"
+msgstr "Διάφορα"
+
+#: downloads/pad-file.php:40
+#, c-format
+msgid "Release Status"
+msgstr "Κατάσταση κυκλοφορίας"
+
+#: downloads/index.php:7
+#, c-format
+msgid ""
+"Download the current WinMerge version %1$s, which was released at %2$s. For "
+"detailed info on what is new, read the change log and the release notes."
+msgstr ""
+"Κατεβάστε την τρέχουσα έκδοση του WinMerge %1$s, η οποία κυκλοφόρησε στις "
+"%2$s. Για να μάθετε τι έχει αλλάξει, διαβάστε τον κατάλογο αλλαγών και τις "
+"σημειώσεις κυκλοφορίας."
+
+#: docs/index.php:12 engine/page.inc:309
+#, c-format
+msgid "Quick Tour"
+msgstr "Ταχεία ξενάγηση"
+
+#: translations/status_website.php:10
+#, c-format
+msgid "Translations Status"
+msgstr "Κατάσταση μεταφράσεων"
+
+#: translations/translations.inc:136 translations/translations_branch.inc:71
+#, c-format
+msgid "Last Update"
+msgstr "Τελευταία επικαιροποίηση"
+
+#: engine/page.inc:318
+#, c-format
+msgid "Source Code"
+msgstr "Πηγαίος κώδικας"
+
+#: engine/page.inc:333
+#, c-format
+msgid "Status (Unstable Trunk)"
+msgstr "Κατάσταση (ασταθής κορμός)"
+
+#: support/tracker-shortcuts.php:18
+#, c-format
+msgid "Tracker Item"
+msgstr "Στοιχείο ιχνηλάτη"
+
+#: translations/translations_branch.inc:183
+#, c-format
+msgid "Translator(s)"
+msgstr "Μεταφραστής(-τές)"
+
+#: support/mailing-lists.php:67
+#, c-format
+msgid ""
+"This is the list where participating developers of the WinMerge meet and "
+"discuss issues, code changes/additions, etc."
+msgstr ""
+"Σε αυτήν τη λίστα συναντώνται οι προγραμματιστές του WinMerge και συζητούν "
+"για προβλήματα, αλλαγές/προσθήκες στον κώδικα κ.ά. θέματα."
+
+#: about/screenshots/index.php:29
+#, c-format
+msgid ""
+"Location pane is a handy side-pane showing a overall (difference) map of "
+"files compared."
+msgstr ""
+"Το παράθυρο θέσης είναι χρήσιμο, αφού εμφανίζει μια συνολική επισκόπηση των "
+"διαφορών των συγκρινόμενων αρχείων."
+
+#: links.php:20
+#, c-format
+msgid ""
+"<b>TortoiseSVN</b> lets you work with files under <em>Subversion</em> "
+"version control directly from Windows Explorer."
+msgstr ""
+"Με το <b>TortoiseSVN</b> μπορείτε να εργαστείτε με αρχεία με έλεγχο έκδοσης "
+"από το <em>Subversion</em>, απευθείας από την Εξερεύνηση των Windows."
+
+#: about/license.php:6
+#, c-format
+msgid ""
+"WinMerge, license, open source, GNU General Public License, GPL, free "
+"software"
+msgstr ""
+"Άδεια WinMerge, ανοιχτός κώδικας, Γενική Δημόσια Άδεια GNU, GPL, ελεύθερο "
+"λογισμικό"
+
+#: links.php:42
+#, c-format
+msgid ""
+"Inside informations, unreleased products and articles on various soon-to-be-"
+"released software titles."
+msgstr ""
+"Εσωτερική πληροφόρηση, ακυκλοφόρητα προϊόντα και άρθρα για τίτλους "
+"λογισμικού που πρόκειται να κυκλοφορήσουν σύντομα."
+
+#: docs/index.php:5
+#, c-format
+msgid ""
+"Documentation from WinMerge like manual, release notes, change log and "
+"Development Wiki."
+msgstr ""
+"Υλικό τεκμηρίωσης του WinMerge, όπως εγχειρίδιο χρήσης, σημειώσεις "
+"κυκλοφορίας, κατάλογος αλλαγών και Wiki Ανάπτυξης."
+
+#: docs/index.php:19
+#, c-format
+msgid ""
+"The <a href=\"%s\">Development Wiki</a> contains much information about the "
+"WinMerge development."
+msgstr ""
+"Το <a href=\"%s\">Wiki Ανάπτυξης</a> περιέχει πλούτο πληροφοριών για την "
+"ανάπτυξη του WinMerge."
+
+#: downloads/plugins.php:7 downloads/plugins.php:9
+#, c-format
+msgid "Download Plugins"
+msgstr "Λήψη προσθέτων"
+
+#: downloads/index.php:60
+#, c-format
+msgid "Admin rights for the installer"
+msgstr "Δικαιώματα διαχειριστή για το πρόγραμμα εγκατάστασης"
+
+#: downloads/index.php:20 downloads/plugins.php:15
+#, c-format
+msgid "Installer"
+msgstr "Πρόγραμμα εγκατάστασης"
+
+#: index.php:26
+#, c-format
+msgid "WinMerge %s - latest stable version"
+msgstr "WinMerge %s - τελευταία σταθερή έκδοση"
+
+#: downloads/index.php:40 downloads/source-code.php:24
+#, c-format
+msgid "SHA-1 Checksums"
+msgstr "SHA-1 Checksums"
+
+#: engine/page.inc:323
+#, c-format
+msgid "WinMerge Discussion Forums"
+msgstr "Φόρουμ συζητήσεων WinMerge"
+
+#: support/mailing-lists.php:13 support/mailing-lists.php:30
+#, c-format
+msgid "Support List"
+msgstr "Λίστα υποστήριξης"
+
+#: support/mailing-lists.php:12 support/mailing-lists.php:20
+#, c-format
+msgid "Announce List"
+msgstr "Λίστα ανακοινώσεων"
+
+#: about/screenshots/index.php:17
+#, c-format
+msgid ""
+"WinMerge allows selecting/opening paths in several ways. Using the Open-"
+"dialog is just one of them."
+msgstr ""
+"Το WinMerge επιτρέπει την επιλογή και το άνοιγμα διαδρομών με διάφορους "
+"τρόπους. Ένας από αυτούς είναι μέσω του πλαισίου διαλόγου Άνοιγμα."
+
+#: translations/index.php:41
+#, c-format
+msgid "Website"
+msgstr "Ιστοχώρος"
+
+#: downloads/pad-file.php:76
+#, c-format
+msgid "Screenshot"
+msgstr "Στιγμιότυπο"
+
+#: engine/page.inc:302
+#, c-format
+msgid "WinMerge Screenshots"
+msgstr "Στιγμιότυπα WinMerge"
+
+#: downloads/plugins.php:5
+#, c-format
+msgid ""
+"Download additional plugins for WinMerge, like the 7-Zip plugin or the "
+"xdocdiff Plugin."
+msgstr ""
+"Κατεβάστε κι άλλα πρόσθετα για το WinMerge, όπως το πρόσθετο 7-Zip ή το "
+"πρόσθετο xdocdiff."
+
+#: support/index.php:13
+#, c-format
+msgid ""
+"A other way is a subscription to the <a href=\"%s\">support mailing "
+"list</a>."
+msgstr ""
+"Άλλη οδός είναι η εγγραφή στη <a href=\"%s\">λίστα αλληλογραφίας για "
+"υποστήριξη</a>."
+
+#: about/screenshots/index.php:5
+#, c-format
+msgid ""
+"Screenshots from WinMerge features like file comparison, folder comparison "
+"results and location pane."
+msgstr ""
+"Στιγμιότυπα από το WinMerge, γνωρίσματα όπως σύγκριση αρχείων, αποτελέσματα "
+"σύγκρισης φακέλων και παράθυρο θέσης."
+
+#: engine/page.inc:324
+#, c-format
+msgid "WinMerge Mailing Lists"
+msgstr "Λίστες αλληλογραφίας WinMerge"
+
+#: docs/releasenotes.php:6
+#, c-format
+msgid ""
+"WinMerge, release notes, summary, changes, enhancements, bug fixes, known "
+"issues, release"
+msgstr ""
+"WinMerge, σημειώσεις κυκλοφορίας, σύνοψη, αλλαγές, βελτιώσεις, επιδιορθώσεις"
+" σφαλμάτων, γνωστά προβλήματα, κυκλοφορία"
+
+#: downloads/source-code.php:5
+#, c-format
+msgid ""
+"Download the source code of WinMerge, which is released under the GNU "
+"General Public License."
+msgstr ""
+"Κατεβάστε τον πηγαίο κώδικα του WinMerge, που κυκλοφορεί υπό τη Γενική "
+"Δημόσια Άδεια GNU."
+
+#: engine/page.inc:274 engine/page.inc:296
+#, c-format
+msgid "WinMerge Home"
+msgstr "Αρχική σελίδα WinMerge"
+
+#: engine/page.inc:318
+#, c-format
+msgid "Download WinMerge Source Code"
+msgstr "Λήψη πηγαίου κώδικα WinMerge"
+
+#: downloads/index.php:13 downloads/source-code.php:39
+#, c-format
+msgid "WinMerge %s"
+msgstr "WinMerge %s"
+
+#: links.php:28
+#, c-format
+msgid "regex HOWTO"
+msgstr "ΟΔΗΓΙΕΣ κανονικών παραστάσεων"
+
+#: about/history.php:5
+#, c-format
+msgid ""
+"History of WinMerge releases with version numbers, release dates and "
+"manuals."
+msgstr ""
+"Ιστορικό των κυκλοφοριών του WinMerge με αριθμούς έκδοσης, ημερομηνίες "
+"κυκλοφορίας και εγχειρίδια χρήσης."
+
+#: engine/page.inc:308
+#, c-format
+msgid "WinMerge Manual"
+msgstr "Εγχειρίδιο WinMerge"
+
+#: about/history.php:7 about/history.php:9 engine/page.inc:303
+#, c-format
+msgid "History"
+msgstr "Ιστορικό"
+
+#: about/index.php:15
+#, c-format
+msgid "Features"
+msgstr "Δυνατότητες"
+
+#: engine/page.inc:316
+#, c-format
+msgid "WinMerge"
+msgstr "WinMerge"
+
+#: translations/index.php:29
+#, c-format
+msgid ""
+"To change language, select the desired language from the <span "
+"class=\"guimenu\">View</span>&#8594; <span "
+"class=\"guimenuitem\">Language</span> menu choice."
+msgstr ""
+"Για αλλαγή γλώσσας, επιλέξτε την επιθυμητή γλώσσα από το μενού <span "
+"class=\"guimenu\">Προβολή</span>&#8594; <span "
+"class=\"guimenuitem\">Γλώσσας</span>."
+
+#: engine/page.inc:317
+#, c-format
+msgid "Plugins"
+msgstr "Πρόσθετα"
+
+#: about/index.php:67 about/screenshots/index.php:18
+#: about/screenshots/index.php:19
+#, c-format
+msgid "Folder Comparison Results"
+msgstr "Αποτελέσματα σύγκρισης φακέλων"
+
+#: about/index.php:23
+#, c-format
+msgid "Unicode support"
+msgstr "Υποστήριξη Unicode"
+
+#: downloads/pad-file.php:74
+#, c-format
+msgid "Information"
+msgstr "Πληροφορίες"
+
+#: links.php:18
+#, c-format
+msgid ""
+"<b>External diff Tool</b> is an <a href=\"%s\">Eclipse</a> Plugin that "
+"allows the launch of WinMerge (or an other external diff tool) for file "
+"compares rather than the default built-in Eclipse diff tool."
+msgstr ""
+"Το <b>External diff Tool</b> είναι ένα πρόσθετο για το <a "
+"href=\"%s\">Eclipse</a> με το οποίο μπορείτε να εκκινείτε το WinMerge (ή "
+"άλλο εξωτερικό εργαλείο διαφορών) για τη σύγκριση αρχείων, αντί να "
+"χρησιμοποιήσετε το ενσωματωμένο εργαλείο διαφορών του Eclipse."
+
+#: support/index.php:45
+#, c-format
+msgid "Y-m-d H:i"
+msgstr "Ε-μ-η Ω:λ"
+
+#: downloads/plugins.php:31
+#, c-format
+msgid "xdocdiff Plugin"
+msgstr "Πρόσθετο xdocdiff"
+
+#: engine/page.inc:325
+#, c-format
+msgid "WinMerge Tracker"
+msgstr "Ιχνηλάτης WinMerge"
+
+#: support/index.php:8
+#, c-format
+msgid ""
+"WinMerge, support, discussion forums, mailing lists, tracker, donate, bugs, "
+"support requests, patches, feature requests, todo, open source, "
+"sourceforge.net"
+msgstr ""
+"WinMerge, υποστήριξη, φόρουμ συζητήσεων, λίστες αλληλογραφίας, ιχνηλάτης, "
+"δωρεά, σφάλματα, αιτήματα για υποστήριξη, patches, αιτήματα για δυνατότητες,"
+" υλοποιητέα, ανοιχτός κώδικας, sourceforge.net"
+
+#: support/index.php:49
+#, c-format
+msgid "View all active topics&hellip;"
+msgstr "Προβολή όλων των ενεργών θεμάτων&hellip;"
+
+#: translations/translations.inc:131 translations/translations.inc:288
+#: translations/translations_branch.inc:66
+#: translations/translations_branch.inc:182
+#, c-format
+msgid "Language"
+msgstr "Γλώσσα"
+
+#: downloads/index.php:88 index.php:44
+#, c-format
+msgid "Y-m-d"
+msgstr "Y-m-d"
+
+#: engine/page.inc:327
+#, c-format
+msgid "Donate money to WinMerge"
+msgstr "Δωρεά χρημάτων στο WinMerge"
+
+#: engine/page.inc:331
+#, c-format
+msgid "Instructions"
+msgstr "Οδηγίες"
+
+#: downloads/pad-file.php:92
+#, c-format
+msgid "Name"
+msgstr "Όνομα"
+
+#: downloads/source-code.php:37
+#, c-format
+msgid "Developer Version"
+msgstr "Έκδοση για προγραμματιστές"
+
+#: docs/index.php:14 docs/releasenotes.php:7 docs/releasenotes.php:10
+#: engine/page.inc:310
+#, c-format
+msgid "Release Notes"
+msgstr "Σημειώσεις κυκλοφορίας"
+
+#: translations/translations.inc:85 translations/translations_branch.inc:53
+#, c-format
+msgid "Untranslated: %d%%"
+msgstr "Αμετάφραστα: %d%%"
+
+#: links.php:14
+#, c-format
+msgid ""
+"<b>WinSCP</b> is an open source <acronym title=\"SSH File Transfer "
+"Protocol\">SFTP</acronym>, <acronym title=\"File Transfer "
+"Protocol\">FTP</acronym> and <acronym title=\"Secure Copy "
+"Protocol\">SCP</acronym> client for Windows."
+msgstr ""
+"Το <b>WinSCP</b> είναι ένας ανοιχτού κώδικα πελάτης <acronym title=\"SSH "
+"File Transfer Protocol\">SFTP</acronym>, <acronym title=\"File Transfer "
+"Protocol\">FTP</acronym> και <acronym title=\"Secure Copy "
+"Protocol\">SCP</acronym> για Windows."
+
+#: support/mailing-lists.php:23 support/mailing-lists.php:33
+#: support/mailing-lists.php:43 support/mailing-lists.php:53
+#: support/mailing-lists.php:63 support/mailing-lists.php:73
+#, c-format
+msgid "Subscribe"
+msgstr "Εγγραφή"
+
+#: engine/page.inc:277
+#, c-format
+msgid "WinMerge Downloads"
+msgstr "Στοιχεία λήψης WinMerge"
+
+#: downloads/pad-file.php:44
+#, c-format
+msgid "Operating Systems"
+msgstr "Λειτουργικά συστήματα"
+
+#: downloads/source-code.php:33
+#, c-format
+msgid ""
+"The source code is hosted on <a href=\"%1$s\">SourceForge.net</a> in a <a "
+"href=\"%2$s\">Subversion</a> repository."
+msgstr ""
+"Ο πηγαίος κώδικας φιλοξενείται στο <a href=\"%1$s\">SourceForge.net</a>, σε "
+"αποθετήριο <a href=\"%2$s\">Subversion</a>."
+
+#: about/license.php:35
+#, c-format
+msgid "Open Source Software"
+msgstr "Λογισμικό ανοιχτού κώδικα"
+
+#: about/index.php:30
+#, c-format
+msgid "Flexible editor with syntax highlighting, line numbers and word-wrap"
+msgstr ""
+"Ευέλικτο πρόγραμμα επεξεργασίας με επισήμανση συντακτικού, αριθμούς γραμμής "
+"και αναδίπλωση λέξεων"
+
+#: about/index.php:22
+#, c-format
+msgid "Handles Windows, Unix and Mac text file formats"
+msgstr "Χειρίζεται μορφές αρχείων κειμένου από Windows, Unix και Mac"
+
+#: downloads/plugins.php:32
+#, c-format
+msgid ""
+"With this plugin you can compare Word, Excel, PowerPoint, PDF and some more "
+"files."
+msgstr ""
+"Με αυτό το πρόσθετο μπορείτε να συγκρίνετε αρχεία Word, Excel, PowerPoint, "
+"PDF και άλλα."
+
+#: translations/translations.inc:177
+#, c-format
+msgid "Template"
+msgstr "Πρότυπο"
+
+#: engine/page.inc:319
+#, c-format
+msgid "WinMerge PAD File"
+msgstr "Αρχείο PAD WinMerge"
+
+#: engine/engine.inc:21
+#, c-format
+msgid "French"
+msgstr "Γαλλικά"
+
+#: docs/changelog.php:6
+#, c-format
+msgid "WinMerge, change log, changes, release, tracker item, revision number"
+msgstr ""
+"WinMerge, κατάλογος αλλαγών, αλλαγή, κυκλοφορία, στοιχείο ιχνηλάτη, αριθμός "
+"αναθεώρησης"
+
+#: about/index.php:42
+#, c-format
+msgid "Can show folder compare results in a tree-style view"
+msgstr ""
+"Μπορεί να εμφανίσει τα αποτελέσματα της σύγκρισης φακέλων σε μορφή δένδρου"
+
+#: engine/page.inc:317
+#, c-format
+msgid "Download WinMerge Plugins"
+msgstr "Λήψη προσθέτων του WinMerge"
+
+#: support/tracker-shortcuts.php:37
+#, c-format
+msgid "Generate"
+msgstr "Δημιουργία"
+
+#: about/license.php:34
+#, c-format
+msgid "GNU General Public License v2.0"
+msgstr "Γενική Δημόσια Άδεια GNU v2.0"
+
+#: about/index.php:58
+#, c-format
+msgid "<a href=\"%s\">Online manual</a> and installed HTML Help manual"
+msgstr "<a href=\"%s\">Online εγχειρίδιο</a> και εγκατεστημένη βοήθεια σε HTML"
+
+#: support/mailing-lists.php:5
+#, c-format
+msgid ""
+"Subscribe or unsubscribe to one of the following mailing lists: Announce, "
+"Support, User, Translate, Development and SVN"
+msgstr ""
+"Εγγραφείτε σε ή διαγραφείτε από μία απ' τις παρακάτω λίστες αλληλογραφίας: "
+"Ανακοίνωση, Υποστήριξη, Χρήστης, Μετάφραση, Ανάπτυξη και SVN"
+
+#: support/tracker-shortcuts.php:15
+#, c-format
+msgid "Support Request"
+msgstr "Αίτημα για υποστήριξη"
+
+#: about/index.php:31
+#, c-format
+msgid "Highlights differences inside lines"
+msgstr "Επισημαίνει τις διαφορές εντός των γραμμών"
+
+#: 404.php:28
+#, c-format
+msgid "<a href=\"%s\">Translations</a>?"
+msgstr "<a href=\"%s\">Μεταφράσεις</a>;"
+
+#: links.php:46
+#, c-format
+msgid "A <a href=\"%s\">Facebook</a> group for people interested in WinMerge."
+msgstr ""
+"Μια ομάδα του <a href=\"%s\">Facebook</a> για όσους ενδιαφέρονται για το "
+"WinMerge."
+
+#: index.php:27
+#, c-format
+msgid ""
+"<a href=\"%1$s\">WinMerge %2$s</a> is the latest stable version, and is "
+"recommended for most users."
+msgstr ""
+"Το <a href=\"%1$s\">WinMerge %2$s</a> είναι η τελευταία σταθερή έκδοση και "
+"συνιστάται για τους περισσότερους χρήστες."
+
+#: index.php:55
+#, c-format
+msgid ""
+"In addition, WinMerge is translated into a number of different languages. "
+"See our <a href=\"%s\">information on translating WinMerge</a> into your own"
+" language."
+msgstr ""
+"Επιπλέον, το WinMerge είναι μεταφρασμένος σε πλήθος διαφορετικών γλωσσών. "
+"Δείτε τις <a href=\"%s\">πληροφορίες για τη μετάφραση του WinMerge</a> στη "
+"γλώσσα σας."
+
+#: support/tracker-shortcuts.php:11
+#, c-format
+msgid "You can use this page to create a shortcut:"
+msgstr ""
+"Μπορείτε να χρησιμοποιήσετε αυτήν τη σελίδα για δημιουργία συντόμευσης:"
+
+#: index.php:20
+#, c-format
+msgid "<a href=\"%1$s\">Learn More</a> or <a href=\"%2$s\">Download Now!</a>"
+msgstr ""
+"<a href=\"%1$s\">Μάθετε περισσότερα</a> ή κάντε <a href=\"%2$s\">Άμεση "
+"λήψη!</a>"
+
+#: support/mailing-lists.php:15 support/mailing-lists.php:50
+#, c-format
+msgid "Translate List"
+msgstr "Λίστα μεταφράσεων"
+
+#: engine/page.inc:309
+#, c-format
+msgid "WinMerge Quick Tour"
+msgstr "Ταχεία ξενάγηση στο WinMerge"
+
+#: support/index.php:17
+#, c-format
+msgid ""
+"You must <a href=\"%s\">register with SourceForge.net</a> before posting a "
+"bug report (registration is free)."
+msgstr ""
+"Πρέπει να <a href=\"%s\">δημιουργήσετε λογαριασμό στο SourceForge.net</a> "
+"(δωρεάν) πριν δημοσιεύσετε αναφορά σφάλματος."
+
+#: index.php:16
+#, c-format
+msgid "More Screenshots&hellip;"
+msgstr "Περισσότερα στιγμιότυπα&hellip;"
+
+#: about/index.php:7 about/index.php:10 engine/page.inc:275
+#: engine/page.inc:301
+#, c-format
+msgid "About WinMerge"
+msgstr "Πληροφορίες για το WinMerge"
+
+#: downloads/pad-file.php:6
+#, c-format
+msgid "WinMerge, PAD file, Portable Application Description"
+msgstr "WinMerge, αρχείο PAD, Περιγραφή Φορητής Εφαρμογής"
+
+#: support/index.php:20
+#, c-format
+msgid ""
+"Wish list items on the <a href=\"%s\">feature request list</a> will also be "
+"considered, but we make absolutely no promises."
+msgstr ""
+"Τα επιθυμητά στοιχεία της <a href=\"%s\">λίστας αιτημάτων για "
+"δυνατότητες</a> επίσης λαμβάνονται υπόψη, αλλά δεν υποσχόμαστε τίποτε."
+
+#: engine/page.inc:311
+#, c-format
+msgid "Known Issues"
+msgstr "Γνωστά προβλήματα"
+
+#: translations/translations.inc:83 translations/translations_branch.inc:51
+#, c-format
+msgid "Fuzzy: %d%%"
+msgstr "Παρόμοια: %d%%"
+
+#: about/screenshots/index.php:21 about/screenshots/index.php:22
+#, c-format
+msgid "Folder Compare Tree View"
+msgstr "Σύγκριση φακέλων σε προβολή δέντρου"
+
+#: docs/index.php:7 docs/index.php:9 engine/page.inc:276
+#, c-format
+msgid "Documentation"
+msgstr "Τεκμηρίωση"
+
+#: about/history.php:19 docs/index.php:10 engine/page.inc:308
+#, c-format
+msgid "Manual"
+msgstr "Εγχειρίδιο χρήσης"
+
+#: engine/page.inc:298
+#, c-format
+msgid "WinMerge Project Page"
+msgstr "Σελίδα έργου WinMerge"
+
+#: downloads/source-code.php:11
+#, c-format
+msgid ""
+"WinMerge is released under the <a href=\"%s\">GNU General Public "
+"License</a>. That means you can get the whole source code and can build the "
+"program yourself."
+msgstr ""
+"Το WinMerge κυκλοφορεί υπό τη <a href=\"%s\">Γενική Δημόσια Άδεια GNU</a>. "
+"Αυτό σημαίνει ότι μπορείτε να λάβετε όλον τον πηγαίο κώδικα και να δομήσετε "
+"το πρόγραμμα εσείς."
+
+#: docs/releasenotes.php:11
+#, c-format
+msgid "The release notes are currently not available..."
+msgstr "Οι σημειώσεις κυκλοφορίας είναι προς το παρόν μη διαθέσιμες..."
+
+#: downloads/pad-file.php:14
+#, c-format
+msgid ""
+"If you can not work with the <a href=\"%s\">PAD file</a>, you can use the "
+"following informations:"
+msgstr ""
+"Αν δεν μπορείτε να εργαστείτε με το <a href=\"%s\">αρχείο PAD</a>, μπορείτε "
+"να χρησιμοποιήσετε τις παρακάτω πληροφορίες:"
+
+#: docs/index.php:17
+#, c-format
+msgid ""
+"The <a href=\"%s\">change log</a> is a more complete list of changes in the "
+"last WinMerge releases."
+msgstr ""
+"Ο <a href=\"%s\">κατάλογος αλλαγών</a> είναι μια πλήρης λίστα των αλλαγών "
+"στις τελευταίες κυκλοφορίες του WinMerge."
+
+#: engine/page.inc:333
+#, c-format
+msgid "WinMerge Translations Status (Unstable Trunk)"
+msgstr "Κατάσταση Μεταφράσεων WinMerge (ασταθής κορμός)"
+
+#: downloads/index.php:16
+#, c-format
+msgid ""
+"For detailed info on what is new, read the <a href=\"%1$s\">change log</a> "
+"and the <a href=\"%2$s\">release notes</a>."
+msgstr ""
+"Για να μάθετε τι έχει αλλάξει, διαβάστε τον <a href=\"%1$s\">κατάλογο "
+"αλλαγών</a> και τις <a href=\"%2$s\">σημειώσεις κυκλοφορίας</a>."
+
+#: downloads/index.php:31
+#, c-format
+msgid "Runtimes"
+msgstr "Περιβάλλοντα εκτέλεσης"
+
+#: about/index.php:29
+#, c-format
+msgid "Visual differencing and merging of text files"
+msgstr "Οπτική παρουσίαση διαφορών και συγχώνευση αρχείων κειμένου"
+
+#: downloads/plugins.php:28
+#, c-format
+msgid ""
+"You can also read the <a href=\"%1$s\">Release Notes</a> or search for <a "
+"href=\"%2$s\">other versions</a>."
+msgstr ""
+"Μπορείτε, επίσης, να διαβάσετε τις <a href=\"%1$s\">Σημειώσεις "
+"κυκλοφορίας</a> ή ν' αναζητήσετε <a href=\"%2$s\">άλλες εκδόσεις</a>."
+
+#: about/index.php:64 about/screenshots/index.php:7
+#: about/screenshots/index.php:9 engine/page.inc:302
+#, c-format
+msgid "Screenshots"
+msgstr "Στιγμιότυπα"
+
+#: engine/page.inc:303
+#, c-format
+msgid "WinMerge History"
+msgstr "Ιστορικό WinMerge"
+
+#: downloads/index.php:9 downloads/index.php:73
+#, c-format
+msgid "Project File Releases"
+msgstr "Κυκλοφορίες αρχείου έργου"
+
+#: engine/engine.inc:26
+#, c-format
+msgid "Turkish"
+msgstr "Τουρκικά"
+
+#: about/screenshots/index.php:23
+#, c-format
+msgid ""
+"In the tree view, folders are expandable and collapsible, containing files "
+"and subfolders. This is useful for an easier navigation in deeply nested "
+"directory structures. <em>The tree view is available only in recursive "
+"compares."
+msgstr ""
+"Στην προβολή δέντρου, οι φάκελοι μπορούν ν' αναπτυχθούν και να συμπτυχθούν, "
+"αν περιέχουν αρχεία και υποφακέλους. Αυτό είναι χρήσιμο για την ευκολότερη "
+"πλοήγηση σε \"βαθείς\" υποφακέλους. <em>Η προβολή δέντρου είναι διαθέσιμη "
+"μόνο στις αναδρομικές συγκρίσεις."
+
+#: docs/index.php:6
+#, c-format
+msgid ""
+"WinMerge, documentation, manual, quick tour, release notes, known issues, "
+"change log, Development Wiki"
+msgstr ""
+"WinMerge, υλικό τεκμηρίωσης, εγχειρίδιο χρήσης, ταχεία ξενάγηση, σημειώσεις "
+"κυκλοφορίας, γνωστά προβλήματα, κατάλογος αλλαγών, Wiki Ανάπτυξης"
+
+#: downloads/source-code.php:34
+#, c-format
+msgid ""
+"You can <a href=\"%1$s\">browse the source code</a> with a web browser or "
+"you can check out the whole code by clicking on one of the following links "
+"(if you have <a href=\"%2$s\">TortoiseSVN</a> installed):"
+msgstr ""
+"Μπορείτε να <a href=\"%1$s\">περιηγηθείτε στον πηγαίο κώδικα</a> με ένα "
+"πρόγραμμα περιήγησης στον Ιστό ή να δείτε όλον τον κώδικα με κλικ σε έναν "
+"από τους παρακάτω συνδέσμους (αν έχετε εγκαταστήσει το <a "
+"href=\"%2$s\">TortoiseSVN</a>):"
+
+#: support/tracker-shortcuts.php:16
+#, c-format
+msgid "Feature Request"
+msgstr "Αίτημα για δυνατότητα"
+
+#: downloads/pad-file.php:5
+#, c-format
+msgid ""
+"The easiest way to get informations about the latest stable version from "
+"WinMerge for your web site is the Portable Application Description file, "
+"which you find here."
+msgstr ""
+"Η ευκολότερη οδός πληροφόρησης για την τελευταία σταθερή έκδοση του WinMerge"
+" για τον ιστοχώρο σας είναι το αρχείο Περιγραφής Φορητής Εφαρμογής, το οποίο"
+" βρίσκεται εδώ."
+
+#: downloads/index.php:67
+#, c-format
+msgid "Beta Versions"
+msgstr "Εκδόσεις beta"
+
+#: translations/index.php:33
+#, c-format
+msgid ""
+"You can find a more technical view about the <a href=\"%1$s\">translation "
+"system</a> in our <a href=\"%2$s\">Development Wiki</a>."
+msgstr ""
+"Μπορείτε να δείτε στοιχεία τεχνικής φύσης για το <a href=\"%1$s\">σύστημα "
+"μετάφρασης</a> στο <a href=\"%2$s\">Wiki Ανάπτυξης</a>."
+
+#: translations/index.php:7 translations/status_trunk.php:7
+#: translations/status_trunk.php:9
+#, c-format
+msgid "Translations Status (Unstable Trunk)"
+msgstr "Κατάσταση μεταφράσεων (ασταθής κορμός)"
+
+#: support/mailing-lists.php:24 support/mailing-lists.php:34
+#: support/mailing-lists.php:44 support/mailing-lists.php:54
+#: support/mailing-lists.php:64 support/mailing-lists.php:74
+#, c-format
+msgid "Unsubscribe"
+msgstr "Κατάργηση εγγραφής"
+
+#: index.php:50
+#, c-format
+msgid ""
+"If you need support, look at our <a href=\"%s\">support page</a> for more "
+"information how you can get it."
+msgstr ""
+"Αν θέλετε βοήθεια, διαβάστε στη <a href=\"%s\">σελίδα υποστήριξης</a> πώς "
+"μπορείτε να λάβετε υποστήριξη."
+
+#: about/index.php:47
+#, c-format
+msgid "Creates patch files (Normal-, Context- and Unified formats)"
+msgstr "Δημιουργεί αρχεία patch (μορφής Normal, Context και Unified)"
+
+#: support/tracker-shortcuts.php:13
+#, c-format
+msgid "Bug"
+msgstr "Σφάλμα"
+
+#: downloads/source-code.php:6
+#, c-format
+msgid ""
+"WinMerge, free, download, source code, GPL, Subversion, SVN, TortoiseSVN"
+msgstr ""
+"WinMerge, δωρεάν, λήψη, πηγαίος κώδικας, GPL, Subversion, SVN, TortoiseSVN"
+
+#: about/index.php:57
+#, c-format
+msgid "Localizable interface"
+msgstr "Μεταφράσιμο περιβάλλον"
+
+#: downloads/index.php:68
+#, c-format
+msgid "Experimental Builds"
+msgstr "Πειραματικές ενδιάμεσες εκδόσεις"
+
+#: about/index.php:55
+#, c-format
+msgid "Archive file support using 7-Zip"
+msgstr "Υποστήριξη για αρχειοθήκες μέσω 7-Zip"
+
+#: translations/index.php:6 translations/status_branch.php:7
+#: translations/status_branch.php:10
+#, c-format
+msgid "Translations Status (Stable Branch)"
+msgstr "Κατάσταση μεταφράσεων (σταθερός κλάδος)"
+
+#: support/tracker-shortcuts.php:55
+#, c-format
+msgid "Subdomains"
+msgstr "Υποτομείς"
+
+#: about/license.php:10
+#, c-format
+msgid ""
+"This means everybody can download the <a href=\"%s\">source code</a> and improve and modify it.\n"
+"The only thing we ask is that people submit their improvements and modifications back to us so that all WinMerge users may benefit."
+msgstr ""
+"Αυτό σημαίνει ότι καθένας μπορεί να κατεβάσει τον <a href=\"%s\">πηγαίο κώδικα</a> και να τον βελτιώσει/τροποποιήσει.\n"
+"Το μόνο που ζητούμε είναι οι βελτιώσεις και οι τροποποιήσεις να αποστέλλονται σ' εμάς, ώστε να τις απολαμβάνουν όλοι οι χρήστες του WinMerge."
+
+#: downloads/plugins.php:11
+#, c-format
+msgid ""
+"This is the 7-Zip plugin for WinMerge and the current version "
+"<strong>%1$s</strong> was released at <strong>%2$s</strong>."
+msgstr ""
+"Αυτό είναι το πρόσθετο 7-Zip για WinMerge, του οποίου η τρέχουσα έκδοση "
+"<strong>%1$s</strong> κυκλοφόρησε στις <strong>%2$s</strong>."
+
+#: 404.php:23
+#, c-format
+msgid "<a href=\"%s\">Change Log</a>?"
+msgstr "<a href=\"%s\">Κατάλογος αλλαγών</a>;"
+
+#: support/mailing-lists.php:37
+#, c-format
+msgid "You should ask all your support questions on this list."
+msgstr "Πρέπει να υποβάλλετε όλα τα ερωτήματα υποστήριξης σε αυτήν τη λίστα."
+
+#: translations/translations.inc:38
+#, c-format
+msgid "File not valid."
+msgstr "Αρχείο μη έγκυρο."
+
+#: about/index.php:19
+#, c-format
+msgid "General"
+msgstr "Γενικά"
+
+#: about/index.php:52
+#, c-format
+msgid "Other"
+msgstr "Άλλα"
+
+#: support/tracker-shortcuts.php:6
+#, c-format
+msgid ""
+"WinMerge, tracker, shortcuts, sourceforge, project page, bug, patch, support"
+" request, feature request, todo item"
+msgstr ""
+"WinMerge, ιχνηλάτης, συντομεύσεις , sourceforge, σελίδα έργου, σφάλμα, "
+"patch, αίτημα για υποστήριξη, αίτημα για δυνατότητα, υλοποιητέο στοιχείο"
+
+#: translations/status_website.php:13
+#, c-format
+msgid "See more information on Transifex.net"
+msgstr "Μάθετε περισσότερα στο Transifex.net"
+
+#: 404.php:27
+#, c-format
+msgid "<a href=\"%s\">Support</a>?"
+msgstr "<a href=\"%s\">Υποστήριξη</a>;"
+
+#: about/license.php:14
+#, c-format
+msgid "GNU General Public License"
+msgstr "Γενική Δημόσια Άδεια GNU"
+
+#: links.php:7
+#, c-format
+msgid ""
+"Here is a collection of links to tools and reference material that we find "
+"is generally useful when you work with WinMerge."
+msgstr ""
+"Ακολουθεί μία συλλογή συνδέσμων προς εργαλεία και υλικό αναφοράς που "
+"θεωρούμε χρήσιμα για όταν χρησιμοποιείτε το WinMerge."
+
+#: about/index.php:49
+#, c-format
+msgid "Rudimentary Visual SourceSafe and Rational ClearCase integration"
+msgstr "Υποτυπώδης ενοποίηση με Visual SourceSafe και Rational ClearCase"
+
+#: 404.php:18
+#, c-format
+msgid "<a href=\"%s\">Screenshots</a>?"
+msgstr "<a href=\"%s\">Στιγμιότυπα</a>;"
+
+#: docs/index.php:18 engine/page.inc:313
+#, c-format
+msgid "Development Wiki"
+msgstr "Wiki Ανάπτυξης"
+
+#: downloads/pad-file.php:56
+#, c-format
+msgid "English Descriptions"
+msgstr "Αγγλικές περιγραφές"
+
+#: downloads/index.php:66
+#, c-format
+msgid "Stable Versions"
+msgstr "Σταθερές εκδόσεις"
+
+#: engine/page.inc:275
+#, c-format
+msgid "About"
+msgstr "Πληροφορίες"
+
+#: downloads/index.php:63
+#, c-format
+msgid "Other Versions"
+msgstr "Άλλες εκδόσεις"
+
+#: index.php:30
+#, c-format
+msgid "WinMerge 3"
+msgstr "WinMerge 3"
+
+#: engine/page.inc:243
+#, c-format
+msgid "Download Now!"
+msgstr "Άμεση λήψη!"
+
+#: about/index.php:37
+#, c-format
+msgid "Folder Compare"
+msgstr "Σύγκριση φακέλων"
+
+#: links.php:16
+#, c-format
+msgid ""
+"<b>GnuWin32</b> provides Win32 ports of tools with a <a "
+"href=\"%1$s\">GNU</a> or similar <a href=\"%2$s\">open source license</a>."
+msgstr ""
+"Το <b>GnuWin32</b> προσφέρει εργαλεία με <a href=\"%1$s\">GNU</a> ή άλλη <a "
+"href=\"%2$s\">άδεια ανοιχτού κώδικα</a> σε έκδοση κατάλληλη για Win32."
+
+#: support/index.php:53
+#, c-format
+msgid ""
+"Since WinMerge is an <a href=\"%s\">Open Source</a> project, you may use it "
+"free of charge."
+msgstr ""
+"Επειδή το WinMerge είναι έργο <a href=\"%s\">ανοιχτού κώδικα</a>, μπορείτε "
+"να το χρησιμοποιείτε δωρεάν."
+
+#: about/index.php:5 about/index.php:12
+#, c-format
+msgid ""
+"WinMerge is highly useful for determining what has changed between project "
+"versions, and then merging changes between versions. WinMerge can be used as"
+" an external differencing/merging tool or as a standalone application."
+msgstr ""
+"Το WinMerge είναι πολύ χρήσιμο για τον εντοπισμό αλλαγών μεταξύ εκδόσεων "
+"ενός έργου και συγχώνευση αλλαγών μεταξύ εκδόσεων. Το WinMerge μπορεί να "
+"χρησιμοποιηθεί ως εξωτερικό εργαλείο εντοπισμού διαφορών / συγχώνευσης ή ως "
+"μεμονωμένη εφαρμογή."
+
+#: links.php:30
+#, c-format
+msgid "Tutorial"
+msgstr "Εκμάθηση"
+
+#: support/tracker-shortcuts.php:23
+#, c-format
+msgid "Type:"
+msgstr "Τύπος:"
+
+#: links.php:9
+#, c-format
+msgid "Tools"
+msgstr "Εργαλεία"
+
+#: downloads/index.php:22 downloads/plugins.php:17
+#, c-format
+msgid "Exe-Format (%s MB)"
+msgstr "Μορφή exe (%s MB)"
+
+#: 404.php:13
+#, c-format
+msgid ""
+"This site has recently undergone a major re-working, so that might explain "
+"why you got this page instead."
+msgstr ""
+"Αυτός ο ιστοχώρος πρόσφατα υπέστη μεγάλες αλλαγές και ίσως γι' αυτό "
+"βρεθήκατε σε αυτήν τη σελίδα."
+
+#: links.php:27
+#, c-format
+msgid "Good site devoted for regular expressions"
+msgstr "Καλός ιστότοπος για τις κανονικές παραστάσεις"
+
+#: downloads/index.php:59
+#, c-format
+msgid ""
+"Microsoft Visual C++ 2003 Runtime Components (included in the installer)"
+msgstr ""
+"Microsoft Visual C++ 2003 Runtime Components (περιλαμβάνονται στο πρόγραμμα "
+"εγκατάστασης)"
+
+#: index.php:31
+#, c-format
+msgid "<a href=\"%s\">WinMerge 3</a> will be modern compare/synchronization tool."
+msgstr ""
+"Το <a href=\"%s\">WinMerge 3</a> θα είναι ένα σύγχρονο εργαλείο "
+"σύγκρισης/συγχρονισμού."
+
+#: downloads/pad-file.php:90
+#, c-format
+msgid "Company"
+msgstr "Εταιρεία"
+
+#: translations/instructions.php:15
+#, c-format
+msgid "Source: %s"
+msgstr "Πηγή: %s"
+
+#: downloads/plugins.php:6
+#, c-format
+msgid ""
+"WinMerge, free, download, plugins, plugin, plug-in, setup, installer, "
+"binaries, 7-Zip, xdocdiff, Word, Excel, PowerPoint, PDF"
+msgstr ""
+"WinMerge, δωρεάν, λήψη, πρόσθετα, πρόσθετο, plug-in, διαμόρφωση, πρόγραμμα "
+"εγκατάστασης, δυαδικά αρχεία, 7-Zip, xdocdiff, Word, Excel, PowerPoint, PDF"
+
+#: about/history.php:45
+#, c-format
+msgid "Withdrawn due to installer bug!"
+msgstr "Αποσύρθηκε εξαιτίας σφάλματος στο πρόγραμμα εγκατάστασης!"
+
+#: support/mailing-lists.php:22 support/mailing-lists.php:52
+#, c-format
+msgid "Low Traffic"
+msgstr "Χαμηλή κυκλοφορία"
+
+#: support/mailing-lists.php:27
+#, c-format
+msgid "This list is only for announcing new releases of WinMerge."
+msgstr ""
+"Αυτή η λίστα είναι μόνο για ν' ανακοινώνονται νέες κυκλοφορίες του WinMerge."
+
+#: downloads/pad-file.php:78
+#, c-format
+msgid "Icon"
+msgstr "Εικονίδιο"
+
+#: engine/page.inc:326
+#, c-format
+msgid "WinMerge Tracker Shortcuts"
+msgstr "Συντομεύσεις ιχνηλάτη WinMerge"
+
+#: downloads/pad-file.php:10
+#, c-format
+msgid ""
+"The easiest way to get informations about the latest stable version from "
+"WinMerge for your web site is the <a href=\"%s\">Portable Application "
+"Description</a> file, which you find here:"
+msgstr ""
+"Η ευκολότερη οδός πληροφόρησης για την τελευταία σταθερή έκδοση του WinMerge"
+" για τον ιστοχώρο σας είναι το αρχείο <a href=\"%s\">Περιγραφής Φορητής "
+"Εφαρμογής</a>, το οποίο βρίσκεται εδώ."
+
+#: engine/page.inc:324 support/mailing-lists.php:7 support/mailing-lists.php:9
+#, c-format
+msgid "Mailing Lists"
+msgstr "Λίστες αλληλογραφίας"
+
+#: support/tracker-shortcuts.php:5
+#, c-format
+msgid ""
+"Tracker Shortcuts are shorter and nicer URLs to Tracker items from our "
+"SF.net project page. And you can use this page to create a shortcut."
+msgstr ""
+"Οι Συντομεύσεις Ιχνηλάτη είναι μικρότερα, πιο εύχρηστα URL προς στοιχεία του"
+" Ιχνηλάτη από τη σελίδα του έργου μας στο SF.net. Και μπορείτε να "
+"χρησιμοποιήσετε αυτήν τη σελίδα για δημιουργία συντόμευσης."
+
+#: downloads/index.php:25 downloads/plugins.php:20
+#, c-format
+msgid "Binaries"
+msgstr "Δυαδικά αρχεία"
+
+#: about/license.php:30 engine/page.inc:297 links.php:6
+#, c-format
+msgid "Links"
+msgstr "Σύνδεσμοι"
+
+#: support/mailing-lists.php:47
+#, c-format
+msgid ""
+"This list is for user related questions. Having questions posted to this "
+"list may allow others having the same problem to solve it on their own."
+msgstr ""
+"Αυτή η λίστα είναι για ερωτήσεις σχετικά με χρήστες. Αν δημοσιεύετε "
+"ερωτήσεις σε αυτήν τη λίστα, ίσως βοηθήσετε άλλους με το ίδιο πρόβλημα να το"
+" λύσουν μόνοι τους."
+
+#: docs/index.php:15
+#, c-format
+msgid ""
+"The <a href=\"%1$s\">release notes</a> are a short summary of important "
+"changes, enhancements, bug fixes and <a href=\"%2$s\">known issues</a> in "
+"the current WinMerge release."
+msgstr ""
+"Οι <a href=\"%1$s\">σημειώσεις κυκλοφορίας</a> είναι μια σύνοψη των "
+"σημαντικών αλλαγών, των βελτιώσεων, των επιδιορθώσεων σφαλμάτων και των <a "
+"href=\"%2$s\">γνωστών προβλημάτων</a> στην τρέχουσα κυκλοφορία του WinMerge."
+
+#: about/index.php:32
+#, c-format
+msgid "Difference pane shows current difference in two vertical panes"
+msgstr ""
+"Η περιοχή διαφορών εμφανίζει την εκάστοτε διαφορά σε δύο κατακόρυφα παράθυρα"
+
+#: engine/engine.inc:25
+#, c-format
+msgid "Swedish"
+msgstr "Σουηδικά"
+
+#: translations/index.php:11
+#, c-format
+msgid "We currently have WinMerge translated into the languages listed below:"
+msgstr "Προς το παρόν το WinMerge έχει μεταφραστεί στις εξής γλώσσες:"
+
+#: downloads/index.php:70
+#, c-format
+msgid "Japanese WinMerge Version"
+msgstr "Έκδοση του WinMerge στα Γιαπωνέζικα"
+
+#: translations/status_website.php:8
+#, c-format
+msgid ""
+"We move the sources from the website to a <a href=\"%1$s\">bitbucket "
+"Mercurial repository</a> and use now <a href=\"%2$s\">Transifex</a> as "
+"platform for the translations."
+msgstr ""
+"Μετακομίζουμε τα πηγαία αρχεία από τον ιστοχώρο σε <a "
+"href=\"%1$s\">αποθετήριο bitbucket Mercurial</a> και πλέον χρησιμοποιούμε το"
+" <a href=\"%2$s\">Transifex</a> ως πλατφόρμα μεταφράσεων."
+
+#: 404.php:15
+#, c-format
+msgid "Were you looking for..."
+msgstr "Ψάχνατε για..."
+
+#: engine/page.inc:313
+#, c-format
+msgid "WinMerge Development Wiki"
+msgstr "Wiki Ανάπτυξης του WinMerge"
+
+#: downloads/index.php:15
+#, c-format
+msgid ""
+"The current WinMerge version is <strong>%1$s</strong> and was released at "
+"<strong>%2$s</strong>."
+msgstr ""
+"Το WinMerge βρίσκεται στην έκδοση <strong>%1$s</strong>, που κυκλοφόρησε "
+"στις <strong>%2$s</strong>."
+
+#: about/index.php:21
+#, c-format
+msgid "Supports Microsoft Windows 98/ME/2000/XP/2003/Vista/2008"
+msgstr "Υποστήριξη για Microsoft Windows 98/ME/2000/XP/2003/Vista/2008"
+
+#: engine/page.inc:277
+#, c-format
+msgid "Downloads"
+msgstr "Λήψεις"
+
+#: engine/page.inc:279 engine/page.inc:330
+#, c-format
+msgid "WinMerge Translations"
+msgstr "Μεταφράσεις του WinMerge"
+
+#: index.php:35
+#, c-format
+msgid "<a href=\"%s\">Read more</a> and get involved!"
+msgstr "<a href=\"%s\">Διαβάστε περισσότερα</a> και συμμετάσχετε!"
+
+#: downloads/pad-file.php:46
+#, c-format
+msgid "Supported Languages"
+msgstr "Υποστηριζόμενες γλώσσες"
+
+#: support/index.php:19
+#, c-format
+msgid ""
+"We rarely sent direct emails but you will get notifications when we ask "
+"questions in the bug item."
+msgstr ""
+"Σπάνια στέλνουμε απευθείας e-mail, αλλά ειδοποιήστε όποτε ρωτάμε κάτι για "
+"ένα σφάλμα."
+
+#: links.php:24
+#, c-format
+msgid "Regular expressions"
+msgstr "Κανονικές παραστάσεις"
+
+#: 404.php:21
+#, c-format
+msgid "<a href=\"%s\">Manual</a>?"
+msgstr "<a href=\"%s\">Εγχειρίδιο</a>;"
+
+#: index.php:8 index.php:37
+#, c-format
+msgid "Project News"
+msgstr "Νέα για το έργο"
+
+#: engine/page.inc:244
+#, c-format
+msgid "Version %1$s; %2$s MB"
+msgstr "Έκδοση%1$s; %2$s MB"
+
+#: engine/engine.inc:24
+#, c-format
+msgid "Polish"
+msgstr "Πολωνικά"
+
+#: translations/translations.inc:81 translations/translations.inc:95
+#: translations/translations.inc:133 translations/translations_branch.inc:49
+#: translations/translations_branch.inc:68
+#: translations/translations_branch.inc:118
+#, c-format
+msgid "Translated"
+msgstr "Μεταφρασμένα"
+
+#: links.php:38
+#, c-format
+msgid ""
+"Map the open source world by collecting objective information on open source"
+" projects. [<a href=\"%s\">WinMerge Report</a>]"
+msgstr ""
+"Χαρτογραφήστε τον κόσμο του ανοιχτού κώδικα συλλέγοντας πληροφορίες για τα "
+"έργα ανοιχτού κώδικα. [<a href=\"%s\">Έκθεση WinMerge</a>]"
+
+#: downloads/plugins.php:33
+#, c-format
+msgid ""
+"For more details and the download go to the <a href=\"%s\">xdocdiff plugin "
+"homepage</a>."
+msgstr ""
+"Για περισσότερες λεπτομέρειες και λήψη μεταβείτε στην <a "
+"href=\"%s\">ιστοσελίδα του προσθέτου xdocdiff</a>."
+
+#: translations/instructions.php:9
+#, c-format
+msgid "The translations instructions are currently not available..."
+msgstr "Οι οδηγίες μετάφρασης δεν είναι διαθέσιμες αυτήν τη στιγμή..."
+
+#: downloads/plugins.php:29
+#, c-format
+msgid "You can also search for <a href=\"%s\">other versions</a>."
+msgstr "Επίσης, μπορείτε να αναζητήσετε <a href=\"%s\">άλλες εκδόσεις</a>."
+
+#: support/mailing-lists.php:14 support/mailing-lists.php:40
+#, c-format
+msgid "User List"
+msgstr "Λίστα χρήστη"
+
+#: support/mailing-lists.php:17 support/mailing-lists.php:70
+#, c-format
+msgid "SVN List"
+msgstr "Λίστα SVN"
+
+#: engine/page.inc:297
+#, c-format
+msgid "WinMerge Links"
+msgstr "Σύνδεσμοι WinMerge"
+
+#: 404.php:9
+#, c-format
+msgid "Error 404 (Page Not Found)"
+msgstr "Σφάλμα 404 (Η σελίδα δεν βρέθηκε)"
+
+#: translations/translations.inc:132 translations/translations_branch.inc:67
+#, c-format
+msgid "Graph"
+msgstr "Γράφημα"
+
+#: index.php:53
+#, c-format
+msgid ""
+"WinMerge is an open source project, which means that the program is "
+"maintained and developed by volunteers."
+msgstr ""
+"Το WinMerge είναι έργο ανοιχτού κώδικα, δηλαδή το πρόγραμμα το συντηρούν και"
+" το αναπτύσσουν εθελοντές."
+
+#: about/index.php:24
+#, c-format
+msgid "Tabbed interface"
+msgstr "Περιβάλλον με καρτέλες"
+
+#: about/index.php:73
+#, c-format
+msgid ""
+"Or you may simply unzip the <a href=\"%s\">binary zip package</a> into the "
+"desired location, and run <code>WinMergeU.exe</code> (except for Windows "
+"98/ME users who should use <code>WinMerge.exe</code>)."
+msgstr ""
+"Εναλλακτικά, μπορείτε απλώς να εξαγάγετε το <a href=\"%s\">δυαδικό πακέτο "
+"zip</a> στην επιθυμητή θέση και να εκτελέσετε το <code>WinMergeU.exe</code> "
+"(με εξαίρεση τους χρήστες των Windows 98/ME, που πρέπει να χρησιμοποιήσουν "
+"το <code>WinMerge.exe</code>)."
+
+#: translations/translations.inc:81 translations/translations_branch.inc:49
+#, c-format
+msgid "Translated: %d%%"
+msgstr "Μεταφρασμένα: %d%%"
+
+#: about/license.php:33
+#, c-format
+msgid "The Open Source Definition"
+msgstr "Τι σημαίνει \"ανοιχτού κώδικα\""
+
+#: about/index.php:6
+#, c-format
+msgid ""
+"WinMerge, about, features, file compare, folder compare, version control, "
+"screenshots, installation"
+msgstr ""
+"WinMerge, πληροφορίες, δυνατότητες, σύγκριση αρχείων, σύγκριση φακέλων, "
+"έλεγχος έκδοσης, στιγμιότυπα, εγκατάσταση"
+
+#: engine/page.inc:332
+#, c-format
+msgid "Status (Stable Branch)"
+msgstr "Κατάσταση (σταθερός κλάδος)"
+
+#: translations/translations.inc:83 translations/translations.inc:96
+#: translations/translations.inc:134 translations/translations_branch.inc:51
+#: translations/translations_branch.inc:69
+#: translations/translations_branch.inc:119
+#, c-format
+msgid "Fuzzy"
+msgstr "Παρόμοια"
+
+#: downloads/pad-file.php:64
+#, c-format
+msgid "English Keywords"
+msgstr "Αγγλικές λέξεις-κλειδί"
+
+#: translations/status_branch.php:14 translations/translations.inc:285
+#, c-format
+msgid "Translators"
+msgstr "Μεταφραστές"
+
+#: translations/status_website.php:5 translations/status_website.php:7
+#: translations/status_website.php:12
+#, c-format
+msgid "Translations Status (Website)"
+msgstr "Κατάσταση μεταφράσεων (ιστοχώρος)"
+
+#: support/tracker-shortcuts.php:41
+#, c-format
+msgid "ID:"
+msgstr "Α/Α:"
+
+#: links.php:33
+#, c-format
+msgid "PDF quick reference"
+msgstr "PDF ταχείας αναδίφησης"
+
+#: docs/index.php:11
+#, c-format
+msgid ""
+"The <a href=\"%s\">manual</a> explains how to use WinMerge, and documents "
+"its capabilities and limitations."
+msgstr ""
+"Το <a href=\"%s\">εγχειρίδιο χρήσης</a> εξηγεί πώς χρησιμοποιείται το "
+"WinMerge και τεκμηριώνει τις μπορεί να κάνει και τι όχι."
+
+#: downloads/index.php:69 links.php:43
+#, c-format
+msgid "WinMerge Portable"
+msgstr "Φορητό WinMerge"
+
+#: about/screenshots/index.php:24 about/screenshots/index.php:25
+#, c-format
+msgid "Highlight Line Diff"
+msgstr "Επισήμανση διαφορών γραμμών"
+
+#: support/mailing-lists.php:72
+#, c-format
+msgid "High Traffic"
+msgstr "Υψηλή κυκλοφορία"
+
+#: engine/page.inc:323
+#, c-format
+msgid "Discussion Forums"
+msgstr "Φόρουμ συζητήσεων"
+
+#: support/index.php:14
+#, c-format
+msgid "If you find a bug, please submit it as a <a href=\"%s\">bug report</a>."
+msgstr "Αν εντοπίσετε σφάλμα, υποβάλετε <a href=\"%s\">αναφορά σφάλματος</a>."
+
+#: index.php:7
+#, c-format
+msgid ""
+"WinMerge, free, open source, Windows, windiff, diff, merge, compare, tool, "
+"utility, text, file, folder, directory, compare files, compare folders, "
+"merge files, merge folders, diff tool, merge tool, compare tool"
+msgstr ""
+"WinMerge, δωρεάν, ανοιχτού κώδικα, Windows, windiff, diff, συγχώνευση, "
+"σύγκριση, εργαλείο, utility, κείμενο, αρχείο, φάκελος, κατάλογος, σύγκριση "
+"αρχείων, σύγκριση φακέλων, συγχώνευση αρχείων, συγχώνευση φακέλων, εργαλείο "
+"διαφορών, εργαλείο συγχώνευσης, εργαλείο σύγκρισης"
+
+#: about/index.php:78
+#, c-format
+msgid "Here is the current <a href=\"%s\">change log</a>."
+msgstr "Εδώ βρίσκεται ο τρέχων <a href=\"%s\">κατάλογος αλλαγών</a>."
+
+#: support/index.php:22
+#, c-format
+msgid "Tracker Statistics"
+msgstr "Στατιστικά ιχνηλάτη"
+
+#: engine/page.inc:310
+#, c-format
+msgid "WinMerge Release Notes"
+msgstr "Σημειώσεις κυκλοφορίας WinMerge"
+
+#: downloads/index.php:10 downloads/index.php:12 engine/page.inc:316
+#, c-format
+msgid "Download WinMerge"
+msgstr "Λήψη WinMerge"
+
+#: links.php:12
+#, c-format
+msgid "<b>7-Zip</b> is a file archiver with high compression ratio."
+msgstr ""
+"Το <b>7-Zip</b> είναι ένας πρόγραμμα αρχειοθέτησης αρχείων με μεγάλο λόγο "
+"συμπίεσης."
+
+#: index.php:33
+#, c-format
+msgid "You can use the same tool in Windows and in Linux."
+msgstr "Μπορείτε να χρησιμοποιήσετε το ίδιο εργαλείο σε Windows και Linux."
+
+#: downloads/source-code.php:7 downloads/source-code.php:10
+#, c-format
+msgid "Download Source Code"
+msgstr "Λήψη πηγαίου κώδικα"
+
+#: about/index.php:34
+#, c-format
+msgid "Moved lines detection"
+msgstr "Εντοπισμός μετακινημένων γραμμών"
+
+#: about/license.php:10
+#, c-format
+msgid ""
+"WinMerge is <a href=\"%1$s\">Open Source</a> software under the <a "
+"href=\"%2$s\">GNU General Public License</a>."
+msgstr ""
+"Το WinMerge είναι λογισμικό <a href=\"%1$s\">ανοιχτού κώδικα</a> διεπόμενο "
+"από τη <a href=\"%2$s\">Γενική Δημόσια Άδεια GNU</a>."
+
+#: support/mailing-lists.php:16 support/mailing-lists.php:60
+#, c-format
+msgid "Development List"
+msgstr "Λίστα ανάπτυξης"
+
+#: downloads/index.php:90
+#, c-format
+msgid "View all file releases&hellip;"
+msgstr "Προβολή όλων των κυκλοφοριών αρχείων&hellip;"
+
+#: engine/page.inc:384
+#, c-format
+msgid "Bookmark this on Delicious"
+msgstr "Προσθήκη ως σελιδοδείκτη στο Delicious"
+
+

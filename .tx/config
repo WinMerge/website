@@ -6,6 +6,7 @@ file_filter = po/<lang>.po
 source_file = po/en-US.pot
 source_lang = en
 trans.de = po/de.po
+trans.el_GR = po/el.po
 trans.fr = po/fr.po
 trans.ja = po/ja.po
 trans.nl = po/nl.po

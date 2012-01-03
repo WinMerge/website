@@ -17,6 +17,7 @@
   $translations = new SimpleTranslate;
   $translations->setUrlParameter('lang');
   $translations->addLanguage('en', __('English'));
+  $translations->addLanguage('el', __('Greek'), $languagesdir . 'el.po');
   $translations->addLanguage('de', __('German'), $languagesdir . 'de.po');
   $translations->addLanguage('fr', __('French'), $languagesdir . 'fr.po');
   $translations->addLanguage('ja', __('Japanese'), $languagesdir . 'ja.po');
