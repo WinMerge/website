@@ -171,7 +171,6 @@
       $temp .= "  <a href=\"http://sourceforge.net/donate/index.php?group_id=13216\"><img src=\"/engine/images/project-support.jpg\" width=\"88\" height=\"32\" border=\"0\" alt=\"Donate\" title=\"Donate money to WinMerge\"></a>\n";
       $temp .= "</p>\n";
       $temp .= "</div> <!-- #wrap -->\n";
-      $temp .= $this->getPiwikCode();
       $temp .= "</body>\n\n";
       $temp .= "</html>\n";
       print($temp);
@@ -408,25 +407,6 @@
         $temp .= "</ul>\n";
         $temp .= "</div> <!-- #languages -->\n";
       }
-      return $temp;
-    }
-
-    /**
-     * get the Piwik java script code
-     */
-    function getPiwikCode() {
-      $temp = "<!-- Piwik -->\n";
-      $temp .= "<script type=\"text/javascript\">\n";
-      $temp .= "var pkBaseURL = ((\"https:\" == document.location.protocol) ? \"https://sourceforge.net/apps/piwik/winmerge/\" : \"http://sourceforge.net/apps/piwik/winmerge/\");\n";
-      $temp .= "document.write(unescape(\"%3Cscript src='\" + pkBaseURL + \"piwik.js' type='text/javascript'%3E%3C/script%3E\"));\n";
-      $temp .= "</script><script type=\"text/javascript\">\n";
-      $temp .= "try {\n";
-      $temp .= "var piwikTracker = Piwik.getTracker(pkBaseURL + \"piwik.php\", 1);\n";
-      $temp .= "piwikTracker.trackPageView();\n";
-      $temp .= "piwikTracker.enableLinkTracking();\n";
-      $temp .= "} catch( err ) {}\n";
-      $temp .= "</script><noscript><p><img src=\"http://sourceforge.net/apps/piwik/winmerge/piwik.php?idsite=1\" style=\"border:0\" alt=\"\"/></p></noscript>\n";
-      $temp .= "<!-- End Piwik Tag -->\n";
       return $temp;
     }
 
