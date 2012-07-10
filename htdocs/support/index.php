@@ -9,7 +9,7 @@
   $page->printHead(__('Support'), TAB_SUPPORT);
 
   $page->printHeading(__('Support'));
-  $page->printPara(__('The <a href="%s">Open Discussion forum</a> is the fastest way to get help. Please be patient, it may take some time for somebody to answer.', 'http://apps.sourceforge.net/phpbb/winmerge/viewforum.php?f=4'),
+  $page->printPara(__('The <a href="%s">Open Discussion forum</a> is the fastest way to get help. Please be patient, it may take some time for somebody to answer.', 'http://forums.winmerge.org/viewforum.php?f=4'),
                    __('A other way is a subscription to the <a href="%s">support mailing list</a>.', 'mailing-lists.php#support'));
   $page->printPara(__('If you find a bug, please submit it as a <a href="%s">bug report</a>.', 'http://bugs.winmerge.org/'),
                    __('Please attach as much information as you can: at a minimum, the version number of WinMerge that you are using. If you can, also attach a configuration log which, you can display by clicking <span class="guimenu">Help</span> &#8594; <span class="guimenuitem">Configuration</span> in the WinMerge window.'),
@@ -36,7 +36,7 @@
   print("</ul>\n");
 
   $page->printSubHeading(__('Active Forum Topics'));
-  $activetopics = new Forum_ActiveTopics('http://sourceforge.net/apps/phpbb/winmerge/');
+  $activetopics = new Forum_ActiveTopics('http://forums.winmerge.org/');
   print("<ul class=\"rssfeeditems\">\n");
   foreach ($activetopics->getTopics(0, 5) as $topic) { //for all active topics...
     $lastPostLine = '';
@@ -46,7 +46,7 @@
     }
     print("  <li><a href=\"".$topic->getLink()."\">".$topic->getTitle()."</a> <em>".$lastPostLine."</em></li>\n");
   }
-  print("  <li><a href=\"http://sourceforge.net/apps/phpbb/winmerge/search.php?st=0&amp;search_id=active_topics\">".__('View all active topics&hellip;')."</a></li>\n");
+  print("  <li><a href=\"http://forums.winmerge.org/search.php?st=0&amp;search_id=active_topics\">".__('View all active topics&hellip;')."</a></li>\n");
   print("</ul>\n");
 
   $page->printSubHeading(__('Donate'));

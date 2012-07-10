@@ -60,13 +60,14 @@ class Forum_ActiveTopics {
         $html = preg_replace(array('#\t#', '#&amp;sid=[a-z0-9]+#'), '', $html);
         if (preg_match_all('#<a href="\./(.*?)" class="topictitle">(.*?)</a>#im', $html, $matches)) {
             $lastPosts = array();
-            if (preg_match_all('#<dd class="lastpost">\nby <a href="\./(.*?)">(.*?)</a><a href=".*?"></a> ([A-Za-z0-9,: ]+) \n</dd>#i', $html, $lastPostMatches)) {
-                $lastPostUserLinks = $lastPostMatches[1];
-                $lastPostUserNames = $lastPostMatches[2];
-                $lastPostTimes = $lastPostMatches[3];
-                for ($i = 0; $i < count($lastPostUserLinks); $i++) { //for all users...
-                    $link = $this->_forumHome . $lastPostUserLinks[$i];
-                    $name = $lastPostUserNames[$i];
+              if (preg_match_all('#<dd class="lastpost">\nby (.*?)\n<a href=".*?"></a> ([A-Za-z0-9,: ]+)\n</dd>#i', $html, $lastPostMatches)) {
+                $lastPostUser = $lastPostMatches[1];
+                $lastPostTimes = $lastPostMatches[2];
+                for ($i = 0; $i < count($lastPostUser); $i++) { //for all users...
+                    //TODO: Fix link!
+                    //$link = $this->_forumHome . $lastPostUser[$i];
+                    $link = '';
+                    $name = strip_tags($lastPostUser[$i]);
                     $timestamp = strtotime($lastPostTimes[$i]);
                     if ($timestamp === false || $timestamp === -1) {
                         $timestamp = 0;
