@@ -1013,7 +1013,7 @@ msgstr "<b>External diff Tool</b> является плагином к <a href=\
 #: support/index.php:45
 #, c-format
 msgid "Y-m-d H:i"
-msgstr "Г-м-д Ч:мин"
+msgstr "Y-m-d H:i"
 
 #: downloads/plugins.php:31
 #, c-format
@@ -1048,7 +1048,7 @@ msgstr "Язык"
 #: downloads/index.php:90 index.php:44
 #, c-format
 msgid "Y-m-d"
-msgstr "Г-м-д"
+msgstr "Y-m-d"
 
 #: downloads/index.php:71
 #, c-format
