@@ -91,6 +91,9 @@ Redirect permanent /docs/manual/ http://manual.winmerge.org/
 #Move quick tour to a own sub domain...
 Redirect permanent /docs/tour/ http://tour.winmerge.org/
 
+#Move forums to a own sub domain...
+Redirect permanent /forums http://forums.winmerge.org/
+
 #Tracker shortcuts...
 RewriteEngine On
 RewriteBase   /
