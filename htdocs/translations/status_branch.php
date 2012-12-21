@@ -9,7 +9,7 @@
   $status = convertXml2Array('status_branch.xml');
   $page->printRssHeading(__('Translations Status (Stable Branch)'), 'status_branch_rss.php');
   if (!empty($status)) { //If translations status available...
-    printTranslationsStatus($status, 'http://winmerge.svn.sourceforge.net/viewvc/winmerge/branches/' . $stablerelease = $page->getStableRelease()->getBranchName() . '/Src/Languages/');
+    printTranslationsStatus($status, 'http://svn.code.sf.net/p/winmerge/code/branches/' . $stablerelease = $page->getStableRelease()->getBranchName() . '/Src/Languages/');
     printTranslationsStatusGraphLegend();
     $page->printSubHeading(__('Translators'));
     printTranslationsTranslators($status);

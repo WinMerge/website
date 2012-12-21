@@ -30,14 +30,14 @@
 </pre>
 </div> <!-- #checksums -->
 <?php
-  $page->printPara(__('The source code is hosted on <a href="%1$s">SourceForge.net</a> in a <a href="%2$s">Subversion</a> repository.', 'http://sourceforge.net/', 'http://sourceforge.net/svn/?group_id=13216'));
-  $page->printPara(__('You can <a href="%1$s">browse the source code</a> with a web browser or you can check out the whole code by clicking on one of the following links (if you have <a href="%2$s">TortoiseSVN</a> installed):', 'http://winmerge.svn.sourceforge.net/viewvc/winmerge/', 'http://tortoisesvn.net/'));
+  $page->printPara(__('The source code is hosted on <a href="%1$s">SourceForge.net</a> in a <a href="%2$s">Subversion</a> repository.', 'http://sourceforge.net/', 'http://subversion.apache.org/'));
+  $page->printPara(__('You can <a href="%1$s">browse the source code</a> with a web browser or you can check out the whole code by clicking on one of the following links (if you have <a href="%2$s">TortoiseSVN</a> installed):', 'http://sourceforge.net/p/winmerge/code/', 'http://tortoisesvn.net/'));
 ?>
 <dl class="headinglist">
   <dt><?php __e('Developer Version');?></dt>
-  <dd><a href="tsvn:https://winmerge.svn.sourceforge.net/svnroot/winmerge/trunk">https://winmerge.svn.sourceforge.net/svnroot/winmerge/trunk</a></dd>
+  <dd><a href="tsvn:http://svn.code.sf.net/p/winmerge/code/trunk">http://svn.code.sf.net/p/winmerge/code/trunk</a></dd>
   <dt><?php __e('WinMerge %s', $stablerelease->getVersionNumberMajor());?></dt>
-  <dd><a href="tsvn:https://winmerge.svn.sourceforge.net/svnroot/winmerge/branches/<?php echo $stablerelease->getBranchName();?>">https://winmerge.svn.sourceforge.net/svnroot/winmerge/branches/<?php echo $stablerelease->getBranchName();?></a></dd>
+  <dd><a href="tsvn:http://svn.code.sf.net/p/winmerge/code/branches/<?php echo $stablerelease->getBranchName();?>">http://svn.code.sf.net/p/winmerge/code/branches/<?php echo $stablerelease->getBranchName();?></a></dd>
   <dt><?php __e('WinMerge 3 Future');?></dt>
   <dd><code>hg clone <a href="https://bitbucket.org/grimmdp/winmerge">https://bitbucket.org/grimmdp/winmerge</a></code></dd>
 </dl>

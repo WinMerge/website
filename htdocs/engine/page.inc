@@ -490,7 +490,7 @@
           $line = $lines[$i];
           
           $line = preg_replace('#(WinMerge [0-9]\.[0-9].*-.*\))#si', '<h3>\\1</h3>', $line);
-          $line = preg_replace('#r([0-9]+)#si', '<a href="http://winmerge.svn.sourceforge.net/viewvc/winmerge?view=rev&amp;revision=\\1" target="_blank">r\\1</a>', $line);
+          $line = preg_replace('#r([0-9]+)#si', '<a href="http://sourceforge.net/p/winmerge/code/\\1" target="_blank">r\\1</a>', $line);
           $line = preg_replace('#\#([0-9]+)#si', '<a href="http://sourceforge.net/support/tracker.php?aid=\\1" target="_blank">#\\1</a>', $line);
           
           $html .= $line;

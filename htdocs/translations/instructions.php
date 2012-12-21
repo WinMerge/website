@@ -12,7 +12,7 @@
     print($instructions);
 ?>
 <hr>
-<p><em><?php __e('Source: %s', '<a href="http://winmerge.svn.sourceforge.net/viewvc/*checkout*/winmerge/branches/' . $stablerelease = $page->getStableRelease()->getBranchName() . '/Docs/Developers/Translations.html">WinMerge\Docs\Developers\Translations.html</a>');?></em></p>
+<p><em><?php __e('Source: %s', '<a href="http://svn.code.sf.net/p/winmerge/code/branches/' . $stablerelease = $page->getStableRelease()->getBranchName() . '/Docs/Developers/Translations.html">WinMerge\Docs\Developers\Translations.html</a>');?></em></p>
 <?php
   $page->printFoot();
 ?>

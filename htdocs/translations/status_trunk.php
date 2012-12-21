@@ -9,7 +9,7 @@
   $page->printRssHeading(__('Translations Status (Unstable Trunk)'), 'status_trunk_rss.php');
   try {
     $status = New TranslationsStatus('status_trunk.xml');
-    $status->svnUrl = 'http://winmerge.svn.sourceforge.net/viewvc/winmerge/trunk/Translations/';
+    $status->svnUrl = 'http://svn.code.sf.net/p/winmerge/code/trunk/Translations/';
     $status->printTOC();
     $status->printStatus();
     $status->printTranslators();
