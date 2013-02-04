@@ -57,8 +57,8 @@
   $page->printSubSubHeading(__('Requirements'));
 ?>
 <ul>
-  <li><?php __e('Microsoft Windows XP/2003/Vista/2008');?></li>
-  <li><?php __e('Microsoft Visual C++ 2003 Runtime Components (included in the installer)');?></li>
+  <li><?php __e('Microsoft Windows XP/2003/Vista/2008/7/8/2012');?></li>
+  <li><?php __e('Microsoft Visual C++ 2008 Runtime Components (included in the installer)');?></li>
   <li><?php __e('Admin rights for the installer');?></li>
 </ul>
 <?php
