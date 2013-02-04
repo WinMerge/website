@@ -42,16 +42,16 @@
       $this->_tab = TAB_HOME;
       /* _Stable Release */
       $this->_stablerelease = new Release;
-      $this->_stablerelease->setVersionNumber('2.12.4');
-      $this->_stablerelease->setDate('2009-06-09');
-      $this->_stablerelease->addDownload('setup.exe', 'http://downloads.sourceforge.net/winmerge/WinMerge-2.12.4-Setup.exe', 3212078, '345e957fc483d5eba8d0e99010a9c24e588aeaa1');
-      $this->_stablerelease->addDownload('exe.zip', 'http://downloads.sourceforge.net/winmerge/WinMerge-2.12.4-exe.zip', 3504710, '4c721b1b1c2c36e1e9b013d5c8909783d3ab26f0');
-      $this->_stablerelease->addDownload('exe.7z', 'http://downloads.sourceforge.net/winmerge/WinMerge-2.12.4-exe.7z', 1967484, '03e568fe8baa2dabe950729464fddf7291a3e74b');
-      $this->_stablerelease->addDownload('rt.zip', 'http://downloads.sourceforge.net/winmerge/Runtimes-2.12.4.zip', 1287520, '27a9fd85b3bd92d69fea31aec6129c9bd08ea426');
-      $this->_stablerelease->addDownload('rt.7z', 'http://downloads.sourceforge.net/winmerge/Runtimes-2.12.4.7z', 753831, '09e029d03dd34fb0ec1a734d5f32d844da728aac');
-      $this->_stablerelease->addDownload('src.zip', 'http://downloads.sourceforge.net/winmerge/WinMerge-2.12.4-src.zip', 9378049, 'd51d6d6d78df761fbe07463b07bbf23eeabedb60');
-      $this->_stablerelease->addDownload('src.7z', 'http://downloads.sourceforge.net/winmerge/WinMerge-2.12.4-src.7z', 4887115, '6287dfc44c82ec7c675c023fe436362a9469407e');
-      $this->_stablerelease->setBranchName('R2_12');
+      $this->_stablerelease->setVersionNumber('2.14.0');
+      $this->_stablerelease->setDate('2013-02-02');
+      $this->_stablerelease->addDownload('setup.exe', 'http://downloads.sourceforge.net/winmerge/WinMerge-2.14.0-Setup.exe', 6433055, '4006203d4fc3542e765212e1a78f115fb3f946d2');
+      $this->_stablerelease->addDownload('exe.zip', 'http://downloads.sourceforge.net/winmerge/WinMerge-2.14.0-exe.zip', 2764125, '6ead0d7c47bf1f69b46ae9b832f11986ec915815');
+      $this->_stablerelease->addDownload('exe.7z', 'http://downloads.sourceforge.net/winmerge/WinMerge-2.14.0-exe.7z', 1820828, 'f63726e376b2b5572450ae82315b4b25bed8fb4e');
+      //$this->_stablerelease->addDownload('rt.zip', 'http://downloads.sourceforge.net/winmerge/Runtimes-2.12.4.zip', 1287520, '27a9fd85b3bd92d69fea31aec6129c9bd08ea426');
+      //$this->_stablerelease->addDownload('rt.7z', 'http://downloads.sourceforge.net/winmerge/Runtimes-2.12.4.7z', 753831, '09e029d03dd34fb0ec1a734d5f32d844da728aac');
+      $this->_stablerelease->addDownload('src.zip', 'http://downloads.sourceforge.net/winmerge/WinMerge-2.14.0-src.zip', 6949845, '42b68f643067e0a0ad0a58256b7640cd5f20a6ef');
+      $this->_stablerelease->addDownload('src.7z', 'http://downloads.sourceforge.net/winmerge/WinMerge-2.14.0-src.7z', 3624973, 'e6d36a9ec42bdca333d9f85c4801eef70816e129');
+      $this->_stablerelease->setBranchName('R2_14');
     }
 
     /**

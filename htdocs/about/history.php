@@ -9,15 +9,21 @@
   $page->printHeading(__('History'));
 ?>
 <div class="infocard">
+  <h3>WinMerge 2.14</h3>
+  <ul>
+    <li>WinMerge 2.14.0 (2013-02-02)</li>
+  </ul>
+  <ul class="inline">
+    <li><a href="http://manual.winmerge.org/"><?php __e('Manual');?></a></li>
+    <li><a href="/docs/changelog.php"><?php __e('Change Log');?></a></li>
+  </ul>
+</div>
+<div class="infocard">
   <h3>WinMerge 2.12</h3>
   <ul>
     <li>WinMerge 2.12.4 (2009-06-09)</li>
     <li>WinMerge 2.12.2 (2009-04-01)</li>
     <li>WinMerge 2.12.0 (2009-03-05)</li>
-  </ul>
-  <ul class="inline">
-    <li><a href="http://manual.winmerge.org/"><?php __e('Manual');?></a></li>
-    <li><a href="/docs/changelog.php"><?php __e('Change Log');?></a></li>
   </ul>
 </div>
 <div class="infocard">

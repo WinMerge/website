@@ -34,17 +34,17 @@
 	</Company_Info>
 	<Program_Info>
 		<Program_Name>WinMerge</Program_Name>
-		<Program_Version>2.12.4</Program_Version>
-		<Program_Release_Month>06</Program_Release_Month>
-		<Program_Release_Day>09</Program_Release_Day>
-		<Program_Release_Year>2009</Program_Release_Year>
+		<Program_Version>2.14.0</Program_Version>
+		<Program_Release_Month>02</Program_Release_Month>
+		<Program_Release_Day>02</Program_Release_Day>
+		<Program_Release_Year>2013</Program_Release_Year>
 		<Program_Cost_Dollars>0</Program_Cost_Dollars>
 		<Program_Cost_Other_Code />
 		<Program_Cost_Other />
 		<Program_Type>Freeware</Program_Type>
-		<Program_Release_Status>Minor Update</Program_Release_Status>
+		<Program_Release_Status>Major Update</Program_Release_Status>
 		<Program_Install_Support>Install and Uninstall</Program_Install_Support>
-		<Program_OS_Support>Win95,Win98,WinME,WinNT 4.x,Windows2000,WinXP,Windows2003,Windows Vista Starter,Windows Vista Home Basic,Windows Vista Home Premium,Windows Vista Business,Windows Vista Enterprise,Windows Vista Ultimate,Windows Vista Home Basic x64,Windows Vista Home Premium x64,Windows Vista Business x64,Windows Vista Enterprise x64,Windows Vista Ultimate x64</Program_OS_Support>
+		<Program_OS_Support>WinXP,Windows2003,Windows Vista Starter,Windows Vista Home Basic,Windows Vista Home Premium,Windows Vista Business,Windows Vista Enterprise,Windows Vista Ultimate,Windows Vista Home Basic x64,Windows Vista Home Premium x64,Windows Vista Business x64,Windows Vista Enterprise x64,Windows Vista Ultimate x64</Program_OS_Support>
 		<Program_Language>Bulgarian,Catalan,ChineseSimplified,ChineseTraditional,Croatian,Czech,Danish,Dutch,English,French,Galician,German,Greek,Hungarian,Italian,Japanese,Korean,Norwegian,Polish,Portuguese,Romanian,Russian,Slovak,Spanish,Swedish,Turkish,Ukrainian</Program_Language>
 		<Program_Change_Info />
 		<Program_Specific_Category>Utilities</Program_Specific_Category>
@@ -85,7 +85,7 @@
 		</Application_URLs>
 		<Download_URLs>
 			<Primary_Download_URL>http://winmerge.org/downloads/WinMerge-Setup.exe</Primary_Download_URL>
-			<Secondary_Download_URL>http://downloads.sourceforge.net/winmerge/WinMerge-2.12.4-Setup.exe</Secondary_Download_URL>
+			<Secondary_Download_URL>http://downloads.sourceforge.net/winmerge/WinMerge-2.14.0-Setup.exe</Secondary_Download_URL>
 			<Additional_Download_URL_1 />
 			<Additional_Download_URL_2 />
 		</Download_URLs>

@@ -18,7 +18,7 @@
 <ul>
   <li><strong><?php __e('General');?></strong>
     <ul>
-      <li><?php __e('Supports Microsoft Windows 98/ME/2000/XP/2003/Vista/2008');?></li>
+      <li><?php __e('Supports Microsoft Windows XP/2003/Vista/2008');?></li>
       <li><?php __e('Handles Windows, Unix and Mac text file formats');?></li>
       <li><?php __e('Unicode support');?></li>
       <li><?php __e('Tabbed interface');?></li>
@@ -70,7 +70,7 @@
   
   $page->printSubHeading(__('Installation'));
   $page->printPara(__('Just download the <a href="%s">installer</a> and double-click it.', $stablerelease->getDownload('setup.exe')));
-  $page->printPara(__('Or you may simply unzip the <a href="%s">binary zip package</a> into the desired location, and run <code>WinMergeU.exe</code> (except for Windows 98/ME users who should use <code>WinMerge.exe</code>).', $stablerelease->getDownload('exe.zip')));
+  $page->printPara(__('Or you may simply unzip the <a href="%s">binary zip package</a> into the desired location and run <code>WinMergeU.exe</code>.', $stablerelease->getDownload('exe.zip')));
   $page->printPara(__('For more information, please see the <a href="%1$s">Installation section</a> of the <a href="%2$s">Manual</a>.', 'http://manual.winmerge.org/Installing.html', 'http://manual.winmerge.org/'));
   
   $page->printSubHeading(__('Using WinMerge'));

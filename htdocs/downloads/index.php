@@ -28,12 +28,14 @@
       <li><a href="<?php echo $stablerelease->getDownload('exe.7z');?>"><?php __e('7z-Format (%s MB)', $stablerelease->getDownloadSizeMb('exe.7z'));?></a></li>
     </ul>
   </li>
+<?php /*
   <li><strong><?php __e('Runtimes');?></strong>
     <ul>
       <li><a href="<?php echo $stablerelease->getDownload('rt.zip');?>"><?php __e('Zip-Format (%s MB)', $stablerelease->getDownloadSizeMb('rt.zip'));?></a></li>
       <li><a href="<?php echo $stablerelease->getDownload('rt.7z');?>"><?php __e('7z-Format (%s MB)', $stablerelease->getDownloadSizeMb('rt.7z'));?></a></li>
     </ul>
   </li>
+*/ ?>
 </ul>
 </div> <!-- .downloadmatrix -->
 <div id="checksums">
@@ -55,7 +57,7 @@
   $page->printSubSubHeading(__('Requirements'));
 ?>
 <ul>
-  <li><?php __e('Microsoft Windows 98/ME/2000/XP/2003/Vista/2008');?></li>
+  <li><?php __e('Microsoft Windows XP/2003/Vista/2008');?></li>
   <li><?php __e('Microsoft Visual C++ 2003 Runtime Components (included in the installer)');?></li>
   <li><?php __e('Admin rights for the installer');?></li>
 </ul>
