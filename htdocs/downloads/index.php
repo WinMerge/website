@@ -65,9 +65,9 @@
   $page->printSubHeading(__('Other Versions'));
 ?>
 <ul>
-  <li><a href="http://sourceforge.net/project/showfiles.php?group_id=13216&amp;package_id=11248"><?php __e('Stable Versions');?></a></li>
-  <li><a href="http://sourceforge.net/project/showfiles.php?group_id=13216&amp;package_id=29158"><?php __e('Beta Versions');?></a></li>
-  <li><a href="http://sourceforge.net/project/showfiles.php?group_id=13216&amp;package_id=92246"><?php __e('Experimental Builds');?></a></li>
+  <li><a href="http://sourceforge.net/projects/winmerge/files/stable/"><?php __e('Stable Versions');?></a></li>
+  <li><a href="http://sourceforge.net/projects/winmerge/files/beta/"><?php __e('Beta Versions');?></a></li>
+  <li><a href="http://sourceforge.net/projects/winmerge/files/alpha/"><?php __e('Experimental Builds');?></a></li>
   <li><a href="http://portableapps.com/apps/utilities/winmerge_portable"><?php __e('WinMerge Portable');?></a> <?php __e('(by PortableApps.com)');?></li>
   <li><a href="http://www.geocities.co.jp/SiliconValley-SanJose/8165/winmerge.html"><?php __e('Japanese WinMerge Version');?></a> (by Takashi Sawanaka)</li>
   <li><a href="http://www.geocities.co.jp/SiliconValley-SanJose/8165/unofficial_winmerge_nightly_builds.html"><?php __e('Unofficial WinMerge Builds');?></a> (by Takashi Sawanaka)</li>
@@ -91,7 +91,7 @@
     $title = str_replace('6. Developer tools', 'Developer tool', $title);
     print("  <li><a href=\"".$item->get_link()."\">".$title."</a> <em>".$item->get_date(__('Y-m-d'))."</em></li>\n");
   }
-  print("  <li><a href=\"http://sourceforge.net/project/showfiles.php?group_id=13216\">" . __('View all file releases&hellip;') . "</a></li>\n");
+  print("  <li><a href=\"http://sourceforge.net/projects/winmerge/files/\">" . __('View all file releases&hellip;') . "</a></li>\n");
   print("</ul>\n");
 
   $page->printFoot();

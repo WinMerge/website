@@ -26,7 +26,7 @@
 </div>
 <?php
   //$page->printPara(__('You can also read the <a href="%1$s">Release Notes</a> or search for <a href="%2$s">other versions</a>.', 'http://sourceforge.net/project/shownotes.php?release_id=563695&amp;group_id=13216', 'http://sourceforge.net/project/showfiles.php?group_id=13216&amp;package_id=143957'));
-  $page->printPara(__('You can also search for <a href="%s">other versions</a>.', 'http://sourceforge.net/projects/winmerge/files/3.%207-Zip%20plugin/'));
+  $page->printPara(__('You can also search for <a href="%s">other versions</a>.', 'http://sourceforge.net/projects/winmerge/files/7-zip-plugin/'));
   
   $page->printSubHeading(__('xdocdiff Plugin'));
   $page->printPara(__('With this plugin you can compare Word, Excel, PowerPoint, PDF and some more files.'));
