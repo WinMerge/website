@@ -449,31 +449,6 @@
       return $html;
     }
     
-    /**
-     * convert a (old) changelog file into html code
-     */
-    function convertChanges2Html($filename) {
-      $html = "<pre>\n";
-      if (file_exists($filename) == true) {
-        $lines = file($filename);
-        $linescount = sizeof($lines);
-        
-        for ($i = 0; $i < $linescount; $i++) {
-          $line = $lines[$i];
-          
-          $line = preg_replace('#^([0-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9])#si', '<b>' . '\\1' . '</b>', $line);
-          $line = preg_replace('#PATCH: \[ ([0-9]*) \]#si', 'PATCH: [ <a href="http://winmerge.org/patch/\\1" target="_blank">\\1</a> ]', $line);
-          $line = preg_replace('#BUG: \[ ([0-9]*) \]#si', 'BUG: [ <a href="http://winmerge.org/bug/\\1" target="_blank">\\1</a> ]', $line);
-          $line = preg_replace('#RFE: \[ ([0-9]*) \]#si', 'RFE: [ <a href="http://winmerge.org/rfe/\\1" target="_blank">\\1</a> ]', $line);
-          $line = preg_replace('#TODO: \[ ([0-9]*) \]#si', 'TODO: [ <a href="http://winmerge.org/todo/\\1" target="_blank">\\1</a> ]', $line);
-        
-          $html .= $line;
-        }
-      }
-      $html .= "</pre>\n";
-      
-      return $html;
-    }
     
     /**
      * convert a (new) changelog file into html code
