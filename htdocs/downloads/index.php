@@ -10,7 +10,7 @@
   $page->printHead(__('Download WinMerge'), TAB_DOWNLOADS, 'toggle(\'checksumslist\');');
   
   $page->printHeading(__('Download WinMerge'));
-  $page->printSubHeading(__('WinMerge %s for Windows XP/2003/Vista/2008/7/8/2012', $stablerelease->getVersionNumber()));
+  $page->printSubHeading(__('WinMerge %s for Windows 2000/XP/2003/Vista/2008/7/8/2012', $stablerelease->getVersionNumber()));
   $page->printDownloadNow();
   $page->printPara(__('The current WinMerge version is <strong>%1$s</strong> and was released at <strong>%2$s</strong>.', $stablerelease->getVersionNumber(), $stablerelease->getDate()),
                    __('For detailed info on what is new, read the <a href="%1$s">change log</a> and the <a href="%2$s">release notes</a>.', '/docs/changelog.php', '/docs/releasenotes.php'));
@@ -57,13 +57,13 @@
   $page->printSubSubHeading(__('Requirements'));
 ?>
 <ul>
-  <li><?php __e('Microsoft Windows XP/2003/Vista/2008/7/8/2012');?></li>
+  <li><?php __e('Microsoft Windows 2000/XP/2003/Vista/2008/7/8/2012');?></li>
   <li><?php __e('Microsoft Visual C++ 2008 Runtime Components (included in the installer)');?></li>
   <li><?php __e('Admin rights for the installer');?></li>
 </ul>
 <?php
-  $page->printSubHeading(__('WinMerge 2.12.4 for Windows 95/98/NT/2000'));
-  $page->printPara(__('WinMerge version 2.12.4 was the last version to ship with an ANSI version of WinMerge, and thus the last version to support Windows 95/98/NT/2000.'));
+  $page->printSubHeading(__('WinMerge 2.12.4 for Windows 95/98/ME/NT'));
+  $page->printPara(__('WinMerge version 2.12.4 was the last version to ship with Microsft Visual C++ 2005 runtimes that support Windows 95/98/ME/NT. It was also the last version to ship with an ANSI version of WinMerge.'));
 ?>
 <ul>
   <li><a href="http://sourceforge.net/projects/winmerge/files/stable/2.12.4/"><?php __e('Get version 2.12.4');?></a></li>
