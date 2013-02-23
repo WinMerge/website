@@ -139,6 +139,11 @@ a[name]:hover { color:black; text-decoration:none; }
 	margin-top: 0;
 }
 
+#content h3 em {
+	color: gray;
+	font-size: small;
+}
+
 #content p {
 	margin-top: 0;
 }

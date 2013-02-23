@@ -63,6 +63,11 @@ a[name]:hover { color:black; text-decoration:none; }
 	padding: 5px;
 }
 
+#content h3 em {
+	color: gray;
+	font-size: small;
+}
+
 #bookmarks {
 	display: none;
 }
