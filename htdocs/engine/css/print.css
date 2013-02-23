@@ -140,6 +140,17 @@ ul.inline li {
 	list-style: none;
 }
 
+/* RSS feed items */
+.rssfeeditems li {
+	margin-bottom: .5em;
+}
+
+.rssfeeditems em {
+	margin-left: .5em;
+	color: gray;
+	font-size: smaller;
+}
+
 /* PAD file */
 .padfile dt {
 	margin: 0 0 0 2em;
