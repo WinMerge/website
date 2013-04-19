@@ -35,7 +35,7 @@
 <h3><?php __e('Miscellaneous');?></h3>
 <dl>
   <dt><a href="http://ohloh.net/">ohloh.net</a></dt>
-  <dd><?php __e('Map the open source world by collecting objective information on open source projects. [<a href="%s">WinMerge Report</a>]', 'http://www.ohloh.net/projects/225');?></dd>
+  <dd><?php __e('Map the open source world by collecting objective information on open source projects. [<a href="%s">WinMerge Report</a>]', 'http://www.ohloh.net/p/winmerge');?></dd>
   <dt><a href="http://www.diffutils.com/">diffutils.com</a></dt>
   <dd><?php __e('Reviews of popular comparison software. [<a href="%s">WinMerge Review</a>]', 'http://www.diffutils.com/project-revision-control/winmerge.html');?></dd>
   <dt><a href="http://www.betanews.com/">BetaNews.com</a></dt>
