@@ -2,20 +2,20 @@
 # Released under the "GNU General Public License"
 # 
 # Translators:
-# Kaya Zeren <kayazeren@gmail.com>, 2012.
+# Kaya Zeren <kayazeren@gmail.com>, 2012
 msgid ""
 msgstr ""
 "Project-Id-Version: WinMerge Website\n"
 "Report-Msgid-Bugs-To: http://bitbucket.org/kimmov/winmerge-web/issues\n"
 "POT-Creation-Date: 2012-01-03 02:09+0000\n"
-"PO-Revision-Date: 2012-08-26 09:28+0000\n"
-"Last-Translator: Kaya Zeren <kayazeren@gmail.com>\n"
+"PO-Revision-Date: 2013-04-29 09:02+0000\n"
+"Last-Translator: Tim Gerundt <tim@gerundt.de>\n"
 "Language-Team: Turkish (http://www.transifex.com/projects/p/winmerge-web/language/tr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: tr\n"
-"Plural-Forms: nplurals=1; plural=0\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Poedit-Basepath: ../htdocs/\n"
 "X-Poedit-Language: English\n"
 "X-Poedit-SourceCharset: utf-8\n"
@@ -1048,7 +1048,7 @@ msgstr "Dil"
 #: downloads/index.php:90 index.php:44
 #, c-format
 msgid "Y-m-d"
-msgstr "Y-m-d"
+msgstr "Y-a-g"
 
 #: downloads/index.php:71
 #, c-format
