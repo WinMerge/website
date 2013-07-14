@@ -63,6 +63,11 @@ a[name]:hover { color:black; text-decoration:none; }
 	padding: 5px;
 }
 
+#content h3 em {
+	color: gray;
+	font-size: small;
+}
+
 #bookmarks {
 	display: none;
 }
@@ -133,6 +138,17 @@ ul.inline li {
 	padding: 0;
 	display: inline;
 	list-style: none;
+}
+
+/* RSS feed items */
+.rssfeeditems li {
+	margin-bottom: .5em;
+}
+
+.rssfeeditems em {
+	margin-left: .5em;
+	color: gray;
+	font-size: smaller;
 }
 
 /* PAD file */

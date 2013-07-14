@@ -17,12 +17,14 @@
   $translations = new SimpleTranslate;
   $translations->setUrlParameter('lang');
   $translations->addLanguage('en', __('English'));
+  $translations->addLanguage('eu', __('Basque'), $languagesdir . 'eu.po');
+  $translations->addLanguage('nl', __('Dutch'), $languagesdir . 'nl.po');
   $translations->addLanguage('el', __('Greek'), $languagesdir . 'el.po');
   $translations->addLanguage('de', __('German'), $languagesdir . 'de.po');
   $translations->addLanguage('fr', __('French'), $languagesdir . 'fr.po');
   $translations->addLanguage('ja', __('Japanese'), $languagesdir . 'ja.po');
-  $translations->addLanguage('nl', __('Dutch'), $languagesdir . 'nl.po');
   $translations->addLanguage('pl', __('Polish'), $languagesdir . 'pl.po');
+  $translations->addLanguage('pt_BR', __('Portuguese (Brazil)'), $languagesdir . 'pt_BR.po');
   $translations->addLanguage('ru', __('Russian'), $languagesdir . 'ru.po');
   $translations->addLanguage('sv', __('Swedish'), $languagesdir . 'sv.po');
   $translations->addLanguage('tr', __('Turkish'), $languagesdir . 'tr.po');
