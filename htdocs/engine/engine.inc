@@ -18,6 +18,7 @@
   $translations->setUrlParameter('lang');
   $translations->addLanguage('en', __('English'));
   $translations->addLanguage('eu', __('Basque'), $languagesdir . 'eu.po');
+  $translations->addLanguage('ca', __('Catalan'), $languagesdir . 'ca.po');
   $translations->addLanguage('nl', __('Dutch'), $languagesdir . 'nl.po');
   $translations->addLanguage('el', __('Greek'), $languagesdir . 'el.po');
   $translations->addLanguage('de', __('German'), $languagesdir . 'de.po');
@@ -25,7 +26,10 @@
   $translations->addLanguage('ja', __('Japanese'), $languagesdir . 'ja.po');
   $translations->addLanguage('pl', __('Polish'), $languagesdir . 'pl.po');
   $translations->addLanguage('pt_BR', __('Portuguese (Brazil)'), $languagesdir . 'pt_BR.po');
+  $translations->addLanguage('pt_PT', __('Portuguese (Portugal)'), $languagesdir . 'pt_BR.po');
   $translations->addLanguage('ru', __('Russian'), $languagesdir . 'ru.po');
+  $translations->addLanguage('es', __('Spanish'), $languagesdir . 'es.po');
+  $translations->addLanguage('es_VE', __('Spanish (Venezuela)'), $languagesdir . 'es_VE.po');
   $translations->addLanguage('sv', __('Swedish'), $languagesdir . 'sv.po');
   $translations->addLanguage('tr', __('Turkish'), $languagesdir . 'tr.po');
   if (!$translations->detectLanguageFromUrl()) { //if NOT detect language from URL...
