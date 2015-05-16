@@ -144,6 +144,13 @@
       if ($translations->isBaseLanguage()) { //if base language...
         $temp .= "  <link rel=\"canonical\" href=\"" . $translations->getLink() . "\">\n";
       }
+      if ($translations->getLanguagesCount() > 1) { //if at least 2 languages exists...
+        foreach ($translations->getLanguages() as $language) {
+          $languageId = str_replace('_', '-', $language->getId());
+          $languageLink = 'http://winmerge.org' . $translations->getLink($language, true);
+          $temp .= "  <link rel=\"alternate\" href=\"" . $languageLink . "\" hreflang=\"" . $languageId . "\">\n";
+        }
+      }
       $temp .= "</head>\n\n";
       if ($onload != '')
         $temp .= "<body onload=\"".$onload."\">\n";
