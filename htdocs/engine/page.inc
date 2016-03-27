@@ -170,7 +170,6 @@
      * print the foot from the page
      */
     function printFoot() {
-      $temp = $this->getSocialBookmarks();
       $temp .= "  </div> <!-- #content -->\n";
       $temp .= $this->getLanguages();
       $temp .= "<p id=\"poweredby\">\n";
@@ -378,17 +377,6 @@
       $temp .= "  src=\"http://pagead2.googlesyndication.com/pagead/show_ads.js\">\n";
       $temp .= "</script>\n";
       $temp .= "</div> <!-- #ads -->\n";
-      return $temp;
-    }
-
-    /**
-     * get the social bookmarks code
-     */
-    function getSocialBookmarks() {
-      $temp = "<div id=\"bookmarks\">\n";
-      $temp .= "<img src=\"/engine/images/delicious.small.gif\" height=\"10\" width=\"10\" alt=\"Delicious\">\n";
-      $temp .= "<a href=\"http://delicious.com/save\" onclick=\"window.open('http://delicious.com/save?v=5&amp;noui&amp;jump=close&amp;url='+encodeURIComponent(location.href)+'&amp;title='+encodeURIComponent(document.title), 'delicious','toolbar=no,width=550,height=550'); return false;\">" . __('Bookmark this on Delicious') . "</a>\n";
-      $temp .= "</div> <!-- #bookmarks -->\n";
       return $temp;
     }
 
