@@ -115,8 +115,7 @@
       if ($tab != '') {
         $this->_tab = $tab;
       }
-      $temp = "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//EN\"\n";
-      $temp .= "  \"http://www.w3.org/TR/html4/loose.dtd\">\n";
+      $temp = "<!DOCTYPE html>\n";
       $temp .= "<html lang=\"" . $translations->getActiveLanguageId() . "\">\n\n";
       $temp .= "<head>\n";
       if ($this->_title != '') {
@@ -137,6 +136,9 @@
       if ($this->_javascript == true || $onload != '') { //if JavaScript is needed...
         $temp .= "  <script src=\"/engine/javascript/winmerge.js\" type=\"text/javascript\"></script>\n";
       }
+      $temp .= "  <!--[if lt IE 9]>\n";
+      $temp .= "  <script src=\"/engine/javascript/html5shiv-printshiv.js\"></script>\n";
+      $temp .= "  <![endif]-->\n";
       $temp .= "  <link rel=\"shortcut icon\" type=\"image/x-icon\" href=\"/favicon.ico\">\n";
       foreach ($this->_rssfeeds as $rssurl => $rsstitle) { //for all RSS feeds...
         $temp .= "  <link rel=\"alternate\" type=\"application/rss+xml\" title=\"" . $rsstitle . "\" href=\"" . $rssurl . "\">\n";
@@ -157,12 +159,12 @@
       else
         $temp .= "<body>\n";
       $temp .= "<div id=\"wrap\">\n";
-      $temp .= "  <div id=\"head\">\n";
+      $temp .= "  <header id=\"head\">\n";
       $temp .= "<h1>WinMerge</h1>\n";
-      $temp .= "  </div> <!-- #head -->\n";
+      $temp .= "  </header>\n";
       $temp .= $this->getTabs();
       $temp .= $this->getAds();
-      $temp .= "  <div id=\"content\">\n";
+      $temp .= "  <main id=\"content\">\n";
       print($temp);
     }
 
@@ -170,12 +172,14 @@
      * print the foot from the page
      */
     function printFoot() {
-      $temp .= "  </div> <!-- #content -->\n";
+      $temp .= "  </main>\n";
+      $temp .= "  <footer>\n";
       $temp .= $this->getLanguages();
       $temp .= "<p id=\"poweredby\">\n";
       $temp .= "  <a href=\"http://sourceforge.net/projects/winmerge\"><img src=\"http://sflogo.sourceforge.net/sflogo.php?group_id=13216&amp;type=11\" width=\"120\" height=\"30\" border=\"0\" alt=\"SourceForge.net\" title=\"Get WinMerge at SourceForge.net. Fast, secure and Free Open Source software downloads\" /></a>\n";
       $temp .= "  <a href=\"http://sourceforge.net/donate/index.php?group_id=13216\"><img src=\"/engine/images/project-support.jpg\" width=\"88\" height=\"32\" border=\"0\" alt=\"Donate\" title=\"Donate money to WinMerge\"></a>\n";
       $temp .= "</p>\n";
+      $temp .= "  </footer>\n";
       $temp .= "</div> <!-- #wrap -->\n";
       $temp .= "</body>\n\n";
       $temp .= "</html>\n";
@@ -282,8 +286,9 @@
       $tabs[3] = new Tab(TAB_DOWNLOADS, $translations->prepareLink('/downloads/'), __('Downloads'), __('WinMerge Downloads'));
       $tabs[4] = new Tab(TAB_SUPPORT, $translations->prepareLink('/support/'), __('Support'), __('WinMerge Support'));
       $tabs[5] = new Tab(TAB_TRANSLATIONS, $translations->prepareLink('/translations/'), __('Translations'), __('WinMerge Translations'));
-      
-      $temp = "<ul id=\"tabs\">\n";
+
+      $temp = "  <nav>\n";      
+      $temp .= "<ul id=\"tabs\">\n";
       foreach ($tabs as $tab) { //for all tabs...
         if ($this->_tab == $tab->getId()) { //if current tab...
           $temp .= "  <li><strong><a href=\"" . $tab->getLink() . "\" id=\"current\" title=\"" . $tab->getToolTipText() . "\">" . $tab->getTitle() . "</a></strong></li>\n";
@@ -352,6 +357,8 @@
         }
         $temp .= "</ul>\n";
       }
+
+      $temp .= "  </nav>\n";
       return $temp;
     }
 

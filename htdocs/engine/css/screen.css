@@ -2,6 +2,11 @@
 ob_start('ob_gzhandler'); //Use GZIP compression from PHP, since 1and1 don't support it from Apache!
 header('Content-type: text/css');
 ?>
+/* HTML5 */
+footer, header, main, nav {
+  display: block;
+}
+
 body {
 	margin: 0;
 	padding: 0;
