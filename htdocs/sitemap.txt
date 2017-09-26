@@ -1,5 +1,4 @@
 http://winmerge.org/
-http://winmerge.org/links.php
 http://winmerge.org/about/
 http://winmerge.org/about/history.php
 http://winmerge.org/about/license.php
