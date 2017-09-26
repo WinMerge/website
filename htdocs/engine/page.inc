@@ -173,7 +173,7 @@
      * print the foot from the page
      */
     function printFoot() {
-      $temp .= "  </main>\n";
+      $temp = "  </main>\n";
       $temp .= "  <footer>\n";
       $temp .= $this->getLanguages();
       $temp .= "<p id=\"poweredby\">\n";
