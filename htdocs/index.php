@@ -1,4 +1,4 @@
-﻿<?php
+<?php
   include('engine/engine.inc');
   include('engine/simplepie/simplepie.inc');
 
