@@ -5,7 +5,7 @@
   $page = new Page;
   $page->setDescription(__('Download the source code of WinMerge, which is released under the GNU General Public License.'));
   $page->setKeywords(__('WinMerge, free, download, source code, GPL, Subversion, SVN, TortoiseSVN'));
-  $page->addRssFeed('http://sourceforge.net/p/winmerge/code/feed/', __('Recent Code Changes'));
+  $page->addRssFeed('https://sourceforge.net/p/winmerge/code/feed/', __('Recent Code Changes'));
   $page->printHead(__('Download Source Code'), TAB_DOWNLOADS, 'toggle(\'checksumslist\');');
   $stablerelease = $page->getStableRelease();
   
@@ -32,8 +32,8 @@
 </pre>
 </div> <!-- #checksums -->
 <?php
-  $page->printPara(__('The source code is hosted on <a href="%1$s">SourceForge.net</a> in a <a href="%2$s">Subversion</a> repository.', 'http://sourceforge.net/', 'http://subversion.apache.org/'));
-  $page->printPara(__('You can <a href="%1$s">browse the source code</a> with a web browser or you can check out the whole code by clicking on one of the following links (if you have <a href="%2$s">TortoiseSVN</a> installed):', 'http://sourceforge.net/p/winmerge/code/', 'http://tortoisesvn.net/'));
+  $page->printPara(__('The source code is hosted on <a href="%1$s">SourceForge.net</a> in a <a href="%2$s">Subversion</a> repository.', 'https://sourceforge.net/', 'http://subversion.apache.org/'));
+  $page->printPara(__('You can <a href="%1$s">browse the source code</a> with a web browser or you can check out the whole code by clicking on one of the following links (if you have <a href="%2$s">TortoiseSVN</a> installed):', 'https://sourceforge.net/p/winmerge/code/', 'http://tortoisesvn.net/'));
 ?>
 <dl class="headinglist">
   <dt><?php __e('Developer Version');?></dt>
@@ -44,9 +44,9 @@
   <dd><code>hg clone <a href="https://bitbucket.org/grimmdp/winmerge">https://bitbucket.org/grimmdp/winmerge</a></code></dd>
 </dl>
 <?php
-  $page->printRssSubHeading(__('Recent Code Changes'), 'http://sourceforge.net/p/winmerge/code/feed/');
+  $page->printRssSubHeading(__('Recent Code Changes'), 'https://sourceforge.net/p/winmerge/code/feed/');
   $feed = new SimplePie();
-  $feed->set_feed_url('http://sourceforge.net/p/winmerge/code/feed/');
+  $feed->set_feed_url('https://sourceforge.net/p/winmerge/code/feed/');
   $feed->set_cache_location('../engine/simplepie/cache');
   $feed->init();
   print("<ul class=\"rssfeeditems\">\n");
@@ -57,7 +57,7 @@
     $date = $item->get_date(__('Y-m-d H:i'));
     print("  <li>$description <em>by $author at $date</em></li>\n");
   }
-  print("  <li><a href=\"http://sourceforge.net/p/winmerge/code/log/\">" . __('View code history&hellip;') . "</a></li>\n");
+  print("  <li><a href=\"https://sourceforge.net/p/winmerge/code/log/\">" . __('View code history&hellip;') . "</a></li>\n");
   print("</ul>\n");
 
   $page->printFoot();

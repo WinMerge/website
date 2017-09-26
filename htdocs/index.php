@@ -5,7 +5,7 @@
   $page = new Page;
   $page->setDescription(__('WinMerge is an Open Source differencing and merging tool for Windows. WinMerge can compare both folders and files, presenting differences in a visual text format that is easy to understand and handle.'));
   $page->setKeywords(__('WinMerge, free, open source, Windows, windiff, diff, merge, compare, tool, utility, text, file, folder, directory, compare files, compare folders, merge files, merge folders, diff tool, merge tool, compare tool'));
-  $page->addRssFeed('http://sourceforge.net/export/rss2_projnews.php?group_id=13216', __('Project News'));
+  $page->addRssFeed('https://sourceforge.net/export/rss2_projnews.php?group_id=13216', __('Project News'));
   $page->printHead('', TAB_HOME);
   $stablerelease = $page->getStableRelease();
 ?>
@@ -27,16 +27,16 @@
   $page->printPara(__('<a href="%1$s">WinMerge %2$s</a> is the latest stable version, and is recommended for most users.', 'downloads/', $stablerelease->getVersionNumber()));
   $page->printDownloadNow();
 
-  $page->printRssSubHeading(__('Project News'), 'http://sourceforge.net/export/rss2_projnews.php?group_id=13216');
+  $page->printRssSubHeading(__('Project News'), 'https://sourceforge.net/export/rss2_projnews.php?group_id=13216');
   $feed = new SimplePie();
-  $feed->set_feed_url('http://sourceforge.net/export/rss2_projnews.php?group_id=13216');
+  $feed->set_feed_url('https://sourceforge.net/export/rss2_projnews.php?group_id=13216');
   $feed->set_cache_location('./engine/simplepie/cache');
   $feed->init();
   print("<ul class=\"rssfeeditems\">\n");
   foreach ($feed->get_items(0, 5) as $item) { //for the last 5 news items...
     print("  <li><a href=\"".$item->get_link()."\">".$item->get_title()."</a> <em>".$item->get_date(__('Y-m-d'))."</em></li>\n");
   }
-  print("  <li><a href=\"http://sourceforge.net/news/?group_id=13216\">" . __('View all news&hellip;') . "</a></li>\n");
+  print("  <li><a href=\"https://sourceforge.net/news/?group_id=13216\">" . __('View all news&hellip;') . "</a></li>\n");
   print("</ul>\n");
 
   $page->printSubHeading(__('Support'));

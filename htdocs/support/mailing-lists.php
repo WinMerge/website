@@ -22,7 +22,7 @@
     <li><strong><?php __e('Low Traffic');?></strong></li>
     <li><a href="http://lists.sourceforge.net/mailman/listinfo/winmerge-announce"><?php __e('Subscribe');?></a></li>
     <li><a href="http://lists.sourceforge.net/mailman/listinfo/winmerge-announce"><?php __e('Unsubscribe');?></a></li>
-    <li><a href="http://sourceforge.net/mailarchive/forum.php?forum_name=winmerge-announce"><?php __e('Archive');?></a></li>
+    <li><a href="https://sourceforge.net/mailarchive/forum.php?forum_name=winmerge-announce"><?php __e('Archive');?></a></li>
   </ul>
   <p><?php __e('This list is only for announcing new releases of WinMerge.');?></p>
 </div>
@@ -32,7 +32,7 @@
     <li><strong><?php __e('Normal Traffic');?></strong></li>
     <li><a href="http://lists.sourceforge.net/mailman/listinfo/winmerge-support"><?php __e('Subscribe');?></a></li>
     <li><a href="http://lists.sourceforge.net/mailman/listinfo/winmerge-support"><?php __e('Unsubscribe');?></a></li>
-    <li><a href="http://sourceforge.net/mailarchive/forum.php?forum_name=winmerge-support"><?php __e('Archive');?></a></li>
+    <li><a href="https://sourceforge.net/mailarchive/forum.php?forum_name=winmerge-support"><?php __e('Archive');?></a></li>
   </ul>
   <p><?php __e('You should ask all your support questions on this list.');?></p>
 </div>
@@ -42,7 +42,7 @@
     <li><strong><?php __e('Normal Traffic');?></strong></li>
     <li><a href="http://lists.sourceforge.net/mailman/listinfo/winmerge-user"><?php __e('Subscribe');?></a></li>
     <li><a href="http://lists.sourceforge.net/mailman/listinfo/winmerge-user"><?php __e('Unsubscribe');?></a></li>
-    <li><a href="http://sourceforge.net/mailarchive/forum.php?forum_name=winmerge-user"><?php __e('Archive');?></a></li>
+    <li><a href="https://sourceforge.net/mailarchive/forum.php?forum_name=winmerge-user"><?php __e('Archive');?></a></li>
   </ul>
   <p><?php __e('This list is for user related questions. Having questions posted to this list may allow others having the same problem to solve it on their own.');?></p>
 </div>
@@ -52,7 +52,7 @@
     <li><strong><?php __e('Low Traffic');?></strong></li>
     <li><a href="http://lists.sourceforge.net/mailman/listinfo/winmerge-translate"><?php __e('Subscribe');?></a></li>
     <li><a href="http://lists.sourceforge.net/mailman/listinfo/winmerge-translate"><?php __e('Unsubscribe');?></a></li>
-    <li><a href="http://sourceforge.net/mailarchive/forum.php?forum_name=winmerge-translate"><?php __e('Archive');?></a></li>
+    <li><a href="https://sourceforge.net/mailarchive/forum.php?forum_name=winmerge-translate"><?php __e('Archive');?></a></li>
   </ul>
   <p><?php __e('This list is used for coordinating the translations.');?></p>
 </div>
@@ -62,7 +62,7 @@
     <li><strong><?php __e('Normal Traffic');?></strong></li>
     <li><a href="http://lists.sourceforge.net/mailman/listinfo/winmerge-development"><?php __e('Subscribe');?></a></li>
     <li><a href="http://lists.sourceforge.net/mailman/listinfo/winmerge-development"><?php __e('Unsubscribe');?></a></li>
-    <li><a href="http://sourceforge.net/mailarchive/forum.php?forum_name=winmerge-development"><?php __e('Archive');?></a></li>
+    <li><a href="https://sourceforge.net/mailarchive/forum.php?forum_name=winmerge-development"><?php __e('Archive');?></a></li>
   </ul>
   <p><?php __e('This is the list where participating developers of the WinMerge meet and discuss issues, code changes/additions, etc.');?></p>
 </div>
@@ -72,7 +72,7 @@
     <li><strong><?php __e('High Traffic');?></strong></li>
     <li><a href="http://lists.sourceforge.net/mailman/listinfo/winmerge-svn"><?php __e('Subscribe');?></a></li>
     <li><a href="http://lists.sourceforge.net/mailman/listinfo/winmerge-svn"><?php __e('Unsubscribe');?></a></li>
-    <li><a href="http://sourceforge.net/mailarchive/forum.php?forum_name=winmerge-svn"><?php __e('Archive');?></a></li>
+    <li><a href="https://sourceforge.net/mailarchive/forum.php?forum_name=winmerge-svn"><?php __e('Archive');?></a></li>
   </ul>
   <p><?php __e('Subscribers to this list get notices of each and every code change commited to Subversion.');?></p>
 </div>

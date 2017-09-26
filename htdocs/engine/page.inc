@@ -177,8 +177,8 @@
       $temp .= "  <footer>\n";
       $temp .= $this->getLanguages();
       $temp .= "<p id=\"poweredby\">\n";
-      $temp .= "  <a href=\"http://sourceforge.net/projects/winmerge\"><img src=\"http://sflogo.sourceforge.net/sflogo.php?group_id=13216&amp;type=11\" width=\"120\" height=\"30\" border=\"0\" alt=\"SourceForge.net\" title=\"Get WinMerge at SourceForge.net. Fast, secure and Free Open Source software downloads\" /></a>\n";
-      $temp .= "  <a href=\"http://sourceforge.net/donate/index.php?group_id=13216\"><img src=\"/engine/images/project-support.jpg\" width=\"88\" height=\"32\" border=\"0\" alt=\"Donate\" title=\"Donate money to WinMerge\"></a>\n";
+      $temp .= "  <a href=\"https://sourceforge.net/projects/winmerge/\"><img src=\"http://sflogo.sourceforge.net/sflogo.php?group_id=13216&amp;type=11\" width=\"120\" height=\"30\" border=\"0\" alt=\"SourceForge.net\" title=\"Get WinMerge at SourceForge.net. Fast, secure and Free Open Source software downloads\" /></a>\n";
+      $temp .= "  <a href=\"https://sourceforge.net/donate/index.php?group_id=13216\"><img src=\"/engine/images/project-support.jpg\" width=\"88\" height=\"32\" border=\"0\" alt=\"Donate\" title=\"Donate money to WinMerge\"></a>\n";
       $temp .= "</p>\n";
       $temp .= "  </footer>\n";
       $temp .= "</div> <!-- #wrap -->\n";
@@ -306,7 +306,7 @@
         case TAB_HOME: //if "Home" ...
           $subtabs[0] = new Subtab($translations->prepareLink('/'), __('Index'), __('WinMerge Home'));
           $subtabs[1] = new Subtab($translations->prepareLink('/links.php'), __('Links'), __('WinMerge Links'));
-          $subtabs[2] = new Subtab('http://sourceforge.net/projects/winmerge', __('Project Page'), __('WinMerge Project Page'));
+          $subtabs[2] = new Subtab('https://sourceforge.net/projects/winmerge', __('Project Page'), __('WinMerge Project Page'));
           break;
         case TAB_ABOUT: //if "About" ...
           $subtabs[0] = new Subtab($translations->prepareLink('/about/'), __('Index'), __('About WinMerge'));
@@ -334,7 +334,7 @@
           $subtabs[1] = new Subtab('http://forums.winmerge.org/', __('Discussion Forums'), __('WinMerge Discussion Forums'));
           $subtabs[2] = new Subtab($translations->prepareLink('/support/mailing-lists.php'), __('Mailing Lists'), __('WinMerge Mailing Lists'));
           $subtabs[4] = new Subtab($translations->prepareLink('/support/tracker-shortcuts.php'), __('Tracker Shortcuts'), __('WinMerge Tracker Shortcuts'));
-          $subtabs[5] = new Subtab('http://sourceforge.net/donate/index.php?group_id=13216', __('Donate'), __('Donate money to WinMerge'));
+          $subtabs[5] = new Subtab('https://sourceforge.net/donate/index.php?group_id=13216', __('Donate'), __('Donate money to WinMerge'));
           break;
         case TAB_TRANSLATIONS: //if "Translations" ...
           $subtabs[0] = new Subtab($translations->prepareLink('/translations/'), __('Index'), __('WinMerge Translations'));
@@ -467,8 +467,8 @@
           $line = $lines[$i];
           
           $line = preg_replace('#(WinMerge [0-9]\.[0-9].*-.*\))#si', '<h3>\\1</h3>', $line);
-          $line = preg_replace('#r(\d+)#si', '<a href="http://sourceforge.net/p/winmerge/code/\\1" target="_blank">r\\1</a>', $line);
-          $line = preg_replace('#\#(\d{6,})#si', '<a href="http://sourceforge.net/support/tracker.php?aid=\\1" target="_blank">#\\1</a>', $line);
+          $line = preg_replace('#r(\d+)#si', '<a href="https://sourceforge.net/p/winmerge/code/\\1" target="_blank">r\\1</a>', $line);
+          $line = preg_replace('#\#(\d{6,})#si', '<a href="https://sourceforge.net/support/tracker.php?aid=\\1" target="_blank">#\\1</a>', $line);
           $line = preg_replace('#patches:\#(\d+)#si', '<a href="http://winmerge.org/patch/\\1" target="_blank">#\\1</a>', $line);
           
           $html .= $line;

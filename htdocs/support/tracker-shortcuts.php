@@ -7,7 +7,7 @@
   $page->printHead(__('Tracker Shortcuts'), TAB_SUPPORT);
 
   $page->printHeading(__('Tracker Shortcuts'));
-  $page->printPara(__('<em>Tracker Shortcuts</em> are shorter and nicer URLs to <a href="%1$s">Tracker</a> items from our <a href="%2$s">SF.net project page</a>.', 'http://sourceforge.net/tracker/?group_id=13216', 'http://sourceforge.net/projects/winmerge'));
+  $page->printPara(__('<em>Tracker Shortcuts</em> are shorter and nicer URLs to <a href="%1$s">Tracker</a> items from our <a href="%2$s">SF.net project page</a>.', 'https://sourceforge.net/tracker/?group_id=13216', 'https://sourceforge.net/projects/winmerge'));
   $page->printPara(__('You can use this page to create a shortcut:'));
 
   $types['bug'] = __('Bug');

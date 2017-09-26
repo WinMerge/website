@@ -6,7 +6,7 @@
   $stablerelease = $page->getStableRelease();
   $page->setDescription(__('Download the current WinMerge version %1$s, which was released at %2$s. For detailed info on what is new, read the change log and the release notes.', $stablerelease->getVersionNumber(), $stablerelease->getDate()));
   $page->setKeywords(__('WinMerge, free, download, Windows, setup, installer, binaries, runtimes, stable, beta, experimental, portable'));
-  $page->addRssFeed('http://sourceforge.net/api/file/index/project-id/13216/rss', __('Project File Releases'));
+  $page->addRssFeed('https://sourceforge.net/api/file/index/project-id/13216/rss', __('Project File Releases'));
   $page->printHead(__('Download WinMerge'), TAB_DOWNLOADS, 'toggle(\'checksumslist\');');
   
   $page->printHeading(__('Download WinMerge'));
@@ -66,24 +66,24 @@
   $page->printPara(__('WinMerge version 2.12.4 was the last version to ship with Microsft Visual C++ 2005 runtimes that support Windows 95/98/ME/NT. It was also the last version to ship with an ANSI version of WinMerge.'));
 ?>
 <ul>
-  <li><a href="http://sourceforge.net/projects/winmerge/files/stable/2.12.4/"><?php __e('Get version 2.12.4');?></a></li>
+  <li><a href="https://sourceforge.net/projects/winmerge/files/stable/2.12.4/"><?php __e('Get version 2.12.4');?></a></li>
 </ul>
 <?php
   $page->printSubHeading(__('Other Versions'));
 ?>
 <ul>
-  <li><a href="http://sourceforge.net/projects/winmerge/files/stable/"><?php __e('Stable Versions');?></a></li>
-  <li><a href="http://sourceforge.net/projects/winmerge/files/beta/"><?php __e('Beta Versions');?></a></li>
-  <li><a href="http://sourceforge.net/projects/winmerge/files/alpha/"><?php __e('Experimental Builds');?></a></li>
+  <li><a href="https://sourceforge.net/projects/winmerge/files/stable/"><?php __e('Stable Versions');?></a></li>
+  <li><a href="https://sourceforge.net/projects/winmerge/files/beta/"><?php __e('Beta Versions');?></a></li>
+  <li><a href="https://sourceforge.net/projects/winmerge/files/alpha/"><?php __e('Experimental Builds');?></a></li>
   <li><a href="http://portableapps.com/apps/utilities/winmerge_portable"><?php __e('WinMerge Portable');?></a> <?php __e('(by PortableApps.com)');?></li>
   <li><a href="http://www.geocities.co.jp/SiliconValley-SanJose/8165/winmerge.html"><?php __e('Japanese WinMerge Version');?></a> (by Takashi Sawanaka)</li>
   <li><a href="http://www.geocities.co.jp/SiliconValley-SanJose/8165/unofficial_winmerge_nightly_builds.html"><?php __e('Unofficial WinMerge Builds');?></a> (by Takashi Sawanaka)</li>
   <li><a href="https://bitbucket.org/jtuc/winmerge2011/">WinMerge 2011</a> (by Jochen Neubeck)</li>
 </ul>
 <?php
-  $page->printRssSubHeading(__('Project File Releases'), 'http://sourceforge.net/api/file/index/project-id/13216/rss');
+  $page->printRssSubHeading(__('Project File Releases'), 'https://sourceforge.net/api/file/index/project-id/13216/rss');
   $feed = new SimplePie();
-  $feed->set_feed_url('http://sourceforge.net/api/file/index/project-id/13216/rss');
+  $feed->set_feed_url('https://sourceforge.net/api/file/index/project-id/13216/rss');
   $feed->set_cache_location('../engine/simplepie/cache');
   $feed->init();
   print("<ul class=\"rssfeeditems\">\n");
@@ -98,7 +98,7 @@
     $title = str_replace('6. Developer tools', 'Developer tool', $title);
     print("  <li><a href=\"".$item->get_link()."\">".$title."</a> <em>".$item->get_date(__('Y-m-d'))."</em></li>\n");
   }
-  print("  <li><a href=\"http://sourceforge.net/projects/winmerge/files/\">" . __('View all file releases&hellip;') . "</a></li>\n");
+  print("  <li><a href=\"https://sourceforge.net/projects/winmerge/files/\">" . __('View all file releases&hellip;') . "</a></li>\n");
   print("</ul>\n");
 
   $page->printFoot();

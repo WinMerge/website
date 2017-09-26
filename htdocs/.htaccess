@@ -98,15 +98,15 @@ Redirect permanent /forums http://forums.winmerge.org/
 RewriteEngine On
 RewriteBase   /
 #             Old number scheme:
-RewriteRule   ^bug/(\d{6,})$ http://sourceforge.net/support/tracker.php?aid=$1 [R=permanent]
-RewriteRule   ^patch/(\d{6,})$ http://sourceforge.net/support/tracker.php?aid=$1 [R=permanent]
-RewriteRule   ^support/(\d{6,})$ http://sourceforge.net/support/tracker.php?aid=$1 [R=permanent]
-RewriteRule   ^rfe/(\d{6,})$ http://sourceforge.net/support/tracker.php?aid=$1 [R=permanent]
-RewriteRule   ^todo/(\d{6,})$ http://sourceforge.net/support/tracker.php?aid=$1 [R=permanent]
-RewriteRule   ^tracker/(\d{6,})$ http://sourceforge.net/support/tracker.php?aid=$1 [R=permanent]
+RewriteRule   ^bug/(\d{6,})$ https://sourceforge.net/support/tracker.php?aid=$1 [R=permanent]
+RewriteRule   ^patch/(\d{6,})$ https://sourceforge.net/support/tracker.php?aid=$1 [R=permanent]
+RewriteRule   ^support/(\d{6,})$ https://sourceforge.net/support/tracker.php?aid=$1 [R=permanent]
+RewriteRule   ^rfe/(\d{6,})$ https://sourceforge.net/support/tracker.php?aid=$1 [R=permanent]
+RewriteRule   ^todo/(\d{6,})$ https://sourceforge.net/support/tracker.php?aid=$1 [R=permanent]
+RewriteRule   ^tracker/(\d{6,})$ https://sourceforge.net/support/tracker.php?aid=$1 [R=permanent]
 #             New number scheme:
-RewriteRule   ^bug/(\d{1,5})$ http://sourceforge.net/p/winmerge/bugs/$1/ [R=permanent]
-RewriteRule   ^patch/(\d{1,5})$ http://sourceforge.net/p/winmerge/patches/$1/ [R=permanent]
-RewriteRule   ^support/(\d{1,5})$ http://sourceforge.net/p/winmerge/support-requests/$1/ [R=permanent]
-RewriteRule   ^rfe/(\d{1,5})$ http://sourceforge.net/p/winmerge/feature-requests/$1/ [R=permanent]
-RewriteRule   ^todo/(\d{1,5})$ http://sourceforge.net/p/winmerge/todo/$1/ [R=permanent]
+RewriteRule   ^bug/(\d{1,5})$ https://sourceforge.net/p/winmerge/bugs/$1/ [R=permanent]
+RewriteRule   ^patch/(\d{1,5})$ https://sourceforge.net/p/winmerge/patches/$1/ [R=permanent]
+RewriteRule   ^support/(\d{1,5})$ https://sourceforge.net/p/winmerge/support-requests/$1/ [R=permanent]
+RewriteRule   ^rfe/(\d{1,5})$ https://sourceforge.net/p/winmerge/feature-requests/$1/ [R=permanent]
+RewriteRule   ^todo/(\d{1,5})$ https://sourceforge.net/p/winmerge/todo/$1/ [R=permanent]
