@@ -490,3 +490,8 @@ ul.inline li {
     padding: 0;
   }
 }
+@media (max-width: 50em) {
+  #wrap {
+    width: auto;
+  }
+}
