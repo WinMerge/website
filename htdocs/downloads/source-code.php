@@ -40,8 +40,6 @@
   <dd><a href="tsvn:http://svn.code.sf.net/p/winmerge/code/trunk">http://svn.code.sf.net/p/winmerge/code/trunk</a></dd>
   <dt><?php __e('WinMerge %s', $stablerelease->getVersionNumberMajor());?></dt>
   <dd><a href="tsvn:http://svn.code.sf.net/p/winmerge/code/branches/<?php echo $stablerelease->getBranchName();?>">http://svn.code.sf.net/p/winmerge/code/branches/<?php echo $stablerelease->getBranchName();?></a></dd>
-  <dt><?php __e('WinMerge 3 Future');?></dt>
-  <dd><code>hg clone <a href="https://bitbucket.org/grimmdp/winmerge">https://bitbucket.org/grimmdp/winmerge</a></code></dd>
 </dl>
 <?php
   $page->printRssSubHeading(__('Recent Code Changes'), 'https://sourceforge.net/p/winmerge/code/feed/');
