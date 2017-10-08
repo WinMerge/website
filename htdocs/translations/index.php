@@ -29,8 +29,7 @@
   $page->printPara(__('To change language, select the desired language from the <span class="guimenu">View</span>&#8594; <span class="guimenuitem">Language</span> menu choice.'));
   
   $page->printSubHeading(__('Translating'));
-  $page->printPara(__('If you would like to update any of these translations or add another translation, then please follow <a href="%s">these instructions</a>.', 'instructions.php'),
-                   __('You can find a more technical view about the <a href="%1$s">translation system</a> in our <a href="%2$s">Development Wiki</a>.', 'http://wiki.winmerge.org/wiki/Translation_System', 'http://wiki.winmerge.org/'));
+  $page->printPara(__('If you would like to update any of these translations or add another translation, then please follow <a href="%s">these instructions</a>.', 'instructions.php'));
 ?>
 
 <h3><a name="status"><?php __e('Status');?></a></h3>

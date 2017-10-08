@@ -43,10 +43,8 @@
   $page->printPara(__('If you need support, look at our <a href="%s">support page</a> for more information how you can get it.', 'support/'));
 
   $page->printSubHeading(__('Developers'));
-  $page->printPara(__('WinMerge is an open source project, which means that the program is maintained and developed by volunteers.'),
-                   __('If you are interested in contributing work to the project, see our <a href="%s">developer page</a> for further information on how you may contribute.', 'http://wiki.winmerge.org/wiki/Help_Needed'));
+  $page->printPara(__('WinMerge is an open source project, which means that the program is maintained and developed by volunteers.'));
   $page->printPara(__('In addition, WinMerge is translated into a number of different languages. See our <a href="%s">information on translating WinMerge</a> into your own language.', 'translations/'));
-  $page->printPara('<a href="http://wiki.winmerge.org/wiki/Developers">' . __('The WinMerge Development Team') . '</a>');
 
   $page->printFoot();
 ?>

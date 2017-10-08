@@ -320,7 +320,7 @@
           $subtabs[3] = new Subtab($translations->prepareLink('/docs/releasenotes.php'), __('Release Notes'), __('WinMerge Release Notes'));
           $subtabs[4] = new Subtab($translations->prepareLink('/docs/releasenotes.php#issues'), __('Known Issues'), __('WinMerge Known Issues'));
           $subtabs[5] = new Subtab($translations->prepareLink('/docs/changelog.php'), __('Change Log'), __('WinMerge Change Log'));
-          $subtabs[6] = new Subtab('http://wiki.winmerge.org/', __('Development Wiki'), __('WinMerge Development Wiki'));
+          //$subtabs[6] = new Subtab('http://wiki.winmerge.org/', __('Development Wiki'), __('WinMerge Development Wiki'));
           break;
         case TAB_DOWNLOADS: //if "Downloads" ...
           $subtabs[0] = new Subtab($translations->prepareLink('/downloads/'), __('WinMerge'), __('Download WinMerge'));
