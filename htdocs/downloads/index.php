@@ -100,6 +100,25 @@
   }
   print("  <li><a href=\"https://sourceforge.net/projects/winmerge/files/\">" . __('View all file releases&hellip;') . "</a></li>\n");
   print("</ul>\n");
-
+?>
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "WinMerge",
+  "operatingSystem": "Windows",
+  "applicationCategory": "http://schema.org/BusinessApplication",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD"
+  },
+  "softwareVersion": "<?php echo $stablerelease->getVersionNumber();?>",
+  "downloadUrl": "<?php echo $stablerelease->getDownload('setup.exe');?>",
+  "screenshot": "http://winmerge.org/about/screenshots/screenshot.png",
+  "license": "https://www.gnu.org/licenses/gpl-2.0.html"
+}
+</script>
+<?php
   $page->printFoot();
 ?>
