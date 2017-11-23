@@ -19,22 +19,6 @@
                    __('We rarely sent direct emails but you will get notifications when we ask questions in the bug item.'));
   $page->printPara(__('Wish list items on the <a href="%s">feature request list</a> will also be considered, but we make absolutely no promises.', 'http://feature-requests.winmerge.org/'));
 
-  $page->printSubHeading(__('Tracker Statistics'));
-  $feed = new SimplePie();
-  $feed->set_feed_url('https://sourceforge.net/export/rss2_projsummary.php?group_id=13216');
-  $feed->set_cache_location('../engine/simplepie/cache');
-  $feed->enable_order_by_date(false);
-  $feed->init();
-  print("<ul class=\"rssfeeditems\">\n");
-  foreach ($feed->get_items() as $item) { //for all project summary items...
-    $title = $item->get_title();
-    if (stristr($title, 'Tracker:')) {
-      $title = str_replace('Tracker: ', '', $title);
-      print("  <li><a href=\"".$item->get_link()."\">".$title."</a></li>\n");
-    }
-  }
-  print("</ul>\n");
-
   $page->printSubHeading(__('Active Forum Topics'));
   $activetopics = new Forum_ActiveTopics('http://forums.winmerge.org/');
   print("<ul class=\"rssfeeditems\">\n");
