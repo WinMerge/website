@@ -4,7 +4,7 @@
 
   $page = new Page;
   $page->setDescription(__('Download the source code of WinMerge, which is released under the GNU General Public License.'));
-  $page->setKeywords(__('WinMerge, free, download, source code, GPL, Subversion, SVN, TortoiseSVN'));
+  $page->setKeywords(__('WinMerge, free, download, source code, GPL, Bitbucket, Mercurial'));
   $page->addRssFeed('https://sourceforge.net/p/winmerge/code/feed/', __('Recent Code Changes'));
   $page->printHead(__('Download Source Code'), TAB_DOWNLOADS, 'toggle(\'checksumslist\');');
   $stablerelease = $page->getStableRelease();
@@ -32,14 +32,13 @@
 </pre>
 </div> <!-- #checksums -->
 <?php
-  $page->printPara(__('The source code is hosted on <a href="%1$s">SourceForge.net</a> in a <a href="%2$s">Subversion</a> repository.', 'https://sourceforge.net/', 'http://subversion.apache.org/'));
-  $page->printPara(__('You can <a href="%1$s">browse the source code</a> with a web browser or you can check out the whole code by clicking on one of the following links (if you have <a href="%2$s">TortoiseSVN</a> installed):', 'https://sourceforge.net/p/winmerge/code/', 'http://tortoisesvn.net/'));
+  $page->printPara(__('The source code is hosted on <a href="%1$s">Bitbucket</a> in a <a href="%2$s">Mercurial</a> repository.', 'https://bitbucket.org/', 'https://www.mercurial-scm.org/'));
 ?>
 <dl class="headinglist">
   <dt><?php __e('Developer Version');?></dt>
-  <dd><a href="tsvn:http://svn.code.sf.net/p/winmerge/code/trunk">http://svn.code.sf.net/p/winmerge/code/trunk</a></dd>
+  <dd><a href="https://bitbucket.org/winmerge/winmerge">https://bitbucket.org/winmerge/winmerge</a></dd>
   <dt><?php __e('WinMerge %s', $stablerelease->getVersionNumberMajor());?></dt>
-  <dd><a href="tsvn:http://svn.code.sf.net/p/winmerge/code/branches/<?php echo $stablerelease->getBranchName();?>">http://svn.code.sf.net/p/winmerge/code/branches/<?php echo $stablerelease->getBranchName();?></a></dd>
+  <dd><a href="https://bitbucket.org/winmerge/winmerge/branch/<?php echo $stablerelease->getBranchName();?>">https://bitbucket.org/winmerge/winmerge/branch/<?php echo $stablerelease->getBranchName();?></a></dd>
 </dl>
 <?php
   $page->printRssSubHeading(__('Recent Code Changes'), 'https://sourceforge.net/p/winmerge/code/feed/');
