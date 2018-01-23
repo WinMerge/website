@@ -177,7 +177,6 @@
       $temp .= "  <footer>\n";
       $temp .= $this->getLanguages();
       $temp .= "<p id=\"poweredby\">\n";
-      $temp .= "  <a href=\"https://sourceforge.net/projects/winmerge/\"><img src=\"http://sflogo.sourceforge.net/sflogo.php?group_id=13216&amp;type=11\" width=\"120\" height=\"30\" border=\"0\" alt=\"SourceForge.net\" title=\"Get WinMerge at SourceForge.net. Fast, secure and Free Open Source software downloads\" /></a>\n";
       $temp .= "  <a href=\"https://sourceforge.net/donate/index.php?group_id=13216\"><img src=\"/engine/images/project-support.jpg\" width=\"88\" height=\"32\" border=\"0\" alt=\"Donate\" title=\"Donate money to WinMerge\"></a>\n";
       $temp .= "</p>\n";
       $temp .= "  </footer>\n";
@@ -305,7 +304,8 @@
       switch ($this->_tab) {
         case TAB_HOME: //if "Home" ...
           $subtabs[0] = new Subtab($translations->prepareLink('/'), __('Index'), __('WinMerge Home'));
-          $subtabs[2] = new Subtab('https://sourceforge.net/projects/winmerge', __('Project Page'), __('WinMerge Project Page'));
+          $subtabs[1] = new Subtab('https://bitbucket.org/winmerge/', __('Project Page'), __('WinMerge @ Bitbucket'));
+          $subtabs[2] = new Subtab('https://sourceforge.net/projects/winmerge', __('Old Project Page'), __('WinMerge @ SourceForge.net'));
           break;
         case TAB_ABOUT: //if "About" ...
           $subtabs[0] = new Subtab($translations->prepareLink('/about/'), __('Index'), __('About WinMerge'));
