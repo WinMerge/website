@@ -5,7 +5,6 @@
   $page = new Page;
   $page->setDescription(__('Download the source code of WinMerge, which is released under the GNU General Public License.'));
   $page->setKeywords(__('WinMerge, free, download, source code, GPL, Bitbucket, Mercurial'));
-  $page->addRssFeed('https://sourceforge.net/p/winmerge/code/feed/', __('Recent Code Changes'));
   $page->printHead(__('Download Source Code'), TAB_DOWNLOADS, 'toggle(\'checksumslist\');');
   $stablerelease = $page->getStableRelease();
   
@@ -41,21 +40,5 @@
   <dd><a href="https://bitbucket.org/winmerge/winmerge/branch/<?php echo $stablerelease->getBranchName();?>">https://bitbucket.org/winmerge/winmerge/branch/<?php echo $stablerelease->getBranchName();?></a></dd>
 </dl>
 <?php
-  $page->printRssSubHeading(__('Recent Code Changes'), 'https://sourceforge.net/p/winmerge/code/feed/');
-  $feed = new SimplePie();
-  $feed->set_feed_url('https://sourceforge.net/p/winmerge/code/feed/');
-  $feed->set_cache_location('../engine/simplepie/cache');
-  $feed->init();
-  print("<ul class=\"rssfeeditems\">\n");
-  foreach ($feed->get_items(0, 10) as $item) { //for the last 10 code changes...
-    $description = strip_tags($item->get_description());
-    $description = str_replace('View Changes', '', $description);
-    $author = $item->get_author()->name;
-    $date = $item->get_date(__('Y-m-d H:i'));
-    print("  <li>$description <em>by $author at $date</em></li>\n");
-  }
-  print("  <li><a href=\"https://sourceforge.net/p/winmerge/code/log/\">" . __('View code history&hellip;') . "</a></li>\n");
-  print("</ul>\n");
-
   $page->printFoot();
 ?>
