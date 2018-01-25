@@ -310,8 +310,7 @@
         case TAB_ABOUT: //if "About" ...
           $subtabs[0] = new Subtab($translations->prepareLink('/about/'), __('Index'), __('About WinMerge'));
           $subtabs[1] = new Subtab($translations->prepareLink('/about/screenshots/'), __('Screenshots'), __('WinMerge Screenshots'));
-          $subtabs[2] = new Subtab($translations->prepareLink('/about/history.php'), __('History'), __('WinMerge History'));
-          $subtabs[3] = new Subtab($translations->prepareLink('/about/license.php'), __('License'), __('WinMerge License'));
+          $subtabs[2] = new Subtab($translations->prepareLink('/about/license.php'), __('License'), __('WinMerge License'));
           break;
         case TAB_DOCS: //if "Documentation" ...
           $subtabs[0] = new Subtab($translations->prepareLink('/docs/'), __('Index'), __('WinMerge Documentation'));

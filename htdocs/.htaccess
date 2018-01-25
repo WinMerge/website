@@ -42,6 +42,9 @@ RewriteEngine On
 RewriteCond   %{HTTP_HOST} ^www\.winmerge\.org$ [NC]
 RewriteRule   ^(.*)$ http://winmerge.org/$1 [R=permanent,L]
 
+#Move some pages to the Bitbucket Wiki...
+Redirect permanent /about/history.php https://bitbucket.org/winmerge/winmerge/wiki/ReleaseHistory
+
 #Move manual to a own sub domain...
 Redirect permanent /docs/manual/ http://manual.winmerge.org/
 
