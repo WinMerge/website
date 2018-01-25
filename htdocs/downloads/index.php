@@ -6,6 +6,7 @@
   $stablerelease = $page->getStableRelease();
   $page->setDescription(__('Download the current WinMerge version %1$s, which was released at %2$s. For detailed info on what is new, read the change log and the release notes.', $stablerelease->getVersionNumber(), $stablerelease->getDate()));
   $page->setKeywords(__('WinMerge, free, download, Windows, setup, installer, binaries, runtimes, stable, beta, experimental, portable'));
+  $page->addRssFeed('https://sourceforge.net/api/file/index/project-id/13216/rss', __('Project File Releases'));
   $page->printHead(__('Download WinMerge'), TAB_DOWNLOADS, 'toggle(\'checksumslist\');');
   
   $page->printHeading(__('Download WinMerge'));
@@ -79,6 +80,27 @@
   <li><a href="http://www.geocities.co.jp/SiliconValley-SanJose/8165/unofficial_winmerge_nightly_builds.html"><?php __e('Unofficial WinMerge Builds');?></a> (by Takashi Sawanaka)</li>
   <li><a href="https://bitbucket.org/jtuc/winmerge2011/">WinMerge 2011</a> (by Jochen Neubeck)</li>
 </ul>
+<?php
+  $page->printRssSubHeading(__('Project File Releases'), 'https://sourceforge.net/api/file/index/project-id/13216/rss');
+  $feed = new SimplePie();
+  $feed->set_feed_url('https://sourceforge.net/api/file/index/project-id/13216/rss');
+  $feed->set_cache_location('../engine/simplepie/cache');
+  $feed->init();
+  print("<ul class=\"rssfeeditems\">\n");
+  foreach ($feed->get_items(0, 10) as $item) { //for the last 10 file releases...
+    $title = $item->get_title();
+    $title = preg_replace('#(\([A-Z][a-z][a-z],.*GMT\))#si', '', $title);
+    $title = str_replace('1. Stable versions', 'Stable version', $title);
+    $title = str_replace('2. Documentation', 'Documentation', $title);
+    $title = str_replace('3. 7-Zip plugin', '7-Zip plugin', $title);
+    $title = str_replace('4. Beta versions', 'Beta version', $title);
+    $title = str_replace('5. Experimental builds', 'Experimental build', $title);
+    $title = str_replace('6. Developer tools', 'Developer tool', $title);
+    print("  <li><a href=\"".$item->get_link()."\">".$title."</a> <em>".$item->get_date(__('Y-m-d'))."</em></li>\n");
+  }
+  print("  <li><a href=\"https://sourceforge.net/projects/winmerge/files/\">" . __('View all file releases&hellip;') . "</a></li>\n");
+  print("</ul>\n");
+?>
 <script type="application/ld+json">
 {
   "@context": "http://schema.org",
