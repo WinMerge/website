@@ -3,11 +3,12 @@
   include('translations.inc');
 
   $page = new Page;
+  $page->addRssFeed('status-feed/', __('Translations Status'));
   $page->addRssFeed('status_branch_rss.php', __('Translations Status (Stable Branch)'));
   $page->addRssFeed('status_trunk_rss.php', __('Translations Status (Unstable Trunk)'));
   $page->printHead(__('Translations'), TAB_TRANSLATIONS);
   
-  $page->printHeading(__('Translations'));
+  $page->printRssHeading(__('Translations'), 'status-feed/');
   
   try {
     $status = New TranslationsStatus('status_trunk.xml');
