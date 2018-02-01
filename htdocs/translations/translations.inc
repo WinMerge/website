@@ -14,7 +14,7 @@
    */
   class TranslationsStatus {
     public $version;
-    public $svnUrl;
+    public $srcUrl;
     public $rssLink;
     
     private $_status;
@@ -24,7 +24,7 @@
      */
     public function __construct($filename) {
       $this->version = '';
-      $this->svnUrl = '';
+      $this->srcUrl = '';
       $this->rssLink = '';
       
       $this->_status = null;
@@ -102,6 +102,92 @@
     /**
      * ...
      */
+    private function getProjectTable($translations) {
+      $project = (string)$translations->attributes()->project;
+      $temp = "<table class=\"status\">\n";
+      $temp .= "  <tr>\n";
+      $temp .= "    <th class=\"left\">" . __('Language') . "</th>\n";
+      $temp .= "    <th class=\"center\">" . __('Graph') . "</th>\n";
+      $temp .= "    <th class=\"right translated\">" . __('Translated') . "</th>\n";
+      $temp .= "    <th class=\"right fuzzy\">" . __('Fuzzy') . "</th>\n";
+      $temp .= "    <th class=\"right untranslated\">" . __('Untranslated') . "</th>\n";
+      $temp .= "    <th class=\"center\">" . __('Last Update') . "</th>\n";
+      $temp .= "  </tr>\n";
+      //TODO: Sort languages!?
+      foreach ($translations as $translation) { //for all translations...
+        $language_name = (string)$translation->language;
+        
+        $template = (bool)$translation->attributes()->template;
+        if ($template == false) { //If NO template...
+            $file_name = (string)$translation->file;
+            $translation_update = (string)$translation->update;
+            $strings = $translation->strings;
+            $strings_count = (int)$strings->count;
+            $strings_translated = (int)$strings->translated;
+            $strings_fuzzy = (int)$strings->fuzzy;
+            $strings_untranslated = (int)$strings->untranslated;
+            
+            $temp .= "  <tr>\n";
+            $temp .= "    <td class=\"left\"><a href=\"" . $this->srcUrl . $project . '/' . $file_name . "\" rel=\"nofollow\">" . $language_name . "</a></td>\n";
+            if ($strings_count > 0) { //if KNOWN status...
+              $temp .= "    <td class=\"center\">" . $this->getStatusGraph($strings_count, $strings_translated, $strings_fuzzy, $strings_untranslated) . "</td>\n";
+              $temp .= "    <td class=\"right translated\">" . $strings_translated . "</td>\n";
+              $temp .= "    <td class=\"right fuzzy\">" . $strings_fuzzy . "</td>\n";
+              $temp .= "    <td class=\"right untranslated\">" . $strings_untranslated . "</td>\n";
+            }
+            else { //if UNKNOWN status...
+              $temp .= "    <td class=\"center\">-</td>\n";
+              $temp .= "    <td class=\"right translated\">-</td>\n";
+              $temp .= "    <td class=\"right fuzzy\">-</td>\n";
+              $temp .= "    <td class=\"right untranslated\">-</td>\n";
+            }
+            $temp .= "    <td class=\"center\">" . $translation_update . "</td>\n";
+            $temp .= "  </tr>\n";
+        }
+        else { //If template...
+            $template_language_name = (string)$translation->language;
+            $template_file_name = (string)$translation->file;
+            $template_translation_update = (string)$translation->update;
+            $template_strings_count = (int)$translation->strings->translated;
+        }
+      }
+      $temp .= "  <tr>\n";
+      $temp .= "    <td class=\"left\"><a href=\"" . $this->srcUrl . $project . '/' . $template_file_name . "\" rel=\"nofollow\">" . $template_language_name . " (" . __('Template') . ")</a></td>\n";
+      $temp .= "    <td class=\"center\"></td>\n";
+      if ($template_strings_count > 0) //if KNOWN status...
+        $temp .= "    <td colspan=\"3\" class=\"center\">" . __('Total: %d' , $template_strings_count) . "</td>\n";
+      else //if UNKNOWN status...
+        $temp .= "    <td colspan=\"3\" class=\"center\">" . __('Total: Unknown') . "</td>\n";
+      $temp .= "    <td class=\"center\">" . $template_translation_update . "</td>\n";
+      $temp .= "  </tr>\n";
+      $temp .= "</table>\n";
+      return $temp;
+    }
+    
+    /**
+     * ...
+     */
+    private function getProjectLine($translations) {
+      $project = (string)$translations->attributes()->project;
+      $temp = "<ul class=\"inline\">\n";
+      //TODO: Sort languages!?
+      foreach ($translations as $translation) { //for all translations...
+        if ((bool)$translation->attributes()->template == false) { //If NO template...
+          $temp .= "  <li><a href=\"" . $this->srcUrl . $project . '/' . (string)$translation->file . "\" rel=\"nofollow\">" . (string)$translation->language . "</a></li>\n";
+        }
+        else { //If template...
+          $template_language_name = (string)$translation->language;
+          $template_file_name = (string)$translation->file;
+        }
+      }
+      #$temp .= "  <li><a href=\"" . $this->srcUrl . $project . '/' . $template_file_name . "\" rel=\"nofollow\">" . $template_language_name . " (" . __('Template') . ")</a></li>\n";
+      $temp .= "</ul>\n";
+      return $temp;
+    }
+    
+    /**
+     * ...
+     */
     public function printTOC() {
       $status = $this->_status;
       
@@ -119,70 +205,43 @@
     /**
      * ...
      */
+    public function printProjectTable($projectName) {
+      $temp = '';
+      foreach ($this->_status->translations as $translations) { //for all projects...
+        if ((string)$translations->attributes()->project == $projectName) {
+          $temp .= $this->getProjectTable($translations);
+          $temp .= $this->getStatusGraphLegend();
+          break;
+        }
+      }
+      print($temp);
+    }
+    
+    /**
+     * ...
+     */
+    public function printProjectList($projectName) {
+      $temp = '';
+      foreach ($this->_status->translations as $translations) { //for all projects...
+        if ((string)$translations->attributes()->project == $projectName) {
+          $temp .= $this->getProjectLine($translations);
+          break;
+        }
+      }
+      print($temp);
+    }
+    
+    /**
+     * ...
+     */
     public function printStatus() {
       $status = $this->_status;
       
       $temp = '';
       foreach ($status->translations as $translations) { //for all projects...
         $project = (string)$translations->attributes()->project;
-        $temp .= "<h3><a name=\"" . $project . "\">" . $project .  "</a></h3>\n";
-        $temp .= "<table class=\"status\">\n";
-        $temp .= "  <tr>\n";
-        $temp .= "    <th class=\"left\">" . __('Language') . "</th>\n";
-        $temp .= "    <th class=\"center\">" . __('Graph') . "</th>\n";
-        $temp .= "    <th class=\"right translated\">" . __('Translated') . "</th>\n";
-        $temp .= "    <th class=\"right fuzzy\">" . __('Fuzzy') . "</th>\n";
-        $temp .= "    <th class=\"right untranslated\">" . __('Untranslated') . "</th>\n";
-        $temp .= "    <th class=\"center\">" . __('Last Update') . "</th>\n";
-        $temp .= "  </tr>\n";
-        //TODO: Sort languages!?
-        foreach ($translations as $translation) { //for all translations...
-          $language_name = (string)$translation->language;
-          
-          $template = (bool)$translation->attributes()->template;
-          if ($template == false) { //If NO template...
-            $file_name = (string)$translation->file;
-            $translation_update = (string)$translation->update;
-            $strings = $translation->strings;
-            $strings_count = (int)$strings->count;
-            $strings_translated = (int)$strings->translated;
-            $strings_fuzzy = (int)$strings->fuzzy;
-            $strings_untranslated = (int)$strings->untranslated;
-            
-            $temp .= "  <tr>\n";
-            $temp .= "    <td class=\"left\"><a href=\"" . $this->svnUrl . $project . '/' . $file_name . "\" rel=\"nofollow\">" . $language_name . "</a></td>\n";
-            if ($strings_count > 0) { //if KNOWN status...
-              $temp .= "    <td class=\"center\">" . $this->getStatusGraph($strings_count, $strings_translated, $strings_fuzzy, $strings_untranslated) . "</td>\n";
-              $temp .= "    <td class=\"right translated\">" . $strings_translated . "</td>\n";
-              $temp .= "    <td class=\"right fuzzy\">" . $strings_fuzzy . "</td>\n";
-              $temp .= "    <td class=\"right untranslated\">" . $strings_untranslated . "</td>\n";
-            }
-            else { //if UNKNOWN status...
-              $temp .= "    <td class=\"center\">-</td>\n";
-              $temp .= "    <td class=\"right translated\">-</td>\n";
-              $temp .= "    <td class=\"right fuzzy\">-</td>\n";
-              $temp .= "    <td class=\"right untranslated\">-</td>\n";
-            }
-            $temp .= "    <td class=\"center\">" . $translation_update . "</td>\n";
-            $temp .= "  </tr>\n";
-          }
-          else { //If template...
-            $template_language_name = (string)$translation->language;
-            $template_file_name = (string)$translation->file;
-            $template_translation_update = (string)$translation->update;
-            $template_strings_count = (int)$translation->strings->translated;
-          }
-        }
-        $temp .= "  <tr>\n";
-        $temp .= "    <td class=\"left\"><a href=\"" . $this->svnUrl . $project . '/' . $template_file_name . "\" rel=\"nofollow\">" . $template_language_name . " (" . __('Template') . ")</a></td>\n";
-        $temp .= "    <td class=\"center\"></td>\n";
-        if ($template_strings_count > 0) //if KNOWN status...
-          $temp .= "    <td colspan=\"3\" class=\"center\">" . __('Total: %d' , $template_strings_count) . "</td>\n";
-        else //if UNKNOWN status...
-          $temp .= "    <td colspan=\"3\" class=\"center\">" . __('Total: Unknown') . "</td>\n";
-        $temp .= "    <td class=\"center\">" . $template_translation_update . "</td>\n";
-        $temp .= "  </tr>\n";
-        $temp .= "</table>\n";
+        $temp .= "<h3><a name=\"" . $project . "\">" . $project . "</a></h3>\n";
+        $temp .= $this->getProjectTable($translations);
         $temp .= $this->getStatusGraphLegend();
       }
       print($temp);
@@ -221,9 +280,9 @@
             
             $temp .= "  <li>\n";
             if ($strings_count > 0) //if KNOWN status...
-              $temp .= "    <a href=\"" . $this->svnUrl . $project . '/' . $file_name . "\">" . $language_name . "</a> (" . $strings_untranslated . " Untranslated)\n";
+              $temp .= "    <a href=\"" . $this->srcUrl . $project . '/' . $file_name . "\">" . $language_name . "</a> (" . $strings_untranslated . " Untranslated)\n";
             else //if UNKNOWN status...
-              $temp .= "    <a href=\"" . $this->svnUrl . $project . '/' . $file_name . "\">" . $language_name . "</a> (Unknown)\n";
+              $temp .= "    <a href=\"" . $this->srcUrl . $project . '/' . $file_name . "\">" . $language_name . "</a> (Unknown)\n";
             $temp .= "  </li>\n";
           }
         }

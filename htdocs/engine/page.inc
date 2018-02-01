@@ -208,10 +208,17 @@
     }
 
     /**
-     * print a linked <h3> heading
+     * print a <h3> heading with link
      */
     function printLinkedSubHeading($title, $link) {
       print("<h3><a href=\"" . $link . "\">" . $title . "</a></h3>\n");
+    }
+
+    /**
+     * print a <h3> heading with anchor
+     */
+    function printAnchorSubHeading($title, $anchor) {
+      print("<h3><a name=\"" . $anchor . "\">" . $title . "</a></h3>\n");
     }
 
     /**

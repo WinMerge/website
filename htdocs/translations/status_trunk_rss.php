@@ -7,7 +7,7 @@
   try {
     $status = New TranslationsStatus('status_trunk.xml');
     $status->version = 'Unstable Trunk';
-    $status->svnUrl = 'http://svn.code.sf.net/p/winmerge/code/trunk/Translations/';
+    $status->srcUrl = 'https://bitbucket.org/winmerge/winmerge/src/default/Translations/';
     $status->rssLink = 'http://winmerge.org/translations/status_trunk.php';
     $status->printRSS();
   }
