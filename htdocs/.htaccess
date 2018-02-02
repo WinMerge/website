@@ -45,6 +45,12 @@ RewriteRule   ^(.*)$ http://winmerge.org/$1 [R=permanent,L]
 #Move some pages to the Bitbucket Wiki...
 Redirect permanent /about/history.php https://bitbucket.org/winmerge/winmerge/wiki/ReleaseHistory
 
+#Move old translations status to new one...
+Redirect permanent /translations/status_branch.php /translations/
+Redirect permanent /translations/status_branch_rss.php /translations/status-feed/
+Redirect permanent /translations/status_trunk.php /translations/
+Redirect permanent /translations/status_trunk_rss.php /translations/status-feed/
+
 #Move manual to a own sub domain...
 Redirect permanent /docs/manual/ http://manual.winmerge.org/
 

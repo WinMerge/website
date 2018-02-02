@@ -343,9 +343,7 @@
         case TAB_TRANSLATIONS: //if "Translations" ...
           $subtabs[0] = new Subtab($translations->prepareLink('/translations/'), __('Index'), __('WinMerge Translations'));
           $subtabs[1] = new Subtab($translations->prepareLink('/translations/instructions.php'), __('Instructions'), __('WinMerge Translations Instructions'));
-          $subtabs[2] = new Subtab($translations->prepareLink('/translations/status_branch.php'), __('Status (Stable Branch)'), __('WinMerge Translations Status (Stable Branch)'));
-          $subtabs[3] = new Subtab($translations->prepareLink('/translations/status_trunk.php'), __('Status (Unstable Trunk)'), __('WinMerge Translations Status (Unstable Trunk)'));
-          $subtabs[4] = new Subtab($translations->prepareLink('/translations/status_website.php'), __('Status (Website)'), __('WinMerge Translations Status (Website)'));
+          $subtabs[2] = new Subtab($translations->prepareLink('/translations/status_website.php'), __('Status (Website)'), __('WinMerge Translations Status (Website)'));
           break;
       }
       
