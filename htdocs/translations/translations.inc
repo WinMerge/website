@@ -13,7 +13,6 @@
    * ...
    */
   class TranslationsStatus {
-    public $version;
     public $srcUrl;
     public $rssLink;
     
@@ -23,7 +22,6 @@
      * Constructor
      */
     public function __construct($filename) {
-      $this->version = '';
       $this->srcUrl = '';
       $this->rssLink = '';
       
@@ -184,24 +182,7 @@
       $temp .= "</ul>\n";
       return $temp;
     }
-    
-    /**
-     * ...
-     */
-    public function printTOC() {
-      $status = $this->_status;
-      
-      $temp = "<p>Status from <strong>" . $status->update . "</strong>:</p>\n";
-      $temp .= "<ul>\n";
-      foreach ($status->translations as $translations) { //for all projects...
-        $project = (string)$translations->attributes()->project;
-        $temp .= "  <li><a href=\"#" . $project ."\">" . $project . "</a></li>\n";
-      }
-      $temp .= "  <li><a href=\"#translators\">Translators</a></li>\n";
-      $temp .= "</ul>\n";
-      print($temp);
-    }
-    
+
     /**
      * ...
      */
@@ -234,29 +215,13 @@
     /**
      * ...
      */
-    public function printStatus() {
-      $status = $this->_status;
-      
-      $temp = '';
-      foreach ($status->translations as $translations) { //for all projects...
-        $project = (string)$translations->attributes()->project;
-        $temp .= "<h3><a name=\"" . $project . "\">" . $project . "</a></h3>\n";
-        $temp .= $this->getProjectTable($translations);
-        $temp .= $this->getStatusGraphLegend();
-      }
-      print($temp);
-    }
-    
-    /**
-     * ...
-     */
     public function printRSS() {
       $status = $this->_status;
       
       $temp = "<?xml version=\"1.0\" encoding=\"ISO-8859-1\"?>\n";
       $temp .= "<rss version=\"2.0\">\n";
       $temp .= "  <channel>\n";
-      $temp .= "    <title>WinMerge Translations Status (" . $this->version . ")</title>\n";
+      $temp .= "    <title>WinMerge Translations Status</title>\n";
       $temp .= "    <link>http://winmerge.org/</link>\n";
       $temp .= "    <description>...</description>\n";
       foreach ($status->translations as $translations) { //for all projects...
@@ -341,7 +306,6 @@
       }
       ksort($languages, SORT_STRING);
       
-      $temp = "<h3><a name=\"translators\">" . __('Translators') . "</a></h3>\n";
       $temp .= "<table class=\"status\">\n";
       $temp .= "  <tr>\n";
       $temp .= "    <th class=\"left\">" . __('Language') . "</th>\n";

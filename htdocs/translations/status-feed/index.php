@@ -6,7 +6,6 @@
   
   try {
     $status = New TranslationsStatus('../status_trunk.xml');
-    $status->version = 'Unstable';
     $status->srcUrl = 'https://bitbucket.org/winmerge/winmerge/src/default/Translations/';
     $status->rssLink = 'http://winmerge.org/translations/status-feed/';
     $status->printRSS();

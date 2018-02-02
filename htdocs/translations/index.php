@@ -34,18 +34,19 @@
     
     $page->printPara(__('If you would like to update any of these translations or add another translation, then please follow <a href="%s">these instructions</a>.', 'instructions.php'));
     
+    $page->printAnchorSubHeading(__('Translators'), 'translators');
     $status->printTranslators();
     
-    $page->printAnchorSubHeading('WinMerge Status', 'winmerge');
+    $page->printAnchorSubHeading(__('WinMerge Status'), 'winmerge');
     $status->printProjectTable('WinMerge');
     
-    $page->printAnchorSubHeading('ShellExtension Status', 'shellextension');
+    $page->printAnchorSubHeading(__('ShellExtension Status'), 'shellextension');
     $status->printProjectTable('ShellExtension');
     
-    $page->printAnchorSubHeading('InnoSetup Files', 'innosetup');
+    $page->printAnchorSubHeading(__('InnoSetup Files'), 'innosetup');
     $status->printProjectList('InnoSetup');
     
-    $page->printAnchorSubHeading('Readme Files', 'readme');
+    $page->printAnchorSubHeading(__('Readme Files'), 'readme');
     $status->printProjectList('Docs/Readme');
   }
   catch (Exception $ex) { //If problems with translations status...
