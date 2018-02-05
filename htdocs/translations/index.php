@@ -9,7 +9,7 @@
   $page->printRssHeading(__('Translations'), 'status-feed/');
   
   try {
-    $status = New TranslationsStatus('status_trunk.xml');
+    $status = New TranslationsStatus('status.xml');
     $status->srcUrl = 'https://bitbucket.org/winmerge/winmerge/src/default/Translations/';
     
     print("<ul>\n");
