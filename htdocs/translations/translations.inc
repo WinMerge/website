@@ -345,5 +345,12 @@
       sort($languages, SORT_STRING);
       return $languages;
     }
+    
+    /**
+     * ...
+     */
+    public function getUpdateDate() {
+      return $this->_status->update;
+    }
   }
 ?>

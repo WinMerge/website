@@ -35,10 +35,10 @@
     $page->printAnchorSubHeading(__('Translators'), 'translators');
     $status->printTranslators();
     
-    $page->printAnchorSubHeading(__('WinMerge Status'), 'winmerge');
+    $page->printAnchorSubHeading(__('WinMerge Status <em>from %s</em>', $status->getUpdateDate()), 'winmerge');
     $status->printProjectTable('WinMerge');
     
-    $page->printAnchorSubHeading(__('ShellExtension Status'), 'shellextension');
+    $page->printAnchorSubHeading(__('ShellExtension Status <em>from %s</em>', $status->getUpdateDate()), 'shellextension');
     $status->printProjectTable('ShellExtension');
     
     $page->printAnchorSubHeading(__('InnoSetup Files'), 'innosetup');
