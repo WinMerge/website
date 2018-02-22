@@ -150,6 +150,9 @@
       if ($translations->getLanguagesCount() > 1) { //if at least 2 languages exists...
         foreach ($translations->getLanguages() as $language) {
           $languageId = str_replace('_', '-', $language->getId());
+          if ($translations->isActiveLanguage($language)) { //if current language...
+            $languageId = 'x';
+          }
           $languageLink = 'http://winmerge.org' . $translations->getLink($language, true);
           $temp .= "  <link rel=\"alternate\" href=\"" . $languageLink . "\" hreflang=\"" . $languageId . "\">\n";
         }
