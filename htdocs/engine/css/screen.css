@@ -1,6 +1,6 @@
 /* HTML5 */
 footer, header, main, nav {
-  display: block;
+	display: block;
 }
 
 body {
@@ -417,7 +417,7 @@ ul.inline li {
 
 /* Screenshots */
 .screenshots {
-  height: 1%; /* IE fix */
+	height: 1%; /* IE fix */
 }
 
 .screenshots h3 {
@@ -473,7 +473,7 @@ ul.inline li {
 
 /* GUI elements */
 .guimenu,.guisubmenu,.guimenuitem,.guilabel {
-  font-style: italic;
+	font-style: italic;
 }
 
 .left { text-align: left; }
@@ -482,12 +482,12 @@ ul.inline li {
 
 /* media queries */
 @media (max-width: 60em) {
-  #wrap {
-    padding: 0;
-  }
+	#wrap {
+		padding: 0;
+	}
 }
 @media (max-width: 50em) {
-  #wrap {
-    width: auto;
-  }
+	#wrap {
+		width: auto;
+	}
 }

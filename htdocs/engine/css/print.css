@@ -1,6 +1,6 @@
 /* HTML5 */
 footer, header, main, nav {
-  display: block;
+	display: block;
 }
 
 body {
@@ -188,7 +188,7 @@ ul.inline li {
 
 /* GUI elements */
 .guimenu,.guisubmenu,.guimenuitem,.guilabel {
-  font-style: italic;
+	font-style: italic;
 }
 
 .left { text-align: left; }
