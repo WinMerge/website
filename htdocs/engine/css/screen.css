@@ -7,7 +7,7 @@ body {
 	margin: 0;
 	padding: 0;
 	color: black;
-	background: #FFFFCC url(/engine/images/body-bg.png) repeat-x;
+	background: #ffc url(/engine/images/body-bg.png) repeat-x;
 	text-align: center;
 	font-family: Verdana,Helvetica,Arial,sans-serif;
 	font-size: small;
@@ -59,50 +59,40 @@ a[name]:hover { color:black; text-decoration:none; }
 	text-indent: -999em;
 }
 
-/* Based on "Eric Meyer's tabbed navbar" from Eric Meyer:
-   http://css.maxdesign.com.au/listamatic/horizontal05.htm */
-#tabs {
+/* Based on W3Schools example:
+   https://www.w3schools.com/css/css_navbar.asp */
+#nav ul {
+	overflow: hidden;
 	margin: 0;
-	padding: 3px 1em;
-	background: transparent;
-	border-bottom: 1px solid black;
+	padding: 0;
+	list-style-type: none;
 }
-
-#tabs li {
-	margin: 0;
-	display: inline;
-	list-style: none;
+#nav li {
+	float: left;
 }
-
-#tabs li a {
-	margin-left: 3px;
-	padding: 3px 0.5em;
-	text-decoration: none;
-	background: #FFFFCC;
-	border: 1px solid #808080;
-	border-bottom: none;
-}
-
-#tabs li a:link { color: black; }
-#tabs li a:visited { color: black; }
-
-#tabs li a:focus,
-#tabs li a:hover {
+#nav li a {
+	display: block;
 	color: black;
-	background: white;
-	border-color: black;
+	padding: .75em 1.5em;
+	text-align: center;
+	text-decoration: none;
 }
-
-#tabs li a#current {
-	background: #F2F2F2;
-	border: 1px solid black;
-	border-bottom: 1px solid #F2F2F2;
+#nav li a:hover:not(.active) {
+	color: #fc0;
+	background-color: dimgray;
+	border-radius: .3em .3em 0 0;
+}
+#nav li.active a {
+	color: #fc0;
+	background-color: black;
+	border-radius: .3em .3em 0 0;
 }
 
 #subtabs {
 	margin: 0;
 	padding: 5px;
 	background: #F2F2F2 url(/engine/images/subtabs-bg.png) repeat-x bottom;
+	border-top: 1px solid black;
 	border-left: 1px solid black;
 	border-right: 1px solid black;
 	/*border-bottom: 1px solid #D2D2D2;*/
@@ -489,5 +479,33 @@ ul.inline li {
 @media (max-width: 50em) {
 	#wrap {
 		width: auto;
+	}
+}
+@media (max-width: 40em) {
+	#nav li a:hover:not(.active) {
+		border-radius: .5em;
+	}
+	#nav li.active a {
+		border-radius: .5em;
+	}
+	.whatisbox {
+		width: auto;
+	}
+	.infocard {
+		width: auto;
+	}
+}
+@media (max-width: 30em) {
+	#nav li {
+		float: none;
+	}
+	#nav li a:hover:not(.active) {
+		border-radius: 0;
+	}
+	#nav li.active a {
+		border-radius: 0;
+	}
+	.whatisimage {
+		float: none;
 	}
 }

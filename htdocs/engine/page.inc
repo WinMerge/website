@@ -297,17 +297,18 @@
       $tabs[4] = new Tab(TAB_SUPPORT, $translations->prepareLink('/support/'), __('Support'), __('WinMerge Support'));
       $tabs[5] = new Tab(TAB_TRANSLATIONS, $translations->prepareLink('/translations/'), __('Translations'), __('WinMerge Translations'));
 
-      $temp = "  <nav>\n";      
-      $temp .= "<ul id=\"tabs\">\n";
+      $temp = "  <nav id=\"nav\">\n";
+      $temp .= "<ul>\n";
       foreach ($tabs as $tab) { //for all tabs...
         if ($this->_tab == $tab->getId()) { //if current tab...
-          $temp .= "  <li><strong><a href=\"" . $tab->getLink() . "\" id=\"current\" title=\"" . $tab->getToolTipText() . "\">" . $tab->getTitle() . "</a></strong></li>\n";
+          $temp .= "  <li class=\"active\"><strong><a href=\"" . $tab->getLink() . "\" id=\"current\" title=\"" . $tab->getToolTipText() . "\">" . $tab->getTitle() . "</a></strong></li>\n";
         }
         else { //if NOT current tab...
           $temp .= "  <li><a href=\"" . $tab->getLink() . "\" title=\"" . $tab->getToolTipText() . "\">" . $tab->getTitle() . "</a></li>\n";
         }
       }
       $temp .= "</ul>\n";
+      $temp .= "  </nav> <!-- #nav -->\n";
       
       /* Sub Tabs */
       $subtabs = array();
@@ -363,7 +364,6 @@
         $temp .= "</ul>\n";
       }
 
-      $temp .= "  </nav>\n";
       return $temp;
     }
 
