@@ -36,15 +36,24 @@ a:active { color:#003399; text-decoration:none; }
 
 a[name]:hover { color:black; text-decoration:none; }
 
+#topwrap {
+	margin: 0;
+	padding: 0;
+	padding-top: 1em;
+	text-align: left;
+	border-bottom: 1px solid black;
+}
+
 #wrap {
-	width: 60em;
-	margin: 0 auto;
-	padding: 1em;
+	margin: 0;
+	padding: 0;
+	background: white;
 	text-align: left;
 }
 
 #head {
-	margin: 0;
+	width: 60em;
+	margin: 0 auto;
 	padding: 5px;
 	padding-left: 1em;
 	background: transparent;
@@ -61,6 +70,10 @@ a[name]:hover { color:black; text-decoration:none; }
 
 /* Based on W3Schools example:
    https://www.w3schools.com/css/css_navbar.asp */
+#nav {
+	width: 60em;
+	margin: 0 auto;
+}
 #nav ul {
 	overflow: hidden;
 	margin: 0;
@@ -89,13 +102,14 @@ a[name]:hover { color:black; text-decoration:none; }
 }
 
 #subtabs {
-	margin: 0;
-	padding: 5px;
 	background: #F2F2F2 url(/engine/images/subtabs-bg.png) repeat-x bottom;
-	border-top: 1px solid black;
-	border-left: 1px solid black;
-	border-right: 1px solid black;
-	/*border-bottom: 1px solid #D2D2D2;*/
+	text-align: left;
+}
+
+#subtabs ul {
+	width: 60em;
+	margin: 0 auto;
+	padding: 5px;
 }
 
 #subtabs li {
@@ -110,20 +124,18 @@ a[name]:hover { color:black; text-decoration:none; }
 #subtabs li:last-child { border: none; }
 
 #ads {
-	margin: 0;
+	width: 60em;
+	margin: 0 auto;
 	padding: 10px 5px 10px 5px;
 	text-align: center;
 	background: white;
-	border-left: 1px solid black;
-	border-right: 1px solid black;
 }
 
 #content {
-	margin: 0;
+	width: 60em;
+	margin: 0 auto;
 	padding: 1em;
 	background: white;
-	border: 1px solid black;
-	border-top: 0;
 }
 
 #content h2 {
@@ -143,9 +155,14 @@ a[name]:hover { color:black; text-decoration:none; }
 	text-align: right;
 }
 
+footer {
+	border-top: 1px solid black;
+}
+
 /* Languages */
 #languages {
-	margin: 0;
+	width: 60em;
+	margin: 0 auto;
 	padding: .5em;
 }
 #languages ul {
@@ -471,13 +488,8 @@ ul.inline li {
 .right { text-align: right; }
 
 /* media queries */
-@media (max-width: 60em) {
-	#wrap {
-		padding: 0;
-	}
-}
 @media (max-width: 50em) {
-	#wrap {
+	#head, #nav, #subtabs ul, #ads, #content, #languages {
 		width: auto;
 	}
 }

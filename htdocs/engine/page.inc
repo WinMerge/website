@@ -162,11 +162,12 @@
         $temp .= "<body onload=\"".$onload."\">\n";
       else
         $temp .= "<body>\n";
-      $temp .= "<div id=\"wrap\">\n";
+      $temp .= "<div id=\"topwrap\">\n";
       $temp .= "  <header id=\"head\">\n";
       $temp .= "<h1>WinMerge</h1>\n";
       $temp .= "  </header>\n";
       $temp .= $this->getTabs();
+      $temp .= "<div id=\"wrap\">\n";
       $temp .= $this->getAds();
       $temp .= "  <main id=\"content\">\n";
       print($temp);
@@ -178,12 +179,12 @@
     function printFoot() {
       $temp = "  </main>\n";
       $temp .= "  <footer>\n";
+      $temp .= "</div> <!-- #wrap -->\n";
       $temp .= $this->getLanguages();
       $temp .= "<p id=\"poweredby\">\n";
       $temp .= "  <a href=\"https://sourceforge.net/donate/index.php?group_id=13216\"><img src=\"/engine/images/project-support.jpg\" width=\"88\" height=\"32\" border=\"0\" alt=\"Donate\" title=\"Donate money to WinMerge\"></a>\n";
       $temp .= "</p>\n";
       $temp .= "  </footer>\n";
-      $temp .= "</div> <!-- #wrap -->\n";
       $temp .= "</body>\n\n";
       $temp .= "</html>\n";
       print($temp);
@@ -309,6 +310,7 @@
       }
       $temp .= "</ul>\n";
       $temp .= "  </nav> <!-- #nav -->\n";
+      $temp .= "</div> <!-- #topwrap -->\n";
       
       /* Sub Tabs */
       $subtabs = array();
@@ -352,7 +354,8 @@
       }
       
       if (count($subtabs) > 0) { //if subtabs exists...
-        $temp .= "<ul id=\"subtabs\">\n";
+        $temp .= "<nav id=\"subtabs\">\n";
+        $temp .= "<ul>\n";
         foreach ($subtabs as $subtab) { //for all subtabs...
           if ($subtab->isCurrent() == true) { //if current subtab...
             $temp .= "  <li><strong><a href=\"" . $subtab->getLink() . "\" title=\"" . $subtab->getToolTipText() . "\">" . $subtab->getTitle() . "</a></strong></li>\n";
@@ -362,6 +365,7 @@
           }
         }
         $temp .= "</ul>\n";
+        $temp .= "</nav> <!-- #subtabs -->\n";
       }
 
       return $temp;
