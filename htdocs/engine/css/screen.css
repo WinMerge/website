@@ -8,7 +8,6 @@ body {
 	padding: 0;
 	color: black;
 	background: #ffc url(/engine/images/body-bg.png) repeat-x;
-	text-align: center;
 	font-family: Verdana,Helvetica,Arial,sans-serif;
 	font-size: small;
 }
@@ -40,7 +39,6 @@ a[name]:hover { color:black; text-decoration:none; }
 	margin: 0;
 	padding: 0;
 	padding-top: 1em;
-	text-align: left;
 	border-bottom: 1px solid black;
 }
 
@@ -48,7 +46,6 @@ a[name]:hover { color:black; text-decoration:none; }
 	margin: 0;
 	padding: 0;
 	background: white;
-	text-align: left;
 }
 
 #head {
@@ -56,7 +53,6 @@ a[name]:hover { color:black; text-decoration:none; }
 	margin: 0 auto;
 	padding: 5px;
 	padding-left: 1em;
-	background: transparent;
 }
 
 #head h1 {
@@ -103,7 +99,6 @@ a[name]:hover { color:black; text-decoration:none; }
 
 #subtabs {
 	background: #F2F2F2 url(/engine/images/subtabs-bg.png) repeat-x bottom;
-	text-align: left;
 }
 
 #subtabs ul {
@@ -164,6 +159,7 @@ footer {
 	width: 60em;
 	margin: 0 auto;
 	padding: .5em;
+	text-align: center;
 }
 #languages ul {
 	margin: 0;
