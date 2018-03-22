@@ -123,10 +123,9 @@ a[name]:hover { color:black; text-decoration:none; }
 
 #subnav li:last-child { border: none; }
 
+/* Advertisement */
 #ads {
-	width: 60em;
-	margin: 0 auto;
-	padding: 10px 5px 10px 5px;
+	padding: .5em;
 	text-align: center;
 	background: white;
 }
@@ -493,7 +492,7 @@ ul.inline li {
 
 /* media queries */
 @media (max-width: 50em) {
-	#head, #nav, #subnav ul, #ads, #content, #languages {
+	#head, #nav, #subnav ul, #content, #languages {
 		width: auto;
 	}
 }

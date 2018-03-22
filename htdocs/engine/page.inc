@@ -168,8 +168,8 @@
       $temp .= "  </header>\n";
       $temp .= $this->getTabs();
       $temp .= "<div id=\"wrap\">\n";
-      $temp .= $this->getAds();
       $temp .= "  <main id=\"content\">\n";
+      $temp .= $this->getAds();
       print($temp);
     }
 
@@ -375,7 +375,7 @@
      * get the ads to display on the page
      */
     function getAds() {
-      $temp = "<div id=\"ads\">\n";
+      $temp = "<div align=\"center\" id=\"ads\">\n";
       $temp .= "<script type=\"text/javascript\"><!--\n";
       $temp .= "google_ad_client = \"pub-1411904495533584\";\n";
       $temp .= "google_ad_width = 728;\n";
@@ -390,7 +390,7 @@
       $temp .= "google_color_url = \"008000\";\n";
       $temp .= "//--></script>\n";
       $temp .= "<script type=\"text/javascript\"\n";
-      $temp .= "  src=\"http://pagead2.googlesyndication.com/pagead/show_ads.js\">\n";
+      $temp .= "  src=\"https://pagead2.googlesyndication.com/pagead/show_ads.js\">\n";
       $temp .= "</script>\n";
       $temp .= "</div> <!-- #ads -->\n";
       return $temp;
