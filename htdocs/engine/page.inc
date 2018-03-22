@@ -178,13 +178,13 @@
      */
     function printFoot() {
       $temp = "  </main>\n";
-      $temp .= "  <footer>\n";
       $temp .= "</div> <!-- #wrap -->\n";
+      $temp .= "  <footer id=\"foot\">\n";
       $temp .= $this->getLanguages();
       $temp .= "<p id=\"poweredby\">\n";
       $temp .= "  <a href=\"https://sourceforge.net/donate/index.php?group_id=13216\"><img src=\"/engine/images/project-support.jpg\" width=\"88\" height=\"32\" border=\"0\" alt=\"Donate\" title=\"Donate money to WinMerge\"></a>\n";
       $temp .= "</p>\n";
-      $temp .= "  </footer>\n";
+      $temp .= "  </footer> <!-- #foot -->\n";
       $temp .= "</body>\n\n";
       $temp .= "</html>\n";
       print($temp);

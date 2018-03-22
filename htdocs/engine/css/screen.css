@@ -7,7 +7,7 @@ body {
 	margin: 0;
 	padding: 0;
 	color: black;
-	background: #ffc url(/engine/images/body-bg.png) repeat-x;
+	background: white;
 	font-family: Verdana,Helvetica,Arial,sans-serif;
 	font-size: small;
 }
@@ -39,6 +39,8 @@ a[name]:hover { color:black; text-decoration:none; }
 	margin: 0;
 	padding: 0;
 	padding-top: 1em;
+	color: black;
+	background: #fc0;
 	border-bottom: 1px solid black;
 }
 
@@ -150,7 +152,10 @@ a[name]:hover { color:black; text-decoration:none; }
 	text-align: right;
 }
 
-footer {
+/* Footer */
+#foot {
+	color: black;
+	background: #ffc;
 	border-top: 1px solid black;
 }
 
