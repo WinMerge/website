@@ -7,7 +7,7 @@ body {
 	margin: 0;
 	padding: 0;
 	color: black;
-	background: white;
+	background: #ffc;
 	font-family: Verdana,Helvetica,Arial,sans-serif;
 	font-size: small;
 }
@@ -156,41 +156,54 @@ a[name]:hover { color:black; text-decoration:none; }
 
 /* Footer */
 #foot {
-	color: black;
+	color: dimgray;
 	background: #ffc;
 	border-top: 1px solid black;
+	line-height: 1.5em;
 }
 
-/* Languages */
-#languages {
+#foot .columns {
 	width: 60em;
+	overflow: hidden;
 	margin: 0 auto;
-	padding: .5em;
+	padding: 0;
+}
+
+#foot .column {
+	width: 33%;
+	float: left;
+	margin: 0;
+	padding: 0;
 	text-align: center;
 }
-#languages ul {
+#foot .column h2 {
 	margin: 0;
 	padding: 0;
+	padding-top: .5em;
+	font-size: medium;
 }
-#languages li {
+#foot .column ul {
 	margin: 0;
-	margin-right: 1em;
+	padding: .5em 0;
+}
+#foot .column li {
+	margin: 0;
 	padding: 0;
-	display: inline;
 	list-style: none;
 }
-#languages a:link { color:black; text-decoration:none; }
-#languages a:visited { color:black; text-decoration:none; }
-#languages a:focus { color:black; text-decoration:underline; }
-#languages a:hover { color:black; text-decoration:underline; }
-#languages a:active { color:black; text-decoration:none; }
-
-#poweredby {
-	margin: 0;
-	margin-top: 1em;
-	padding: 0;
-	text-align: center;
+#foot .column ul.languages li {
+	display: inline;
+	margin-right: 1em;
 }
+#foot em {
+	font-size: smaller;
+}
+
+#foot a:link { color:dimgray; text-decoration:none; }
+#foot a:visited { color:dimgray; text-decoration:none; }
+#foot a:focus { color:dimgray; text-decoration:underline; }
+#foot a:hover { color:dimgray; text-decoration:underline; }
+#foot a:active { color:dimgray; text-decoration:none; }
 
 /* "Download Now!" link */
 a.downloadnow {
@@ -492,7 +505,7 @@ ul.inline li {
 
 /* media queries */
 @media (max-width: 50em) {
-	#head, #nav, #subnav ul, #content, #languages {
+	#head, #nav, #subnav ul, #content, #foot .columns {
 		width: auto;
 	}
 }
@@ -502,6 +515,10 @@ ul.inline li {
 	}
 	#nav li.active a {
 		border-radius: .5em;
+	}
+	#foot .column {
+		width: auto;
+		float: none;
 	}
 	.whatisbox {
 		width: auto;

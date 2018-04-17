@@ -177,13 +177,42 @@
      * print the foot from the page
      */
     function printFoot() {
+      global $translations;
+      
       $temp = "  </main>\n";
       $temp .= "</div> <!-- #wrap -->\n";
       $temp .= "  <footer id=\"foot\">\n";
-      $temp .= $this->getLanguages();
-      $temp .= "<p id=\"poweredby\">\n";
-      $temp .= "  <a href=\"https://sourceforge.net/donate/index.php?group_id=13216\"><img src=\"/engine/images/project-support.jpg\" width=\"88\" height=\"32\" border=\"0\" alt=\"Donate\" title=\"Donate money to WinMerge\"></a>\n";
-      $temp .= "</p>\n";
+      $temp .= "    <div class=\"columns\">\n";
+      $temp .= "      <div class=\"column\">\n";
+      $temp .= "<h2>" . __('Change Language') ."</h2>\n";
+      if ($translations->getLanguagesCount() > 1) { //if at least 2 languages exists...
+        $temp .= "<ul class=\"languages\">\n";
+        $languages = $translations->getLanguages();
+        foreach ($languages as $language) { //for all languages...
+          $link = "<a href=\"" . $translations->getLink($language, true) . "\" hreflang=\"" . $language->getId() . "\" title=\"" . __($language->getName()) .  "\">" . $language->getCultureName('&#8209;') . "</a>";
+          if ($translations->isActiveLanguage($language)) { //if current language...
+            $temp .= "  <li><strong>$link</strong></li>\n";
+          }
+          else { //if NOT current language...
+            $temp .= "  <li>$link</li>\n";
+          }
+        }
+        $temp .= "</ul> <!-- .languages -->\n";
+      }
+      $temp .= "      </div> <!-- .column -->\n";
+      $temp .= "      <div class=\"column\">\n";
+      $temp .= "<h2>" . __('Project Pages') ."</h2>\n";
+      $temp .= "<ul>\n";
+      $temp .= "  <li><a href=\"https://bitbucket.org/winmerge/\">Bitbucket</a></li>\n";
+      $temp .= "  <li><a href=\"https://sourceforge.net/projects/winmerge\">SourceForge</a> <em>" . __('Archive') ."</em></li>\n";
+      $temp .= "  <li><a href=\"https://github.com/sdottaka/winmerge-v2\">GitHub</a> <em>" . __('Git Mirror') ."</em></li>\n";
+      $temp .= "</ul>\n";
+      $temp .= "      </div> <!-- .column -->\n";
+      $temp .= "      <div class=\"column\">\n";
+      $temp .= "<h2>" . __('Donate') ."</h2>\n";
+      $temp .= "<p><a href=\"https://sourceforge.net/donate/index.php?group_id=13216\"><img src=\"/engine/images/project-support.jpg\" width=\"88\" height=\"32\" border=\"0\" alt=\"Donate\" title=\"Donate money to WinMerge\"></a></p>\n";
+      $temp .= "      </div> <!-- .column -->\n";
+      $temp .= "    </div> <!-- .columns -->\n";
       $temp .= "  </footer> <!-- #foot -->\n";
       $temp .= "</body>\n\n";
       $temp .= "</html>\n";
@@ -393,31 +422,6 @@
       $temp .= "  src=\"https://pagead2.googlesyndication.com/pagead/show_ads.js\">\n";
       $temp .= "</script>\n";
       $temp .= "</div> <!-- #ads -->\n";
-      return $temp;
-    }
-
-    /**
-     * get the languages from the page
-     */
-    function getLanguages() {
-      global $translations;
-      
-      $temp = "";
-      if ($translations->getLanguagesCount() > 1) { //if at least 2 languages exists...
-        $temp .= "<div id=\"languages\">\n";
-        $temp .= "<ul>\n";
-        $languages = $translations->getLanguages();
-        foreach ($languages as $language) { //for all languages...
-          if ($translations->isActiveLanguage($language)) { //if current language...
-            $temp .= "  <li><strong><a href=\"" . $translations->getLink($language, true) . "\" hreflang=\"" . $language->getId() . "\">" . __($language->getName()) . "</a></strong></li>\n";
-          }
-          else { //if NOT current language...
-            $temp .= "  <li><a href=\"" . $translations->getLink($language, true) . "\" hreflang=\"" . $language->getId() . "\">" . __($language->getName()) . "</a></li>\n";
-          }
-        }
-        $temp .= "</ul>\n";
-        $temp .= "</div> <!-- #languages -->\n";
-      }
       return $temp;
     }
 

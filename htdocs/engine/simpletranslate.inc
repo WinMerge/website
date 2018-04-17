@@ -469,6 +469,15 @@
     }
 
     /**
+     * get the language culture name...
+     * @param string $separator Separator
+     * @return string Culture name
+     */
+    function getCultureName($separator = '-') {
+      return strtoupper(str_replace('_', $separator, $this->_id));
+    }
+
+    /**
      * get the language PO file...
      * @return string PO file
      */
