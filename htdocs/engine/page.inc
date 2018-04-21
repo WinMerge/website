@@ -345,11 +345,6 @@
       /* Sub Tabs */
       $subtabs = array();
       switch ($this->_tab) {
-        case TAB_HOME: //if "Home" ...
-          $subtabs[0] = new Subtab($translations->prepareLink('/'), __('Index'), __('WinMerge Home'));
-          $subtabs[1] = new Subtab('https://bitbucket.org/winmerge/', __('Project Page'), __('WinMerge @ Bitbucket'));
-          $subtabs[2] = new Subtab('https://sourceforge.net/projects/winmerge', __('Old Project Page'), __('WinMerge @ SourceForge.net'));
-          break;
         case TAB_ABOUT: //if "About" ...
           $subtabs[0] = new Subtab($translations->prepareLink('/about/'), __('Index'), __('About WinMerge'));
           $subtabs[1] = new Subtab($translations->prepareLink('/about/screenshots/'), __('Screenshots'), __('WinMerge Screenshots'));
