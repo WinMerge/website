@@ -47,6 +47,10 @@ a[name]:hover { color:black; text-decoration:none; }
 	padding: 0;
 }
 
+#head p {
+	display: none;
+}
+
 #nav {
 	display: none;
 }

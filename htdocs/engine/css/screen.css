@@ -38,7 +38,6 @@ a[name]:hover { color:black; text-decoration:none; }
 #topwrap {
 	margin: 0;
 	padding: 0;
-	padding-top: 1em;
 	color: black;
 	background: #fc0;
 	border-bottom: 1px solid black;
@@ -53,8 +52,7 @@ a[name]:hover { color:black; text-decoration:none; }
 #head {
 	width: 60em;
 	margin: 0 auto;
-	padding: 5px;
-	padding-left: 1em;
+	padding: 1em 0;
 }
 
 #head h1 {
@@ -64,6 +62,13 @@ a[name]:hover { color:black; text-decoration:none; }
 	height: 50px;
 	background: url(/engine/images/head.gif) no-repeat;
 	text-indent: -999em;
+}
+
+#head p {
+	margin: 0;
+	padding: 0;
+	padding-left: .5em;
+	font-size: x-large;
 }
 
 /* Based on W3Schools example:

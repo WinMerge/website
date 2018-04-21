@@ -122,7 +122,7 @@
         $temp .= "  <title>" . $this->_title . " - WinMerge</title>\n";
       }
       else {
-        $temp .= "  <title>WinMerge</title>\n";
+        $temp .= "  <title>WinMerge - " . __('You will see the difference…') ."</title>\n";
       }
       $temp .= "  <meta http-equiv=\"content-type\" content=\"text/html; charset=" . $this->_charset . "\">\n";
       if ($this->_description != '') {
@@ -165,6 +165,7 @@
       $temp .= "<div id=\"topwrap\">\n";
       $temp .= "  <header id=\"head\">\n";
       $temp .= "<h1>WinMerge</h1>\n";
+      $temp .= "<p>" . __('You will see the difference…') ."</p>\n";
       $temp .= "  </header>\n";
       $temp .= $this->getTabs();
       $temp .= "<div id=\"wrap\">\n";
