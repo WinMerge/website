@@ -215,12 +215,13 @@ a.downloadnow {
 	display: block;
 	width: 12em;
 	margin: 0;
-	padding: 5px;
+	padding: .5em;
 	text-align: center;
 	text-decoration: none;
 	color: white;
-	background: #006600 url(/engine/images/downloadnow.png) repeat-x top;
-	border: 1px solid #006600;
+	background: #00b300;
+	border: 1px solid #060;
+	border-radius: 1em;
 }
 
 a.downloadnow:link,
@@ -233,7 +234,7 @@ a.downloadnow:focus,
 a.downloadnow:hover {
 	text-decoration: none;
 	color: white;
-	background: #00CC00 url(/engine/images/downloadnow-focus.png) repeat-x top;
+	background: #060;
 }
 
 a.downloadnow strong {
