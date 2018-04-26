@@ -164,8 +164,11 @@
         $temp .= "<body>\n";
       $temp .= "<div id=\"topwrap\">\n";
       $temp .= "  <header id=\"head\">\n";
-      $temp .= "<h1>WinMerge</h1>\n";
-      $temp .= "<p>" . __('You will see the difference…') ."</p>\n";
+      $temp .= "<div class=\"hgroup\">\n";
+      $temp .= "  <h1>WinMerge</h1>\n";
+      $temp .= "  <p class=\"tagline\">" . __('You will see the difference…') ."</p>\n";
+      $temp .= "</div>\n";
+      $temp .= "<p class=\"downloadlink\">" . $this->getDownloadNow(false) . "</p>";
       $temp .= "  </header>\n";
       $temp .= $this->getTabs();
       $temp .= "<div id=\"wrap\">\n";
@@ -286,14 +289,28 @@
     }
 
     /**
+     * get the "Download Now!" link
+     */
+    function getDownloadNow($addparagraph = true) {
+      $temp = "";
+      if ($addparagraph) {
+        $temp .= "<p>\n";
+      }
+      $temp .= "<a class=\"downloadnow\" href=\"" . $this->_stablerelease->getDownload('setup.exe') . "\">";
+      $temp .= "<strong>" . __('Download Now!') . "</strong> ";
+      $temp .= "<em>" . __('Version %1$s; %2$s MB', $this->_stablerelease->getVersionNumber(), $this->_stablerelease->getDownloadSizeMb('setup.exe')) . "</em>";
+      $temp .= "</a>\n";
+      if ($addparagraph) {
+        $temp .= "</p>\n";
+      }
+      return $temp;
+    }
+
+    /**
      * print the "Download Now!" link
      */
     function printDownloadNow() {
-      $temp = "<p><a class=\"downloadnow\" href=\"" . $this->_stablerelease->getDownload('setup.exe') . "\">";
-      $temp .= "<strong>" . __('Download Now!') . "</strong> ";
-      $temp .= "<em>" . __('Version %1$s; %2$s MB', $this->_stablerelease->getVersionNumber(), $this->_stablerelease->getDownloadSizeMb('setup.exe')) . "</em>";
-      $temp .= "</a></p>\n";
-      print($temp);
+      print($this->getDownloadNow());
     }
 
     /**
