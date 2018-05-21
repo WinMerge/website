@@ -13,10 +13,13 @@ body {
 }
 
 code,pre {
-	font-family: "Courier New",Courier,monospace;
+	font-family: Consolas,"Courier New",Courier,monospace;
 	font-size: 1em;
 }
 
+h1, h2, h3, h4, h5, h6 {
+	font-family: Cambria,"Times New Roman",Times,serif;
+}
 h1 { font-size: 300%; }
 h2 { font-size: 200%; }
 h3 { font-size: 140%; }
