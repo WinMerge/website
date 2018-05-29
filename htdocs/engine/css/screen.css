@@ -65,7 +65,7 @@ a[name]:hover { color:black; text-decoration:none; }
 	margin: 0;
 	padding: 0;
 	padding-left: .5em;
-	font-family: "Segoe Print",Calibri,Helvetica,Arial,sans-serif;
+	font-family: "Segoe Print","Bradley Hand",Calibri,Helvetica,Arial,sans-serif;
 	font-size: x-large;
 }
 #head div.hgroup {
@@ -192,7 +192,7 @@ a[name]:hover { color:black; text-decoration:none; }
 	margin: 0;
 	padding: 0;
 	padding-top: .5em;
-	font-family: "Segoe Print","Times New Roman",Times,serif;
+	font-family: "Segoe Print","Bradley Hand",Calibri,Helvetica,Arial,sans-serif;
 	font-size: large;
 }
 #foot .column ul {
