@@ -141,6 +141,10 @@
       $temp .= "  <script src=\"/engine/javascript/html5shiv-printshiv.js\"></script>\n";
       $temp .= "  <![endif]-->\n";
       $temp .= "  <link rel=\"shortcut icon\" type=\"image/x-icon\" href=\"/favicon.ico\">\n";
+      $temp .= "  <link rel=\"icon\" type=\"image/png\" href=\"/engine/images/icon-32x32.png\" sizes=\"32x32\">\n";
+      $temp .= "  <link rel=\"icon\" type=\"image/png\" href=\"/engine/images/icon-48x48.png\" sizes=\"48x48\">\n";
+      $temp .= "  <link rel=\"icon\" type=\"image/png\" href=\"/engine/images/icon-256x256.png\" sizes=\"256x256\">\n";
+      $temp .= "  <link rel=\"apple-touch-icon-precomposed\" type=\"image/png\" href=\"/apple-touch-icon-precomposed.png\" sizes=\"180x180\">\n";
       foreach ($this->_rssfeeds as $rssurl => $rsstitle) { //for all RSS feeds...
         $temp .= "  <link rel=\"alternate\" type=\"application/rss+xml\" title=\"" . $rsstitle . "\" href=\"" . $rssurl . "\">\n";
       }
