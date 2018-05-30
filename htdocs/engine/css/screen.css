@@ -488,19 +488,17 @@ ul.inline li {
 /* Translations Status */
 .status {
 	border-collapse: collapse;
-	border: 1px solid #aaaaaa;
+	border: 1px solid #d2d2d2;
 }
-
-.status th {
-	padding: 3px;
-	background: #f2f2f2;
-	border: 1px solid #aaaaaa;
-}
-
-.status td {
-	padding: 3px;
+.status tr:nth-child(odd) {
 	background: #f9f9f9;
-	border: 1px solid #aaaaaa;
+}
+.status th {
+	background: #f2f2f2;
+}
+.status th, .status td {
+	padding: .3em;
+	border: 1px solid #d2d2d2;
 }
 
 .translated { color: #2D802B; }
