@@ -40,15 +40,14 @@
 </div> <!-- .downloadmatrix -->
 <div id="checksums">
   <h4><a href="javascript:toggle('checksumslist')"><?php __e('SHA-1 Checksums');?></a></h4>
-<pre id="checksumslist">
-<?php
-  echo $stablerelease->getDownloadSha1Sum('setup.exe') . ' ' . $stablerelease->getDownloadFileName('setup.exe') . "\n";
-  echo $stablerelease->getDownloadSha1Sum('exe.zip') . ' ' . $stablerelease->getDownloadFileName('exe.zip') . "\n";
-  echo $stablerelease->getDownloadSha1Sum('exe.7z') . ' ' . $stablerelease->getDownloadFileName('exe.7z') . "\n";
-  echo $stablerelease->getDownloadSha1Sum('rt.zip') . ' ' . $stablerelease->getDownloadFileName('rt.zip') . "\n";
-  echo $stablerelease->getDownloadSha1Sum('rt.7z') . ' ' . $stablerelease->getDownloadFileName('rt.7z') . "\n";
-?>
-</pre>
+  <dl id="checksumslist">
+    <dt><?php echo $stablerelease->getDownloadFileName('setup.exe'); ?></dt>
+    <dd><code><?php echo $stablerelease->getDownloadSha1Sum('setup.exe') ?></code></dd>
+    <dt><?php echo $stablerelease->getDownloadFileName('exe.zip'); ?></dt>
+    <dd><code><?php echo $stablerelease->getDownloadSha1Sum('exe.zip') ?></code></dd>
+    <dt><?php echo $stablerelease->getDownloadFileName('exe.7z'); ?></dt>
+    <dd><code><?php echo $stablerelease->getDownloadSha1Sum('exe.7z') ?></code></dd>
+  </dl>
 </div> <!-- #checksums -->
 <?php
   $page->printPara(__('The easiest way to install WinMerge is to download and run the Installer. Read the <a href="%s">online manual</a> for help using it.', 'http://manual.winmerge.org/Installing.html'));

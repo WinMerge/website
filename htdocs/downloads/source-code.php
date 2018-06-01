@@ -24,12 +24,12 @@
 </div> <!-- .downloadmatrix -->
 <div id="checksums">
   <h3><a href="javascript:toggle('checksumslist')"><?php __e('SHA-1 Checksums');?></a></h3>
-<pre id="checksumslist">
-<?php
-  echo $stablerelease->getDownloadSha1Sum('src.zip') . ' ' . $stablerelease->getDownloadFileName('src.zip') . "\n";
-  echo $stablerelease->getDownloadSha1Sum('src.7z') . ' ' . $stablerelease->getDownloadFileName('src.7z') . "\n";
-?>
-</pre>
+  <dl id="checksumslist">
+    <dt><?php echo $stablerelease->getDownloadFileName('src.zip'); ?></dt>
+    <dd><code><?php echo $stablerelease->getDownloadSha1Sum('src.zip') ?></code></dd>
+    <dt><?php echo $stablerelease->getDownloadFileName('src.7z'); ?></dt>
+    <dd><code><?php echo $stablerelease->getDownloadSha1Sum('src.7z') ?></code></dd>
+  </dl>
 </div> <!-- #checksums -->
 <?php
   $page->printPara(__('The source code is hosted on <a href="%1$s">Bitbucket</a> in a <a href="%2$s">Mercurial</a> repository.', 'https://bitbucket.org/', 'https://www.mercurial-scm.org/'));

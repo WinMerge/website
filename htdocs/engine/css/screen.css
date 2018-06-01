@@ -317,11 +317,18 @@ a.downloadnow em {
 }
 
 #checksumslist {
-	margin: 0;
-	margin-top: .5em;
-	padding: .5em;
+	padding: 0 .5em;
+	font-size: small;
 	background: #f2f2f2;
-	border: 1px solid #aaaaaa;
+	border: 1px solid #aaa;
+}
+#checksumslist dt {
+	margin-top: .5em;
+	font-weight: bold;
+}
+#checksumslist dd {
+	margin-left: 0;
+	margin-bottom: .5em;
 }
 
 /* Heading list */
