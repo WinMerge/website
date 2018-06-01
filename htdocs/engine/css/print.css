@@ -165,19 +165,19 @@ ul.inline li {
 	padding: 0;
 }
 
-/* Translations Status */
-.status {
+/* Table */
+.table {
 	border-collapse: collapse;
 	border: 1px solid black;
 }
 
-.status th {
+.table th {
 	padding: 3px;
 	background: white;
 	border: 1px solid black;
 }
 
-.status td {
+.table td {
 	padding: 3px;
 	background: white;
 	border: 1px solid black;

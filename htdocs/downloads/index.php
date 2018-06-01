@@ -11,33 +11,35 @@
   
   $page->printHeading(__('Download WinMerge'));
   $page->printSubHeading(__('WinMerge %s <em>for Windows 2000/XP/2003/Vista/2008/7/8/2012</em>', $stablerelease->getVersionNumber()));
-  $page->printDownloadNow();
   $page->printPara(__('The current WinMerge version is <strong>%1$s</strong> and was released at <strong>%2$s</strong>.', $stablerelease->getVersionNumber(), $stablerelease->getDate()),
                    __('For detailed info on what is new, read the <a href="%1$s">change log</a> and the <a href="%2$s">release notes</a>.', '/docs/changelog.php', '/docs/releasenotes.php'));
 ?>
-<div class="downloadmatrix">
-<ul>
-  <li><strong><?php __e('Installer');?></strong>
-    <ul>
-      <li><a href="<?php echo $stablerelease->getDownload('setup.exe');?>"><?php __e('Exe-Format (%s MB)', $stablerelease->getDownloadSizeMb('setup.exe'));?></a></li>
-    </ul>
-  </li>
-  <li><strong><?php __e('Binaries');?></strong>
-    <ul>
-      <li><a href="<?php echo $stablerelease->getDownload('exe.zip');?>"><?php __e('Zip-Format (%s MB)', $stablerelease->getDownloadSizeMb('exe.zip'));?></a></li>
-      <li><a href="<?php echo $stablerelease->getDownload('exe.7z');?>"><?php __e('7z-Format (%s MB)', $stablerelease->getDownloadSizeMb('exe.7z'));?></a></li>
-    </ul>
-  </li>
-<?php /*
-  <li><strong><?php __e('Runtimes');?></strong>
-    <ul>
-      <li><a href="<?php echo $stablerelease->getDownload('rt.zip');?>"><?php __e('Zip-Format (%s MB)', $stablerelease->getDownloadSizeMb('rt.zip'));?></a></li>
-      <li><a href="<?php echo $stablerelease->getDownload('rt.7z');?>"><?php __e('7z-Format (%s MB)', $stablerelease->getDownloadSizeMb('rt.7z'));?></a></li>
-    </ul>
-  </li>
-*/ ?>
-</ul>
-</div> <!-- .downloadmatrix -->
+<table class="table">
+  <tr>
+    <th class="left"><?php __e('Download');?></th>
+    <th class="center"><?php __e('Size');?></th>
+    <th class="center"><?php __e('Typ');?></th>
+    <th class="center"><?php __e('Format');?></th>
+  </tr>
+  <tr>
+    <td class="left"><a href="<?php echo $stablerelease->getDownload('setup.exe');?>"><?php echo $stablerelease->getDownloadFileName('setup.exe');?></a></td>
+    <td class="center"><?php __e('%s MB', $stablerelease->getDownloadSizeMb('setup.exe'));?></td>
+    <td class="center"><?php __e('Installer');?></td>
+    <td class="center"><?php __e('EXE');?></td>
+  </tr>
+  <tr>
+    <td class="left"><a href="<?php echo $stablerelease->getDownload('exe.zip');?>"><?php echo $stablerelease->getDownloadFileName('exe.zip');?></a></td>
+    <td class="center"><?php __e('%s MB', $stablerelease->getDownloadSizeMb('exe.zip'));?></td>
+    <td class="center"><?php __e('Binaries');?></td>
+    <td class="center"><?php __e('ZIP');?></td>
+  </tr>
+  <tr>
+    <td class="left"><a href="<?php echo $stablerelease->getDownload('exe.7z');?>"><?php echo $stablerelease->getDownloadFileName('exe.7z');?></a></td>
+    <td class="center"><?php __e('%s MB', $stablerelease->getDownloadSizeMb('exe.7z'));?></td>
+    <td class="center"><?php __e('Binaries');?></td>
+    <td class="center"><?php __e('7z');?></td>
+  </tr>
+</table>
 <div id="checksums">
   <h4><a href="javascript:toggle('checksumslist')"><?php __e('SHA-1 Checksums');?></a></h4>
   <dl id="checksumslist">

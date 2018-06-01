@@ -258,56 +258,9 @@ a.downloadnow em {
 	font-style: normal;
 }
 
-/* Download Matrix based on "Tutorial 3" from Listutorial:
-   http://css.maxdesign.com.au/listutorial/sub_master.htm */
-.downloadmatrix {
-	margin-bottom: 1em;
-}
-
-.downloadmatrix ul {
-	margin: 0;
-	padding: 0;
-	list-style-type: none;
-}
-
-.downloadmatrix a,
-.downloadmatrix strong {
-	display: block;
-	width: 20em;
-	padding: 3px 12px 3px 8px;
-	text-decoration: none;
-	font-weight: bold;
-	color: #FFFFFF;
-	background-color: #003366;
-	border-bottom: 1px solid #FFFFFF;
-}
-
-.downloadmatrix a:focus,
-.downloadmatrix a:hover {
-	color: #FFFFFF;
-	background-color: #3366CC;
-}
-
-.downloadmatrix li li a {
-	display: block;
-	width: 20em;
-	padding: 3px 3px 3px 17px;
-	text-decoration: none;
-	font-weight: normal;
-	color: #FFFFFF;
-	background-color: #6699CC;
-	border-bottom: 1px solid #FFFFFF;
-}
-
-.downloadmatrix li li a:link,
-.downloadmatrix li li a:visited {
-	text-decoration: none;
-	color: #FFFFFF;
-}
-
 /* SHA-1 Checksums */
 #checksums {
-	margin-bottom: 1em;
+	margin: 1em 0;
 }
 
 #checksums h3,
@@ -492,18 +445,18 @@ ul.inline li {
 	padding: 0;
 }
 
-/* Translations Status */
-.status {
+/* Table */
+.table {
 	border-collapse: collapse;
 	border: 1px solid #d2d2d2;
 }
-.status tr:nth-child(odd) {
+.table tr:nth-child(odd) {
 	background: #f9f9f9;
 }
-.status th {
+.table th {
 	background: #f2f2f2;
 }
-.status th, .status td {
+.table th, .table td {
 	padding: .3em;
 	border: 1px solid #d2d2d2;
 }
