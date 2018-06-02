@@ -40,7 +40,7 @@
     <td class="center"><?php __e('7z');?></td>
   </tr>
 </table>
-<div id="checksums">
+<div class="checksums">
   <h4><a href="javascript:toggle('checksumslist')"><?php __e('SHA-1 Checksums');?></a></h4>
   <dl id="checksumslist">
     <dt><?php echo $stablerelease->getDownloadFileName('setup.exe'); ?></dt>
