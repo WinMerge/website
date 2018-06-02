@@ -384,7 +384,6 @@
           $subtabs[0] = new Subtab($translations->prepareLink('/downloads/'), __('WinMerge'), __('Download WinMerge'));
           $subtabs[1] = new Subtab($translations->prepareLink('/downloads/plugins.php'), __('Plugins'), __('Download WinMerge Plugins'));
           $subtabs[2] = new Subtab($translations->prepareLink('/downloads/source-code.php'), __('Source Code'), __('Download WinMerge Source Code'));
-          $subtabs[3] = new Subtab($translations->prepareLink('/downloads/pad-file.php'), __('PAD File'), __('WinMerge PAD File'));
           break;
         case TAB_SUPPORT: //if "Support" ...
           $subtabs[0] = new Subtab($translations->prepareLink('/support/'), __('Index'), __('WinMerge Support'));

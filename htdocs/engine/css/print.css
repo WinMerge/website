@@ -153,18 +153,6 @@ ul.inline li {
 	font-size: smaller;
 }
 
-/* PAD file */
-.padfile dt {
-	margin: 0 0 0 2em;
-	padding: 0;
-	font-weight: bold;
-}
-
-.padfile dd {
-	margin: 0 0 1em 4em;
-	padding: 0;
-}
-
 /* Table */
 .table {
 	border-collapse: collapse;

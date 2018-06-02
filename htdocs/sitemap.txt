@@ -6,7 +6,6 @@ http://winmerge.org/docs/
 http://winmerge.org/docs/changelog.php
 http://winmerge.org/docs/releasenotes.php
 http://winmerge.org/downloads/
-http://winmerge.org/downloads/pad-file.php
 http://winmerge.org/downloads/plugins.php
 http://winmerge.org/downloads/source-code.php
 http://winmerge.org/support/
