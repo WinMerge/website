@@ -28,6 +28,5 @@
   <li><?php __e('<a href="%s">Translations</a>?', '/translations/');?></li>
 </ul>
 <?php
-  $page->printDownloadNow();
   $page->printFoot();
 ?>
