@@ -439,6 +439,7 @@ ul.inline li {
 	border: 1px solid #d2d2d2;
 }
 
+/* Translation status colors */
 .translated { color: #2D802B; }
 .fuzzy { color: #05359B; }
 .untranslated { color: #D42323; }
@@ -448,9 +449,58 @@ ul.inline li {
 	font-style: italic;
 }
 
+/* Text alignments */
 .left { text-align: left; }
 .center { text-align: center; }
 .right { text-align: right; }
+
+/* Button */
+.button {
+	display: inline-block;
+	padding: .5em;
+	color: #fff !important;
+	background-color: #36c;
+	border-radius: .3em;
+	text-decoration: none !important;
+	white-space: nowrap;
+}
+.button:hover, .button:focus {
+	background-color: #039;
+}
+.button.is-success {
+	color: #fff !important;
+	background-color: #00b300;
+}
+.button.is-success:hover, .button.is-success:focus {
+	background-color: #060;
+}
+.button.is-warning {
+	color: #000 !important;
+	background-color: #fc3;
+}
+.button.is-warning:hover, .button.is-warning:focus {
+	background-color: #ffbf00;
+}
+.button.is-danger {
+	color: #fff !important;
+	background-color: #f66;
+}
+.button.is-danger:hover, .button.is-danger:focus {
+	background-color: #f33;
+}
+
+/* Button list */
+ul.buttons {
+	padding-left: 0;
+	list-style-type: none;
+}
+ul.buttons li {
+	display: inline;
+	margin-right: 1em;
+}
+ul.buttons li .button {
+	margin-bottom: 1em
+}
 
 /* media queries */
 @media (max-width: 60em) {

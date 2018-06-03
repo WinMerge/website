@@ -158,19 +158,18 @@ ul.inline li {
 	border-collapse: collapse;
 	border: 1px solid black;
 }
-
 .table th {
 	padding: 3px;
 	background: white;
 	border: 1px solid black;
 }
-
 .table td {
 	padding: 3px;
 	background: white;
 	border: 1px solid black;
 }
 
+/* Translation status colors */
 .translated { color: black; }
 .fuzzy { color: black; }
 .untranslated { color: black; }
@@ -180,6 +179,7 @@ ul.inline li {
 	font-style: italic;
 }
 
+/* Text alignments */
 .left { text-align: left; }
 .center { text-align: center; }
 .right { text-align: right; }
