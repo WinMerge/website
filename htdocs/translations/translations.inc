@@ -102,7 +102,7 @@
      */
     private function getProjectTable($translations) {
       $project = (string)$translations->attributes()->project;
-      $temp = "<table class=\"table\">\n";
+      $temp = "<table class=\"table is-bordered is-striped is-narrow\">\n";
       $temp .= "  <tr>\n";
       $temp .= "    <th class=\"left\">" . __('Language') . "</th>\n";
       $temp .= "    <th class=\"center\">" . __('Graph') . "</th>\n";
@@ -306,7 +306,7 @@
       }
       ksort($languages, SORT_STRING);
       
-      $temp .= "<table class=\"table\">\n";
+      $temp .= "<table class=\"table is-bordered is-striped is-narrow\">\n";
       $temp .= "  <tr>\n";
       $temp .= "    <th class=\"left\">" . __('Language') . "</th>\n";
       foreach ($projects as $project) { //For all projects...

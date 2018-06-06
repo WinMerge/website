@@ -426,17 +426,33 @@ ul.inline li {
 /* Table */
 .table {
 	border-collapse: collapse;
-	border: 1px solid #d2d2d2;
-}
-.table tr:nth-child(odd) {
-	background: #f9f9f9;
 }
 .table th {
-	background: #f2f2f2;
+	border-bottom: 2px solid #d2d2d2;
+}
+.table td {
+	border-bottom: 1px solid #d2d2d2;
 }
 .table th, .table td {
-	padding: .3em;
+	padding: .6em;
+}
+
+.table.is-bordered {
 	border: 1px solid #d2d2d2;
+}
+.table.is-bordered th, .table.is-bordered td {
+	border: 1px solid #d2d2d2;
+}
+
+.table.is-striped th {
+	background: #f2f2f2;
+}
+.table.is-striped tr:nth-child(odd) {
+	background: #f9f9f9;
+}
+
+.table.is-narrow th, .table.is-narrow td {
+	padding: .3em;
 }
 
 /* Translation status colors */

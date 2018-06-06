@@ -156,17 +156,26 @@ ul.inline li {
 /* Table */
 .table {
 	border-collapse: collapse;
-	border: 1px solid black;
 }
 .table th {
-	padding: 3px;
-	background: white;
-	border: 1px solid black;
+	border-bottom: 2px solid black;
 }
 .table td {
-	padding: 3px;
-	background: white;
+	border-bottom: 1px solid black;
+}
+.table th, .table td {
+	padding: .6em;
+}
+
+.table.is-bordered {
 	border: 1px solid black;
+}
+.table.is-bordered th, .table.is-bordered td {
+	border: 1px solid black;
+}
+
+.table.is-narrow th, .table.is-narrow td {
+	padding: .3em;
 }
 
 /* Translation status colors */
