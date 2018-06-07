@@ -63,7 +63,7 @@
   $page->printSubHeading(__('Installation'));
   $page->printPara(__('Just download the <a href="%s">installer</a> and double-click it.', $stablerelease->getDownload('setup.exe')));
   $page->printPara(__('Or you may simply unzip the <a href="%s">binary zip package</a> into the desired location and run <code>WinMergeU.exe</code>.', $stablerelease->getDownload('exe.zip')));
-  $page->printPara(__('For more information, please see the <a href="%1$s">Installation section</a> of the <a href="%2$s">Manual</a>.', 'http://manual.winmerge.org/Installing.html', 'http://manual.winmerge.org/'));
+  $page->printPara(__('For more information, please see the <a href="%1$s">Installation section</a> of the <a href="%2$s">Manual</a>.', 'http://manual.winmerge.org/Install.html', 'http://manual.winmerge.org/'));
   
   $page->printSubHeading(__('Using WinMerge'));
   $page->printPara(__('For information on using WinMerge, see our <a href="%s">online Manual</a>, or you can use the local help file (just press <code>F1</code> inside WinMerge) for offline use.', 'http://manual.winmerge.org/'));
