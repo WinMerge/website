@@ -8,21 +8,18 @@
   $page->addRssFeed('https://sourceforge.net/export/rss2_projnews.php?group_id=13216', __('Project News'));
   $page->printHead('', TAB_HOME);
   $stablerelease = $page->getStableRelease();
+  
+  $page->printHeading(__('What is WinMerge?'));
+  $page->printPara(__('WinMerge is an <a href="%s">Open Source</a> differencing and merging tool for Windows. WinMerge can compare both folders and files, presenting differences in a visual text format that is easy to understand and handle.', 'about/license.php'));
 ?>
-<div class="whatisbox">
-  <h2><?php __e('What is WinMerge?');?></h2>
-  <p class="whatisimage">
-    <img class="thumbnail" src="about/screenshots/screenshot_small.png" alt="<?php __e('File Comparison');?>" height="150" border="0"><br />
-    <a href="about/screenshots/"><?php __e('More Screenshots&hellip;');?></a>
-  </p>
-  <div class="whatistext">
-    <p><?php __e('WinMerge is an <a href="%s">Open Source</a> differencing and merging tool for Windows. WinMerge can compare both folders and files, presenting differences in a visual text format that is easy to understand and handle.', 'about/license.php');?></p>
-    <p><strong><?php __e('<a href="%1$s">Learn More</a> or <a href="%2$s">Download Now!</a>', 'about/', 'downloads/');?></strong></p>
-  </div>
-  <br class="whatisclear" />
-</div>
-
+<p><strong><?php __e('<a href="%1$s">Learn More</a> or <a href="%2$s">Download Now!</a>', 'about/', 'downloads/');?></strong></p>
 <?php
+  $page->printSubHeading(__('Screenshot'));
+?>
+<p><img class="image" src="about/screenshots/screenshot.png" alt="<?php __e('File Comparison');?>" width="792" height="519" border="0"></p>
+<?php
+  $page->printPara(__('See the <a href="%s">screenshots page</a> for more screenshots.', 'about/screenshots/'));
+
   $page->printSubHeading(__('WinMerge %s - latest stable version', $stablerelease->getVersionNumber()));
   $page->printPara(__('<a href="%1$s">WinMerge %2$s</a> is the latest stable version, and is recommended for most users.', 'downloads/', $stablerelease->getVersionNumber()));
   $page->printDownloadNow();

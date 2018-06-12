@@ -330,44 +330,6 @@ ul.inline li {
 	list-style: none;
 }
 
-/* "What is WinMerge?" box */
-.whatisbox {
-	width: 45em;
-	margin: 0 auto;
-	background: #f9f9f9;
-	border: 1px solid #aaaaaa;
-}
-
-.whatisbox h2 {
-	margin: 0;
-	padding: 0.25em;
-	background: #f2f2f2;
-	border-bottom: 1px solid #aaaaaa;
-	font-size: 140%;
-}
-
-.whatisimage {
-	float: right;
-	margin: 0.25em;
-	padding: 0.25em;
-	text-align: center;
-}
-
-.whatistext {
-	margin: 0.25em;
-	padding: 0.25em;
-	line-height: 1.5em;
-	/*text-align: justify;*/
-}
-
-.whatistext strong {
-	font-size: larger;
-}
-
-.whatisclear {
-	clear: both;
-}
-
 /* RSS feed items */
 .rssfeeditems li {
 	margin-bottom: .5em;
@@ -518,6 +480,12 @@ ul.buttons li .button {
 	margin-bottom: 1em
 }
 
+/* Responsive Image */
+.image {
+	max-width: 100%;
+	height: auto;
+}
+
 /* media queries */
 @media (max-width: 60em) {
 	#head, #nav, #subnav ul, #content, #foot .columns {
@@ -534,9 +502,6 @@ ul.buttons li .button {
 	#foot .column {
 		width: auto;
 		float: none;
-	}
-	.whatisbox {
-		width: auto;
 	}
 	.infocard {
 		width: auto;
