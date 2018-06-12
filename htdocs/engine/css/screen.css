@@ -162,10 +162,6 @@ a[name]:hover { color:black; text-decoration:none; }
 	margin-top: 0;
 }
 
-#bookmarks {
-	text-align: right;
-}
-
 /* Footer */
 #foot {
 	color: dimgray;
