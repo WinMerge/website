@@ -2,15 +2,16 @@
 # Released under the "GNU General Public License"
 # 
 # Translators:
-# alfalb_mansil <manuela.silva@sky.com>, 2014
+# alfalb_mansil, 2014
+# alfalb_mansil, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: WinMerge Website\n"
 "Report-Msgid-Bugs-To: http://bugs.winmerge.org\n"
 "POT-Creation-Date: 2013-04-29 21:48+0000\n"
-"PO-Revision-Date: 2014-03-11 19:06+0000\n"
-"Last-Translator: alfalb_mansil <manuela.silva@sky.com>\n"
-"Language-Team: Portuguese (Portugal) (http://www.transifex.com/projects/p/winmerge-web/language/pt_PT/)\n"
+"PO-Revision-Date: 2018-06-13 21:15+0000\n"
+"Last-Translator: alfalb_mansil\n"
+"Language-Team: Portuguese (Portugal) (http://www.transifex.com/gerundt/winmerge-web/language/pt_PT/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -72,7 +73,7 @@ msgstr "Licença do WinMerge"
 #: downloads/index.php:65
 #, c-format
 msgid "WinMerge 2.12.4 <em>for Windows 95/98/ME/NT</em>"
-msgstr ""
+msgstr "WinMerge 2.12.4 <em>para Windows 95/98/ME/NT</em>"
 
 #: about/index.php:16
 #, c-format
@@ -335,7 +336,7 @@ msgstr "Basta transferir o <a href=\"%s\">instalador</a> e depois clique duplo n
 #: support/index.php:45
 #, c-format
 msgid "last post by <strong>%1$s</strong> at %2$s"
-msgstr ""
+msgstr "última publicação por <strong>%1$s</strong> às %2$s"
 
 #: downloads/pad-file.php:72
 #, c-format
@@ -432,7 +433,7 @@ msgstr ""
 #: about/index.php:56
 #, c-format
 msgid "Plugin support"
-msgstr "Suporte do Plug-in"
+msgstr "Suporte de Plug-in"
 
 #: downloads/source-code.php:43
 #, c-format
@@ -562,7 +563,7 @@ msgstr ""
 #: index.php:46
 #, c-format
 msgid "View all news&hellip;"
-msgstr ""
+msgstr "Ver todas as notícias"
 
 #: engine/page.inc:330
 #, c-format
@@ -579,7 +580,7 @@ msgstr ""
 #: about/screenshots/index.php:15 about/screenshots/index.php:16
 #, c-format
 msgid "Open-dialog"
-msgstr ""
+msgstr "Abrir-janela"
 
 #: translations/index.php:37
 #, c-format
@@ -779,7 +780,7 @@ msgstr ""
 #: docs/index.php:12 engine/page.inc:308
 #, c-format
 msgid "Quick Tour"
-msgstr ""
+msgstr "Apresentação Rápida"
 
 #: translations/status_website.php:10
 #, c-format
@@ -1487,7 +1488,7 @@ msgstr ""
 #: translations/status_trunk.php:9
 #, c-format
 msgid "Translations Status (Unstable Trunk)"
-msgstr ""
+msgstr "Estado das Traduções (Trunk Instável)"
 
 #: support/mailing-lists.php:24 support/mailing-lists.php:34
 #: support/mailing-lists.php:44 support/mailing-lists.php:54
@@ -1522,7 +1523,7 @@ msgstr ""
 #: about/index.php:57
 #, c-format
 msgid "Localizable interface"
-msgstr ""
+msgstr "Interface Localizável"
 
 #: downloads/index.php:77
 #, c-format
@@ -1538,12 +1539,12 @@ msgstr ""
 #: translations/status_branch.php:10
 #, c-format
 msgid "Translations Status (Stable Branch)"
-msgstr ""
+msgstr "Estado das Traduções (Branch Estável)"
 
 #: support/tracker-shortcuts.php:55
 #, c-format
 msgid "Subdomains"
-msgstr ""
+msgstr "Subdomínios"
 
 #: about/license.php:10
 #, c-format
@@ -1562,7 +1563,7 @@ msgstr ""
 #: 404.php:23
 #, c-format
 msgid "<a href=\"%s\">Change Log</a>?"
-msgstr ""
+msgstr "<a href=\"%s\">Registo de Alteração</a>?"
 
 #: support/mailing-lists.php:37
 #, c-format
@@ -1840,7 +1841,7 @@ msgstr ""
 #: 404.php:15
 #, c-format
 msgid "Were you looking for..."
-msgstr ""
+msgstr "Estava à procura de..."
 
 #: engine/page.inc:312
 #, c-format
@@ -2034,7 +2035,7 @@ msgstr "Id.:"
 #: links.php:29
 #, c-format
 msgid "PDF quick reference"
-msgstr ""
+msgstr "PDF - Referência Rápida"
 
 #: docs/index.php:11
 #, c-format
@@ -2089,7 +2090,7 @@ msgstr ""
 #: support/index.php:22
 #, c-format
 msgid "Tracker Statistics"
-msgstr ""
+msgstr "Estatísticas de Rastreamento"
 
 #: engine/page.inc:309
 #, c-format
@@ -2136,7 +2137,7 @@ msgstr "Lista do Desenvolvimento"
 #: downloads/index.php:101
 #, c-format
 msgid "View all file releases&hellip;"
-msgstr ""
+msgstr "Ver todos os lançamentos de ficheiro"
 
 #: engine/page.inc:383
 #, c-format

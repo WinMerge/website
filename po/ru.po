@@ -2,21 +2,22 @@
 # Released under the "GNU General Public License"
 # 
 # Translators:
+# Dmitriy <kaktebyavirubit@gmail.com>, 2015
 # Tim Gerundt <tim@gerundt.de>, 2012
-# Vadim Nekhai <vadimnekhai@gmail.com>, 2011
+# Vadim Ne. <vadimnekhai@gmail.com>, 2011
 msgid ""
 msgstr ""
 "Project-Id-Version: WinMerge Website\n"
 "Report-Msgid-Bugs-To: http://bugs.winmerge.org\n"
 "POT-Creation-Date: 2013-04-29 21:48+0000\n"
-"PO-Revision-Date: 2013-11-20 10:45+0000\n"
-"Last-Translator: Tim Gerundt <tim@gerundt.de>\n"
-"Language-Team: Russian (http://www.transifex.com/projects/p/winmerge-web/language/ru/)\n"
+"PO-Revision-Date: 2018-06-13 21:15+0000\n"
+"Last-Translator: Dmitriy <kaktebyavirubit@gmail.com>\n"
+"Language-Team: Russian (http://www.transifex.com/gerundt/winmerge-web/language/ru/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: ru\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
 "X-Poedit-Basepath: ../htdocs/\n"
 "X-Poedit-Language: English\n"
 "X-Poedit-SourceCharset: utf-8\n"
@@ -73,7 +74,7 @@ msgstr "Лицензия WinMerge"
 #: downloads/index.php:65
 #, c-format
 msgid "WinMerge 2.12.4 <em>for Windows 95/98/ME/NT</em>"
-msgstr ""
+msgstr "WinMerge 2.12.4 <em>для Windows 95/98/ME/NT</em>"
 
 #: about/index.php:16
 #, c-format
@@ -402,7 +403,7 @@ msgstr "Интеграция с контекстным меню (поддерж�
 #: engine/engine.inc:28
 #, c-format
 msgid "Russian"
-msgstr ""
+msgstr "Русский"
 
 #: docs/releasenotes.php:5
 #, c-format
@@ -473,7 +474,7 @@ msgstr "Запланировано (Todo)"
 #: engine/engine.inc:20
 #, c-format
 msgid "Basque"
-msgstr ""
+msgstr "Баскский"
 
 #: support/mailing-lists.php:25 support/mailing-lists.php:35
 #: support/mailing-lists.php:45 support/mailing-lists.php:55
@@ -628,7 +629,7 @@ msgstr "Из-за некоторой причины (неправильно на
 #: downloads/index.php:69
 #, c-format
 msgid "Get version 2.12.4"
-msgstr ""
+msgstr "Получить версию 2.12.4"
 
 #: links.php:36
 #, c-format
@@ -667,7 +668,7 @@ msgstr "Быстрое сравнение, учитывающее размеры
 #: downloads/source-code.php:8 downloads/source-code.php:47
 #, c-format
 msgid "Recent Code Changes"
-msgstr ""
+msgstr "Последние изменения кода"
 
 #: about/index.php:76
 #, c-format
@@ -682,7 +683,7 @@ msgstr "Установка"
 #: downloads/index.php:13
 #, c-format
 msgid "WinMerge %s <em>for Windows 2000/XP/2003/Vista/2008/7/8/2012</em>"
-msgstr ""
+msgstr "WinMerge %s <em>для Windows 2000/XP/2003/Vista/2008/7/8/2012</em>"
 
 #: links.php:22
 #, c-format
@@ -979,7 +980,7 @@ msgstr "Главная страница WinMerge"
 #: about/index.php:21
 #, c-format
 msgid "Supports Microsoft Windows 2000/XP/2003/Vista/2008/7/8/2012"
-msgstr ""
+msgstr "Поддерживает Microsoft Windows 2000/XP/2003/Vista/2008/7/8/2012"
 
 #: engine/page.inc:317
 #, c-format
@@ -1177,7 +1178,7 @@ msgstr "Свободное программное обеспечение"
 #: engine/engine.inc:27
 #, c-format
 msgid "Portuguese (Brazil)"
-msgstr ""
+msgstr "Португальский (Бразилия)"
 
 #: about/index.php:30
 #, c-format
@@ -2062,7 +2063,7 @@ msgstr "Большой трафик"
 #: downloads/index.php:60
 #, c-format
 msgid "Microsoft Windows 2000/XP/2003/Vista/2008/7/8/2012"
-msgstr ""
+msgstr "Microsoft Windows 2000/XP/2003/Vista/2008/7/8/2012"
 
 #: engine/page.inc:322
 #, c-format

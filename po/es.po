@@ -2,15 +2,16 @@
 # Released under the "GNU General Public License"
 # 
 # Translators:
-# galaldur <fergregoire94@gmail.com>, 2014
+# Adolfo Jayme Barrientos, 2015
+# Fernando Gregoire <fergregoire94@gmail.com>, 2014
 msgid ""
 msgstr ""
 "Project-Id-Version: WinMerge Website\n"
 "Report-Msgid-Bugs-To: http://bugs.winmerge.org\n"
 "POT-Creation-Date: 2013-04-29 21:48+0000\n"
-"PO-Revision-Date: 2014-03-23 08:14+0000\n"
-"Last-Translator: galaldur <fergregoire94@gmail.com>\n"
-"Language-Team: Spanish (http://www.transifex.com/projects/p/winmerge-web/language/es/)\n"
+"PO-Revision-Date: 2018-06-13 21:15+0000\n"
+"Last-Translator: Adolfo Jayme Barrientos\n"
+"Language-Team: Spanish (http://www.transifex.com/gerundt/winmerge-web/language/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -72,7 +73,7 @@ msgstr "Licencia de WinMerge"
 #: downloads/index.php:65
 #, c-format
 msgid "WinMerge 2.12.4 <em>for Windows 95/98/ME/NT</em>"
-msgstr ""
+msgstr "WinMerge 2.12.4 <em>para Windows 95/98/ME/NT</em>"
 
 #: about/index.php:16
 #, c-format
@@ -123,7 +124,7 @@ msgstr "La comparación de carpetas muestra todos los archivos y subcarpetas enc
 #: engine/page.inc:277 engine/page.inc:321
 #, c-format
 msgid "WinMerge Support"
-msgstr "Soporte de WinMerge"
+msgstr "Asistencia de WinMerge"
 
 #: support/index.php:18
 #, c-format
@@ -156,7 +157,7 @@ msgstr "WinMerge es una herramienta de diferenciación y combinación de <a href
 #: translations/translations.inc:182
 #, c-format
 msgid "Total: Unknown"
-msgstr "Total: Desconocido"
+msgstr "Total: desconocido"
 
 #: support/mailing-lists.php:32 support/mailing-lists.php:42
 #: support/mailing-lists.php:62
@@ -167,7 +168,7 @@ msgstr "Tráfico normal"
 #: index.php:56
 #, c-format
 msgid "The WinMerge Development Team"
-msgstr "El Equipo de Desarrollo de WinMerge"
+msgstr "El equipo de desarrollo de WinMerge"
 
 #: translations/index.php:40
 #, c-format
@@ -184,7 +185,7 @@ msgstr "Estado de las traducciones de WinMerge (Branch estable)"
 msgid ""
 "Or you may simply unzip the <a href=\"%s\">binary zip package</a> into the "
 "desired location and run <code>WinMergeU.exe</code>."
-msgstr ""
+msgstr "O bien, descomprima el <a href=\"%s\">paquete de binarios .zip</a> en la ubicación que desee y ejecute <code>WinMergeU.exe</code>."
 
 #: index.php:54
 #, c-format
@@ -203,7 +204,7 @@ msgstr "Índice"
 #: downloads/plugins.php:10
 #, c-format
 msgid "7-Zip Plugin"
-msgstr "Plugin de 7-Zip"
+msgstr "Complemento de 7-Zip"
 
 #: translations/instructions.php:5 translations/instructions.php:8
 #, c-format
@@ -213,7 +214,7 @@ msgstr "Instrucciones de traducción"
 #: engine/page.inc:324
 #, c-format
 msgid "Tracker"
-msgstr "Tracker"
+msgstr "Seguimiento"
 
 #: engine/page.inc:310
 #, c-format
@@ -245,7 +246,7 @@ msgstr "Formato Zip (%s MB)"
 #: engine/engine.inc:22
 #, c-format
 msgid "Greek"
-msgstr ""
+msgstr "Griego"
 
 #: downloads/pad-file.php:94
 #, c-format
@@ -292,7 +293,7 @@ msgstr "Descripción en inglés (%d caracteres)"
 #, c-format
 msgid ""
 "Microsoft Visual C++ 2008 Runtime Components (included in the installer)"
-msgstr ""
+msgstr "Componentes de tiempo de ejecución de Microsoft Visual C++ 2008 (incluidos en el instalador)"
 
 #: downloads/pad-file.php:42
 #, c-format
@@ -325,7 +326,7 @@ msgstr "La manera más fácil de instalar WinMerge es descargar y ejecutar el In
 #: support/index.php:9 support/index.php:11
 #, c-format
 msgid "Support"
-msgstr "Soporte"
+msgstr "Asistencia"
 
 #: about/index.php:72
 #, c-format
@@ -335,7 +336,7 @@ msgstr "Tan solo descargue el <a href=\"%s\">instalador</a> y haga doble clic en
 #: support/index.php:45
 #, c-format
 msgid "last post by <strong>%1$s</strong> at %2$s"
-msgstr ""
+msgstr "última publicación por <strong>%1$s</strong> a las %2$s"
 
 #: downloads/pad-file.php:72
 #, c-format
@@ -368,7 +369,7 @@ msgstr "Control de versiones"
 #: index.php:32
 #, c-format
 msgid "It will be based on Qt library and cross-platform."
-msgstr ""
+msgstr "Se basará en la biblioteca Qt y será multiplataforma."
 
 #: about/screenshots/index.php:30 about/screenshots/index.php:31
 #, c-format
@@ -401,7 +402,7 @@ msgstr "Integración con el shell (es compatible con versiones de Windows de 64 
 #: engine/engine.inc:28
 #, c-format
 msgid "Russian"
-msgstr ""
+msgstr "Ruso"
 
 #: docs/releasenotes.php:5
 #, c-format
@@ -432,12 +433,12 @@ msgstr "Muchas veces es útil ver las diferencias exactas dentro de las líneas.
 #: about/index.php:56
 #, c-format
 msgid "Plugin support"
-msgstr "Soporte de plugins"
+msgstr "Compatibilidad con complementos"
 
 #: downloads/source-code.php:43
 #, c-format
 msgid "WinMerge 3 Future"
-msgstr ""
+msgstr "Futuro de WinMerge 3"
 
 #: about/index.php:27
 #, c-format
@@ -472,14 +473,14 @@ msgstr "Elemento pendiente"
 #: engine/engine.inc:20
 #, c-format
 msgid "Basque"
-msgstr ""
+msgstr "Euskera"
 
 #: support/mailing-lists.php:25 support/mailing-lists.php:35
 #: support/mailing-lists.php:45 support/mailing-lists.php:55
 #: support/mailing-lists.php:65 support/mailing-lists.php:75
 #, c-format
 msgid "Archive"
-msgstr "Fichero"
+msgstr "Archivador"
 
 #: engine/page.inc:275 engine/page.inc:306
 #, c-format
@@ -544,7 +545,7 @@ msgid ""
 "WinMerge <em>will not</em> be just WinMerge 2 with new GUI. There will be "
 "radical changes in how WinMerge works and how it looks. Many features won’t "
 "be available anymore and new features will be added."
-msgstr ""
+msgstr "WinMerge <em>no</em> será tan solo WinMerge 2 con una interfaz renovada. Habrá cambios radicales en el funcionamiento y el aspecto de WinMerge. Desaparecerán muchas funcionalidades y se añadirán otras más."
 
 #: about/license.php:7 about/license.php:9 engine/page.inc:303
 #, c-format
@@ -557,12 +558,12 @@ msgid ""
 "WinMerge version 2.12.4 was the last version to ship with Microsft Visual "
 "C++ 2005 runtimes that support Windows 95/98/ME/NT. It was also the last "
 "version to ship with an ANSI version of WinMerge."
-msgstr ""
+msgstr "WinMerge 2.12.4 es la última versión que incorpora archivos de ejecución de Microsoft Visual C++ 2005 y que es compatible con Windows 95/98/ME/NT. También es la última versión que incluyó una variante en codificación ANSI de WinMerge."
 
 #: index.php:46
 #, c-format
 msgid "View all news&hellip;"
-msgstr ""
+msgstr "Ver todas las noticias&hellip;"
 
 #: engine/page.inc:330
 #, c-format
@@ -579,7 +580,7 @@ msgstr "Si quisiere actualizar alguna de estas traducciones o agregar otra tradu
 #: about/screenshots/index.php:15 about/screenshots/index.php:16
 #, c-format
 msgid "Open-dialog"
-msgstr "Diálogo Abrir"
+msgstr "Cuadro de diálogo Abrir"
 
 #: translations/index.php:37
 #, c-format
@@ -627,7 +628,7 @@ msgstr "Por alguna razón (URL mal escrita, referencia defectuosa desde otro sit
 #: downloads/index.php:69
 #, c-format
 msgid "Get version 2.12.4"
-msgstr ""
+msgstr "Obtener la versión 2.12.4"
 
 #: links.php:36
 #, c-format
@@ -666,7 +667,7 @@ msgstr "Comparar rápido usando tamaños de archivo y fechas"
 #: downloads/source-code.php:8 downloads/source-code.php:47
 #, c-format
 msgid "Recent Code Changes"
-msgstr ""
+msgstr "Cambios de código recientes"
 
 #: about/index.php:76
 #, c-format
@@ -681,7 +682,7 @@ msgstr "Instalación"
 #: downloads/index.php:13
 #, c-format
 msgid "WinMerge %s <em>for Windows 2000/XP/2003/Vista/2008/7/8/2012</em>"
-msgstr ""
+msgstr "WinMerge %s <em>para Windows 2000/XP/2003/Vista/2008/7/8/2012</em>"
 
 #: links.php:22
 #, c-format
@@ -804,7 +805,7 @@ msgstr "Estado (Trunk inestable)"
 #: support/tracker-shortcuts.php:18
 #, c-format
 msgid "Tracker Item"
-msgstr "Elemento del tracker"
+msgstr "Elemento del sistema de seguimiento"
 
 #: translations/translations_branch.inc:183
 #, c-format
@@ -863,12 +864,12 @@ msgstr "La <a href=\"%s\">Wiki de desarrollo</a> contiene mucha información sob
 #: downloads/plugins.php:7 downloads/plugins.php:9
 #, c-format
 msgid "Download Plugins"
-msgstr "Descargar plugins"
+msgstr "Descargar complementos"
 
 #: downloads/index.php:62
 #, c-format
 msgid "Admin rights for the installer"
-msgstr "Derechos de administrador para el instalador"
+msgstr "Permisos administrativos para el instalador"
 
 #: downloads/index.php:20 downloads/plugins.php:15
 #, c-format
@@ -893,7 +894,7 @@ msgstr "Foros de discusión de WinMerge"
 #: support/mailing-lists.php:13 support/mailing-lists.php:30
 #, c-format
 msgid "Support List"
-msgstr "Lista de soporte"
+msgstr "Lista de asistencia"
 
 #: support/mailing-lists.php:12 support/mailing-lists.php:20
 #, c-format
@@ -935,7 +936,7 @@ msgid ""
 "<b>External diff Tool</b> is an <a href=\"%s\">Eclipse</a> Plugin that "
 "allows the launch of WinMerge (or an other external diff tool) for file "
 "compares rather than the default built-in Eclipse diff tool."
-msgstr ""
+msgstr "<b>External diff Tool</b> es un complemento para <a href=\"%s\">Eclipse</a> que permite abrir WinMerge (u otra herramienta externa) para realizar comparaciones, reemplazando el visor interno de Eclipse."
 
 #: support/index.php:13
 #, c-format
@@ -978,7 +979,7 @@ msgstr "Inicio de WinMerge"
 #: about/index.php:21
 #, c-format
 msgid "Supports Microsoft Windows 2000/XP/2003/Vista/2008/7/8/2012"
-msgstr ""
+msgstr "Compatible con Microsoft Windows 2000/XP/2003/Vista/2008/7/8/2012"
 
 #: engine/page.inc:317
 #, c-format
@@ -1028,7 +1029,7 @@ msgstr "Para cambiar de idioma, seleccione el idioma deseado entre las opciones 
 #: engine/page.inc:316
 #, c-format
 msgid "Plugins"
-msgstr "Plugins"
+msgstr "Complementos"
 
 #: about/index.php:67 about/screenshots/index.php:18
 #: about/screenshots/index.php:19
@@ -1052,12 +1053,12 @@ msgid ""
 "You can also support WinMerge by buying merchandise at the <a "
 "href=\"%s\">WinMerge CafePress store</a>. 20%% of the sales goes to "
 "WinMerge."
-msgstr ""
+msgstr "También puede apoyar a WinMerge mediante la adquisición de mercancía en la <a href=\"%s\">tienda CafePress de WinMerge</a>. El 20 %% de las ventas irá a WinMerge."
 
 #: downloads/source-code.php:57 support/index.php:45
 #, c-format
 msgid "Y-m-d H:i"
-msgstr ""
+msgstr "d-m-Y H:i"
 
 #: downloads/plugins.php:31
 #, c-format
@@ -1067,7 +1068,7 @@ msgstr "Plugin xdocdiff"
 #: engine/page.inc:324
 #, c-format
 msgid "WinMerge Tracker"
-msgstr "Tracker de WinMerge"
+msgstr "Seguimiento de WinMerge"
 
 #: support/index.php:8
 #, c-format
@@ -1080,12 +1081,12 @@ msgstr "WinMerge, soporte, foros de discusión, listas de correo, tracker, donar
 #: downloads/source-code.php:60
 #, c-format
 msgid "View code history&hellip;"
-msgstr ""
+msgstr "Ver historial de código&hellip;"
 
 #: support/index.php:49
 #, c-format
 msgid "View all active topics&hellip;"
-msgstr ""
+msgstr "Ver todos los temas activos&hellip;"
 
 #: translations/translations.inc:131 translations/translations.inc:288
 #: translations/translations_branch.inc:66
@@ -1097,12 +1098,12 @@ msgstr "Idioma"
 #: downloads/index.php:99 index.php:44
 #, c-format
 msgid "Y-m-d"
-msgstr ""
+msgstr "d-m-Y"
 
 #: downloads/index.php:80
 #, c-format
 msgid "Unofficial WinMerge Builds"
-msgstr ""
+msgstr "Compilaciones no oficiales de WinMerge"
 
 #: engine/page.inc:326
 #, c-format
@@ -1176,7 +1177,7 @@ msgstr "Software de código abierto"
 #: engine/engine.inc:27
 #, c-format
 msgid "Portuguese (Brazil)"
-msgstr ""
+msgstr "Portugués (Brasil)"
 
 #: about/index.php:30
 #, c-format
@@ -1250,7 +1251,7 @@ msgstr "Suscribirse o cancelar la suscripción a una de las listas de correo sig
 #: support/tracker-shortcuts.php:15
 #, c-format
 msgid "Support Request"
-msgstr "Solicitud de soporte"
+msgstr "Solicitud de asistencia"
 
 #: about/index.php:31
 #, c-format
@@ -1312,7 +1313,7 @@ msgstr "Antes de publicar un informe de bug debe <a href=\"%s\">registrarse con 
 #: index.php:16
 #, c-format
 msgid "More Screenshots&hellip;"
-msgstr ""
+msgstr "Más capturas de pantalla&hellip;"
 
 #: about/index.php:7 about/index.php:10 engine/page.inc:274
 #: engine/page.inc:300
@@ -1335,7 +1336,7 @@ msgstr "Los elementos de la lista de deseos en la <a href=\"%s\">lista de solici
 #: translations/translations.inc:83 translations/translations_branch.inc:51
 #, c-format
 msgid "Fuzzy: %d%%"
-msgstr "En duda: %d%%"
+msgstr "Provisionales: %d %%"
 
 #: about/screenshots/index.php:21 about/screenshots/index.php:22
 #, c-format
@@ -1511,7 +1512,7 @@ msgstr "Crea archivos de parches (formatos Normal-, Contexto- y Unificado)"
 #: support/tracker-shortcuts.php:13
 #, c-format
 msgid "Bug"
-msgstr "Bug"
+msgstr "Error"
 
 #: downloads/source-code.php:7
 #, c-format
@@ -1651,7 +1652,7 @@ msgstr "Otras versiones"
 #: index.php:30
 #, c-format
 msgid "WinMerge 3"
-msgstr ""
+msgstr "WinMerge 3"
 
 #: engine/page.inc:242
 #, c-format
@@ -1720,7 +1721,7 @@ msgstr "Problemas conocidos"
 #: index.php:31
 #, c-format
 msgid "<a href=\"%s\">WinMerge 3</a> will be modern compare/synchronization tool."
-msgstr ""
+msgstr "<a href=\"%s\">WinMerge 3</a> será una herramienta moderna de comparación y sincronización."
 
 #: downloads/pad-file.php:90
 #, c-format
@@ -1742,7 +1743,7 @@ msgstr "WinMerge, gratis, descargar, plugins, plugin, plug-in, instalación, ins
 #: about/history.php:51
 #, c-format
 msgid "Withdrawn due to installer bug!"
-msgstr "¡Retirado debido a un bug en el instalador!"
+msgstr "¡Retirado debido a un error en el instalador!"
 
 #: support/mailing-lists.php:22 support/mailing-lists.php:52
 #, c-format
@@ -1867,7 +1868,7 @@ msgstr "Traducciones de WinMerge"
 #: index.php:35
 #, c-format
 msgid "<a href=\"%s\">Read more</a> and get involved!"
-msgstr ""
+msgstr "¡<a href=\"%s\">Obtenga más información</a> y participe!"
 
 #: translations/index.php:36
 #, c-format
@@ -1904,7 +1905,7 @@ msgstr "Versión %1$s; %2$s MB"
 #: engine/engine.inc:26
 #, c-format
 msgid "Polish"
-msgstr ""
+msgstr "Polaco"
 
 #: translations/translations.inc:81 translations/translations.inc:95
 #: translations/translations.inc:133 translations/translations_branch.inc:49
@@ -1978,12 +1979,12 @@ msgstr "Interfaz con pestañas"
 #: translations/translations.inc:81 translations/translations_branch.inc:49
 #, c-format
 msgid "Translated: %d%%"
-msgstr "Traducido: %d%%"
+msgstr "Traducido: %d %%"
 
 #: about/license.php:33
 #, c-format
 msgid "The Open Source Definition"
-msgstr "La definición de Código Abierto"
+msgstr "La definición de código abierto"
 
 #: about/index.php:6
 #, c-format
@@ -1995,7 +1996,7 @@ msgstr "WinMerge, acerca de, características, comparación de archivos, compara
 #: support/index.php:56
 #, c-format
 msgid "Buy WinMerge merchandise"
-msgstr ""
+msgstr "Comprar mercancía de WinMerge"
 
 #: engine/page.inc:331
 #, c-format
@@ -2008,7 +2009,7 @@ msgstr "Estado (Branch estable)"
 #: translations/translations_branch.inc:119
 #, c-format
 msgid "Fuzzy"
-msgstr "Defectuoso"
+msgstr "Provisionales"
 
 #: downloads/pad-file.php:64
 #, c-format
@@ -2029,7 +2030,7 @@ msgstr "Estado de las traducciones (sitio web)"
 #: support/tracker-shortcuts.php:41
 #, c-format
 msgid "ID:"
-msgstr "ID:"
+msgstr "Id.:"
 
 #: links.php:29
 #, c-format
@@ -2061,7 +2062,7 @@ msgstr "Tráfico alto"
 #: downloads/index.php:60
 #, c-format
 msgid "Microsoft Windows 2000/XP/2003/Vista/2008/7/8/2012"
-msgstr ""
+msgstr "Microsoft Windows 2000/XP/2003/Vista/2008/7/8/2012"
 
 #: engine/page.inc:322
 #, c-format
@@ -2109,7 +2110,7 @@ msgstr "<b>7-Zip</b> es un compresor de archivos con un alto índice de compresi
 #: index.php:33
 #, c-format
 msgid "You can use the same tool in Windows and in Linux."
-msgstr ""
+msgstr "Podrá usar la misma aplicación en Windows y Linux."
 
 #: downloads/source-code.php:9 downloads/source-code.php:12
 #, c-format
@@ -2136,9 +2137,9 @@ msgstr "Lista de desarrollo"
 #: downloads/index.php:101
 #, c-format
 msgid "View all file releases&hellip;"
-msgstr ""
+msgstr "Ver todas las publicaciones de archivos&hellip;"
 
 #: engine/page.inc:383
 #, c-format
 msgid "Bookmark this on Delicious"
-msgstr ""
+msgstr "Añadir a Delicious"

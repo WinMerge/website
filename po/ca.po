@@ -2,15 +2,15 @@
 # Released under the "GNU General Public License"
 # 
 # Translators:
-# jmontane <joan@montane.cat>, 2013
+# jmontane, 2013
 msgid ""
 msgstr ""
 "Project-Id-Version: WinMerge Website\n"
 "Report-Msgid-Bugs-To: http://bugs.winmerge.org\n"
 "POT-Creation-Date: 2013-04-29 21:48+0000\n"
-"PO-Revision-Date: 2013-11-20 10:45+0000\n"
-"Last-Translator: jmontane <joan@montane.cat>\n"
-"Language-Team: Catalan (http://www.transifex.com/projects/p/winmerge-web/language/ca/)\n"
+"PO-Revision-Date: 2018-06-13 21:15+0000\n"
+"Last-Translator: jmontane\n"
+"Language-Team: Catalan (http://www.transifex.com/gerundt/winmerge-web/language/ca/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
