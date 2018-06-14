@@ -2,9 +2,10 @@
 # Released under the "GNU General Public License"
 # 
 # Translators:
-# Daniel Winzen <inactive+DanWin@transifex.com>, 2012-2013
-# Tim Gerundt <tim@gerundt.de>, 2011
-# Wasilis Mandratzis <inactive+Wasilis@transifex.com>, 2013
+# * Daniel Winzen <inactive+DanWin@transifex.com>, 2012-2013
+# * Tim Gerundt <tim@gerundt.de>, 2011
+# * Wasilis Mandratzis <inactive+Wasilis@transifex.com>, 2013
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: WinMerge Website\n"
@@ -19,7 +20,7 @@ msgstr ""
 "Language: de\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Poedit-Basepath: ../htdocs/\n"
-"X-Poedit-Language: English\n"
+"X-Poedit-Language: German\n"
 "X-Poedit-SourceCharset: utf-8\n"
 
 #: docs/changelog.php:11

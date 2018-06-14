@@ -2,8 +2,9 @@
 # Released under the "GNU General Public License"
 # 
 # Translators:
-# Epameinondas Soufleros <contact@glossotechnema.eu>, 2014
-# Wasilis Mandratzis <inactive+Wasilis@transifex.com>, 2013
+# * Epameinondas Soufleros <contact@glossotechnema.eu>, 2014
+# * Wasilis Mandratzis <inactive+Wasilis@transifex.com>, 2013
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: WinMerge Website\n"
@@ -18,7 +19,7 @@ msgstr ""
 "Language: el_GR\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Poedit-Basepath: ../htdocs/\n"
-"X-Poedit-Language: English\n"
+"X-Poedit-Language: Greek\n"
 "X-Poedit-SourceCharset: utf-8\n"
 
 #: docs/changelog.php:11

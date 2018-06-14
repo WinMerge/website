@@ -2,8 +2,8 @@
 # Released under the "GNU General Public License"
 # 
 # Translators:
-# alfalb_mansil, 2014
-# alfalb_mansil, 2015
+# * alfalb_mansil
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: WinMerge Website\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Language: pt_PT\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Poedit-Basepath: ../htdocs/\n"
-"X-Poedit-Language: English\n"
+"X-Poedit-Language: Portuguese (Portugal)\n"
 "X-Poedit-SourceCharset: utf-8\n"
 
 #: docs/changelog.php:11

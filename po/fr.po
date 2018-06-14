@@ -2,9 +2,10 @@
 # Released under the "GNU General Public License"
 # 
 # Translators:
-# Camille Baldock <mademoisellegeek42@gmail.com>, 2012
-# Freddydelanuit Dec <fred.dec@free.fr>, 2012-2013
-# lkppo, 2012
+# * Camille Baldock <mademoisellegeek42@gmail.com>, 2012
+# * Freddydelanuit Dec <fred.dec@free.fr>, 2012-2013
+# * lkppo, 2012
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: WinMerge Website\n"
@@ -19,7 +20,7 @@ msgstr ""
 "Language: fr\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Poedit-Basepath: ../htdocs/\n"
-"X-Poedit-Language: English\n"
+"X-Poedit-Language: French\n"
 "X-Poedit-SourceCharset: utf-8\n"
 
 #: docs/changelog.php:11

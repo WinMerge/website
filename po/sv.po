@@ -2,8 +2,8 @@
 # Released under the "GNU General Public License"
 # 
 # Translators:
-# Magnus Österlund, 2013
-# Magnus Österlund, 2012
+# * Magnus Österlund
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: WinMerge Website\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Language: sv\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Poedit-Basepath: ../htdocs/\n"
-"X-Poedit-Language: English\n"
+"X-Poedit-Language: Swedish\n"
 "X-Poedit-SourceCharset: utf-8\n"
 
 #: docs/changelog.php:11

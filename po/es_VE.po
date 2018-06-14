@@ -2,8 +2,8 @@
 # Released under the "GNU General Public License"
 # 
 # Translators:
-# Jeferson Eduardo Bracho Medina <jefersonbracho@hotmail.com>, 2014,2018
-# Jeferson Eduardo Bracho Medina <jefersonbracho@hotmail.com>, 2018
+# * Jeferson Eduardo Bracho Medina <jefersonbracho@hotmail.com>
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: WinMerge Website\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Language: es_VE\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Poedit-Basepath: ../htdocs/\n"
-"X-Poedit-Language: English\n"
+"X-Poedit-Language: Spanish (Venezuela)\n"
 "X-Poedit-SourceCharset: utf-8\n"
 
 #: docs/changelog.php:11

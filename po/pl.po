@@ -2,9 +2,8 @@
 # Released under the "GNU General Public License"
 # 
 # Translators:
-# Begina Felicysym <>, 2011
-# Begina Felicysym <begina.felicysym@wp.eu>, 2011
-# Begina Felicysym <begina.felicysym@wp.eu>, 2011-2013
+# * Begina Felicysym <begina.felicysym@wp.eu>
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: WinMerge Website\n"
@@ -19,7 +18,7 @@ msgstr ""
 "Language: pl\n"
 "Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && (n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
 "X-Poedit-Basepath: ../htdocs/\n"
-"X-Poedit-Language: English\n"
+"X-Poedit-Language: Polish\n"
 "X-Poedit-SourceCharset: utf-8\n"
 
 #: docs/changelog.php:11

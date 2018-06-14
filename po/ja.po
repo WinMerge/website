@@ -2,7 +2,8 @@
 # Released under the "GNU General Public License"
 # 
 # Translators:
-# 藤本理弘 <mfujimot@gmail.com>, 2011-2013
+# * 藤本理弘 <mfujimot@gmail.com>
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: WinMerge Website\n"
@@ -17,7 +18,7 @@ msgstr ""
 "Language: ja\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Poedit-Basepath: ../htdocs/\n"
-"X-Poedit-Language: English\n"
+"X-Poedit-Language: Japanese\n"
 "X-Poedit-SourceCharset: utf-8\n"
 
 #: docs/changelog.php:11

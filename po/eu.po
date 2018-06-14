@@ -2,7 +2,8 @@
 # Released under the "GNU General Public License"
 # 
 # Translators:
-# Xabier Aramendi <azpidatziak@gmail.com>, 2013
+# * Xabier Aramendi <azpidatziak@gmail.com>
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: WinMerge Website\n"
@@ -17,7 +18,7 @@ msgstr ""
 "Language: eu\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Poedit-Basepath: ../htdocs/\n"
-"X-Poedit-Language: English\n"
+"X-Poedit-Language: Basque\n"
 "X-Poedit-SourceCharset: utf-8\n"
 
 #: docs/changelog.php:11

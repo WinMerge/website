@@ -2,8 +2,9 @@
 # Released under the "GNU General Public License"
 # 
 # Translators:
-# Adolfo Jayme Barrientos, 2015
-# Fernando Gregoire <fergregoire94@gmail.com>, 2014
+# * Adolfo Jayme Barrientos, 2015
+# * Fernando Gregoire <fergregoire94@gmail.com>, 2014
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: WinMerge Website\n"
@@ -18,7 +19,7 @@ msgstr ""
 "Language: es\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Poedit-Basepath: ../htdocs/\n"
-"X-Poedit-Language: English\n"
+"X-Poedit-Language: Spanish\n"
 "X-Poedit-SourceCharset: utf-8\n"
 
 #: docs/changelog.php:11
