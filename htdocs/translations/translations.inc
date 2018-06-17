@@ -100,8 +100,9 @@
     /**
      * ...
      */
-    private function getProjectTable($translations) {
+    private function getProjectTable($translations, $overrideSrcUrl = '') {
       $project = (string)$translations->attributes()->project;
+      $projectSrcUrl = ($overrideSrcUrl != '') ? $overrideSrcUrl : $this->srcUrl . $project. '/';
       $temp = "<table class=\"table is-bordered is-striped is-narrow\">\n";
       $temp .= "  <tr>\n";
       $temp .= "    <th class=\"left\">" . __('Language') . "</th>\n";
@@ -126,7 +127,7 @@
             $strings_untranslated = (int)$strings->untranslated;
             
             $temp .= "  <tr>\n";
-            $temp .= "    <td class=\"left\"><a href=\"" . $this->srcUrl . $project . '/' . $file_name . "\" rel=\"nofollow\">" . $language_name . "</a></td>\n";
+            $temp .= "    <td class=\"left\"><a href=\"" . $projectSrcUrl . $file_name . "\" rel=\"nofollow\">" . $language_name . "</a></td>\n";
             if ($strings_count > 0) { //if KNOWN status...
               $temp .= "    <td class=\"center\">" . $this->getStatusGraph($strings_count, $strings_translated, $strings_fuzzy, $strings_untranslated) . "</td>\n";
               $temp .= "    <td class=\"right translated\">" . $strings_translated . "</td>\n";
@@ -150,7 +151,7 @@
         }
       }
       $temp .= "  <tr>\n";
-      $temp .= "    <td class=\"left\"><a href=\"" . $this->srcUrl . $project . '/' . $template_file_name . "\" rel=\"nofollow\">" . $template_language_name . " (" . __('Template') . ")</a></td>\n";
+      $temp .= "    <td class=\"left\"><a href=\"" . $projectSrcUrl . $template_file_name . "\" rel=\"nofollow\">" . $template_language_name . " (" . __('Template') . ")</a></td>\n";
       $temp .= "    <td class=\"center\"></td>\n";
       if ($template_strings_count > 0) //if KNOWN status...
         $temp .= "    <td colspan=\"3\" class=\"center\">" . __('Total: %d' , $template_strings_count) . "</td>\n";
@@ -165,20 +166,21 @@
     /**
      * ...
      */
-    private function getProjectLine($translations) {
+    private function getProjectLine($translations, $overrideSrcUrl = '') {
       $project = (string)$translations->attributes()->project;
+      $projectSrcUrl = ($overrideSrcUrl != '') ? $overrideSrcUrl : $this->srcUrl . $project. '/';
       $temp = "<ul class=\"inline\">\n";
       //TODO: Sort languages!?
       foreach ($translations as $translation) { //for all translations...
         if ((bool)$translation->attributes()->template == false) { //If NO template...
-          $temp .= "  <li><a href=\"" . $this->srcUrl . $project . '/' . (string)$translation->file . "\" rel=\"nofollow\">" . (string)$translation->language . "</a></li>\n";
+          $temp .= "  <li><a href=\"" . $projectSrcUrl . (string)$translation->file . "\" rel=\"nofollow\">" . (string)$translation->language . "</a></li>\n";
         }
         else { //If template...
           $template_language_name = (string)$translation->language;
           $template_file_name = (string)$translation->file;
         }
       }
-      #$temp .= "  <li><a href=\"" . $this->srcUrl . $project . '/' . $template_file_name . "\" rel=\"nofollow\">" . $template_language_name . " (" . __('Template') . ")</a></li>\n";
+      #$temp .= "  <li><a href=\"" . $projectSrcUrl . $template_file_name . "\" rel=\"nofollow\">" . $template_language_name . " (" . __('Template') . ")</a></li>\n";
       $temp .= "</ul>\n";
       return $temp;
     }
@@ -186,11 +188,11 @@
     /**
      * ...
      */
-    public function printProjectTable($projectName) {
+    public function printProjectTable($projectName, $overrideSrcUrl = '') {
       $temp = '';
       foreach ($this->_status->translations as $translations) { //for all projects...
         if ((string)$translations->attributes()->project == $projectName) {
-          $temp .= $this->getProjectTable($translations);
+          $temp .= $this->getProjectTable($translations, $overrideSrcUrl);
           $temp .= $this->getStatusGraphLegend();
           break;
         }
@@ -201,11 +203,11 @@
     /**
      * ...
      */
-    public function printProjectList($projectName) {
+    public function printProjectList($projectName, $overrideSrcUrl = '') {
       $temp = '';
       foreach ($this->_status->translations as $translations) { //for all projects...
         if ((string)$translations->attributes()->project == $projectName) {
-          $temp .= $this->getProjectLine($translations);
+          $temp .= $this->getProjectLine($translations, $overrideSrcUrl);
           break;
         }
       }
@@ -306,6 +308,7 @@
       }
       ksort($languages, SORT_STRING);
       
+      $temp = '';
       $temp .= "<table class=\"table is-bordered is-striped is-narrow\">\n";
       $temp .= "  <tr>\n";
       $temp .= "    <th class=\"left\">" . __('Language') . "</th>\n";

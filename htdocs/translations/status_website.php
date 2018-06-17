@@ -1,16 +1,25 @@
 <?php
   include('../engine/engine.inc');
+  include('translations.inc');
 
   $page = new Page;
   $page->printHead(__('Translations Status (Website)'), TAB_TRANSLATIONS);
 
   $page->printHeading(__('Translations Status (Website)'));
-  $page->printPara(__('We move the sources from the website to a <a href="%1$s">bitbucket Mercurial repository</a> and use now <a href="%2$s">Transifex</a> as platform for the translations.', 'http://bitbucket.org/kimmov/winmerge-web/', 'http://www.transifex.net/projects/p/winmerge-web/'));
+  $page->printPara(__('We moved the sources from the website to a own <a href="%1$s">Bitbucket Mercurial repository</a>.', 'https://bitbucket.org/winmerge/website'));
+  
+  try {
+    $status = New TranslationsStatus('status-website.xml');
 
-  $page->printSubHeading(__('Translations Status'));
-?>
-<p><img src="http://www.transifex.net/projects/p/winmerge-web/resource/translations/chart/image_png" alt="<?php __e('Translations Status (Website)');?>"></p>
-<p><a href="http://www.transifex.net/projects/p/winmerge-web/resource/translations/" target="_blank"><?php __e('See more information on Transifex.net');?></a></p>
-<?php
+    $page->printSubHeading(__('Translators'));
+    $status->printTranslators();
+    
+    $page->printSubHeading(__('Website Status <em>from %s</em>', $status->getUpdateDate()));
+    $status->printProjectTable('Website', 'https://bitbucket.org/winmerge/website/src/default/po/');
+  }
+  catch (Exception $ex) { //If problems with translations status...
+    $page->printPara(__('The translations status is currently not available...'));
+  }
+  
   $page->printFoot();
 ?>
