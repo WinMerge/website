@@ -2,8 +2,8 @@
 # Released under the "GNU General Public License"
 # 
 # Translators:
-# * Camille Baldock <mademoisellegeek42@gmail.com>, 2012
-# * Freddydelanuit Dec <fred.dec@free.fr>, 2012-2013
+# * Camille Baldock <mademoisellegeek42 at gmail.com>, 2012
+# * Freddydelanuit Dec <fred.dec at free.fr>, 2012-2013
 # * lkppo, 2012
 #
 msgid ""
@@ -12,8 +12,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: http://bugs.winmerge.org\n"
 "POT-Creation-Date: 2013-04-29 21:48+0000\n"
 "PO-Revision-Date: 2018-06-13 21:15+0000\n"
-"Last-Translator: Freddydelanuit Dec <fred.dec@free.fr>\n"
-"Language-Team: French (http://www.transifex.com/gerundt/winmerge-web/language/fr/)\n"
+"Last-Translator: Freddydelanuit Dec <fred.dec at free.fr>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
