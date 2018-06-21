@@ -14,7 +14,6 @@
    */
   class TranslationsStatus {
     public $srcUrl;
-    public $rssLink;
     
     private $_status;
     
@@ -23,7 +22,6 @@
      */
     public function __construct($filename) {
       $this->srcUrl = '';
-      $this->rssLink = '';
       
       $this->_status = null;
       
@@ -216,52 +214,62 @@
     
     /**
      * ...
+     * @param SimpleXMLElement $statusUpdate Status update date
+     * @param SimpleXMLElement $translations Translations
+     * @param string $rssLink RSS URL
+     * @param string $srcUrl Source URL
      */
-    public function printRSS() {
-      $status = $this->_status;
+    private function getProjectRssItem($statusUpdate, $translations, $rssLink, $srcUrl) {
+      $project = (string)$translations->attributes()->project;
       
-      $temp = "<?xml version=\"1.0\" encoding=\"ISO-8859-1\"?>\n";
-      $temp .= "<rss version=\"2.0\">\n";
-      $temp .= "  <channel>\n";
-      $temp .= "    <title>WinMerge Translations Status</title>\n";
-      $temp .= "    <link>http://winmerge.org/</link>\n";
-      $temp .= "    <description>...</description>\n";
-      foreach ($status->translations as $translations) { //for all projects...
-        $project = (string)$translations->attributes()->project;
+      $temp = "    <item>\n";
+      $temp .= "      <title>" . $project ." Status [" . $statusUpdate . "]</title>\n";
+      $temp .= "      <description>\n";
+      $temp .= "        <![CDATA[\n";
+      $temp .= "<ul>\n";
+      //TODO: Sort languages!?
+      foreach ($translations as $translation) { //for all translations...
+        $language_name = (string)$translation->language;
         
-        $temp .= "    <item>\n";
-        $temp .= "      <title>" . $project ." Status [" . $status->update . "]</title>\n";
-        $temp .= "      <description>\n";
-        $temp .= "        <![CDATA[\n";
-        $temp .= "<ul>\n";
-        //TODO: Sort languages!?
-        foreach ($translations as $translation) { //for all translations...
-          $language_name = (string)$translation->language;
+        $template = (bool)$translation->attributes()->template;
+        if ($template == false) { //If NO template...
+          $file_name = (string)$translation->file;
+          $translation_update = (string)$translation->update;
+          $strings_count = (int)$translation->strings->count;
+          $strings_untranslated = (int)$translation->strings->untranslated;
           
-          $template = (bool)$translation->attributes()->template;
-          if ($template == false) { //If NO template...
-            $file_name = (string)$translation->file;
-            $translation_update = (string)$translation->update;
-            $strings_count = (int)$translation->strings->count;
-            $strings_untranslated = (int)$translation->strings->untranslated;
-            
-            $temp .= "  <li>\n";
-            if ($strings_count > 0) //if KNOWN status...
-              $temp .= "    <a href=\"" . $this->srcUrl . $project . '/' . $file_name . "\">" . $language_name . "</a> (" . $strings_untranslated . " Untranslated)\n";
-            else //if UNKNOWN status...
-              $temp .= "    <a href=\"" . $this->srcUrl . $project . '/' . $file_name . "\">" . $language_name . "</a> (Unknown)\n";
-            $temp .= "  </li>\n";
-          }
+          $temp .= "  <li>\n";
+          if ($strings_count > 0) //if KNOWN status...
+            $temp .= "    <a href=\"" . $srcUrl . $file_name . "\">" . $language_name . "</a> (" . $strings_untranslated . " Untranslated)\n";
+          else //if UNKNOWN status...
+            $temp .= "    <a href=\"" . $srcUrl . $file_name . "\">" . $language_name . "</a> (Unknown)\n";
+          $temp .= "  </li>\n";
         }
-        $temp .= "</ul>\n";
-        $temp .= "        ]]>\n";
-        $temp .= "      </description>\n";
-        $temp .= "      <guid>" . $project . "_" . $status->update . "</guid>\n";
-        $temp .= "      <link>" . $this->rssLink . "#" . $project . "</link>\n";
-        $temp .= "    </item>\n";
       }
-      $temp .= "  </channel>\n";
-      $temp .= "</rss>\n";
+      $temp .= "</ul>\n";
+      $temp .= "        ]]>\n";
+      $temp .= "      </description>\n";
+      $temp .= "      <guid>" . $project . "_" . $statusUpdate . "</guid>\n";
+      $temp .= "      <link>" . $rssLink . "</link>\n";
+      $temp .= "    </item>\n";
+      
+      return $temp;
+    }
+    
+    /**
+     * ...
+     * @param string $projectName Project name
+     * @param string $rssLink RSS URL
+     * @param string $srcUrl Source URL
+     */
+    public function printProjectRssItem($projectName, $rssLink, $srcUrl) {
+      $temp = '';
+      foreach ($this->_status->translations as $translations) { //for all projects...
+        if ((string)$translations->attributes()->project == $projectName) {
+          $temp .= $this->getProjectRssItem($this->_status->update, $translations, $rssLink, $srcUrl);
+          break;
+        }
+      }
       print($temp);
     }
     
