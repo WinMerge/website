@@ -10,7 +10,6 @@
   
   try {
     $status = New TranslationsStatus('status.xml');
-    $status->srcUrl = 'https://bitbucket.org/winmerge/winmerge/src/default/Translations/';
     
     print("<ul>\n");
     print("  <li><a href=\"#translators\">" . __('Translators') . "</a></li>\n");
@@ -36,16 +35,16 @@
     $status->printTranslators();
     
     $page->printAnchorSubHeading(__('WinMerge Status <em>from %s</em>', $status->getUpdateDate()), 'winmerge');
-    $status->printProjectTable('WinMerge');
+    $status->printProjectTable('WinMerge', 'https://bitbucket.org/winmerge/winmerge/src/default/Translations/WinMerge/');
     
     $page->printAnchorSubHeading(__('ShellExtension Status <em>from %s</em>', $status->getUpdateDate()), 'shellextension');
-    $status->printProjectTable('ShellExtension');
+    $status->printProjectTable('ShellExtension', 'https://bitbucket.org/winmerge/winmerge/src/default/Translations/ShellExtension/');
     
     $page->printAnchorSubHeading(__('InnoSetup Files'), 'innosetup');
-    $status->printProjectList('InnoSetup');
+    $status->printProjectList('InnoSetup', 'https://bitbucket.org/winmerge/winmerge/src/default/Translations/InnoSetup/');
     
     $page->printAnchorSubHeading(__('Readme Files'), 'readme');
-    $status->printProjectList('Docs/Readme');
+    $status->printProjectList('Docs/Readme', 'https://bitbucket.org/winmerge/winmerge/src/default/Translations/Docs/Readme/');
   }
   catch (Exception $ex) { //If problems with translations status...
     $page->printPara(__('The translations status is currently not available...'));
