@@ -55,8 +55,8 @@
 <?php
   $page->printSubHeading(__('Screenshots'));
 ?>
-<p><a href="screenshots/screenshot.png" target="_blank"><img class="thumbnail" src="screenshots/screenshot_small.png" alt="<?php __e('File Comparison');?>" border="0"></a>
-<a href="screenshots/foldercmp.png" target="_blank"><img class="thumbnail" src="screenshots/foldercmp_small.png" alt="<?php __e('Folder Comparison Results');?>" border="0"></a></p>
+<p><a href="screenshots/screenshot.png" target="_blank"><img class="image" src="screenshots/screenshot_small.png" alt="<?php __e('File Comparison');?>" border="0"></a> &nbsp; 
+<a href="screenshots/foldercmp.png" target="_blank"><img class="image" src="screenshots/foldercmp_small.png" alt="<?php __e('Folder Comparison Results');?>" border="0"></a></p>
 <?php
   $page->printPara(__('See the <a href="%s">screenshots page</a> for more screenshots.', 'screenshots/'));
   

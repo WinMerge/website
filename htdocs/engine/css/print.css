@@ -23,6 +23,12 @@ ul {
 	list-style-type: square;
 }
 
+pre {
+	white-space: pre-wrap;
+	word-wrap: break-word;
+	overflow: auto;
+}
+
 /* Default link style */
 a:link { color:black; text-decoration:underline; }
 a:visited { color:black; text-decoration:underline; }
@@ -104,11 +110,6 @@ pre.code {
 	padding: 5px;
 	border: 1px solid #CCCCCC;
 	border-left: 10px solid #CCCCCC;
-}
-
-img.thumbnail {
-	padding-top: 2px;
-	padding-bottom: 3px;
 }
 
 acronym {
