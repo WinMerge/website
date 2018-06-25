@@ -132,6 +132,7 @@
         $temp .= "  <meta name=\"keywords\" content=\"" . $this->_keywords . "\">\n";
       }
       $temp .= "  <meta name=\"viewport\" content=\"width=device-width,initial-scale=1.0\" />\n";
+      $temp .= "  <meta name=\"theme-color\" content=\"#fc0\" />\n";
       $temp .= "  <style type=\"text/css\" media=\"screen\">@import \"/engine/css/screen.css\";</style>\n";
       $temp .= "  <link rel=\"stylesheet\" type=\"text/css\" media=\"print\" href=\"/engine/css/print.css\">\n";
       if ($this->_javascript == true || $onload != '') { //if JavaScript is needed...
