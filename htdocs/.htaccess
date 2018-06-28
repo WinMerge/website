@@ -42,6 +42,11 @@ RewriteEngine On
 RewriteCond   %{HTTP_HOST} ^www\.winmerge\.org$ [NC]
 RewriteRule   ^(.*)$ http://winmerge.org/$1 [R=permanent,L]
 
+#CSS versioning...
+RewriteEngine On
+RewriteBase   /
+RewriteRule   ^engine/css/(screen|print)-v[0-9]+.css$ /engine/css/$1.css [L]
+
 #Move some pages to the Bitbucket Wiki...
 Redirect permanent /about/history.php https://bitbucket.org/winmerge/winmerge/wiki/ReleaseHistory
 

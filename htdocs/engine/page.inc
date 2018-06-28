@@ -133,8 +133,8 @@
       }
       $temp .= "  <meta name=\"viewport\" content=\"width=device-width,initial-scale=1.0\" />\n";
       $temp .= "  <meta name=\"theme-color\" content=\"#fc0\" />\n";
-      $temp .= "  <style type=\"text/css\" media=\"screen\">@import \"/engine/css/screen.css\";</style>\n";
-      $temp .= "  <link rel=\"stylesheet\" type=\"text/css\" media=\"print\" href=\"/engine/css/print.css\">\n";
+      $temp .= "  <link rel=\"stylesheet\" type=\"text/css\" media=\"screen\" href=\"/engine/css/screen-v2.css\">\n";
+      $temp .= "  <link rel=\"stylesheet\" type=\"text/css\" media=\"print\" href=\"/engine/css/print-v2.css\">\n";
       if ($this->_javascript == true || $onload != '') { //if JavaScript is needed...
         $temp .= "  <script src=\"/engine/javascript/winmerge.js\" type=\"text/javascript\"></script>\n";
       }
