@@ -9,6 +9,7 @@
 # GNU General Public License. You should have received a copy of the license
 # along with WinMerge.  If not, see <http://www.gnu.org/licenses/>.
 
+import codecs
 import os
 from time import strftime
 import re
@@ -28,7 +29,7 @@ def getTranslationsFromPhpFile(filepath, translations):
     rGettext = re.compile('_e?\([\'](.+?)[\']', re.DOTALL)
     rGettextTestMultiLine = re.compile('_e?\([\']([^\'\n]+)\n')
     
-    phpfile = open(filepath, 'r', errors='ignore')
+    phpfile = codecs.open(filepath, 'r', 'utf-8', errors='ignore')
     lines = phpfile.readlines()
     phpfile.close()
     
@@ -42,7 +43,8 @@ def getTranslationsFromPhpFile(filepath, translations):
             tmps = rGettext.findall("".join(lines[i:]))
             for tmp in tmps: #For all translations...
                 if tmp.find('\n') > 0: #If a multi-line translation...
-                    translation = tmp.replace('\n', '\\n')
+                    translation = tmp.replace('\r', '')
+                    translation = translation.replace('\n', '\\n')
                     if translation in translations: #If the translation is already exists...
                         translations[translation] += [(filepath, i)]
                     else: #If the translation is NOT already exists...
