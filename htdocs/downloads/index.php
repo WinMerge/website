@@ -16,32 +16,34 @@
   $page->printPara(__('The current WinMerge version is <strong>%1$s</strong> and was released at <strong>%2$s</strong>.', $stablerelease->getVersionNumber(), $stablerelease->getDate()),
                    __('For detailed info on what is new, read the <a href="%1$s">change log</a> and the <a href="%2$s">release notes</a>.', '/docs/changelog.php', '/docs/releasenotes.php'));
 ?>
-<table class="table is-striped">
-  <tr>
-    <th class="left"><?php __e('Download');?></th>
-    <th class="center"><?php __e('Size');?></th>
-    <th class="center"><?php __e('Typ');?></th>
-    <th class="center"><?php __e('Format');?></th>
-  </tr>
-  <tr>
-    <td class="left"><a href="<?php echo $stablerelease->getDownload('setup.exe');?>" class="button"><?php echo $stablerelease->getDownloadFileName('setup.exe');?></a></td>
-    <td class="center"><?php __e('%s MB', $stablerelease->getDownloadSizeMb('setup.exe'));?></td>
-    <td class="center"><?php __e('Installer');?></td>
-    <td class="center"><?php __e('EXE');?></td>
-  </tr>
-  <tr>
-    <td class="left"><a href="<?php echo $stablerelease->getDownload('exe.zip');?>" class="button"><?php echo $stablerelease->getDownloadFileName('exe.zip');?></a></td>
-    <td class="center"><?php __e('%s MB', $stablerelease->getDownloadSizeMb('exe.zip'));?></td>
-    <td class="center"><?php __e('Binaries');?></td>
-    <td class="center"><?php __e('ZIP');?></td>
-  </tr>
-  <tr>
-    <td class="left"><a href="<?php echo $stablerelease->getDownload('exe.7z');?>" class="button"><?php echo $stablerelease->getDownloadFileName('exe.7z');?></a></td>
-    <td class="center"><?php __e('%s MB', $stablerelease->getDownloadSizeMb('exe.7z'));?></td>
-    <td class="center"><?php __e('Binaries');?></td>
-    <td class="center"><?php __e('7z');?></td>
-  </tr>
-</table>
+<div class="table-scrollable">
+  <table class="table is-striped">
+    <tr>
+      <th class="left"><?php __e('Download');?></th>
+      <th class="center"><?php __e('Size');?></th>
+      <th class="center"><?php __e('Type');?></th>
+      <th class="center"><?php __e('Format');?></th>
+    </tr>
+    <tr>
+      <td class="left"><a href="<?php echo $stablerelease->getDownload('setup.exe');?>" class="button"><?php echo $stablerelease->getDownloadFileName('setup.exe');?></a></td>
+      <td class="center"><?php __e('%s MB', $stablerelease->getDownloadSizeMb('setup.exe'));?></td>
+      <td class="center"><?php __e('Installer');?></td>
+      <td class="center"><?php __e('EXE');?></td>
+    </tr>
+    <tr>
+      <td class="left"><a href="<?php echo $stablerelease->getDownload('exe.zip');?>" class="button"><?php echo $stablerelease->getDownloadFileName('exe.zip');?></a></td>
+      <td class="center"><?php __e('%s MB', $stablerelease->getDownloadSizeMb('exe.zip'));?></td>
+      <td class="center"><?php __e('Binaries');?></td>
+      <td class="center"><?php __e('ZIP');?></td>
+    </tr>
+    <tr>
+      <td class="left"><a href="<?php echo $stablerelease->getDownload('exe.7z');?>" class="button"><?php echo $stablerelease->getDownloadFileName('exe.7z');?></a></td>
+      <td class="center"><?php __e('%s MB', $stablerelease->getDownloadSizeMb('exe.7z'));?></td>
+      <td class="center"><?php __e('Binaries');?></td>
+      <td class="center"><?php __e('7z');?></td>
+    </tr>
+  </table>
+</div>
 <div class="checksums">
   <h4><a href="javascript:toggle('checksumslist')"><?php __e('SHA-1 Checksums');?></a></h4>
   <dl id="checksumslist">

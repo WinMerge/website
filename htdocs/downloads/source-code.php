@@ -12,23 +12,25 @@
   $page->printHeading(__('Download Source Code'));
   $page->printPara(__('WinMerge is released under the <a href="%s">GNU General Public License</a>. That means you can get the whole source code and can build the program yourself.', 'http://www.gnu.org/licenses/gpl-2.0.html'));
 ?>
-<table class="table is-striped">
-  <tr>
-    <th class="left"><?php __e('Download');?></th>
-    <th class="center"><?php __e('Size');?></th>
-    <th class="center"><?php __e('Format');?></th>
-  </tr>
-  <tr>
-    <td class="left"><a href="<?php echo $stablerelease->getDownload('src.zip');?>" class="button"><?php echo $stablerelease->getDownloadFileName('src.zip');?></a></td>
-    <td class="center"><?php __e('%s MB', $stablerelease->getDownloadSizeMb('src.zip'));?></td>
-    <td class="center"><?php __e('ZIP');?></td>
-  </tr>
-  <tr>
-    <td class="left"><a href="<?php echo $stablerelease->getDownload('src.7z');?>" class="button"><?php echo $stablerelease->getDownloadFileName('src.7z');?></a></td>
-    <td class="center"><?php __e('%s MB', $stablerelease->getDownloadSizeMb('src.7z'));?></td>
-    <td class="center"><?php __e('7z');?></td>
-  </tr>
-</table>
+<div class="table-scrollable">
+  <table class="table is-striped">
+    <tr>
+      <th class="left"><?php __e('Download');?></th>
+      <th class="center"><?php __e('Size');?></th>
+      <th class="center"><?php __e('Format');?></th>
+    </tr>
+    <tr>
+      <td class="left"><a href="<?php echo $stablerelease->getDownload('src.zip');?>" class="button"><?php echo $stablerelease->getDownloadFileName('src.zip');?></a></td>
+      <td class="center"><?php __e('%s MB', $stablerelease->getDownloadSizeMb('src.zip'));?></td>
+      <td class="center"><?php __e('ZIP');?></td>
+    </tr>
+    <tr>
+      <td class="left"><a href="<?php echo $stablerelease->getDownload('src.7z');?>" class="button"><?php echo $stablerelease->getDownloadFileName('src.7z');?></a></td>
+      <td class="center"><?php __e('%s MB', $stablerelease->getDownloadSizeMb('src.7z'));?></td>
+      <td class="center"><?php __e('7z');?></td>
+    </tr>
+  </table>
+</div>
 <div class="checksums">
   <h3><a href="javascript:toggle('checksumslist')"><?php __e('SHA-1 Checksums');?></a></h3>
   <dl id="checksumslist">

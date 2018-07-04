@@ -414,6 +414,10 @@ ul.inline li {
 	padding: .3em;
 }
 
+.table-scrollable {
+	overflow-x: auto;
+}
+
 /* Translation status colors */
 .translated { color: #2D802B; }
 .fuzzy { color: #05359B; }
