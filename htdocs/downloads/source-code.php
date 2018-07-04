@@ -30,7 +30,7 @@
       <td class="center"><?php __e('7z');?></td>
     </tr>
   </table>
-</div>
+</div> <!-- .table-scrollable -->
 <div class="checksums">
   <h3><a href="javascript:toggle('checksumslist')"><?php __e('SHA-1 Checksums');?></a></h3>
   <dl id="checksumslist">

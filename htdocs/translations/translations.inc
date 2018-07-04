@@ -98,7 +98,8 @@
      * @param string $srcUrl Source URL
      */
     private function getProjectTable($translations, $srcUrl) {
-      $temp = "<table class=\"table is-bordered is-striped is-narrow\">\n";
+      $temp = "<div class=\"table-scrollable\">\n";
+      $temp .= "<table class=\"table is-bordered is-striped is-narrow\">\n";
       $temp .= "  <tr>\n";
       $temp .= "    <th class=\"left\">" . __('Language') . "</th>\n";
       $temp .= "    <th class=\"center\">" . __('Graph') . "</th>\n";
@@ -157,6 +158,7 @@
       $temp .= "    <td class=\"center\">" . $template_translation_update . "</td>\n";
       $temp .= "  </tr>\n";
       $temp .= "</table>\n";
+      $temp .= "</div> <!-- .table-scrollable -->\n";
       return $temp;
     }
     
@@ -314,7 +316,7 @@
       }
       ksort($languages, SORT_STRING);
       
-      $temp = '';
+      $temp = "<div class=\"table-scrollable\">\n";
       $temp .= "<table class=\"table is-bordered is-striped is-narrow\">\n";
       $temp .= "  <tr>\n";
       $temp .= "    <th class=\"left\">" . __('Language') . "</th>\n";
@@ -331,6 +333,7 @@
         $temp .= "  </tr>\n";
       }
       $temp .= "</table>\n";
+      $temp .= "</div> <!-- .table-scrollable -->\n";
       print($temp);
     }
     
