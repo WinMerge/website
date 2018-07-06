@@ -40,7 +40,7 @@ def main():
             if str.lower(filename[1]) == '.po': #If a PO file...
                 po = polib.pofile(itemname)
                 po.merge(refpot)
-                po.save()
+                po.save(newline='\n')
 
 # MAIN #
 if __name__ == "__main__":

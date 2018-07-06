@@ -27,7 +27,7 @@ except ImportError:
     # we use codecs instead
     class io(object):
         @staticmethod
-        def open(fpath, mode='r', encoding=None):
+        def open(fpath, mode='r', encoding=None, newline=None):
             return codecs.open(fpath, mode, encoding)
 
 
@@ -421,7 +421,7 @@ class _BaseFile(list):
             e.flags.append('fuzzy')
         return e
 
-    def save(self, fpath=None, repr_method='__unicode__'):
+    def save(self, fpath=None, repr_method='__unicode__', newline=None):
         """
         Saves the po file to ``fpath``.
         If it is an existing file and no ``fpath`` is provided, then the
@@ -434,6 +434,10 @@ class _BaseFile(list):
 
         ``repr_method``
             string, the method to use for output.
+
+        ``newline``
+            string, controls how universal newlines works.
+            get ignored with python < 2.6
         """
         if self.fpath is None and fpath is None:
             raise IOError('You must provide a file path to save() method')
@@ -443,7 +447,7 @@ class _BaseFile(list):
         if repr_method == 'to_binary':
             fhandle = open(fpath, 'wb')
         else:
-            fhandle = io.open(fpath, 'w', encoding=self.encoding)
+            fhandle = io.open(fpath, 'w', encoding=self.encoding, newline=newline)
             if not isinstance(contents, text_type):
                 contents = contents.decode(self.encoding)
         fhandle.write(contents)
@@ -684,8 +688,8 @@ class POFile(_BaseFile):
         """
         Convenience method that returns the list of untranslated entries.
         """
-        return [e for e in self if not e.translated() and not e.obsolete
-                and not e.fuzzy]
+        return [e for e in self if not e.translated() and
+                not e.obsolete and not e.fuzzy]
 
     def fuzzy_entries(self):
         """
@@ -1068,26 +1072,35 @@ class POEntry(_BaseEntry):
         if occ1 < occ2:
             return -1
         # Compare context
-        msgctxt = self.msgctxt or 0
-        othermsgctxt = other.msgctxt or 0
+        msgctxt = self.msgctxt or ''
+        othermsgctxt = other.msgctxt or ''
         if msgctxt > othermsgctxt:
             return 1
         elif msgctxt < othermsgctxt:
             return -1
         # Compare msgid_plural
-        msgid_plural = self.msgid_plural or 0
-        othermsgid_plural = other.msgid_plural or 0
+        msgid_plural = self.msgid_plural or ''
+        othermsgid_plural = other.msgid_plural or ''
         if msgid_plural > othermsgid_plural:
             return 1
         elif msgid_plural < othermsgid_plural:
             return -1
         # Compare msgstr_plural
-        msgstr_plural = self.msgstr_plural or 0
-        othermsgstr_plural = other.msgstr_plural or 0
-        if msgstr_plural > othermsgstr_plural:
+        # Because dict order comparison works different in Python <2.7 and 2.7,
+        # and does not work at all in Python 3.x, this approach is being used
+        # instead. It simulates order comparison of dicts in Python <2.7 to the
+        # required degree.
+        msgstr_plural = self.msgstr_plural or {}
+        othermsgstr_plural = other.msgstr_plural or {}
+        if len(msgstr_plural) > len(othermsgstr_plural):
             return 1
-        elif msgstr_plural < othermsgstr_plural:
+        elif len(msgstr_plural) < len(othermsgstr_plural):
             return -1
+        for idx in msgstr_plural:
+            if msgstr_plural[idx] > othermsgstr_plural[idx]:
+                return 1
+            elif msgstr_plural[idx] < othermsgstr_plural[idx]:
+                return -1
         # Compare msgid
         if self.msgid > other.msgid:
             return 1
