@@ -114,7 +114,8 @@ def main():
         if reference_line: #If reference line exists...
             potfile.write('%s\n' % reference_line)
         #--------------------------------------------------------------------------------
-        potfile.write('#, c-format\n')
+        if '%' in translation: #If contains printf() format...
+            potfile.write('#, c-format\n')
         potfile.write('msgid "%s"\n' % translation.replace('"', '\\"'))
         potfile.write('msgstr ""\n')
         potfile.write('\n')
