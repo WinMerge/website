@@ -67,9 +67,7 @@
   $page->printSubHeading(__('WinMerge 2.12.4 <em>for Windows 95/98/ME/NT</em>'));
   $page->printPara(__('WinMerge version 2.12.4 was the last version to ship with Microsft Visual C++ 2005 runtimes that support Windows 95/98/ME/NT. It was also the last version to ship with an ANSI version of WinMerge.'));
 ?>
-<ul>
-  <li><a href="https://sourceforge.net/projects/winmerge/files/stable/2.12.4/"><?php __e('Get version 2.12.4');?></a></li>
-</ul>
+<p><a href="https://sourceforge.net/projects/winmerge/files/stable/2.12.4/" class="button"><?php __e('Get version 2.12.4');?></a></li></p>
 <?php
   $page->printSubHeading(__('Other Versions'));
 ?>
@@ -81,8 +79,7 @@
 </ul>
 <?php
   $page->printRssSubHeading(__('Project File Releases'), 'https://sourceforge.net/projects/winmerge/rss?path=/');
-?>
-<?php
+
   $feed = new SimplePie();
   $feed->set_feed_url('https://sourceforge.net/projects/winmerge/rss?path=/');
   $feed->set_cache_location('../engine/simplepie/cache');
