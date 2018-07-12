@@ -173,7 +173,7 @@
       $temp .= "  <h1>WinMerge</h1>\n";
       $temp .= "  <p class=\"tagline\">" . __('You will see the difference…') ."</p>\n";
       $temp .= "</div>\n";
-      $temp .= "<p class=\"downloadlink\">" . $this->getDownloadNow(false) . "</p>";
+      $temp .= "<p class=\"downloadlink\">" . $this->getDownloadNow(false) . "</p>\n";
       $temp .= "  </header>\n";
       $temp .= $this->getTabs();
       $temp .= "<div id=\"wrap\">\n";
@@ -299,12 +299,12 @@
     function getDownloadNow($addparagraph = true) {
       $temp = "";
       if ($addparagraph) {
-        $temp .= "<p>\n";
+        $temp .= "<p>";
       }
       $temp .= "<a class=\"downloadnow\" href=\"" . $this->_stablerelease->getDownload('setup.exe') . "\">";
       $temp .= "<strong>" . __('Download Now!') . "</strong> ";
       $temp .= "<em>" . __('Version %1$s; %2$s MB', $this->_stablerelease->getVersionNumber(), $this->_stablerelease->getDownloadSizeMb('setup.exe')) . "</em>";
-      $temp .= "</a>\n";
+      $temp .= "</a>";
       if ($addparagraph) {
         $temp .= "</p>\n";
       }
