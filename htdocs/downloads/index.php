@@ -12,7 +12,7 @@
   $page->printHeading(__('Download WinMerge'));
   $page->printPara(__('The easiest way to install WinMerge is to download and run the Installer. Read the <a href="%s">online manual</a> for help using it.', 'http://manual.winmerge.org/Install.html'));
   $page->printPara(__('You can also download additional <a href="%1$s">plugins</a> and the whole <a href="%2$s">source code</a> from WinMerge.', 'plugins.php', 'source-code.php'));
-  $page->printSubHeading(__('WinMerge %s <em>for Windows 2000/XP/2003/Vista/2008/7/8/2012</em>', $stablerelease->getVersionNumber()));
+  $page->printSubHeading(__('WinMerge %s', $stablerelease->getVersionNumber()));
   $page->printPara(__('The current WinMerge version is <strong>%1$s</strong> and was released at <strong>%2$s</strong>.', $stablerelease->getVersionNumber(), $stablerelease->getDate()),
                    __('For detailed info on what is new, read the <a href="%1$s">change log</a> and the <a href="%2$s">release notes</a>.', '/docs/changelog.php', '/docs/releasenotes.php'));
 ?>
@@ -64,12 +64,13 @@
   <li><?php __e('Admin rights for the installer');?></li>
 </ul>
 <?php
-  $page->printSubHeading(__('WinMerge 2.12.4 <em>for Windows 95/98/ME/NT</em>'));
-  $page->printPara(__('WinMerge version 2.12.4 was the last version to ship with Microsft Visual C++ 2005 runtimes that support Windows 95/98/ME/NT. It was also the last version to ship with an ANSI version of WinMerge.'));
-?>
-<p><a href="https://sourceforge.net/projects/winmerge/files/stable/2.12.4/" class="button"><?php __e('Get version 2.12.4');?></a></li></p>
-<?php
   $page->printSubHeading(__('Other Versions'));
+  $page->printSubSubHeading(__('WinMerge 2.12.4 <em>for Windows 95/98/ME/NT</em>'));
+  $page->printPara(__('WinMerge version 2.12.4 was the last version to ship with Microsoft Visual C++ 2005 runtimes that support Windows 95/98/ME/NT. It was also the last version to ship with an ANSI version of WinMerge.'));
+?>
+<p><a href="https://sourceforge.net/projects/winmerge/files/stable/2.12.4/" class="button"><?php __e('Get version %s', '2.12.4');?></a></li></p>
+<?php
+  $page->printSubSubHeading(__('Unofficial Versions'));
 ?>
 <ul>
   <li><a href="https://portableapps.com/apps/utilities/winmerge_portable"><?php __e('WinMerge Portable');?></a> <?php __e('(by PortableApps.com)');?></li>
@@ -103,6 +104,7 @@
   <li><a href="https://sourceforge.net/projects/winmerge/files/stable/" class="button is-success"><?php __e('Stable Versions');?></a></li>
   <li><a href="https://sourceforge.net/projects/winmerge/files/beta/" class="button is-warning"><?php __e('Beta Versions');?></a></li>
   <li><a href="https://sourceforge.net/projects/winmerge/files/alpha/" class="button is-danger"><?php __e('Experimental Builds');?></a></li>
+  <!--<li><a href="https://sourceforge.net/projects/winmerge/files/" class="button"><?php __e('All File Releases');?></a></li>-->
 </ul>
 <script type="application/ld+json">
 {
