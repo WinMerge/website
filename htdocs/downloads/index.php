@@ -11,7 +11,7 @@
   
   $page->printHeading(__('Download WinMerge'));
   $page->printPara(__('The easiest way to install WinMerge is to download and run the Installer. Read the <a href="%s">online manual</a> for help using it.', 'http://manual.winmerge.org/Install.html'));
-  $page->printPara(__('You can also download additional <a href="%1$s">plugins</a> and the whole <a href="%2$s">source code</a> from WinMerge.', 'plugins.php', 'source-code.php'));
+  $page->printPara(__('You can also download additional <a href="%1$s">plugins</a> and the whole <a href="%2$s">source code</a> from WinMerge.', 'plugins.php', '/source-code/'));
   $page->printSubHeading(__('WinMerge %s', $stablerelease->getVersionNumber()));
   $page->printPara(__('The current WinMerge version is <strong>%1$s</strong> and was released at <strong>%2$s</strong>.', $stablerelease->getVersionNumber(), $stablerelease->getDate()),
                    __('For detailed info on what is new, read the <a href="%1$s">change log</a> and the <a href="%2$s">release notes</a>.', '/docs/changelog.php', '/docs/releasenotes.php'));
@@ -31,15 +31,27 @@
       <td class="center"><?php __e('EXE');?></td>
     </tr>
     <tr>
-      <td class="left"><a href="<?php echo $stablerelease->getDownload('exe.zip');?>" class="button"><?php echo $stablerelease->getDownloadFileName('exe.zip');?></a></td>
+      <td class="left"><a href="<?php echo $stablerelease->getDownload('exe.zip');?>" class="button is-dark"><?php echo $stablerelease->getDownloadFileName('exe.zip');?></a></td>
       <td class="center"><?php __e('%s MB', $stablerelease->getDownloadSizeMb('exe.zip'));?></td>
       <td class="center"><?php __e('Binaries');?></td>
       <td class="center"><?php __e('ZIP');?></td>
     </tr>
     <tr>
-      <td class="left"><a href="<?php echo $stablerelease->getDownload('exe.7z');?>" class="button"><?php echo $stablerelease->getDownloadFileName('exe.7z');?></a></td>
+      <td class="left"><a href="<?php echo $stablerelease->getDownload('exe.7z');?>" class="button is-dark"><?php echo $stablerelease->getDownloadFileName('exe.7z');?></a></td>
       <td class="center"><?php __e('%s MB', $stablerelease->getDownloadSizeMb('exe.7z'));?></td>
       <td class="center"><?php __e('Binaries');?></td>
+      <td class="center"><?php __e('7z');?></td>
+    </tr>
+    <tr>
+      <td class="left"><a href="<?php echo $stablerelease->getDownload('src.zip');?>" class="button is-light"><?php echo $stablerelease->getDownloadFileName('src.zip');?></a></td>
+      <td class="center"><?php __e('%s MB', $stablerelease->getDownloadSizeMb('src.zip'));?></td>
+      <td class="center"><?php __e('Source Code');?></td>
+      <td class="center"><?php __e('ZIP');?></td>
+    </tr>
+    <tr>
+      <td class="left"><a href="<?php echo $stablerelease->getDownload('src.7z');?>" class="button is-light"><?php echo $stablerelease->getDownloadFileName('src.7z');?></a></td>
+      <td class="center"><?php __e('%s MB', $stablerelease->getDownloadSizeMb('src.7z'));?></td>
+      <td class="center"><?php __e('Source Code');?></td>
       <td class="center"><?php __e('7z');?></td>
     </tr>
   </table>
@@ -53,6 +65,10 @@
     <dd><code><?php echo $stablerelease->getDownloadSha1Sum('exe.zip') ?></code></dd>
     <dt><?php echo $stablerelease->getDownloadFileName('exe.7z'); ?></dt>
     <dd><code><?php echo $stablerelease->getDownloadSha1Sum('exe.7z') ?></code></dd>
+    <dt><?php echo $stablerelease->getDownloadFileName('src.zip'); ?></dt>
+    <dd><code><?php echo $stablerelease->getDownloadSha1Sum('src.zip') ?></code></dd>
+    <dt><?php echo $stablerelease->getDownloadFileName('src.7z'); ?></dt>
+    <dd><code><?php echo $stablerelease->getDownloadSha1Sum('src.7z') ?></code></dd>
   </dl>
 </div> <!-- #checksums -->
 <?php
@@ -68,7 +84,7 @@
   $page->printSubSubHeading(__('WinMerge 2.12.4 <em>for Windows 95/98/ME/NT</em>'));
   $page->printPara(__('WinMerge version 2.12.4 was the last version to ship with Microsoft Visual C++ 2005 runtimes that support Windows 95/98/ME/NT. It was also the last version to ship with an ANSI version of WinMerge.'));
 ?>
-<p><a href="https://sourceforge.net/projects/winmerge/files/stable/2.12.4/" class="button"><?php __e('Get version %s', '2.12.4');?></a></li></p>
+<p><a href="https://sourceforge.net/projects/winmerge/files/stable/2.12.4/" class="button is-small"><?php __e('Get version %s', '2.12.4');?></a></li></p>
 <?php
   $page->printSubSubHeading(__('Unofficial Versions'));
 ?>

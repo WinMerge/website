@@ -34,9 +34,9 @@
   print("</ul>\n");
 
   $page->printSubHeading(__('Donate'));
-  $page->printPara(__('Since WinMerge is an <a href="%s">Open Source</a> project, you may use it free of charge.', '/about/license.php'),
+  $page->printPara(__('Since WinMerge is an <a href="%s">Open Source</a> project, you may use it free of charge.', '/source-code/'),
                    __('But please consider making a <a href="%s">donation</a> to support the continued development of WinMerge.', 'https://sourceforge.net/project/project_donations.php?group_id=13216'));
-				   
+
   $page->printSubHeading(__('Buy WinMerge merchandise'));
   $page->printPara(__('You can also support WinMerge by buying merchandise at the <a href="%s">WinMerge CafePress store</a>. 20%% of the sales goes to WinMerge.', 'http://www.cafepress.com/winmerge'));
 

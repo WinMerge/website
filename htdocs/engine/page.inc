@@ -13,6 +13,7 @@
   define ('TAB_ABOUT', 'about');
   define ('TAB_DOCS', 'docs');
   define ('TAB_DOWNLOADS', 'downloads');
+  define ('TAB_SOURCE_CODE', 'source-code');
   define ('TAB_SUPPORT', 'support');
   define ('TAB_TRANSLATIONS', 'translations');
 
@@ -347,8 +348,9 @@
       $tabs[1] = new Tab(TAB_ABOUT, $translations->prepareLink('/about/'), __('About'), __('About WinMerge'));
       $tabs[2] = new Tab(TAB_DOCS, $translations->prepareLink('/docs/'), __('Documentation'), __('WinMerge Documentation'));
       $tabs[3] = new Tab(TAB_DOWNLOADS, $translations->prepareLink('/downloads/'), __('Downloads'), __('WinMerge Downloads'));
-      $tabs[4] = new Tab(TAB_SUPPORT, $translations->prepareLink('/support/'), __('Support'), __('WinMerge Support'));
-      $tabs[5] = new Tab(TAB_TRANSLATIONS, $translations->prepareLink('/translations/'), __('Translations'), __('WinMerge Translations'));
+      $tabs[4] = new Tab(TAB_SOURCE_CODE, $translations->prepareLink('/source-code/'), __('Source Code'), __('WinMerge Source Code'));
+      $tabs[5] = new Tab(TAB_SUPPORT, $translations->prepareLink('/support/'), __('Support'), __('WinMerge Support'));
+      $tabs[6] = new Tab(TAB_TRANSLATIONS, $translations->prepareLink('/translations/'), __('Translations'), __('WinMerge Translations'));
 
       $temp = "  <nav id=\"nav\">\n";
       $temp .= "<ul>\n";
@@ -370,7 +372,6 @@
         case TAB_ABOUT: //if "About" ...
           $subtabs[0] = new Subtab($translations->prepareLink('/about/'), __('Index'), __('About WinMerge'));
           $subtabs[1] = new Subtab($translations->prepareLink('/about/screenshots/'), __('Screenshots'), __('WinMerge Screenshots'));
-          $subtabs[2] = new Subtab($translations->prepareLink('/about/license.php'), __('License'), __('WinMerge License'));
           break;
         case TAB_DOCS: //if "Documentation" ...
           $subtabs[0] = new Subtab($translations->prepareLink('/docs/'), __('Index'), __('WinMerge Documentation'));
@@ -384,7 +385,6 @@
         case TAB_DOWNLOADS: //if "Downloads" ...
           $subtabs[0] = new Subtab($translations->prepareLink('/downloads/'), __('WinMerge'), __('Download WinMerge'));
           $subtabs[1] = new Subtab($translations->prepareLink('/downloads/plugins.php'), __('Plugins'), __('Download WinMerge Plugins'));
-          $subtabs[2] = new Subtab($translations->prepareLink('/downloads/source-code.php'), __('Source Code'), __('Download WinMerge Source Code'));
           break;
         case TAB_SUPPORT: //if "Support" ...
           $subtabs[0] = new Subtab($translations->prepareLink('/support/'), __('Index'), __('WinMerge Support'));

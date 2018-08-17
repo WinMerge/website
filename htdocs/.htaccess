@@ -50,6 +50,10 @@ RewriteRule   ^engine/css/(screen|print)-v[0-9]+.css$ /engine/css/$1.css [L]
 #Move some pages to the Bitbucket Wiki...
 Redirect permanent /about/history.php https://bitbucket.org/winmerge/winmerge/wiki/ReleaseHistory
 
+#Move old pages to new source code page...
+Redirect permanent /about/license.php /source-code/
+Redirect permanent /downloads/source-code.php /source-code/
+
 #Move old translations status to new one...
 Redirect permanent /translations/status_branch.php /translations/
 Redirect permanent /translations/status_branch_rss.php /translations/status-feed/

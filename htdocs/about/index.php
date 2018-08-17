@@ -8,7 +8,7 @@
   $stablerelease = $page->getStableRelease();
   
   $page->printHeading(__('About WinMerge'));
-  $page->printPara(__('WinMerge is an <a href="%s">Open Source</a> differencing and merging tool for Windows. WinMerge can compare both folders and files, presenting differences in a visual text format that is easy to understand and handle.', 'license.php'));
+  $page->printPara(__('WinMerge is an <a href="%s">Open Source</a> differencing and merging tool for Windows. WinMerge can compare both folders and files, presenting differences in a visual text format that is easy to understand and handle.', '/source-code/'));
   $page->printPara(__('WinMerge is highly useful for determining what has changed between project versions, and then merging changes between versions. WinMerge can be used as an external differencing/merging tool or as a standalone application.'));
   
   $page->printSubHeading(__('Features'));
