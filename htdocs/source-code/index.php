@@ -32,14 +32,12 @@ along with WinMerge.  If not, see &lt;<a href="https://www.gnu.org/licenses/">ht
   $page->printAnchorSubHeading(__('Clone or download'), 'clone-or-download');
   $page->printPara(__('The source code is hosted on <a href="%1$s">Bitbucket</a> in a <a href="%2$s">Mercurial</a> repository.', 'https://bitbucket.org/', 'https://www.mercurial-scm.org/'),
                    __('We have also a <a href="%1$s">Git</a> repository as mirror on <a href="%2$s">GitHub</a>.', 'https://git-scm.com/', 'https://github.com/'));
-?>
-<dl class="headinglist">
-  <dt><?php __e('Mercurial');?></dt>
-  <dd><a href="https://bitbucket.org/winmerge/winmerge">https://bitbucket.org/winmerge/winmerge</a></dd>
-  <dt><?php __e('Git Mirror');?></dt>
-  <dd><a href="https://github.com/sdottaka/winmerge-v2.git">https://github.com/sdottaka/winmerge-v2.git</a></dd>
-</dl>
-<?php
+
+  $page->printSubSubHeading(__('Mercurial'));
+  $page->printPara(__('<a href="https://bitbucket.org/winmerge/winmerge" class="button">https://bitbucket.org/winmerge/winmerge</a>'));
+  $page->printSubSubHeading(__('Git Mirror'));
+  $page->printPara(__('<a href="https://github.com/sdottaka/winmerge-v2.git" class="button is-light">https://github.com/sdottaka/winmerge-v2.git</a>'));
+
   $page->printRssSubHeading(__('Recent Code Changes'), 'https://bitbucket.org/winmerge/winmerge/rss');
   $feed = new SimplePie();
   $feed->set_feed_url('https://bitbucket.org/winmerge/winmerge/rss');
