@@ -479,11 +479,11 @@ msgstr "Άδεια"
 #: downloads/index.php:68
 #, c-format
 msgid ""
-"WinMerge version 2.12.4 was the last version to ship with Microsft Visual "
+"WinMerge version 2.12.4 was the last version to ship with Microsoft Visual "
 "C++ 2005 runtimes that support Windows 95/98/ME/NT. It was also the last "
 "version to ship with an ANSI version of WinMerge."
 msgstr ""
-"Η WinMerge έκδοση 2.12.4 ήταν η τελευταία έκδοση με το Microsft Visual C + +"
+"Η WinMerge έκδοση 2.12.4 ήταν η τελευταία έκδοση με το Microsoft Visual C + +"
 " 2005 που υποστηρίζε το Windows 95/98/Me/NT. Ήταν επίσης η τελευταία έκδοση "
 "που μεταφέρει με ANSI έκδοση του WinMerge. "
 

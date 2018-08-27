@@ -396,10 +396,10 @@ msgstr "Lizenz"
 #: downloads/index.php:68
 #, c-format
 msgid ""
-"WinMerge version 2.12.4 was the last version to ship with Microsft Visual C++ 2005 runtimes that support Windows 95/98/ME/NT. It was also the last version to ship "
+"WinMerge version 2.12.4 was the last version to ship with Microsoft Visual C++ 2005 runtimes that support Windows 95/98/ME/NT. It was also the last version to ship "
 "with an ANSI version of WinMerge."
 msgstr ""
-"WinMerge Version 2.12.4 war die letzte Version, die mit »Microsft Visual C++ 2005 Runtime« ausgeliefert wird, die Windows 95/98/ME/NT unterstützt. Es war außerdem "
+"WinMerge Version 2.12.4 war die letzte Version, die mit »Microsoft Visual C++ 2005 Runtime« ausgeliefert wird, die Windows 95/98/ME/NT unterstützt. Es war außerdem "
 "die letzte Version, die mit einer ANSI Version von WinMerge ausgeliefert wird."
 
 #: index.php:36
@@ -751,7 +751,7 @@ msgstr "Unicode-Unterstützung"
 #: support/index.php:41
 #, c-format
 msgid "You can also support WinMerge by buying merchandise at the <a href=\"%s\">WinMerge CafePress store</a>. 20%% of the sales goes to WinMerge."
-msgstr "Sie können auch durch den Kauf unterstützen WinMerge Waren an der WinMerge <a href=\"%s\">CafePress Shop</a>. 20% % der Verkäufe geht, WinMerge."
+msgstr "Sie können WinMerge auch unterstützen, indem Sie Waren im <a href=\"%s\">WinMerge-CafePress-Shop</a> kaufen. 20%% der Verkäufe gehen an WinMerge."
 
 #: downloads/source-code.php:62 support/index.php:29
 #, c-format
@@ -772,7 +772,7 @@ msgstr ""
 #: downloads/source-code.php:65
 #, c-format
 msgid "View code history&hellip;"
-msgstr "Code anzeigen History ... "
+msgstr "Alle Codeänderungen ansehen&hellip;"
 
 #: support/index.php:33
 #, c-format

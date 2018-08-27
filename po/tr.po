@@ -469,11 +469,11 @@ msgstr "Lisans"
 #: downloads/index.php:68
 #, c-format
 msgid ""
-"WinMerge version 2.12.4 was the last version to ship with Microsft Visual "
+"WinMerge version 2.12.4 was the last version to ship with Microsoft Visual "
 "C++ 2005 runtimes that support Windows 95/98/ME/NT. It was also the last "
 "version to ship with an ANSI version of WinMerge."
 msgstr ""
-"Windows 95/98/ME/NT işletim sistemlerini destekleyen ve Microsft Visual C++ "
+"Windows 95/98/ME/NT işletim sistemlerini destekleyen ve Microsoft Visual C++ "
 "2005 çalışma kitaplığı ile yayınlanan ve ANSI biçimindeki son WinMerge "
 "sürümü 2.12.4."
 

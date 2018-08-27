@@ -470,12 +470,12 @@ msgstr "Licens"
 #: downloads/index.php:68
 #, c-format
 msgid ""
-"WinMerge version 2.12.4 was the last version to ship with Microsft Visual "
+"WinMerge version 2.12.4 was the last version to ship with Microsoft Visual "
 "C++ 2005 runtimes that support Windows 95/98/ME/NT. It was also the last "
 "version to ship with an ANSI version of WinMerge."
 msgstr ""
 "WinMerge version 2.12.4 var den sista versionen som levererades med en "
-"Microsft Visual C++ 2005 runtimes som stödjer Windows 95/98/ME/NT. Det var "
+"Microsoft Visual C++ 2005 runtimes som stödjer Windows 95/98/ME/NT. Det var "
 "också sista versionen som levererades med en ANSI-version av WinMerge."
 
 #: index.php:36

@@ -554,7 +554,7 @@ msgid "WinMerge 2.12.4 <em>for Windows 95/98/ME/NT</em>"
 msgstr ""
 
 #: downloads/index.php:68
-msgid "WinMerge version 2.12.4 was the last version to ship with Microsft Visual C++ 2005 runtimes that support Windows 95/98/ME/NT. It was also the last version to ship with an ANSI version of WinMerge."
+msgid "WinMerge version 2.12.4 was the last version to ship with Microsoft Visual C++ 2005 runtimes that support Windows 95/98/ME/NT. It was also the last version to ship with an ANSI version of WinMerge."
 msgstr ""
 
 #: downloads/index.php:71

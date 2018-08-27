@@ -471,11 +471,11 @@ msgstr "Baimena"
 #: downloads/index.php:68
 #, c-format
 msgid ""
-"WinMerge version 2.12.4 was the last version to ship with Microsft Visual "
+"WinMerge version 2.12.4 was the last version to ship with Microsoft Visual "
 "C++ 2005 runtimes that support Windows 95/98/ME/NT. It was also the last "
 "version to ship with an ANSI version of WinMerge."
 msgstr ""
-"WinMerge 2.12.4 bertsioa Microsft Visual C++ 2005 runtime-rekin bidali zen "
+"WinMerge 2.12.4 bertsioa Microsoft Visual C++ 2005 runtime-rekin bidali zen "
 "azken bertsioa da, honek Windows 95/98/ME/NT sostengatzen du. Izan ere "
 "WinMerge-ren ANSI bertsio batekin bidali zen azken bertsioa."
 
