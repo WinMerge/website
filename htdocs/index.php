@@ -14,9 +14,9 @@
 
   $page->printSubHeading(__('Screenshot'));
 ?>
-<p><img class="image" src="about/screenshots/screenshot.png" alt="<?php __e('File Comparison');?>" width="792" height="519" border="0"></p>
+<p><img class="image" src="screenshots/screenshot.png" alt="<?php __e('File Comparison');?>" width="792" height="519" border="0"></p>
 <?php
-  $page->printPara(__('See the <a href="%s">screenshots page</a> for more screenshots.', 'about/screenshots/'));
+  $page->printPara(__('See the <a href="%s">screenshots page</a> for more screenshots.', 'screenshots/'));
 
   $page->printSubHeading(__('Features'));
   $page->printPara(__('WinMerge is highly useful for determining what has changed between project versions, and then merging changes between versions. WinMerge can be used as an external differencing/merging tool or as a standalone application.'));

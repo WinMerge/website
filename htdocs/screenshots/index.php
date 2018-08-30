@@ -1,10 +1,10 @@
 <?php
-  include('../../engine/engine.inc');
+  include('../engine/engine.inc');
 
   $page = new Page;
   $page->setDescription(__('Screenshots from WinMerge features like file comparison, folder comparison results and location pane.'));
   $page->setKeywords(__('WinMerge, screenshots, file comparison, open-dialog, folder comparison results, highlight line diff, location pane, splash screen'));
-  $page->printHead(__('Screenshots'), TAB_ABOUT);
+  $page->printHead(__('Screenshots'), TAB_SCREENSHOTS);
   
   $page->printHeading(__('Screenshots'));
 ?>

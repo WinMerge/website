@@ -15,7 +15,6 @@
   $page->printSubHeading(__('Were you looking for...'));
 ?>
 <ul>
-  <li><?php __e('<a href="%s">Screenshots</a>?', '/about/screenshots/');?></li>
   <li><?php __e('<a href="%s">Documentation</a>?', '/docs/');?>
     <ul>
       <li><?php __e('<a href="%s">Manual</a>?', 'http://manual.winmerge.org/');?></li>
@@ -24,6 +23,8 @@
     </ul>
   </li>
   <li><?php __e('<a href="%s">Downloads</a>?', '/downloads/');?></li>
+  <li><?php __e('<a href="%s">Screenshots</a>?', '/screenshots/');?></li>
+  <li><?php __e('<a href="%s">Source Code</a>?', '/source-code/');?></li>
   <li><?php __e('<a href="%s">Support</a>?', '/support/');?></li>
   <li><?php __e('<a href="%s">Translations</a>?', '/translations/');?></li>
 </ul>
