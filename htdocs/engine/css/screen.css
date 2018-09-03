@@ -117,30 +117,6 @@ a[name]:hover { color:black; text-decoration:none; }
 	border-radius: .3em .3em 0 0;
 }
 
-/* Subnavigation */
-#subnav {
-	color: black;
-	background: #f2f2f2;
-	border-bottom: 1px solid #d2d2d2;
-}
-
-#subnav ul {
-	width: 60em;
-	margin: 0 auto;
-	padding: 5px;
-}
-
-#subnav li {
-	margin: 0;
-	padding: 0 .5em 0 .5em;
-	display: inline;
-	list-style: none;
-	border: none;
-	border-right: 1px dotted #AAAAAA;
-}
-
-#subnav li:last-child { border: none; }
-
 /* Advertisement */
 #ads {
 	padding: .5em;
@@ -490,7 +466,7 @@ ul.buttons li .button {
 
 /* media queries */
 @media (max-width: 60em) {
-	#head, #nav, #subnav ul, #content, #foot .columns {
+	#head, #nav, #content, #foot .columns {
 		width: auto;
 	}
 }

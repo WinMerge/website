@@ -365,41 +365,6 @@
       $temp .= "</ul>\n";
       $temp .= "  </nav> <!-- #nav -->\n";
       $temp .= "</div> <!-- #topwrap -->\n";
-      
-      /* Sub Tabs */
-      $subtabs = array();
-      switch ($this->_tab) {
-        case TAB_DOCS: //if "Documentation" ...
-          $subtabs[0] = new Subtab($translations->prepareLink('/docs/'), __('Index'), __('WinMerge Documentation'));
-          $subtabs[1] = new Subtab('http://manual.winmerge.org/', __('Manual'), __('WinMerge Manual'));
-          $subtabs[2] = new Subtab('http://tour.winmerge.org/', __('Quick Tour'), __('WinMerge Quick Tour'));
-          $subtabs[3] = new Subtab($translations->prepareLink('/docs/releasenotes.php'), __('Release Notes'), __('WinMerge Release Notes'));
-          $subtabs[4] = new Subtab($translations->prepareLink('/docs/releasenotes.php#issues'), __('Known Issues'), __('WinMerge Known Issues'));
-          $subtabs[5] = new Subtab($translations->prepareLink('/docs/changelog.php'), __('Change Log'), __('WinMerge Change Log'));
-          //$subtabs[6] = new Subtab('http://wiki.winmerge.org/', __('Development Wiki'), __('WinMerge Development Wiki'));
-          break;
-        case TAB_SUPPORT: //if "Support" ...
-          $subtabs[0] = new Subtab($translations->prepareLink('/support/'), __('Index'), __('WinMerge Support'));
-          $subtabs[1] = new Subtab('http://forums.winmerge.org/', __('Discussion Forums'), __('WinMerge Discussion Forums'));
-          $subtabs[2] = new Subtab($translations->prepareLink('/support/mailing-lists.php'), __('Mailing Lists'), __('WinMerge Mailing Lists'));
-          $subtabs[5] = new Subtab('https://sourceforge.net/donate/index.php?group_id=13216', __('Donate'), __('Donate money to WinMerge'));
-          break;
-      }
-      
-      if (count($subtabs) > 0) { //if subtabs exists...
-        $temp .= "<nav id=\"subnav\">\n";
-        $temp .= "<ul>\n";
-        foreach ($subtabs as $subtab) { //for all subtabs...
-          if ($subtab->isCurrent() == true) { //if current subtab...
-            $temp .= "  <li><strong><a href=\"" . $subtab->getLink() . "\" title=\"" . $subtab->getToolTipText() . "\">" . $subtab->getTitle() . "</a></strong></li>\n";
-          }
-          else { //if NOT current subtab...
-            $temp .= "  <li><a href=\"" . $subtab->getLink() . "\" title=\"" . $subtab->getToolTipText() . "\">" . $subtab->getTitle() . "</a></li>\n";
-          }
-        }
-        $temp .= "</ul>\n";
-        $temp .= "</nav> <!-- #subtabs -->\n";
-      }
 
       return $temp;
     }
