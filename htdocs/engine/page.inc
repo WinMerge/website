@@ -384,11 +384,6 @@
           $subtabs[2] = new Subtab($translations->prepareLink('/support/mailing-lists.php'), __('Mailing Lists'), __('WinMerge Mailing Lists'));
           $subtabs[5] = new Subtab('https://sourceforge.net/donate/index.php?group_id=13216', __('Donate'), __('Donate money to WinMerge'));
           break;
-        case TAB_TRANSLATIONS: //if "Translations" ...
-          $subtabs[0] = new Subtab($translations->prepareLink('/translations/'), __('Index'), __('WinMerge Translations'));
-          $subtabs[1] = new Subtab($translations->prepareLink('/translations/instructions.php'), __('Instructions'), __('WinMerge Translations Instructions'));
-          $subtabs[2] = new Subtab($translations->prepareLink('/translations/status_website.php'), __('Status (Website)'), __('WinMerge Translations Status (Website)'));
-          break;
       }
       
       if (count($subtabs) > 0) { //if subtabs exists...

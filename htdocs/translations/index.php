@@ -17,6 +17,8 @@
     print("  <li><a href=\"#shellextension\">" . __('ShellExtension Status') . "</a></li>\n");
     print("  <li><a href=\"#innosetup\">" . __('InnoSetup Files') . "</a></li>\n");
     print("  <li><a href=\"#readme\">" . __('Readme Files') . "</a></li>\n");
+    print("  <li><a href=\"/translations/status_website.php\">" . __('Website Status') . "</a></li>\n");
+    print("  <li><a href=\"/translations/instructions.php\">" . __('Instructions') . "</a></li>\n");
     print("</ul>\n");
     
     $page->printSubHeading(__('Translating'));
