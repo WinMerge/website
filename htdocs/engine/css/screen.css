@@ -315,28 +315,6 @@ ul.inline li {
 	font-size: smaller;
 }
 
-/* Info card (Mailing lists, History) */
-.infocard {
-	width: 40em;
-	margin: 1em;
-	padding: 0;
-	background: #f9f9f9;
-	border: 1px solid #aaaaaa;
-}
-
-.infocard h3 {
-	margin: 0;
-	padding: 5px;
-	background: #f2f2f2;
-	border-bottom: 1px solid #aaaaaa;
-}
-
-.infocard p {
-	margin: 0;
-	padding: 5px;
-	padding-top: 0;
-}
-
 /* Screenshots */
 .screenshots {
 	height: 1%; /* IE fix */
@@ -423,6 +401,20 @@ ul.inline li {
 .button:hover, .button:focus {
 	background-color: #039;
 }
+.button.is-light {
+	color: #000 !important;
+	background-color: #ccc;
+}
+.button.is-light:hover, .button.is-light:focus {
+	background-color: #aaa;
+}
+.button.is-dark {
+	color: #fff !important;
+	background-color: #333;
+}
+.button.is-dark:hover, .button.is-dark:focus {
+	background-color: #111;
+}
 .button.is-success {
 	color: #fff !important;
 	background-color: #00b300;
@@ -443,6 +435,15 @@ ul.inline li {
 }
 .button.is-danger:hover, .button.is-danger:focus {
 	background-color: #f33;
+}
+.button.is-small {
+	font-size: small;
+}
+.button.is-medium {
+	font-size: large;
+}
+.button.is-large {
+	font-size: x-large;
 }
 
 /* Button list */
@@ -480,9 +481,6 @@ ul.buttons li .button {
 	#foot .column {
 		width: auto;
 		float: none;
-	}
-	.infocard {
-		width: auto;
 	}
 }
 @media (max-width: 30em) {
