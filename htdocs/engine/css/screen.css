@@ -79,9 +79,7 @@ a[name]:hover { color:black; text-decoration:none; }
 }
 #head p.downloadlink {
 	float: right;
-}
-#head a.downloadnow {
-	margin: 0 auto;
+	text-align: center;
 }
 
 /* Based on W3Schools example:
@@ -196,46 +194,6 @@ a[name]:hover { color:black; text-decoration:none; }
 #foot a:focus { color:dimgray; text-decoration:underline; }
 #foot a:hover { color:dimgray; text-decoration:underline; }
 #foot a:active { color:dimgray; text-decoration:none; }
-
-/* "Download Now!" link */
-a.downloadnow {
-	display: block;
-	width: 12em;
-	margin: 0;
-	padding: .5em;
-	text-align: center;
-	text-decoration: none;
-	color: white;
-	background: #00b300;
-	border: 1px solid #060;
-	border-radius: 1em;
-}
-
-a.downloadnow:link,
-a.downloadnow:visited {
-	text-decoration: none;
-	color: white;
-}
-
-a.downloadnow:focus,
-a.downloadnow:hover {
-	text-decoration: none;
-	color: white;
-	background: #060;
-}
-
-a.downloadnow strong {
-	display: block;
-	/*text-decoration: underline;*/
-	font-size: larger;
-	font-weight: bold;
-}
-
-a.downloadnow em {
-	display: block;
-	font-size: smaller;
-	font-style: normal;
-}
 
 /* SHA-1 Checksums */
 .checksums {
