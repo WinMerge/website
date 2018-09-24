@@ -62,7 +62,6 @@
 <?php
   $page->printSubHeading(__('WinMerge %s - latest stable version', $stablerelease->getVersionNumber()));
   $page->printPara(__('<a href="%1$s">WinMerge %2$s</a> is the latest stable version, and is recommended for most users.', 'downloads/', $stablerelease->getVersionNumber()));
-  $page->printDownloadNow();
 
   $page->printRssSubHeading(__('Project News'), 'https://sourceforge.net/export/rss2_projnews.php?group_id=13216');
   $feed = new SimplePie();
