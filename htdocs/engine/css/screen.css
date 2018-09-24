@@ -346,6 +346,9 @@ ul.inline li {
 .center { text-align: center; }
 .right { text-align: right; }
 
+/* Indented content */
+.indented { margin: 1em; }
+
 /* Button */
 .button {
 	display: inline-block;
