@@ -1,11 +1,9 @@
 <?php
   include('../engine/engine.inc');
-  include('../engine/simplepie/simplepie.inc');
 
   $page = new Page;
   $page->setDescription(__('Download the source code of WinMerge, which is released under the GNU General Public License.'));
   $page->setKeywords(__('WinMerge, free, download, source code, GPL, Bitbucket, Mercurial'));
-  $page->addRssFeed('https://bitbucket.org/winmerge/winmerge/rss', __('Recent Code Changes'));
   $page->printHead(__('Source Code'), TAB_SOURCE_CODE);
   
   $page->printHeading(__('Source Code'));
@@ -37,21 +35,6 @@ along with WinMerge.  If not, see &lt;<a href="https://www.gnu.org/licenses/">ht
   $page->printPara(__('<a href="https://bitbucket.org/winmerge/winmerge" class="button">https://bitbucket.org/winmerge/winmerge</a>'));
   $page->printSubSubHeading(__('Git Mirror'));
   $page->printPara(__('<a href="https://github.com/sdottaka/winmerge-v2.git" class="button is-light">https://github.com/sdottaka/winmerge-v2.git</a>'));
-
-  $page->printRssSubHeading(__('Recent Code Changes'), 'https://bitbucket.org/winmerge/winmerge/rss');
-  $feed = new SimplePie();
-  $feed->set_feed_url('https://bitbucket.org/winmerge/winmerge/rss');
-  $feed->set_cache_location('../engine/simplepie/cache');
-  $feed->init();
-  print("<ul class=\"rssfeeditems\">\n");
-  foreach ($feed->get_items(0, 10) as $item) { //for the last 10 code changes...
-    $title = strip_tags($item->get_title());
-    $link = $item->get_link();
-    $date = $item->get_date(__('Y-m-d H:i'));
-    print("  <li><a href=\"$link\">$title</a> <em>$date</em></li>\n");
-  }
-  print("  <li><a href=\"https://bitbucket.org/winmerge/winmerge/commits/\">" . __('View code history&hellip;') . "</a></li>\n");
-  print("</ul>\n");
 
   $page->printFoot();
 ?>
