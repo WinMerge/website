@@ -27,9 +27,6 @@
   <h3><?php __e('Location Pane');?></h3>
   <a href="screenshot.png" target="_blank"><img class="image" src="screenshot_small.png" alt="<?php __e('Location Pane');?>" width="300" height="200" border="0"></a>
   <p><?php __e('Location pane is a handy side-pane showing a overall (difference) map of files compared.');?></p>
-  <h3><?php __e('Splash Screen');?></h3>
-  <a href="splash_screen.png" target="_blank"><img class="image" src="splash_screen_small.png" alt="<?php __e('Splash Screen');?>" width="312" height="200" border="0"></a>
-  <p><?php __e('WinMerge 2.8 has a new professional looking splash screen.');?></p>
   <br />
 </div>
 <?php
