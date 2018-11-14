@@ -54,6 +54,10 @@ Redirect permanent /about/history.php https://bitbucket.org/winmerge/winmerge/wi
 Redirect permanent /about/ /
 Redirect permanent /about/screenshots/ /screenshots/
 
+#Move screenshot.png to new file...
+Redirect permanent /about/screenshots/screenshot.png /screenshots/filecmp.png
+Redirect permanent /screenshots/screenshot.png /screenshots/filecmp.png
+
 #Move old pages to new source code page...
 Redirect permanent /about/license.php /source-code/
 Redirect permanent /downloads/source-code.php /source-code/

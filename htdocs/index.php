@@ -14,7 +14,7 @@
 
   $page->printSubHeading(__('Screenshot'));
 ?>
-<p><img class="image" src="screenshots/screenshot.png" alt="<?php __e('File Comparison');?>" width="792" height="519" border="0"></p>
+<p><img class="image" src="screenshots/filecmp.png" alt="<?php __e('File Comparison');?>" border="0"></p>
 <?php
   $page->printPara(__('See the <a href="%s">screenshots page</a> for more screenshots.', 'screenshots/'));
 
