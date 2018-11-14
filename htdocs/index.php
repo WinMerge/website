@@ -49,7 +49,6 @@
 <ul>
   <li><?php __e('Creates patch files (Normal-, Context- and Unified formats)');?></li>
   <li><?php __e('Resolve conflict files');?></li>
-  <li><?php __e('Rudimentary Visual SourceSafe and Rational ClearCase integration');?></li>
 </ul>
 <h4><?php __e('Other');?></h4>
 <ul>
