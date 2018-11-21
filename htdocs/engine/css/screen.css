@@ -362,7 +362,7 @@ ul.inline li {
 	background-color: #060;
 }
 .button.is-warning {
-	color: #000 !important;
+	color: rgba(0, 0, 0, 0.7) !important;
 	background-color: #fc3;
 }
 .button.is-warning:hover, .button.is-warning:focus {
@@ -402,6 +402,38 @@ ul.buttons li .button {
 .image {
 	max-width: 100%;
 	height: auto;
+}
+
+/* Tag */
+.tag {
+	display: inline-block;
+	padding: .2em .4em;
+	font-size: .75em;
+	vertical-align: text-top;
+	color: #fff !important;
+	background-color: #36c;
+	border-radius: .6em;
+	white-space: nowrap;
+}
+.tag.is-light {
+	color: #000 !important;
+	background-color: #ccc;
+}
+.tag.is-dark {
+	color: #fff !important;
+	background-color: #333;
+}
+.tag.is-success {
+	color: #fff !important;
+	background-color: #00b300;
+}
+.tag.is-warning {
+	color: rgba(0, 0, 0, 0.7) !important;
+	background-color: #fc3;
+}
+.tag.is-danger {
+	color: #fff !important;
+	background-color: #f66;
 }
 
 /* media queries */
