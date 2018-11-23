@@ -150,15 +150,10 @@
       foreach ($this->_rssfeeds as $rssurl => $rsstitle) { //for all RSS feeds...
         $temp .= "  <link rel=\"alternate\" type=\"application/rss+xml\" title=\"" . $rsstitle . "\" href=\"" . $rssurl . "\">\n";
       }
-      if ($translations->isBaseLanguage()) { //if base language...
-        $temp .= "  <link rel=\"canonical\" href=\"" . $translations->getLink() . "\">\n";
-      }
+      $temp .= "  <link rel=\"canonical\" href=\"http://winmerge.org" . $translations->getLink($translations->getActiveLanguage(), true) . "\">\n";
       if ($translations->getLanguagesCount() > 1) { //if at least 2 languages exists...
         foreach ($translations->getLanguages() as $language) {
           $languageId = str_replace('_', '-', $language->getId());
-          if ($translations->isActiveLanguage($language)) { //if current language...
-            $languageId = 'x';
-          }
           $languageLink = 'http://winmerge.org' . $translations->getLink($language, true);
           $temp .= "  <link rel=\"alternate\" href=\"" . $languageLink . "\" hreflang=\"" . $languageId . "\">\n";
         }
