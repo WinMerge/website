@@ -15,7 +15,7 @@
   class Release {
     var $_versionnumber;
     var $_date;
-    var $_downloads, $_downloadsizes, $_downloadsha1sums;
+    var $_downloads, $_downloadsizes, $_downloadsha256sums;
     var $_branchname;
 
     /**
@@ -26,7 +26,7 @@
       $this->_date = '';
       $this->_downloads = array();
       $this->_downloadsizes = array();
-      $this->_downloadsha1sums = array();
+      $this->_downloadsha256sums = array();
     }
 
     /**
@@ -68,10 +68,10 @@
     /**
      * add a download from the release
      */
-    function addDownload($id, $url, $size, $sha1 = '') {
+    function addDownload($id, $url, $size, $sha256 = '') {
       $this->_downloads[$id] = $url;
       $this->_downloadsizes[$id] = $size;
-      $this->_downloadsha1sums[$id] = $sha1;
+      $this->_downloadsha256sums[$id] = $sha256;
     }
 
     /**
@@ -110,10 +110,10 @@
     }
 
     /**
-     * get a download SHA-1 sum from the release
+     * get a download SHA256 sum from the release
      */
-    function getDownloadSha1Sum($id) {
-      return $this->_downloadsha1sums[$id];
+    function getDownloadSha256Sum($id) {
+      return $this->_downloadsha256sums[$id];
     }
 
     /**

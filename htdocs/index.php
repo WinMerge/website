@@ -24,7 +24,7 @@
 ?>
 <h4><?php __e('General');?></h4>
 <ul>
-  <li><?php __e('Supports Microsoft Windows 2000/XP/2003/Vista/2008/7/8/2012');?></li>
+  <li><?php __e('Supports Microsoft Windows XP or newer');?></li>
   <li><?php __e('Handles Windows, Unix and Mac text file formats');?></li>
   <li><?php __e('Unicode support');?></li>
   <li><?php __e('Tabbed interface');?></li>

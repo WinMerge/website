@@ -24,31 +24,31 @@
       <th class="center"><?php __e('Format');?></th>
     </tr>
     <tr>
-      <td class="left"><a href="<?php echo $stablerelease->getDownload('setup.exe');?>" class="button"><?php echo $stablerelease->getDownloadFileName('setup.exe');?></a></td>
+      <td class="left"><a href="<?php echo $stablerelease->getDownload('setup.exe');?>" target="_blank" class="button"><?php echo $stablerelease->getDownloadFileName('setup.exe');?></a></td>
       <td class="center"><?php __e('%s MB', $stablerelease->getDownloadSizeMb('setup.exe'));?></td>
       <td class="center"><?php __e('Installer');?></td>
       <td class="center"><?php __e('EXE');?></td>
     </tr>
     <tr>
-      <td class="left"><a href="<?php echo $stablerelease->getDownload('exe.zip');?>" class="button is-dark"><?php echo $stablerelease->getDownloadFileName('exe.zip');?></a></td>
+      <td class="left"><a href="<?php echo $stablerelease->getDownload('setup64.exe');?>" target="_blank" class="button is-dark"><?php echo $stablerelease->getDownloadFileName('setup64.exe');?></a></td>
+      <td class="center"><?php __e('%s MB', $stablerelease->getDownloadSizeMb('setup64.exe'));?></td>
+      <td class="center"><?php __e('Installer');?></td>
+      <td class="center"><?php __e('EXE');?></td>
+    </tr>
+    <tr>
+      <td class="left"><a href="<?php echo $stablerelease->getDownload('exe.zip');?>" target="_blank" class="button is-dark"><?php echo $stablerelease->getDownloadFileName('exe.zip');?></a></td>
       <td class="center"><?php __e('%s MB', $stablerelease->getDownloadSizeMb('exe.zip'));?></td>
       <td class="center"><?php __e('Binaries');?></td>
       <td class="center"><?php __e('ZIP');?></td>
     </tr>
     <tr>
-      <td class="left"><a href="<?php echo $stablerelease->getDownload('exe.7z');?>" class="button is-dark"><?php echo $stablerelease->getDownloadFileName('exe.7z');?></a></td>
-      <td class="center"><?php __e('%s MB', $stablerelease->getDownloadSizeMb('exe.7z'));?></td>
+      <td class="left"><a href="<?php echo $stablerelease->getDownload('exe64.zip');?>" target="_blank" class="button is-dark"><?php echo $stablerelease->getDownloadFileName('exe64.zip');?></a></td>
+      <td class="center"><?php __e('%s MB', $stablerelease->getDownloadSizeMb('exe64.zip'));?></td>
       <td class="center"><?php __e('Binaries');?></td>
-      <td class="center"><?php __e('7z');?></td>
-    </tr>
-    <tr>
-      <td class="left"><a href="<?php echo $stablerelease->getDownload('src.zip');?>" class="button is-light"><?php echo $stablerelease->getDownloadFileName('src.zip');?></a></td>
-      <td class="center"><?php __e('%s MB', $stablerelease->getDownloadSizeMb('src.zip'));?></td>
-      <td class="center"><?php __e('Source Code');?></td>
       <td class="center"><?php __e('ZIP');?></td>
     </tr>
     <tr>
-      <td class="left"><a href="<?php echo $stablerelease->getDownload('src.7z');?>" class="button is-light"><?php echo $stablerelease->getDownloadFileName('src.7z');?></a></td>
+      <td class="left"><a href="<?php echo $stablerelease->getDownload('src.7z');?>" target="_blank" class="button is-light"><?php echo $stablerelease->getDownloadFileName('src.7z');?></a></td>
       <td class="center"><?php __e('%s MB', $stablerelease->getDownloadSizeMb('src.7z'));?></td>
       <td class="center"><?php __e('Source Code');?></td>
       <td class="center"><?php __e('7z');?></td>
@@ -56,30 +56,35 @@
   </table>
 </div> <!-- .table-scrollable -->
 <div class="checksums">
-  <h4><a href="javascript:toggle('checksumslist')"><?php __e('SHA-1 Checksums');?></a></h4>
+  <h4><a href="javascript:toggle('checksumslist')"><?php __e('SHA-256 Checksums');?></a></h4>
   <dl id="checksumslist">
     <dt><?php echo $stablerelease->getDownloadFileName('setup.exe'); ?></dt>
-    <dd><code><?php echo $stablerelease->getDownloadSha1Sum('setup.exe') ?></code></dd>
+    <dd><code><?php echo $stablerelease->getDownloadSha256Sum('setup.exe') ?></code></dd>
+    <dt><?php echo $stablerelease->getDownloadFileName('setup64.exe'); ?></dt>
+    <dd><code><?php echo $stablerelease->getDownloadSha256Sum('setup64.exe') ?></code></dd>
     <dt><?php echo $stablerelease->getDownloadFileName('exe.zip'); ?></dt>
-    <dd><code><?php echo $stablerelease->getDownloadSha1Sum('exe.zip') ?></code></dd>
-    <dt><?php echo $stablerelease->getDownloadFileName('exe.7z'); ?></dt>
-    <dd><code><?php echo $stablerelease->getDownloadSha1Sum('exe.7z') ?></code></dd>
-    <dt><?php echo $stablerelease->getDownloadFileName('src.zip'); ?></dt>
-    <dd><code><?php echo $stablerelease->getDownloadSha1Sum('src.zip') ?></code></dd>
+    <dd><code><?php echo $stablerelease->getDownloadSha256Sum('exe.zip') ?></code></dd>
+    <dt><?php echo $stablerelease->getDownloadFileName('exe64.zip'); ?></dt>
+    <dd><code><?php echo $stablerelease->getDownloadSha256Sum('exe64.zip') ?></code></dd>
     <dt><?php echo $stablerelease->getDownloadFileName('src.7z'); ?></dt>
-    <dd><code><?php echo $stablerelease->getDownloadSha1Sum('src.7z') ?></code></dd>
+    <dd><code><?php echo $stablerelease->getDownloadSha256Sum('src.7z') ?></code></dd>
   </dl>
 </div> <!-- #checksums -->
 <?php
   $page->printSubSubHeading(__('Requirements'));
 ?>
 <ul>
-  <li><?php __e('Microsoft Windows 2000/XP/2003/Vista/2008/7/8/2012');?></li>
-  <li><?php __e('Microsoft Visual C++ 2008 Runtime Components (included in the installer)');?></li>
+  <li><?php __e('Microsoft Windows XP or newer');?></li>
+  <li><?php __e('Microsoft Visual C++ 2013 Runtime Components (included in the installer)');?></li>
   <li><?php __e('Admin rights for the installer');?></li>
 </ul>
 <?php
   $page->printSubHeading(__('Other Versions'));
+  $page->printSubSubHeading(__('WinMerge 2.14.0 <em>for Windows 2000</em>'));
+  $page->printPara(__('WinMerge version 2.14.0 was the last version to ship with Microsoft Visual C++ 2008 runtimes that support Windows 2000.'));
+?>
+<p><a href="https://sourceforge.net/projects/winmerge/files/stable/2.14.0/" class="button is-small"><?php __e('Get version %s', '2.14.0');?></a></li></p>
+<?php
   $page->printSubSubHeading(__('WinMerge 2.12.4 <em>for Windows 95/98/ME/NT</em>'));
   $page->printPara(__('WinMerge version 2.12.4 was the last version to ship with Microsoft Visual C++ 2005 runtimes that support Windows 95/98/ME/NT. It was also the last version to ship with an ANSI version of WinMerge.'));
 ?>
