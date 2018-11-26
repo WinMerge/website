@@ -32,9 +32,9 @@ along with WinMerge.  If not, see &lt;<a href="https://www.gnu.org/licenses/">ht
                    __('We have also a <a href="%1$s">Git</a> repository as mirror on <a href="%2$s">GitHub</a>.', 'https://git-scm.com/', 'https://github.com/'));
 
   $page->printSubSubHeading(__('Mercurial'));
-  $page->printPara(__('<a href="https://bitbucket.org/winmerge/winmerge" class="button is-small">https://bitbucket.org/winmerge/winmerge</a>'));
+  $page->printPara('<a href="https://bitbucket.org/winmerge/winmerge" class="button is-small">https://bitbucket.org/winmerge/winmerge</a>');
   $page->printSubSubHeading(__('Git Mirror'));
-  $page->printPara(__('<a href="https://github.com/sdottaka/winmerge-v2.git" class="button is-small is-light">https://github.com/sdottaka/winmerge-v2.git</a>'));
+  $page->printPara('<a href="https://github.com/sdottaka/winmerge-v2.git" class="button is-small is-light">https://github.com/sdottaka/winmerge-v2.git</a>');
 
   $page->printFoot();
 ?>

@@ -1374,18 +1374,6 @@ msgstr ""
 msgid "Mercurial"
 msgstr ""
 
-#: source-code/index.php:35
-msgid ""
-"<a href=\"https://bitbucket.org/winmerge/winmerge\" class=\"button is-"
-"small\">https://bitbucket.org/winmerge/winmerge</a>"
-msgstr ""
-
-#: source-code/index.php:37
-msgid ""
-"<a href=\"https://github.com/sdottaka/winmerge-v2.git\" class=\"button is-"
-"small is-light\">https://github.com/sdottaka/winmerge-v2.git</a>"
-msgstr ""
-
 #: translations/index.php:20
 msgid "Website Status"
 msgstr ""
