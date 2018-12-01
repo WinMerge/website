@@ -93,3 +93,8 @@ RewriteRule   ^patch/(\d{1,5})$ https://sourceforge.net/p/winmerge/patches/$1/ [
 RewriteRule   ^support/(\d{1,5})$ https://sourceforge.net/p/winmerge/support-requests/$1/ [R=permanent]
 RewriteRule   ^rfe/(\d{1,5})$ https://sourceforge.net/p/winmerge/feature-requests/$1/ [R=permanent]
 RewriteRule   ^todo/(\d{1,5})$ https://sourceforge.net/p/winmerge/todo/$1/ [R=permanent]
+
+#XML Sitemap...
+RewriteEngine On
+RewriteBase   /
+RewriteRule   ^sitemap.xml$ /sitemap.xml.php [L]
