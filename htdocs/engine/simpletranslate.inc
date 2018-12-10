@@ -370,13 +370,7 @@
      * @return string Prepared link
      */
     function prepareLink($link) {
-      $activelanguage = $this->getActiveLanguage();
-      if ((strtolower(get_class($activelanguage)) == 'simpletranslatelanguage') || ($this->_forceurlparameter == true)) { //if normal language OR forcing URL parameter...
-        return $this->appendUrlParameter($link, $this->_urlparameter, $activelanguage->getId());
-      }
-      else { //if base language...
-        return $this->appendUrlParameter($link, $this->_urlparameter);
-      }
+      return $this->appendUrlParameter($link, $this->_urlparameter, $this->getActiveLanguageId());
     }
 
     /**
