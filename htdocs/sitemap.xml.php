@@ -25,11 +25,11 @@
   foreach ($baseUrls as $baseUrl) { //for all base URLs...
     foreach ($languages as $language) { //for all languages...
       print("  <url>\n");
-      $url = $translations->appendUrlParameter($baseUrl, '', $language->getId());
+      $url = $translations->appendUrlParameter($baseUrl, 'lang', $language->getId());
       print("    <loc>$url</loc>\n");
       foreach ($alternateLanguages as $alternateLanguage) { //for all alternate languages...
         $hreflang = $alternateLanguage->getId();
-        $href = $translations->appendUrlParameter($baseUrl, '', $alternateLanguage->getId());
+        $href = $translations->appendUrlParameter($baseUrl, 'lang', $hreflang);
         print("    <xhtml:link rel=\"alternate\" hreflang=\"$hreflang\" href=\"$href\"/>\n");
       }
       print("  </url>\n");
