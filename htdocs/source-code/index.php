@@ -34,7 +34,7 @@ along with WinMerge.  If not, see &lt;<a href="https://www.gnu.org/licenses/">ht
   $page->printSubSubHeading(__('Mercurial'));
   $page->printPara('<a href="https://bitbucket.org/winmerge/winmerge" class="button is-small">https://bitbucket.org/winmerge/winmerge</a>');
   $page->printSubSubHeading(__('Git Mirror'));
-  $page->printPara('<a href="https://github.com/sdottaka/winmerge-v2.git" class="button is-small is-light">https://github.com/sdottaka/winmerge-v2.git</a>');
+  $page->printPara('<a href="https://github.com/winmerge/winmerge-v2.git" class="button is-small is-light">https://github.com/winmerge/winmerge-v2.git</a>');
 
   $page->printFoot();
 ?>
