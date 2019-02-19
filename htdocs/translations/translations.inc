@@ -174,6 +174,14 @@
         if ((bool)$translation->attributes()->template == false) { //If NO template...
           $temp .= "  <li><a href=\"" . $srcUrl . (string)$translation->file . "\" rel=\"nofollow\">" . (string)$translation->language . "</a></li>\n";
         }
+        else { //If template...
+          if (strcasecmp($translation->file, 'ReadMe.txt') == 0) { //HACK: The ReadMe.txt has a different path!
+            $temp .= "  <li><a href=\"https://bitbucket.org/winmerge/winmerge/src/default/Docs/Users/ReadMe.txt\" rel=\"nofollow\">" . (string)$translation->language . "&nbsp;(" . __('Template') . ")</a></li>\n";
+          }
+          else {
+            $temp .= "  <li><a href=\"" . $srcUrl . (string)$translation->file . "\" rel=\"nofollow\">" . (string)$translation->language . "&nbsp;(" . __('Template') . ")</a></li>\n";
+          }
+        }
       }
       $temp .= "</ul>\n";
       return $temp;
@@ -186,7 +194,7 @@
      */
     public function printProjectTable($projectName, $srcUrl) {
       $temp = '';
-      foreach ($this->_status->translations as $translations) { //for all projects...
+      foreach ($this->_status->translations as $translations) { //for all translations...
         if ((string)$translations->attributes()->project == $projectName) {
           $temp .= $this->getProjectTable($translations, $srcUrl);
           $temp .= $this->getStatusGraphLegend();
@@ -203,7 +211,7 @@
      */
     public function printProjectList($projectName, $srcUrl) {
       $temp = '';
-      foreach ($this->_status->translations as $translations) { //for all projects...
+      foreach ($this->_status->translations as $translations) { //for all translations...
         if ((string)$translations->attributes()->project == $projectName) {
           $temp .= $this->getProjectLine($translations, $srcUrl);
           break;
