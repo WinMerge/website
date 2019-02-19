@@ -307,7 +307,7 @@
                 $maintainer = (bool)$translator->attributes()->maintainer;
                 
                 if ($maintainer)
-                  $temp .= "<strong title=\"Maintainer\">";
+                  $temp .= "<strong title=\"" . __('Maintainer') . "\">";
                 if ($translator_mail != '')
                   $temp .= "<a href=\"mailto:" . $translator_mail . "\" title=\"" . htmlentities($translator_name, ENT_COMPAT, 'UTF-8') . " &lt;" . $translator_mail . "&gt;\">" . htmlentities($translator_name, ENT_COMPAT, 'UTF-8') . "</a>";
                 else
