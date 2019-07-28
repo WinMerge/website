@@ -43,13 +43,13 @@
       $this->_tab = TAB_HOME;
       /* _Stable Release */
       $this->_stablerelease = new Release;
-      $this->_stablerelease->setVersionNumber('2.16.2');
-      $this->_stablerelease->setDate('2019-04-04');
-      $this->_stablerelease->addDownload('setup.exe', 'https://downloads.sourceforge.net/winmerge/WinMerge-2.16.2-Setup.exe', 5953572, '2226D35E8D21285CD828CDD2781736E29843FF571480A01CF2FDD961D2C61295');
-      $this->_stablerelease->addDownload('setup64.exe', 'https://downloads.sourceforge.net/winmerge/WinMerge-2.16.2-x64-Setup.exe', 6572410, '201251A256E9B67B932B696DDD859D22BE8CB41996600D616CE8B64DA104ED68');
-      $this->_stablerelease->addDownload('exe.zip', 'https://downloads.sourceforge.net/winmerge/winmerge-2.16.2-exe.zip', 7708681, '674E7430FF0056CCBD5537C60ED0F8D87A6C6896D89C927FF60A6AD53A1C9F46');
-      $this->_stablerelease->addDownload('exe64.zip', 'https://downloads.sourceforge.net/winmerge/winmerge-2.16.2-x64-exe.zip', 8706702, '1AFACD914D45B431098AF200032C1F67DDBE16FF7710C2B476288548797EE144');
-      $this->_stablerelease->addDownload('src.7z', 'https://downloads.sourceforge.net/winmerge/winmerge-2.16.2-full-src.7z', 11240663, 'E0216F6ED9B0D5222369340FDC4B5819A3EF5F6B7944BD85D60C52E42696B8C0');
+      $this->_stablerelease->setVersionNumber('2.16.4');
+      $this->_stablerelease->setDate('2019-07-28');
+      $this->_stablerelease->addDownload('setup.exe', 'https://downloads.sourceforge.net/winmerge/WinMerge-2.16.4-Setup.exe', 5775637, '946676A4F59AD0EDBD1213E868078CB5BC9DB87B5C49085241EE843BB5664A19');
+      $this->_stablerelease->addDownload('setup64.exe', 'https://downloads.sourceforge.net/winmerge/WinMerge-2.16.4-x64-Setup.exe', 7195644, '018FCF478A6466AC48A81D8B5D40FB5F4C5C4AF3CAA84E25B5E8223368888745');
+      $this->_stablerelease->addDownload('exe.zip', 'https://downloads.sourceforge.net/winmerge/winmerge-2.16.4-exe.zip', 7164673, '6D07B20ADD227AC564BCF08AB4F520527FEAD773694E63BED3E09C189E06991D');
+      $this->_stablerelease->addDownload('exe64.zip', 'https://downloads.sourceforge.net/winmerge/winmerge-2.16.4-x64-exe.zip', 7991839, '40364B7692A6EBDB3E0037F5C24900B9BEFDB31AD08B6822DAEFC31BE80EEA17');
+      $this->_stablerelease->addDownload('src.7z', 'https://downloads.sourceforge.net/winmerge/winmerge-2.16.4-full-src.7z', 11163156, 'DD27C6636CDF73479BDAAC8C351A2DC115ADFC49CBF6706D0EE80DA3EA78070D');
       $this->_stablerelease->setBranchName('stable');
     }
 
