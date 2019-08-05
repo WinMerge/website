@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: http://winmerge.org/sitemap.xml
+Sitemap: https://winmerge.org/sitemap.xml

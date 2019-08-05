@@ -64,7 +64,7 @@
   <li><?php __e('Archive file support using 7-Zip');?></li>
   <li><?php __e('Plugin support');?></li>
   <li><?php __e('Localizable interface');?></li>
-  <li><?php __e('<a href="%s">Online manual</a> and installed HTML Help manual', 'http://manual.winmerge.org/');?></li>
+  <li><?php __e('<a href="%s">Online manual</a> and installed HTML Help manual', 'https://manual.winmerge.org/');?></li>
 </ul>
 <?php
   $page->printSubHeading(__('WinMerge %s - latest stable version', $stablerelease->getVersionNumber()));

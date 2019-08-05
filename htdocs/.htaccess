@@ -35,12 +35,14 @@ ErrorDocument 404 /404.php
 </FilesMatch>
 
 #Redirect PAD download URL to current WinMerge version...
-Redirect permanent /downloads/WinMerge-Setup.exe http://downloads.sourceforge.net/winmerge/WinMerge-2.14.0-Setup.exe
+Redirect permanent /downloads/WinMerge-Setup.exe https://downloads.sourceforge.net/winmerge/WinMerge-2.16.4-Setup.exe
 
-#Redirect www.winmerge.org to winmerge.org...
+#Redirect HTTP to HTTPS and www.winmerge.org to winmerge.org...
 RewriteEngine On
+RewriteCond %{HTTPS} off
+RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [R=permanent,L]
 RewriteCond   %{HTTP_HOST} ^www\.winmerge\.org$ [NC]
-RewriteRule   ^(.*)$ http://winmerge.org/$1 [R=permanent,L]
+RewriteRule   ^(.*)$ https://winmerge.org/$1 [R=permanent,L]
 
 #CSS versioning...
 RewriteEngine On
@@ -74,13 +76,13 @@ Redirect permanent /translations/status_trunk_rss.php /translations/status-feed/
 Redirect permanent /about/ /
 
 #Move manual to a own sub domain...
-Redirect permanent /docs/manual/ http://manual.winmerge.org/
+Redirect permanent /docs/manual/ https://manual.winmerge.org/
 
 #Move quick tour to a own sub domain...
-Redirect permanent /docs/tour/ http://tour.winmerge.org/
+Redirect permanent /docs/tour/ https://tour.winmerge.org/
 
 #Move forums to a own sub domain...
-Redirect permanent /forums http://forums.winmerge.org/
+Redirect permanent /forums https://forums.winmerge.org/
 
 #Tracker shortcuts...
 RewriteEngine On

@@ -10,7 +10,7 @@
   $page->printHead(__('Download WinMerge'), TAB_DOWNLOADS, 'toggle(\'checksumslist\');');
   
   $page->printHeading(__('Download WinMerge'));
-  $page->printPara(__('The easiest way to install WinMerge is to download and run the Installer. Read the <a href="%s">online manual</a> for help using it.', 'http://manual.winmerge.org/Install.html'));
+  $page->printPara(__('The easiest way to install WinMerge is to download and run the Installer. Read the <a href="%s">online manual</a> for help using it.', 'https://manual.winmerge.org/Install.html'));
   $page->printSubHeading(__('WinMerge %s', $stablerelease->getVersionNumber()));
   $page->printPara(__('The current WinMerge version is <strong>%1$s</strong> and was released at <strong>%2$s</strong>.', $stablerelease->getVersionNumber(), $stablerelease->getDate()),
                    __('For detailed info on what is new, read the <a href="%1$s">change log</a> and the <a href="%2$s">release notes</a>.', '/docs/changelog.php', '/docs/releasenotes.php'));
@@ -139,7 +139,7 @@
   },
   "softwareVersion": "<?php echo $stablerelease->getVersionNumber();?>",
   "downloadUrl": "<?php echo $stablerelease->getDownload('setup.exe');?>",
-  "screenshot": "http://winmerge.org/about/screenshots/screenshot.png",
+  "screenshot": "https://winmerge.org/screenshots/filecmp.png",
   "license": "https://www.gnu.org/licenses/gpl-2.0.html"
 }
 </script>

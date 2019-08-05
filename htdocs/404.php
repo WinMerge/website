@@ -17,7 +17,7 @@
 <ul>
   <li><?php __e('<a href="%s">Documentation</a>?', '/docs/');?>
     <ul>
-      <li><?php __e('<a href="%s">Manual</a>?', 'http://manual.winmerge.org/');?></li>
+      <li><?php __e('<a href="%s">Manual</a>?', 'https://manual.winmerge.org/');?></li>
       <li><?php __e('<a href="%s">Release Notes</a>?', '/docs/releasenotes.php');?></li>
       <li><?php __e('<a href="%s">Change Log</a>?', '/docs/changelog.php');?></li>
     </ul>

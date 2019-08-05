@@ -4,17 +4,17 @@
   include('engine/engine.inc');
 
   $baseUrls = [
-    'http://winmerge.org/',
-    'http://winmerge.org/docs/',
-    'http://winmerge.org/docs/changelog.php',
-    'http://winmerge.org/docs/releasenotes.php',
-    'http://winmerge.org/downloads/',
-    'http://winmerge.org/screenshots/',
-    'http://winmerge.org/source-code/',
-    'http://winmerge.org/support/',
-    'http://winmerge.org/translations/',
-    'http://winmerge.org/translations/instructions.php',
-    'http://winmerge.org/translations/status_website.php'
+    'https://winmerge.org/',
+    'https://winmerge.org/docs/',
+    'https://winmerge.org/docs/changelog.php',
+    'https://winmerge.org/docs/releasenotes.php',
+    'https://winmerge.org/downloads/',
+    'https://winmerge.org/screenshots/',
+    'https://winmerge.org/source-code/',
+    'https://winmerge.org/support/',
+    'https://winmerge.org/translations/',
+    'https://winmerge.org/translations/instructions.php',
+    'https://winmerge.org/translations/status_website.php'
   ];
 
   $languages = $translations->getLanguages();

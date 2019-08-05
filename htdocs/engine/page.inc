@@ -148,11 +148,11 @@
       foreach ($this->_rssfeeds as $rssurl => $rsstitle) { //for all RSS feeds...
         $temp .= "  <link rel=\"alternate\" type=\"application/rss+xml\" title=\"" . $rsstitle . "\" href=\"" . $rssurl . "\">\n";
       }
-      $temp .= "  <link rel=\"canonical\" href=\"http://winmerge.org" . $translations->getLink($translations->getActiveLanguage(), true) . "\">\n";
+      $temp .= "  <link rel=\"canonical\" href=\"https://winmerge.org" . $translations->getLink($translations->getActiveLanguage(), true) . "\">\n";
       if ($translations->getLanguagesCount() > 1) { //if at least 2 languages exists...
         foreach ($translations->getLanguages() as $language) {
           $languageId = str_replace('_', '-', $language->getId());
-          $languageLink = 'http://winmerge.org' . $translations->getLink($language, true);
+          $languageLink = 'https://winmerge.org' . $translations->getLink($language, true);
           $temp .= "  <link rel=\"alternate\" href=\"" . $languageLink . "\" hreflang=\"" . $languageId . "\">\n";
         }
       }
@@ -444,7 +444,7 @@
           $line = preg_replace('#(WinMerge [0-9]\.[0-9].*-.*\))#si', '<h3>\\1</h3>', $line);
           $line = preg_replace('#r(\d+)#si', '<a href="https://sourceforge.net/p/winmerge/code/\\1" target="_blank">r\\1</a>', $line);
           $line = preg_replace('#\#(\d{6,})#si', '<a href="https://sourceforge.net/support/tracker.php?aid=\\1" target="_blank">#\\1</a>', $line);
-          $line = preg_replace('#patches:\#(\d+)#si', '<a href="http://winmerge.org/patch/\\1" target="_blank">#\\1</a>', $line);
+          $line = preg_replace('#patches:\#(\d+)#si', '<a href="https://winmerge.org/patch/\\1" target="_blank">#\\1</a>', $line);
           
           $html .= $line;
         }
