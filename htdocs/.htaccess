@@ -78,9 +78,6 @@ Redirect permanent /about/ /
 #Move manual to a own sub domain...
 Redirect permanent /docs/manual/ https://manual.winmerge.org/
 
-#Move quick tour to a own sub domain...
-Redirect permanent /docs/tour/ https://tour.winmerge.org/
-
 #Move forums to a own sub domain...
 Redirect permanent /forums https://forums.winmerge.org/
 
