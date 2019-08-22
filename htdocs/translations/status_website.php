@@ -6,7 +6,7 @@
   $page->printHead(__('Translations Status (Website)'), TAB_TRANSLATIONS);
 
   $page->printHeading(__('Translations Status (Website)'));
-  $page->printPara(__('We moved the sources from the website to a own <a href="%1$s">Bitbucket Mercurial repository</a>.', 'https://bitbucket.org/winmerge/website'));
+  $page->printPara(__('We moved the sources from the website to a own <a href="%1$s">GitHub repository</a>.', 'https://github.com/winmerge/website'));
   
   try {
     $status = New TranslationsStatus('status-website.xml');
@@ -15,7 +15,7 @@
     $status->printTranslators();
     
     $page->printSubHeading(__('Website Status <em>from %s</em>', $status->getUpdateDate()));
-    $status->printProjectTable('Website', 'https://bitbucket.org/winmerge/website/src/default/po/');
+    $status->printProjectTable('Website', 'https://github.com/WinMerge/website/blob/master/po/');
   }
   catch (Exception $ex) { //If problems with translations status...
     $page->printPara(__('The translations status is currently not available...'));
