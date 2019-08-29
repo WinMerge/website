@@ -11,13 +11,10 @@
   $page->printHeading(__('Support'));
   $page->printPara(__('The <a href="%s">Open Discussion forum</a> is the fastest way to get help. Please be patient, it may take some time for somebody to answer.', 'https://forums.winmerge.org/viewforum.php?f=4'),
                    __('A other way is a subscription to the <a href="%s">support mailing list</a>.', '#support'));
-  $page->printPara(__('If you find a bug, please submit it as a <a href="%s">bug report</a>.', 'https://bugs.winmerge.org/'),
+  $page->printPara(__('If you find a bug, please submit it as a <a href="%s">issue</a>.', 'https://issues.winmerge.org/'),
                    __('Please attach as much information as you can: at a minimum, the version number of WinMerge that you are using. If you can, also attach a configuration log which, you can display by clicking <span class="guimenu">Help</span> &#8594; <span class="guimenuitem">Configuration</span> in the WinMerge window.'),
                    __('Good information in a bug report makes it more likely that your bug will be fixed quickly.'));
-  $page->printPara(__('You must <a href="%s">register with SourceForge.net</a> before posting a bug report (registration is free).', 'https://sourceforge.net/account/registration/'),
-                   __('We require registering because anonymous submissions caused a lot of spam and also because there were no possibility to contact people for asking more information.'),
-                   __('We rarely sent direct emails but you will get notifications when we ask questions in the bug item.'));
-  $page->printPara(__('Wish list items on the <a href="%s">feature request list</a> will also be considered, but we make absolutely no promises.', 'https://feature-requests.winmerge.org/'));
+  $page->printPara(__('Wish list items on the <a href="%s">issues list</a> will also be considered, but we make absolutely no promises.', 'https://issues.winmerge.org/'));
 
   $page->printSubHeading(__('Active Forum Topics'));
   $activetopics = new Forum_ActiveTopics('https://forums.winmerge.org/');

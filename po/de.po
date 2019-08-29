@@ -578,8 +578,8 @@ msgid "You must <a href=\"%s\">register with SourceForge.net</a> before posting 
 msgstr "Sie müssen Sich bei <a href=\"%s\">SourceForge.net kostenlos registrieren</a>, bevor Sie einen Fehlerbericht einreichen können."
 
 #: support/index.php:20
-#, c-format
-msgid "Wish list items on the <a href=\"%s\">feature request list</a> will also be considered, but we make absolutely no promises."
+#, fuzzy, c-format
+msgid "Wish list items on the <a href=\"%s\">issues list</a> will also be considered, but we make absolutely no promises."
 msgstr "Wünsche auf der <a href=\"%s\">Funktionsanfragen-Liste</a> werden auch in Betracht gezogen, aber wir machen keinerlei Versprechen."
 
 #: translations/translations.inc:76
@@ -901,8 +901,8 @@ msgid "WinMerge Portable"
 msgstr "WinMerge Portable"
 
 #: support/index.php:14
-#, c-format
-msgid "If you find a bug, please submit it as a <a href=\"%s\">bug report</a>."
+#, fuzzy, c-format
+msgid "If you find a bug, please submit it as a <a href=\"%s\">issue</a>."
 msgstr "Wenn Sie einen Fehler finden, senden Sie ihn uns bitte als einen <a href=\"%s\">Fehlerbericht</a>."
 
 #: index.php:7

@@ -721,9 +721,9 @@ msgstr ""
 "(δωρεάν) πριν δημοσιεύσετε αναφορά σφάλματος."
 
 #: support/index.php:20
-#, c-format
+#, fuzzy, c-format
 msgid ""
-"Wish list items on the <a href=\"%s\">feature request list</a> will also be "
+"Wish list items on the <a href=\"%s\">issues list</a> will also be "
 "considered, but we make absolutely no promises."
 msgstr ""
 "Τα επιθυμητά στοιχεία της <a href=\"%s\">λίστας αιτημάτων για "
@@ -1106,8 +1106,8 @@ msgid "WinMerge Portable"
 msgstr "Φορητό WinMerge"
 
 #: support/index.php:14
-#, c-format
-msgid "If you find a bug, please submit it as a <a href=\"%s\">bug report</a>."
+##, fuzzy, c-format
+msgid "If you find a bug, please submit it as a <a href=\"%s\">issue</a>."
 msgstr "Αν εντοπίσετε σφάλμα, υποβάλετε <a href=\"%s\">αναφορά σφάλματος</a>."
 
 #: index.php:7

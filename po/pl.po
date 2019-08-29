@@ -714,9 +714,9 @@ msgstr ""
 "wysłaniem raportu błędu (rejestracja jest darmowa)."
 
 #: support/index.php:20
-#, c-format
+#, fuzzy, c-format
 msgid ""
-"Wish list items on the <a href=\"%s\">feature request list</a> will also be "
+"Wish list items on the <a href=\"%s\">issues list</a> will also be "
 "considered, but we make absolutely no promises."
 msgstr ""
 "Elementy listy życzeń na <a href=\"%s\">liście propozycji nowych funkcji</a>"
@@ -1097,8 +1097,8 @@ msgid "WinMerge Portable"
 msgstr "Przenośny WinMerge"
 
 #: support/index.php:14
-#, c-format
-msgid "If you find a bug, please submit it as a <a href=\"%s\">bug report</a>."
+#, fuzzy, c-format
+msgid "If you find a bug, please submit it as a <a href=\"%s\">issue</a>."
 msgstr ""
 "Jeśli odnajdziesz błąd, prosimy przesłać go jako <a href=\"%s\">raport "
 "błędu</a>."

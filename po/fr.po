@@ -724,9 +724,9 @@ msgstr ""
 "avant de poster un rapport de bogue (l'enregistrement est gratuit)."
 
 #: support/index.php:20
-#, c-format
+#, fuzzy, c-format
 msgid ""
-"Wish list items on the <a href=\"%s\">feature request list</a> will also be "
+"Wish list items on the <a href=\"%s\">issues list</a> will also be "
 "considered, but we make absolutely no promises."
 msgstr ""
 "Les éléments de la liste des vœux sur la <a href=\"%s\">liste des demandes "
@@ -1115,8 +1115,8 @@ msgid "WinMerge Portable"
 msgstr "WinMerge Portable"
 
 #: support/index.php:14
-#, c-format
-msgid "If you find a bug, please submit it as a <a href=\"%s\">bug report</a>."
+#, fuzzy, c-format
+msgid "If you find a bug, please submit it as a <a href=\"%s\">issue</a>."
 msgstr ""
 "Si vous trouvez un bogue, veuillez le soumettre dans un <a "
 "href=\"%s\">rapport de bogue</a>."

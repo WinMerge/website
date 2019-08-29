@@ -703,9 +703,9 @@ msgstr ""
 "публикации сообшения об ошибке (регистрация бесплатная)."
 
 #: support/index.php:20
-#, c-format
+#, fuzzy, c-format
 msgid ""
-"Wish list items on the <a href=\"%s\">feature request list</a> will also be "
+"Wish list items on the <a href=\"%s\">issues list</a> will also be "
 "considered, but we make absolutely no promises."
 msgstr ""
 "<a href=\"%s\">Список пожеланий</a>также будет учтен, но мы не делаем "
@@ -1089,8 +1089,8 @@ msgid "WinMerge Portable"
 msgstr "WinMerge Portable"
 
 #: support/index.php:14
-#, c-format
-msgid "If you find a bug, please submit it as a <a href=\"%s\">bug report</a>."
+#, fuzzy, c-format
+msgid "If you find a bug, please submit it as a <a href=\"%s\">issue</a>."
 msgstr ""
 "Если вы обнаружили ошибку, пожалуйста, отправьте нам <a "
 "href=\"%s\">багрепорт</a>."

@@ -649,9 +649,9 @@ msgid ""
 msgstr "バグ報告をポストする前に、<a href=\"%s\">SourceForge.netへの登録</a>が必要です(登録は無料です)。"
 
 #: support/index.php:20
-#, c-format
+#, fuzzy, c-format
 msgid ""
-"Wish list items on the <a href=\"%s\">feature request list</a> will also be "
+"Wish list items on the <a href=\"%s\">issues list</a> will also be "
 "considered, but we make absolutely no promises."
 msgstr ""
 "<a href=\"%s\">機能リクエストリスト</a>のウィッシュリスト項目も考慮されます。しかしながら、機能追加の必ずのお約束はできかねます。"
@@ -1006,8 +1006,8 @@ msgid "WinMerge Portable"
 msgstr "WinMerge Portable"
 
 #: support/index.php:14
-#, c-format
-msgid "If you find a bug, please submit it as a <a href=\"%s\">bug report</a>."
+#, fuzzy, c-format
+msgid "If you find a bug, please submit it as a <a href=\"%s\">issue</a>."
 msgstr "バグを発見した場合、<a href=\"%s\">バグ報告</a>としてご報告ください。"
 
 #: index.php:7

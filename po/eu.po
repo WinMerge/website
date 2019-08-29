@@ -715,9 +715,9 @@ msgstr ""
 "jakinarazpen mezu bat jarri aurretik (erregistratzea dohainekoa da)."
 
 #: support/index.php:20
-#, c-format
+#, fuzzy, c-format
 msgid ""
-"Wish list items on the <a href=\"%s\">feature request list</a> will also be "
+"Wish list items on the <a href=\"%s\">issues list</a> will also be "
 "considered, but we make absolutely no promises."
 msgstr ""
 "<a href=\"%s\">Ezaugarri eskaera zerrendako</a> gaiak kontuan hartuko dira, "
@@ -1104,8 +1104,8 @@ msgid "WinMerge Portable"
 msgstr "WinMerge Eramangarria"
 
 #: support/index.php:14
-#, c-format
-msgid "If you find a bug, please submit it as a <a href=\"%s\">bug report</a>."
+#, fuzzy, c-format
+msgid "If you find a bug, please submit it as a <a href=\"%s\">issue</a>."
 msgstr ""
 "Akats bat aurkitzen baduzu, mesedez aurkeztu ezazu <a href=\"%s\">akats "
 "jakinarazpen</a> bezala."

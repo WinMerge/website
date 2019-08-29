@@ -711,9 +711,9 @@ msgstr ""
 "posta en felrapport (registrering är gratis)."
 
 #: support/index.php:20
-#, c-format
+#, fuzzy, c-format
 msgid ""
-"Wish list items on the <a href=\"%s\">feature request list</a> will also be "
+"Wish list items on the <a href=\"%s\">issues list</a> will also be "
 "considered, but we make absolutely no promises."
 msgstr ""
 "Önskningar i <a href=\"%s\">funktionsäskandelistan</a> kommer också i "
@@ -1094,8 +1094,8 @@ msgid "WinMerge Portable"
 msgstr "WinMerge Portabel"
 
 #: support/index.php:14
-#, c-format
-msgid "If you find a bug, please submit it as a <a href=\"%s\">bug report</a>."
+#, fuzzy, c-format
+msgid "If you find a bug, please submit it as a <a href=\"%s\">issue</a>."
 msgstr ""
 "Om du hittar ett fel, var god och skicka den som en <a "
 "href=\"%s\">felrapport</a>."
