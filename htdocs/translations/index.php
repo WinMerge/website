@@ -37,16 +37,16 @@
     $status->printTranslators();
     
     $page->printAnchorSubHeading(__('WinMerge Status <em>from %s</em>', $status->getUpdateDate()), 'winmerge');
-    $status->printProjectTable('WinMerge', 'https://bitbucket.org/winmerge/winmerge/src/default/Translations/WinMerge/');
+    $status->printProjectTable('WinMerge', 'https://github.com/WinMerge/winmerge/blob/master/Translations/WinMerge/');
     
     $page->printAnchorSubHeading(__('ShellExtension Status <em>from %s</em>', $status->getUpdateDate()), 'shellextension');
-    $status->printProjectTable('ShellExtension', 'https://bitbucket.org/winmerge/winmerge/src/default/Translations/ShellExtension/');
+    $status->printProjectTable('ShellExtension', 'https://github.com/WinMerge/winmerge/blob/master/Translations/ShellExtension/');
     
     $page->printAnchorSubHeading(__('InnoSetup Files'), 'innosetup');
-    $status->printProjectList('InnoSetup', 'https://bitbucket.org/winmerge/winmerge/src/default/Translations/InnoSetup/');
+    $status->printProjectList('InnoSetup', 'https://github.com/WinMerge/winmerge/blob/master/Translations/InnoSetup/');
     
     $page->printAnchorSubHeading(__('Readme Files'), 'readme');
-    $status->printProjectList('Docs/Readme', 'https://bitbucket.org/winmerge/winmerge/src/default/Translations/Docs/Readme/');
+    $status->printProjectList('Docs/Readme', 'https://github.com/WinMerge/winmerge/blob/master/Translations/Docs/Readme/');
   }
   catch (Exception $ex) { //If problems with translations status...
     $page->printPara(__('The translations status is currently not available...'));
