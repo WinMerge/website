@@ -206,9 +206,9 @@
       $temp .= "      <div class=\"column\">\n";
       $temp .= "<h2>" . __('Project Pages') ."</h2>\n";
       $temp .= "<ul>\n";
-      $temp .= "  <li><a href=\"https://bitbucket.org/winmerge/\">Bitbucket</a></li>\n";
+      $temp .= "  <li><a href=\"https://github.com/winmerge/winmerge\">GitHub</a></li>\n";
       $temp .= "  <li><a href=\"https://sourceforge.net/projects/winmerge\">SourceForge</a> <em>" . __('Archive') ."</em></li>\n";
-      $temp .= "  <li><a href=\"https://github.com/winmerge/winmerge-v2\">GitHub</a> <em>" . __('Git Mirror') ."</em></li>\n";
+      $temp .= "  <li><a href=\"https://bitbucket.org/winmerge/\">Bitbucket</a> <em>" . __('Archive') ."</em></li>\n";
       $temp .= "</ul>\n";
       $temp .= "      </div> <!-- .column -->\n";
       $temp .= "      <div class=\"column\">\n";
