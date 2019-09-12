@@ -33,8 +33,27 @@ along with WinMerge.  If not, see &lt;<a href="https://www.gnu.org/licenses/">ht
 <?php
   $page->printAnchorSubHeading(__('Clone or download'), 'clone-or-download');
   $page->printPara(__('The source code is hosted on <a href="%1$s">GitHub</a> in a <a href="%2$s">Git</a> repository:', 'https://github.com/', 'https://git-scm.com/'));
-  $page->printPara('<a href="https://github.com/winmerge/winmerge.git" class="button is-small">https://github.com/winmerge/winmerge.git</a>');
+  $page->printPara('<a href="https://github.com/winmerge/winmerge.git" class="button">https://github.com/winmerge/winmerge.git</a>');
 
+  $page->printPara('You can also download the current branches as ZIP file:');
+?>
+<div class="table-scrollable">
+  <table class="table is-striped">
+    <tr>
+      <th class="left"><?php __e('Download');?></th>
+      <th class="center"><?php __e('Branch');?></th>
+    </tr>
+    <tr>
+      <td class="left"><a href="https://github.com/WinMerge/winmerge/archive/master.zip" target="_blank" class="button">master.zip</a></td>
+      <td class="center">Master</td>
+    </tr>
+    <tr>
+      <td class="left"><a href="https://github.com/WinMerge/winmerge/archive/stable-gh.zip" target="_blank" class="button is-dark">stable-gh.zip</a></td>
+      <td class="center">Stable</td>
+    </tr>
+  </table>
+</div> <!-- .table-scrollable -->
+<?php
   $page->printRssSubHeading(__('Recent Commits'), $recentCommitsFeed);
   $feed = new SimplePie();
   $feed->set_feed_url($recentCommitsFeed);
