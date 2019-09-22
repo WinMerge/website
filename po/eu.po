@@ -102,7 +102,7 @@ msgstr "Itzulpen jarraipideak"
 msgid "Greek"
 msgstr "Greziera"
 
-#: engine/engine.inc:19
+#: docs/index.php:15 engine/engine.inc:19
 msgid "English"
 msgstr "Ingelera"
 
@@ -115,7 +115,7 @@ msgstr ""
 "Baina mesedez kontuan izan <a href=\"%s\">dirulaguntza</a> bat ematea "
 "WinMergeren garapenarekin jarraitzea sostengatzeko."
 
-#: downloads/index.php:21
+#: downloads/index.php:21 source-code/index.php:43
 msgid "Download"
 msgstr "Jeitsi"
 
@@ -297,7 +297,7 @@ msgstr ""
 msgid "Open-dialog"
 msgstr "Ireki-elkarrizketa"
 
-#: engine/engine.inc:26
+#: docs/index.php:16 engine/engine.inc:26
 msgid "Japanese"
 msgstr "Japoniera"
 
@@ -362,7 +362,7 @@ msgstr ""
 "agiritegi alderaketa emaitzak, lerro ezberd. nabarmentzea, kokaleku panela, "
 "ongi etorri ikusleihoa"
 
-#: docs/changelog.php:7 docs/changelog.php:8 docs/index.php:14
+#: docs/changelog.php:7 docs/changelog.php:8 docs/index.php:21
 msgid "Change Log"
 msgstr "Aldaketa Oharra"
 
@@ -450,7 +450,7 @@ msgstr ""
 "WinMergetiko agiritza, eskuliburua, argitalpen oharrak, aldaketa oharra eta "
 "Garapen Wikia bezalakoak."
 
-#: docs/index.php:17
+#: docs/index.php:24
 #, c-format
 msgid ""
 "The <a href=\"%s\">Development Wiki</a> contains much information about the "
@@ -558,7 +558,7 @@ msgstr ""
 "WinMerge sostengatu dezakezu ere merkatalgaiak erosiz <a "
 "href=\"%s\">WinMerge CafePress denda</a>n. Salmenten 20%% WinMerge-ra doa."
 
-#: source-code/index.php:47 support/index.php:26
+#: source-code/index.php:66 support/index.php:26
 msgid "Y-m-d H:i"
 msgstr "U-h-e O:i"
 
@@ -588,7 +588,7 @@ msgstr "U-h-e"
 msgid "Instructions"
 msgstr "Jarraipideak"
 
-#: docs/index.php:12 docs/releasenotes.php:7 docs/releasenotes.php:10
+#: docs/index.php:19 docs/releasenotes.php:7 docs/releasenotes.php:10
 msgid "Release Notes"
 msgstr "Argitalpen Oharrak"
 
@@ -710,7 +710,7 @@ msgstr "Eskuliburua"
 msgid "The release notes are currently not available..."
 msgstr "Argitalpen oharrak ez daude eskuragarri une honetan..."
 
-#: docs/index.php:15
+#: docs/index.php:22
 #, c-format
 msgid ""
 "The <a href=\"%s\">change log</a> is a more complete list of changes in the "
@@ -837,7 +837,7 @@ msgstr "GNU Baimen Publiko Orokorra"
 msgid "<a href=\"%s\">Screenshots</a>?"
 msgstr "<a href=\"%s\">Ikusleiho-argazkiak</a>?"
 
-#: docs/index.php:16
+#: docs/index.php:23
 msgid "Development Wiki"
 msgstr "Garapen Wikia"
 
@@ -915,7 +915,7 @@ msgstr ""
 "edukitzeak arazo berdina duten beste batzuei beren artean konpontzea "
 "ahalbidetzen die."
 
-#: docs/index.php:13
+#: docs/index.php:20
 #, c-format
 msgid ""
 "The <a href=\"%1$s\">release notes</a> are a short summary of important "
@@ -1306,7 +1306,7 @@ msgstr ""
 msgid "WinMerge, free, clone, download, source code, GPL, GitHub, Git"
 msgstr ""
 
-#: source-code/index.php:10 source-code/index.php:38
+#: source-code/index.php:10 source-code/index.php:57
 msgid "Recent Commits"
 msgstr ""
 
@@ -1317,7 +1317,7 @@ msgid ""
 "href=\"%2$s\">Git</a> repository:"
 msgstr ""
 
-#: source-code/index.php:50
+#: source-code/index.php:69
 msgid "View all commits&hellip;"
 msgstr ""
 
@@ -1330,4 +1330,12 @@ msgstr ""
 
 #: translations/translations.inc:310
 msgid "Maintainer"
+msgstr ""
+
+#: docs/index.php:12
+msgid "It is currently available in the following languages:"
+msgstr ""
+
+#: source-code/index.php:44
+msgid "Branch"
 msgstr ""

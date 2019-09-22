@@ -102,7 +102,7 @@ msgstr "Οδηγίες μετάφρασης"
 msgid "Greek"
 msgstr "Ελληνικα"
 
-#: engine/engine.inc:19
+#: docs/index.php:15 engine/engine.inc:19
 msgid "English"
 msgstr "Αγγλικά"
 
@@ -115,7 +115,7 @@ msgstr ""
 "Σκεφθείτε, όμως, να κάνετε μία <a href=\"%s\">δωρεά</a>, για να υποστηρίξετε"
 " την ανάπτυξη του WinMerge."
 
-#: downloads/index.php:21
+#: downloads/index.php:21 source-code/index.php:43
 msgid "Download"
 msgstr "Λήψη"
 
@@ -300,7 +300,7 @@ msgstr ""
 msgid "Open-dialog"
 msgstr "Πλαίσιο διαλόγου \"Άνοιγμα\""
 
-#: engine/engine.inc:26
+#: docs/index.php:16 engine/engine.inc:26
 msgid "Japanese"
 msgstr "Γιαπωνέζικα"
 
@@ -365,7 +365,7 @@ msgstr ""
 "αποτελέσματα σύγκρισης φακέλων, επισήμανση διαφορών στις γραμμές, παράθυρο "
 "θέσης, οθόνη εκκίνησης"
 
-#: docs/changelog.php:7 docs/changelog.php:8 docs/index.php:14
+#: docs/changelog.php:7 docs/changelog.php:8 docs/index.php:21
 msgid "Change Log"
 msgstr "Κατάλογος αλλαγών"
 
@@ -455,7 +455,7 @@ msgstr ""
 "Υλικό τεκμηρίωσης του WinMerge, όπως εγχειρίδιο χρήσης, σημειώσεις "
 "κυκλοφορίας, κατάλογος αλλαγών και Wiki Ανάπτυξης."
 
-#: docs/index.php:17
+#: docs/index.php:24
 #, c-format
 msgid ""
 "The <a href=\"%s\">Development Wiki</a> contains much information about the "
@@ -566,7 +566,7 @@ msgstr ""
 "href=\"%s\">κατάστημα WinMerge CafePress</a>. 20 %% των πωλήσεων πηγαίνουν "
 "στο WinMerge."
 
-#: source-code/index.php:47 support/index.php:26
+#: source-code/index.php:66 support/index.php:26
 msgid "Y-m-d H:i"
 msgstr "Ε-μ-η Ω:λ"
 
@@ -596,7 +596,7 @@ msgstr "Y-m-d"
 msgid "Instructions"
 msgstr "Οδηγίες"
 
-#: docs/index.php:12 docs/releasenotes.php:7 docs/releasenotes.php:10
+#: docs/index.php:19 docs/releasenotes.php:7 docs/releasenotes.php:10
 msgid "Release Notes"
 msgstr "Σημειώσεις κυκλοφορίας"
 
@@ -716,7 +716,7 @@ msgstr "Εγχειρίδιο χρήσης"
 msgid "The release notes are currently not available..."
 msgstr "Οι σημειώσεις κυκλοφορίας είναι προς το παρόν μη διαθέσιμες..."
 
-#: docs/index.php:15
+#: docs/index.php:22
 #, c-format
 msgid ""
 "The <a href=\"%s\">change log</a> is a more complete list of changes in the "
@@ -840,7 +840,7 @@ msgstr "Γενική Δημόσια Άδεια GNU"
 msgid "<a href=\"%s\">Screenshots</a>?"
 msgstr "<a href=\"%s\">Στιγμιότυπα</a>;"
 
-#: docs/index.php:16
+#: docs/index.php:23
 msgid "Development Wiki"
 msgstr "Wiki Ανάπτυξης"
 
@@ -919,7 +919,7 @@ msgstr ""
 "ερωτήσεις σε αυτήν τη λίστα, ίσως βοηθήσετε άλλους με το ίδιο πρόβλημα να το"
 " λύσουν μόνοι τους."
 
-#: docs/index.php:13
+#: docs/index.php:20
 #, c-format
 msgid ""
 "The <a href=\"%1$s\">release notes</a> are a short summary of important "
@@ -1307,7 +1307,7 @@ msgstr ""
 msgid "WinMerge, free, clone, download, source code, GPL, GitHub, Git"
 msgstr ""
 
-#: source-code/index.php:10 source-code/index.php:38
+#: source-code/index.php:10 source-code/index.php:57
 msgid "Recent Commits"
 msgstr ""
 
@@ -1318,7 +1318,7 @@ msgid ""
 "href=\"%2$s\">Git</a> repository:"
 msgstr ""
 
-#: source-code/index.php:50
+#: source-code/index.php:69
 msgid "View all commits&hellip;"
 msgstr ""
 
@@ -1331,4 +1331,12 @@ msgstr ""
 
 #: translations/translations.inc:310
 msgid "Maintainer"
+msgstr ""
+
+#: docs/index.php:12
+msgid "It is currently available in the following languages:"
+msgstr ""
+
+#: source-code/index.php:44
+msgid "Branch"
 msgstr ""
