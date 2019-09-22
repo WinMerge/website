@@ -8,7 +8,14 @@
 
   $page->printHeading(__('Documentation'));
   $page->printLinkedSubHeading(__('Manual'), 'https://manual.winmerge.org/');
-  $page->printPara(__('The <a href="%s">manual</a> explains how to use WinMerge, and documents its capabilities and limitations.', 'https://manual.winmerge.org/'));
+  $page->printPara(__('The <a href="%s">manual</a> explains how to use WinMerge, and documents its capabilities and limitations.', 'https://manual.winmerge.org/'), 
+                   __('It is currently available in the following languages:'));
+?>
+<ul class="buttons">
+  <li><a href="https://manual.winmerge.org/en/" class="button is-small"><?php __e('English');?></a></li>
+  <li><a href="https://manual.winmerge.org/jp/" class="button is-small"><?php __e('Japanese');?></a></li>
+</ul>
+<?php
   $page->printLinkedSubHeading(__('Release Notes'), 'releasenotes.php');
   $page->printPara(__('The <a href="%1$s">release notes</a> are a short summary of important changes, enhancements, bug fixes and <a href="%2$s">known issues</a> in the current WinMerge release.', 'releasenotes.php', 'releasenotes.php#issues'));
   $page->printLinkedSubHeading(__('Change Log'), 'changelog.php');
