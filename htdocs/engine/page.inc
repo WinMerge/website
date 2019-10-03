@@ -35,7 +35,7 @@
      */
     function Page() {
       $this->_title = '';
-      $this->_charset = 'UTF-8';
+      $this->_charset = 'utf-8';
       $this->_description = '';
       $this->_keywords = '';
       $this->_javascript = false;
@@ -117,13 +117,13 @@
       $temp = "<!DOCTYPE html>\n";
       $temp .= "<html lang=\"" . $translations->getActiveLanguageId() . "\">\n\n";
       $temp .= "<head>\n";
+      $temp .= "  <meta charset=\"" . $this->_charset . "\">\n";
       if ($this->_title != '') {
         $temp .= "  <title>" . $this->_title . " - WinMerge</title>\n";
       }
       else {
         $temp .= "  <title>WinMerge - " . __('You will see the difference…') ."</title>\n";
       }
-      $temp .= "  <meta http-equiv=\"content-type\" content=\"text/html; charset=" . $this->_charset . "\">\n";
       if ($this->_description != '') {
         $temp .= "  <meta name=\"description\" content=\"" . $this->_description . "\">\n";
       }
