@@ -76,7 +76,7 @@ Redirect permanent /translations/status_trunk_rss.php /translations/status-feed/
 Redirect permanent /about/ /
 
 #Move manual to a own sub domain...
-Redirect permanent /docs/manual/ https://manual.winmerge.org/
+Redirect permanent /docs/manual/ https://manual.winmerge.org/en/
 
 #Move forums to a own sub domain...
 Redirect permanent /forums https://forums.winmerge.org/

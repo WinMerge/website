@@ -7,8 +7,8 @@
   $page->printHead(__('Documentation'), TAB_DOCS);
 
   $page->printHeading(__('Documentation'));
-  $page->printLinkedSubHeading(__('Manual'), 'https://manual.winmerge.org/');
-  $page->printPara(__('The <a href="%s">manual</a> explains how to use WinMerge, and documents its capabilities and limitations.', 'https://manual.winmerge.org/'), 
+  $page->printSubHeading(__('Manual'));
+  $page->printPara(__('The <a href="%s">manual</a> explains how to use WinMerge, and documents its capabilities and limitations.', 'https://manual.winmerge.org/en/'), 
                    __('It is currently available in the following languages:'));
 ?>
 <ul class="buttons">

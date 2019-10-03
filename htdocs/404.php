@@ -15,18 +15,23 @@
   $page->printSubHeading(__('Were you looking for...'));
 ?>
 <ul>
-  <li><?php __e('<a href="%s">Documentation</a>?', '/docs/');?>
+  <li><a href="/docs/"><?php __e('Documentation');?></a>
     <ul>
-      <li><?php __e('<a href="%s">Manual</a>?', 'https://manual.winmerge.org/');?></li>
-      <li><?php __e('<a href="%s">Release Notes</a>?', '/docs/releasenotes.php');?></li>
-      <li><?php __e('<a href="%s">Change Log</a>?', '/docs/changelog.php');?></li>
+      <li><?php __e('Manual');?>
+        <ul>
+          <li><a href="https://manual.winmerge.org/en/"><?php __e('English');?></a></li>
+          <li><a href="https://manual.winmerge.org/jp/"><?php __e('Japanese');?></a></li>
+        </ul>
+      </li>
+      <li><a href="/docs/releasenotes.php"><?php __e('Release Notes');?></a></li>
+      <li><a href="/docs/changelog.php"><?php __e('Change Log');?></a></li>
     </ul>
   </li>
-  <li><?php __e('<a href="%s">Downloads</a>?', '/downloads/');?></li>
-  <li><?php __e('<a href="%s">Screenshots</a>?', '/screenshots/');?></li>
-  <li><?php __e('<a href="%s">Source Code</a>?', '/source-code/');?></li>
-  <li><?php __e('<a href="%s">Support</a>?', '/support/');?></li>
-  <li><?php __e('<a href="%s">Translations</a>?', '/translations/');?></li>
+  <li><a href="/downloads/"><?php __e('Downloads');?></a></li>
+  <li><a href="/screenshots/"><?php __e('Screenshots');?></a></li>
+  <li><a href="/source-code/"><?php __e('Source Code');?></a></li>
+  <li><a href="/support/"><?php __e('Support');?></a></li>
+  <li><a href="/translations/"><?php __e('Translations');?></a></li>
 </ul>
 <?php
   $page->printFoot();
