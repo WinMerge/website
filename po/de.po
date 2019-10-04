@@ -57,11 +57,11 @@ msgstr ""
 "Der Ordnervergleich zeigt alle gefundenen Dateien und Unterordner der "
 "verglichenen Ordner als Liste. Der Ordnervergleich synchronisiert Ordner "
 "durch Kopieren und Löschen von Dateien und Unterordnern. Die "
-"Ordnervergleichs-Ansicht kann vielseitig angepasst werden.angepasst werden."
+"Ordnervergleichs-Ansicht kann vielseitig angepasst werden."
 
 #: engine/page.inc:345
 msgid "WinMerge Support"
-msgstr "WinMerge Support"
+msgstr "WinMerge-Support"
 
 #: index.php:46
 msgid "Compares one folder or includes all subfolders"
@@ -84,7 +84,7 @@ msgid ""
 msgstr ""
 "WinMerge ist ein <a href=\"%s\">Open-Source</a>-Programm zum Unterscheiden "
 "und Zusammenführen von Dateien sowie Ordner. Das Windows-Tool stellt "
-"Unterschiede in einem visuellen Text-Format dar, das einfach zu verstehen "
+"Unterschiede in einem visuellen Textformat dar, das einfach zu verstehen "
 "und zu handhaben ist."
 
 #: translations/translations.inc:156
@@ -139,7 +139,7 @@ msgid ""
 "The easiest way to install WinMerge is to download and run the Installer. "
 "Read the <a href=\"%s\">online manual</a> for help using it."
 msgstr ""
-"Der einfachste Weg WinMerge zu installieren ist, es herunterzuladen und das "
+"Der einfachste Weg, WinMerge zu installieren, ist, es herunterzuladen und das "
 "Installationsprogramm auszuführen. Lesen Sie das englische <a "
 "href=\"%s\">Online-Handbuch</a> für die Hilfe bei der Installation."
 
@@ -171,8 +171,8 @@ msgid ""
 "visual text format that is easy to understand and handle."
 msgstr ""
 "WinMerge ist ein Open-Source-Programm zum Unterscheiden und Zusammenführen "
-"von Dateien sowie Ordner. Das Windows-Tool stellt Unterschiede in einem "
-"visuellen Text-Format dar, das einfach zu verstehen und zu handhaben ist."
+"von Dateien sowie Ordnern. Das Windows-Tool stellt Unterschiede in einem "
+"visuellen Textformat dar, das einfach zu verstehen und zu handhaben ist."
 
 #: support/index.php:19
 msgid "Active Forum Topics"
@@ -180,7 +180,7 @@ msgstr "Aktive Forenthemen"
 
 #: index.php:63
 msgid "Shell Integration (supports 64-bit Windows versions)"
-msgstr "Shell-Integration (unterstützt 64-bit Windows-Versionen)"
+msgstr "Shell-Integration (unterstützt 64-Bit Windows-Versionen)"
 
 #: engine/engine.inc:30
 msgid "Russian"
@@ -192,7 +192,7 @@ msgid ""
 "bug fixes and known issues in the current WinMerge release."
 msgstr ""
 "Die Versionshinweise sind eine kurze Zusammenfassung der wichtigsten "
-"Änderungen, Verbesserungen, Fehlerbereinigungen und bekannten Problemen in "
+"Änderungen, Verbesserungen, Fehlerbereinigungen und bekannten Probleme in "
 "der aktuellen Version von WinMerge."
 
 #: translations/translations.inc:34
@@ -238,14 +238,14 @@ msgstr "Archiv"
 
 #: engine/page.inc:341
 msgid "WinMerge Documentation"
-msgstr "WinMerge Dokumentation"
+msgstr "WinMerge-Dokumentation"
 
 #: support/index.php:7
 msgid ""
 "The Open Discussion forum is the fastest way to get help. A other way is a "
 "subscription to the support mailing list."
 msgstr ""
-"Das englische Open Discussion-Forum ist der schnellste Weg um Hilfe zu "
+"Das englische Open Discussion-Forum ist der schnellste Weg, um Hilfe zu "
 "bekommen. Eine andere Möglichkeit ist das Abonnieren der Support-"
 "Verteilerliste."
 
@@ -280,9 +280,9 @@ msgid ""
 "C++ 2005 runtimes that support Windows 95/98/ME/NT. It was also the last "
 "version to ship with an ANSI version of WinMerge."
 msgstr ""
-"WinMerge Version 2.12.4 war die letzte Version, die mit »Microsoft Visual "
+"WinMerge-Version 2.12.4 war die letzte Version, die mit »Microsoft Visual "
 "C++ 2005 Runtime« ausgeliefert wird, die Windows 95/98/ME/NT unterstützt. Es"
-" war außerdem die letzte Version, die mit einer ANSI Version von WinMerge "
+" war außerdem die letzte Version, die mit einer ANSI-Version von WinMerge "
 "ausgeliefert wird."
 
 #: index.php:82
@@ -317,8 +317,8 @@ msgid ""
 "horizontal panes. Editing allows user to easily do small changes without "
 "need to open files to other editor or development environment."
 msgstr ""
-"Das Dateivergleichsfenster ist im Grunde zwei Dateien im Editor geöffnet; "
-"mit zwei horizontalen Ansichten. Das Bearbeiten erlaubt Benutzern auf "
+"Das Dateivergleichsfenster hat im Grunde zwei Dateien im Editor in zwei "
+"horizontalen Bereichen geöffnet. Das Bearbeiten erlaubt Benutzern auf "
 "einfache Weise kleine Änderungen, ohne dass Dateien in anderen Editoren oder"
 " Entwicklungsumgebungen geöffnet werden müssen."
 
@@ -346,11 +346,11 @@ msgid ""
 "Regular Expression based file filters allow excluding and including items"
 msgstr ""
 "Auf regulären Ausdrücken basierte Dateifilter ermöglichen das Ein- und "
-"Ausschließlichen von Objekten"
+"Ausschließen von Objekten"
 
 #: translations/index.php:52 translations/status_website.php:21
 msgid "The translations status is currently not available..."
-msgstr "Der Übersetzungs-Status ist derzeit nicht verfügbar..."
+msgstr "Der Übersetzungsstatus ist derzeit nicht verfügbar..."
 
 #: index.php:45
 msgid "Fast compare using file sizes and dates"
@@ -379,7 +379,7 @@ msgid ""
 " Please be patient, it may take some time for somebody to answer."
 msgstr ""
 "Das englische <a href=\"%s\">Open Discussion</a>-Forum ist der schnellste "
-"Weg um Hilfe zu bekommen."
+"Weg, um Hilfe zu bekommen."
 
 #: docs/changelog.php:5
 msgid ""
@@ -395,7 +395,7 @@ msgid ""
 "stable, beta, experimental, portable"
 msgstr ""
 "WinMerge, Frei, Download, Windows, Setup, Installer, Binärdateien, "
-"Laufzeitbibliotheken, Stabil, Beta, Experimentell, Portable"
+"Laufzeitbibliotheken, Stabil, Beta, Experimentell, Portabel"
 
 #: downloads/index.php:23
 msgid "Type"
@@ -412,7 +412,7 @@ msgstr "Seite nicht gefunden..."
 
 #: index.php:59
 msgid "Resolve conflict files"
-msgstr "Konflikt-Dateien lösen"
+msgstr "Konfliktdateien lösen"
 
 #: engine/page.inc:346 translations/index.php:7 translations/index.php:9
 msgid "Translations"
@@ -430,7 +430,7 @@ msgstr ""
 
 #: translations/index.php:6
 msgid "Translations Status"
-msgstr "Übersetzungs-Status"
+msgstr "Übersetzungsstatus"
 
 #: translations/translations.inc:109
 msgid "Last Update"
@@ -481,7 +481,7 @@ msgstr "WinMerge %s - Aktuelle stabile Version"
 
 #: support/index.php:45
 msgid "Support List"
-msgstr "Support-Liste"
+msgstr "Supportliste"
 
 #: support/index.php:35
 msgid "Announce List"
@@ -501,7 +501,7 @@ msgstr "Screenshot"
 
 #: engine/page.inc:343
 msgid "WinMerge Screenshots"
-msgstr "WinMerge Screenshots"
+msgstr "WinMerge-Screenshots"
 
 #: support/index.php:13
 #, c-format
@@ -614,7 +614,7 @@ msgstr "Abonnieren"
 
 #: engine/page.inc:342
 msgid "WinMerge Downloads"
-msgstr "WinMerge Downloads"
+msgstr "WinMerge-Downloads"
 
 #: engine/engine.inc:28
 msgid "Portuguese (Brazil)"
@@ -804,8 +804,8 @@ msgid ""
 "This means everybody can download the <a href=\"%s\">source code</a> and improve and modify it.\n"
 "The only thing we ask is that people submit their improvements and modifications back to us so that all WinMerge users may benefit."
 msgstr ""
-"Das bedeutet, dass jeder den <a href=\"%s\">Quellcode</a> herunterladen kann um ihn zu verändern und zu verbessern.\n"
-"Das einzige, was wir fordern ist, dass die Menschen ihre Verbesserungen und Änderungen an uns zurückschicken, so dass alle WinMerge-Nutzer davon profitieren können."
+"Das bedeutet, dass jeder den <a href=\"%s\">Quellcode</a> herunterladen kann, um ihn zu verändern und zu verbessern.\n"
+"Das einzige, was wir fordern, ist, dass die Menschen ihre Verbesserungen und Änderungen an uns zurückschicken, so dass alle WinMerge-Nutzer davon profitieren können."
 
 #: 404.php:22
 #, c-format
@@ -814,7 +814,7 @@ msgstr "<a href=\"%s\">Versionshistorie</a>?"
 
 #: support/index.php:47
 msgid "You should ask all your support questions on this list."
-msgstr "Sie sollten Ihre Support-Anfragen auf dieser Liste stellen."
+msgstr "Sie sollten Ihre Supportfragen auf dieser Liste stellen."
 
 #: translations/translations.inc:31
 msgid "File not valid."
@@ -880,7 +880,7 @@ msgstr ""
 "WinMerge ist sehr nützlich zum Bestimmen, was sich zwischen Projekt-"
 "Versionen geändert hat und zum anschließenden Zusammenführen der Änderungen "
 "zwischen den Versionen. WinMerge kann als externes "
-"Vergleichs-/Zusammenführungs-Tool oder als eigenstände Anwendung verwendet "
+"Vergleichs-/Zusammenführungs-Tool oder als eigenständige Anwendung verwendet "
 "werden."
 
 #: 404.php:13
@@ -963,7 +963,7 @@ msgstr "Downloads"
 
 #: engine/page.inc:346
 msgid "WinMerge Translations"
-msgstr "WinMerge Übersetzungen"
+msgstr "WinMerge-Übersetzungen"
 
 #: 404.php:20
 #, c-format
@@ -994,7 +994,7 @@ msgstr "Die Übersetzungsanleitung ist derzeit nicht verfügbar..."
 
 #: support/index.php:55
 msgid "User List"
-msgstr "Benutzer-Liste"
+msgstr "Benutzerliste"
 
 #: 404.php:9
 msgid "Error 404 (Page Not Found)"
@@ -1037,7 +1037,7 @@ msgstr "Übersetzer"
 
 #: translations/status_website.php:6 translations/status_website.php:8
 msgid "Translations Status (Website)"
-msgstr "Übersetzungs-Status (Webseite)"
+msgstr "Übersetzungsstatus (Webseite)"
 
 #: docs/index.php:11
 #, c-format
@@ -1045,7 +1045,7 @@ msgid ""
 "The <a href=\"%s\">manual</a> explains how to use WinMerge, and documents "
 "its capabilities and limitations."
 msgstr ""
-"Das <a href=\"%s\">Handbuch</a> erklärt wie man WinMerge verwendet und "
+"Das <a href=\"%s\">Handbuch</a> erklärt, wie man WinMerge verwendet und "
 "dokumentiert Fähigkeiten sowie Einschränkungen."
 
 #: downloads/index.php:97
@@ -1089,7 +1089,7 @@ msgstr ""
 
 #: support/index.php:75
 msgid "Development List"
-msgstr "Entwickler-Liste"
+msgstr "Entwicklerliste"
 
 #: downloads/index.php:119
 msgid "View all file releases&hellip;"
@@ -1227,7 +1227,7 @@ msgstr "Alle Dateifreigaben"
 
 #: engine/page.inc:344
 msgid "WinMerge Source Code"
-msgstr "WinMerge Quelltext"
+msgstr "WinMerge-Quelltext"
 
 #: index.php:27
 msgid "Supports Microsoft Windows XP or newer"
@@ -1304,7 +1304,7 @@ msgstr "Klonen oder herunterladen"
 
 #: translations/index.php:20
 msgid "Website Status"
-msgstr "Webseiten-Status"
+msgstr "Webseitenstatus"
 
 #: docs/index.php:6
 msgid ""
