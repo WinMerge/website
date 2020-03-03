@@ -1,3 +1,25 @@
 # WinMerge Website
 
-This are the [PHP](http://php.net/) sources from the [WinMerge Website](http://winmerge.org/).
+This are the [PHP](https://www.php.net/) sources from the [WinMerge Website](https://winmerge.org/).
+
+## Subdomains
+
+### Own content
+
+This subdomains contains own content:
+
+ * `forums.winmerge.org`
+ * `manual.winmerge.org`
+ * `tour.winmerge.org` *Obsolete*
+
+### Redirects
+
+We use this subdomains for nicer URLs in text files:
+
+| Subdomain        | Target                                                 |
+|:-----------------|--------------------------------------------------------|
+| bugs             | <https://sourceforge.net/p/winmerge/bugs/>             |
+| feature-requests | <https://sourceforge.net/p/winmerge/feature-requests/> |
+| lists            | <https://sourceforge.net/p/winmerge/mailman/>          |
+| patches          | <https://sourceforge.net/p/winmerge/patches/>          |
+| project          | <https://sourceforge.net/projects/winmerge/>           |
