@@ -11,7 +11,7 @@
   else
     print($instructions);
 ?>
-<p><em><?php __e('Source: %s', '<a href="https://bitbucket.org/winmerge/winmerge/src/' . $stablerelease = $page->getStableRelease()->getBranchName() . '/Docs/Developers/Translations.html">WinMerge\Docs\Developers\Translations.html</a>');?></em></p>
+<p><em><?php __e('Source: %s', '<a href="https://github.com/WinMerge/winmerge/blob/master/Docs/Developers/Translations.html">WinMerge\Docs\Developers\Translations.html</a>');?></em></p>
 <?php
   $page->printFoot();
 ?>
