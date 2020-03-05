@@ -72,6 +72,9 @@ Redirect permanent /translations/status_branch_rss.php /translations/status-feed
 Redirect permanent /translations/status_trunk.php /translations/
 Redirect permanent /translations/status_trunk_rss.php /translations/status-feed/
 
+#Move translations instructions to GitHub...
+Redirect permanent /translations/instructions.php https://github.com/WinMerge/winmerge/blob/master/Translations/README.md
+
 #Move about page to start page...
 Redirect permanent /about/ /
 

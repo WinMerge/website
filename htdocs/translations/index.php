@@ -18,7 +18,7 @@
     print("  <li><a href=\"#innosetup\">" . __('InnoSetup Files') . "</a></li>\n");
     print("  <li><a href=\"#readme\">" . __('Readme Files') . "</a></li>\n");
     print("  <li><a href=\"/translations/status_website.php\">" . __('Website Status') . "</a></li>\n");
-    print("  <li><a href=\"/translations/instructions.php\">" . __('Instructions') . "</a></li>\n");
+    print("  <li><a href=\"https://github.com/WinMerge/winmerge/blob/master/Translations/README.md\">" . __('Instructions') . "</a></li>\n");
     print("</ul>\n");
     
     $page->printSubHeading(__('Translating'));
@@ -31,7 +31,7 @@
     }
     print("</ul>\n");
     
-    $page->printPara(__('If you would like to update any of these translations or add another translation, then please follow <a href="%s">these instructions</a>.', 'instructions.php'));
+    $page->printPara(__('If you would like to update any of these translations or add another translation, then please follow <a href="%s">these instructions</a>.', 'https://github.com/WinMerge/winmerge/blob/master/Translations/README.md'));
     
     $page->printAnchorSubHeading(__('Translators'), 'translators');
     $status->printTranslators();

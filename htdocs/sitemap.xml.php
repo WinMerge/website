@@ -13,7 +13,6 @@
     'https://winmerge.org/source-code/',
     'https://winmerge.org/support/',
     'https://winmerge.org/translations/',
-    'https://winmerge.org/translations/instructions.php',
     'https://winmerge.org/translations/status_website.php'
   ];
 
