@@ -29,14 +29,12 @@
       <td class="center"><?php __e('Installer');?></td>
       <td class="center"><?php __e('EXE');?></td>
     </tr>
-<!--
     <tr>
-      <td class="left"><a href="<?php echo $stablerelease->getDownload('setup64.exe');?>" target="_blank" class="button is-dark"><?php echo $stablerelease->getDownloadFileName('setup64.exe');?></a></td>
+      <td class="left"><a href="<?php echo $stablerelease->getDownload('setup64.exe');?>" target="_blank" class="button is-dark is-small"><?php echo $stablerelease->getDownloadFileName('setup64.exe');?></a></td>
       <td class="center"><?php __e('%s MB', $stablerelease->getDownloadSizeMb('setup64.exe'));?></td>
       <td class="center"><?php __e('Installer');?></td>
       <td class="center"><?php __e('EXE');?></td>
     </tr>
--->
     <tr>
       <td class="left"><a href="<?php echo $stablerelease->getDownload('exe.zip');?>" target="_blank" class="button is-dark"><?php echo $stablerelease->getDownloadFileName('exe.zip');?></a></td>
       <td class="center"><?php __e('%s MB', $stablerelease->getDownloadSizeMb('exe.zip'));?></td>
@@ -62,8 +60,8 @@
   <dl id="checksumslist">
     <dt><?php echo $stablerelease->getDownloadFileName('setup.exe'); ?></dt>
     <dd><code><?php echo $stablerelease->getDownloadSha256Sum('setup.exe') ?></code></dd>
-    <!--<dt><?php echo $stablerelease->getDownloadFileName('setup64.exe'); ?></dt>
-    <dd><code><?php echo $stablerelease->getDownloadSha256Sum('setup64.exe') ?></code></dd>-->
+    <dt><?php echo $stablerelease->getDownloadFileName('setup64.exe'); ?></dt>
+    <dd><code><?php echo $stablerelease->getDownloadSha256Sum('setup64.exe') ?></code></dd>
     <dt><?php echo $stablerelease->getDownloadFileName('exe.zip'); ?></dt>
     <dd><code><?php echo $stablerelease->getDownloadSha256Sum('exe.zip') ?></code></dd>
     <dt><?php echo $stablerelease->getDownloadFileName('exe64.zip'); ?></dt>
