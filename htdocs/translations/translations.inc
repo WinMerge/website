@@ -176,7 +176,7 @@
         }
         else { //If template...
           if (strcasecmp($translation->file, 'ReadMe.txt') == 0) { //HACK: The ReadMe.txt has a different path!
-            $temp .= "  <li><a href=\"https://github.com/WinMerge/website/blob/master/Docs/Users/ReadMe.txt\" rel=\"nofollow\">" . (string)$translation->language . "&nbsp;(" . __('Template') . ")</a></li>\n";
+            $temp .= "  <li><a href=\"https://github.com/WinMerge/winmerge/blob/master/Docs/Users/ReadMe.txt\" rel=\"nofollow\">" . (string)$translation->language . "&nbsp;(" . __('Template') . ")</a></li>\n";
           }
           else {
             $temp .= "  <li><a href=\"" . $srcUrl . (string)$translation->file . "\" rel=\"nofollow\">" . (string)$translation->language . "&nbsp;(" . __('Template') . ")</a></li>\n";
