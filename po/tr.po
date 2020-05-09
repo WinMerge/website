@@ -1,6 +1,9 @@
 # This file is part from WinMerge <http://winmerge.org/>
 # Released under the "GNU General Public License"
 #
+# Translators:
+# * Kaya Zeren <translator at zeron.net>
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: WinMerge\n"
@@ -15,6 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Poedit-SourceCharset: utf-8\n"
 "X-Poedit-Basepath: ../htdocs\n"
+"X-Poedit-Language: Turkish\n"
 "X-Generator: Poedit 2.3\n"
 
 #: 404.php:9
