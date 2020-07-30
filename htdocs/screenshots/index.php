@@ -28,6 +28,10 @@
 <p><a href="imgcmp.png" target="_blank"><img class="image" src="imgcmp.png" alt="<?php __e('Image Comparison');?>" border="0"></a></p>
 <p><?php __e('WinMerge can compare images and highlight the differences in several ways.');?></p>
 
+<h3><?php __e('Table Comparison');?></h3>
+<p><a href="tblcmp.png" target="_blank"><img class="image" src="tblcmp.png" alt="<?php __e('Table Comparison');?>" border="0"></a></p>
+<p><?php __e('Table compare displays the contents of CSV/TSV files in tabular format.');?></p>
+
 <h3><?php __e('Binary Comparison');?></h3>
 <p><a href="hexcmp.png" target="_blank"><img class="image" src="hexcmp.png" alt="<?php __e('Binary Comparison');?>" border="0"></a></p>
 <p><?php __e('WinMerge can detect whether files are in text or binary format. When you launch a file compare operation on binary files, WinMerge opens each file in the binary file editor.');?></p>

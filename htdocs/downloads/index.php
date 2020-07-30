@@ -24,26 +24,26 @@
       <th class="center"><?php __e('Format');?></th>
     </tr>
     <tr>
-      <td class="left"><a href="<?php echo $stablerelease->getDownload('setup.exe');?>" target="_blank" class="button"><?php echo $stablerelease->getDownloadFileName('setup.exe');?></a></td>
-      <td class="center"><?php __e('%s MB', $stablerelease->getDownloadSizeMb('setup.exe'));?></td>
-      <td class="center"><?php __e('Installer');?></td>
-      <td class="center"><?php __e('EXE');?></td>
-    </tr>
-    <tr>
-      <td class="left"><a href="<?php echo $stablerelease->getDownload('setup64.exe');?>" target="_blank" class="button is-dark is-small"><?php echo $stablerelease->getDownloadFileName('setup64.exe');?></a></td>
+      <td class="left"><a href="<?php echo $stablerelease->getDownload('setup64.exe');?>" target="_blank" class="button"><?php echo $stablerelease->getDownloadFileName('setup64.exe');?></a></td>
       <td class="center"><?php __e('%s MB', $stablerelease->getDownloadSizeMb('setup64.exe'));?></td>
       <td class="center"><?php __e('Installer');?></td>
       <td class="center"><?php __e('EXE');?></td>
     </tr>
     <tr>
-      <td class="left"><a href="<?php echo $stablerelease->getDownload('exe.zip');?>" target="_blank" class="button is-dark"><?php echo $stablerelease->getDownloadFileName('exe.zip');?></a></td>
-      <td class="center"><?php __e('%s MB', $stablerelease->getDownloadSizeMb('exe.zip'));?></td>
-      <td class="center"><?php __e('Binaries');?></td>
-      <td class="center"><?php __e('ZIP');?></td>
+      <td class="left"><a href="<?php echo $stablerelease->getDownload('setup.exe');?>" target="_blank" class="button is-dark"><?php echo $stablerelease->getDownloadFileName('setup.exe');?></a></td>
+      <td class="center"><?php __e('%s MB', $stablerelease->getDownloadSizeMb('setup.exe'));?></td>
+      <td class="center"><?php __e('Installer');?></td>
+      <td class="center"><?php __e('EXE');?></td>
     </tr>
     <tr>
       <td class="left"><a href="<?php echo $stablerelease->getDownload('exe64.zip');?>" target="_blank" class="button is-dark"><?php echo $stablerelease->getDownloadFileName('exe64.zip');?></a></td>
       <td class="center"><?php __e('%s MB', $stablerelease->getDownloadSizeMb('exe64.zip'));?></td>
+      <td class="center"><?php __e('Binaries');?></td>
+      <td class="center"><?php __e('ZIP');?></td>
+    </tr>
+    <tr>
+      <td class="left"><a href="<?php echo $stablerelease->getDownload('exe.zip');?>" target="_blank" class="button is-dark"><?php echo $stablerelease->getDownloadFileName('exe.zip');?></a></td>
+      <td class="center"><?php __e('%s MB', $stablerelease->getDownloadSizeMb('exe.zip'));?></td>
       <td class="center"><?php __e('Binaries');?></td>
       <td class="center"><?php __e('ZIP');?></td>
     </tr>
