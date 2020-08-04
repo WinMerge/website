@@ -30,6 +30,12 @@
       <td class="center"><?php __e('EXE');?></td>
     </tr>
     <tr>
+      <td class="left"><a href="<?php echo $stablerelease->getDownload('setup64peruser.exe');?>" target="_blank" class="button is-dark"><?php echo $stablerelease->getDownloadFileName('setup64peruser.exe');?></a></td>
+      <td class="center"><?php __e('%s MB', $stablerelease->getDownloadSizeMb('setup64peruser.exe'));?></td>
+      <td class="center"><?php __e('Per-user installer');?></td>
+      <td class="center"><?php __e('EXE');?></td>
+    </tr>
+    <tr>
       <td class="left"><a href="<?php echo $stablerelease->getDownload('setup.exe');?>" target="_blank" class="button is-dark"><?php echo $stablerelease->getDownloadFileName('setup.exe');?></a></td>
       <td class="center"><?php __e('%s MB', $stablerelease->getDownloadSizeMb('setup.exe'));?></td>
       <td class="center"><?php __e('Installer');?></td>
@@ -74,9 +80,9 @@
   $page->printSubSubHeading(__('Requirements'));
 ?>
 <ul>
-  <li><?php __e('Microsoft Windows XP or newer');?></li>
-  <li><?php __e('Microsoft Visual C++ 2013 Runtime Components (included in the installer)');?></li>
-  <li><?php __e('Admin rights for the installer');?></li>
+  <li><?php __e('32-bit installer: Microsoft Windows XP or newer');?></li>
+  <li><?php __e('64-bit installer: Microsoft Windows 7 or newer');?></li>
+  <li><?php __e('Admin rights for the installer (except for Per-user installer)');?></li>
 </ul>
 <?php
   $page->printSubHeading(__('Other Versions'));
