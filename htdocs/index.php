@@ -55,7 +55,7 @@
 </ul>
 <h4><?php __e('Table Compare');?> <span class="tag is-success"><?php __e('New!');?></span></h4>
 <ul>
-  <li><?php __e('Display CSV/TSV file contents in tabular format');?></li>
+  <li><?php __e('Shows CSV/TSV file contents in table format');?></li>
   <li><?php __e('Text can be wrapped for each column');?></li>
 </ul>
 <h4><?php __e('Version Control');?></h4>

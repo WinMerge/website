@@ -68,6 +68,8 @@
     <dd><code><?php echo $stablerelease->getDownloadSha256Sum('setup.exe') ?></code></dd>
     <dt><?php echo $stablerelease->getDownloadFileName('setup64.exe'); ?></dt>
     <dd><code><?php echo $stablerelease->getDownloadSha256Sum('setup64.exe') ?></code></dd>
+    <dt><?php echo $stablerelease->getDownloadFileName('setup64peruser.exe'); ?></dt>
+    <dd><code><?php echo $stablerelease->getDownloadSha256Sum('setup64peruser.exe') ?></code></dd>
     <dt><?php echo $stablerelease->getDownloadFileName('exe.zip'); ?></dt>
     <dd><code><?php echo $stablerelease->getDownloadSha256Sum('exe.zip') ?></code></dd>
     <dt><?php echo $stablerelease->getDownloadFileName('exe64.zip'); ?></dt>
@@ -101,7 +103,7 @@
 <ul>
   <li><a href="https://ci.appveyor.com/project/sdottaka/winmerge"><?php __e('Continuous Integration Builds');?></a></li>
   <li><a href="https://portableapps.com/apps/utilities/winmerge_portable"><?php __e('WinMerge Portable');?></a> <?php __e('(by PortableApps.com)');?></li>
-  <li><a href="https://bitbucket.org/jtuc/winmerge2011/">WinMerge 2011</a> (by Jochen Neubeck)</li>
+  <li><a href="https://github.com/datadiode/winmerge2011/">WinMerge 2011</a> (by Jochen Neubeck)</li>
 </ul>
 <?php
   $page->printRssSubHeading(__('Project File Releases'), 'https://sourceforge.net/projects/winmerge/rss?path=/');
