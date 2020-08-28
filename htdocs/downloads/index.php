@@ -24,26 +24,32 @@
       <th class="center"><?php __e('Format');?></th>
     </tr>
     <tr>
-      <td class="left"><a href="<?php echo $stablerelease->getDownload('setup.exe');?>" target="_blank" class="button"><?php echo $stablerelease->getDownloadFileName('setup.exe');?></a></td>
-      <td class="center"><?php __e('%s MB', $stablerelease->getDownloadSizeMb('setup.exe'));?></td>
-      <td class="center"><?php __e('Installer');?></td>
-      <td class="center"><?php __e('EXE');?></td>
-    </tr>
-    <tr>
-      <td class="left"><a href="<?php echo $stablerelease->getDownload('setup64.exe');?>" target="_blank" class="button is-dark is-small"><?php echo $stablerelease->getDownloadFileName('setup64.exe');?></a></td>
+      <td class="left"><a href="<?php echo $stablerelease->getDownload('setup64.exe');?>" target="_blank" class="button"><?php echo $stablerelease->getDownloadFileName('setup64.exe');?></a></td>
       <td class="center"><?php __e('%s MB', $stablerelease->getDownloadSizeMb('setup64.exe'));?></td>
       <td class="center"><?php __e('Installer');?></td>
       <td class="center"><?php __e('EXE');?></td>
     </tr>
     <tr>
-      <td class="left"><a href="<?php echo $stablerelease->getDownload('exe.zip');?>" target="_blank" class="button is-dark"><?php echo $stablerelease->getDownloadFileName('exe.zip');?></a></td>
-      <td class="center"><?php __e('%s MB', $stablerelease->getDownloadSizeMb('exe.zip'));?></td>
-      <td class="center"><?php __e('Binaries');?></td>
-      <td class="center"><?php __e('ZIP');?></td>
+      <td class="left"><a href="<?php echo $stablerelease->getDownload('setup64peruser.exe');?>" target="_blank" class="button is-dark"><?php echo $stablerelease->getDownloadFileName('setup64peruser.exe');?></a></td>
+      <td class="center"><?php __e('%s MB', $stablerelease->getDownloadSizeMb('setup64peruser.exe'));?></td>
+      <td class="center"><?php __e('Per-user installer');?></td>
+      <td class="center"><?php __e('EXE');?></td>
+    </tr>
+    <tr>
+      <td class="left"><a href="<?php echo $stablerelease->getDownload('setup.exe');?>" target="_blank" class="button is-dark"><?php echo $stablerelease->getDownloadFileName('setup.exe');?></a></td>
+      <td class="center"><?php __e('%s MB', $stablerelease->getDownloadSizeMb('setup.exe'));?></td>
+      <td class="center"><?php __e('Installer');?></td>
+      <td class="center"><?php __e('EXE');?></td>
     </tr>
     <tr>
       <td class="left"><a href="<?php echo $stablerelease->getDownload('exe64.zip');?>" target="_blank" class="button is-dark"><?php echo $stablerelease->getDownloadFileName('exe64.zip');?></a></td>
       <td class="center"><?php __e('%s MB', $stablerelease->getDownloadSizeMb('exe64.zip'));?></td>
+      <td class="center"><?php __e('Binaries');?></td>
+      <td class="center"><?php __e('ZIP');?></td>
+    </tr>
+    <tr>
+      <td class="left"><a href="<?php echo $stablerelease->getDownload('exe.zip');?>" target="_blank" class="button is-dark"><?php echo $stablerelease->getDownloadFileName('exe.zip');?></a></td>
+      <td class="center"><?php __e('%s MB', $stablerelease->getDownloadSizeMb('exe.zip'));?></td>
       <td class="center"><?php __e('Binaries');?></td>
       <td class="center"><?php __e('ZIP');?></td>
     </tr>
@@ -62,6 +68,8 @@
     <dd><code><?php echo $stablerelease->getDownloadSha256Sum('setup.exe') ?></code></dd>
     <dt><?php echo $stablerelease->getDownloadFileName('setup64.exe'); ?></dt>
     <dd><code><?php echo $stablerelease->getDownloadSha256Sum('setup64.exe') ?></code></dd>
+    <dt><?php echo $stablerelease->getDownloadFileName('setup64peruser.exe'); ?></dt>
+    <dd><code><?php echo $stablerelease->getDownloadSha256Sum('setup64peruser.exe') ?></code></dd>
     <dt><?php echo $stablerelease->getDownloadFileName('exe.zip'); ?></dt>
     <dd><code><?php echo $stablerelease->getDownloadSha256Sum('exe.zip') ?></code></dd>
     <dt><?php echo $stablerelease->getDownloadFileName('exe64.zip'); ?></dt>
@@ -74,9 +82,9 @@
   $page->printSubSubHeading(__('Requirements'));
 ?>
 <ul>
-  <li><?php __e('Microsoft Windows XP or newer');?></li>
-  <li><?php __e('Microsoft Visual C++ 2013 Runtime Components (included in the installer)');?></li>
-  <li><?php __e('Admin rights for the installer');?></li>
+  <li><?php __e('32-bit installer: Microsoft Windows XP or newer');?></li>
+  <li><?php __e('64-bit installer: Microsoft Windows 7 or newer');?></li>
+  <li><?php __e('Admin rights for the installer (except for Per-user installer)');?></li>
 </ul>
 <?php
   $page->printSubHeading(__('Other Versions'));
@@ -95,7 +103,7 @@
 <ul>
   <li><a href="https://ci.appveyor.com/project/sdottaka/winmerge"><?php __e('Continuous Integration Builds');?></a></li>
   <li><a href="https://portableapps.com/apps/utilities/winmerge_portable"><?php __e('WinMerge Portable');?></a> <?php __e('(by PortableApps.com)');?></li>
-  <li><a href="https://bitbucket.org/jtuc/winmerge2011/">WinMerge 2011</a> (by Jochen Neubeck)</li>
+  <li><a href="https://github.com/datadiode/winmerge2011/">WinMerge 2011</a> (by Jochen Neubeck)</li>
 </ul>
 <?php
   $page->printRssSubHeading(__('Project File Releases'), 'https://sourceforge.net/projects/winmerge/rss?path=/');

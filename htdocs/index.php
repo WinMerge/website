@@ -45,13 +45,18 @@
   <li><?php __e('Fast compare using file sizes and dates');?></li>
   <li><?php __e('Compares one folder or includes all subfolders');?></li>
   <li><?php __e('Can show folder compare results in a tree-style view');?></li>
-  <li><?php __e('3-way Folder Comparison');?> <span class="tag is-warning"><?php __e('Work in progress');?></span></li>
+  <li><?php __e('3-way Folder Comparison');?></span></li>
 </ul>
 <h4><?php __e('Image Compare');?> <span class="tag is-success"><?php __e('New!');?></span></h4>
 <ul>
   <li><?php __e('Support many types of images');?></li>
   <li><?php __e('Can highlight the differences with blocks');?></li>
   <li><?php __e('Overlaying of the pictures is possible');?></li>
+</ul>
+<h4><?php __e('Table Compare');?> <span class="tag is-success"><?php __e('New!');?></span></h4>
+<ul>
+  <li><?php __e('Shows CSV/TSV file contents in table format');?></li>
+  <li><?php __e('Text can be wrapped for each column');?></li>
 </ul>
 <h4><?php __e('Version Control');?></h4>
 <ul>
