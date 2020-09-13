@@ -725,18 +725,26 @@ msgid "WinMerge can compare images and highlight the differences in several ways
 msgstr ""
 
 #: screenshots/index.php:31 screenshots/index.php:32
-msgid "Binary Comparison"
+msgid "Table Comparison"
 msgstr ""
 
 #: screenshots/index.php:33
-msgid "WinMerge can detect whether files are in text or binary format. When you launch a file compare operation on binary files, WinMerge opens each file in the binary file editor."
+msgid "Table compare shows the contents of CSV/TSV files in table format."
 msgstr ""
 
 #: screenshots/index.php:35 screenshots/index.php:36
-msgid "Open-dialog"
+msgid "Binary Comparison"
 msgstr ""
 
 #: screenshots/index.php:37
+msgid "WinMerge can detect whether files are in text or binary format. When you launch a file compare operation on binary files, WinMerge opens each file in the binary file editor."
+msgstr ""
+
+#: screenshots/index.php:39 screenshots/index.php:40
+msgid "Open-dialog"
+msgstr ""
+
+#: screenshots/index.php:41
 msgid "WinMerge allows selecting/opening paths in several ways. Using the Open-dialog is just one of them."
 msgstr ""
 
