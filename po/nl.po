@@ -20,7 +20,7 @@ msgstr ""
 "X-Poedit-Language: Dutch\n"
 "X-Poedit-SourceCharset: utf-8\n"
 
-#: docs/changelog.php:11
+#: docs/changelog.php:10
 msgid "The change log is currently not available..."
 msgstr "De lijst van aanpassingen is op dit moment niet beschikbaar..."
 
@@ -28,7 +28,7 @@ msgstr "De lijst van aanpassingen is op dit moment niet beschikbaar..."
 msgid "What is WinMerge?"
 msgstr "Wat is WinMerge?"
 
-#: downloads/index.php:88
+#: downloads/index.php:96
 msgid "WinMerge 2.12.4 <em>for Windows 95/98/ME/NT</em>"
 msgstr "WinMerge 2.12.4 <em>voor Windows 95/98/ME/NT</em>"
 
@@ -40,11 +40,6 @@ msgstr ""
 "Daarenboven heeft WinMerge vele handige ondersteunende functies die "
 "vergelijken, synchroniseren en samenvoegen zo gemakkelijk en bruikbaar "
 "mogelijk maken:"
-
-#: 404.php:18
-#, c-format
-msgid "<a href=\"%s\">Documentation</a>?"
-msgstr "<a href=\"%s\">Documentatie</a>?"
 
 #: screenshots/index.php:21
 msgid ""
@@ -93,15 +88,11 @@ msgstr "Totaal: onbekend"
 msgid "Normal Traffic"
 msgstr "Normaal verkeer"
 
-#: translations/instructions.php:5 translations/instructions.php:8
-msgid "Translations instructions"
-msgstr "Vertaalinstructies"
-
 #: engine/engine.inc:23
 msgid "Greek"
 msgstr "ελληνικά"
 
-#: docs/index.php:15 engine/engine.inc:19
+#: 404.php:22 docs/index.php:15 engine/engine.inc:19
 msgid "English"
 msgstr "English"
 
@@ -122,11 +113,6 @@ msgstr "Downloaden"
 msgid "Home"
 msgstr "Home"
 
-#: 404.php:25
-#, c-format
-msgid "<a href=\"%s\">Downloads</a>?"
-msgstr "<a href=\"%s\">Downloads</a>?"
-
 #: support/index.php:67
 msgid "This list is used for coordinating the translations."
 msgstr "Deze lijst wordt gebruikt om de vertalingen te coördineren."
@@ -141,7 +127,8 @@ msgstr ""
 "downloaden en openen. Lees de <a href=\"%s\">online handleiding</a> voor "
 "hulp om hem te gebruiken."
 
-#: engine/page.inc:345 index.php:85 support/index.php:9 support/index.php:11
+#: 404.php:33 engine/page.inc:345 index.php:90 support/index.php:9
+#: support/index.php:11
 msgid "Support"
 msgstr "Ondersteuning"
 
@@ -158,7 +145,7 @@ msgstr "Het locatievenster toont een kaart van de vergeleken bestanden"
 msgid "Donate"
 msgstr "Doneren"
 
-#: index.php:56
+#: index.php:61
 msgid "Version Control"
 msgstr "Versie-controle"
 
@@ -177,7 +164,7 @@ msgstr ""
 msgid "Active Forum Topics"
 msgstr "Actieve forumtopics"
 
-#: index.php:63
+#: index.php:68
 msgid "Shell Integration (supports 64-bit Windows versions)"
 msgstr "Shell-integratie (ondersteunt 64-bit Windowsversies)"
 
@@ -198,7 +185,7 @@ msgstr ""
 msgid "File not found."
 msgstr "Bestand niet gevonden."
 
-#: index.php:65
+#: index.php:70
 msgid "Plugin support"
 msgstr "Plugin-ondersteuning"
 
@@ -228,9 +215,8 @@ msgstr ""
 msgid "Basque"
 msgstr "Basque"
 
-#: engine/page.inc:210 engine/page.inc:211 support/index.php:41
-#: support/index.php:51 support/index.php:61 support/index.php:71
-#: support/index.php:81
+#: engine/page.inc:211 support/index.php:41 support/index.php:51
+#: support/index.php:61 support/index.php:71 support/index.php:81
 msgid "Archive"
 msgstr "Archief"
 
@@ -269,7 +255,7 @@ msgstr "Totaal: %d"
 msgid "See the <a href=\"%s\">screenshots page</a> for more screenshots."
 msgstr "Zie de <a href=\"%s\">screenshots-pagina</a> voor meer screenshots."
 
-#: downloads/index.php:89
+#: downloads/index.php:97
 msgid ""
 "WinMerge version 2.12.4 was the last version to ship with Microsoft Visual "
 "C++ 2005 runtimes that support Windows 95/98/ME/NT. It was also the last "
@@ -279,7 +265,7 @@ msgstr ""
 "2005 runtimes kwam, dat Windows 95/89/ME/NT ondersteunt. Het was ook de "
 "laatste versie die met een ANSI-versie van Winmerge kwam."
 
-#: index.php:82
+#: index.php:87
 msgid "View all news&hellip;"
 msgstr "Bekijk alle news&hellip;"
 
@@ -292,15 +278,15 @@ msgstr ""
 "Als u een van deze vertalingen wilt updaten of een andere vertaling "
 "toevoegen, gelieve dan <a href=\"%s\">deze instructies</a> te volgen."
 
-#: screenshots/index.php:35 screenshots/index.php:36
+#: screenshots/index.php:39 screenshots/index.php:40
 msgid "Open-dialog"
 msgstr "Open-dialoog"
 
-#: docs/index.php:16 engine/engine.inc:26
+#: 404.php:23 docs/index.php:16 engine/engine.inc:26
 msgid "Japanese"
 msgstr "日本語 (Japanese)"
 
-#: downloads/index.php:97
+#: downloads/index.php:105
 msgid "(by PortableApps.com)"
 msgstr "(door PortableApps.com)"
 
@@ -315,7 +301,7 @@ msgstr ""
 "gebruikers toe om gemakkelijk kleine aanpassingen te doen zonder dat "
 "bestanden geopend moeten worden door een andere editor of ontwikkelomgeving."
 
-#: downloads/index.php:74
+#: downloads/index.php:82
 msgid "Requirements"
 msgstr "Vereisten"
 
@@ -329,7 +315,7 @@ msgstr ""
 "andere site, verouderde zoekmachine-lijst of doordat we gewoon een bestand "
 "gewist hebben) kon de pagina waar u naar zocht niet gevonden worden."
 
-#: index.php:88
+#: index.php:93
 msgid "Developers"
 msgstr "Ontwikkelaars"
 
@@ -361,7 +347,7 @@ msgstr ""
 "mapvergelijkingsresultaten, regelverschil markeren, locatievenster, "
 "splashvenster"
 
-#: docs/changelog.php:7 docs/changelog.php:8 docs/index.php:21
+#: 404.php:27 docs/changelog.php:7 docs/index.php:21
 msgid "Change Log"
 msgstr "Lijst met aanpassingen"
 
@@ -394,20 +380,16 @@ msgstr ""
 msgid "Type"
 msgstr "Type"
 
-#: 404.php:21
-#, c-format
-msgid "<a href=\"%s\">Release Notes</a>?"
-msgstr "<a href=\"%s\">Vrijgave-opmerkingen</a>?"
-
 #: 404.php:11
 msgid "Page Not Found..."
 msgstr "Pagina niet gevonden..."
 
-#: index.php:59
+#: index.php:64
 msgid "Resolve conflict files"
 msgstr "Conflictbestanden oplossen"
 
-#: engine/page.inc:346 translations/index.php:7 translations/index.php:9
+#: 404.php:34 engine/page.inc:346 translations/index.php:7
+#: translations/index.php:9
 msgid "Translations"
 msgstr "Vertalingen"
 
@@ -429,8 +411,8 @@ msgstr "Vertaalstatus"
 msgid "Last Update"
 msgstr "Laatste update"
 
-#: downloads/index.php:53 engine/page.inc:344 source-code/index.php:11
-#: source-code/index.php:13
+#: 404.php:32 downloads/index.php:59 engine/page.inc:344
+#: source-code/index.php:11 source-code/index.php:13
 msgid "Source Code"
 msgstr "Broncode"
 
@@ -460,15 +442,11 @@ msgstr ""
 "De <a href=\"%s\">ontwikkelingswiki</a> bevat veel informatie over de "
 "ontwikkeling van WinMerge."
 
-#: downloads/index.php:79
-msgid "Admin rights for the installer"
-msgstr "Administratorrechten voor het installatiebestand"
-
-#: downloads/index.php:29 downloads/index.php:35
+#: downloads/index.php:29 downloads/index.php:41
 msgid "Installer"
 msgstr "Installatiebestand"
 
-#: index.php:70
+#: index.php:75
 #, c-format
 msgid "WinMerge %s - latest stable version"
 msgstr "WinMerge %s - laatste stabiele versie"
@@ -481,7 +459,7 @@ msgstr "Ondersteuningslijst"
 msgid "Announce List"
 msgstr "Aankondigingslijst"
 
-#: screenshots/index.php:37
+#: screenshots/index.php:41
 msgid ""
 "WinMerge allows selecting/opening paths in several ways. Using the Open-"
 "dialog is just one of them."
@@ -584,7 +562,7 @@ msgstr "Alle actieve topics weergeven&hellip;"
 msgid "Language"
 msgstr "Language"
 
-#: downloads/index.php:117 index.php:80
+#: downloads/index.php:125 index.php:85
 msgid "Y-m-d"
 msgstr "d-m-Y"
 
@@ -592,7 +570,8 @@ msgstr "d-m-Y"
 msgid "Instructions"
 msgstr "Instructies"
 
-#: docs/index.php:19 docs/releasenotes.php:7 docs/releasenotes.php:10
+#: 404.php:26 docs/index.php:19 docs/releasenotes.php:7
+#: docs/releasenotes.php:10
 msgid "Release Notes"
 msgstr "Vrijgave-opmerkingen"
 
@@ -642,7 +621,7 @@ msgstr ""
 msgid "Can show folder compare results in a tree-style view"
 msgstr "Kan mapvergelijkingsresultaten weergeven in een boomweergave"
 
-#: index.php:67
+#: index.php:72
 #, c-format
 msgid "<a href=\"%s\">Online manual</a> and installed HTML Help manual"
 msgstr "<a href=\"%s\">Online handleiding</a> en geïnstalleerde html-handleiding"
@@ -651,12 +630,7 @@ msgstr "<a href=\"%s\">Online handleiding</a> en geïnstalleerde html-handleidin
 msgid "Highlights differences inside lines"
 msgstr "Markeert verschillen binnen regels"
 
-#: 404.php:29
-#, c-format
-msgid "<a href=\"%s\">Translations</a>?"
-msgstr "<a href=\"%s\">Vertalingen</a>?"
-
-#: index.php:71
+#: index.php:76
 #, c-format
 msgid ""
 "<a href=\"%1$s\">WinMerge %2$s</a> is the latest stable version, and is "
@@ -665,7 +639,7 @@ msgstr ""
 "<a href=\"%1$s\">WinMerge %2$s</a> is de laatste stabiele versie, en wordt "
 "aangeraden voor de meeste gebruikers."
 
-#: index.php:90
+#: index.php:95
 #, c-format
 msgid ""
 "In addition, WinMerge is translated into a number of different languages. "
@@ -698,11 +672,11 @@ msgstr "Fuzzy: %d%%"
 msgid "Folder Compare Tree View"
 msgstr "Boomweergave mapvergelijking"
 
-#: docs/index.php:7 docs/index.php:9 engine/page.inc:341
+#: 404.php:18 docs/index.php:7 docs/index.php:9 engine/page.inc:341
 msgid "Documentation"
 msgstr "Documentatie"
 
-#: docs/index.php:10
+#: 404.php:20 docs/index.php:10
 msgid "Manual"
 msgstr "Handleiding"
 
@@ -733,11 +707,12 @@ msgstr ""
 msgid "Visual differencing and merging of text files"
 msgstr "Visueel zien van verschillen en samenvoegen van tekstbestanden"
 
-#: engine/page.inc:343 screenshots/index.php:7 screenshots/index.php:9
+#: 404.php:31 engine/page.inc:343 screenshots/index.php:7
+#: screenshots/index.php:9
 msgid "Screenshots"
 msgstr "Screenshots"
 
-#: downloads/index.php:9 downloads/index.php:101
+#: downloads/index.php:9 downloads/index.php:109
 msgid "Project File Releases"
 msgstr "Projectbestand-releases"
 
@@ -757,7 +732,7 @@ msgstr ""
 "geneste mapstructuren. <em>De boomweergave is alleen beschikbaar in "
 "recursieve vergelijkingen."
 
-#: downloads/index.php:124
+#: downloads/index.php:132
 msgid "Beta Versions"
 msgstr "Bèta-versies"
 
@@ -766,7 +741,7 @@ msgstr "Bèta-versies"
 msgid "Unsubscribe"
 msgstr "Uitschrijven"
 
-#: index.php:86
+#: index.php:91
 #, c-format
 msgid ""
 "If you need support, look at our <a href=\"%s\">support page</a> for more "
@@ -776,19 +751,19 @@ msgstr ""
 "href=\"%s\">ondersteuningspagina</a> voor meer informatie over hoe u "
 "ondersteuning kan krijgen."
 
-#: index.php:58
+#: index.php:63
 msgid "Creates patch files (Normal-, Context- and Unified formats)"
 msgstr "Maakt patch-bestanden (Normal-, context- en Unified-formaten)"
 
-#: index.php:66
+#: index.php:71
 msgid "Localizable interface"
 msgstr "Interface met aanpasbare taal"
 
-#: downloads/index.php:125
+#: downloads/index.php:133
 msgid "Experimental Builds"
 msgstr "Experimentele builds"
 
-#: index.php:64
+#: index.php:69
 msgid "Archive file support using 7-Zip"
 msgstr "Archiefbestand-ondersteuning met behulp van 7-Zip"
 
@@ -800,11 +775,6 @@ msgid ""
 msgstr ""
 "Dit betekent dat iedereen de <a href=\"%s\">broncode</a> kan downloaden en ze verbeteren en aanpassen.\n"
 "Het enige dat we vragen is dat mensen hun verbeteringen en aanpassingen terug naar ons sturen zodat alle WinMerge-gebruikers er voordeel van hebben."
-
-#: 404.php:22
-#, c-format
-msgid "<a href=\"%s\">Change Log</a>?"
-msgstr "<a href=\"%s\">Lijst van aanpassingen</a>?"
 
 #: support/index.php:47
 msgid "You should ask all your support questions on this list."
@@ -818,33 +788,23 @@ msgstr "Bestand niet geldig."
 msgid "General"
 msgstr "Algemeen"
 
-#: index.php:61
+#: index.php:66
 msgid "Other"
 msgstr "Andere"
-
-#: 404.php:28
-#, c-format
-msgid "<a href=\"%s\">Support</a>?"
-msgstr "<a href=\"%s\">Ondersteuning</a>?"
 
 #: source-code/index.php:19
 msgid "GNU General Public License"
 msgstr "GNU General Public License"
 
-#: 404.php:26
-#, c-format
-msgid "<a href=\"%s\">Screenshots</a>?"
-msgstr "<a href=\"%s\">Screenshots</a>?"
-
 #: docs/index.php:23
 msgid "Development Wiki"
 msgstr "Ontwikkelingswiki"
 
-#: downloads/index.php:123
+#: downloads/index.php:131
 msgid "Stable Versions"
 msgstr "Stabiele versies"
 
-#: downloads/index.php:82
+#: downloads/index.php:90
 msgid "Other Versions"
 msgstr "Andere versies"
 
@@ -884,11 +844,6 @@ msgstr ""
 "Deze site heeft recent een grote aanpassing ondergaan, zodat dit kan "
 "verklaren waarom u deze pagina in de plaats kreeg."
 
-#: translations/instructions.php:14
-#, c-format
-msgid "Source: %s"
-msgstr "Bron: %s"
-
 #: support/index.php:42 support/index.php:72
 msgid "Low Traffic"
 msgstr "Laag verkeer"
@@ -902,7 +857,7 @@ msgstr ""
 msgid "Mailing Lists"
 msgstr "Maillijsten"
 
-#: downloads/index.php:41 downloads/index.php:47
+#: downloads/index.php:47 downloads/index.php:53
 msgid "Binaries"
 msgstr "Binaries"
 
@@ -953,7 +908,7 @@ msgstr ""
 "De huidige WinMerge-versie is <strong>%1$s</strong> en werd vrijgegeven op "
 "<strong>%2$s</strong>."
 
-#: engine/page.inc:342
+#: 404.php:30 engine/page.inc:342
 msgid "Downloads"
 msgstr "Downloads"
 
@@ -961,12 +916,7 @@ msgstr "Downloads"
 msgid "WinMerge Translations"
 msgstr "WinMerge vertalingen"
 
-#: 404.php:20
-#, c-format
-msgid "<a href=\"%s\">Manual</a>?"
-msgstr "<a href=\"%s\">Handleiding</a>?"
-
-#: index.php:8 index.php:73
+#: index.php:8 index.php:78
 msgid "Project News"
 msgstr "Projectnieuws"
 
@@ -984,10 +934,6 @@ msgstr "Polski"
 msgid "Translated"
 msgstr "Vertaald"
 
-#: translations/instructions.php:9
-msgid "The translations instructions are currently not available..."
-msgstr "De vertaalinstructies zijn op dit moment niet beschikbaar..."
-
 #: support/index.php:55
 msgid "User List"
 msgstr "Lijst van gebruikers"
@@ -1000,7 +946,7 @@ msgstr "Fout 404 (pagina niet gevonden)"
 msgid "Graph"
 msgstr "Grafiek"
 
-#: index.php:89
+#: index.php:94
 msgid ""
 "WinMerge is an open source project, which means that the program is "
 "maintained and developed by volunteers."
@@ -1044,7 +990,7 @@ msgstr ""
 "De <a href=\"%s\">handleiding</a> legt uit hoe WinMerge gebruikt wordt, en "
 "documenteert zijn mogelijkheden en limitaties."
 
-#: downloads/index.php:97
+#: downloads/index.php:105
 msgid "WinMerge Portable"
 msgstr "WinMerge portable"
 
@@ -1087,7 +1033,7 @@ msgstr ""
 msgid "Development List"
 msgstr "Ontwikkelingslijst"
 
-#: downloads/index.php:119
+#: downloads/index.php:127
 msgid "View all file releases&hellip;"
 msgstr "Bekijk alle bestanden releases&hellip;"
 
@@ -1100,20 +1046,20 @@ msgid "Format"
 msgstr ""
 
 #: downloads/index.php:28 downloads/index.php:34 downloads/index.php:40
-#: downloads/index.php:46 downloads/index.php:52
+#: downloads/index.php:46 downloads/index.php:52 downloads/index.php:58
 #, c-format
 msgid "%s MB"
 msgstr ""
 
-#: downloads/index.php:30 downloads/index.php:36
+#: downloads/index.php:30 downloads/index.php:36 downloads/index.php:42
 msgid "EXE"
 msgstr ""
 
-#: downloads/index.php:42 downloads/index.php:48
+#: downloads/index.php:48 downloads/index.php:54
 msgid "ZIP"
 msgstr ""
 
-#: downloads/index.php:54
+#: downloads/index.php:60
 msgid "7z"
 msgstr ""
 
@@ -1133,15 +1079,15 @@ msgstr ""
 msgid "Spanish (Venezuela)"
 msgstr ""
 
-#: engine/page.inc:124 engine/page.inc:168
+#: engine/page.inc:126 engine/page.inc:169
 msgid "You will see the difference…"
 msgstr ""
 
-#: engine/page.inc:190
+#: engine/page.inc:191
 msgid "Change Language"
 msgstr ""
 
-#: engine/page.inc:207
+#: engine/page.inc:208
 msgid "Project Pages"
 msgstr ""
 
@@ -1176,44 +1122,30 @@ msgstr ""
 msgid "Website Status <em>from %s</em>"
 msgstr ""
 
-#: 404.php:27
-#, c-format
-msgid "<a href=\"%s\">Source Code</a>?"
-msgstr ""
-
-#: downloads/index.php:59
+#: downloads/index.php:65
 msgid "SHA-256 Checksums"
 msgstr ""
 
-#: downloads/index.php:77
-msgid "Microsoft Windows XP or newer"
-msgstr ""
-
-#: downloads/index.php:78
-msgid ""
-"Microsoft Visual C++ 2013 Runtime Components (included in the installer)"
-msgstr ""
-
-#: downloads/index.php:83
+#: downloads/index.php:91
 msgid "WinMerge 2.14.0 <em>for Windows 2000</em>"
 msgstr ""
 
-#: downloads/index.php:84
+#: downloads/index.php:92
 msgid ""
 "WinMerge version 2.14.0 was the last version to ship with Microsoft Visual "
 "C++ 2008 runtimes that support Windows 2000."
 msgstr ""
 
-#: downloads/index.php:86 downloads/index.php:91
+#: downloads/index.php:94 downloads/index.php:99
 #, c-format
 msgid "Get version %s"
 msgstr ""
 
-#: downloads/index.php:93
+#: downloads/index.php:101
 msgid "Unofficial Versions"
 msgstr ""
 
-#: downloads/index.php:126
+#: downloads/index.php:134
 msgid "All File Releases"
 msgstr ""
 
@@ -1229,16 +1161,12 @@ msgstr ""
 msgid "3-way File Comparison"
 msgstr ""
 
-#: index.php:34 index.php:50
+#: index.php:34 index.php:50 index.php:56
 msgid "New!"
 msgstr ""
 
 #: index.php:48
 msgid "3-way Folder Comparison"
-msgstr ""
-
-#: index.php:48
-msgid "Work in progress"
 msgstr ""
 
 #: index.php:50
@@ -1272,11 +1200,11 @@ msgid ""
 "WinMerge can compare images and highlight the differences in several ways."
 msgstr ""
 
-#: screenshots/index.php:31 screenshots/index.php:32
+#: screenshots/index.php:35 screenshots/index.php:36
 msgid "Binary Comparison"
 msgstr ""
 
-#: screenshots/index.php:33
+#: screenshots/index.php:37
 msgid ""
 "WinMerge can detect whether files are in text or binary format. When you "
 "launch a file compare operation on binary files, WinMerge opens each file in"
@@ -1297,7 +1225,7 @@ msgid ""
 "Development Wiki"
 msgstr ""
 
-#: downloads/index.php:96
+#: downloads/index.php:104
 msgid "Continuous Integration Builds"
 msgstr ""
 
@@ -1338,3 +1266,98 @@ msgstr ""
 #: source-code/index.php:44
 msgid "Branch"
 msgstr ""
+
+#: downloads/index.php:35
+msgid "Per-user installer"
+msgstr ""
+
+#: downloads/index.php:85
+msgid "32-bit installer: Microsoft Windows XP or newer"
+msgstr ""
+
+#: downloads/index.php:86
+msgid "64-bit installer: Microsoft Windows 7 or newer"
+msgstr ""
+
+#: downloads/index.php:87
+msgid "Admin rights for the installer (except for Per-user installer)"
+msgstr ""
+
+#: index.php:56
+msgid "Table Compare"
+msgstr ""
+
+#: index.php:58
+msgid "Shows CSV/TSV file contents in table format"
+msgstr ""
+
+#: index.php:59
+msgid "Text can be wrapped for each column"
+msgstr ""
+
+#: screenshots/index.php:31 screenshots/index.php:32
+msgid "Table Comparison"
+msgstr ""
+
+#: screenshots/index.php:33
+msgid "Table compare shows the contents of CSV/TSV files in table format."
+msgstr ""
+
+#, c-format
+#~ msgid "<a href=\"%s\">Documentation</a>?"
+#~ msgstr "<a href=\"%s\">Documentatie</a>?"
+
+#~ msgid "Translations instructions"
+#~ msgstr "Vertaalinstructies"
+
+#, c-format
+#~ msgid "<a href=\"%s\">Downloads</a>?"
+#~ msgstr "<a href=\"%s\">Downloads</a>?"
+
+#, c-format
+#~ msgid "<a href=\"%s\">Release Notes</a>?"
+#~ msgstr "<a href=\"%s\">Vrijgave-opmerkingen</a>?"
+
+#~ msgid "Admin rights for the installer"
+#~ msgstr "Administratorrechten voor het installatiebestand"
+
+#, c-format
+#~ msgid "<a href=\"%s\">Translations</a>?"
+#~ msgstr "<a href=\"%s\">Vertalingen</a>?"
+
+#, c-format
+#~ msgid "<a href=\"%s\">Change Log</a>?"
+#~ msgstr "<a href=\"%s\">Lijst van aanpassingen</a>?"
+
+#, c-format
+#~ msgid "<a href=\"%s\">Support</a>?"
+#~ msgstr "<a href=\"%s\">Ondersteuning</a>?"
+
+#, c-format
+#~ msgid "<a href=\"%s\">Screenshots</a>?"
+#~ msgstr "<a href=\"%s\">Screenshots</a>?"
+
+#, c-format
+#~ msgid "Source: %s"
+#~ msgstr "Bron: %s"
+
+#, c-format
+#~ msgid "<a href=\"%s\">Manual</a>?"
+#~ msgstr "<a href=\"%s\">Handleiding</a>?"
+
+#~ msgid "The translations instructions are currently not available..."
+#~ msgstr "De vertaalinstructies zijn op dit moment niet beschikbaar..."
+
+#, c-format
+#~ msgid "<a href=\"%s\">Source Code</a>?"
+#~ msgstr ""
+
+#~ msgid "Microsoft Windows XP or newer"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Microsoft Visual C++ 2013 Runtime Components (included in the installer)"
+#~ msgstr ""
+
+#~ msgid "Work in progress"
+#~ msgstr ""
