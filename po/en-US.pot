@@ -753,6 +753,10 @@ msgstr ""
 msgid "The source code is hosted on <a href=\"%1$s\">GitHub</a> in a <a href=\"%2$s\">Git</a> repository:"
 msgstr ""
 
+#: source-code/index.php:38
+msgid "You can also download the current branches as ZIP file:"
+msgstr ""
+
 #: source-code/index.php:44
 msgid "Branch"
 msgstr ""
