@@ -1,11 +1,14 @@
 # This file is part from WinMerge <http://winmerge.org/>
 # Released under the "GNU General Public License"
 #
+# Translators:
+# * Kaya Zeren <translator at zeron.net>
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: WinMerge\n"
 "Report-Msgid-Bugs-To: http://bugs.winmerge.org\n"
-"POT-Creation-Date: 2019-09-22 23:45+0000\n"
+"POT-Creation-Date: 2020-09-15 05:31+0000\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Kaya Zeren <translator@zeron.net>\n"
 "Language-Team: \n"
@@ -13,9 +16,9 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Poedit-SourceCharset: utf-8\n"
+"X-Generator: Poedit 2.4.1\n"
 "X-Poedit-Basepath: ../htdocs\n"
-"X-Generator: Poedit 2.3\n"
+"X-Poedit-SourceCharset: utf-8\n"
 
 #: 404.php:9
 msgid "Error 404 (Page Not Found)"
@@ -26,124 +29,141 @@ msgid "Page Not Found..."
 msgstr "Sayfa Bulunamadı..."
 
 #: 404.php:12
-msgid "For some reason (mis-typed URL, faulty referral from another site, out-of-date search engine listing or we simply deleted a file) the page you were looking for could not be found."
-msgstr "Bir nedenden dolayı aradığınız sayfa bulunamadı (hatalı web adresi, hatalı bağlantı, eski arama motoru sonucu veya silinmiş içerik)."
+msgid ""
+"For some reason (mis-typed URL, faulty referral from another site, out-of-"
+"date search engine listing or we simply deleted a file) the page you were "
+"looking for could not be found."
+msgstr ""
+"Bir nedenden dolayı aradığınız sayfa bulunamadı (hatalı web adresi, hatalı "
+"bağlantı, eski arama motoru sonucu veya silinmiş içerik)."
 
 #: 404.php:13
-msgid "This site has recently undergone a major re-working, so that might explain why you got this page instead."
-msgstr "Bu sitenin içeriği geçenlerde epey değiştirildi, bu yüzden bu sayfayı görüyor olabilirsiniz."
+msgid ""
+"This site has recently undergone a major re-working, so that might explain "
+"why you got this page instead."
+msgstr ""
+"Bu sitenin içeriği geçenlerde epey değiştirildi, bu yüzden bu sayfayı "
+"görüyor olabilirsiniz."
 
 #: 404.php:15
 msgid "Were you looking for..."
 msgstr "Aradığınız..."
 
-#: 404.php:18
-#, c-format
-msgid "<a href=\"%s\">Documentation</a>?"
-msgstr "<a href=\"%s\">Belgeler</a>?"
+#: 404.php:18 docs/index.php:7 docs/index.php:9 engine/page.inc:341
+msgid "Documentation"
+msgstr "Belgeler"
 
-#: 404.php:20
-#, c-format
-msgid "<a href=\"%s\">Manual</a>?"
-msgstr "<a href=\"%s\">Kitap</a>?"
+#: 404.php:20 docs/index.php:10
+msgid "Manual"
+msgstr "Kitap"
 
-#: 404.php:21
-#, c-format
-msgid "<a href=\"%s\">Release Notes</a>?"
-msgstr "<a href=\"%s\">Yayın Notları</a>?"
+#: 404.php:22 docs/index.php:15 engine/engine.inc:19
+msgid "English"
+msgstr "İngilizce"
 
-#: 404.php:22
-#, c-format
-msgid "<a href=\"%s\">Change Log</a>?"
-msgstr "<a href=\"%s\">Değişiklik Günlüğü</a>?"
+#: 404.php:23 docs/index.php:16 engine/engine.inc:26
+msgid "Japanese"
+msgstr "Japonca"
 
-#: 404.php:25
-#, c-format
-msgid "<a href=\"%s\">Downloads</a>?"
-msgstr "<a href=\"%s\">İndirmeler</a>?"
+#: 404.php:26 docs/index.php:19 docs/releasenotes.php:7
+#: docs/releasenotes.php:10
+msgid "Release Notes"
+msgstr "Yayın Notları"
 
-#: 404.php:26
-#, c-format
-msgid "<a href=\"%s\">Screenshots</a>?"
-msgstr "<a href=\"%s\">Ekran Görüntüleri</a>?"
-
-#: 404.php:27
-#, c-format
-msgid "<a href=\"%s\">Source Code</a>?"
-msgstr "<a href=\"%s\">Kaynak Kodu</a>?"
-
-#: 404.php:28
-#, c-format
-msgid "<a href=\"%s\">Support</a>?"
-msgstr "<a href=\"%s\">Destek</a>?"
-
-#: 404.php:29
-#, c-format
-msgid "<a href=\"%s\">Translations</a>?"
-msgstr "<a href=\"%s\">Çeviriler</a>?"
-
-#: docs/changelog.php:5
-msgid "The change log is a more complete list of changes in the last WinMerge releases."
-msgstr "Değişiklik günlüğünde son WinMerge yayınlarında yapılan tüm değişikliklerin listesi bulunur."
-
-#: docs/changelog.php:6
-msgid "WinMerge, change log, changes, release, tracker item, revision number"
-msgstr "WinMerge, değişiklik günlüğü, değişiklikler, yayın, izleyici ögesi, düzeltme sayısı"
-
-#: docs/changelog.php:7 docs/changelog.php:8 docs/index.php:21
+#: 404.php:27 docs/changelog.php:7 docs/index.php:21
 msgid "Change Log"
 msgstr "Değişiklik Günlüğü"
 
-#: docs/changelog.php:11
+#: 404.php:30 engine/page.inc:342
+msgid "Downloads"
+msgstr "İndirmeler"
+
+#: 404.php:31 engine/page.inc:343 screenshots/index.php:7
+#: screenshots/index.php:9
+msgid "Screenshots"
+msgstr "Ekran Görüntüleri"
+
+#: 404.php:32 downloads/index.php:59 engine/page.inc:344
+#: source-code/index.php:11 source-code/index.php:13
+msgid "Source Code"
+msgstr "Kaynak Kodu"
+
+#: 404.php:33 engine/page.inc:345 index.php:90 support/index.php:9
+#: support/index.php:11
+msgid "Support"
+msgstr "Destek"
+
+#: 404.php:34 engine/page.inc:346 translations/index.php:7
+#: translations/index.php:9
+msgid "Translations"
+msgstr "Çeviriler"
+
+#: docs/changelog.php:5
+msgid ""
+"The change log is a more complete list of changes in the last WinMerge "
+"releases."
+msgstr ""
+"Değişiklik günlüğünde son WinMerge yayınlarında yapılan tüm değişikliklerin "
+"listesi bulunur."
+
+#: docs/changelog.php:6
+msgid "WinMerge, change log, changes, release, tracker item, revision number"
+msgstr ""
+"WinMerge, değişiklik günlüğü, değişiklikler, yayın, izleyici ögesi, düzeltme "
+"sayısı"
+
+#: docs/changelog.php:10
 msgid "The change log is currently not available..."
 msgstr "Değişiklik günlüğü şu anda görüntülenemiyor..."
 
 #: docs/index.php:5
-msgid "Documentation from WinMerge like manual, release notes, change log and Development Wiki."
-msgstr "WinMerge kitabı, yayın notları, değişiklik günlüğü ve Geliştirme Wiki sayfası gibi belgeler."
+msgid ""
+"Documentation from WinMerge like manual, release notes, change log and "
+"Development Wiki."
+msgstr ""
+"WinMerge kitabı, yayın notları, değişiklik günlüğü ve Geliştirme Wiki "
+"sayfası gibi belgeler."
 
 #: docs/index.php:6
-msgid "WinMerge, documentation, manual, release notes, known issues, change log, Development Wiki"
-msgstr "WinMerge, belgeler, kitap, yayın notları, bilinen sorunlar, değişiklik günlüğü, Geliştirme Wiki sayfası"
-
-#: docs/index.php:7 docs/index.php:9 engine/page.inc:341
-msgid "Documentation"
-msgstr "Belgeler"
-
-#: docs/index.php:10
-msgid "Manual"
-msgstr "Kitap"
+msgid ""
+"WinMerge, documentation, manual, release notes, known issues, change log, "
+"Development Wiki"
+msgstr ""
+"WinMerge, belgeler, kitap, yayın notları, bilinen sorunlar, değişiklik "
+"günlüğü, Geliştirme Wiki sayfası"
 
 #: docs/index.php:11
 #, c-format
-msgid "The <a href=\"%s\">manual</a> explains how to use WinMerge, and documents its capabilities and limitations."
-msgstr "<a href=\"%s\">Kitap</a> içinde WinMerge kullanım bilgilerinin yanında uygulamanın yetenek ve sınırlamaları da bulunur."
+msgid ""
+"The <a href=\"%s\">manual</a> explains how to use WinMerge, and documents "
+"its capabilities and limitations."
+msgstr ""
+"<a href=\"%s\">Kitap</a> içinde WinMerge kullanım bilgilerinin yanında "
+"uygulamanın yetenek ve sınırlamaları da bulunur."
 
 #: docs/index.php:12
 msgid "It is currently available in the following languages:"
 msgstr "Şu anda şu dillerde kullanılabilir:"
 
-#: docs/index.php:15 engine/engine.inc:19
-msgid "English"
-msgstr "İngilizce"
-
-#: docs/index.php:16 engine/engine.inc:26
-msgid "Japanese"
-msgstr "Japonca"
-
-#: docs/index.php:19 docs/releasenotes.php:7 docs/releasenotes.php:10
-msgid "Release Notes"
-msgstr "Yayın Notları"
-
 #: docs/index.php:20
 #, c-format
-msgid "The <a href=\"%1$s\">release notes</a> are a short summary of important changes, enhancements, bug fixes and <a href=\"%2$s\">known issues</a> in the current WinMerge release."
-msgstr "<a href=\"%1$s\">Yayın notları</a> güncel WinMerge yayınındaki önemli değişiklikler, geliştirmeler, hata düzeltmeleri ve <a href=\"%2$s\">bilinen sorunlar</a> hakkında özet bilgiler içerir."
+msgid ""
+"The <a href=\"%1$s\">release notes</a> are a short summary of important "
+"changes, enhancements, bug fixes and <a href=\"%2$s\">known issues</a> in "
+"the current WinMerge release."
+msgstr ""
+"<a href=\"%1$s\">Yayın notları</a> güncel WinMerge yayınındaki önemli "
+"değişiklikler, geliştirmeler, hata düzeltmeleri ve <a href=\"%2$s\">bilinen "
+"sorunlar</a> hakkında özet bilgiler içerir."
 
 #: docs/index.php:22
 #, c-format
-msgid "The <a href=\"%s\">change log</a> is a more complete list of changes in the last WinMerge releases."
-msgstr "<a href=\"%s\">Değişiklik günlüğü</a> son WinMerge yayınlarındaki değişikliklerin ayrıntılı listesini içerir."
+msgid ""
+"The <a href=\"%s\">change log</a> is a more complete list of changes in the "
+"last WinMerge releases."
+msgstr ""
+"<a href=\"%s\">Değişiklik günlüğü</a> son WinMerge yayınlarındaki "
+"değişikliklerin ayrıntılı listesini içerir."
 
 #: docs/index.php:23
 msgid "Development Wiki"
@@ -151,16 +171,28 @@ msgstr "Geliştirme Wiki Sayfası"
 
 #: docs/index.php:24
 #, c-format
-msgid "The <a href=\"%s\">Development Wiki</a> contains much information about the WinMerge development."
-msgstr "<a href=\"%s\">Geliştirme Wiki sayfası</a> WinMerge uygulamasının geliştirilmesi ile ilgili pek çok bilgiyi içerir."
+msgid ""
+"The <a href=\"%s\">Development Wiki</a> contains much information about the "
+"WinMerge development."
+msgstr ""
+"<a href=\"%s\">Geliştirme Wiki sayfası</a> WinMerge uygulamasının "
+"geliştirilmesi ile ilgili pek çok bilgiyi içerir."
 
 #: docs/releasenotes.php:5
-msgid "The release notes are a short summary of important changes, enhancements, bug fixes and known issues in the current WinMerge release."
-msgstr "Yayın notları, geçerli WinMerge sürümündeki önemli değişiklik, geliştirme, hata düzeltme ve bilinen sorunlarla ilgili özet bilgileri içerir."
+msgid ""
+"The release notes are a short summary of important changes, enhancements, "
+"bug fixes and known issues in the current WinMerge release."
+msgstr ""
+"Yayın notları, geçerli WinMerge sürümündeki önemli değişiklik, geliştirme, "
+"hata düzeltme ve bilinen sorunlarla ilgili özet bilgileri içerir."
 
 #: docs/releasenotes.php:6
-msgid "WinMerge, release notes, summary, changes, enhancements, bug fixes, known issues, release"
-msgstr "WinMerge, yayın notları, özet, değişiklikler, geliştirmeler, hata düzeltmeleri, bilinen sorunlar, yayın"
+msgid ""
+"WinMerge, release notes, summary, changes, enhancements, bug fixes, known "
+"issues, release"
+msgstr ""
+"WinMerge, yayın notları, özet, değişiklikler, geliştirmeler, hata "
+"düzeltmeleri, bilinen sorunlar, yayın"
 
 #: docs/releasenotes.php:11
 msgid "The release notes are currently not available..."
@@ -168,14 +200,23 @@ msgstr "Yayın notları şu anda görüntülenemiyor..."
 
 #: downloads/index.php:7
 #, c-format
-msgid "Download the current WinMerge version %1$s, which was released at %2$s. For detailed info on what is new, read the change log and the release notes."
-msgstr "%2$s tarihinde yayınlanmış olan WinMerge %1$s sürümünü indirin. Yeniliklerin neler olduğu hakkında bilgi almak için değişiklik günlüğünü ve yayın notlarını okuyun."
+msgid ""
+"Download the current WinMerge version %1$s, which was released at %2$s. For "
+"detailed info on what is new, read the change log and the release notes."
+msgstr ""
+"%2$s tarihinde yayınlanmış olan WinMerge %1$s sürümünü indirin. Yeniliklerin "
+"neler olduğu hakkında bilgi almak için değişiklik günlüğünü ve yayın "
+"notlarını okuyun."
 
 #: downloads/index.php:8
-msgid "WinMerge, free, download, Windows, setup, installer, binaries, runtimes, stable, beta, experimental, portable"
-msgstr "WinMerge, serbest, ücretsiz, indir, Windows, kur, kurulum, uygulama, kararlı, beta, deneysel, taşınabilir"
+msgid ""
+"WinMerge, free, download, Windows, setup, installer, binaries, runtimes, "
+"stable, beta, experimental, portable"
+msgstr ""
+"WinMerge, serbest, ücretsiz, indir, Windows, kur, kurulum, uygulama, "
+"kararlı, beta, deneysel, taşınabilir"
 
-#: downloads/index.php:9 downloads/index.php:101
+#: downloads/index.php:9 downloads/index.php:109
 msgid "Project File Releases"
 msgstr "Proje Dosyası Yayınları"
 
@@ -185,8 +226,13 @@ msgstr "WinMerge İndir"
 
 #: downloads/index.php:13
 #, c-format
-msgid "The easiest way to install WinMerge is to download and run the Installer. Read the <a href=\"%s\">online manual</a> for help using it."
-msgstr "WinMerge uygulamasını kurmanın en kolay yolu kurucuyu indirip çalıştırmaktır. Kullanma bilgileri için <a href=\"%s\">çevrimiçi kitabı</a> okuyabilirsiniz."
+msgid ""
+"The easiest way to install WinMerge is to download and run the Installer. "
+"Read the <a href=\"%s\">online manual</a> for help using it."
+msgstr ""
+"WinMerge uygulamasını kurmanın en kolay yolu kurucuyu indirip "
+"çalıştırmaktır. Kullanma bilgileri için <a href=\"%s\">çevrimiçi kitabı</a> "
+"okuyabilirsiniz."
 
 #: downloads/index.php:14
 #, c-format
@@ -195,13 +241,21 @@ msgstr "WinMerge %s"
 
 #: downloads/index.php:15
 #, c-format
-msgid "The current WinMerge version is <strong>%1$s</strong> and was released at <strong>%2$s</strong>."
-msgstr "Güncel WinMerge <strong>%1$s</strong> sürümü, <strong>%2$s</strong> tarihinde yayınlanmış."
+msgid ""
+"The current WinMerge version is <strong>%1$s</strong> and was released at "
+"<strong>%2$s</strong>."
+msgstr ""
+"Güncel WinMerge <strong>%1$s</strong> sürümü, <strong>%2$s</strong> "
+"tarihinde yayınlanmış."
 
 #: downloads/index.php:16
 #, c-format
-msgid "For detailed info on what is new, read the <a href=\"%1$s\">change log</a> and the <a href=\"%2$s\">release notes</a>."
-msgstr "Yenilikler hakkında ayrıntılı bilgi almak için <a href=\"%1$s\">değişiklik günlüğü</a> ve <a href=\"%2$s\">yayın notlarına</a> bakabilirsiniz."
+msgid ""
+"For detailed info on what is new, read the <a href=\"%1$s\">change log</a> "
+"and the <a href=\"%2$s\">release notes</a>."
+msgstr ""
+"Yenilikler hakkında ayrıntılı bilgi almak için <a href=\"%1$s\">değişiklik "
+"günlüğü</a> ve <a href=\"%2$s\">yayın notlarına</a> bakabilirsiniz."
 
 #: downloads/index.php:21 source-code/index.php:43
 msgid "Download"
@@ -220,118 +274,127 @@ msgid "Format"
 msgstr "Biçim"
 
 #: downloads/index.php:28 downloads/index.php:34 downloads/index.php:40
-#: downloads/index.php:46 downloads/index.php:52
+#: downloads/index.php:46 downloads/index.php:52 downloads/index.php:58
 #, c-format
 msgid "%s MB"
 msgstr "%s MB"
 
-#: downloads/index.php:29 downloads/index.php:35
+#: downloads/index.php:29 downloads/index.php:41
 msgid "Installer"
 msgstr "Kurucu"
 
-#: downloads/index.php:30 downloads/index.php:36
+#: downloads/index.php:30 downloads/index.php:36 downloads/index.php:42
 msgid "EXE"
 msgstr "EXE"
 
-#: downloads/index.php:41 downloads/index.php:47
-msgid "Binaries"
-msgstr "Binary Dosyaları"
+#: downloads/index.php:35
+msgid "Per-user installer"
+msgstr "Tek kullanıcıya göre kurulum"
 
-#: downloads/index.php:42 downloads/index.php:48
+#: downloads/index.php:47 downloads/index.php:53
+msgid "Binaries"
+msgstr "İkili Dosyalar"
+
+#: downloads/index.php:48 downloads/index.php:54
 msgid "ZIP"
 msgstr "ZIP"
 
-#: downloads/index.php:53 engine/page.inc:344 source-code/index.php:11
-#: source-code/index.php:13
-msgid "Source Code"
-msgstr "Kaynak Kodu"
-
-#: downloads/index.php:54
+#: downloads/index.php:60
 msgid "7z"
 msgstr "7z"
 
-#: downloads/index.php:59
+#: downloads/index.php:65
 msgid "SHA-256 Checksums"
 msgstr "SHA-256 Sağlamaları"
 
-#: downloads/index.php:74
+#: downloads/index.php:82
 msgid "Requirements"
 msgstr "Gereksinimler"
 
-#: downloads/index.php:77
-msgid "Microsoft Windows XP or newer"
-msgstr "Microsoft Windows XP ve üzeri"
+#: downloads/index.php:85
+msgid "32-bit installer: Microsoft Windows XP or newer"
+msgstr "32 bit kurucu: Microsoft Windows XP ya da üzeri"
 
-#: downloads/index.php:78
-msgid "Microsoft Visual C++ 2013 Runtime Components (included in the installer)"
-msgstr "Microsoft Visual C++ 2013 Runtime Bileşenleri (kurucuya dahil)"
+#: downloads/index.php:86
+msgid "64-bit installer: Microsoft Windows 7 or newer"
+msgstr "64 bit kurucu: Microsoft Windows 7 ya da üzeri"
 
-#: downloads/index.php:79
-msgid "Admin rights for the installer"
-msgstr "Kurucu için yönetici yetkileri"
+#: downloads/index.php:87
+msgid "Admin rights for the installer (except for Per-user installer)"
+msgstr "Kurucu için yönetici izinleri (tek kullanıcıya kurulum dışında)"
 
-#: downloads/index.php:82
+#: downloads/index.php:90
 msgid "Other Versions"
 msgstr "Diğer Sürümler"
 
-#: downloads/index.php:83
+#: downloads/index.php:91
 msgid "WinMerge 2.14.0 <em>for Windows 2000</em>"
 msgstr "<em>Windows 2000 için</em> WinMerge 2.14.0"
 
-#: downloads/index.php:84
-msgid "WinMerge version 2.14.0 was the last version to ship with Microsoft Visual C++ 2008 runtimes that support Windows 2000."
-msgstr "WinMerge 2.14.0 sürümü Windows 2000 işletim sistemini destekleyen Microsoft Visual C++ 2008 runtime bileşenleri ile birlikte yayınlanan son sürümdür."
+#: downloads/index.php:92
+msgid ""
+"WinMerge version 2.14.0 was the last version to ship with Microsoft Visual C+"
+"+ 2008 runtimes that support Windows 2000."
+msgstr ""
+"WinMerge 2.14.0 sürümü Windows 2000 işletim sistemini destekleyen Microsoft "
+"Visual C++ 2008 runtime bileşenleri ile birlikte yayınlanan son sürümdür."
 
-#: downloads/index.php:86 downloads/index.php:91
+#: downloads/index.php:94 downloads/index.php:99
 #, c-format
 msgid "Get version %s"
 msgstr "%s sürümünü alın"
 
-#: downloads/index.php:88
+#: downloads/index.php:96
 msgid "WinMerge 2.12.4 <em>for Windows 95/98/ME/NT</em>"
 msgstr "<em>Windows 95/98/ME/NT için</em> WinMerge 2.12.4"
 
-#: downloads/index.php:89
-msgid "WinMerge version 2.12.4 was the last version to ship with Microsoft Visual C++ 2005 runtimes that support Windows 95/98/ME/NT. It was also the last version to ship with an ANSI version of WinMerge."
-msgstr "WinMerge 2.12.4 sürümü Windows 95/98/ME/NT işletim sistemlerini destekleyen Microsoft Visual C++ 2005 runtime bileşenleri ile birlikte yayınlanan son sürümdür."
+#: downloads/index.php:97
+msgid ""
+"WinMerge version 2.12.4 was the last version to ship with Microsoft Visual C+"
+"+ 2005 runtimes that support Windows 95/98/ME/NT. It was also the last "
+"version to ship with an ANSI version of WinMerge."
+msgstr ""
+"WinMerge 2.12.4 sürümü Windows 95/98/ME/NT işletim sistemlerini destekleyen "
+"Microsoft Visual C++ 2005 runtime bileşenleri ile birlikte yayınlanan son "
+"sürümdür."
 
-#: downloads/index.php:93
+#: downloads/index.php:101
 msgid "Unofficial Versions"
 msgstr "Resmi Olmayan Sürümler"
 
-#: downloads/index.php:96
+#: downloads/index.php:104
 msgid "Continuous Integration Builds"
 msgstr "Sürekli Bütünleştirme Yapımları"
 
-#: downloads/index.php:97
+#: downloads/index.php:105
 msgid "WinMerge Portable"
 msgstr "WinMerge Portable"
 
-#: downloads/index.php:97
+#: downloads/index.php:105
 msgid "(by PortableApps.com)"
 msgstr "(PortableApps.com tarafından)"
 
-#: downloads/index.php:117 index.php:80
+#: downloads/index.php:125 index.php:85
 msgid "Y-m-d"
 msgstr "Y-m-d"
 
-#: downloads/index.php:119
+#: downloads/index.php:127
 msgid "View all file releases&hellip;"
 msgstr "Yayınlanan tüm dosyaları görüntüle&hellip;"
 
-#: downloads/index.php:123
+#: downloads/index.php:131
 msgid "Stable Versions"
 msgstr "Kararlı Sürümler"
 
-#: downloads/index.php:124
+#: downloads/index.php:132
 msgid "Beta Versions"
 msgstr "Beta Sürümleri"
 
-#: downloads/index.php:125
+#: downloads/index.php:133
 msgid "Experimental Builds"
 msgstr "Deneysel Yayınlar"
 
-#: downloads/index.php:126
+#: downloads/index.php:134
 msgid "All File Releases"
 msgstr "Yayınlanmış Tüm Dosyalar"
 
@@ -391,21 +454,20 @@ msgstr "İsveçce"
 msgid "Turkish"
 msgstr "Türkçe"
 
-#: engine/page.inc:124 engine/page.inc:168
+#: engine/page.inc:126 engine/page.inc:169
 msgid "You will see the difference…"
-msgstr "Farkları göreceksiniz..."
+msgstr "Farkları göreceksiniz…"
 
-#: engine/page.inc:190
+#: engine/page.inc:191
 msgid "Change Language"
 msgstr "Dili Değiştir"
 
-#: engine/page.inc:207
+#: engine/page.inc:208
 msgid "Project Pages"
 msgstr "Proje Sayfaları"
 
-#: engine/page.inc:210 engine/page.inc:211 support/index.php:41
-#: support/index.php:51 support/index.php:61 support/index.php:71
-#: support/index.php:81
+#: engine/page.inc:211 support/index.php:41 support/index.php:51
+#: support/index.php:61 support/index.php:71 support/index.php:81
 msgid "Archive"
 msgstr "Arşiv"
 
@@ -435,16 +497,8 @@ msgid "WinMerge Documentation"
 msgstr "WinMerge Belgeleri"
 
 #: engine/page.inc:342
-msgid "Downloads"
-msgstr "İndirmeler"
-
-#: engine/page.inc:342
 msgid "WinMerge Downloads"
 msgstr "WinMerge İndirmeleri"
-
-#: engine/page.inc:343 screenshots/index.php:7 screenshots/index.php:9
-msgid "Screenshots"
-msgstr "Ekran Görüntüleri"
 
 #: engine/page.inc:343
 msgid "WinMerge Screenshots"
@@ -454,31 +508,36 @@ msgstr "WinMerge Ekran Görüntüleri"
 msgid "WinMerge Source Code"
 msgstr "WinMerge Kaynak Kodu"
 
-#: engine/page.inc:345 index.php:85 support/index.php:9 support/index.php:11
-msgid "Support"
-msgstr "Destek"
-
 #: engine/page.inc:345
 msgid "WinMerge Support"
 msgstr "WinMerge Desteği"
-
-#: engine/page.inc:346 translations/index.php:7 translations/index.php:9
-msgid "Translations"
-msgstr "Çeviriler"
 
 #: engine/page.inc:346
 msgid "WinMerge Translations"
 msgstr "WinMerge Çevirileri"
 
 #: index.php:6
-msgid "WinMerge is an Open Source differencing and merging tool for Windows. WinMerge can compare both folders and files, presenting differences in a visual text format that is easy to understand and handle."
-msgstr "WinMerge Windows için Açık Kaynaklı bir karşılaştırma ve birleştirme aracıdır. WinMerge klasörleri ve dosyaları karşılaştırabilir, farkları görsel metin biçiminde, kolayca anlaşılıp işlenebilecek şekilde sunar."
+msgid ""
+"WinMerge is an Open Source differencing and merging tool for Windows. "
+"WinMerge can compare both folders and files, presenting differences in a "
+"visual text format that is easy to understand and handle."
+msgstr ""
+"WinMerge Windows için Açık Kaynaklı bir karşılaştırma ve birleştirme "
+"aracıdır. WinMerge klasörleri ve dosyaları karşılaştırabilir, farkları "
+"görsel metin biçiminde, kolayca anlaşılıp işlenebilecek şekilde sunar."
 
 #: index.php:7
-msgid "WinMerge, free, open source, Windows, windiff, diff, merge, compare, tool, utility, text, file, folder, directory, compare files, compare folders, merge files, merge folders, diff tool, merge tool, compare tool"
-msgstr "WinMerge, ücretsiz, serbest, Windows, windiff, fark, birleştir, karşılaştır, araç, metin, dosya, klasör, dizin, dosya karşılaştırıcı, klasör karşılaştırıcı, dosya birleştirici, klasör birleştirici, fark aracı, birleştirme aracı, karşılaştırma aracı"
+msgid ""
+"WinMerge, free, open source, Windows, windiff, diff, merge, compare, tool, "
+"utility, text, file, folder, directory, compare files, compare folders, "
+"merge files, merge folders, diff tool, merge tool, compare tool"
+msgstr ""
+"WinMerge, ücretsiz, serbest, Windows, windiff, fark, birleştir, karşılaştır, "
+"araç, metin, dosya, klasör, dizin, dosya karşılaştırıcı, klasör "
+"karşılaştırıcı, dosya birleştirici, klasör birleştirici, fark aracı, "
+"birleştirme aracı, karşılaştırma aracı"
 
-#: index.php:8 index.php:73
+#: index.php:8 index.php:78
 msgid "Project News"
 msgstr "Proje Haberleri"
 
@@ -488,8 +547,15 @@ msgstr "WinMerge Nedir?"
 
 #: index.php:13
 #, c-format
-msgid "WinMerge is an <a href=\"%s\">Open Source</a> differencing and merging tool for Windows. WinMerge can compare both folders and files, presenting differences in a visual text format that is easy to understand and handle."
-msgstr "WinMerge Windows için yazılmış <a href=\"%s\">Açık Kaynaklı</a> bir fark arama ve birleştirme aracıdır. WinMerge klasörleri ve dosyaları karşılaştırabilir, farkları görsel metin biçiminde, kolayca anlaşılıp işlenebilecek şekilde sunar."
+msgid ""
+"WinMerge is an <a href=\"%s\">Open Source</a> differencing and merging tool "
+"for Windows. WinMerge can compare both folders and files, presenting "
+"differences in a visual text format that is easy to understand and handle."
+msgstr ""
+"WinMerge Windows için yazılmış <a href=\"%s\">Açık Kaynaklı</a> bir fark "
+"arama ve birleştirme aracıdır. WinMerge klasörleri ve dosyaları "
+"karşılaştırabilir, farkları görsel metin biçiminde, kolayca anlaşılıp "
+"işlenebilecek şekilde sunar."
 
 #: index.php:15
 msgid "Screenshot"
@@ -502,19 +568,32 @@ msgstr "Dosya Karşılaştırma"
 #: index.php:19
 #, c-format
 msgid "See the <a href=\"%s\">screenshots page</a> for more screenshots."
-msgstr "Diğer ekran görüntüleri için <a href=\"%s\">ekran görüntüleri</a> sayfasına bakın."
+msgstr ""
+"Diğer ekran görüntüleri için <a href=\"%s\">ekran görüntüleri</a> sayfasına "
+"bakın."
 
 #: index.php:21
 msgid "Features"
 msgstr "Özellikler"
 
 #: index.php:22
-msgid "WinMerge is highly useful for determining what has changed between project versions, and then merging changes between versions. WinMerge can be used as an external differencing/merging tool or as a standalone application."
-msgstr "WinMerge proje sürümleri arasındaki değişiklikleri belirlemenin ve birleştirmenin çok kullanışlı bir yoludur. WinMerge fark bulma ve birleştirme amacıyla bir uygulamanın dış aracı ya da kendi başına çalışan bir araç olarak kullanılabilir."
+msgid ""
+"WinMerge is highly useful for determining what has changed between project "
+"versions, and then merging changes between versions. WinMerge can be used as "
+"an external differencing/merging tool or as a standalone application."
+msgstr ""
+"WinMerge proje sürümleri arasındaki değişiklikleri belirlemenin ve "
+"birleştirmenin çok kullanışlı bir yoludur. WinMerge fark bulma ve "
+"birleştirme amacıyla bir uygulamanın dış aracı ya da kendi başına çalışan "
+"bir araç olarak kullanılabilir."
 
 #: index.php:23
-msgid "In addition, WinMerge has many helpful supporting features that make comparing, synchronising, and merging as easy and useful as possible:"
-msgstr "WinMerge karşılaştırma, eşleştirme ve birleştirme işlemlerini olabildiğince kolay ve kullanışlı şekilde yapabilmek için pek çok özelliğe sahiptir:"
+msgid ""
+"In addition, WinMerge has many helpful supporting features that make "
+"comparing, synchronising, and merging as easy and useful as possible:"
+msgstr ""
+"WinMerge karşılaştırma, eşleştirme ve birleştirme işlemlerini olabildiğince "
+"kolay ve kullanışlı şekilde yapabilmek için pek çok özelliğe sahiptir:"
 
 #: index.php:25
 msgid "General"
@@ -544,7 +623,7 @@ msgstr "Dosya Karşılaştırma"
 msgid "3-way File Comparison"
 msgstr "3 panolu dosya karşılaştırma"
 
-#: index.php:34 index.php:50
+#: index.php:34 index.php:50 index.php:56
 msgid "New!"
 msgstr "Yeni!"
 
@@ -554,7 +633,9 @@ msgstr "Metin dosyalarında farkları görme ve birleştirme"
 
 #: index.php:36
 msgid "Flexible editor with syntax highlighting, line numbers and word-wrap"
-msgstr "Yazım vurgulama, satır numaralama ve sözcük kaydırma özellikli esnek düzenleyici"
+msgstr ""
+"Yazım vurgulama, satır numaralama ve sözcük kaydırma özellikli esnek "
+"düzenleyici"
 
 #: index.php:37
 msgid "Highlights differences inside lines"
@@ -577,8 +658,11 @@ msgid "Folder Compare"
 msgstr "Klasör Karşılaştırma"
 
 #: index.php:44
-msgid "Regular Expression based file filters allow excluding and including items"
-msgstr "Kurallı ifadeleri kullanan dosya süzgeçleri ile katılacak ve katılmayacak ögeleri belirleme"
+msgid ""
+"Regular Expression based file filters allow excluding and including items"
+msgstr ""
+"Kurallı ifadeleri kullanan dosya süzgeçleri ile katılacak ve katılmayacak "
+"ögeleri belirleme"
 
 #: index.php:45
 msgid "Fast compare using file sizes and dates"
@@ -595,10 +679,6 @@ msgstr "Klasör karşılaştırma sonuçlarını ağaç yapısında görüntüle
 #: index.php:48
 msgid "3-way Folder Comparison"
 msgstr "2 panolu klasör karşılaştırma"
-
-#: index.php:48
-msgid "Work in progress"
-msgstr "Çalışma sürüyor"
 
 #: index.php:50
 msgid "Image Compare"
@@ -617,133 +697,222 @@ msgid "Overlaying of the pictures is possible"
 msgstr "Görselleri kaplama olanağı"
 
 #: index.php:56
+msgid "Table Compare"
+msgstr "Tablo Karşılaştırma"
+
+#: index.php:58
+msgid "Shows CSV/TSV file contents in table format"
+msgstr "CSV/TSV dosyasının içeriğini tablo biçiminde görüntüler"
+
+#: index.php:59
+msgid "Text can be wrapped for each column"
+msgstr "Metin her sütün için kaydırılabilir"
+
+#: index.php:61
 msgid "Version Control"
 msgstr "Sürüm Denetimi"
 
-#: index.php:58
+#: index.php:63
 msgid "Creates patch files (Normal-, Context- and Unified formats)"
 msgstr "Yama dosyaları oluşturme (Normal-, Bağlam- ve Birleşik biçimlerde)"
 
-#: index.php:59
+#: index.php:64
 msgid "Resolve conflict files"
 msgstr "Fark dosyalarını çözümleme"
 
-#: index.php:61
+#: index.php:66
 msgid "Other"
 msgstr "Diğer"
 
-#: index.php:63
+#: index.php:68
 msgid "Shell Integration (supports 64-bit Windows versions)"
 msgstr "Kabuk Bütünleştirmesi (64-bit Windows sürümlerini destekler)"
 
-#: index.php:64
+#: index.php:69
 msgid "Archive file support using 7-Zip"
 msgstr "7-Zip ile sıkıştırılmış dosya desteği"
 
-#: index.php:65
+#: index.php:70
 msgid "Plugin support"
 msgstr "Eklenti desteği"
 
-#: index.php:66
+#: index.php:71
 msgid "Localizable interface"
 msgstr "Yerelleştirilebilir arayüz"
 
-#: index.php:67
+#: index.php:72
 #, c-format
 msgid "<a href=\"%s\">Online manual</a> and installed HTML Help manual"
 msgstr "<a href=\"%s\">Çevrimiçi kitap</a> ve kurulu HTML Yardım kitabı"
 
-#: index.php:70
+#: index.php:75
 #, c-format
 msgid "WinMerge %s - latest stable version"
 msgstr "WinMerge %s - son kararlı sürüm"
 
-#: index.php:71
+#: index.php:76
 #, c-format
-msgid "<a href=\"%1$s\">WinMerge %2$s</a> is the latest stable version, and is recommended for most users."
-msgstr "<a href=\"%1$s\">WinMerge %2$s</a> son kararlı sürümdür ve çoğu kullanıcı için önerilir."
+msgid ""
+"<a href=\"%1$s\">WinMerge %2$s</a> is the latest stable version, and is "
+"recommended for most users."
+msgstr ""
+"<a href=\"%1$s\">WinMerge %2$s</a> son kararlı sürümdür ve çoğu kullanıcı "
+"için önerilir."
 
-#: index.php:82
+#: index.php:87
 msgid "View all news&hellip;"
 msgstr "Tüm haberleri görüntüle&hellip;"
 
-#: index.php:86
+#: index.php:91
 #, c-format
-msgid "If you need support, look at our <a href=\"%s\">support page</a> for more information how you can get it."
-msgstr "Destek istekleriniz için <a href=\"%s\">destek bölümüne</a> bakarak ayrıntılı bilgi alabilirsiniz."
+msgid ""
+"If you need support, look at our <a href=\"%s\">support page</a> for more "
+"information how you can get it."
+msgstr ""
+"Destek istekleriniz için <a href=\"%s\">destek bölümüne</a> bakarak "
+"ayrıntılı bilgi alabilirsiniz."
 
-#: index.php:88
+#: index.php:93
 msgid "Developers"
 msgstr "Geliştiriciler"
 
-#: index.php:89
-msgid "WinMerge is an open source project, which means that the program is maintained and developed by volunteers."
-msgstr "WinMerge açık kaynaklı bir projedir. Yani uygulamanın geliştirme ve bakım işleri gönüllüler tarafından yapılır."
+#: index.php:94
+msgid ""
+"WinMerge is an open source project, which means that the program is "
+"maintained and developed by volunteers."
+msgstr ""
+"WinMerge açık kaynaklı bir projedir. Yani uygulamanın geliştirme ve bakım "
+"işleri gönüllüler tarafından yapılır."
 
-#: index.php:90
+#: index.php:95
 #, c-format
-msgid "In addition, WinMerge is translated into a number of different languages. See our <a href=\"%s\">information on translating WinMerge</a> into your own language."
-msgstr "Ayrıca WinMerge pek çok dile çevrilmiştir. Kendi dilinize çevirmek için <a href=\"%s\">WinMerge çeviri bilgileri</a> bölümüne bakın."
+msgid ""
+"In addition, WinMerge is translated into a number of different languages. "
+"See our <a href=\"%s\">information on translating WinMerge</a> into your own "
+"language."
+msgstr ""
+"Ayrıca WinMerge pek çok dile çevrilmiştir. Kendi dilinize çevirmek için <a "
+"href=\"%s\">WinMerge çeviri bilgileri</a> bölümüne bakın."
 
 #: screenshots/index.php:5
-msgid "Screenshots from WinMerge features like file comparison, folder comparison results and location pane."
-msgstr "Dosya karşılaştırma, klasör karşılaştırma sonuçları ve durum panosu gibi WinMerge özelliklerinin ekran görüntüleri."
+msgid ""
+"Screenshots from WinMerge features like file comparison, folder comparison "
+"results and location pane."
+msgstr ""
+"Dosya karşılaştırma, klasör karşılaştırma sonuçları ve durum panosu gibi "
+"WinMerge özelliklerinin ekran görüntüleri."
 
 #: screenshots/index.php:6
-msgid "WinMerge, screenshots, file comparison, open-dialog, folder comparison results, highlight line diff, location pane, splash screen"
-msgstr "WinMerge, ekran görüntüleri, dosya karşılaştırma, aç penceresi, klasör karşılaştırma sonuçları, satır farklarını vurgula, durum panosu, açılış penceresi"
+msgid ""
+"WinMerge, screenshots, file comparison, open-dialog, folder comparison "
+"results, highlight line diff, location pane, splash screen"
+msgstr ""
+"WinMerge, ekran görüntüleri, dosya karşılaştırma, aç penceresi, klasör "
+"karşılaştırma sonuçları, satır farklarını vurgula, durum panosu, açılış "
+"penceresi"
 
 #: screenshots/index.php:13
-msgid "File compare window is basically two files opened to editor into two horizontal panes. Editing allows user to easily do small changes without need to open files to other editor or development environment."
-msgstr "Dosya karşılaştırma penceresi temel olarak iki dosyayı iki yatay panoda görünler. Kullanıcı, başka bir düzenleyici ya da geliştirme ortamı kullanmadan değişiklikleri bu bölümden kolayca yapabilir."
+msgid ""
+"File compare window is basically two files opened to editor into two "
+"horizontal panes. Editing allows user to easily do small changes without "
+"need to open files to other editor or development environment."
+msgstr ""
+"Dosya karşılaştırma penceresi temel olarak iki dosyayı iki yatay panoda "
+"görünler. Kullanıcı, başka bir düzenleyici ya da geliştirme ortamı "
+"kullanmadan değişiklikleri bu bölümden kolayca yapabilir."
 
 #: screenshots/index.php:17
-msgid "The 3-way file compare even allows comparing and editing three files at the same time."
-msgstr "3 panolu dosya karşılaştırma ile aynı anda üç dosya karşılaştırılıp düzenlenebilir."
+msgid ""
+"The 3-way file compare even allows comparing and editing three files at the "
+"same time."
+msgstr ""
+"3 panolu dosya karşılaştırma ile aynı anda üç dosya karşılaştırılıp "
+"düzenlenebilir."
 
 #: screenshots/index.php:19 screenshots/index.php:20
 msgid "Folder Comparison Results"
 msgstr "Klasör Karşılaştırma Sonuçları"
 
 #: screenshots/index.php:21
-msgid "Folder compare shows all files and subfolders found from compared folders as list. Folder compare allows synchronising folders by copying and deleting files and subfolders. Folder compare view can be versatile customised."
-msgstr "Klasör karşılaştırma, karşılaştırılan klasörlerdeki tüm dosya ve alt klasörleri listeler. Dosya ve klasörleri kopyalayıp silerek klasörlerin eşitlenmesini sağlar. Klasör karşılaştırma görünümü özelleştirilebilir."
+msgid ""
+"Folder compare shows all files and subfolders found from compared folders as "
+"list. Folder compare allows synchronising folders by copying and deleting "
+"files and subfolders. Folder compare view can be versatile customised."
+msgstr ""
+"Klasör karşılaştırma, karşılaştırılan klasörlerdeki tüm dosya ve alt "
+"klasörleri listeler. Dosya ve klasörleri kopyalayıp silerek klasörlerin "
+"eşitlenmesini sağlar. Klasör karşılaştırma görünümü özelleştirilebilir."
 
 #: screenshots/index.php:23 screenshots/index.php:24
 msgid "Folder Compare Tree View"
 msgstr "Klasör Karşılaştırma Ağaç Görünümü"
 
 #: screenshots/index.php:25
-msgid "In the tree view, folders are expandable and collapsible, containing files and subfolders. This is useful for an easier navigation in deeply nested directory structures. <em>The tree view is available only in recursive compares."
-msgstr "Ağaç görünümde, klasörler alt klasör ve dosyaları gösterecek şekilde genişletilip daraltılabilir. Bu özellik çok dallanan klasör yapıları için kullanışlıdır. <em>Ağaç görünümü yalnızca alt klasörlere inen karşılaştırmalarda geçerlidir."
+msgid ""
+"In the tree view, folders are expandable and collapsible, containing files "
+"and subfolders. This is useful for an easier navigation in deeply nested "
+"directory structures. <em>The tree view is available only in recursive "
+"compares."
+msgstr ""
+"Ağaç görünümde, klasörler alt klasör ve dosyaları gösterecek şekilde "
+"genişletilip daraltılabilir. Bu özellik çok dallanan klasör yapıları için "
+"kullanışlıdır. <em>Ağaç görünümü yalnızca alt klasörlere inen "
+"karşılaştırmalarda geçerlidir."
 
 #: screenshots/index.php:27 screenshots/index.php:28
 msgid "Image Comparison"
 msgstr "Görsel Karşılaştırma"
 
 #: screenshots/index.php:29
-msgid "WinMerge can compare images and highlight the differences in several ways."
-msgstr "WinMerge görselleri karşılaştırarak farklılıkları bir kaç şekilde vurgulayabilir."
+msgid ""
+"WinMerge can compare images and highlight the differences in several ways."
+msgstr ""
+"WinMerge görselleri karşılaştırarak farklılıkları bir kaç şekilde "
+"vurgulayabilir."
 
 #: screenshots/index.php:31 screenshots/index.php:32
-msgid "Binary Comparison"
-msgstr "Binary Karşılaştırma"
+msgid "Table Comparison"
+msgstr "Tablo Karşılaştırması"
 
 #: screenshots/index.php:33
-msgid "WinMerge can detect whether files are in text or binary format. When you launch a file compare operation on binary files, WinMerge opens each file in the binary file editor."
-msgstr "winMerge dosyaların metin ya da binary biçiminde olup olmadığını algılayabilir. Bir dosya karşılaştırma işlemi başlattığınızda WinMerge dosyaları binary dosya düzenleyicide açar."
+msgid "Table compare shows the contents of CSV/TSV files in table format."
+msgstr ""
+"Tablo karşılaştırması CSV/TSV dosyalarının içeriğini tablo biçiminde "
+"görüntüler."
 
 #: screenshots/index.php:35 screenshots/index.php:36
+msgid "Binary Comparison"
+msgstr "İkili Dosya Karşılaştırması"
+
+#: screenshots/index.php:37
+msgid ""
+"WinMerge can detect whether files are in text or binary format. When you "
+"launch a file compare operation on binary files, WinMerge opens each file in "
+"the binary file editor."
+msgstr ""
+"WinMerge dosyaların metin ya da ikili biçiminde olup olmadığını "
+"algılayabilir. Bir dosya karşılaştırma işlemi başlattığınızda WinMerge "
+"dosyaları ikili dosya düzenleyicide açar."
+
+#: screenshots/index.php:39 screenshots/index.php:40
 msgid "Open-dialog"
 msgstr "Açma Penceresi"
 
-#: screenshots/index.php:37
-msgid "WinMerge allows selecting/opening paths in several ways. Using the Open-dialog is just one of them."
-msgstr "WinMerge, yolları seçmek ve açmak için çeşitli yöntemler sunar. Açma penceresini kullanmak bunlardan biridir."
+#: screenshots/index.php:41
+msgid ""
+"WinMerge allows selecting/opening paths in several ways. Using the Open-"
+"dialog is just one of them."
+msgstr ""
+"WinMerge, yolları seçmek ve açmak için çeşitli yöntemler sunar. Açma "
+"penceresini kullanmak bunlardan biridir."
 
 #: source-code/index.php:8
-msgid "Download the source code of WinMerge, which is released under the GNU General Public License."
-msgstr "GNU Genel Kamu Lisansı koşulları altında yayınlanan WinMerge kaynak kodunu indirin."
+msgid ""
+"Download the source code of WinMerge, which is released under the GNU "
+"General Public License."
+msgstr ""
+"GNU Genel Kamu Lisansı koşulları altında yayınlanan WinMerge kaynak kodunu "
+"indirin."
 
 #: source-code/index.php:9
 msgid "WinMerge, free, clone, download, source code, GPL, GitHub, Git"
@@ -755,13 +924,26 @@ msgstr "Son Güncellemeler"
 
 #: source-code/index.php:15
 #, c-format
-msgid "WinMerge is <a href=\"%1$s\">Open Source</a> software under the <a href=\"%2$s\">GNU General Public License</a>."
-msgstr "WinMerge, <a href=\"%2$s\">GNU Genel Kamu Lisansı</a> koşulları altında yayınlanan <a href=\"%1$s\">Açık Kaynaklı</a> bir yazılımdır."
+msgid ""
+"WinMerge is <a href=\"%1$s\">Open Source</a> software under the <a href="
+"\"%2$s\">GNU General Public License</a>."
+msgstr ""
+"WinMerge, <a href=\"%2$s\">GNU Genel Kamu Lisansı</a> koşulları altında "
+"yayınlanan <a href=\"%1$s\">Açık Kaynaklı</a> bir yazılımdır."
 
 #: source-code/index.php:15
 #, c-format
-msgid "This means everybody can download the <a href=\"%s\">source code</a> and improve and modify it.\nThe only thing we ask is that people submit their improvements and modifications back to us so that all WinMerge users may benefit."
-msgstr "Yani herkes <a href=\"%s\">kaynak kodunu</a> alıp değişiklik ve geliştirme yapabilir.\nSizlerden tek isteğimiz yapacağınız geliştirme ve değişiklikleri bize iletmeniz. Böylece tüm WinMerge kullanıcıları yaptıklarınızdan faydalanabilir."
+msgid ""
+"This means everybody can download the <a href=\"%s\">source code</a> and "
+"improve and modify it.\n"
+"The only thing we ask is that people submit their improvements and "
+"modifications back to us so that all WinMerge users may benefit."
+msgstr ""
+"Yani herkes <a href=\"%s\">kaynak kodunu</a> alıp değişiklik ve geliştirme "
+"yapabilir.\n"
+"Sizlerden tek isteğimiz yapacağınız geliştirme ve değişiklikleri bize "
+"iletmeniz. Böylece tüm WinMerge kullanıcıları yaptıklarınızdan "
+"faydalanabilir."
 
 #: source-code/index.php:19
 msgid "GNU General Public License"
@@ -773,8 +955,12 @@ msgstr "Kopyala ya da indir"
 
 #: source-code/index.php:35
 #, c-format
-msgid "The source code is hosted on <a href=\"%1$s\">GitHub</a> in a <a href=\"%2$s\">Git</a> repository:"
-msgstr "Kaynak kod <a href=\"%1$s\">GitHub</a> üzerinde bir <a href=\"%2$s\">Git</a> deposunda bulunuyor:"
+msgid ""
+"The source code is hosted on <a href=\"%1$s\">GitHub</a> in a <a href=\"%2$s"
+"\">Git</a> repository:"
+msgstr ""
+"Kaynak kod <a href=\"%1$s\">GitHub</a> üzerinde bir <a href=\"%2$s\">Git</a> "
+"deposunda bulunuyor:"
 
 #: source-code/index.php:44
 msgid "Branch"
@@ -789,40 +975,75 @@ msgid "View all commits&hellip;"
 msgstr "Tüm işlemleri görüntüle&hellip;"
 
 #: support/index.php:7
-msgid "The Open Discussion forum is the fastest way to get help. A other way is a subscription to the support mailing list."
-msgstr "En hızlı yardımı Açık Tartışma Forumundan alabilirsiniz. Ayrıca destek e-posta listesine abone olmak da yararlıdır."
+msgid ""
+"The Open Discussion forum is the fastest way to get help. A other way is a "
+"subscription to the support mailing list."
+msgstr ""
+"En hızlı yardımı Açık Tartışma Forumundan alabilirsiniz. Ayrıca destek e-"
+"posta listesine abone olmak da yararlıdır."
 
 #: support/index.php:8
-msgid "WinMerge, support, discussion forums, mailing lists, tracker, donate, bugs, support requests, patches, feature requests, todo, open source, sourceforge.net"
-msgstr "WinMerge, destek, tartışma forumları, e-posta listeleri, izleyici, bağış, hatalar, destek isteği, yamalar, özellik istekleri, istekler, yapılacak işler, açık kaynak, sourceforge.net"
+msgid ""
+"WinMerge, support, discussion forums, mailing lists, tracker, donate, bugs, "
+"support requests, patches, feature requests, todo, open source, sourceforge."
+"net"
+msgstr ""
+"WinMerge, destek, tartışma forumları, e-posta listeleri, izleyici, bağış, "
+"hatalar, destek isteği, yamalar, özellik istekleri, istekler, yapılacak "
+"işler, açık kaynak, sourceforge.net"
 
 #: support/index.php:12
 #, c-format
-msgid "The <a href=\"%s\">Open Discussion forum</a> is the fastest way to get help. Please be patient, it may take some time for somebody to answer."
-msgstr "En hızlı yardımı <a href=\"%s\">Açık Tartışma Forumundan</a> alabilirsiniz. Lütfen sabırlı olun, birinin yanıtlaması biraz zaman alabilir."
+msgid ""
+"The <a href=\"%s\">Open Discussion forum</a> is the fastest way to get help. "
+"Please be patient, it may take some time for somebody to answer."
+msgstr ""
+"En hızlı yardımı <a href=\"%s\">Açık Tartışma Forumundan</a> alabilirsiniz. "
+"Lütfen sabırlı olun, birinin yanıtlaması biraz zaman alabilir."
 
 #: support/index.php:13
 #, c-format
-msgid "A other way is a subscription to the <a href=\"%s\">support mailing list</a>."
-msgstr "Ayrıca <a href=\"%s\">destek e-posta listesine</a> abone olabilirsiniz."
+msgid ""
+"A other way is a subscription to the <a href=\"%s\">support mailing list</a>."
+msgstr ""
+"Ayrıca <a href=\"%s\">destek e-posta listesine</a> abone olabilirsiniz."
 
 #: support/index.php:14
 #, c-format
 msgid "If you find a bug, please submit it as a <a href=\"%s\">issue</a>."
-msgstr "Bir hatayla karşılaştığınızda lütfen <a href=\"%s\">sorun olarak bildirin</a>."
+msgstr ""
+"Bir hatayla karşılaştığınızda lütfen <a href=\"%s\">sorun olarak bildirin</"
+"a>."
 
 #: support/index.php:15
-msgid "Please attach as much information as you can: at a minimum, the version number of WinMerge that you are using. If you can, also attach a configuration log which, you can display by clicking <span class=\"guimenu\">Help</span> &#8594; <span class=\"guimenuitem\">Configuration</span> in the WinMerge window."
-msgstr "Lütfen ekleyebildiğiniz kadar bilgi ekleyin. En azından kullandığınız WinMerge sürümünü yazın. Yapabilirseniz, WinMerge menüsünden <span class=\"guimenu\">Yardım</span> &#8594; <span class=\"guimenuitem\">Yapılandırma</span> üzerine tıklayarak elde edeceğiniz yapılandırma günlüğünü de ekleyin."
+msgid ""
+"Please attach as much information as you can: at a minimum, the version "
+"number of WinMerge that you are using. If you can, also attach a "
+"configuration log which, you can display by clicking <span class=\"guimenu"
+"\">Help</span> &#8594; <span class=\"guimenuitem\">Configuration</span> in "
+"the WinMerge window."
+msgstr ""
+"Lütfen ekleyebildiğiniz kadar bilgi ekleyin. En azından kullandığınız "
+"WinMerge sürümünü yazın. Yapabilirseniz, WinMerge menüsünden <span class="
+"\"guimenu\">Yardım</span> &#8594; <span class=\"guimenuitem\">Yapılandırma</"
+"span> üzerine tıklayarak elde edeceğiniz yapılandırma günlüğünü de ekleyin."
 
 #: support/index.php:16
-msgid "Good information in a bug report makes it more likely that your bug will be fixed quickly."
-msgstr "Hata bildirimlerinin ayrıntılı bilgi içermesi hataların daha çabuk düzeltilmesini sağlar."
+msgid ""
+"Good information in a bug report makes it more likely that your bug will be "
+"fixed quickly."
+msgstr ""
+"Hata bildirimlerinin ayrıntılı bilgi içermesi hataların daha çabuk "
+"düzeltilmesini sağlar."
 
 #: support/index.php:17
 #, c-format
-msgid "Wish list items on the <a href=\"%s\">issues list</a> will also be considered, but we make absolutely no promises."
-msgstr "<a href=\"%s\">Özellik istekleri</a> listesindeki istekler de göz önüne alınacaktır ancak kesin sözler veremiyoruz."
+msgid ""
+"Wish list items on the <a href=\"%s\">issues list</a> will also be "
+"considered, but we make absolutely no promises."
+msgstr ""
+"<a href=\"%s\">Özellik istekleri</a> listesindeki istekler de göz önüne "
+"alınacaktır ancak kesin sözler veremiyoruz."
 
 #: support/index.php:19
 msgid "Active Forum Topics"
@@ -880,8 +1101,13 @@ msgid "User List"
 msgstr "Kullanıcı Listesi"
 
 #: support/index.php:57
-msgid "This list is for user related questions. Having questions posted to this list may allow others having the same problem to solve it on their own."
-msgstr "Bu liste kullanıcı soruları içindir. Karşılaşılan sorunları ve çözümlerini bu listeye göndermek diğer kullanıcıların da sorunlarını kendi başına çözebilmesini sağlar."
+msgid ""
+"This list is for user related questions. Having questions posted to this "
+"list may allow others having the same problem to solve it on their own."
+msgstr ""
+"Bu liste kullanıcı soruları içindir. Karşılaşılan sorunları ve çözümlerini "
+"bu listeye göndermek diğer kullanıcıların da sorunlarını kendi başına "
+"çözebilmesini sağlar."
 
 #: support/index.php:65
 msgid "Translate List"
@@ -896,18 +1122,30 @@ msgid "Development List"
 msgstr "Geliştirme Listesi"
 
 #: support/index.php:77
-msgid "This is the list where participating developers of the WinMerge meet and discuss issues, code changes/additions, etc."
-msgstr "Bu listede WinMerge geliştiricileri bulunur. Kod üzerinde yapılan değişiklikler ve yenilikler gibi konular tartışılır."
+msgid ""
+"This is the list where participating developers of the WinMerge meet and "
+"discuss issues, code changes/additions, etc."
+msgstr ""
+"Bu listede WinMerge geliştiricileri bulunur. Kod üzerinde yapılan "
+"değişiklikler ve yenilikler gibi konular tartışılır."
 
 #: support/index.php:87
 #, c-format
-msgid "Since WinMerge is an <a href=\"%s\">Open Source</a> project, you may use it free of charge."
-msgstr "WinMerge <a href=\"%s\">Açık Kaynaklı</a> bir proje olduğundan özgürce kullanabilirsiniz."
+msgid ""
+"Since WinMerge is an <a href=\"%s\">Open Source</a> project, you may use it "
+"free of charge."
+msgstr ""
+"WinMerge <a href=\"%s\">Açık Kaynaklı</a> bir proje olduğundan özgürce "
+"kullanabilirsiniz."
 
 #: support/index.php:88
 #, c-format
-msgid "But please consider making a <a href=\"%s\">donation</a> to support the continued development of WinMerge."
-msgstr "Lütfen WinMerge projesinin geliştirilmesini desteklemek için <a href=\"%s\">bağış</a> yapmayı düşünün."
+msgid ""
+"But please consider making a <a href=\"%s\">donation</a> to support the "
+"continued development of WinMerge."
+msgstr ""
+"Lütfen WinMerge projesinin geliştirilmesini desteklemek için <a href=\"%s"
+"\">bağış</a> yapmayı düşünün."
 
 #: support/index.php:90
 msgid "Buy WinMerge merchandise"
@@ -915,8 +1153,13 @@ msgstr "WinMerge hediyeliklerinden alın"
 
 #: support/index.php:91
 #, c-format
-msgid "You can also support WinMerge by buying merchandise at the <a href=\"%s\">WinMerge CafePress store</a>. 20%% of the sales goes to WinMerge."
-msgstr "<a href=\"%s\">WinMerge CafePress mağazasından</a> hediyelik eşyalar alarak da projeye destek olabilirsiniz. Satış tutarının %%20 kadarı WinMerge projesine aktarılır."
+msgid ""
+"You can also support WinMerge by buying merchandise at the <a href=\"%s"
+"\">WinMerge CafePress store</a>. 20%% of the sales goes to WinMerge."
+msgstr ""
+"<a href=\"%s\">WinMerge CafePress mağazasından</a> hediyelik eşyalar alarak "
+"da projeye destek olabilirsiniz. Satış tutarının %%20 kadarı WinMerge "
+"projesine aktarılır."
 
 #: translations/index.php:6
 msgid "Translations Status"
@@ -961,8 +1204,12 @@ msgstr "WinMerge aşağıdaki dillere çevrilmiştir:"
 
 #: translations/index.php:34
 #, c-format
-msgid "If you would like to update any of these translations or add another translation, then please follow <a href=\"%s\">these instructions</a>."
-msgstr "Bu çevirilerden birini güncellemek ya da yeni bir çeviri eklemek isterseniz <a href=\"%s\">bu yönergeleri</a> izleyin."
+msgid ""
+"If you would like to update any of these translations or add another "
+"translation, then please follow <a href=\"%s\">these instructions</a>."
+msgstr ""
+"Bu çevirilerden birini güncellemek ya da yeni bir çeviri eklemek isterseniz "
+"<a href=\"%s\">bu yönergeleri</a> izleyin."
 
 #: translations/index.php:39
 #, c-format
@@ -978,27 +1225,17 @@ msgstr "Kabuk Eklentisi Durumu <em>%s tarihinde</em>"
 msgid "The translations status is currently not available..."
 msgstr "Çeviri durumu şu anda görüntülenemiyor..."
 
-#: translations/instructions.php:5 translations/instructions.php:8
-msgid "Translations instructions"
-msgstr "Çeviri yönergeleri"
-
-#: translations/instructions.php:9
-msgid "The translations instructions are currently not available..."
-msgstr "Çeviri yönergeleri şu anda görüntülenemiyor..."
-
-#: translations/instructions.php:14
-#, c-format
-msgid "Source: %s"
-msgstr "Kaynak: %s"
-
 #: translations/status_website.php:6 translations/status_website.php:8
 msgid "Translations Status (Website)"
 msgstr "Çeviri Durumu (Web Sitesi)"
 
 #: translations/status_website.php:9
 #, c-format
-msgid "We moved the sources from the website to a own <a href=\"%1$s\">GitHub repository</a>."
-msgstr "Web sitesi kaynaklarını kendi <a href=\"%1$s\">GitHub deposuna</a> taşıdık."
+msgid ""
+"We moved the sources from the website to a own <a href=\"%1$s\">GitHub "
+"repository</a>."
+msgstr ""
+"Web sitesi kaynaklarını kendi <a href=\"%1$s\">GitHub deposuna</a> taşıdık."
 
 #: translations/status_website.php:17
 #, c-format
@@ -1072,6 +1309,65 @@ msgstr "Toplam: Bilinmiyor"
 #: translations/translations.inc:310
 msgid "Maintainer"
 msgstr "Güncelleyen"
+
+#, c-format
+#~ msgid "<a href=\"%s\">Documentation</a>?"
+#~ msgstr "<a href=\"%s\">Belgeler</a>?"
+
+#, c-format
+#~ msgid "<a href=\"%s\">Manual</a>?"
+#~ msgstr "<a href=\"%s\">Kitap</a>?"
+
+#, c-format
+#~ msgid "<a href=\"%s\">Release Notes</a>?"
+#~ msgstr "<a href=\"%s\">Yayın Notları</a>?"
+
+#, c-format
+#~ msgid "<a href=\"%s\">Change Log</a>?"
+#~ msgstr "<a href=\"%s\">Değişiklik Günlüğü</a>?"
+
+#, c-format
+#~ msgid "<a href=\"%s\">Downloads</a>?"
+#~ msgstr "<a href=\"%s\">İndirmeler</a>?"
+
+#, c-format
+#~ msgid "<a href=\"%s\">Screenshots</a>?"
+#~ msgstr "<a href=\"%s\">Ekran Görüntüleri</a>?"
+
+#, c-format
+#~ msgid "<a href=\"%s\">Source Code</a>?"
+#~ msgstr "<a href=\"%s\">Kaynak Kodu</a>?"
+
+#, c-format
+#~ msgid "<a href=\"%s\">Support</a>?"
+#~ msgstr "<a href=\"%s\">Destek</a>?"
+
+#, c-format
+#~ msgid "<a href=\"%s\">Translations</a>?"
+#~ msgstr "<a href=\"%s\">Çeviriler</a>?"
+
+#~ msgid "Microsoft Windows XP or newer"
+#~ msgstr "Microsoft Windows XP ve üzeri"
+
+#~ msgid ""
+#~ "Microsoft Visual C++ 2013 Runtime Components (included in the installer)"
+#~ msgstr "Microsoft Visual C++ 2013 Runtime Bileşenleri (kurucuya dahil)"
+
+#~ msgid "Admin rights for the installer"
+#~ msgstr "Kurucu için yönetici yetkileri"
+
+#~ msgid "Work in progress"
+#~ msgstr "Çalışma sürüyor"
+
+#~ msgid "Translations instructions"
+#~ msgstr "Çeviri yönergeleri"
+
+#~ msgid "The translations instructions are currently not available..."
+#~ msgstr "Çeviri yönergeleri şu anda görüntülenemiyor..."
+
+#, c-format
+#~ msgid "Source: %s"
+#~ msgstr "Kaynak: %s"
 
 #, c-format
 #~ msgid ""
