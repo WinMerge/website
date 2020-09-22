@@ -35,7 +35,7 @@ along with WinMerge.  If not, see &lt;<a href="https://www.gnu.org/licenses/">ht
   $page->printPara(__('The source code is hosted on <a href="%1$s">GitHub</a> in a <a href="%2$s">Git</a> repository:', 'https://github.com/', 'https://git-scm.com/'));
   $page->printPara('<a href="https://github.com/winmerge/winmerge.git" class="button">https://github.com/winmerge/winmerge.git</a>');
 
-  $page->printPara('You can also download the current branches as ZIP file:');
+  $page->printPara(__('You can also download the current branches as ZIP file:'));
 ?>
 <div class="table-scrollable">
   <table class="table is-striped">

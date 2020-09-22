@@ -104,8 +104,8 @@ msgid ""
 "But please consider making a <a href=\"%s\">donation</a> to support the "
 "continued development of WinMerge."
 msgstr ""
-"Ziehen Sie bitte eine <a href=\"%s\">Spende</a> in Betracht, um die "
-"weitere Entwicklung von WinMerge zu unterstützen."
+"Ziehen Sie bitte eine <a href=\"%s\">Spende</a> in Betracht, um die weitere "
+"Entwicklung von WinMerge zu unterstützen."
 
 #: downloads/index.php:21 source-code/index.php:43
 msgid "Download"
@@ -511,8 +511,8 @@ msgid ""
 "Download the source code of WinMerge, which is released under the GNU "
 "General Public License."
 msgstr ""
-"Laden Sie den Quellcode von WinMerge herunter, der unter der GNU General"
-" Public License veröffentlicht ist."
+"Laden Sie den Quellcode von WinMerge herunter, der unter der GNU General "
+"Public License veröffentlicht ist."
 
 #: engine/page.inc:340
 msgid "WinMerge Home"
@@ -734,9 +734,9 @@ msgid ""
 "directory structures. <em>The tree view is available only in recursive "
 "compares."
 msgstr ""
-"In der Baumansicht sind die Ordner auf- und zuklappbar und enthalten "
-"Dateien und Unterordner. Dies ist nützlich für eine leichtere Navigation in "
-"tief verschachtelten Verzeichnisstrukturen. <em>Die Baumansicht ist nur in "
+"In der Baumansicht sind die Ordner auf- und zuklappbar und enthalten Dateien"
+" und Unterordner. Dies ist nützlich für eine leichtere Navigation in tief "
+"verschachtelten Verzeichnisstrukturen. <em>Die Baumansicht ist nur in "
 "rekursiven Vergleichen verfügbar."
 
 #: downloads/index.php:132
@@ -873,8 +873,8 @@ msgid ""
 "list may allow others having the same problem to solve it on their own."
 msgstr ""
 "Diese Liste ist für anwenderbezogene Fragen. Wenn Sie Fragen auf dieser "
-"Liste stellen, können andere Benutzer antworten, die das gleiche Problem "
-"auf eigene Faust gelöst haben."
+"Liste stellen, können andere Benutzer antworten, die das gleiche Problem auf"
+" eigene Faust gelöst haben."
 
 #: docs/index.php:20
 #, c-format
@@ -1300,7 +1300,9 @@ msgstr "64-Bit-Installationsprogramm: Microsoft Windows XP oder neuer"
 
 #: downloads/index.php:87
 msgid "Admin rights for the installer (except for Per-user installer)"
-msgstr "Administratorrechte für das Installationsprogramm (außer für das Installationsprogramm pro Benutzer)"
+msgstr ""
+"Administratorrechte für das Installationsprogramm (außer für das "
+"Installationsprogramm pro Benutzer)"
 
 #: index.php:56
 msgid "Table Compare"
@@ -1320,7 +1322,13 @@ msgstr "Tabellenvergleich"
 
 #: screenshots/index.php:33
 msgid "Table compare shows the contents of CSV/TSV files in table format."
-msgstr "Der Tabellenvergleich zeigt den Inhalt von CSV-/TSV-Dateien im Tabellenformat."
+msgstr ""
+"Der Tabellenvergleich zeigt den Inhalt von CSV-/TSV-Dateien im "
+"Tabellenformat."
+
+#: source-code/index.php:38
+msgid "You can also download the current branches as ZIP file:"
+msgstr "Sie können den aktuellen Branch auch als ZIP-Datei herunterladen:"
 
 #, c-format
 #~ msgid "<a href=\"%s\">Documentation</a>?"

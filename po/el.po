@@ -1305,6 +1305,10 @@ msgstr ""
 msgid "Table compare shows the contents of CSV/TSV files in table format."
 msgstr ""
 
+#: source-code/index.php:38
+msgid "You can also download the current branches as ZIP file:"
+msgstr ""
+
 #, c-format
 #~ msgid "<a href=\"%s\">Documentation</a>?"
 #~ msgstr "<a href=\"%s\">Τεκμηρίωση</a>;"

@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WinMerge\n"
 "Report-Msgid-Bugs-To: http://bugs.winmerge.org\n"
-"POT-Creation-Date: 2020-09-15 05:31+0000\n"
+"POT-Creation-Date: 2020-09-22 04:19+0000\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: English <winmerge-translate@lists.sourceforge.net>\n"
@@ -751,6 +751,10 @@ msgstr ""
 #: source-code/index.php:35
 #, c-format
 msgid "The source code is hosted on <a href=\"%1$s\">GitHub</a> in a <a href=\"%2$s\">Git</a> repository:"
+msgstr ""
+
+#: source-code/index.php:38
+msgid "You can also download the current branches as ZIP file:"
 msgstr ""
 
 #: source-code/index.php:44
