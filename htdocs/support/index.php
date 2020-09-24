@@ -30,7 +30,7 @@
   print("  <li><a href=\"https://forums.winmerge.org/search.php?st=0&amp;search_id=active_topics\">".__('View all active topics&hellip;')."</a></li>\n");
   print("</ul>\n");
 
-  $page->printSubHeading(__('Mailing Lists'));
+  $page->printAnchorSubHeading(__('Mailing Lists'), 'support');
 ?>
 <h4><?php __e('Announce List');?></h4>
 <div class="indented">
