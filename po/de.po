@@ -41,7 +41,7 @@ msgid ""
 msgstr ""
 "Darüber hinaus hat WinMerge viele hilfreiche Funktionen, die das "
 "Vergleichen, Synchronisieren und Zusammenführen so einfach und nützlich wie "
-"möglich macht:"
+"möglich machen:"
 
 #: screenshots/index.php:21
 msgid ""
@@ -267,9 +267,9 @@ msgid ""
 "version to ship with an ANSI version of WinMerge."
 msgstr ""
 "WinMerge-Version 2.12.4 war die letzte Version, die mit »Microsoft Visual "
-"C++ 2005 Runtime« ausgeliefert wird, die Windows 95/98/ME/NT unterstützt. Es"
+"C++ 2005-Laufzeitumgebung« ausgeliefert wurde, die Windows 95/98/ME/NT unterstützt. Es"
 " war außerdem die letzte Version, die mit einer ANSI-Version von WinMerge "
-"ausgeliefert wird."
+"ausgeliefert wurde."
 
 #: index.php:87
 msgid "View all news&hellip;"
@@ -429,7 +429,7 @@ msgid ""
 "discuss issues, code changes/additions, etc."
 msgstr ""
 "Dies ist die Liste, wo sich die beteiligten Entwickler von WinMerge treffen "
-"und über Fragen, Code-Änderungen/-Ergänzungen usw. diskutieren."
+"und über Fragen, Code-Änderungen, -Ergänzungen usw. diskutieren."
 
 #: docs/index.php:5
 msgid ""
@@ -450,7 +450,7 @@ msgstr ""
 
 #: downloads/index.php:29 downloads/index.php:41
 msgid "Installer"
-msgstr "Setup"
+msgstr "Installationsprogramm"
 
 #: index.php:75
 #, c-format
@@ -470,8 +470,8 @@ msgid ""
 "WinMerge allows selecting/opening paths in several ways. Using the Open-"
 "dialog is just one of them."
 msgstr ""
-"WinMerge ermöglicht die Auswahl/Öffnung von Pfaden in mehrfacher Hinsicht. "
-"Der „Öffnen-Dialog“ ist nur eine der Möglichkeiten."
+"WinMerge ermöglicht die Auswahl und das Öffnen von Pfaden auf verschiedene Weise. "
+"Der Öffnen-Dialog ist nur eine Möglichkeit."
 
 #: index.php:15
 msgid "Screenshot"
@@ -529,7 +529,7 @@ msgstr "Funktionen"
 
 #: screenshots/index.php:19 screenshots/index.php:20
 msgid "Folder Comparison Results"
-msgstr "Ordnervergleichs-Ergebnisse"
+msgstr "Ordnervergleichs-Ergebnis"
 
 #: index.php:29
 msgid "Unicode support"
@@ -736,7 +736,7 @@ msgid ""
 msgstr ""
 "In der Baumansicht sind die Ordner auf- und zuklappbar und enthalten Dateien"
 " und Unterordner. Dies ist nützlich für eine leichtere Navigation in tief "
-"verschachtelten Verzeichnisstrukturen. <em>Die Baumansicht ist nur in "
+"verschachtelten Verzeichnisstrukturen. <em>Die Baumansicht ist nur bei "
 "rekursiven Vergleichen verfügbar."
 
 #: downloads/index.php:132
@@ -780,7 +780,7 @@ msgid ""
 "The only thing we ask is that people submit their improvements and modifications back to us so that all WinMerge users may benefit."
 msgstr ""
 "Das bedeutet, dass jeder den <a href=\"%s\">Quellcode</a> herunterladen kann, um ihn zu verändern und zu verbessern.\n"
-"Die einzige Forderung ist, dass die Menschen ihre Verbesserungen und Änderungen an uns zurückschicken, sodass alle WinMerge-Nutzer davon profitieren können."
+"Wir bitten nur darum, dass die Benutzer ihre Verbesserungen und Änderungen an uns zurücksenden, damit alle WinMerge-Benutzer davon profitieren können."
 
 #: support/index.php:47
 msgid "You should ask all your support questions on this list."
@@ -885,7 +885,7 @@ msgid ""
 msgstr ""
 "Die <a href=\"%1$s\">Versionshinweise</a> sind eine kurze Zusammenfassung "
 "der wichtigsten Änderungen, Verbesserungen, Fehlerbereinigungen und <a "
-"href=\"%2$s\">bekannten Problemen</a> in der aktuellen Version von WinMerge."
+"href=\"%2$s\">bekannten Probleme</a> in der aktuellen Version von WinMerge."
 
 #: index.php:38
 msgid "Difference pane shows current difference in two vertical panes"
@@ -1003,7 +1003,7 @@ msgstr "WinMerge Portable"
 msgid "If you find a bug, please submit it as a <a href=\"%s\">issue</a>."
 msgstr ""
 "Wenn Sie einen Fehler finden, senden Sie ihn uns bitte als ein <a "
-"href=\"%s\">Thema</a>."
+"href=\"%s\">Problem</a>."
 
 #: index.php:7
 msgid ""
@@ -1139,7 +1139,7 @@ msgid ""
 "WinMerge version 2.14.0 was the last version to ship with Microsoft Visual "
 "C++ 2008 runtimes that support Windows 2000."
 msgstr ""
-"WinMerge Version 2.14.0 war die letzte Version, die mit Microsoft Visual C++"
+"WinMerge-Version 2.14.0 war die letzte Version, die mit Microsoft Visual C++"
 " 2008-Laufzeitumgebung ausgeliefert wurde, die Windows 2000 unterstützt."
 
 #: downloads/index.php:94 downloads/index.php:99
@@ -1259,7 +1259,7 @@ msgid ""
 "href=\"%2$s\">Git</a> repository:"
 msgstr ""
 "Der Quellcode wird bei <a href=\"%1$s\">GitHub</a> in einem <a "
-"href=\"%2$s\"> Git</a>-Repository gehostet:"
+"href=\"%2$s\">Git</a>-Repository gehostet:"
 
 #: source-code/index.php:69
 msgid "View all commits&hellip;"
@@ -1296,7 +1296,7 @@ msgstr "32-Bit-Installationsprogramm: Microsoft Windows XP oder neuer"
 
 #: downloads/index.php:86
 msgid "64-bit installer: Microsoft Windows 7 or newer"
-msgstr "64-Bit-Installationsprogramm: Microsoft Windows XP oder neuer"
+msgstr "64-Bit-Installationsprogramm: Microsoft Windows 7 oder neuer"
 
 #: downloads/index.php:87
 msgid "Admin rights for the installer (except for Per-user installer)"
