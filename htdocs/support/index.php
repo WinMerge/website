@@ -10,7 +10,7 @@
 
   $page->printHeading(__('Support'));
   $page->printPara(__('The <a href="%s">Open Discussion forum</a> is the fastest way to get help. Please be patient, it may take some time for somebody to answer.', 'https://forums.winmerge.org/viewforum.php?f=4'),
-                   __('A other way is a subscription to the <a href="%s">support mailing list</a>.', '#support'));
+                   __('A other way is a subscription to the <a href="%s">support mailing list</a>.', '#mailing-lists'));
   $page->printPara(__('If you find a bug, please submit it as a <a href="%s">issue</a>.', 'https://github.com/WinMerge/winmerge/issues'),
                    __('Please attach as much information as you can: at a minimum, the version number of WinMerge that you are using. If you can, also attach a configuration log which, you can display by clicking <span class="guimenu">Help</span> &#8594; <span class="guimenuitem">Configuration</span> in the WinMerge window.'),
                    __('Good information in a bug report makes it more likely that your bug will be fixed quickly.'));
@@ -30,7 +30,7 @@
   print("  <li><a href=\"https://forums.winmerge.org/search.php?st=0&amp;search_id=active_topics\">".__('View all active topics&hellip;')."</a></li>\n");
   print("</ul>\n");
 
-  $page->printSubHeading(__('Mailing Lists'));
+  $page->printAnchorSubHeading(__('Mailing Lists'), 'mailing-lists');
 ?>
 <h4><?php __e('Announce List');?></h4>
 <div class="indented">
