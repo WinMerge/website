@@ -3,6 +3,7 @@
 #
 # Translators:
 # * Begina Felicysym <begina.felicysym at wp.eu>
+# * Michał Lipok <michal at lipok.pl>
 #
 msgid ""
 msgstr ""
@@ -1251,15 +1252,15 @@ msgstr ""
 
 #: translations/translations.inc:310
 msgid "Maintainer"
-msgstr ""
+msgstr "Zarządca"
 
 #: docs/index.php:12
 msgid "It is currently available in the following languages:"
-msgstr ""
+msgstr "Jest obecnie dostępny w następujących językach:"
 
 #: source-code/index.php:44
 msgid "Branch"
-msgstr ""
+msgstr "Gałąź"
 
 #: downloads/index.php:35
 msgid "Per-user installer"
@@ -1271,27 +1272,27 @@ msgstr ""
 
 #: downloads/index.php:86
 msgid "64-bit installer: Microsoft Windows 7 or newer"
-msgstr ""
+msgstr "64-bitowy instalator: Microsoft Windows 7 lub nowszy"
 
 #: downloads/index.php:87
 msgid "Admin rights for the installer (except for Per-user installer)"
-msgstr ""
+msgstr "Uprawnienia administracyjne dla instalatora (z wyjątkiem instalacji per-użytkownik)"
 
 #: index.php:56
 msgid "Table Compare"
-msgstr ""
+msgstr "Porównaj tabele"
 
 #: index.php:58
 msgid "Shows CSV/TSV file contents in table format"
-msgstr ""
+msgstr "Pokazuj zawartość pliku CSV/TSV w postaci tabeli"
 
 #: index.php:59
 msgid "Text can be wrapped for each column"
-msgstr ""
+msgstr "Tekst możeb być zawinięty dla każdej kolumny"
 
 #: screenshots/index.php:31 screenshots/index.php:32
 msgid "Table Comparison"
-msgstr ""
+msgstr "Porównywanie tabel"
 
 #: screenshots/index.php:33
 msgid "Table compare shows the contents of CSV/TSV files in table format."
@@ -1299,7 +1300,7 @@ msgstr ""
 
 #: source-code/index.php:38
 msgid "You can also download the current branches as ZIP file:"
-msgstr ""
+msgstr "Możesz także pobrać bieżącą odgałęzienie jako plik ZIP:"
 
 #, c-format
 #~ msgid "<a href=\"%s\">Documentation</a>?"
@@ -1348,14 +1349,14 @@ msgstr ""
 
 #, c-format
 #~ msgid "<a href=\"%s\">Source Code</a>?"
-#~ msgstr ""
+#~ msgstr "<a href=\"%s\">Kod źródłowy</a>?"
 
 #~ msgid "Microsoft Windows XP or newer"
-#~ msgstr ""
+#~ msgstr "Microsoft Windows XP lub nowszy"
 
 #~ msgid ""
 #~ "Microsoft Visual C++ 2013 Runtime Components (included in the installer)"
-#~ msgstr ""
+#~ msgstr "Microsoft Visual C++ 2013 Runtime Components (załączone w instalatorze)"
 
 #~ msgid "Work in progress"
-#~ msgstr ""
+#~ msgstr "Praca w toku"
