@@ -30,6 +30,7 @@
   $translations->addLanguage('ru', __('Russian'), $languagesdir . 'ru.po');
   $translations->addLanguage('es', __('Spanish'), $languagesdir . 'es.po');
   $translations->addLanguage('es_VE', __('Spanish (Venezuela)'), $languagesdir . 'es_VE.po');
+  $translations->addLanguage('sl', __('Slovenian'), $languagesdir . 'sl.po');
   $translations->addLanguage('sv', __('Swedish'), $languagesdir . 'sv.po');
   $translations->addLanguage('tr', __('Turkish'), $languagesdir . 'tr.po');
   if (!$translations->detectLanguageFromUrl()) { //if NOT detect language from URL...
