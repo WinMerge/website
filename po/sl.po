@@ -140,8 +140,8 @@ msgid ""
 "The <a href=\"%s\">manual</a> explains how to use WinMerge, and documents "
 "its capabilities and limitations."
 msgstr ""
-"<a href=\"%s\">Priročnik</a> explains how to use WinMerge, and documents its "
-"capabilities and limitations."
+"<a href=\"%s\">Priročnik</a> razlaga, kako uporabljati WinMerge, ter "
+"dokumentira njegove zmožnosti in omejitve."
 
 #: docs/index.php:12
 msgid "It is currently available in the following languages:"
