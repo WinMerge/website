@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WinMerge\n"
 "Report-Msgid-Bugs-To: http://bugs.winmerge.org\n"
-"POT-Creation-Date: 2020-09-22 04:19+0000\n"
+"POT-Creation-Date: 2020-11-17 05:47+0000\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: English <winmerge-translate@lists.sourceforge.net>\n"
@@ -362,10 +362,14 @@ msgid "Spanish (Venezuela)"
 msgstr ""
 
 #: engine/engine.inc:33
-msgid "Swedish"
+msgid "Slovenian"
 msgstr ""
 
 #: engine/engine.inc:34
+msgid "Swedish"
+msgstr ""
+
+#: engine/engine.inc:35
 msgid "Turkish"
 msgstr ""
 

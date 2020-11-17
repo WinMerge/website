@@ -715,7 +715,7 @@ msgstr "Zrzuty Ekranu"
 msgid "Project File Releases"
 msgstr "Wydania Pliku Projektu"
 
-#: engine/engine.inc:34
+#: engine/engine.inc:35
 msgid "Turkish"
 msgstr "Türkçe"
 
@@ -882,7 +882,7 @@ msgstr ""
 msgid "Difference pane shows current difference in two vertical panes"
 msgstr "Panel różnic pokazuje bieżące różnice na dwóch pionowych paskach."
 
-#: engine/engine.inc:33
+#: engine/engine.inc:34
 msgid "Swedish"
 msgstr "Svenska"
 
@@ -1276,7 +1276,9 @@ msgstr "64-bitowy instalator: Microsoft Windows 7 lub nowszy"
 
 #: downloads/index.php:87
 msgid "Admin rights for the installer (except for Per-user installer)"
-msgstr "Uprawnienia administracyjne dla instalatora (z wyjątkiem instalacji per-użytkownik)"
+msgstr ""
+"Uprawnienia administracyjne dla instalatora (z wyjątkiem instalacji per-"
+"użytkownik)"
 
 #: index.php:56
 msgid "Table Compare"
@@ -1301,6 +1303,10 @@ msgstr ""
 #: source-code/index.php:38
 msgid "You can also download the current branches as ZIP file:"
 msgstr "Możesz także pobrać bieżącą odgałęzienie jako plik ZIP:"
+
+#: engine/engine.inc:33
+msgid "Slovenian"
+msgstr ""
 
 #, c-format
 #~ msgid "<a href=\"%s\">Documentation</a>?"
@@ -1356,7 +1362,8 @@ msgstr "Możesz także pobrać bieżącą odgałęzienie jako plik ZIP:"
 
 #~ msgid ""
 #~ "Microsoft Visual C++ 2013 Runtime Components (included in the installer)"
-#~ msgstr "Microsoft Visual C++ 2013 Runtime Components (załączone w instalatorze)"
+#~ msgstr ""
+#~ "Microsoft Visual C++ 2013 Runtime Components (załączone w instalatorze)"
 
 #~ msgid "Work in progress"
 #~ msgstr "Praca w toku"

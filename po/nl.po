@@ -716,7 +716,7 @@ msgstr "Screenshots"
 msgid "Project File Releases"
 msgstr "Projectbestand-releases"
 
-#: engine/engine.inc:34
+#: engine/engine.inc:35
 msgid "Turkish"
 msgstr "Türkçe"
 
@@ -885,7 +885,7 @@ msgstr ""
 msgid "Difference pane shows current difference in two vertical panes"
 msgstr "Verschilpaneel toont het huidige verschil in twee verticale panelen"
 
-#: engine/engine.inc:33
+#: engine/engine.inc:34
 msgid "Swedish"
 msgstr "Svenska"
 
@@ -1305,6 +1305,10 @@ msgstr ""
 
 #: source-code/index.php:38
 msgid "You can also download the current branches as ZIP file:"
+msgstr ""
+
+#: engine/engine.inc:33
+msgid "Slovenian"
 msgstr ""
 
 #, c-format

@@ -721,7 +721,7 @@ msgstr "Στιγμιότυπα"
 msgid "Project File Releases"
 msgstr "Κυκλοφορίες αρχείου έργου"
 
-#: engine/engine.inc:34
+#: engine/engine.inc:35
 msgid "Turkish"
 msgstr "Τουρκικά"
 
@@ -890,7 +890,7 @@ msgid "Difference pane shows current difference in two vertical panes"
 msgstr ""
 "Η περιοχή διαφορών εμφανίζει την εκάστοτε διαφορά σε δύο κατακόρυφα παράθυρα"
 
-#: engine/engine.inc:33
+#: engine/engine.inc:34
 msgid "Swedish"
 msgstr "Σουηδικά"
 
@@ -1307,6 +1307,10 @@ msgstr ""
 
 #: source-code/index.php:38
 msgid "You can also download the current branches as ZIP file:"
+msgstr ""
+
+#: engine/engine.inc:33
+msgid "Slovenian"
 msgstr ""
 
 #, c-format

@@ -267,9 +267,9 @@ msgid ""
 "version to ship with an ANSI version of WinMerge."
 msgstr ""
 "WinMerge-Version 2.12.4 war die letzte Version, die mit »Microsoft Visual "
-"C++ 2005-Laufzeitumgebung« ausgeliefert wurde, die Windows 95/98/ME/NT unterstützt. Es"
-" war außerdem die letzte Version, die mit einer ANSI-Version von WinMerge "
-"ausgeliefert wurde."
+"C++ 2005-Laufzeitumgebung« ausgeliefert wurde, die Windows 95/98/ME/NT "
+"unterstützt. Es war außerdem die letzte Version, die mit einer ANSI-Version "
+"von WinMerge ausgeliefert wurde."
 
 #: index.php:87
 msgid "View all news&hellip;"
@@ -470,8 +470,8 @@ msgid ""
 "WinMerge allows selecting/opening paths in several ways. Using the Open-"
 "dialog is just one of them."
 msgstr ""
-"WinMerge ermöglicht die Auswahl und das Öffnen von Pfaden auf verschiedene Weise. "
-"Der Öffnen-Dialog ist nur eine Möglichkeit."
+"WinMerge ermöglicht die Auswahl und das Öffnen von Pfaden auf verschiedene "
+"Weise. Der Öffnen-Dialog ist nur eine Möglichkeit."
 
 #: index.php:15
 msgid "Screenshot"
@@ -723,7 +723,7 @@ msgstr "Screenshots"
 msgid "Project File Releases"
 msgstr "Projekt-Dateifreigaben"
 
-#: engine/engine.inc:34
+#: engine/engine.inc:35
 msgid "Turkish"
 msgstr "Türkisch"
 
@@ -891,7 +891,7 @@ msgstr ""
 msgid "Difference pane shows current difference in two vertical panes"
 msgstr "Unterschiedsleiste zeigt Unterschiede in zwei vertikalen Fenstern"
 
-#: engine/engine.inc:33
+#: engine/engine.inc:34
 msgid "Swedish"
 msgstr "Schwedisch"
 
@@ -1329,6 +1329,10 @@ msgstr ""
 #: source-code/index.php:38
 msgid "You can also download the current branches as ZIP file:"
 msgstr "Sie können den aktuellen Branch auch als ZIP-Datei herunterladen:"
+
+#: engine/engine.inc:33
+msgid "Slovenian"
+msgstr "Slowenisch"
 
 #, c-format
 #~ msgid "<a href=\"%s\">Documentation</a>?"

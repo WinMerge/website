@@ -716,7 +716,7 @@ msgstr "Ikusleiho-argazkiak"
 msgid "Project File Releases"
 msgstr "Egitasmo Agiri Argitalpenak"
 
-#: engine/engine.inc:34
+#: engine/engine.inc:35
 msgid "Turkish"
 msgstr "Turkiera"
 
@@ -887,7 +887,7 @@ msgstr ""
 "Ezberdintasun panelak uneko ezberdintasunak zutikako bi paneletan erakusten "
 "ditu"
 
-#: engine/engine.inc:33
+#: engine/engine.inc:34
 msgid "Swedish"
 msgstr "Suediera"
 
@@ -1306,6 +1306,10 @@ msgstr ""
 
 #: source-code/index.php:38
 msgid "You can also download the current branches as ZIP file:"
+msgstr ""
+
+#: engine/engine.inc:33
+msgid "Slovenian"
 msgstr ""
 
 #, c-format

@@ -704,7 +704,7 @@ msgstr "Скриншоты"
 msgid "Project File Releases"
 msgstr "Другие файлы проекта"
 
-#: engine/engine.inc:34
+#: engine/engine.inc:35
 msgid "Turkish"
 msgstr "Турецкий"
 
@@ -873,7 +873,7 @@ msgstr ""
 "Панель различий показывает различия текущего файла в двух вертикальных "
 "панелях"
 
-#: engine/engine.inc:33
+#: engine/engine.inc:34
 msgid "Swedish"
 msgstr "Шведский"
 
@@ -1292,6 +1292,10 @@ msgstr ""
 
 #: source-code/index.php:38
 msgid "You can also download the current branches as ZIP file:"
+msgstr ""
+
+#: engine/engine.inc:33
+msgid "Slovenian"
 msgstr ""
 
 #, c-format
