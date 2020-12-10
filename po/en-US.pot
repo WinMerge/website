@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WinMerge\n"
 "Report-Msgid-Bugs-To: http://bugs.winmerge.org\n"
-"POT-Creation-Date: 2020-11-17 05:47+0000\n"
+"POT-Creation-Date: 2020-12-10 05:48+0000\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: English <winmerge-translate@lists.sourceforge.net>\n"
@@ -881,7 +881,7 @@ msgid "Development List"
 msgstr ""
 
 #: support/index.php:77
-msgid "This is the list where participating developers of the WinMerge meet and discuss issues, code changes/additions, etc."
+msgid "This is the list where participating developers of WinMerge meet and discuss issues, code changes/additions, etc."
 msgstr ""
 
 #: support/index.php:87

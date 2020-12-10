@@ -423,14 +423,6 @@ msgstr "Última actualización"
 msgid "Source Code"
 msgstr "Código fuente"
 
-#: support/index.php:77
-msgid ""
-"This is the list where participating developers of the WinMerge meet and "
-"discuss issues, code changes/additions, etc."
-msgstr ""
-"En esta lista los participantes en el desarrollo de WinMerge se reúnen para "
-"discutir problemas, cambios/adiciones al código, etc."
-
 #: docs/index.php:5
 msgid ""
 "Documentation from WinMerge like manual, release notes, change log and "
@@ -1322,6 +1314,19 @@ msgstr ""
 #: engine/engine.inc:33
 msgid "Slovenian"
 msgstr ""
+
+#: support/index.php:77
+msgid ""
+"This is the list where participating developers of WinMerge meet and discuss"
+" issues, code changes/additions, etc."
+msgstr ""
+
+#~ msgid ""
+#~ "This is the list where participating developers of the WinMerge meet and "
+#~ "discuss issues, code changes/additions, etc."
+#~ msgstr ""
+#~ "En esta lista los participantes en el desarrollo de WinMerge se reúnen para "
+#~ "discutir problemas, cambios/adiciones al código, etc."
 
 #, c-format
 #~ msgid "<a href=\"%s\">Documentation</a>?"

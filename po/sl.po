@@ -1117,14 +1117,6 @@ msgstr "Ta seznam se uporablja za usklajevanje prevodov."
 msgid "Development List"
 msgstr "Seznam razvijalcev"
 
-#: support/index.php:77
-msgid ""
-"This is the list where participating developers of the WinMerge meet and "
-"discuss issues, code changes/additions, etc."
-msgstr ""
-"To je seznam, kjer se sodelujoči razvijalci WinMerge srečujejo in "
-"razpravljajo o vprašanjih, spremembah/dopolnitvah kode itd."
-
 #: support/index.php:87
 #, c-format
 msgid ""
@@ -1310,3 +1302,16 @@ msgstr "Vzdrževalec"
 #: engine/engine.inc:33
 msgid "Slovenian"
 msgstr "Slovenščina"
+
+#: support/index.php:77
+msgid ""
+"This is the list where participating developers of WinMerge meet and discuss"
+" issues, code changes/additions, etc."
+msgstr ""
+
+#~ msgid ""
+#~ "This is the list where participating developers of the WinMerge meet and "
+#~ "discuss issues, code changes/additions, etc."
+#~ msgstr ""
+#~ "To je seznam, kjer se sodelujoči razvijalci WinMerge srečujejo in "
+#~ "razpravljajo o vprašanjih, spremembah/dopolnitvah kode itd."
