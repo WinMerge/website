@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WinMerge\n"
 "Report-Msgid-Bugs-To: http://bugs.winmerge.org\n"
-"POT-Creation-Date: 2020-12-10 05:48+0000\n"
+"POT-Creation-Date: 2020-12-10 22:45+0000\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: English <winmerge-translate@lists.sourceforge.net>\n"
@@ -75,8 +75,8 @@ msgstr ""
 msgid "Source Code"
 msgstr ""
 
-#: 404.php:33 engine/page.inc:345 index.php:90 support/index.php:9
-#: support/index.php:11
+#: 404.php:33 engine/page.inc:345 index.php:90 support/index.php:7
+#: support/index.php:9
 msgid "Support"
 msgstr ""
 
@@ -385,12 +385,11 @@ msgstr ""
 msgid "Project Pages"
 msgstr ""
 
-#: engine/page.inc:211 support/index.php:41 support/index.php:51
-#: support/index.php:61 support/index.php:71 support/index.php:81
+#: engine/page.inc:211
 msgid "Archive"
 msgstr ""
 
-#: engine/page.inc:215 support/index.php:86
+#: engine/page.inc:215 support/index.php:25
 msgid "Donate"
 msgstr ""
 
@@ -765,7 +764,7 @@ msgstr ""
 msgid "Branch"
 msgstr ""
 
-#: source-code/index.php:66 support/index.php:26
+#: source-code/index.php:66
 msgid "Y-m-d H:i"
 msgstr ""
 
@@ -773,132 +772,71 @@ msgstr ""
 msgid "View all commits&hellip;"
 msgstr ""
 
-#: support/index.php:7
-msgid "The Open Discussion forum is the fastest way to get help. A other way is a subscription to the support mailing list."
+#: support/index.php:5
+msgid "The Open Discussion forum is the fastest way to get help."
 msgstr ""
 
-#: support/index.php:8
-msgid "WinMerge, support, discussion forums, mailing lists, tracker, donate, bugs, support requests, patches, feature requests, todo, open source, sourceforge.net"
+#: support/index.php:6
+msgid "WinMerge, support, discussion forums, tracker, donate, bugs, support requests, patches, feature requests, todo, open source"
 msgstr ""
 
-#: support/index.php:12
-#, c-format
-msgid "The <a href=\"%s\">Open Discussion forum</a> is the fastest way to get help. Please be patient, it may take some time for somebody to answer."
+#: support/index.php:10
+msgid "The <b>Discussion forums</b> are the fastest way to get help:"
 msgstr ""
 
 #: support/index.php:13
-#, c-format
-msgid "A other way is a subscription to the <a href=\"%s\">support mailing list</a>."
+msgid "WinMerge discussions"
 msgstr ""
 
 #: support/index.php:14
+msgid "Image Compare discussions"
+msgstr ""
+
+#: support/index.php:15
+msgid "Website discussions"
+msgstr ""
+
+#: support/index.php:17
+msgid "Please be patient, it may take some time for somebody to answer."
+msgstr ""
+
+#: support/index.php:19
+msgid "Issues"
+msgstr ""
+
+#: support/index.php:20
 #, c-format
 msgid "If you find a bug, please submit it as a <a href=\"%s\">issue</a>."
 msgstr ""
 
-#: support/index.php:15
+#: support/index.php:21
 msgid "Please attach as much information as you can: at a minimum, the version number of WinMerge that you are using. If you can, also attach a configuration log which, you can display by clicking <span class=\"guimenu\">Help</span> &#8594; <span class=\"guimenuitem\">Configuration</span> in the WinMerge window."
 msgstr ""
 
-#: support/index.php:16
+#: support/index.php:22
 msgid "Good information in a bug report makes it more likely that your bug will be fixed quickly."
 msgstr ""
 
-#: support/index.php:17
+#: support/index.php:23
 #, c-format
 msgid "Wish list items on the <a href=\"%s\">issues list</a> will also be considered, but we make absolutely no promises."
 msgstr ""
 
-#: support/index.php:19
-msgid "Active Forum Topics"
-msgstr ""
-
 #: support/index.php:26
-#, c-format
-msgid "last post by <strong>%1$s</strong> at %2$s"
-msgstr ""
-
-#: support/index.php:30
-msgid "View all active topics&hellip;"
-msgstr ""
-
-#: support/index.php:33
-msgid "Mailing Lists"
-msgstr ""
-
-#: support/index.php:35
-msgid "Announce List"
-msgstr ""
-
-#: support/index.php:37
-msgid "This list is only for announcing new releases of WinMerge."
-msgstr ""
-
-#: support/index.php:39 support/index.php:49 support/index.php:59
-#: support/index.php:69 support/index.php:79
-msgid "Subscribe"
-msgstr ""
-
-#: support/index.php:40 support/index.php:50 support/index.php:60
-#: support/index.php:70 support/index.php:80
-msgid "Unsubscribe"
-msgstr ""
-
-#: support/index.php:42 support/index.php:72
-msgid "Low Traffic"
-msgstr ""
-
-#: support/index.php:45
-msgid "Support List"
-msgstr ""
-
-#: support/index.php:47
-msgid "You should ask all your support questions on this list."
-msgstr ""
-
-#: support/index.php:52 support/index.php:62 support/index.php:82
-msgid "Normal Traffic"
-msgstr ""
-
-#: support/index.php:55
-msgid "User List"
-msgstr ""
-
-#: support/index.php:57
-msgid "This list is for user related questions. Having questions posted to this list may allow others having the same problem to solve it on their own."
-msgstr ""
-
-#: support/index.php:65
-msgid "Translate List"
-msgstr ""
-
-#: support/index.php:67
-msgid "This list is used for coordinating the translations."
-msgstr ""
-
-#: support/index.php:75
-msgid "Development List"
-msgstr ""
-
-#: support/index.php:77
-msgid "This is the list where participating developers of WinMerge meet and discuss issues, code changes/additions, etc."
-msgstr ""
-
-#: support/index.php:87
 #, c-format
 msgid "Since WinMerge is an <a href=\"%s\">Open Source</a> project, you may use it free of charge."
 msgstr ""
 
-#: support/index.php:88
+#: support/index.php:27
 #, c-format
 msgid "But please consider making a <a href=\"%s\">donation</a> to support the continued development of WinMerge."
 msgstr ""
 
-#: support/index.php:90
+#: support/index.php:29
 msgid "Buy WinMerge merchandise"
 msgstr ""
 
-#: support/index.php:91
+#: support/index.php:30
 #, c-format
 msgid "You can also support WinMerge by buying merchandise at the <a href=\"%s\">WinMerge CafePress store</a>. 20%% of the sales goes to WinMerge."
 msgstr ""

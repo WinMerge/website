@@ -60,7 +60,7 @@ msgstr "Suporte do WinMerge"
 msgid "Compares one folder or includes all subfolders"
 msgstr "Compara um diretório ou inclui todos os subdiretórios"
 
-#: support/index.php:16
+#: support/index.php:22
 msgid ""
 "Good information in a bug report makes it more likely that your bug will be "
 "fixed quickly."
@@ -84,10 +84,6 @@ msgstr ""
 msgid "Total: Unknown"
 msgstr "Total: desconhecido"
 
-#: support/index.php:52 support/index.php:62 support/index.php:82
-msgid "Normal Traffic"
-msgstr "Tráfego normal"
-
 #: engine/engine.inc:23
 msgid "Greek"
 msgstr "Grego"
@@ -96,7 +92,7 @@ msgstr "Grego"
 msgid "English"
 msgstr "Inglês"
 
-#: support/index.php:88
+#: support/index.php:27
 #, c-format
 msgid ""
 "But please consider making a <a href=\"%s\">donation</a> to support the "
@@ -113,10 +109,6 @@ msgstr "Download"
 msgid "Home"
 msgstr "Inicial"
 
-#: support/index.php:67
-msgid "This list is used for coordinating the translations."
-msgstr "Esta lista é usada para coordenar as traduções."
-
 #: downloads/index.php:13
 #, c-format
 msgid ""
@@ -126,21 +118,16 @@ msgstr ""
 "A forma mais fácil de instalar o WinMerge é baixar e executar o instalador. "
 "Leia o <a href=\"%s\">manual online</a> para obter ajuda em usá-lo."
 
-#: 404.php:33 engine/page.inc:345 index.php:90 support/index.php:9
-#: support/index.php:11
+#: 404.php:33 engine/page.inc:345 index.php:90 support/index.php:7
+#: support/index.php:9
 msgid "Support"
 msgstr "Suporte"
-
-#: support/index.php:26
-#, c-format
-msgid "last post by <strong>%1$s</strong> at %2$s"
-msgstr "última postagem por <strong>%1$s</strong> em %2$s"
 
 #: index.php:39
 msgid "Location pane shows map of files compared"
 msgstr "O painel de localização mostra o mapa dos arquivos comparados"
 
-#: engine/page.inc:215 support/index.php:86
+#: engine/page.inc:215 support/index.php:25
 msgid "Donate"
 msgstr "Doação"
 
@@ -158,10 +145,6 @@ msgstr ""
 "Windows. WinMerge pode comparar tanto pastas quanto arquivos, apresentar "
 "diferenças em um formato visual de texto que é de fácil compreensão e "
 "manipulação."
-
-#: support/index.php:19
-msgid "Active Forum Topics"
-msgstr "Tópicos ativos do fórum"
 
 #: index.php:68
 msgid "Shell Integration (supports 64-bit Windows versions)"
@@ -196,7 +179,7 @@ msgstr "Comparação de arquivos"
 msgid "German"
 msgstr "Alemão"
 
-#: support/index.php:15
+#: support/index.php:21
 msgid ""
 "Please attach as much information as you can: at a minimum, the version "
 "number of WinMerge that you are using. If you can, also attach a "
@@ -214,22 +197,13 @@ msgstr ""
 msgid "Basque"
 msgstr "Basca"
 
-#: engine/page.inc:211 support/index.php:41 support/index.php:51
-#: support/index.php:61 support/index.php:71 support/index.php:81
+#: engine/page.inc:211
 msgid "Archive"
 msgstr "Arquivo"
 
 #: engine/page.inc:341
 msgid "WinMerge Documentation"
 msgstr "Documentação do WinMerge"
-
-#: support/index.php:7
-msgid ""
-"The Open Discussion forum is the fastest way to get help. A other way is a "
-"subscription to the support mailing list."
-msgstr ""
-"O fórum Open Discussion é o jeito mais rápido de obter ajuda. Uma outra "
-"forma é assinar a lista de de discussão de suporte."
 
 #: translations/translations.inc:78 translations/translations.inc:90
 #: translations/translations.inc:108
@@ -352,16 +326,6 @@ msgstr ""
 msgid "Change Log"
 msgstr "Log de mudanças"
 
-#: support/index.php:12
-#, c-format
-msgid ""
-"The <a href=\"%s\">Open Discussion forum</a> is the fastest way to get help."
-" Please be patient, it may take some time for somebody to answer."
-msgstr ""
-"O <a href=\"%s\">fórum Open Discussion</a> é o meio mais rápido de obter "
-"ajuda. Por favor, seja paciente, pois pode levar algum tempo até que alguém "
-"responda sua pergunta."
-
 #: docs/changelog.php:5
 msgid ""
 "The change log is a more complete list of changes in the last WinMerge "
@@ -444,14 +408,6 @@ msgstr "Instalador"
 msgid "WinMerge %s - latest stable version"
 msgstr "WinMerge %s - última versão estável"
 
-#: support/index.php:45
-msgid "Support List"
-msgstr "Lista de suporte"
-
-#: support/index.php:35
-msgid "Announce List"
-msgstr "Lista de anúncios"
-
 #: screenshots/index.php:41
 msgid ""
 "WinMerge allows selecting/opening paths in several ways. Using the Open-"
@@ -467,15 +423,6 @@ msgstr "Capturas de tela"
 #: engine/page.inc:343
 msgid "WinMerge Screenshots"
 msgstr "Capturas de tela do WinMerge"
-
-#: support/index.php:13
-#, c-format
-msgid ""
-"A other way is a subscription to the <a href=\"%s\">support mailing "
-"list</a>."
-msgstr ""
-"Uma outra forma de assinatura da <a href=\"%s\">lista de discussão de "
-"suporte</a>."
 
 #: screenshots/index.php:5
 msgid ""
@@ -522,7 +469,7 @@ msgstr "Resultado da comparação de arquivos"
 msgid "Unicode support"
 msgstr "Suporte unicode"
 
-#: support/index.php:91
+#: support/index.php:30
 #, c-format
 msgid ""
 "You can also support WinMerge by buying merchandise at the <a "
@@ -533,23 +480,9 @@ msgstr ""
 "href=\"%s\">loja do WinMerge na CafePress</a>. 20%% das vendas vão para o "
 "WinMerge."
 
-#: source-code/index.php:66 support/index.php:26
+#: source-code/index.php:66
 msgid "Y-m-d H:i"
 msgstr "d-m-Y H:i"
-
-#: support/index.php:8
-msgid ""
-"WinMerge, support, discussion forums, mailing lists, tracker, donate, bugs, "
-"support requests, patches, feature requests, todo, open source, "
-"sourceforge.net"
-msgstr ""
-"WinMerge, suporte, fórum de discussão, lista de discussão, tracker, doar, "
-"erros, solicitação de suporte, patches, solicitação de funcionalidades, "
-"tarefas, código aberto, sourceforge.net"
-
-#: support/index.php:30
-msgid "View all active topics&hellip;"
-msgstr "Visualizar todos os tópicos ativos&hellip;"
 
 #: translations/translations.inc:104 translations/translations.inc:330
 msgid "Language"
@@ -572,11 +505,6 @@ msgstr "Notas de lançamento"
 #, c-format
 msgid "Untranslated: %d%%"
 msgstr "Não traduzido: %d%%"
-
-#: support/index.php:39 support/index.php:49 support/index.php:59
-#: support/index.php:69 support/index.php:79
-msgid "Subscribe"
-msgstr "Inscreva-se"
 
 #: engine/page.inc:342
 msgid "WinMerge Downloads"
@@ -645,11 +573,7 @@ msgstr ""
 "nossa <a href=\"%s\">informação sobre a tradução do WinMerge</a> para seu "
 "próprio idioma."
 
-#: support/index.php:65
-msgid "Translate List"
-msgstr "Lista de tradução"
-
-#: support/index.php:17
+#: support/index.php:23
 #, c-format, fuzzy
 msgid ""
 "Wish list items on the <a href=\"%s\">issues list</a> will also be "
@@ -731,11 +655,6 @@ msgstr ""
 msgid "Beta Versions"
 msgstr "Versões beta"
 
-#: support/index.php:40 support/index.php:50 support/index.php:60
-#: support/index.php:70 support/index.php:80
-msgid "Unsubscribe"
-msgstr "Cancelar assinatura"
-
 #: index.php:91
 #, c-format
 msgid ""
@@ -769,11 +688,6 @@ msgid ""
 msgstr ""
 "Isso significa que qualquer pessoa pode baixar o <a href=\"%s\">código fonte</a> e melhorá-lo e modificá-lo.\n"
 "A única coisa que nós pedimos é que as pessoas enviem seus melhoramentos e modificações de volta para nós, de forma que todos os usuários do WinMerge possam ser beneficiados."
-
-#: support/index.php:47
-msgid "You should ask all your support questions on this list."
-msgstr ""
-"Você deveria solicitar todas as suas perguntas sobre suporte nessa lista."
 
 #: translations/translations.inc:31
 msgid "File not valid."
@@ -811,7 +725,7 @@ msgstr "Baixar agora!"
 msgid "Folder Compare"
 msgstr "Comparação de pastas"
 
-#: support/index.php:87
+#: support/index.php:26
 #, c-format
 msgid ""
 "Since WinMerge is an <a href=\"%s\">Open Source</a> project, you may use it "
@@ -838,31 +752,9 @@ msgstr ""
 "O site entrou recentemente em um grande re-trabalho, o que poderia ser a "
 "causa de você estar vendo esta página ao invés do desejado."
 
-#: support/index.php:42 support/index.php:72
-msgid "Low Traffic"
-msgstr "Tráfego baixo"
-
-#: support/index.php:37
-msgid "This list is only for announcing new releases of WinMerge."
-msgstr ""
-"Essa lista serve somente para anúncio de novos lançamentos do WinMerge."
-
-#: support/index.php:33
-msgid "Mailing Lists"
-msgstr "Listas de discussão"
-
 #: downloads/index.php:47 downloads/index.php:53
 msgid "Binaries"
 msgstr "Binários"
-
-#: support/index.php:57
-msgid ""
-"This list is for user related questions. Having questions posted to this "
-"list may allow others having the same problem to solve it on their own."
-msgstr ""
-"Essa lista é para perguntas relacionadas a usuários. Ao fazer perguntas "
-"nessa lista, você pode fazer com que outros que tenham o mesmo problema "
-"também resolvam."
 
 #: docs/index.php:20
 #, c-format
@@ -928,10 +820,6 @@ msgstr "Polonês"
 msgid "Translated"
 msgstr "Traduzido"
 
-#: support/index.php:55
-msgid "User List"
-msgstr "Lista do usuário"
-
 #: 404.php:9
 msgid "Error 404 (Page Not Found)"
 msgstr "Erro 404 (Página não encontrada)"
@@ -957,7 +845,7 @@ msgstr "Interface em abas"
 msgid "Translated: %d%%"
 msgstr "Traduzido: %d%%"
 
-#: support/index.php:90
+#: support/index.php:29
 msgid "Buy WinMerge merchandise"
 msgstr "Compre as mercadorias do WinMerge"
 
@@ -988,7 +876,7 @@ msgstr ""
 msgid "WinMerge Portable"
 msgstr "WinMerge Portable"
 
-#: support/index.php:14
+#: support/index.php:20
 #, c-format, fuzzy
 msgid "If you find a bug, please submit it as a <a href=\"%s\">issue</a>."
 msgstr ""
@@ -1022,10 +910,6 @@ msgid ""
 msgstr ""
 "WinMerge é um software de <a href=\"%1$s\">código aberto</a> sob os termos "
 "da <a href=\"%2$s\">Licença Pública Geral GNU</a>."
-
-#: support/index.php:75
-msgid "Development List"
-msgstr "Lista de desenvolvimento"
 
 #: downloads/index.php:127
 msgid "View all file releases&hellip;"
@@ -1305,11 +1189,136 @@ msgstr ""
 msgid "Slovenian"
 msgstr ""
 
-#: support/index.php:77
-msgid ""
-"This is the list where participating developers of WinMerge meet and discuss"
-" issues, code changes/additions, etc."
+#: support/index.php:5
+msgid "The Open Discussion forum is the fastest way to get help."
 msgstr ""
+
+#: support/index.php:6
+msgid ""
+"WinMerge, support, discussion forums, tracker, donate, bugs, support "
+"requests, patches, feature requests, todo, open source"
+msgstr ""
+
+#: support/index.php:10
+msgid "The <b>Discussion forums</b> are the fastest way to get help:"
+msgstr ""
+
+#: support/index.php:13
+msgid "WinMerge discussions"
+msgstr ""
+
+#: support/index.php:14
+msgid "Image Compare discussions"
+msgstr ""
+
+#: support/index.php:15
+msgid "Website discussions"
+msgstr ""
+
+#: support/index.php:17
+msgid "Please be patient, it may take some time for somebody to answer."
+msgstr ""
+
+#: support/index.php:19
+msgid "Issues"
+msgstr ""
+
+#~ msgid "Normal Traffic"
+#~ msgstr "Tráfego normal"
+
+#~ msgid "This list is used for coordinating the translations."
+#~ msgstr "Esta lista é usada para coordenar as traduções."
+
+#, c-format
+#~ msgid "last post by <strong>%1$s</strong> at %2$s"
+#~ msgstr "última postagem por <strong>%1$s</strong> em %2$s"
+
+#~ msgid "Active Forum Topics"
+#~ msgstr "Tópicos ativos do fórum"
+
+#~ msgid ""
+#~ "The Open Discussion forum is the fastest way to get help. A other way is a "
+#~ "subscription to the support mailing list."
+#~ msgstr ""
+#~ "O fórum Open Discussion é o jeito mais rápido de obter ajuda. Uma outra "
+#~ "forma é assinar a lista de de discussão de suporte."
+
+#, c-format
+#~ msgid ""
+#~ "The <a href=\"%s\">Open Discussion forum</a> is the fastest way to get help."
+#~ " Please be patient, it may take some time for somebody to answer."
+#~ msgstr ""
+#~ "O <a href=\"%s\">fórum Open Discussion</a> é o meio mais rápido de obter "
+#~ "ajuda. Por favor, seja paciente, pois pode levar algum tempo até que alguém "
+#~ "responda sua pergunta."
+
+#~ msgid "Support List"
+#~ msgstr "Lista de suporte"
+
+#~ msgid "Announce List"
+#~ msgstr "Lista de anúncios"
+
+#, c-format
+#~ msgid ""
+#~ "A other way is a subscription to the <a href=\"%s\">support mailing "
+#~ "list</a>."
+#~ msgstr ""
+#~ "Uma outra forma de assinatura da <a href=\"%s\">lista de discussão de "
+#~ "suporte</a>."
+
+#~ msgid ""
+#~ "WinMerge, support, discussion forums, mailing lists, tracker, donate, bugs, "
+#~ "support requests, patches, feature requests, todo, open source, "
+#~ "sourceforge.net"
+#~ msgstr ""
+#~ "WinMerge, suporte, fórum de discussão, lista de discussão, tracker, doar, "
+#~ "erros, solicitação de suporte, patches, solicitação de funcionalidades, "
+#~ "tarefas, código aberto, sourceforge.net"
+
+#~ msgid "View all active topics&hellip;"
+#~ msgstr "Visualizar todos os tópicos ativos&hellip;"
+
+#~ msgid "Subscribe"
+#~ msgstr "Inscreva-se"
+
+#~ msgid "Translate List"
+#~ msgstr "Lista de tradução"
+
+#~ msgid "Unsubscribe"
+#~ msgstr "Cancelar assinatura"
+
+#~ msgid "You should ask all your support questions on this list."
+#~ msgstr ""
+#~ "Você deveria solicitar todas as suas perguntas sobre suporte nessa lista."
+
+#~ msgid "Low Traffic"
+#~ msgstr "Tráfego baixo"
+
+#~ msgid "This list is only for announcing new releases of WinMerge."
+#~ msgstr ""
+#~ "Essa lista serve somente para anúncio de novos lançamentos do WinMerge."
+
+#~ msgid "Mailing Lists"
+#~ msgstr "Listas de discussão"
+
+#~ msgid ""
+#~ "This list is for user related questions. Having questions posted to this "
+#~ "list may allow others having the same problem to solve it on their own."
+#~ msgstr ""
+#~ "Essa lista é para perguntas relacionadas a usuários. Ao fazer perguntas "
+#~ "nessa lista, você pode fazer com que outros que tenham o mesmo problema "
+#~ "também resolvam."
+
+#~ msgid "User List"
+#~ msgstr "Lista do usuário"
+
+#~ msgid "Development List"
+#~ msgstr "Lista de desenvolvimento"
+
+#~ msgid ""
+#~ "This is the list where participating developers of WinMerge meet and discuss"
+#~ " issues, code changes/additions, etc."
+#~ msgstr ""
 
 #~ msgid ""
 #~ "This is the list where participating developers of the WinMerge meet and "
