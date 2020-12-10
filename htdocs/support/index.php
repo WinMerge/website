@@ -74,7 +74,7 @@
 </div> <!-- .indented -->
 <h4><?php __e('Development List');?></h4>
 <div class="indented">
-  <p><?php __e('This is the list where participating developers of the WinMerge meet and discuss issues, code changes/additions, etc.');?></p>
+  <p><?php __e('This is the list where participating developers of WinMerge meet and discuss issues, code changes/additions, etc.');?></p>
   <ul class="buttons">
     <li><a href="https://sourceforge.net/projects/winmerge/lists/winmerge-development" class="button is-small is-success"><?php __e('Subscribe');?></a></li>
     <li><a href="https://sourceforge.net/projects/winmerge/lists/winmerge-development/unsubscribe" class="button is-small is-danger"><?php __e('Unsubscribe');?></a></li>
