@@ -10,8 +10,8 @@ msgstr ""
 "Project-Id-Version: WinMerge Website\n"
 "Report-Msgid-Bugs-To: http://bugs.winmerge.org\n"
 "POT-Creation-Date: 2013-04-29 21:48+0000\n"
-"PO-Revision-Date: 2018-06-13 21:15+0000\n"
-"Last-Translator: Begina Felicysym <begina.felicysym at wp.eu>\n"
+"PO-Revision-Date: 2020-12-15 01:32+0000\n"
+"Last-Translator: Michał Lipok <michal at lipok.pl>\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1066,7 +1066,7 @@ msgstr ""
 
 #: screenshots/index.php:27 screenshots/index.php:28
 msgid "Image Comparison"
-msgstr ""
+msgstr "Porównanie obrazów"
 
 #: screenshots/index.php:29
 msgid ""
@@ -1075,7 +1075,7 @@ msgstr ""
 
 #: screenshots/index.php:35 screenshots/index.php:36
 msgid "Binary Comparison"
-msgstr ""
+msgstr "Porównanie binarne"
 
 #: screenshots/index.php:37
 msgid ""
@@ -1086,11 +1086,11 @@ msgstr ""
 
 #: source-code/index.php:34
 msgid "Clone or download"
-msgstr ""
+msgstr "Klonuj lub pobierz"
 
 #: translations/index.php:20
 msgid "Website Status"
-msgstr ""
+msgstr "Status portalu"
 
 #: docs/index.php:6
 msgid ""
@@ -1100,15 +1100,15 @@ msgstr ""
 
 #: downloads/index.php:104
 msgid "Continuous Integration Builds"
-msgstr ""
+msgstr "Kompilacje ciągłej integracji"
 
 #: source-code/index.php:9
 msgid "WinMerge, free, clone, download, source code, GPL, GitHub, Git"
-msgstr ""
+msgstr "WinMerge, bezpłatne, klonowanie, pobieranie, kod źródłowy, GPL, GitHub, Git"
 
 #: source-code/index.php:10 source-code/index.php:57
 msgid "Recent Commits"
-msgstr ""
+msgstr "Ostatnie zatwierdzenia"
 
 #: source-code/index.php:35
 #, c-format
@@ -1127,6 +1127,8 @@ msgid ""
 "We moved the sources from the website to a own <a href=\"%1$s\">GitHub "
 "repository</a>."
 msgstr ""
+"Przeniśliśmy źródło z własnej witryny na własne <a href=\"%1$s\">GitHub "
+"repozytorium</a>."
 
 #: translations/translations.inc:310
 msgid "Maintainer"
@@ -1142,11 +1144,11 @@ msgstr "Gałąź"
 
 #: downloads/index.php:35
 msgid "Per-user installer"
-msgstr ""
+msgstr "Instaler dla użytkownika"
 
 #: downloads/index.php:85
 msgid "32-bit installer: Microsoft Windows XP or newer"
-msgstr ""
+msgstr "32-bit instalator: Microsoft Windows XP lub nowszy"
 
 #: downloads/index.php:86
 msgid "64-bit installer: Microsoft Windows 7 or newer"
@@ -1168,7 +1170,7 @@ msgstr "Pokazuj zawartość pliku CSV/TSV w postaci tabeli"
 
 #: index.php:59
 msgid "Text can be wrapped for each column"
-msgstr "Tekst możeb być zawinięty dla każdej kolumny"
+msgstr "Tekst może być zawinięty dla każdej kolumny"
 
 #: screenshots/index.php:31 screenshots/index.php:32
 msgid "Table Comparison"
@@ -1176,7 +1178,7 @@ msgstr "Porównywanie tabel"
 
 #: screenshots/index.php:33
 msgid "Table compare shows the contents of CSV/TSV files in table format."
-msgstr ""
+msgstr "Porównanie tabel pokazuje zawarotść plików CSV/TSV w formacie tabeli."
 
 #: source-code/index.php:38
 msgid "You can also download the current branches as ZIP file:"
@@ -1184,41 +1186,43 @@ msgstr "Możesz także pobrać bieżącą odgałęzienie jako plik ZIP:"
 
 #: engine/engine.inc:33
 msgid "Slovenian"
-msgstr ""
+msgstr "Słoweński"
 
 #: support/index.php:5
 msgid "The Open Discussion forum is the fastest way to get help."
-msgstr ""
+msgstr "Otwarte forum dyskusji jest najszybszym sposobem aby otrzymać pomoc."
 
 #: support/index.php:6
 msgid ""
 "WinMerge, support, discussion forums, tracker, donate, bugs, support "
-"requests, patches, feature requests, todo, open source"
+"requests, patches, prośby o funkcje, todo, open source"
 msgstr ""
+"WinMerge, wsparcie, forum dyskusji, traker, dotacje, błędy, wsparcie "
+"żądania, łaty, zgłoszeni, todo, open source"
 
 #: support/index.php:10
 msgid "The <b>Discussion forums</b> are the fastest way to get help:"
-msgstr ""
+msgstr "<b>Forum dyskusji</b> jest najszybszym sposobem aby otrzymać pomoc:"
 
 #: support/index.php:13
 msgid "WinMerge discussions"
-msgstr ""
+msgstr "Dyskusje o WinMerge"
 
 #: support/index.php:14
 msgid "Image Compare discussions"
-msgstr ""
+msgstr "Dyskusje o Image Compare"
 
 #: support/index.php:15
 msgid "Website discussions"
-msgstr ""
+msgstr "Strona z dyskusjami"
 
 #: support/index.php:17
 msgid "Please be patient, it may take some time for somebody to answer."
-msgstr ""
+msgstr "Proszę bądź cierpliwy, to może trochę potrwać zanim ktoś odpowie."
 
 #: support/index.php:19
 msgid "Issues"
-msgstr ""
+msgstr "Problemy"
 
 #~ msgid "Normal Traffic"
 #~ msgstr "Normalny Ruch"
@@ -1314,6 +1318,8 @@ msgstr ""
 #~ "This is the list where participating developers of WinMerge meet and discuss"
 #~ " issues, code changes/additions, etc."
 #~ msgstr ""
+#~ "To jest list udzielający się deweloperzy WinMerge spotykają się i omawiają"
+#~ " o problemach, zmianach kodu/dodatkach, itp."
 
 #~ msgid ""
 #~ "This is the list where participating developers of the WinMerge meet and "
