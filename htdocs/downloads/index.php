@@ -82,7 +82,7 @@
   $page->printSubSubHeading(__('Requirements'));
 ?>
 <ul>
-  <li><?php __e('32-bit installer: Microsoft Windows XP or newer');?></li>
+  <li><?php __e('32-bit installer: Microsoft Windows XP SP3 or newer');?></li>
   <li><?php __e('64-bit installer: Microsoft Windows 7 or newer');?></li>
   <li><?php __e('Admin rights for the installer (except for Per-user installer)');?></li>
 </ul>
