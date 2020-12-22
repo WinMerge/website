@@ -313,8 +313,8 @@ msgid "Requirements"
 msgstr "Zahteve"
 
 #: downloads/index.php:85
-msgid "32-bit installer: Microsoft Windows XP or newer"
-msgstr "2-bitni namestitveni program: Microsoft Windows XP ali novejši"
+msgid "32-bit installer: Microsoft Windows XP SP3 or newer"
+msgstr "2-bitni namestitveni program: Microsoft Windows XP SP3 ali novejši"
 
 #: downloads/index.php:86
 msgid "64-bit installer: Microsoft Windows 7 or newer"
@@ -601,8 +601,8 @@ msgid "General"
 msgstr "Splošno"
 
 #: index.php:27
-msgid "Supports Microsoft Windows XP or newer"
-msgstr "Podpira Microsoft Windows XP ali novejši OS"
+msgid "Supports Microsoft Windows XP SP3 or newer"
+msgstr "Podpira Microsoft Windows XP SP3 ali novejši OS"
 
 #: index.php:28
 msgid "Handles Windows, Unix and Mac text file formats"

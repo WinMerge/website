@@ -1027,7 +1027,7 @@ msgid "WinMerge Source Code"
 msgstr ""
 
 #: index.php:27
-msgid "Supports Microsoft Windows XP or newer"
+msgid "Supports Microsoft Windows XP SP3 or newer"
 msgstr ""
 
 #: index.php:34 screenshots/index.php:15 screenshots/index.php:16
@@ -1104,7 +1104,8 @@ msgstr "Kompilacje ciągłej integracji"
 
 #: source-code/index.php:9
 msgid "WinMerge, free, clone, download, source code, GPL, GitHub, Git"
-msgstr "WinMerge, bezpłatne, klonowanie, pobieranie, kod źródłowy, GPL, GitHub, Git"
+msgstr ""
+"WinMerge, bezpłatne, klonowanie, pobieranie, kod źródłowy, GPL, GitHub, Git"
 
 #: source-code/index.php:10 source-code/index.php:57
 msgid "Recent Commits"
@@ -1147,8 +1148,8 @@ msgid "Per-user installer"
 msgstr "Instaler dla użytkownika"
 
 #: downloads/index.php:85
-msgid "32-bit installer: Microsoft Windows XP or newer"
-msgstr "32-bit instalator: Microsoft Windows XP lub nowszy"
+msgid "32-bit installer: Microsoft Windows XP SP3 or newer"
+msgstr "32-bit instalator: Microsoft Windows XP SP3 lub nowszy"
 
 #: downloads/index.php:86
 msgid "64-bit installer: Microsoft Windows 7 or newer"
@@ -1192,14 +1193,6 @@ msgstr "Słoweński"
 msgid "The Open Discussion forum is the fastest way to get help."
 msgstr "Otwarte forum dyskusji jest najszybszym sposobem aby otrzymać pomoc."
 
-#: support/index.php:6
-msgid ""
-"WinMerge, support, discussion forums, tracker, donate, bugs, support "
-"requests, patches, prośby o funkcje, todo, open source"
-msgstr ""
-"WinMerge, wsparcie, forum dyskusji, traker, dotacje, błędy, wsparcie "
-"żądania, łaty, zgłoszeni, todo, open source"
-
 #: support/index.php:10
 msgid "The <b>Discussion forums</b> are the fastest way to get help:"
 msgstr "<b>Forum dyskusji</b> jest najszybszym sposobem aby otrzymać pomoc:"
@@ -1223,6 +1216,19 @@ msgstr "Proszę bądź cierpliwy, to może trochę potrwać zanim ktoś odpowie.
 #: support/index.php:19
 msgid "Issues"
 msgstr "Problemy"
+
+#: support/index.php:6
+msgid ""
+"WinMerge, support, discussion forums, tracker, donate, bugs, support "
+"requests, patches, feature requests, todo, open source"
+msgstr ""
+
+#~ msgid ""
+#~ "WinMerge, support, discussion forums, tracker, donate, bugs, support "
+#~ "requests, patches, prośby o funkcje, todo, open source"
+#~ msgstr ""
+#~ "WinMerge, wsparcie, forum dyskusji, traker, dotacje, błędy, wsparcie "
+#~ "żądania, łaty, zgłoszeni, todo, open source"
 
 #~ msgid "Normal Traffic"
 #~ msgstr "Normalny Ruch"
@@ -1318,8 +1324,8 @@ msgstr "Problemy"
 #~ "This is the list where participating developers of WinMerge meet and discuss"
 #~ " issues, code changes/additions, etc."
 #~ msgstr ""
-#~ "To jest list udzielający się deweloperzy WinMerge spotykają się i omawiają"
-#~ " o problemach, zmianach kodu/dodatkach, itp."
+#~ "To jest list udzielający się deweloperzy WinMerge spotykają się i omawiają o"
+#~ " problemach, zmianach kodu/dodatkach, itp."
 
 #~ msgid ""
 #~ "This is the list where participating developers of the WinMerge meet and "
@@ -1377,8 +1383,8 @@ msgstr "Problemy"
 #~ msgid "<a href=\"%s\">Source Code</a>?"
 #~ msgstr "<a href=\"%s\">Kod źródłowy</a>?"
 
-#~ msgid "Microsoft Windows XP or newer"
-#~ msgstr "Microsoft Windows XP lub nowszy"
+#~ msgid "Microsoft Windows XP SP3 or newer"
+#~ msgstr "Microsoft Windows XP SP3 lub nowszy"
 
 #~ msgid ""
 #~ "Microsoft Visual C++ 2013 Runtime Components (included in the installer)"

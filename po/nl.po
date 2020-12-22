@@ -315,8 +315,8 @@ msgid "Requirements"
 msgstr "Vereisten"
 
 #: downloads/index.php:85
-msgid "32-bit installer: Microsoft Windows XP or newer"
-msgstr "32-bit-installatiebestand: Microsoft Windows XP of nieuwer"
+msgid "32-bit installer: Microsoft Windows XP SP3 or newer"
+msgstr "32-bit-installatiebestand: Microsoft Windows XP SP3 of nieuwer"
 
 #: downloads/index.php:86
 msgid "64-bit installer: Microsoft Windows 7 or newer"
@@ -609,8 +609,8 @@ msgid "General"
 msgstr "Algemeen"
 
 #: index.php:27
-msgid "Supports Microsoft Windows XP or newer"
-msgstr "Ondersteunt Microsoft Windows XP of nieuwer"
+msgid "Supports Microsoft Windows XP SP3 or newer"
+msgstr "Ondersteunt Microsoft Windows XP SP3 of nieuwer"
 
 #: index.php:28
 msgid "Handles Windows, Unix and Mac text file formats"

@@ -954,7 +954,7 @@ msgid "WinMerge Source Code"
 msgstr ""
 
 #: index.php:27
-msgid "Supports Microsoft Windows XP or newer"
+msgid "Supports Microsoft Windows XP SP3 or newer"
 msgstr ""
 
 #: index.php:34 screenshots/index.php:15 screenshots/index.php:16
@@ -1072,7 +1072,7 @@ msgid "Per-user installer"
 msgstr ""
 
 #: downloads/index.php:85
-msgid "32-bit installer: Microsoft Windows XP or newer"
+msgid "32-bit installer: Microsoft Windows XP SP3 or newer"
 msgstr ""
 
 #: downloads/index.php:86
@@ -1285,7 +1285,7 @@ msgstr ""
 #~ msgid "<a href=\"%s\">Source Code</a>?"
 #~ msgstr ""
 
-#~ msgid "Microsoft Windows XP or newer"
+#~ msgid "Microsoft Windows XP SP3 or newer"
 #~ msgstr ""
 
 #~ msgid ""

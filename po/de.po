@@ -1038,8 +1038,8 @@ msgid "WinMerge Source Code"
 msgstr "WinMerge-Quellcode"
 
 #: index.php:27
-msgid "Supports Microsoft Windows XP or newer"
-msgstr "Unterstützt Microsoft Windows XP oder neuer"
+msgid "Supports Microsoft Windows XP SP3 or newer"
+msgstr "Unterstützt Microsoft Windows XP SP3 oder neuer"
 
 #: index.php:34 screenshots/index.php:15 screenshots/index.php:16
 msgid "3-way File Comparison"
@@ -1169,8 +1169,8 @@ msgid "Per-user installer"
 msgstr "Installationsprogramm pro Benutzer"
 
 #: downloads/index.php:85
-msgid "32-bit installer: Microsoft Windows XP or newer"
-msgstr "32-Bit-Installationsprogramm: Microsoft Windows XP oder neuer"
+msgid "32-bit installer: Microsoft Windows XP SP3 or newer"
+msgstr "32-Bit-Installationsprogramm: Microsoft Windows XP SP3 oder neuer"
 
 #: downloads/index.php:86
 msgid "64-bit installer: Microsoft Windows 7 or newer"
@@ -1397,8 +1397,8 @@ msgstr ""
 #~ msgid "<a href=\"%s\">Source Code</a>?"
 #~ msgstr "<a href=\"%s\">Quelltext</a>?"
 
-#~ msgid "Microsoft Windows XP or newer"
-#~ msgstr "Microsoft Windows XP oder neuer"
+#~ msgid "Microsoft Windows XP SP3 or newer"
+#~ msgstr "Microsoft Windows XP SP3 oder neuer"
 
 #~ msgid ""
 #~ "Microsoft Visual C++ 2013 Runtime Components (included in the installer)"

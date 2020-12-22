@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WinMerge\n"
 "Report-Msgid-Bugs-To: http://bugs.winmerge.org\n"
-"POT-Creation-Date: 2020-12-10 22:45+0000\n"
+"POT-Creation-Date: 2020-12-22 22:32+0000\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: English <winmerge-translate@lists.sourceforge.net>\n"
@@ -237,7 +237,7 @@ msgid "Requirements"
 msgstr ""
 
 #: downloads/index.php:85
-msgid "32-bit installer: Microsoft Windows XP or newer"
+msgid "32-bit installer: Microsoft Windows XP SP3 or newer"
 msgstr ""
 
 #: downloads/index.php:86
@@ -485,7 +485,7 @@ msgid "General"
 msgstr ""
 
 #: index.php:27
-msgid "Supports Microsoft Windows XP or newer"
+msgid "Supports Microsoft Windows XP SP3 or newer"
 msgstr ""
 
 #: index.php:28
