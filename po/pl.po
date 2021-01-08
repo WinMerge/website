@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: WinMerge Website\n"
 "Report-Msgid-Bugs-To: http://bugs.winmerge.org\n"
 "POT-Creation-Date: 2013-04-29 21:48+0000\n"
-"PO-Revision-Date: 2020-12-15 01:32+0000\n"
+"PO-Revision-Date: 2021-01-07 02:49+0000\n"
 "Last-Translator: Michał Lipok <michal at lipok.pl>\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
@@ -76,7 +76,7 @@ msgid ""
 "for Windows. WinMerge can compare both folders and files, presenting "
 "differences in a visual text format that is easy to understand and handle."
 msgstr ""
-"WinMerge jest <a href=\"%s\">Open Sursowym</a> narzędziem porównywania i "
+"WinMerge jest <a href=\"%s\">Otwarto źródłowym</a> narzędziem porównywania i "
 "scalania dla Windows. WinMerge może porównywać zarówno foldery jak i pliki "
 "pokazując różnice w wizualnym formacie tekstu, który jest łatwy do "
 "zrozumienia i obsługi."
@@ -143,7 +143,7 @@ msgid ""
 "WinMerge can compare both folders and files, presenting differences in a "
 "visual text format that is easy to understand and handle."
 msgstr ""
-"WinMerge jest Open Soursowym narzędziem porównywania i scalania dla systemu "
+"WinMerge jest Otwarto Źródłowym narzędziem porównywania i scalania dla systemu "
 "Windows. WinMerge może porównać zarówno pliki jak i foldery, prezentując "
 "różnice tekstu w wizualnym formacie, który jest łatwy do zrozumienia i "
 "obsługi."
@@ -727,7 +727,7 @@ msgid ""
 "Since WinMerge is an <a href=\"%s\">Open Source</a> project, you may use it "
 "free of charge."
 msgstr ""
-"Ponieważ WinMerge jest projektem <a href=\"%s\">Open Source</a>, możesz "
+"Ponieważ WinMerge jest projektem <a href=\"%s\">Otwarto Źródłowym</a>, możesz "
 "używać go bezpłatnie."
 
 #: index.php:22
@@ -828,7 +828,7 @@ msgid ""
 "WinMerge is an open source project, which means that the program is "
 "maintained and developed by volunteers."
 msgstr ""
-"WinMerge jest projektem open source, co oznacza, że program jest utrzymywany"
+"WinMerge jest projektem Otwarto Źródłowym, co oznacza, że program jest utrzymywany"
 " i rozwijany przez ochotników."
 
 #: index.php:30
@@ -884,7 +884,7 @@ msgid ""
 "utility, text, file, folder, directory, compare files, compare folders, "
 "merge files, merge folders, diff tool, merge tool, compare tool"
 msgstr ""
-"WinMerge, wolne, open source, Windows, WinDiff, diff, scalenie, "
+"WinMerge, wolne, Otwarte Źródło, Windows, WinDiff, diff, scalenie, "
 "porównywanie, narzędzie, tekst, plik, folder, katalog, porównanie plików, "
 "porównanie folderów, scalenie plików, scalenie folderów, narzędzie "
 "porównania, narzędzie scalenia"
@@ -903,7 +903,7 @@ msgid ""
 "WinMerge is <a href=\"%1$s\">Open Source</a> software under the <a "
 "href=\"%2$s\">GNU General Public License</a>."
 msgstr ""
-"WinMerge jest oprogramowaniem <a href=\"%1$s\">Open Source</a> opartym na <a"
+"WinMerge jest oprogramowaniem <a href=\"%1$s\">Otwarto Źródłowym</a> opartym na <a"
 " href=\"%2$s\">Powszechnej Licencji Publicznej GNU</a>."
 
 #: downloads/index.php:127
@@ -912,11 +912,11 @@ msgstr "Przegląd wszystkich wersji pliku&hellip;"
 
 #: downloads/index.php:22
 msgid "Size"
-msgstr ""
+msgstr "Wielkość"
 
 #: downloads/index.php:24
 msgid "Format"
-msgstr ""
+msgstr "Format"
 
 #: downloads/index.php:28 downloads/index.php:34 downloads/index.php:40
 #: downloads/index.php:46 downloads/index.php:52 downloads/index.php:58
@@ -954,115 +954,117 @@ msgstr ""
 
 #: engine/page.inc:126 engine/page.inc:169
 msgid "You will see the difference…"
-msgstr ""
+msgstr "Zobaczysz różnicę…"
 
 #: engine/page.inc:191
 msgid "Change Language"
-msgstr ""
+msgstr "Zmień język"
 
 #: engine/page.inc:208
 msgid "Project Pages"
-msgstr ""
+msgstr "Strony projektu"
 
 #: translations/index.php:16
 msgid "WinMerge Status"
-msgstr ""
+msgstr "WinMerge Status"
 
 #: translations/index.php:17
 msgid "ShellExtension Status"
-msgstr ""
+msgstr "ShellExtension Status"
 
 #: translations/index.php:18 translations/index.php:45
 msgid "InnoSetup Files"
-msgstr ""
+msgstr "Pliki InnoSetup "
 
 #: translations/index.php:19 translations/index.php:48
 msgid "Readme Files"
-msgstr ""
+msgstr "Pliki Readme"
 
 #: translations/index.php:39
 #, c-format
 msgid "WinMerge Status <em>from %s</em>"
-msgstr ""
+msgstr "Status WinMerge <em>z %s</em>"
 
 #: translations/index.php:42
 #, c-format
 msgid "ShellExtension Status <em>from %s</em>"
-msgstr ""
+msgstr "Status ShellExtension <em>z %s</em>"
 
 #: translations/status_website.php:17
 #, c-format
 msgid "Website Status <em>from %s</em>"
-msgstr ""
+msgstr "Status witryny <em>z %s</em>"
 
 #: downloads/index.php:65
 msgid "SHA-256 Checksums"
-msgstr ""
+msgstr "Sumy kontrolne SHA-256"
 
 #: downloads/index.php:91
 msgid "WinMerge 2.14.0 <em>for Windows 2000</em>"
-msgstr ""
+msgstr "WinMerge 2.14.0 <em>dla Windows 2000</em>"
 
 #: downloads/index.php:92
 msgid ""
-"WinMerge version 2.14.0 was the last version to ship with Microsoft Visual "
-"C++ 2008 runtimes that support Windows 2000."
+"Wersja WinMerge 2.14.0 była ostatnią wersją dostarczaną z programem Microsoft Visual"
+"C++ 2008 środowiska wykonawcze, które obsługują Windows 2000."
 msgstr ""
 
 #: downloads/index.php:94 downloads/index.php:99
 #, c-format
 msgid "Get version %s"
-msgstr ""
+msgstr "Pobierz wersję %s"
 
 #: downloads/index.php:101
 msgid "Unofficial Versions"
-msgstr ""
+msgstr "Nieoficjalne wersje"
 
 #: downloads/index.php:134
 msgid "All File Releases"
-msgstr ""
+msgstr "Wszystkie wydania plików"
 
 #: engine/page.inc:344
 msgid "WinMerge Source Code"
-msgstr ""
+msgstr "Kod źródłowy WinMerge"
 
 #: index.php:27
 msgid "Supports Microsoft Windows XP SP3 or newer"
-msgstr ""
+msgstr "Obsługuje system Microsoft Windows XP SP3 lub nowszy"
 
 #: index.php:34 screenshots/index.php:15 screenshots/index.php:16
 msgid "3-way File Comparison"
-msgstr ""
+msgstr "3-stronne porównanie plików"
 
 #: index.php:34 index.php:50 index.php:56
 msgid "New!"
-msgstr ""
+msgstr "Nowość!"
 
 #: index.php:48
 msgid "3-way Folder Comparison"
-msgstr ""
+msgstr "3-stronne porównanie folderów"
 
 #: index.php:50
 msgid "Image Compare"
-msgstr ""
+msgstr "Porównanie obrazów"
 
 #: index.php:52
 msgid "Support many types of images"
-msgstr ""
+msgstr "Obsługa wielu typów obrazów"
 
 #: index.php:53
 msgid "Can highlight the differences with blocks"
-msgstr ""
+msgstr "Potrafi podkreślić różnice za pomocą bloków"
 
 #: index.php:54
 msgid "Overlaying of the pictures is possible"
-msgstr ""
+msgstr "Możliwe jest nakładanie zdjęć"
 
 #: screenshots/index.php:17
 msgid ""
 "The 3-way file compare even allows comparing and editing three files at the "
 "same time."
 msgstr ""
+"3-stronne porównywanie plików pozwala nawet porównywać i edytować trzy"
+"pliki w tym samym czasie."
 
 #: screenshots/index.php:27 screenshots/index.php:28
 msgid "Image Comparison"
@@ -1072,6 +1074,7 @@ msgstr "Porównanie obrazów"
 msgid ""
 "WinMerge can compare images and highlight the differences in several ways."
 msgstr ""
+"WinMerge może porównywać obrazy i podświetlać różnice na wiele sposobów."
 
 #: screenshots/index.php:35 screenshots/index.php:36
 msgid "Binary Comparison"
@@ -1117,10 +1120,12 @@ msgid ""
 "The source code is hosted on <a href=\"%1$s\">GitHub</a> in a <a "
 "href=\"%2$s\">Git</a> repository:"
 msgstr ""
+"Kod źródłowy jest hostowany na <a href=\"%1$s\">GitHub</a> w <a "
+"href=\"%2$s\">Git</a> repozytorium:"
 
 #: source-code/index.php:69
 msgid "View all commits&hellip;"
-msgstr ""
+msgstr "Zobacz wszystkie commits&hellip;"
 
 #: translations/status_website.php:9
 #, c-format
@@ -1225,10 +1230,10 @@ msgstr ""
 
 #~ msgid ""
 #~ "WinMerge, support, discussion forums, tracker, donate, bugs, support "
-#~ "requests, patches, prośby o funkcje, todo, open source"
+#~ "requests, patches, feature requests, todo, open source"
 #~ msgstr ""
-#~ "WinMerge, wsparcie, forum dyskusji, traker, dotacje, błędy, wsparcie "
-#~ "żądania, łaty, zgłoszeni, todo, open source"
+#~ "WinMerge, wsparcie, forum dyskusji, traker, dotacje, błędy, prośba "
+#~ "o pomoc, łaty, prośby o funkcje, do zrobienia, Otwarte Źródło"
 
 #~ msgid "Normal Traffic"
 #~ msgstr "Normalny Ruch"
@@ -1279,8 +1284,8 @@ msgstr ""
 #~ "sourceforge.net"
 #~ msgstr ""
 #~ "WinMerge, wsparcie, fora dyskusyjne, listy mailingowe, tracker, darować, "
-#~ "błędy, prośby o wsparcie, poprawki, propozycje nowych funkcji, todo, open "
-#~ "source, sourceforge.net"
+#~ "błędy, prośby o wsparcie, poprawki, propozycje nowych funkcji, todo, Otwarte Źródło,"
+#~ "sourceforge.net"
 
 #~ msgid "View all active topics&hellip;"
 #~ msgstr "Przegląd wszystkich aktywnych tematów&hellip;"
