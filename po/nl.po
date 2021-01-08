@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WinMerge Website\n"
 "Report-Msgid-Bugs-To: http://bugs.winmerge.org\n"
-"POT-Creation-Date: 2020-11-17 05:47+0000\n"
+"POT-Creation-Date: 2020-12-22 22:32+0000\n"
 "PO-Revision-Date: 2020-11-29 16:54+0000\n"
 "Last-Translator: Thomas De Rocker, 2020\n"
 "Language-Team: Dutch (https://www.transifex.com/rockytdr/teams/91037/nl/)\n"
@@ -16,6 +16,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: nl\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Poedit-Basepath: ../htdocs/\n"
 "X-Poedit-Language: Dutch\n"
@@ -232,7 +233,7 @@ msgid ""
 "The easiest way to install WinMerge is to download and run the Installer. "
 "Read the <a href=\"%s\">online manual</a> for help using it."
 msgstr ""
-"De gemakkelijkste manier om WinMerge te installeren is door het "
+"De eenvoudigste manier om WinMerge te installeren is door het "
 "installatiebestand te downloaden en te openen. Lees de <a href=\"%s\">online"
 " handleiding</a> voor hulp om het te gebruiken."
 
@@ -256,9 +257,8 @@ msgid ""
 "For detailed info on what is new, read the <a href=\"%1$s\">change log</a> "
 "and the <a href=\"%2$s\">release notes</a>."
 msgstr ""
-"Lees de <a href=\"%1$s\">lijst van aanpassingen</a> en de <a "
-"href=\"%2$s\">release-opmerkingen</a> voor gedetailleerde informatie over "
-"wat nieuw is."
+"Lees de <a href=\"%1$s\">lijst van aanpassingen</a> en de <a href=\"%2$s"
+"\">release-opmerkingen</a> voor gedetailleerde informatie over wat nieuw is."
 
 #: downloads/index.php:21 source-code/index.php:43
 msgid "Download"
@@ -385,7 +385,7 @@ msgstr "Y-m-d"
 
 #: downloads/index.php:127
 msgid "View all file releases&hellip;"
-msgstr "Alle release-bestanden weergeven&hellip;"
+msgstr "Alle release-bestanden weergeven..."
 
 #: downloads/index.php:131
 msgid "Stable Versions"
@@ -532,8 +532,8 @@ msgid ""
 msgstr ""
 "WinMerge is een opensource vergelijkings- en samenvoegingstool voor Windows."
 " WinMerge kan zowel mappen als bestanden vergelijken, waarbij de verschillen"
-" worden voorgesteld in een visueel tekstformaat dat gemakkelijk te begrijpen"
-" en te hanteren is."
+" worden voorgesteld in een visueel tekstformaat dat eenvoudig te begrijpen "
+"en te hanteren is."
 
 #: index.php:7
 msgid ""
@@ -564,7 +564,7 @@ msgstr ""
 "WinMerge is een <a href=\"%s\">opensource</a> vergelijkings- en "
 "samenvoegingstool voor Windows. WinMerge kan zowel mappen als bestanden "
 "vergelijken, waarbij de verschillen worden voorgesteld in een visueel "
-"tekstformaat dat gemakkelijk te begrijpen en te hanteren is."
+"tekstformaat dat eenvoudig te begrijpen en te hanteren is."
 
 #: index.php:15
 msgid "Screenshot"
@@ -601,8 +601,8 @@ msgid ""
 "comparing, synchronising, and merging as easy and useful as possible:"
 msgstr ""
 "Daarnaast heeft WinMerge veel nuttige ondersteunende functies die het "
-"vergelijken, synchroniseren en samenvoegen zo gemakkelijk en nuttig mogelijk"
-" maken:"
+"vergelijken, synchroniseren en samenvoegen zo eenvoudig en nuttig mogelijk "
+"maken:"
 
 #: index.php:25
 msgid "General"
@@ -770,7 +770,7 @@ msgstr ""
 
 #: index.php:87
 msgid "View all news&hellip;"
-msgstr "Alle nieuws weergeven&hellip:"
+msgstr "Alle nieuws weergeven..."
 
 #: index.php:91
 #, c-format
@@ -984,7 +984,43 @@ msgstr "Y-m-d H:i"
 
 #: source-code/index.php:69
 msgid "View all commits&hellip;"
-msgstr "Alle commits weergeven&hellip:"
+msgstr "Alle commits weergeven..."
+
+#: support/index.php:5
+msgid "The Open Discussion forum is the fastest way to get help."
+msgstr "Het Open Discussion-forum is de snelste manier om hulp te krijgen."
+
+#: support/index.php:6
+msgid ""
+"WinMerge, support, discussion forums, tracker, donate, bugs, support "
+"requests, patches, feature requests, todo, open source"
+msgstr ""
+"WinMerge, ondersteuning, discussieforums, tracker, doneren, bugs, "
+"ondersteuningsaanvragen, patches, functie-aanvragen,te doen, open source"
+
+#: support/index.php:10
+msgid "The <b>Discussion forums</b> are the fastest way to get help:"
+msgstr "De <b>discussieforums</b> zijn de snelste manier om hulp te krijgen:"
+
+#: support/index.php:13
+msgid "WinMerge discussions"
+msgstr "Discussies over WinMerge"
+
+#: support/index.php:14
+msgid "Image Compare discussions"
+msgstr "Discussies over afbeeldingsvergelijking"
+
+#: support/index.php:15
+msgid "Website discussions"
+msgstr "Discussies over de website"
+
+#: support/index.php:17
+msgid "Please be patient, it may take some time for somebody to answer."
+msgstr "Wees geduldig, het kan even duren voordat iemand antwoordt."
+
+#: support/index.php:19
+msgid "Issues"
+msgstr "Problemen"
 
 #: support/index.php:20
 #, c-format
@@ -1129,13 +1165,13 @@ msgid ""
 "We moved the sources from the website to a own <a href=\"%1$s\">GitHub "
 "repository</a>."
 msgstr ""
-"We hebben de bronnen van de website verplaatst naar een eigen <a "
-"href=\"%1$s\">GitHub-repository</a>."
+"We hebben de bronnen van de website verplaatst naar een eigen <a href=\"%1$s"
+"\">GitHub-repository</a>."
 
 #: translations/status_website.php:17
 #, c-format
 msgid "Website Status <em>from %s</em>"
-msgstr "Status van websie <em>van %s</em>"
+msgstr "Status van website <em>op %s</em>"
 
 #: translations/translations.inc:31
 msgid "File not valid."
