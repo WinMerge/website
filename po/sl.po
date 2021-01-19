@@ -1196,21 +1196,22 @@ msgstr "Slovenščina"
 
 #: support/index.php:5
 msgid "The Open Discussion forum is the fastest way to get help."
-msgstr ""
+msgstr "Forum Odprta razprava je najhitrejši način za pomoč."
 
 #: support/index.php:6
 msgid ""
 "WinMerge, support, discussion forums, tracker, donate, bugs, support "
 "requests, patches, feature requests, todo, open source"
-msgstr ""
+msgstr ""WinMerge, podpora, forumi za razprave, sledilnik, darovanje, napake, podpora"
+"zahteve, popravki, zahteve za funkcije, todo, odprtokodna""
 
 #: support/index.php:10
 msgid "The <b>Discussion forums</b> are the fastest way to get help:"
-msgstr ""
+msgstr "<b>Forumi za razprave</b> so najhitrejši način za pomoč:"
 
 #: support/index.php:13
 msgid "WinMerge discussions"
-msgstr ""
+msgstr "WinMerge razprave"
 
 #: support/index.php:14
 msgid "Image Compare discussions"
@@ -1218,11 +1219,11 @@ msgstr ""
 
 #: support/index.php:15
 msgid "Website discussions"
-msgstr ""
+msgstr "Spletne razprave"
 
 #: support/index.php:17
 msgid "Please be patient, it may take some time for somebody to answer."
-msgstr ""
+msgstr "Bodite potrpežljivi, morda bo trajalo nekaj časa, da bo nekdo odgovoril."
 
 #: support/index.php:19
 msgid "Issues"
@@ -1248,14 +1249,11 @@ msgstr ""
 #~ msgid ""
 #~ "The <a href=\"%s\">Open Discussion forum</a> is the fastest way to get help."
 #~ " Please be patient, it may take some time for somebody to answer."
-#~ msgstr ""
-#~ "<a href=\"%s\">Odprti forum za razpravo</a> je najhitrejši način za pomoč. "
+#~ msgstr "<a href=\"%s\">Odprti forum za razpravo</a> je najhitrejši način za pomoč. "
 #~ "Bodite potrpežljivi, morda bo trajalo nekaj časa, da bo nekdo odgovoril."
 
 #, c-format
-#~ msgid ""
-#~ "A other way is a subscription to the <a href=\"%s\">support mailing "
-#~ "list</a>."
+#~ msgid "A other way is a subscription to the <a href=\"%s\">support mailing list</a>."
 #~ msgstr "Drugi način je naročnina na <a href=\"%s\">poštni seznam podpore</a>."
 
 #~ msgid "Active Forum Topics"
@@ -1298,11 +1296,9 @@ msgstr ""
 #~ msgid "User List"
 #~ msgstr "Seznam uporabnikov"
 
-#~ msgid ""
-#~ "This list is for user related questions. Having questions posted to this "
+#~ msgid "This list is for user related questions. Having questions posted to this "
 #~ "list may allow others having the same problem to solve it on their own."
-#~ msgstr ""
-#~ "Ta seznam je namenjen vprašanjem uporabnikov. Objavljena vprašanja na tem "
+#~ msgstr "Ta seznam je namenjen vprašanjem uporabnikov. Objavljena vprašanja na tem "
 #~ "seznamu, lahko pomagajo drugim, ki imajo enako težavo, da jih sami rešijo."
 
 #~ msgid "Translate List"
@@ -1314,14 +1310,12 @@ msgstr ""
 #~ msgid "Development List"
 #~ msgstr "Seznam razvijalcev"
 
-#~ msgid ""
-#~ "This is the list where participating developers of WinMerge meet and discuss"
+#~ msgid "This is the list where participating developers of WinMerge meet and discuss"
 #~ " issues, code changes/additions, etc."
-#~ msgstr ""
+#~ msgstr "To je seznam, kjer se sodelujoči razvijalci WinMerge srečajo in razpravljajo o "
+# ~ "težavah, spremembah kode/dopolnitvah itd.
 
-#~ msgid ""
-#~ "This is the list where participating developers of the WinMerge meet and "
+#~ msgid "This is the list where participating developers of the WinMerge meet and "
 #~ "discuss issues, code changes/additions, etc."
-#~ msgstr ""
-#~ "To je seznam, kjer se sodelujoči razvijalci WinMerge srečujejo in "
-#~ "razpravljajo o vprašanjih, spremembah/dopolnitvah kode itd."
+#~ msgstr "To je seznam, kjer se sodelujoči razvijalci WinMerge srečujejo in "
+#~ "razpravljajo o vprašanjih, spremembahkode/dopolnitvah itd."
