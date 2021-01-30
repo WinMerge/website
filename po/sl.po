@@ -314,7 +314,7 @@ msgstr "Zahteve"
 
 #: downloads/index.php:85
 msgid "32-bit installer: Microsoft Windows XP SP3 or newer"
-msgstr "2-bitni namestitveni program: Microsoft Windows XP SP3 ali novejši"
+msgstr "32-bitni namestitveni program: Microsoft Windows XP SP3 ali novejši"
 
 #: downloads/index.php:86
 msgid "64-bit installer: Microsoft Windows 7 or newer"
@@ -340,7 +340,7 @@ msgid ""
 "C++ 2008 runtimes that support Windows 2000."
 msgstr ""
 "Različica WinMerge 2.14.0 je bila zadnja različica, ki je bila objavljena z "
-"Microsoft Visual C++ 2008, ki podpira Windows 2000."
+"Microsoft Visual C++ 2008 s podporo za Windows 2000."
 
 #: downloads/index.php:94 downloads/index.php:99
 #, c-format
@@ -358,7 +358,7 @@ msgid ""
 "version to ship with an ANSI version of WinMerge."
 msgstr ""
 "Različica WinMerge 2.12.4 je bila zadnja različica, ki je bila objavljena z "
-"Microsoft Visual C++ 2005, ki podpira Windows 95/98/ME/NT. To je bila tudi "
+"Microsoft Visual C++ 2005 s podporo za Windows 95/98/ME/NT. To je bila tudi "
 "zadnja različica, ki je bila objavljena z ANSI različico WinMerge."
 
 #: downloads/index.php:101
@@ -367,7 +367,7 @@ msgstr "Neuradne različice"
 
 #: downloads/index.php:104
 msgid "Continuous Integration Builds"
-msgstr "Neprekinjena integracija izgradenj"
+msgstr "Stalna integracija izgradenj"
 
 #: downloads/index.php:105
 msgid "WinMerge Portable"
@@ -492,31 +492,31 @@ msgstr "Domov"
 
 #: engine/page.inc:340
 msgid "WinMerge Home"
-msgstr "WinMerge Domov"
+msgstr "Domov na WinMerge"
 
 #: engine/page.inc:341
 msgid "WinMerge Documentation"
-msgstr "WinMerge Dokumentacija"
+msgstr "Dokumentacija WinMerge"
 
 #: engine/page.inc:342
 msgid "WinMerge Downloads"
-msgstr "WinMerge Prenosi"
+msgstr "Prenosi WinMerge"
 
 #: engine/page.inc:343
 msgid "WinMerge Screenshots"
-msgstr "WinMerge Posnetki zaslona"
+msgstr "Posnetki zaslona WinMerge"
 
 #: engine/page.inc:344
 msgid "WinMerge Source Code"
-msgstr "WinMerge Izvorna koda"
+msgstr "Izvorna koda WinMerge"
 
 #: engine/page.inc:345
 msgid "WinMerge Support"
-msgstr "WinMerge Podpora"
+msgstr "Podpora WinMerge"
 
 #: engine/page.inc:346
 msgid "WinMerge Translations"
-msgstr "WinMerge Prevodi"
+msgstr "Prevodi WinMerge"
 
 #: index.php:6
 msgid ""
@@ -583,10 +583,9 @@ msgid ""
 "versions, and then merging changes between versions. WinMerge can be used as"
 " an external differencing/merging tool or as a standalone application."
 msgstr ""
-"WinMerge je zelo koristen za ugotavljanje, kaj se je spremenilo med "
-"različicami projekta, in nato za združitev sprememb med različicami. "
-"WinMerge se lahko uporablja kot zunanje orodje za ločevanje/združevanje ali "
-"kot samostojna aplikacija."
+"WinMerge je zelo koristen za ugotavljanje sprememb med različicami projekta "
+"in nato za združitev sprememb med različicami. WinMerge se lahko uporablja "
+"kot zunanje orodje za ločevanje/združevanje ali kot samostojna aplikacija."
 
 #: index.php:23
 msgid ""
@@ -622,7 +621,7 @@ msgstr "Primerjava datotek"
 
 #: index.php:34 screenshots/index.php:15 screenshots/index.php:16
 msgid "3-way File Comparison"
-msgstr "3-smerna primerjava datotek"
+msgstr "Primerjava 3-datotek"
 
 #: index.php:34 index.php:50 index.php:56
 msgid "New!"
@@ -679,11 +678,11 @@ msgstr "Lahko prikaže rezultate primerjave map v drevesnem slogu prikaza"
 
 #: index.php:48
 msgid "3-way Folder Comparison"
-msgstr "3-smerna primerjava map"
+msgstr "Primerjava 3-map"
 
 #: index.php:50
 msgid "Image Compare"
-msgstr "Primerjanje slik"
+msgstr "Primerjava slik"
 
 #: index.php:52
 msgid "Support many types of images"
@@ -720,7 +719,7 @@ msgstr ""
 
 #: index.php:64
 msgid "Resolve conflict files"
-msgstr "Rešite datoteke, ki so v sporu"
+msgstr "Reši datoteke, ki so v sporu"
 
 #: index.php:66
 msgid "Other"
@@ -745,7 +744,7 @@ msgstr "Večjezičnih vmesnik"
 #: index.php:72
 #, c-format
 msgid "<a href=\"%s\">Online manual</a> and installed HTML Help manual"
-msgstr "<a href=\"%s\">Sopletni priročnik</a> innameščena Pomoč HTML"
+msgstr "<a href=\"%s\">Spletni priročnik</a> in nameščena Pomoč HTML"
 
 #: index.php:75
 #, c-format
@@ -758,7 +757,7 @@ msgid ""
 "<a href=\"%1$s\">WinMerge %2$s</a> is the latest stable version, and is "
 "recommended for most users."
 msgstr ""
-"<a href=\"%1$s\">WinMerge %2$s</a>  je najnovejša stabilna različica in je "
+"<a href=\"%1$s\">WinMerge %2$s</a> je najnovejša stabilna različica in je "
 "priporočljiva za večino uporabnikov."
 
 #: index.php:87
@@ -829,8 +828,8 @@ msgid ""
 "The 3-way file compare even allows comparing and editing three files at the "
 "same time."
 msgstr ""
-"Trosmerna primerjava datotek omogoča celo primerjavo in urejanje treh "
-"datotek hkrati."
+"Primerjava treh datotek omogoča celo primerjavo in urejanje treh datotek "
+"hkrati."
 
 #: screenshots/index.php:19 screenshots/index.php:20
 msgid "Folder Comparison Results"
@@ -842,8 +841,8 @@ msgid ""
 " list. Folder compare allows synchronising folders by copying and deleting "
 "files and subfolders. Folder compare view can be versatile customised."
 msgstr ""
-"Primerjava map prikaže vse datoteke in podmape, najdene iz primerjanih map, "
-"kot seznam. Primerjava map omogoča sinhronizacijo map s kopiranjem in "
+"Primerjava map prikaže v obliki seznama vse datoteke in podmape, najdene iz "
+"primerjanih map. Primerjava map omogoča sinhronizacijo map s kopiranjem in "
 "brisanjem datotek in podmap. Prikaz primerjave map je lahko vsestransko "
 "prilagojen."
 
@@ -858,9 +857,9 @@ msgid ""
 "directory structures. <em>The tree view is available only in recursive "
 "compares."
 msgstr ""
-"V drevesnem pogledu so mape razširljive in zložljive, vsebujejo datoteke in "
+"V drevesnem prikazu so mape razširljive in zložljive, vsebujejo datoteke in "
 "podmape. To je koristno za lažje krmarjenje v globoko ugnezdenih strukturah "
-"imenikov. <em> Drevesni prikaz je na voljo samo v rekurzivnih primerjavah."
+"map. <em> Drevesni prikaz je na voljo samo v rekurzivnih primerjavah."
 
 #: screenshots/index.php:27 screenshots/index.php:28
 msgid "Image Comparison"
@@ -889,9 +888,9 @@ msgid ""
 "launch a file compare operation on binary files, WinMerge opens each file in"
 " the binary file editor."
 msgstr ""
-"WinMerge lahko zazna, ali so datoteke v besedilnem ali dvojiškem formatu. Ko"
-" zaženete operacijo primerjave datotek na dvojiških datotekah, WinMerge "
-"odpre vsako datoteko v urejevalniku dvojiških datotek."
+"WinMerge lahko zazna ali so datoteke v besedilnem ali dvojiškem formatu. Ko "
+"zaženete operacijo primerjave datotek na dvojiških datotekah, WinMerge odpre"
+" vsako datoteko v urejevalniku dvojiških datotek."
 
 #: screenshots/index.php:39 screenshots/index.php:40
 msgid "Open-dialog"
@@ -986,7 +985,7 @@ msgid ""
 "class=\"guimenu\">Help</span> &#8594; <span "
 "class=\"guimenuitem\">Configuration</span> in the WinMerge window."
 msgstr ""
-"Priložite čim več informacij: vsaj številko različice WinMerge, ki jo "
+"Priložite čim več podatkov: vsaj številko različice WinMerge, ki jo "
 "uporabljate. Če lahko, priložite tudi Dnevnik nastavitev, ki ga lahko "
 "prikažete s klikom na <span class=\"guimenu\">Pomoč</span> &#8594; <span "
 "class=\"guimenuitem\">Nastavitve</span> v oknu WinMerge."
@@ -1055,7 +1054,7 @@ msgstr "Stanje WinMerge"
 
 #: translations/index.php:17
 msgid "ShellExtension Status"
-msgstr "Stanje ShellExtension"
+msgstr "Stanje Integracije lupine"
 
 #: translations/index.php:18 translations/index.php:45
 msgid "InnoSetup Files"
@@ -1067,7 +1066,7 @@ msgstr "Datoteke Readme"
 
 #: translations/index.php:20
 msgid "Website Status"
-msgstr "Stanje Spletne strani"
+msgstr "Stanje spletne strani"
 
 #: translations/index.php:21
 msgid "Instructions"
@@ -1079,7 +1078,7 @@ msgstr "Prevajanje"
 
 #: translations/index.php:25
 msgid "We currently have WinMerge translated into the languages listed below:"
-msgstr "Trenutno imamo WinMerge preveden v spodaj navedene jezike:"
+msgstr "Trenutno je WinMerge preveden v spodaj navedene jezike:"
 
 #: translations/index.php:34
 #, c-format
@@ -1098,7 +1097,7 @@ msgstr "Stanje WinMerge <em>od %s</em>"
 #: translations/index.php:42
 #, c-format
 msgid "ShellExtension Status <em>from %s</em>"
-msgstr "ShellExtension Status <em>from %s</em>"
+msgstr "Stanje Integracije lupine <em>od %s</em>"
 
 #: translations/index.php:52 translations/status_website.php:21
 msgid "The translations status is currently not available..."
@@ -1196,14 +1195,15 @@ msgstr "Slovenščina"
 
 #: support/index.php:5
 msgid "The Open Discussion forum is the fastest way to get help."
-msgstr "Forum Odprta razprava je najhitrejši način za pomoč."
+msgstr "Forum 'Odprta razprava' je najhitrejši način za pomoč."
 
 #: support/index.php:6
 msgid ""
 "WinMerge, support, discussion forums, tracker, donate, bugs, support "
 "requests, patches, feature requests, todo, open source"
-msgstr ""WinMerge, podpora, forumi za razprave, sledilnik, darovanje, napake, podpora"
-"zahteve, popravki, zahteve za funkcije, todo, odprtokodna""
+msgstr ""
+"WinMerge, podpora, forumi za razprave, sledilnik, darovanje, napake, podpora"
+" zahtev, popravki, zahteve za funkcije, todo, odprtokodna"
 
 #: support/index.php:10
 msgid "The <b>Discussion forums</b> are the fastest way to get help:"
@@ -1211,11 +1211,11 @@ msgstr "<b>Forumi za razprave</b> so najhitrejši način za pomoč:"
 
 #: support/index.php:13
 msgid "WinMerge discussions"
-msgstr "WinMerge razprave"
+msgstr "Razprave o WinMerge"
 
 #: support/index.php:14
 msgid "Image Compare discussions"
-msgstr ""
+msgstr "Razprave o primerjavah slik"
 
 #: support/index.php:15
 msgid "Website discussions"
@@ -1223,99 +1223,9 @@ msgstr "Spletne razprave"
 
 #: support/index.php:17
 msgid "Please be patient, it may take some time for somebody to answer."
-msgstr "Bodite potrpežljivi, morda bo trajalo nekaj časa, da bo nekdo odgovoril."
+msgstr ""
+"Bodite potrpežljivi. Morda bo trajalo nekaj časa, da bo nekdo odgovoril."
 
 #: support/index.php:19
 msgid "Issues"
-msgstr ""
-
-#~ msgid ""
-#~ "The Open Discussion forum is the fastest way to get help. A other way is a "
-#~ "subscription to the support mailing list."
-#~ msgstr ""
-#~ "Odprti forum za razpravo je najhitrejši način za pomoč. Drugi način je "
-#~ "naročnina na poštni seznam za podporo."
-
-#~ msgid ""
-#~ "WinMerge, support, discussion forums, mailing lists, tracker, donate, bugs, "
-#~ "support requests, patches, feature requests, todo, open source, "
-#~ "sourceforge.net"
-#~ msgstr ""
-#~ "WinMerge, podpora, forumi za razprave, poštni seznami, sledilnik, darovanje,"
-#~ " programske napake, zahteve za podporo, popravki, zahteve funkcij, todo, "
-#~ "odprta koda, sourceforge.net"
-
-#, c-format
-#~ msgid ""
-#~ "The <a href=\"%s\">Open Discussion forum</a> is the fastest way to get help."
-#~ " Please be patient, it may take some time for somebody to answer."
-#~ msgstr "<a href=\"%s\">Odprti forum za razpravo</a> je najhitrejši način za pomoč. "
-#~ "Bodite potrpežljivi, morda bo trajalo nekaj časa, da bo nekdo odgovoril."
-
-#, c-format
-#~ msgid "A other way is a subscription to the <a href=\"%s\">support mailing list</a>."
-#~ msgstr "Drugi način je naročnina na <a href=\"%s\">poštni seznam podpore</a>."
-
-#~ msgid "Active Forum Topics"
-#~ msgstr "Aktivne teme foruma"
-
-#, c-format
-#~ msgid "last post by <strong>%1$s</strong> at %2$s"
-#~ msgstr "zadnja objave <strong>%1$s</strong> ob %2$s"
-
-#~ msgid "View all active topics&hellip;"
-#~ msgstr "Oglejte si vse aktivne teme&hellip;"
-
-#~ msgid "Mailing Lists"
-#~ msgstr "Poštni seznami"
-
-#~ msgid "Announce List"
-#~ msgstr "Seznam objav"
-
-#~ msgid "This list is only for announcing new releases of WinMerge."
-#~ msgstr "Ta seznam je namenjen samo objavi novih izdaj WinMerge."
-
-#~ msgid "Subscribe"
-#~ msgstr "Naroči se"
-
-#~ msgid "Unsubscribe"
-#~ msgstr "Odjavi naročnino"
-
-#~ msgid "Low Traffic"
-#~ msgstr "Nizek promet"
-
-#~ msgid "Support List"
-#~ msgstr "Seznam podpore"
-
-#~ msgid "You should ask all your support questions on this list."
-#~ msgstr "Na tem seznamu postavite vsa vprašanja za podporo."
-
-#~ msgid "Normal Traffic"
-#~ msgstr "Običajen promet"
-
-#~ msgid "User List"
-#~ msgstr "Seznam uporabnikov"
-
-#~ msgid "This list is for user related questions. Having questions posted to this "
-#~ "list may allow others having the same problem to solve it on their own."
-#~ msgstr "Ta seznam je namenjen vprašanjem uporabnikov. Objavljena vprašanja na tem "
-#~ "seznamu, lahko pomagajo drugim, ki imajo enako težavo, da jih sami rešijo."
-
-#~ msgid "Translate List"
-#~ msgstr "Prevedi seznam"
-
-#~ msgid "This list is used for coordinating the translations."
-#~ msgstr "Ta seznam se uporablja za usklajevanje prevodov."
-
-#~ msgid "Development List"
-#~ msgstr "Seznam razvijalcev"
-
-#~ msgid "This is the list where participating developers of WinMerge meet and discuss"
-#~ " issues, code changes/additions, etc."
-#~ msgstr "To je seznam, kjer se sodelujoči razvijalci WinMerge srečajo in razpravljajo o "
-# ~ "težavah, spremembah kode/dopolnitvah itd.
-
-#~ msgid "This is the list where participating developers of the WinMerge meet and "
-#~ "discuss issues, code changes/additions, etc."
-#~ msgstr "To je seznam, kjer se sodelujoči razvijalci WinMerge srečujejo in "
-#~ "razpravljajo o vprašanjih, spremembahkode/dopolnitvah itd."
+msgstr "Težave"
