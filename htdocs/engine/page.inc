@@ -33,7 +33,7 @@
     /**
      * Constructor
      */
-    function Page() {
+    function __construct() {
       $this->_title = '';
       $this->_charset = 'utf-8';
       $this->_description = '';

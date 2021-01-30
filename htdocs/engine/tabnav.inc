@@ -19,7 +19,7 @@
     /**
      * Constructor
      */
-    function Tab($id, $link, $title, $tooltiptext = '') {
+    function __construct($id, $link, $title, $tooltiptext = '') {
       $this->_id = $id;
       $this->_link = $link;
       $this->_title = $title;

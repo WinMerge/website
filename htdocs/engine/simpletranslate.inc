@@ -53,7 +53,7 @@
     /**
      * Constructor
      */
-    function SimpleTranslate() {
+    function __construct() {
       $this->_urlparameter = 'lang';
       $this->_forceurlparameter = false;
       $this->_languages = array();

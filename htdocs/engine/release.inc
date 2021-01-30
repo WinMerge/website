@@ -21,7 +21,7 @@
     /**
      * Constructor
      */
-    function Release() {
+    function __construct() {
       $this->_versionnumber = '';
       $this->_date = '';
       $this->_downloads = array();
