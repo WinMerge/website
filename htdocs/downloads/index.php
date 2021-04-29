@@ -36,6 +36,12 @@
       <td class="center"><?php __e('EXE');?></td>
     </tr>
     <tr>
+      <td class="left"><a href="<?php echo $stablerelease->getDownload('setuparm64.exe');?>" target="_blank" class="button is-dark"><?php echo $stablerelease->getDownloadFileName('setuparm64.exe');?></a></td>
+      <td class="center"><?php __e('%s MB', $stablerelease->getDownloadSizeMb('setuparm64.exe'));?></td>
+      <td class="center"><?php __e('Installer');?></td>
+      <td class="center"><?php __e('EXE');?></td>
+    </tr>
+    <tr>
       <td class="left"><a href="<?php echo $stablerelease->getDownload('setup.exe');?>" target="_blank" class="button is-dark"><?php echo $stablerelease->getDownloadFileName('setup.exe');?></a></td>
       <td class="center"><?php __e('%s MB', $stablerelease->getDownloadSizeMb('setup.exe'));?></td>
       <td class="center"><?php __e('Installer');?></td>
@@ -44,6 +50,12 @@
     <tr>
       <td class="left"><a href="<?php echo $stablerelease->getDownload('exe64.zip');?>" target="_blank" class="button is-dark"><?php echo $stablerelease->getDownloadFileName('exe64.zip');?></a></td>
       <td class="center"><?php __e('%s MB', $stablerelease->getDownloadSizeMb('exe64.zip'));?></td>
+      <td class="center"><?php __e('Binaries');?></td>
+      <td class="center"><?php __e('ZIP');?></td>
+    </tr>
+    <tr>
+      <td class="left"><a href="<?php echo $stablerelease->getDownload('exearm64.zip');?>" target="_blank" class="button is-dark"><?php echo $stablerelease->getDownloadFileName('exearm64.zip');?></a></td>
+      <td class="center"><?php __e('%s MB', $stablerelease->getDownloadSizeMb('exearm64.zip'));?></td>
       <td class="center"><?php __e('Binaries');?></td>
       <td class="center"><?php __e('ZIP');?></td>
     </tr>
@@ -70,10 +82,14 @@
     <dd><code><?php echo $stablerelease->getDownloadSha256Sum('setup64.exe') ?></code></dd>
     <dt><?php echo $stablerelease->getDownloadFileName('setup64peruser.exe'); ?></dt>
     <dd><code><?php echo $stablerelease->getDownloadSha256Sum('setup64peruser.exe') ?></code></dd>
+    <dt><?php echo $stablerelease->getDownloadFileName('setuparm64.exe'); ?></dt>
+    <dd><code><?php echo $stablerelease->getDownloadSha256Sum('setuparm64.exe') ?></code></dd>
     <dt><?php echo $stablerelease->getDownloadFileName('exe.zip'); ?></dt>
     <dd><code><?php echo $stablerelease->getDownloadSha256Sum('exe.zip') ?></code></dd>
     <dt><?php echo $stablerelease->getDownloadFileName('exe64.zip'); ?></dt>
     <dd><code><?php echo $stablerelease->getDownloadSha256Sum('exe64.zip') ?></code></dd>
+    <dt><?php echo $stablerelease->getDownloadFileName('exearm64.zip'); ?></dt>
+    <dd><code><?php echo $stablerelease->getDownloadSha256Sum('exearm64.zip') ?></code></dd>
     <dt><?php echo $stablerelease->getDownloadFileName('src.7z'); ?></dt>
     <dd><code><?php echo $stablerelease->getDownloadSha256Sum('src.7z') ?></code></dd>
   </dl>
