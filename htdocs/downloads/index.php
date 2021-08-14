@@ -119,6 +119,7 @@
 <ul>
   <li><a href="https://ci.appveyor.com/project/sdottaka/winmerge"><?php __e('Continuous Integration Builds');?></a></li>
   <li><a href="https://portableapps.com/apps/utilities/winmerge_portable"><?php __e('WinMerge Portable');?></a> <?php __e('(by PortableApps.com)');?></li>
+  <li><a href="https://osdn.net/projects/winmerge-jp/">WinMerge Japanese</a> (by Takashi Sawanaka)</li>
   <li><a href="https://github.com/datadiode/winmerge2011/">WinMerge 2011</a> (by Jochen Neubeck)</li>
 </ul>
 <?php
