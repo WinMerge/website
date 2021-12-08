@@ -19,6 +19,7 @@
   $translations->addLanguage('en', __('English'));
   $translations->addLanguage('eu', __('Basque'), $languagesdir . 'eu.po');
   $translations->addLanguage('ca', __('Catalan'), $languagesdir . 'ca.po');
+  $translations->addLanguage('co', __('Corsican'), $languagesdir . 'co.po');
   $translations->addLanguage('nl', __('Dutch'), $languagesdir . 'nl.po');
   $translations->addLanguage('el', __('Greek'), $languagesdir . 'el.po');
   $translations->addLanguage('de', __('German'), $languagesdir . 'de.po');

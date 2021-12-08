@@ -8,20 +8,21 @@
 # * Patriccollu di Santa Maria è Sichè
 #
 msgid ""
-msgstr "Project-Id-Version: WinMerge in Corsican\n"
+msgstr ""
+"Project-Id-Version: WinMerge in Corsican\n"
 "Report-Msgid-Bugs-To: http://bugs.winmerge.org\n"
 "POT-Creation-Date: 2020-12-22 22:32+0000\n"
 "PO-Revision-Date: \n"
+"Last-Translator: Patriccollu di Santa Maria è Sichè <https://github.com/Patriccollu/Lingua_Corsa-Infurmatica/#readme>\n"
 "Language-Team: Patriccollu di Santa Maria è Sichè\n"
+"Language: co\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Poedit-SourceCharset: UTF-8\n"
-"X-Poedit-Basepath: ../htdocs\n"
-"X-Generator: Poedit 3.0\n"
-"Last-Translator: Patriccollu di Santa Maria è Sichè <https://github.com/Patriccollu/Lingua_Corsa-Infurmatica/#readme>\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"Language: co\n"
+"X-Generator: Poedit 3.0\n"
+"X-Poedit-Basepath: ../htdocs\n"
+"X-Poedit-SourceCharset: UTF-8\n"
 
 #: 404.php:9
 msgid "Error 404 (Page Not Found)"
@@ -36,19 +37,24 @@ msgid ""
 "For some reason (mis-typed URL, faulty referral from another site, out-of-"
 "date search engine listing or we simply deleted a file) the page you were "
 "looking for could not be found."
-msgstr "Per certe raghjoni (un indirizzu falsu, una referenza gattiva da un altru situ, una lista à l’anticogna d’un mutore di ricerca, o ancu per via d’un schedariu squassatu) ùn si pò truvà a pagina chì vo circate."
+msgstr ""
+"Per certe raghjoni (un indirizzu falsu, una referenza gattiva da un altru "
+"situ, una lista à l’anticogna d’un mutore di ricerca, o ancu per via d’un "
+"schedariu squassatu) ùn si pò truvà a pagina chì vo circate."
 
 #: 404.php:13
 msgid ""
 "This site has recently undergone a major re-working, so that might explain "
 "why you got this page instead."
-msgstr "U situ hè statu attualizatu pocu fà cù una riscrittura impurtante, ciò chì pò spiegà chì vo ricevete piuttostu sta pagina."
+msgstr ""
+"U situ hè statu attualizatu pocu fà cù una riscrittura impurtante, ciò chì "
+"pò spiegà chì vo ricevete piuttostu sta pagina."
 
 #: 404.php:15
 msgid "Were you looking for..."
 msgstr "Cosa circate…"
 
-#: 404.php:18 docs/index.php:7 docs/index.php:9 engine/page.inc:341
+#: 404.php:18 docs/index.php:7 docs/index.php:9 engine/page.inc:343
 msgid "Documentation"
 msgstr "Documentazione"
 
@@ -60,7 +66,7 @@ msgstr "Manuale"
 msgid "English"
 msgstr "Inglese"
 
-#: 404.php:23 docs/index.php:16 engine/engine.inc:26
+#: 404.php:23 docs/index.php:16 engine/engine.inc:27
 msgid "Japanese"
 msgstr "Giappunese"
 
@@ -73,26 +79,26 @@ msgstr "Annutazioni di versione"
 msgid "Change Log"
 msgstr "Ghjurnale di i cambiamenti"
 
-#: 404.php:30 engine/page.inc:342
+#: 404.php:30 engine/page.inc:344
 msgid "Downloads"
 msgstr "Scaricamenti"
 
-#: 404.php:31 engine/page.inc:343 screenshots/index.php:7
+#: 404.php:31 engine/page.inc:345 screenshots/index.php:7
 #: screenshots/index.php:9
 msgid "Screenshots"
 msgstr "Catture di screnu"
 
-#: 404.php:32 downloads/index.php:59 engine/page.inc:344
+#: 404.php:32 downloads/index.php:71 engine/page.inc:346
 #: source-code/index.php:11 source-code/index.php:13
 msgid "Source Code"
 msgstr "Codice di fonte"
 
-#: 404.php:33 engine/page.inc:345 index.php:90 support/index.php:7
+#: 404.php:33 engine/page.inc:347 index.php:91 support/index.php:7
 #: support/index.php:9
 msgid "Support"
 msgstr "Assistenza"
 
-#: 404.php:34 engine/page.inc:346 translations/index.php:7
+#: 404.php:34 engine/page.inc:348 translations/index.php:7
 #: translations/index.php:9
 msgid "Translations"
 msgstr "Traduzzioni"
@@ -101,11 +107,15 @@ msgstr "Traduzzioni"
 msgid ""
 "The change log is a more complete list of changes in the last WinMerge "
 "releases."
-msgstr "U ghjurnale di i cambiamenti hè una lista più cumpleta di i cambiamenti in l’ultime versioni di WinMerge."
+msgstr ""
+"U ghjurnale di i cambiamenti hè una lista più cumpleta di i cambiamenti in "
+"l’ultime versioni di WinMerge."
 
 #: docs/changelog.php:6
 msgid "WinMerge, change log, changes, release, tracker item, revision number"
-msgstr "WinMerge, ghjurnale di i cambiamenti, cambiamenti, versione, elementu di tracciamentu, numeru di revisione"
+msgstr ""
+"WinMerge, ghjurnale di i cambiamenti, cambiamenti, versione, elementu di "
+"tracciamentu, numeru di revisione"
 
 #: docs/changelog.php:10
 msgid "The change log is currently not available..."
@@ -115,20 +125,26 @@ msgstr "Attualmente, u ghjurnale di i cambiamenti ùn hè micca dispunibule…"
 msgid ""
 "Documentation from WinMerge like manual, release notes, change log and "
 "Development Wiki."
-msgstr "A documentazione da WinMerge cum’è u manuale in linea, l’annutazioni di versione, u ghjurnale di i cambiamenti è u Wiki di sviluppu."
+msgstr ""
+"A documentazione da WinMerge cum’è u manuale in linea, l’annutazioni di "
+"versione, u ghjurnale di i cambiamenti è u Wiki di sviluppu."
 
 #: docs/index.php:6
 msgid ""
 "WinMerge, documentation, manual, release notes, known issues, change log, "
 "Development Wiki"
-msgstr "WinMerge, documentazione, manuale in linea, annutazioni di versione, prublemi cunnisciuti, ghjurnale di i cambiamenti, Wiki di sviluppu"
+msgstr ""
+"WinMerge, documentazione, manuale in linea, annutazioni di versione, "
+"prublemi cunnisciuti, ghjurnale di i cambiamenti, Wiki di sviluppu"
 
 #: docs/index.php:11
 #, c-format
 msgid ""
 "The <a href=\"%s\">manual</a> explains how to use WinMerge, and documents "
 "its capabilities and limitations."
-msgstr "U <a href=\"%s\">manuale in linea</a> spiega cumu impiegà WinMerge è da ditaglii nant’à e so capacità è limitazioni."
+msgstr ""
+"U <a href=\"%s\">manuale in linea</a> spiega cumu impiegà WinMerge è da "
+"ditaglii nant’à e so capacità è limitazioni."
 
 #: docs/index.php:12
 msgid "It is currently available in the following languages:"
@@ -140,14 +156,19 @@ msgid ""
 "The <a href=\"%1$s\">release notes</a> are a short summary of important "
 "changes, enhancements, bug fixes and <a href=\"%2$s\">known issues</a> in "
 "the current WinMerge release."
-msgstr "L’<a href=\"%1$s\">annutazioni di versione</a> sò un riassuntu cortu di i cambiamenti impurtante, amendamenti, currezzioni di prublemi è <a href=\"%2$s\">prublemi cunnisciuti</a> di a versione attuale di WinMerge."
+msgstr ""
+"L’<a href=\"%1$s\">annutazioni di versione</a> sò un riassuntu cortu di i "
+"cambiamenti impurtante, amendamenti, currezzioni di prublemi è <a "
+"href=\"%2$s\">prublemi cunnisciuti</a> di a versione attuale di WinMerge."
 
 #: docs/index.php:22
 #, c-format
 msgid ""
 "The <a href=\"%s\">change log</a> is a more complete list of changes in the "
 "last WinMerge releases."
-msgstr "U <a href=\"%s\">ghjurnale di i cambiamenti</a> hè una lista più cumpleta di i cambiamenti in l’ultime versioni di WinMerge."
+msgstr ""
+"U <a href=\"%s\">ghjurnale di i cambiamenti</a> hè una lista più cumpleta di"
+" i cambiamenti in l’ultime versioni di WinMerge."
 
 #: docs/index.php:23
 msgid "Development Wiki"
@@ -158,19 +179,26 @@ msgstr "Wiki di sviluppu"
 msgid ""
 "The <a href=\"%s\">Development Wiki</a> contains much information about the "
 "WinMerge development."
-msgstr "U <a href=\"%s\">Wiki di sviluppu</a> cuntene più d’infurmazioni nant’à u sviluppu di WinMerge."
+msgstr ""
+"U <a href=\"%s\">Wiki di sviluppu</a> cuntene più d’infurmazioni nant’à u "
+"sviluppu di WinMerge."
 
 #: docs/releasenotes.php:5
 msgid ""
 "The release notes are a short summary of important changes, enhancements, "
 "bug fixes and known issues in the current WinMerge release."
-msgstr "L’annutazioni di versione sò un riassuntu cortu di i cambiamenti impurtante, amendamenti, currezzioni di prublemi è prublemi cunnisciuti di a versione attuale di WinMerge."
+msgstr ""
+"L’annutazioni di versione sò un riassuntu cortu di i cambiamenti impurtante,"
+" amendamenti, currezzioni di prublemi è prublemi cunnisciuti di a versione "
+"attuale di WinMerge."
 
 #: docs/releasenotes.php:6
 msgid ""
 "WinMerge, release notes, summary, changes, enhancements, bug fixes, known "
 "issues, release"
-msgstr "WinMerge, annutazioni di versione, riassuntu, cambiamenti, amendamenti, currezzioni di prublemi, prublemi cunnisciuti, versione"
+msgstr ""
+"WinMerge, annutazioni di versione, riassuntu, cambiamenti, amendamenti, "
+"currezzioni di prublemi, prublemi cunnisciuti, versione"
 
 #: docs/releasenotes.php:11
 msgid "The release notes are currently not available..."
@@ -181,15 +209,20 @@ msgstr "Attualmente, l’annutazioni di versione ùn sò micca dispunibule…"
 msgid ""
 "Download the current WinMerge version %1$s, which was released at %2$s. For "
 "detailed info on what is new, read the change log and the release notes."
-msgstr "Scaricate a versione attuale %1$s di WinMerge chì hè stata publicata u %2$s. Per sapene di più nant’à ciò chì hè novu, fighjate u ghjurnale di i cambiamenti è l’annutazioni di versione."
+msgstr ""
+"Scaricate a versione attuale %1$s di WinMerge chì hè stata publicata u %2$s."
+" Per sapene di più nant’à ciò chì hè novu, fighjate u ghjurnale di i "
+"cambiamenti è l’annutazioni di versione."
 
 #: downloads/index.php:8
 msgid ""
 "WinMerge, free, download, Windows, setup, installer, binaries, runtimes, "
 "stable, beta, experimental, portable"
-msgstr "WinMerge, liberu, scaricà, Windows, cunfigurazione, stalladore, binarii, schedarii d’esecuzione, stabule, beta, esperimentale, purtavule"
+msgstr ""
+"WinMerge, liberu, scaricà, Windows, cunfigurazione, stalladore, binarii, "
+"schedarii d’esecuzione, stabule, beta, esperimentale, purtavule"
 
-#: downloads/index.php:9 downloads/index.php:109
+#: downloads/index.php:9 downloads/index.php:126
 msgid "Project File Releases"
 msgstr "Versioni di schedariu di prughjettu"
 
@@ -202,7 +235,10 @@ msgstr "Scaricà WinMerge"
 msgid ""
 "The easiest way to install WinMerge is to download and run the Installer. "
 "Read the <a href=\"%s\">online manual</a> for help using it."
-msgstr "A manera a più simplice d’installà WinMerge hè di scaricà è di lancià u stalladore. Fighjate u <a href=\"%s\">manuale in linea</a> per aiutavvi à impiegallu."
+msgstr ""
+"A manera a più simplice d’installà WinMerge hè di scaricà è di lancià u "
+"stalladore. Fighjate u <a href=\"%s\">manuale in linea</a> per aiutavvi à "
+"impiegallu."
 
 #: downloads/index.php:14
 #, c-format
@@ -214,14 +250,19 @@ msgstr "WinMerge %s"
 msgid ""
 "The current WinMerge version is <strong>%1$s</strong> and was released at "
 "<strong>%2$s</strong>."
-msgstr "A versione attuale di WinMerge hè <strong>%1$s</strong> è hè stata publicata u <strong>%2$s</strong>."
+msgstr ""
+"A versione attuale di WinMerge hè <strong>%1$s</strong> è hè stata publicata"
+" u <strong>%2$s</strong>."
 
 #: downloads/index.php:16
 #, c-format
 msgid ""
 "For detailed info on what is new, read the <a href=\"%1$s\">change log</a> "
 "and the <a href=\"%2$s\">release notes</a>."
-msgstr "Per sapene di più nant’à ciò chì hè novu, fighjate u <a href=\"%1$s\">ghjurnale di i cambiamenti</a> è l’<a href=\"%2$s\">annutazioni di versione</a>."
+msgstr ""
+"Per sapene di più nant’à ciò chì hè novu, fighjate u <a "
+"href=\"%1$s\">ghjurnale di i cambiamenti</a> è l’<a "
+"href=\"%2$s\">annutazioni di versione</a>."
 
 #: downloads/index.php:21 source-code/index.php:43
 msgid "Download"
@@ -241,15 +282,17 @@ msgstr "Furmatu"
 
 #: downloads/index.php:28 downloads/index.php:34 downloads/index.php:40
 #: downloads/index.php:46 downloads/index.php:52 downloads/index.php:58
+#: downloads/index.php:64 downloads/index.php:70
 #, c-format
 msgid "%s MB"
 msgstr "%s Mo"
 
-#: downloads/index.php:29 downloads/index.php:41
+#: downloads/index.php:29 downloads/index.php:41 downloads/index.php:47
 msgid "Installer"
 msgstr "Stalladore"
 
 #: downloads/index.php:30 downloads/index.php:36 downloads/index.php:42
+#: downloads/index.php:48
 msgid "EXE"
 msgstr "EXE"
 
@@ -257,105 +300,112 @@ msgstr "EXE"
 msgid "Per-user installer"
 msgstr "Stalladore à l’utilizatore"
 
-#: downloads/index.php:47 downloads/index.php:53
+#: downloads/index.php:53 downloads/index.php:59 downloads/index.php:65
 msgid "Binaries"
 msgstr "Binarii"
 
-#: downloads/index.php:48 downloads/index.php:54
+#: downloads/index.php:54 downloads/index.php:60 downloads/index.php:66
 msgid "ZIP"
 msgstr "ZIP"
 
-#: downloads/index.php:60
+#: downloads/index.php:72
 msgid "7z"
 msgstr "7z"
 
-#: downloads/index.php:65
+#: downloads/index.php:77
 msgid "SHA-256 Checksums"
 msgstr "Somme di cuntrollu SHA-256"
 
-#: downloads/index.php:82
+#: downloads/index.php:98
 msgid "Requirements"
 msgstr "Cundizioni richieste"
 
-#: downloads/index.php:85
+#: downloads/index.php:101
 msgid "32-bit installer: Microsoft Windows XP SP3 or newer"
 msgstr "Stalladore 32-bit : Microsoft Windows XP SP3 o più recente"
 
-#: downloads/index.php:86
+#: downloads/index.php:102
 msgid "64-bit installer: Microsoft Windows 7 or newer"
 msgstr "Stalladore 64-bit : Microsoft Windows 7 o più recente"
 
-#: downloads/index.php:87
+#: downloads/index.php:103
 msgid "Admin rights for the installer (except for Per-user installer)"
-msgstr "Diritti d’amministratore per u stalladore (fora di u stalladore à l’utilizatore)"
+msgstr ""
+"Diritti d’amministratore per u stalladore (fora di u stalladore à "
+"l’utilizatore)"
 
-#: downloads/index.php:90
+#: downloads/index.php:106
 msgid "Other Versions"
 msgstr "Altre versioni"
 
-#: downloads/index.php:91
+#: downloads/index.php:107
 msgid "WinMerge 2.14.0 <em>for Windows 2000</em>"
 msgstr "WinMerge 2.14.0 <em>per Windows 2000</em>"
 
-#: downloads/index.php:92
+#: downloads/index.php:108
 msgid ""
-"WinMerge version 2.14.0 was the last version to ship with Microsoft Visual C+"
-"+ 2008 runtimes that support Windows 2000."
-msgstr "WinMerge versione 2.14.0 hè l’ultima versione distribuita cù i schedarii d’esecuzione di Microsoft Visual C++ 2008 chì accettanu Windows 2000."
+"WinMerge version 2.14.0 was the last version to ship with Microsoft Visual "
+"C++ 2008 runtimes that support Windows 2000."
+msgstr ""
+"WinMerge versione 2.14.0 hè l’ultima versione distribuita cù i schedarii "
+"d’esecuzione di Microsoft Visual C++ 2008 chì accettanu Windows 2000."
 
-#: downloads/index.php:94 downloads/index.php:99
+#: downloads/index.php:110 downloads/index.php:115
 #, c-format
 msgid "Get version %s"
 msgstr "Ottinite a versione %s"
 
-#: downloads/index.php:96
+#: downloads/index.php:112
 msgid "WinMerge 2.12.4 <em>for Windows 95/98/ME/NT</em>"
 msgstr "WinMerge 2.12.4 <em>per Windows 95/98/ME/NT</em>"
 
-#: downloads/index.php:97
+#: downloads/index.php:113
 msgid ""
-"WinMerge version 2.12.4 was the last version to ship with Microsoft Visual C+"
-"+ 2005 runtimes that support Windows 95/98/ME/NT. It was also the last "
+"WinMerge version 2.12.4 was the last version to ship with Microsoft Visual "
+"C++ 2005 runtimes that support Windows 95/98/ME/NT. It was also the last "
 "version to ship with an ANSI version of WinMerge."
-msgstr "WinMerge versione 2.12.4 hè l’ultima versione distribuita cù i schedarii d’esecuzione di Microsoft Visual C++ 2005 chì accettanu Windows 95/98/ME/NT. Hè dinù l’ultima versione distribuita cù una versione ANSI di WinMerge."
+msgstr ""
+"WinMerge versione 2.12.4 hè l’ultima versione distribuita cù i schedarii "
+"d’esecuzione di Microsoft Visual C++ 2005 chì accettanu Windows 95/98/ME/NT."
+" Hè dinù l’ultima versione distribuita cù una versione ANSI di WinMerge."
 
-#: downloads/index.php:101
+#: downloads/index.php:117
 msgid "Unofficial Versions"
 msgstr "Versioni micca ufficiale"
 
-#: downloads/index.php:104
+#: downloads/index.php:120
 msgid "Continuous Integration Builds"
 msgstr "Custruzzioni d’integrazione in cuntinuu"
 
-#: downloads/index.php:105
+#: downloads/index.php:121
 msgid "WinMerge Portable"
 msgstr "WinMerge purtavule"
 
-#: downloads/index.php:105
+#: downloads/index.php:121
 msgid "(by PortableApps.com)"
 msgstr "(da PortableApps.com)"
 
-#: downloads/index.php:125 index.php:85
+#: downloads/index.php:142 index.php:86
 msgid "Y-m-d"
 msgstr "d-m-Y"
 
-#: downloads/index.php:127
+#: downloads/index.php:144
 msgid "View all file releases&hellip;"
 msgstr "Fighjà tutte e versioni di schedariu&hellip;"
 
-#: downloads/index.php:131
+#: downloads/index.php:148
 msgid "Stable Versions"
 msgstr "Versioni stabule"
 
-#: downloads/index.php:132
+#: downloads/index.php:149
 msgid "Beta Versions"
 msgstr "Versioni beta"
 
-#: downloads/index.php:133
+#: downloads/index.php:150
 msgid "Experimental Builds"
 msgstr "Custruzzioni esperimentale"
 
-#: downloads/index.php:134
+#: downloads/index.php:151
 msgid "All File Releases"
 msgstr "Tutte e versioni di schedariu"
 
@@ -367,116 +417,116 @@ msgstr "Bascu"
 msgid "Catalan"
 msgstr "Catalanu"
 
-#: engine/engine.inc:22
+#: engine/engine.inc:23
 msgid "Dutch"
 msgstr "Neerlandese"
 
-#: engine/engine.inc:23
+#: engine/engine.inc:24
 msgid "Greek"
 msgstr "Grecu"
 
-#: engine/engine.inc:24
+#: engine/engine.inc:25
 msgid "German"
 msgstr "Tedescu"
 
-#: engine/engine.inc:25
+#: engine/engine.inc:26
 msgid "French"
 msgstr "Francese"
 
-#: engine/engine.inc:27
+#: engine/engine.inc:28
 msgid "Polish"
 msgstr "Pulunese"
 
-#: engine/engine.inc:28
+#: engine/engine.inc:29
 msgid "Portuguese (Brazil)"
 msgstr "Purtughese (Brasile)"
 
-#: engine/engine.inc:29
+#: engine/engine.inc:30
 msgid "Portuguese (Portugal)"
 msgstr "Purtughese (Purtugallu)"
 
-#: engine/engine.inc:30
+#: engine/engine.inc:31
 msgid "Russian"
 msgstr "Russiu"
 
-#: engine/engine.inc:31
+#: engine/engine.inc:32
 msgid "Spanish"
 msgstr "Spagnolu"
 
-#: engine/engine.inc:32
+#: engine/engine.inc:33
 msgid "Spanish (Venezuela)"
 msgstr "Spagnolu (Venezuela)"
 
-#: engine/engine.inc:33
+#: engine/engine.inc:34
 msgid "Slovenian"
 msgstr "Slovenianu"
 
-#: engine/engine.inc:34
+#: engine/engine.inc:35
 msgid "Swedish"
 msgstr "Svedese"
 
-#: engine/engine.inc:35
+#: engine/engine.inc:36
 msgid "Turkish"
 msgstr "Turcu"
 
-#: engine/page.inc:126 engine/page.inc:169
+#: engine/page.inc:128 engine/page.inc:171
 msgid "You will see the difference…"
 msgstr "Viderete a sfarenza…"
 
-#: engine/page.inc:191
+#: engine/page.inc:193
 msgid "Change Language"
 msgstr "Cambià di lingua"
 
-#: engine/page.inc:208
+#: engine/page.inc:210
 msgid "Project Pages"
 msgstr "Pagine di prughjettu"
 
-#: engine/page.inc:211
+#: engine/page.inc:213
 msgid "Archive"
 msgstr "Archiviu"
 
-#: engine/page.inc:215 support/index.php:25
+#: engine/page.inc:217 support/index.php:25
 msgid "Donate"
 msgstr "Dunazione"
 
-#: engine/page.inc:295
+#: engine/page.inc:297
 #, c-format
 msgid "Version %1$s; %2$s MB"
 msgstr "Versione %1$s; %2$s Mo"
 
-#: engine/page.inc:301
+#: engine/page.inc:303
 msgid "Download Now!"
 msgstr "Scaricà subitu !"
 
-#: engine/page.inc:340
+#: engine/page.inc:342
 msgid "Home"
 msgstr "Accolta"
 
-#: engine/page.inc:340
+#: engine/page.inc:342
 msgid "WinMerge Home"
 msgstr "Pagina d’accolta di WinMerge"
 
-#: engine/page.inc:341
+#: engine/page.inc:343
 msgid "WinMerge Documentation"
 msgstr "Documentazione di WinMerge"
 
-#: engine/page.inc:342
+#: engine/page.inc:344
 msgid "WinMerge Downloads"
 msgstr "Scaricamenti di WinMerge"
 
-#: engine/page.inc:343
+#: engine/page.inc:345
 msgid "WinMerge Screenshots"
 msgstr "Catture di screnu WinMerge"
 
-#: engine/page.inc:344
+#: engine/page.inc:346
 msgid "WinMerge Source Code"
 msgstr "Codice di fonte di WinMerge"
 
-#: engine/page.inc:345
+#: engine/page.inc:347
 msgid "WinMerge Support"
 msgstr "Assistenza WinMerge"
 
-#: engine/page.inc:346
+#: engine/page.inc:348
 msgid "WinMerge Translations"
 msgstr "Traduzzioni WinMerge"
 
@@ -485,14 +535,21 @@ msgid ""
 "WinMerge is an Open Source differencing and merging tool for Windows. "
 "WinMerge can compare both folders and files, presenting differences in a "
 "visual text format that is easy to understand and handle."
-msgstr "WinMerge hè un attrezzu di paragone è di fusione à fonte aperta per Windows. WinMerge pò paragunà cartulari è schedarii è affissà e sfarenze in un furmatu di testu visuale chì hè capicitoghju è faciule à manighjà."
+msgstr ""
+"WinMerge hè un attrezzu di paragone è di fusione à fonte aperta per Windows."
+" WinMerge pò paragunà cartulari è schedarii è affissà e sfarenze in un "
+"furmatu di testu visuale chì hè capicitoghju è faciule à manighjà."
 
 #: index.php:7
 msgid ""
 "WinMerge, free, open source, Windows, windiff, diff, merge, compare, tool, "
 "utility, text, file, folder, directory, compare files, compare folders, "
 "merge files, merge folders, diff tool, merge tool, compare tool"
-msgstr "WinMerge, liberu, fonte aperta, Windows, windiff, diff, fusione, paragunà, attrezzu, utilitariu, testu, schedariu, cartulare, sfugliaghju, paragone di schedariu, paragone di cartulare, fusione di schedariu, fusione di cartulare, attrezzu di sfarenza, attrezzu di fusione, attrezzu di paragone"
+msgstr ""
+"WinMerge, liberu, fonte aperta, Windows, windiff, diff, fusione, paragunà, "
+"attrezzu, utilitariu, testu, schedariu, cartulare, sfugliaghju, paragone di "
+"schedariu, paragone di cartulare, fusione di schedariu, fusione di "
+"cartulare, attrezzu di sfarenza, attrezzu di fusione, attrezzu di paragone"
 
 #: index.php:8 index.php:78
 msgid "Project News"
@@ -508,7 +565,11 @@ msgid ""
 "WinMerge is an <a href=\"%s\">Open Source</a> differencing and merging tool "
 "for Windows. WinMerge can compare both folders and files, presenting "
 "differences in a visual text format that is easy to understand and handle."
-msgstr "WinMerge hè un attrezzu di paragone è di fusione <a href=\"%s\">à fonte aperta</a> per Windows. WinMerge pò paragunà cartulari è schedarii è affissà e sfarenze in un furmatu di testu visuale chì hè capicitoghju è faciule à manighjà."
+msgstr ""
+"WinMerge hè un attrezzu di paragone è di fusione <a href=\"%s\">à fonte "
+"aperta</a> per Windows. WinMerge pò paragunà cartulari è schedarii è affissà"
+" e sfarenze in un furmatu di testu visuale chì hè capicitoghju è faciule à "
+"manighjà."
 
 #: index.php:15
 msgid "Screenshot"
@@ -521,7 +582,9 @@ msgstr "Paragone di schedariu"
 #: index.php:19
 #, c-format
 msgid "See the <a href=\"%s\">screenshots page</a> for more screenshots."
-msgstr "Fighjate a <a href=\"%s\">pagina di e catture di screnu</a> per vedene d’altre."
+msgstr ""
+"Fighjate a <a href=\"%s\">pagina di e catture di screnu</a> per vedene "
+"d’altre."
 
 #: index.php:21
 msgid "Features"
@@ -530,15 +593,21 @@ msgstr "Funzioni"
 #: index.php:22
 msgid ""
 "WinMerge is highly useful for determining what has changed between project "
-"versions, and then merging changes between versions. WinMerge can be used as "
-"an external differencing/merging tool or as a standalone application."
-msgstr "WinMerge hè assai ghjuvevule per determinà ciò chì hà cambiatu trà parechje versioni di prughjettu è per fà una fusione di sti cambiamenti. WinMerge pò esse impiegatu, sia cum’è un attrezzu esternu di paragone o di fusione, sia cum’è un’appiecazione autonoma."
+"versions, and then merging changes between versions. WinMerge can be used as"
+" an external differencing/merging tool or as a standalone application."
+msgstr ""
+"WinMerge hè assai ghjuvevule per determinà ciò chì hà cambiatu trà parechje "
+"versioni di prughjettu è per fà una fusione di sti cambiamenti. WinMerge pò "
+"esse impiegatu, sia cum’è un attrezzu esternu di paragone o di fusione, sia "
+"cum’è un’appiecazione autonoma."
 
 #: index.php:23
 msgid ""
 "In addition, WinMerge has many helpful supporting features that make "
 "comparing, synchronising, and merging as easy and useful as possible:"
-msgstr "In più di què, WinMerge cuntene tante funzioni ghjuvevule per rende più faciule u paragone, a sincrunizazione è a fusione :"
+msgstr ""
+"In più di què, WinMerge cuntene tante funzioni ghjuvevule per rende più "
+"faciule u paragone, a sincrunizazione è a fusione :"
 
 #: index.php:25
 msgid "General"
@@ -578,7 +647,9 @@ msgstr "Sfarenza visuale è fusione di schedarii di testu"
 
 #: index.php:36
 msgid "Flexible editor with syntax highlighting, line numbers and word-wrap"
-msgstr "Un editore ghjunchevule cù messa in evidenza di a sintassa, numeri di linea è ritornu autumaticu à a linea"
+msgstr ""
+"Un editore ghjunchevule cù messa in evidenza di a sintassa, numeri di linea "
+"è ritornu autumaticu à a linea"
 
 #: index.php:37
 msgid "Highlights differences inside lines"
@@ -586,11 +657,14 @@ msgstr "Sopralineamentu di e sfarenze trà e linee"
 
 #: index.php:38
 msgid "Difference pane shows current difference in two vertical panes"
-msgstr "U pannellu di e sfarenze presenta e sfarenze trà i dui pannelli verticali"
+msgstr ""
+"U pannellu di e sfarenze presenta e sfarenze trà i dui pannelli verticali"
 
 #: index.php:39
 msgid "Location pane shows map of files compared"
-msgstr "U pannellu di a lucalizazione presenta a cartugrafia di i schedarii paragunati"
+msgstr ""
+"U pannellu di a lucalizazione presenta a cartugrafia di i schedarii "
+"paragunati"
 
 #: index.php:40
 msgid "Moved lines detection"
@@ -603,7 +677,9 @@ msgstr "Paragone di cartulare"
 #: index.php:44
 msgid ""
 "Regular Expression based file filters allow excluding and including items"
-msgstr "Filtri di schedariu appughjati nant’à l’espressioni regulare permettenu l’esclusione è l’inclusione d’elementi"
+msgstr ""
+"Filtri di schedariu appughjati nant’à l’espressioni regulare permettenu "
+"l’esclusione è l’inclusione d’elementi"
 
 #: index.php:45
 msgid "Fast compare using file sizes and dates"
@@ -615,7 +691,9 @@ msgstr "Paraguneghja un cartulare o include tutti i sottucartulari"
 
 #: index.php:47
 msgid "Can show folder compare results in a tree-style view"
-msgstr "Pò affissà i risultati di paragone di cartulare in una vista di tipu arburiscenza"
+msgstr ""
+"Pò affissà i risultati di paragone di cartulare in una vista di tipu "
+"arburiscenza"
 
 #: index.php:48
 msgid "3-way Folder Comparison"
@@ -655,7 +733,9 @@ msgstr "Cuntrollu di versione"
 
 #: index.php:63
 msgid "Creates patch files (Normal-, Context- and Unified formats)"
-msgstr "Creazione di schedarii di currezzione (furmati nurmale, cuntestu è unificatu)"
+msgstr ""
+"Creazione di schedarii di currezzione (furmati nurmale, cuntestu è "
+"unificatu)"
 
 #: index.php:64
 msgid "Resolve conflict files"
@@ -667,7 +747,8 @@ msgstr "Altru"
 
 #: index.php:68
 msgid "Shell Integration (supports 64-bit Windows versions)"
-msgstr "Integrazione cù l’interfaccia Shell (accetta e versioni 64-bit Windows)"
+msgstr ""
+"Integrazione cù l’interfaccia Shell (accetta e versioni 64-bit Windows)"
 
 #: index.php:69
 msgid "Archive file support using 7-Zip"
@@ -696,61 +777,82 @@ msgstr "WinMerge %s - ultima versione stabule"
 msgid ""
 "<a href=\"%1$s\">WinMerge %2$s</a> is the latest stable version, and is "
 "recommended for most users."
-msgstr "<a href=\"%1$s\">WinMerge %2$s</a> hè l’ultima versione stabule chì hè ricumandata per a maiò parte di l’utilizatori."
+msgstr ""
+"<a href=\"%1$s\">WinMerge %2$s</a> hè l’ultima versione stabule chì hè "
+"ricumandata per a maiò parte di l’utilizatori."
 
-#: index.php:87
+#: index.php:88
 msgid "View all news&hellip;"
 msgstr "Fighjà tutte e nutizie&hellip;"
 
-#: index.php:91
+#: index.php:92
 #, c-format
 msgid ""
 "If you need support, look at our <a href=\"%s\">support page</a> for more "
 "information how you can get it."
-msgstr "S’è vo avete bisognu d’aiutu, fighjate a nostra <a href=\"%s\">pagina d’assistenza</a> per sapene di più nant’à a manera di l’ottene."
+msgstr ""
+"S’è vo avete bisognu d’aiutu, fighjate a nostra <a href=\"%s\">pagina "
+"d’assistenza</a> per sapene di più nant’à a manera di l’ottene."
 
-#: index.php:93
+#: index.php:94
 msgid "Developers"
 msgstr "Sviluppatori"
 
-#: index.php:94
+#: index.php:95
 msgid ""
 "WinMerge is an open source project, which means that the program is "
 "maintained and developed by volunteers."
-msgstr "WinMerge hè un prughjettu à fonte aperta, vole si dì chì u prugramma hè sviluppatu è mantenutu da vuluntarii."
+msgstr ""
+"WinMerge hè un prughjettu à fonte aperta, vole si dì chì u prugramma hè "
+"sviluppatu è mantenutu da vuluntarii."
 
-#: index.php:95
+#: index.php:96
 #, c-format
 msgid ""
 "In addition, WinMerge is translated into a number of different languages. "
-"See our <a href=\"%s\">information on translating WinMerge</a> into your own "
-"language."
-msgstr "In più di què, WinMerge hè traduttu in lingue numerose. Fighjate l’<a href=\"%s\">infurmazione nant’à cumu traduce WinMerge</a> in a vostra propia lingua."
+"See our <a href=\"%s\">information on translating WinMerge</a> into your own"
+" language."
+msgstr ""
+"In più di què, WinMerge hè traduttu in lingue numerose. Fighjate l’<a "
+"href=\"%s\">infurmazione nant’à cumu traduce WinMerge</a> in a vostra propia"
+" lingua."
 
 #: screenshots/index.php:5
 msgid ""
 "Screenshots from WinMerge features like file comparison, folder comparison "
 "results and location pane."
-msgstr "E catture di screnu di e funzioni WinMerge cum’è paragone di schedariu, risultati di paragone di cartulare è pannellu di lucalizazione."
+msgstr ""
+"E catture di screnu di e funzioni WinMerge cum’è paragone di schedariu, "
+"risultati di paragone di cartulare è pannellu di lucalizazione."
 
 #: screenshots/index.php:6
 msgid ""
 "WinMerge, screenshots, file comparison, open-dialog, folder comparison "
 "results, highlight line diff, location pane, splash screen"
-msgstr "WinMerge, catture di screnu, paragone di schedariu, dialogu d’apertura, risultati di paragone di cartulare, messa in evidenza di e sfarenze di linea, pannellu di lucalizazione, screnu di benvenuta"
+msgstr ""
+"WinMerge, catture di screnu, paragone di schedariu, dialogu d’apertura, "
+"risultati di paragone di cartulare, messa in evidenza di e sfarenze di "
+"linea, pannellu di lucalizazione, screnu di benvenuta"
 
 #: screenshots/index.php:13
 msgid ""
 "File compare window is basically two files opened to editor into two "
 "horizontal panes. Editing allows user to easily do small changes without "
 "need to open files to other editor or development environment."
-msgstr "A finestra di paragone di schedariu hè un editore simplice di schedariu affissendu dui pannelli orizuntali cuntenendu i schedarii aperti. A funzione di mudificazione permette à l’utilizatore di fà chjuchi cambiamenti senza richiede d’apre i schedarii in un altru editore o in un ambiente di sviluppu."
+msgstr ""
+"A finestra di paragone di schedariu hè un editore simplice di schedariu "
+"affissendu dui pannelli orizuntali cuntenendu i schedarii aperti. A funzione"
+" di mudificazione permette à l’utilizatore di fà chjuchi cambiamenti senza "
+"richiede d’apre i schedarii in un altru editore o in un ambiente di "
+"sviluppu."
 
 #: screenshots/index.php:17
 msgid ""
 "The 3-way file compare even allows comparing and editing three files at the "
 "same time."
-msgstr "U paragone di 3 schedarii permette di paragunà è di mudificà trè schedarii à u listessu tempu."
+msgstr ""
+"U paragone di 3 schedarii permette di paragunà è di mudificà trè schedarii à"
+" u listessu tempu."
 
 #: screenshots/index.php:19 screenshots/index.php:20
 msgid "Folder Comparison Results"
@@ -758,10 +860,15 @@ msgstr "Risultati di paragone di cartulare"
 
 #: screenshots/index.php:21
 msgid ""
-"Folder compare shows all files and subfolders found from compared folders as "
-"list. Folder compare allows synchronising folders by copying and deleting "
+"Folder compare shows all files and subfolders found from compared folders as"
+" list. Folder compare allows synchronising folders by copying and deleting "
 "files and subfolders. Folder compare view can be versatile customised."
-msgstr "U paragone di cartulare presenta in una lista tutti i schedarii è sottucartulari trovi in i cartulari paragunati. Stu tipu di paragone permette a sincrunizazione di cartulari cupiendu è squassendu i schedarii è i sottucartulari. A vista di u paragone di cartulare pò esse assai persunalizata."
+msgstr ""
+"U paragone di cartulare presenta in una lista tutti i schedarii è "
+"sottucartulari trovi in i cartulari paragunati. Stu tipu di paragone "
+"permette a sincrunizazione di cartulari cupiendu è squassendu i schedarii è "
+"i sottucartulari. A vista di u paragone di cartulare pò esse assai "
+"persunalizata."
 
 #: screenshots/index.php:23 screenshots/index.php:24
 msgid "Folder Compare Tree View"
@@ -773,7 +880,11 @@ msgid ""
 "and subfolders. This is useful for an easier navigation in deeply nested "
 "directory structures. <em>The tree view is available only in recursive "
 "compares."
-msgstr "In a vista in arburiscenza, si pò esplurà i schedarii è i sottucartulari spieghendu è ripieghendu i cartulari. Què hè ghjuvevule per una navigazione più faciule in e strutture di cartulare più prufonde è incastrate. <em>A vista in arburiscenza hè dispunibule solu in i paragoni recursivi."
+msgstr ""
+"In a vista in arburiscenza, si pò esplurà i schedarii è i sottucartulari "
+"spieghendu è ripieghendu i cartulari. Què hè ghjuvevule per una navigazione "
+"più faciule in e strutture di cartulare più prufonde è incastrate. <em>A "
+"vista in arburiscenza hè dispunibule solu in i paragoni recursivi."
 
 #: screenshots/index.php:27 screenshots/index.php:28
 msgid "Image Comparison"
@@ -782,7 +893,9 @@ msgstr "Paragone di fiura"
 #: screenshots/index.php:29
 msgid ""
 "WinMerge can compare images and highlight the differences in several ways."
-msgstr "WinMerge pò paragunà fiure è mette in evidenza e sfarenze di parechje manere."
+msgstr ""
+"WinMerge pò paragunà fiure è mette in evidenza e sfarenze di parechje "
+"manere."
 
 #: screenshots/index.php:31 screenshots/index.php:32
 msgid "Table Comparison"
@@ -790,7 +903,9 @@ msgstr "Paragone di tavulone"
 
 #: screenshots/index.php:33
 msgid "Table compare shows the contents of CSV/TSV files in table format."
-msgstr "U paragone di tavulone presenta u cuntenutu di i schedarii CSV/TSV tale un tavulone."
+msgstr ""
+"U paragone di tavulone presenta u cuntenutu di i schedarii CSV/TSV tale un "
+"tavulone."
 
 #: screenshots/index.php:35 screenshots/index.php:36
 msgid "Binary Comparison"
@@ -799,9 +914,12 @@ msgstr "Paragone binariu"
 #: screenshots/index.php:37
 msgid ""
 "WinMerge can detect whether files are in text or binary format. When you "
-"launch a file compare operation on binary files, WinMerge opens each file in "
-"the binary file editor."
-msgstr "WinMerge pò abbentà s’è i schedarii sò in furmatu testu o binariu. Quandu vi lanciate un’operazione di paragone di schedariu nant’à schedarii binarii, WinMerge apre ogni schedariu in l’editore di schedariu binariu."
+"launch a file compare operation on binary files, WinMerge opens each file in"
+" the binary file editor."
+msgstr ""
+"WinMerge pò abbentà s’è i schedarii sò in furmatu testu o binariu. Quandu vi"
+" lanciate un’operazione di paragone di schedariu nant’à schedarii binarii, "
+"WinMerge apre ogni schedariu in l’editore di schedariu binariu."
 
 #: screenshots/index.php:39 screenshots/index.php:40
 msgid "Open-dialog"
@@ -811,17 +929,22 @@ msgstr "Dialogu d’apertura"
 msgid ""
 "WinMerge allows selecting/opening paths in several ways. Using the Open-"
 "dialog is just one of them."
-msgstr "WinMerge permette di selezziunà o d’apre i chjassi di parechje manere. Impiegà u dialogu d’apertura hè solu una di ste manere."
+msgstr ""
+"WinMerge permette di selezziunà o d’apre i chjassi di parechje manere. "
+"Impiegà u dialogu d’apertura hè solu una di ste manere."
 
 #: source-code/index.php:8
 msgid ""
 "Download the source code of WinMerge, which is released under the GNU "
 "General Public License."
-msgstr "Scaricà u codice di fonte di WinMerge, chì hè distribuitu sottu à a licenza publica generale GNU."
+msgstr ""
+"Scaricà u codice di fonte di WinMerge, chì hè distribuitu sottu à a licenza "
+"publica generale GNU."
 
 #: source-code/index.php:9
 msgid "WinMerge, free, clone, download, source code, GPL, GitHub, Git"
-msgstr "WinMerge, liberu, copia, doppiu, scaricà, codice di fonte, GPL, GitHub, Git"
+msgstr ""
+"WinMerge, liberu, copia, doppiu, scaricà, codice di fonte, GPL, GitHub, Git"
 
 #: source-code/index.php:10 source-code/index.php:57
 msgid "Recent Commits"
@@ -830,18 +953,19 @@ msgstr "Mudificazioni recente di fonte"
 #: source-code/index.php:15
 #, c-format
 msgid ""
-"WinMerge is <a href=\"%1$s\">Open Source</a> software under the <a href="
-"\"%2$s\">GNU General Public License</a>."
-msgstr "WinMerge hè un prugramma <a href=\"%1$s\">à fonte aperta</a> sottu à <a href=\"%2$s\">licenza publica generale GNU</a>."
+"WinMerge is <a href=\"%1$s\">Open Source</a> software under the <a "
+"href=\"%2$s\">GNU General Public License</a>."
+msgstr ""
+"WinMerge hè un prugramma <a href=\"%1$s\">à fonte aperta</a> sottu à <a "
+"href=\"%2$s\">licenza publica generale GNU</a>."
 
 #: source-code/index.php:15
 #, c-format
 msgid ""
-"This means everybody can download the <a href=\"%s\">source code</a> and "
-"improve and modify it.\n"
-"The only thing we ask is that people submit their improvements and "
-"modifications back to us so that all WinMerge users may benefit."
-msgstr "Vole si dì chì ognunu pò scaricà u <a href=\"%s\">codice di fonte</a> per mudificallu è amendallu.\n"
+"This means everybody can download the <a href=\"%s\">source code</a> and improve and modify it.\n"
+"The only thing we ask is that people submit their improvements and modifications back to us so that all WinMerge users may benefit."
+msgstr ""
+"Vole si dì chì ognunu pò scaricà u <a href=\"%s\">codice di fonte</a> per mudificallu è amendallu.\n"
 "A sola cosa chì no dumandemu hè chì a ghjente ci sottumetti i so mudificazioni è amendamenti è cusì l’utilizatori di WinMerge ponu prufittane."
 
 #: source-code/index.php:19
@@ -855,9 +979,11 @@ msgstr "Duppià o scaricà"
 #: source-code/index.php:35
 #, c-format
 msgid ""
-"The source code is hosted on <a href=\"%1$s\">GitHub</a> in a <a href=\"%2$s"
-"\">Git</a> repository:"
-msgstr "U codice di fonte hè accoltu nant’à <a href=\"%1$s\">GitHub</a> in un cartulare<a href=\"%2$s\">Git</a> :"
+"The source code is hosted on <a href=\"%1$s\">GitHub</a> in a <a "
+"href=\"%2$s\">Git</a> repository:"
+msgstr ""
+"U codice di fonte hè accoltu nant’à <a href=\"%1$s\">GitHub</a> in un "
+"cartulare<a href=\"%2$s\">Git</a> :"
 
 #: source-code/index.php:38
 msgid "You can also download the current branches as ZIP file:"
@@ -877,13 +1003,16 @@ msgstr "Fighjà tutte e mudificazioni recente di fonte&hellip;"
 
 #: support/index.php:5
 msgid "The Open Discussion forum is the fastest way to get help."
-msgstr "U foru di chjachjarata generale hè a manera a più rapida d’ottene un aiutu."
+msgstr ""
+"U foru di chjachjarata generale hè a manera a più rapida d’ottene un aiutu."
 
 #: support/index.php:6
 msgid ""
 "WinMerge, support, discussion forums, tracker, donate, bugs, support "
 "requests, patches, feature requests, todo, open source"
-msgstr "WinMerge, assistenza, fori di chjachjarata, tracciamentu, dunazione, prublemi, penseri, dumande, richieste, currezzioni, funzioni, fonte aperta"
+msgstr ""
+"WinMerge, assistenza, fori di chjachjarata, tracciamentu, dunazione, "
+"prublemi, penseri, dumande, richieste, currezzioni, funzioni, fonte aperta"
 
 #: support/index.php:10
 msgid "The <b>Discussion forums</b> are the fastest way to get help:"
@@ -903,7 +1032,9 @@ msgstr "Chjachjarate nant’à u situ web"
 
 #: support/index.php:17
 msgid "Please be patient, it may take some time for somebody to answer."
-msgstr "Per piacè, siate pazientosi, perchè si pò piglià un pocu di tempu chì qualchissia vi rispondi."
+msgstr ""
+"Per piacè, siate pazientosi, perchè si pò piglià un pocu di tempu chì "
+"qualchissia vi rispondi."
 
 #: support/index.php:19
 msgid "Issues"
@@ -912,43 +1043,58 @@ msgstr "Penseri"
 #: support/index.php:20
 #, c-format
 msgid "If you find a bug, please submit it as a <a href=\"%s\">issue</a>."
-msgstr "S’è vo scuprite un sbagliu o un prublema, dichjaratelu cum’è un <a href=\"%s\">penseru</a>."
+msgstr ""
+"S’è vo scuprite un sbagliu o un prublema, dichjaratelu cum’è un <a "
+"href=\"%s\">penseru</a>."
 
 #: support/index.php:21
 msgid ""
 "Please attach as much information as you can: at a minimum, the version "
 "number of WinMerge that you are using. If you can, also attach a "
-"configuration log which, you can display by clicking <span class=\"guimenu"
-"\">Help</span> &#8594; <span class=\"guimenuitem\">Configuration</span> in "
-"the WinMerge window."
-msgstr "Ci vole à pruvede u più d’infurmazione pussibule ; a u minimu, u numeru di versione di WinMerge chì vo impiegate. S’ella si pò fà, mandate dinù un ghjurnale di cunfigurazione chì si pò affissà via <span class=\"guimenu\">Aiutu</span> &#8594; <span class=\"guimenuitem\">Cunfigurazione</span> in a finestra di WinMerge."
+"configuration log which, you can display by clicking <span "
+"class=\"guimenu\">Help</span> &#8594; <span "
+"class=\"guimenuitem\">Configuration</span> in the WinMerge window."
+msgstr ""
+"Ci vole à pruvede u più d’infurmazione pussibule ; a u minimu, u numeru di "
+"versione di WinMerge chì vo impiegate. S’ella si pò fà, mandate dinù un "
+"ghjurnale di cunfigurazione chì si pò affissà via <span "
+"class=\"guimenu\">Aiutu</span> &#8594; <span "
+"class=\"guimenuitem\">Cunfigurazione</span> in a finestra di WinMerge."
 
 #: support/index.php:22
 msgid ""
 "Good information in a bug report makes it more likely that your bug will be "
 "fixed quickly."
-msgstr "Un raportu di prublema cù infurmazioni detagliate hè aspessu a manera d’ottene in furia una currezzione."
+msgstr ""
+"Un raportu di prublema cù infurmazioni detagliate hè aspessu a manera "
+"d’ottene in furia una currezzione."
 
 #: support/index.php:23
 #, c-format
 msgid ""
 "Wish list items on the <a href=\"%s\">issues list</a> will also be "
 "considered, but we make absolutely no promises."
-msgstr "L’elementi chì si trovanu nant’à a <a href=\"%s\">lista di i penseri</a> seranu apprezzati, ma ùn pudemu micca fà di prumessa."
+msgstr ""
+"L’elementi chì si trovanu nant’à a <a href=\"%s\">lista di i penseri</a> "
+"seranu apprezzati, ma ùn pudemu micca fà di prumessa."
 
 #: support/index.php:26
 #, c-format
 msgid ""
 "Since WinMerge is an <a href=\"%s\">Open Source</a> project, you may use it "
 "free of charge."
-msgstr "Cum’è WinMerge hè un prughjettu  <a href=\"%s\">à fonte aperta</a>, si pò impiegallu senza pagà."
+msgstr ""
+"Cum’è WinMerge hè un prughjettu  <a href=\"%s\">à fonte aperta</a>, si pò "
+"impiegallu senza pagà."
 
 #: support/index.php:27
 #, c-format
 msgid ""
 "But please consider making a <a href=\"%s\">donation</a> to support the "
 "continued development of WinMerge."
-msgstr "Ma hè sempre bè di fà una <a href=\"%s\">dunazione</a> per sustene u sviluppu cuntinuu di WinMerge."
+msgstr ""
+"Ma hè sempre bè di fà una <a href=\"%s\">dunazione</a> per sustene u "
+"sviluppu cuntinuu di WinMerge."
 
 #: support/index.php:29
 msgid "Buy WinMerge merchandise"
@@ -957,9 +1103,13 @@ msgstr "Cumprà a robba WinMerge"
 #: support/index.php:30
 #, c-format
 msgid ""
-"You can also support WinMerge by buying merchandise at the <a href=\"%s"
-"\">WinMerge CafePress store</a>. 20%% of the sales goes to WinMerge."
-msgstr "Pudete dinù sustene WinMerge cumprendu i prudutti nant’à a <a href=\"%s\">buttea CafePress di WinMerge</a>. 20%% di e vendite vanu à WinMerge."
+"You can also support WinMerge by buying merchandise at the <a "
+"href=\"%s\">WinMerge CafePress store</a>. 20%% of the sales goes to "
+"WinMerge."
+msgstr ""
+"Pudete dinù sustene WinMerge cumprendu i prudutti nant’à a <a "
+"href=\"%s\">buttea CafePress di WinMerge</a>. 20%% di e vendite vanu à "
+"WinMerge."
 
 #: translations/index.php:6
 msgid "Translations Status"
@@ -1007,7 +1157,9 @@ msgstr "À st’ora, avemu traduttu WinMerge in quelle lingue :"
 msgid ""
 "If you would like to update any of these translations or add another "
 "translation, then please follow <a href=\"%s\">these instructions</a>."
-msgstr "S’è vo vulete mudificà una di ste traduzzioni o aghjunghjene un’altra, seguitate <a href=\"%s\">st’istruzzioni</a>."
+msgstr ""
+"S’è vo vulete mudificà una di ste traduzzioni o aghjunghjene un’altra, "
+"seguitate <a href=\"%s\">st’istruzzioni</a>."
 
 #: translations/index.php:39
 #, c-format
@@ -1032,7 +1184,9 @@ msgstr "Statu di e traduzzioni (situ web)"
 msgid ""
 "We moved the sources from the website to a own <a href=\"%1$s\">GitHub "
 "repository</a>."
-msgstr "Avemu dispiazzatu e fonti da u situ web ver di u nostru propiu <a href=\"%1$s\">dipositu GitHub</a>."
+msgstr ""
+"Avemu dispiazzatu e fonti da u situ web ver di u nostru propiu <a "
+"href=\"%1$s\">dipositu GitHub</a>."
 
 #: translations/status_website.php:17
 #, c-format
@@ -1106,3 +1260,7 @@ msgstr "Tutale : Scunnisciutu"
 #: translations/translations.inc:310
 msgid "Maintainer"
 msgstr "Mantenitore"
+
+#: engine/engine.inc:22
+msgid "Corsican"
+msgstr ""
