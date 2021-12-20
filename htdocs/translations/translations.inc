@@ -98,6 +98,11 @@
      * @param string $srcUrl Source URL
      */
     private function getProjectTable($translations, $srcUrl) {
+      $template_language_name = '';
+      $template_file_name = '';
+      $template_translation_update = '';
+      $template_strings_count = 0;
+      
       $temp = "<div class=\"table-scrollable\">\n";
       $temp .= "<table class=\"table is-bordered is-striped is-narrow\">\n";
       $temp .= "  <tr>\n";
