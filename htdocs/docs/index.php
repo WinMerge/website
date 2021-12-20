@@ -16,10 +16,10 @@
   <li><a href="https://manual.winmerge.org/jp/" class="button is-small"><?php __e('Japanese');?></a></li>
 </ul>
 <?php
-  $page->printLinkedSubHeading(__('Release Notes'), 'releasenotes.php');
-  $page->printPara(__('The <a href="%1$s">release notes</a> are a short summary of important changes, enhancements, bug fixes and <a href="%2$s">known issues</a> in the current WinMerge release.', 'releasenotes.php', 'releasenotes.php#known-issues'));
-  $page->printLinkedSubHeading(__('Change Log'), 'changelog.php');
-  $page->printPara(__('The <a href="%s">change log</a> is a more complete list of changes in the last WinMerge releases.', 'changelog.php'));
+  $page->printLinkedSubHeading(__('Release Notes'), $translations->prepareLink('releasenotes.php'));
+  $page->printPara(__('The <a href="%1$s">release notes</a> are a short summary of important changes, enhancements, bug fixes and <a href="%2$s">known issues</a> in the current WinMerge release.', $translations->prepareLink('releasenotes.php'), $translations->prepareLink('releasenotes.php#known-issues')));
+  $page->printLinkedSubHeading(__('Change Log'), $translations->prepareLink('changelog.php'));
+  $page->printPara(__('The <a href="%s">change log</a> is a more complete list of changes in the last WinMerge releases.', $translations->prepareLink('changelog.php')));
   //$page->printLinkedSubHeading(__('Development Wiki'), 'http://wiki.winmerge.org/');
   //$page->printPara(__('The <a href="%s">Development Wiki</a> contains much information about the WinMerge development.', 'http://wiki.winmerge.org/'));
 

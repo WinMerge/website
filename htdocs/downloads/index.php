@@ -13,7 +13,7 @@
   $page->printPara(__('The easiest way to install WinMerge is to download and run the Installer. Read the <a href="%s">online manual</a> for help using it.', 'https://manual.winmerge.org/en/Install.html'));
   $page->printSubHeading(__('WinMerge %s', $stablerelease->getVersionNumber()));
   $page->printPara(__('The current WinMerge version is <strong>%1$s</strong> and was released at <strong>%2$s</strong>.', $stablerelease->getVersionNumber(), $stablerelease->getDate()),
-                   __('For detailed info on what is new, read the <a href="%1$s">change log</a> and the <a href="%2$s">release notes</a>.', '/docs/changelog.php', '/docs/releasenotes.php'));
+                   __('For detailed info on what is new, read the <a href="%1$s">change log</a> and the <a href="%2$s">release notes</a>.', $translations->prepareLink('/docs/changelog.php'), $translations->prepareLink('/docs/releasenotes.php')));
 ?>
 <div class="table-scrollable">
   <table class="table is-striped">
