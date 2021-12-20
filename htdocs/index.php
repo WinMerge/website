@@ -92,7 +92,7 @@
 
   $page->printSubHeading(__('Developers'));
   $page->printPara(__('WinMerge is an open source project, which means that the program is maintained and developed by volunteers.'));
-  $page->printPara(__('In addition, WinMerge is translated into a number of different languages. See our <a href="%s">information on translating WinMerge</a> into your own language.', $translations->prepareLink('/translations')));
+  $page->printPara(__('In addition, WinMerge is translated into a number of different languages. See our <a href="%s">information on translating WinMerge</a> into your own language.', $translations->prepareLink('translations/')));
 
   $page->printFoot();
 ?>
