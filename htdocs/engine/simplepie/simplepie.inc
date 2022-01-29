@@ -676,11 +676,13 @@ class SimplePie
 	 */
 	public function __construct()
 	{
+		/*
 		if (version_compare(PHP_VERSION, '5.6', '<'))
 		{
 			trigger_error('Please upgrade to PHP 5.6 or newer.');
 			die();
 		}
+		*/
 
 		// Other objects, instances created here so we can set options on them
 		$this->sanitize = new SimplePie_Sanitize();
@@ -15684,7 +15686,7 @@ class SimplePie_Parse_Date
 			}
 
 			// Convert the number of seconds to an integer, taking decimals into account
-			$second = round((int)$match[6] + (int)$match[7] / (10 ** strlen($match[7])));
+			$second = round((int)$match[6] + (int)$match[7] / (pow(10,strlen($match[7]))));
 
 			return gmmktime($match[4], $match[5], $second, $match[2], $match[3], $match[1]) - $timezone;
 		}
