@@ -3,7 +3,7 @@
 
 # The MIT License
 # 
-# Copyright (c) 2009-2018 Tim Gerundt <tim@gerundt.de>
+# Copyright (c) 2009-2022 Tim Gerundt <tim@gerundt.de>
 # 
 # Permission is hereby granted, free of charge, to any person obtaining a copy
 # of this software and associated documentation files (the "Software"), to deal
@@ -22,8 +22,6 @@
 # LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 # THE SOFTWARE.
-
-# $Id$
 
 # Python script to get the status of the translations
 
@@ -78,7 +76,7 @@ class TranslationsStatus(object):
         xmlfile.write('  <update>%s</update>\n' % (time.strftime('%Y-%m-%d')))
         for project in self._projects: #For all projects...
             xmlfile.write('  <translations project="%s">\n' % (project.name))
-            for language in self.languages: #For all (sorted) languages...
+            for language in project.languages: #For all (sorted) languages...
                 status1 = project[language]
                 if status1.template: #If a template file...
                     xmlfile.write('    <translation template="1">\n')
@@ -175,7 +173,7 @@ class TranslationsStatus(object):
             htmlfile.write('    <th class="right">Complete</th>\n')
             htmlfile.write('    <th class="center">Last Update</th>\n')
             htmlfile.write('  </tr>\n')
-            for language in self.languages: #For all (sorted) languages...
+            for language in project.languages: #For all (sorted) languages...
                 status1 = project[language]
                 htmlfile.write('  <tr>\n')
                 htmlfile.write('    <td class="left">%s</td>\n' % (status1.language))
@@ -517,6 +515,16 @@ class PoStatus(Status):
                   sMsgStr = ''
                   bIsFuzzy = False
           pofile.close()
+          
+          if sMsgId != '': #If a translation remained...
+              self._count += 1
+              if bIsFuzzy == False: #If NOT a fuzzy translation...
+                  if sMsgStr != '':
+                      self._translated += 1
+                  else:
+                      self._untranslated += 1
+              else: #If a fuzzy translation...
+                  self._fuzzy += 1
           
           self.calculateCompleteness()
     
