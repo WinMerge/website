@@ -32,6 +32,7 @@ import re
 import time
 import codecs
 import math
+import argparse
 
 class TranslationsStatus(object):
     def __init__(self):
@@ -558,11 +559,18 @@ class PoStatus(Status):
         return charset
 
 def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument('-f', '--format', nargs='*', default='xml', type=str.lower, choices=['xml', 'html', 'md'])
+    args = parser.parse_args()
+
     status = TranslationsStatus()
     status.addProject(PoProject('Website', 'po/en-US.pot', 'po'))
-    status.writeToXmlFile('TranslationsStatusWebsite.xml')
-    status.writeToHtmlFile('TranslationsStatusWebsite.html')
-    status.writeToMdFile('TranslationsStatusWebsite.md')
+    if 'xml' in args.format:
+      status.writeToXmlFile('TranslationsStatusWebsite.xml')
+    if 'html' in args.format:
+      status.writeToHtmlFile('TranslationsStatusWebsite.html')
+    if 'md' in args.format:
+      status.writeToMdFile('TranslationsStatusWebsite.md')
 
 # MAIN #
 if __name__ == "__main__":
