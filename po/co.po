@@ -11,8 +11,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WinMerge in Corsican\n"
 "Report-Msgid-Bugs-To: http://bugs.winmerge.org\n"
-"POT-Creation-Date: 2020-12-22 22:32+0000\n"
-"PO-Revision-Date: 2021-12-08 13:15+0000\n"
+"POT-Creation-Date: 2021-12-08 05:58+0000\n"
+"PO-Revision-Date: 2022-04-26 16:25+0200\n"
 "Last-Translator: Patriccollu di Santa Maria è Sichè <https://github.com/Patriccollu/Lingua_Corsa-Infurmatica/#readme>\n"
 "Language-Team: Patriccollu di Santa Maria è Sichè\n"
 "Language: co\n"
@@ -669,7 +669,7 @@ msgstr ""
 
 #: index.php:40
 msgid "Moved lines detection"
-msgstr "Abbentata di e linee dispiazzate"
+msgstr "Avventata di e linee dispiazzate"
 
 #: index.php:42
 msgid "Folder Compare"
@@ -918,7 +918,7 @@ msgid ""
 "launch a file compare operation on binary files, WinMerge opens each file in"
 " the binary file editor."
 msgstr ""
-"WinMerge pò abbentà s’è i schedarii sò in furmatu testu o binariu. Quandu vi"
+"WinMerge pò avventà s’è i schedarii sò in furmatu testu o binariu. Quandu vi"
 " lanciate un’operazione di paragone di schedariu nant’à schedarii binarii, "
 "WinMerge apre ogni schedariu in l’editore di schedariu binariu."
 
@@ -1186,7 +1186,7 @@ msgid ""
 "We moved the sources from the website to a own <a href=\"%1$s\">GitHub "
 "repository</a>."
 msgstr ""
-"Avemu dispiazzatu e fonti da u situ web ver di u nostru propiu <a "
+"Avemu dispiazzatu e fonti da u situ web versu u nostru propiu <a "
 "href=\"%1$s\">dipositu GitHub</a>."
 
 #: translations/status_website.php:17
