@@ -974,7 +974,7 @@ msgid ""
 "The source code is hosted on <a href=\"%1$s\">GitHub</a> in a <a href=\"%2$s"
 "\">Git</a> repository:"
 msgstr ""
-"O código-fonte está alojado no <a href=\"%1$s\">GitHub</a>num repositório<a "
+"O código-fonte está alojado no <a href=\"%1$s\">GitHub</a> num repositório <a "
 "href=\"%2$s\">Git</a>:"
 
 #: source-code/index.php:38
