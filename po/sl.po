@@ -2,32 +2,33 @@
 # Released under the "GNU General Public License"
 #
 # Translators:
-# * Hugo Carvalho <hugokarvalho at hotmail.com>, 2019-2022
+# * Jadran Rudec <jrudec at gmail.com>
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: WinMerge Website\n"
+"Project-Id-Version: WinMerge\n"
 "Report-Msgid-Bugs-To: http://bugs.winmerge.org\n"
-"POT-Creation-Date: 2021-12-08 05:58+0000\n"
-"PO-Revision-Date: 2022-03-31 14:43+0100\n"
-"Last-Translator: Hugo Carvalho <hugokarvalho at hotmail.com>\n"
-"Language: pt_PT\n"
+"POT-Creation-Date: 2020-09-22 04:19+0000\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Jadran Rudec <jrudec@gmail.com>\n"
+"Language-Team: English <winmerge-translate@lists.sourceforge.net>\n"
+"Language: sl_SI\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100>=3 && n%100<=4 ? 2 : 3);\n"
+"X-Generator: Poedit 2.4.2\n"
 "X-Poedit-Basepath: ../htdocs\n"
-"X-Poedit-Language: Portuguese (Portugal)\n"
-"X-Poedit-SourceCharset: UTF-8\n"
-"X-Generator: Poedit 3.0.1\n"
+"X-Poedit-Language: Slovenian\n"
+"X-Poedit-SourceCharset: utf-8\n"
 
 #: 404.php:9
 msgid "Error 404 (Page Not Found)"
-msgstr "Erro 404 (Página Não Encontrada)"
+msgstr "Napaka 404 (Stran ni bila najdena)"
 
 #: 404.php:11
 msgid "Page Not Found..."
-msgstr "Página não encontrada..."
+msgstr "Stran ni bila najdena..."
 
 #: 404.php:12
 msgid ""
@@ -35,104 +36,103 @@ msgid ""
 "date search engine listing or we simply deleted a file) the page you were "
 "looking for could not be found."
 msgstr ""
-"Por alguma razão (URL mal digitado, referência incorreta de outro site, "
-"listagem desatualizada do motor de busca ou simplesmente eliminamos um "
-"ficheiro) não foi possível encontrar a página que procurava."
+"Iz nekega razloga (napačno vpisan URL, napačen sklic z druge spletne strani,"
+" zastarel seznam iskalnikov ali preprosto izbrisana datoteka) strani, ki ste"
+" jo iskali, ni bilo mogoče najti."
 
 #: 404.php:13
 msgid ""
 "This site has recently undergone a major re-working, so that might explain "
 "why you got this page instead."
 msgstr ""
-"Este site foi recentemente submetido a uma grande restruturação, o que "
-"poderá explicar o motivo pelo qual obteve esta página."
+"Ta spletna stran je bila pred kratkim deležna večje predelave, zato bi to "
+"lahko pojasnilo, zakaj ste namesto nje dobili to stran."
 
 #: 404.php:15
 msgid "Were you looking for..."
-msgstr "Estava à procura de..."
+msgstr "Iskali ste..."
 
 #: 404.php:18 docs/index.php:7 docs/index.php:9 engine/page.inc:343
 msgid "Documentation"
-msgstr "Documentação"
+msgstr "Dokumentacija"
 
 #: 404.php:20 docs/index.php:10
 msgid "Manual"
-msgstr "Manual"
+msgstr "Priročnik"
 
 #: 404.php:22 docs/index.php:15 engine/engine.inc:19
 msgid "English"
-msgstr "Inglês"
+msgstr "Angleščina"
 
 #: 404.php:23 docs/index.php:16 engine/engine.inc:27
 msgid "Japanese"
-msgstr "Japonês"
+msgstr "Japonščina"
 
 #: 404.php:26 docs/index.php:19 docs/releasenotes.php:7
 #: docs/releasenotes.php:10
 msgid "Release Notes"
-msgstr "Notas de lançamento"
+msgstr "Opombe ob izdaji"
 
 #: 404.php:27 docs/changelog.php:7 docs/index.php:21
 msgid "Change Log"
-msgstr "Registo de alterações"
+msgstr "Dnevnik sprememb"
 
 #: 404.php:30 engine/page.inc:344
 msgid "Downloads"
-msgstr "Transferências"
+msgstr "Prenosi"
 
 #: 404.php:31 engine/page.inc:345 screenshots/index.php:7
 #: screenshots/index.php:9
 msgid "Screenshots"
-msgstr "Capturas de ecrã"
+msgstr "Posnetki zaslona"
 
 #: 404.php:32 downloads/index.php:71 engine/page.inc:346
 #: source-code/index.php:11 source-code/index.php:13
 msgid "Source Code"
-msgstr "Código fonte"
+msgstr "Izvorna koda"
 
 #: 404.php:33 engine/page.inc:347 index.php:91 support/index.php:7
 #: support/index.php:9
 msgid "Support"
-msgstr "Suporte"
+msgstr "Podpora"
 
 #: 404.php:34 engine/page.inc:348 translations/index.php:7
 #: translations/index.php:9
 msgid "Translations"
-msgstr "Traduções"
+msgstr "Prevodi"
 
 #: docs/changelog.php:5
 msgid ""
 "The change log is a more complete list of changes in the last WinMerge "
 "releases."
 msgstr ""
-"O registo de alterações é uma lista mais completa de alterações nos últimos "
-"lançamentos do WinMerge."
+"Dnevnik sprememb je popolnejši seznam sprememb v zadnjih izdajah WinMerge."
 
 #: docs/changelog.php:6
 msgid "WinMerge, change log, changes, release, tracker item, revision number"
 msgstr ""
-"WinMerge, registo de alterações, alterações, lançamento, item rastreador, "
-"número de revisão"
+"WinMerge, dnevnik sprememb, spremembe, izdaja, sledilec vnosov, številka "
+"revizije"
 
 #: docs/changelog.php:10
 msgid "The change log is currently not available..."
-msgstr "Atualmente, o registo de alterações não está disponível..."
+msgstr "Dnevnik sprememb trenutno ni na voljo..."
 
 #: docs/index.php:5
 msgid ""
 "Documentation from WinMerge like manual, release notes, change log and "
 "Development Wiki."
 msgstr ""
-"Documentação do WinMerge como manual, notas de lançamento, registo de "
-"alterações e Wiki de Desenvolvimento."
+"Dokumentacija iz WinMerge, kot so priročnik, opombe ob izdaji, dnevnik "
+"sprememb in Wiki za razvoj."
 
 #: docs/index.php:6
 msgid ""
 "WinMerge, documentation, manual, release notes, known issues, change log, "
 "Development Wiki"
 msgstr ""
-"WinMerge, documentação, manual, notas de lançamento, problemas conhecidos, "
-"registo de alterações, Wiki de Desenvolvimento"
+"WinMerge, dokumentacija, priročnik, opombe ob izdaji, znane težave, dnevnik "
+"sprememb, Wiki za razvoj"
 
 #: docs/index.php:11
 #, c-format
@@ -140,12 +140,12 @@ msgid ""
 "The <a href=\"%s\">manual</a> explains how to use WinMerge, and documents "
 "its capabilities and limitations."
 msgstr ""
-"O <a href=\"%s\">manual</a> explica como usar o WinMerge, e documenta as "
-"suas capacidades e limitações."
+"<a href=\"%s\">Priročnik</a> razlaga, kako uporabljati WinMerge, ter "
+"dokumentira njegove zmožnosti in omejitve."
 
 #: docs/index.php:12
 msgid "It is currently available in the following languages:"
-msgstr "Está atualmente disponível nos seguintes idiomas:"
+msgstr "Trenutno je na voljo v naslednjih jezikih:"
 
 #: docs/index.php:20
 #, c-format
@@ -154,9 +154,9 @@ msgid ""
 "changes, enhancements, bug fixes and <a href=\"%2$s\">known issues</a> in "
 "the current WinMerge release."
 msgstr ""
-"As <a href=\"%1$s\">notas de lançamento</a> são um breve resumo de "
-"alterações importantes, melhorias, correções de erros (bugs) e <a href=\"%2$s"
-"\">problemas conhecidos</a> na atual versão do WinMerge."
+"<a href=\"%1$s\">Opombe ob izdaji</a> so kratek povzetek pomembnih sprememb,"
+" izboljšav, popravkov programskih napak in <a href=\"%2$s\">znanih težav</a>"
+" v trenutni izdaji WinMerge."
 
 #: docs/index.php:22
 #, c-format
@@ -164,12 +164,12 @@ msgid ""
 "The <a href=\"%s\">change log</a> is a more complete list of changes in the "
 "last WinMerge releases."
 msgstr ""
-"O <a href=\"%s\">registo de alterações</a> é uma lista mais completa de "
-"alterações nos últimos lançamentos do WinMerge."
+"<a href=\"%s\">Dnevnik sprememb</a> je popolnejši seznam sprememb v zadnjih "
+"izdajah WinMerge."
 
 #: docs/index.php:23
 msgid "Development Wiki"
-msgstr "Wiki do Desenvolvimento"
+msgstr "Wiki za razvoj"
 
 #: docs/index.php:24
 #, c-format
@@ -177,29 +177,28 @@ msgid ""
 "The <a href=\"%s\">Development Wiki</a> contains much information about the "
 "WinMerge development."
 msgstr ""
-"A <a href=\"%s\">Wiki do Desenvolvimento</a> contém muita mais informação "
-"sobre o desenvolvimento do WinMerge."
+"<a href=\"%s\">Wiki za razvoj</a> vsebuje veliko informacij o razvoju "
+"WinMerge."
 
 #: docs/releasenotes.php:5
 msgid ""
 "The release notes are a short summary of important changes, enhancements, "
 "bug fixes and known issues in the current WinMerge release."
 msgstr ""
-"As notas de lançamento são um breve resumo de alterações importantes, "
-"melhorias, correções de erros (bugs) e problemas conhecidos no atual "
-"lançamento do WinMerge."
+"Opombe ob izdaji so kratek povzetek pomembnih sprememb, izboljšav, popravkov"
+" programskih napak in znanih težav v trenutni izdaji WinMerge."
 
 #: docs/releasenotes.php:6
 msgid ""
 "WinMerge, release notes, summary, changes, enhancements, bug fixes, known "
 "issues, release"
 msgstr ""
-"WinMerge, notas de lançamento, resumo, alterações, melhorias, correções de "
-"bugs, problemas conhecidos, lançamento"
+"WinMerge, opombe ob izdaji, povzetek, spremembe, izboljšave, popravki "
+"programskih napak, znane težave, izdaja"
 
 #: docs/releasenotes.php:11
 msgid "The release notes are currently not available..."
-msgstr "As notas de lançamento não estão atualmente disponíveis..."
+msgstr "Opombe ob izdaji trenutno niso na voljo..."
 
 #: downloads/index.php:7
 #, c-format
@@ -207,25 +206,25 @@ msgid ""
 "Download the current WinMerge version %1$s, which was released at %2$s. For "
 "detailed info on what is new, read the change log and the release notes."
 msgstr ""
-"Transferir a atual versão %1$s do WinMerge, que foi lançada a %2$s. Para "
-"informações detalhadas sobre as novidades, leia o registo de alterações e as "
-"notas de lançamento."
+"Prenesite trenutno različico WinMerge %1$s, ki je bila izdana %2$s. Za "
+"podrobne informacije o novostih, preberite dnevnik sprememb in opombe ob "
+"izdaji."
 
 #: downloads/index.php:8
 msgid ""
 "WinMerge, free, download, Windows, setup, installer, binaries, runtimes, "
 "stable, beta, experimental, portable"
 msgstr ""
-"WinMerge, gratuito, transferência, Windows, configuração, instalador, "
-"binários, tempos de execução, estável, beta, experimental, portátil"
+"WinMerge, brezplačno, prenos, Windows, namestitev, namestitveni program, "
+"dvojiške datoteke, časi izvajanja, stabilno, beta, poskusno, prenosno"
 
 #: downloads/index.php:9 downloads/index.php:126
 msgid "Project File Releases"
-msgstr "Lançamentos de ficheiros do projeto"
+msgstr "Izdaje projektne datoteke"
 
 #: downloads/index.php:10 downloads/index.php:12
 msgid "Download WinMerge"
-msgstr "Transferir o WinMerge"
+msgstr "Prenesi WinMerge"
 
 #: downloads/index.php:13
 #, c-format
@@ -233,9 +232,8 @@ msgid ""
 "The easiest way to install WinMerge is to download and run the Installer. "
 "Read the <a href=\"%s\">online manual</a> for help using it."
 msgstr ""
-"A maneira mais fácil de instalar o WinMerge é transferir e executar o "
-"instalador. Leia o <a href=\"%s\">manual online</a> para obter ajuda na sua "
-"utilização."
+"WinMerge najlažje namestite tako, da prenesete in zaženete namestitveni "
+"program. Za pomoč pri tem, preberite <a href=\"%s\">spletni priročnik</a>."
 
 #: downloads/index.php:14
 #, c-format
@@ -248,7 +246,7 @@ msgid ""
 "The current WinMerge version is <strong>%1$s</strong> and was released at "
 "<strong>%2$s</strong>."
 msgstr ""
-"A versão atual do WinMerge é a <strong>%1$s</strong> e foi lançada em "
+"Trenutna različica WinMerge je <strong>%1$s</strong> in je bila izdana "
 "<strong>%2$s</strong>."
 
 #: downloads/index.php:16
@@ -257,24 +255,24 @@ msgid ""
 "For detailed info on what is new, read the <a href=\"%1$s\">change log</a> "
 "and the <a href=\"%2$s\">release notes</a>."
 msgstr ""
-"Para informações detalhadas sobre as novidades, leia o <a href=\"%1$s"
-"\">registo de alterações</a> e as <a href=\"%2$s\">notas de lançamento</a>."
+"Za podrobne informacije o novostih preberite <a href=\"%1$s\">dnevnik "
+"sprememb</a> in <a href=\"%2$s\">opombe ob izdaji</a>."
 
 #: downloads/index.php:21 source-code/index.php:43
 msgid "Download"
-msgstr "Transferir"
+msgstr "Prenesi"
 
 #: downloads/index.php:22
 msgid "Size"
-msgstr "Tamanho"
+msgstr "Velikost"
 
 #: downloads/index.php:23
 msgid "Type"
-msgstr "Tipo"
+msgstr "Vrsta"
 
 #: downloads/index.php:24
 msgid "Format"
-msgstr "Formato"
+msgstr "Format"
 
 #: downloads/index.php:28 downloads/index.php:34 downloads/index.php:40
 #: downloads/index.php:46 downloads/index.php:52 downloads/index.php:58
@@ -285,7 +283,7 @@ msgstr "%s MB"
 
 #: downloads/index.php:29 downloads/index.php:41 downloads/index.php:47
 msgid "Installer"
-msgstr "Instalador"
+msgstr "Namestitveni program"
 
 #: downloads/index.php:30 downloads/index.php:36 downloads/index.php:42
 #: downloads/index.php:48
@@ -294,11 +292,11 @@ msgstr "EXE"
 
 #: downloads/index.php:35
 msgid "Per-user installer"
-msgstr "Instalador por utilizador"
+msgstr "Namestitveni program za posameznega uporabnika"
 
 #: downloads/index.php:53 downloads/index.php:59 downloads/index.php:65
 msgid "Binaries"
-msgstr "Binários"
+msgstr "Dvojiške datoteke"
 
 #: downloads/index.php:54 downloads/index.php:60 downloads/index.php:66
 msgid "ZIP"
@@ -310,225 +308,217 @@ msgstr "7z"
 
 #: downloads/index.php:77
 msgid "SHA-256 Checksums"
-msgstr "SHA-256 Checksums"
+msgstr "Kontrolne vsote SHA-256"
 
 #: downloads/index.php:98
 msgid "Requirements"
-msgstr "Requisitos"
+msgstr "Zahteve"
 
 #: downloads/index.php:101
 msgid "32-bit installer: Microsoft Windows XP SP3 or newer"
-msgstr "Instalador de 32 bits: Microsoft Windows XP SP3 ou mais recente"
+msgstr "32-bitni namestitveni program: Microsoft Windows XP SP3 ali novejši"
 
 #: downloads/index.php:102
 msgid "64-bit installer: Microsoft Windows 7 or newer"
-msgstr "Instalador de 64 bits: Microsoft Windows 7 ou mais recente"
+msgstr "64-bitni namestitveni program: Microsoft Windows 7 ali novejši"
 
 #: downloads/index.php:103
 msgid "Admin rights for the installer (except for Per-user installer)"
 msgstr ""
-"Direitos de administrador para o instalador (excepto para o instalador por "
-"utilizador)"
+"Skrbniške pravice za namestitveni program (razen namestitvenega programa za "
+"posameznega uporabnika)"
 
 #: downloads/index.php:106
 msgid "Other Versions"
-msgstr "Outras versões"
+msgstr "Druge različice"
 
 #: downloads/index.php:107
 msgid "WinMerge 2.14.0 <em>for Windows 2000</em>"
-msgstr "WinMerge 2.14.0 <em>para o Windows 2000</em>"
+msgstr "WinMerge 2.14.0 <em>za Windows 2000</em>"
 
 #: downloads/index.php:108
 msgid ""
-"WinMerge version 2.14.0 was the last version to ship with Microsoft Visual C+"
-"+ 2008 runtimes that support Windows 2000."
+"WinMerge version 2.14.0 was the last version to ship with Microsoft Visual "
+"C++ 2008 runtimes that support Windows 2000."
 msgstr ""
-"A versão 2.14.0 do WinMerge foi a última versão a ser disponibilizada com o "
-"Microsoft Visual C++ 2008 a qual tem suporte ao Windows 2000."
+"Različica WinMerge 2.14.0 je bila zadnja različica, ki je bila objavljena z "
+"Microsoft Visual C++ 2008 s podporo za Windows 2000."
 
 #: downloads/index.php:110 downloads/index.php:115
 #, c-format
 msgid "Get version %s"
-msgstr "Obter a versão %s"
+msgstr "Pridobite različico %s"
 
 #: downloads/index.php:112
 msgid "WinMerge 2.12.4 <em>for Windows 95/98/ME/NT</em>"
-msgstr "WinMerge 2.12.4 <em>para Windows 95/98/ME/NT</em>"
+msgstr "WinMerge 2.12.4 <em>za Windows 95/98/ME/NT</em>"
 
 #: downloads/index.php:113
 msgid ""
-"WinMerge version 2.12.4 was the last version to ship with Microsoft Visual C+"
-"+ 2005 runtimes that support Windows 95/98/ME/NT. It was also the last "
+"WinMerge version 2.12.4 was the last version to ship with Microsoft Visual "
+"C++ 2005 runtimes that support Windows 95/98/ME/NT. It was also the last "
 "version to ship with an ANSI version of WinMerge."
 msgstr ""
-"A versão 2.12.4 do WinMerge foi a última versão a ser disponibilizada com o "
-"Microsoft Visual C++ 2005 a qual tem suporte ao Windows 95/98/ME/NT. Foi "
-"também a última versão a ser disponibilizada com uma versão ANSI do WinMerge."
+"Različica WinMerge 2.12.4 je bila zadnja različica, ki je bila objavljena z "
+"Microsoft Visual C++ 2005 s podporo za Windows 95/98/ME/NT. To je bila tudi "
+"zadnja različica, ki je bila objavljena z ANSI različico WinMerge."
 
 #: downloads/index.php:117
 msgid "Unofficial Versions"
-msgstr "Versões não oficiais"
+msgstr "Neuradne različice"
 
 #: downloads/index.php:120
 msgid "Continuous Integration Builds"
-msgstr "Compilações de integração contínua"
+msgstr "Stalna integracija izgradenj"
 
 #: downloads/index.php:121
 msgid "WinMerge Portable"
-msgstr "WinMerge Portátil"
+msgstr "Prenosni WinMerge"
 
 #: downloads/index.php:121
 msgid "(by PortableApps.com)"
-msgstr "(por PortableApps.com)"
+msgstr "(avtor PortableApps.com)"
 
 #: downloads/index.php:142 index.php:86
 msgid "Y-m-d"
-msgstr "Y-m-d"
+msgstr "L-m-d"
 
 #: downloads/index.php:144
 msgid "View all file releases&hellip;"
-msgstr "Ver todos os lançamentos de ficheiros&hellip;"
+msgstr "Oglejte si vse izdaje datotek&hellip;"
 
 #: downloads/index.php:148
 msgid "Stable Versions"
-msgstr "Versões estáveis"
+msgstr "Stabilne različice"
 
 #: downloads/index.php:149
 msgid "Beta Versions"
-msgstr "Versões beta"
+msgstr "Različice Beta"
 
 #: downloads/index.php:150
 msgid "Experimental Builds"
-msgstr "Compilações experimentais"
+msgstr "Poskusne izgradnje"
 
 #: downloads/index.php:151
 msgid "All File Releases"
-msgstr "Todas os ficheiros de lançamento"
+msgstr "Vse izdaje datotek"
 
 #: engine/engine.inc:20
 msgid "Basque"
-msgstr "Basco"
+msgstr "Baskovščina"
 
 #: engine/engine.inc:21
 msgid "Catalan"
-msgstr "Catalão"
-
-#: engine/engine.inc:22
-msgid "Corsican"
-msgstr "Córsego"
+msgstr "Katalonščina"
 
 #: engine/engine.inc:23
 msgid "Dutch"
-msgstr "Neerlandês"
+msgstr "Nizozemščina"
 
 #: engine/engine.inc:24
 msgid "Greek"
-msgstr "Grego"
+msgstr "Grščina"
 
 #: engine/engine.inc:25
 msgid "German"
-msgstr "Alemão"
+msgstr "Nemščina"
 
 #: engine/engine.inc:26
 msgid "French"
-msgstr "Francês"
+msgstr "Francoščina"
 
 #: engine/engine.inc:28
 msgid "Polish"
-msgstr "Polaco"
+msgstr "Poljščina"
 
 #: engine/engine.inc:29
 msgid "Portuguese (Brazil)"
-msgstr "Português (Brasil)"
+msgstr "Portugalščina (Brazil)"
 
 #: engine/engine.inc:30
 msgid "Portuguese (Portugal)"
-msgstr "Português (Portugal)"
+msgstr "Portugalščina"
 
 #: engine/engine.inc:31
 msgid "Russian"
-msgstr "Russo"
+msgstr "Ruščina"
 
 #: engine/engine.inc:32
 msgid "Spanish"
-msgstr "Espanhol"
+msgstr "Španščina"
 
 #: engine/engine.inc:33
 msgid "Spanish (Venezuela)"
-msgstr "Espanhol (Venezuela)"
-
-#: engine/engine.inc:34
-msgid "Slovenian"
-msgstr "Esloveno"
+msgstr "Španščina (Venezuela)"
 
 #: engine/engine.inc:35
 msgid "Swedish"
-msgstr "Sueco"
+msgstr "Švedščina"
 
 #: engine/engine.inc:36
 msgid "Turkish"
-msgstr "Turco"
+msgstr "Turščina"
 
 #: engine/page.inc:128 engine/page.inc:171
 msgid "You will see the difference…"
-msgstr "Verá a diferença…"
+msgstr "Videli boste razliko…"
 
 #: engine/page.inc:193
 msgid "Change Language"
-msgstr "Alterar idioma"
+msgstr "Spremeni jezik"
 
 #: engine/page.inc:210
 msgid "Project Pages"
-msgstr "Páginas do projeto"
+msgstr "Strani projekta"
 
 #: engine/page.inc:213
 msgid "Archive"
-msgstr "Arquivo"
+msgstr "Arhiv"
 
 #: engine/page.inc:217 support/index.php:25
 msgid "Donate"
-msgstr "Doação"
+msgstr "Darujte"
 
 #: engine/page.inc:297
 #, c-format
 msgid "Version %1$s; %2$s MB"
-msgstr "Versão %1$s; %2$s MB"
+msgstr "Različica %1$s; %2$s MB"
 
 #: engine/page.inc:303
 msgid "Download Now!"
-msgstr "Transferir agora!"
+msgstr "Prenesi zdaj!"
 
 #: engine/page.inc:342
 msgid "Home"
-msgstr "Início"
+msgstr "Domov"
 
 #: engine/page.inc:342
 msgid "WinMerge Home"
-msgstr "Página inicial do WinMerge"
+msgstr "Domov na WinMerge"
 
 #: engine/page.inc:343
 msgid "WinMerge Documentation"
-msgstr "Documentação do WinMerge"
+msgstr "Dokumentacija WinMerge"
 
 #: engine/page.inc:344
 msgid "WinMerge Downloads"
-msgstr "Transferências do WinMerge"
+msgstr "Prenosi WinMerge"
 
 #: engine/page.inc:345
 msgid "WinMerge Screenshots"
-msgstr "Capturas de ecrã do WinMerge"
+msgstr "Posnetki zaslona WinMerge"
 
 #: engine/page.inc:346
 msgid "WinMerge Source Code"
-msgstr "Código fonte do WinMerge"
+msgstr "Izvorna koda WinMerge"
 
 #: engine/page.inc:347
 msgid "WinMerge Support"
-msgstr "Suporte do WinMerge"
+msgstr "Podpora WinMerge"
 
 #: engine/page.inc:348
 msgid "WinMerge Translations"
-msgstr "Traduções do WinMerge"
+msgstr "Prevodi WinMerge"
 
 #: index.php:6
 msgid ""
@@ -536,9 +526,9 @@ msgid ""
 "WinMerge can compare both folders and files, presenting differences in a "
 "visual text format that is easy to understand and handle."
 msgstr ""
-"O WinMerge é uma ferramenta de código aberto de diferenciação e fusão para o "
-"Windows. O WinMerge pode comparar tanto pastas como ficheiros, apresentando "
-"diferenças num formato de texto visual que é fácil de compreender e lidar."
+"WinMerge je odprtokodno orodje za ločevanje in združevanje v sistemu "
+"Windows. WinMerge lahko primerja dve mapi in datoteki, predstavlja razlike v"
+" obliki vidnega besedila, ki je enostavno za razumevanje in upravljanje."
 
 #: index.php:7
 msgid ""
@@ -546,18 +536,18 @@ msgid ""
 "utility, text, file, folder, directory, compare files, compare folders, "
 "merge files, merge folders, diff tool, merge tool, compare tool"
 msgstr ""
-"WinMerge, gratuito, código aberto, Windows, windiff, diff, fundir, comparar, "
-"ferramenta, utilitário, texto, ficheiro, pasta, diretório, comparar "
-"ficheiros, comparar pastas, fundir ficheiros, fundir pastas, ferramenta "
-"diff, ferramenta de fundir, ferramenta de comparação"
+"WinMerge, brezplačno, odprtokodno, Windows, windiff, razl., združitev, "
+"primerjava, orodje, pripomoček, besedilo, datoteka, mapa, imenik, primerjava"
+" datotek, primerjava map, spajanje datotek, spajanje map, orodje za "
+"razlikovanje, orodje za združevanje, orodje za primerjavo"
 
 #: index.php:8 index.php:78
 msgid "Project News"
-msgstr "Notícias do Projeto"
+msgstr "Novice o projektu"
 
 #: index.php:12
 msgid "What is WinMerge?"
-msgstr "O que é o WinMerge?"
+msgstr "Kaj je WinMerge?"
 
 #: index.php:13
 #, c-format
@@ -566,75 +556,74 @@ msgid ""
 "for Windows. WinMerge can compare both folders and files, presenting "
 "differences in a visual text format that is easy to understand and handle."
 msgstr ""
-"O WinMerge é uma ferramenta de <a href=\"%s\">código aberto</a> de "
-"diferenciação e fusão para o Windows. O WinMerge pode comparar tanto pastas "
-"como ficheiros, apresentando diferenças num formato de texto visual que é "
-"fácil de compreender e lidar."
+"WinMerge je <a href=\"%s\">odprtokodno</a> orodje za ločevanje in "
+"združevanje v sistemu Windows. WinMerge lahko primerja dve mapi in datoteki,"
+" predstavlja razlike v obliki vidnega besedila, ki je enostavno za "
+"razumevanje in upravljanje."
 
 #: index.php:15
 msgid "Screenshot"
-msgstr "Captura de ecrã"
+msgstr "Posnetki zaslona"
 
 #: index.php:17 screenshots/index.php:11 screenshots/index.php:12
 msgid "File Comparison"
-msgstr "Comparação de ficheiros"
+msgstr "Primerjava datotek"
 
 #: index.php:19
 #, c-format
 msgid "See the <a href=\"%s\">screenshots page</a> for more screenshots."
 msgstr ""
-"Consulte a <a href=\"%s\">página das capturas de ecrã</a> para mais imagens."
+"Za več posnetkov zaslona glejte <a href=\"%s\">stran s posnetki zaslona</a>."
 
 #: index.php:21
 msgid "Features"
-msgstr "Funcionalidades"
+msgstr "Funkcije"
 
 #: index.php:22
 msgid ""
 "WinMerge is highly useful for determining what has changed between project "
-"versions, and then merging changes between versions. WinMerge can be used as "
-"an external differencing/merging tool or as a standalone application."
+"versions, and then merging changes between versions. WinMerge can be used as"
+" an external differencing/merging tool or as a standalone application."
 msgstr ""
-"O WinMerge é altamente útil para determinar o que mudou entre versões de "
-"projetos, e depois fundir as alterações entre versões. O WinMerge pode ser "
-"utilizado como uma ferramenta externa de diferenciação/fusão ou como uma "
-"aplicação autónoma."
+"WinMerge je zelo koristen za ugotavljanje sprememb med različicami projekta "
+"in nato za združitev sprememb med različicami. WinMerge se lahko uporablja "
+"kot zunanje orodje za ločevanje/združevanje ali kot samostojna aplikacija."
 
 #: index.php:23
 msgid ""
 "In addition, WinMerge has many helpful supporting features that make "
 "comparing, synchronising, and merging as easy and useful as possible:"
 msgstr ""
-"Além disso, o WinMerge tem muitas funcionalidades de suporte úteis que "
-"tornam a comparação, sincronização e fusão tão fácil e útil quanto possível:"
+"Poleg tega ima WinMerge številne koristne podporne funkcije, ki omogočajo "
+"primerjavo, sinhronizacijo in združevanje, kar se da enostavno in uporabno:"
 
 #: index.php:25
 msgid "General"
-msgstr "Geral"
+msgstr "Splošno"
 
 #: index.php:27
 msgid "Supports Microsoft Windows XP SP3 or newer"
-msgstr "Suporta o Microsoft Windows XP SP3 ou mais recente"
+msgstr "Podpira Microsoft Windows XP SP3 ali novejši OS"
 
 #: index.php:28
 msgid "Handles Windows, Unix and Mac text file formats"
-msgstr "Maneja os formatos de ficheiro de texto do Windows, Unix e Mac"
+msgstr "Obravnava formate besedilnih datotek Windows, Unix in Mac"
 
 #: index.php:29
 msgid "Unicode support"
-msgstr "Suporte a Unicode"
+msgstr "Podpira Unicode("
 
 #: index.php:30
 msgid "Tabbed interface"
-msgstr "Interface com separadores"
+msgstr "Vmesnik z zavihki"
 
 #: index.php:32
 msgid "File Compare"
-msgstr "Comparação de ficheiros"
+msgstr "Primerjava datotek"
 
 #: index.php:34 screenshots/index.php:15 screenshots/index.php:16
 msgid "3-way File Comparison"
-msgstr "Comparação de ficheiros de 3 vias"
+msgstr "Primerjava 3-datotek"
 
 #: index.php:34 index.php:50 index.php:56
 msgid "New!"
@@ -642,127 +631,127 @@ msgstr "Novo!"
 
 #: index.php:35
 msgid "Visual differencing and merging of text files"
-msgstr "Diferenciação e fusão visual de ficheiros de texto"
+msgstr "Vidno ločevanje in združevanje besedilnih datotek"
 
 #: index.php:36
 msgid "Flexible editor with syntax highlighting, line numbers and word-wrap"
-msgstr "Editor flexível com realce de sintaxe, números e mudança de linha"
+msgstr ""
+"Prilagodljiv urejevalnik z označevanjem sintakse, številkami vrstic in "
+"prelomom besed"
 
 #: index.php:37
 msgid "Highlights differences inside lines"
-msgstr "Diferenças realçadas dentro das linhas"
+msgstr "Označuje razlike med vrsticami"
 
 #: index.php:38
 msgid "Difference pane shows current difference in two vertical panes"
-msgstr ""
-"O painel de diferenças mostra a diferença atual em dois painéis verticais"
+msgstr "Podokno razlike prikazuje trenutno razliko v dveh navpičnih podoknih"
 
 #: index.php:39
 msgid "Location pane shows map of files compared"
-msgstr "Painel de localização mostra mapa de ficheiros comparados"
+msgstr "Lokacijsko podokno prikazuje zemljevid primerjanih datotek"
 
 #: index.php:40
 msgid "Moved lines detection"
-msgstr "Deteção de linhas movidas"
+msgstr "Zaznavanje premaknjenih vrstic"
 
 #: index.php:42
 msgid "Folder Compare"
-msgstr "Comparação de pastas"
+msgstr "Primerjava map"
 
 #: index.php:44
 msgid ""
 "Regular Expression based file filters allow excluding and including items"
 msgstr ""
-"Expressão regular baseada nos filtros de ficheiro permite excluir e incluir "
-"itens"
+"Filtri datotek, ki temeljijo na regularnem izrazu, omogočajo izključitev in "
+"vključitev vnosov"
 
 #: index.php:45
 msgid "Fast compare using file sizes and dates"
-msgstr "Comparação rápida utilizando os tamanhos e datas do ficheiro"
+msgstr "Hitro primerjanje z uporabo velikosti datotek in datumov"
 
 #: index.php:46
 msgid "Compares one folder or includes all subfolders"
-msgstr "Compara uma pasta ou inclui todas as subpastas"
+msgstr "Primerja eno mapo ali vključuje vse podmape"
 
 #: index.php:47
 msgid "Can show folder compare results in a tree-style view"
-msgstr ""
-"Pode mostrar resultados de comparação de pastas numa vista em estilo de "
-"árvore"
+msgstr "Lahko prikaže rezultate primerjave map v drevesnem slogu prikaza"
 
 #: index.php:48
 msgid "3-way Folder Comparison"
-msgstr "Comparação de pastas de 3 vias"
+msgstr "Primerjava 3-map"
 
 #: index.php:50
 msgid "Image Compare"
-msgstr "Comparação de imagens"
+msgstr "Primerjava slik"
 
 #: index.php:52
 msgid "Support many types of images"
-msgstr "Suporta muitos tipos de imagens"
+msgstr "Podpira številne vrste slik"
 
 #: index.php:53
 msgid "Can highlight the differences with blocks"
-msgstr "Pode destacar as diferenças com blocos"
+msgstr "Lahko označi razlike z bloki"
 
 #: index.php:54
 msgid "Overlaying of the pictures is possible"
-msgstr "A sobreposição das imagens é possível"
+msgstr "Možno je prekrivanje slik"
 
 #: index.php:56
 msgid "Table Compare"
-msgstr "Comparação de tabelas"
+msgstr "Primerjava tabel"
 
 #: index.php:58
 msgid "Shows CSV/TSV file contents in table format"
-msgstr "Mostra o conteúdo de ficheiros CSV/TSV em formato de tabela"
+msgstr "Prikaže vsebino datotek CSV/TSV v obliki tabele"
 
 #: index.php:59
 msgid "Text can be wrapped for each column"
-msgstr "O texto pode ser ajustado para cada coluna"
+msgstr "Besedilo je mogoče prelomiti za vsak stolpec"
 
 #: index.php:61
 msgid "Version Control"
-msgstr "Controlo de versões"
+msgstr "Spremljanje različic"
 
 #: index.php:63
 msgid "Creates patch files (Normal-, Context- and Unified formats)"
-msgstr "Cria ficheiros de correção (formatos Normal-, Contextual- e Unificado)"
+msgstr ""
+"Ustvari datoteke popravkov (običajni, kontekstni in poenoteni formati)"
 
 #: index.php:64
 msgid "Resolve conflict files"
-msgstr "Resolver ficheiros em conflito"
+msgstr "Reši datoteke, ki so v sporu"
 
 #: index.php:66
 msgid "Other"
-msgstr "Outros"
+msgstr "Drugo"
 
 #: index.php:68
 msgid "Shell Integration (supports 64-bit Windows versions)"
-msgstr "Integração da Shell (suporta versões do Windows de 64 bits)"
+msgstr "Integracija lupine (podpira 64-bitne različice sistema Windows)"
 
 #: index.php:69
 msgid "Archive file support using 7-Zip"
-msgstr "Suporte de ficheiros de arquivo usando o 7-Zip"
+msgstr "Podpira arhivskih datoteke z uporabo 7-Zip"
 
 #: index.php:70
 msgid "Plugin support"
-msgstr "Suporte de Plugins"
+msgstr "Podpora vtičnikov"
 
 #: index.php:71
 msgid "Localizable interface"
-msgstr "Interface localizável"
+msgstr "Večjezičnih vmesnik"
 
 #: index.php:72
 #, c-format
 msgid "<a href=\"%s\">Online manual</a> and installed HTML Help manual"
-msgstr "<a href=\"%s\">Manual Online</a> e manual de Ajuda HTML instalado"
+msgstr "<a href=\"%s\">Spletni priročnik</a> in nameščena Pomoč HTML"
 
 #: index.php:75
 #, c-format
 msgid "WinMerge %s - latest stable version"
-msgstr "WinMerge %s - última versão estável"
+msgstr "WinMerge %s - zadnja stabilna različica"
 
 #: index.php:76
 #, c-format
@@ -770,12 +759,12 @@ msgid ""
 "<a href=\"%1$s\">WinMerge %2$s</a> is the latest stable version, and is "
 "recommended for most users."
 msgstr ""
-"<a href=\"%1$s\">WinMerge %2$s</a> é a última versão estável, e é "
-"recomendada para a maioria dos utilizadores."
+"<a href=\"%1$s\">WinMerge %2$s</a> je najnovejša stabilna različica in je "
+"priporočljiva za večino uporabnikov."
 
 #: index.php:88
 msgid "View all news&hellip;"
-msgstr "Ver todas as notícias&hellip;"
+msgstr "Oglejte si vse novice&hellip;"
 
 #: index.php:92
 #, c-format
@@ -783,48 +772,47 @@ msgid ""
 "If you need support, look at our <a href=\"%s\">support page</a> for more "
 "information how you can get it."
 msgstr ""
-"Se precisar de suporte, consulte a nossa <a href=\"%s\">página de suporte</"
-"a> para mais informação sobre como o pode obter."
+"Če potrebujete podporo, si oglejte našo <a href=\"%s\">stran za podporo</a> "
+"za več informacij, kako jih lahko dobite."
 
 #: index.php:94
 msgid "Developers"
-msgstr "Programadores"
+msgstr "Razvijalci"
 
 #: index.php:95
 msgid ""
 "WinMerge is an open source project, which means that the program is "
 "maintained and developed by volunteers."
 msgstr ""
-"O WinMerge é um projeto de código aberto, o que significa que o programa é "
-"mantido e desenvolvido por voluntários."
+"WinMerge je odprtokodni projekt, kar pomeni, da program vzdržujejo in "
+"razvijajo prostovoljci."
 
 #: index.php:96
 #, c-format
 msgid ""
 "In addition, WinMerge is translated into a number of different languages. "
-"See our <a href=\"%s\">information on translating WinMerge</a> into your own "
-"language."
+"See our <a href=\"%s\">information on translating WinMerge</a> into your own"
+" language."
 msgstr ""
-"Além disso, o WinMerge está traduzido para vários idiomas. Consulte a <a "
-"href=\"%s\">nossa informação sobre a tradução do WinMerge</a> para o seu "
-"próprio idioma."
+"Poleg tega je WinMerge preveden v številne različne jezike. Oglejte si naše "
+"podatke o <a href=\"%s\">prevajanju WinMerge</a> v vaš jezik."
 
 #: screenshots/index.php:5
 msgid ""
 "Screenshots from WinMerge features like file comparison, folder comparison "
 "results and location pane."
 msgstr ""
-"Capturas de ecrã das funcionalidades do WinMerge, como, comparação de "
-"ficheiros, comparação de pastas, painel de resultados e localização."
+"Posnetki zaslona funkcij WinMerge, kot so primerjava datotek, rezultati "
+"primerjave map in podokno lokacije."
 
 #: screenshots/index.php:6
 msgid ""
 "WinMerge, screenshots, file comparison, open-dialog, folder comparison "
 "results, highlight line diff, location pane, splash screen"
 msgstr ""
-"WinMerge, capturas de ecrã, comparação de ficheiros, janela de abrir, "
-"resultados da comparação de pastas, diferença de linhas de realce, painel de "
-"localização, ecrã de arranque"
+"WinMerge, posnetki zaslona, primerjava datotek, pogovorno okno 'Odpri', "
+"rezultati primerjave map, označevanje razlike med vrsticami, podokno "
+"lokacije, začetni zaslon"
 
 #: screenshots/index.php:13
 msgid ""
@@ -832,37 +820,37 @@ msgid ""
 "horizontal panes. Editing allows user to easily do small changes without "
 "need to open files to other editor or development environment."
 msgstr ""
-"A janela de comparação de ficheiros é basicamente dois ficheiros abertos no "
-"editor em dois painéis horizontais. A edição permite ao utilizador fazer "
-"facilmente pequenas alterações sem necessidade de abrir ficheiros noutro "
-"editor ou ambiente de desenvolvimento."
+"Okno za primerjavo datotek je v bistvu prikaz dveh datotek, odprtih za "
+"urejanje v dveh vodoravnih podoknih. Urejanje omogoča uporabniku, da z "
+"lahkoto naredi majhne spremembe, ne da bi morali datoteke odpirati v drugem "
+"urejevalniku ali razvojnem okolju."
 
 #: screenshots/index.php:17
 msgid ""
 "The 3-way file compare even allows comparing and editing three files at the "
 "same time."
 msgstr ""
-"A comparação de ficheiros de 3 vias permite até comparar e editar três "
-"ficheiros ao mesmo tempo."
+"Primerjava treh datotek omogoča celo primerjavo in urejanje treh datotek "
+"hkrati."
 
 #: screenshots/index.php:19 screenshots/index.php:20
 msgid "Folder Comparison Results"
-msgstr "Resultados da comparação de pastas"
+msgstr "Rezultati primerjave map"
 
 #: screenshots/index.php:21
 msgid ""
-"Folder compare shows all files and subfolders found from compared folders as "
-"list. Folder compare allows synchronising folders by copying and deleting "
+"Folder compare shows all files and subfolders found from compared folders as"
+" list. Folder compare allows synchronising folders by copying and deleting "
 "files and subfolders. Folder compare view can be versatile customised."
 msgstr ""
-"A comparação de pastas mostra todos os ficheiros e subpastas encontrados a "
-"partir de pastas comparadas como lista. A comparação de pastas permite "
-"sincronizar pastas através da cópia e eliminação de ficheiros e subpastas. A "
-"vista de comparação de pastas pode ser personalizada de forma versátil."
+"Primerjava map prikaže v obliki seznama vse datoteke in podmape, najdene iz "
+"primerjanih map. Primerjava map omogoča sinhronizacijo map s kopiranjem in "
+"brisanjem datotek in podmap. Prikaz primerjave map je lahko vsestransko "
+"prilagojen."
 
 #: screenshots/index.php:23 screenshots/index.php:24
 msgid "Folder Compare Tree View"
-msgstr "Visualização em árvore de comparação de pastas"
+msgstr "Drevesni prikaz primerjave map"
 
 #: screenshots/index.php:25
 msgid ""
@@ -871,194 +859,146 @@ msgid ""
 "directory structures. <em>The tree view is available only in recursive "
 "compares."
 msgstr ""
-"Na vista em árvore, as pastas são expansíveis e dobráveis, contendo "
-"ficheiros e subpastas. Isto é útil para uma navegação mais fácil em "
-"estruturas de diretórios profundamente reduzidas. A vista em árvore está "
-"disponível apenas em comparações recursivas."
+"V drevesnem prikazu so mape razširljive in zložljive, vsebujejo datoteke in "
+"podmape. To je koristno za lažje krmarjenje v globoko ugnezdenih strukturah "
+"map. <em> Drevesni prikaz je na voljo samo v rekurzivnih primerjavah."
 
 #: screenshots/index.php:27 screenshots/index.php:28
 msgid "Image Comparison"
-msgstr "Comparação de imagens"
+msgstr "Primerjava slik"
 
 #: screenshots/index.php:29
 msgid ""
 "WinMerge can compare images and highlight the differences in several ways."
-msgstr ""
-"O WinMerge pode comparar imagens e realçar as diferenças de várias maneiras."
+msgstr "WinMerge lahko primerja slike in na več načinov označuje razlike."
 
 #: screenshots/index.php:31 screenshots/index.php:32
 msgid "Table Comparison"
-msgstr "Comparação de tabelas"
+msgstr "Primerjava tabel"
 
 #: screenshots/index.php:33
 msgid "Table compare shows the contents of CSV/TSV files in table format."
-msgstr ""
-"A comparação de tabelas mostra o conteúdo dos ficheiros CSV/TSV no formato "
-"de tabela."
+msgstr "Primerjava tabel prikazuje vsebino datotek CSV/TSV v obliki tabele."
 
 #: screenshots/index.php:35 screenshots/index.php:36
 msgid "Binary Comparison"
-msgstr "Comparação binária"
+msgstr "Dvojiška primerjava"
 
 #: screenshots/index.php:37
 msgid ""
 "WinMerge can detect whether files are in text or binary format. When you "
-"launch a file compare operation on binary files, WinMerge opens each file in "
-"the binary file editor."
+"launch a file compare operation on binary files, WinMerge opens each file in"
+" the binary file editor."
 msgstr ""
-"O WinMerge pode detetar se os ficheiros estão em formato de texto ou "
-"binário. Quando inicia uma operação de comparação de ficheiros em ficheiros "
-"binários, o WinMerge abre cada ficheiro no editor de ficheiros binários."
+"WinMerge lahko zazna ali so datoteke v besedilnem ali dvojiškem formatu. Ko "
+"zaženete operacijo primerjave datotek na dvojiških datotekah, WinMerge odpre"
+" vsako datoteko v urejevalniku dvojiških datotek."
 
 #: screenshots/index.php:39 screenshots/index.php:40
 msgid "Open-dialog"
-msgstr "Janela de abrir"
+msgstr "Pogovorno okno 'Odpri'"
 
 #: screenshots/index.php:41
 msgid ""
 "WinMerge allows selecting/opening paths in several ways. Using the Open-"
 "dialog is just one of them."
 msgstr ""
-"O WinMerge permite a selecionar/abrir localizações de várias maneiras. A "
-"utilização da Janela de abrir, é apenas uma delas."
+"WinMerge omogoča izbiro/odpiranje poti na več načinov. Uporaba pogovornega "
+"okna 'Odpri' je le eden izmed njih."
 
 #: source-code/index.php:8
 msgid ""
 "Download the source code of WinMerge, which is released under the GNU "
 "General Public License."
 msgstr ""
-"Transfira o código fonte do WinMerge, que é lançado sob a Licença Pública "
-"Geral GNU."
+"Prenesite izvorno kodo WinMerge, ki je izdana pod splošno javno licenco GNU."
 
 #: source-code/index.php:9
 msgid "WinMerge, free, clone, download, source code, GPL, GitHub, Git"
-msgstr "WinMerge, free, clone, download, source code, GPL, GitHub, Git"
+msgstr "WinMerge, brezplačno, klon, prenos, izvorna koda, GPL, GitHub, Git"
 
 #: source-code/index.php:10 source-code/index.php:57
 msgid "Recent Commits"
-msgstr "Submissões recentes"
+msgstr "Nedavno storjeno"
 
 #: source-code/index.php:15
 #, c-format
 msgid ""
-"WinMerge is <a href=\"%1$s\">Open Source</a> software under the <a href="
-"\"%2$s\">GNU General Public License</a>."
+"WinMerge is <a href=\"%1$s\">Open Source</a> software under the <a "
+"href=\"%2$s\">GNU General Public License</a>."
 msgstr ""
-"O WinMerge é um software de <a href=\"%1$s\">código aberto</a> sob os termos "
-"da <a href=\"%2$s\">Licença Pública Geral GNU</a>."
+"WinMerge je <a href=\"%1$s\">odprtokodni</a> program pod <a "
+"href=\"%2$s\">Splošno javno licenco GNU</a>."
 
 #: source-code/index.php:15
 #, c-format
 msgid ""
-"This means everybody can download the <a href=\"%s\">source code</a> and "
-"improve and modify it.\n"
-"The only thing we ask is that people submit their improvements and "
-"modifications back to us so that all WinMerge users may benefit."
+"This means everybody can download the <a href=\"%s\">source code</a> and improve and modify it.\n"
+"The only thing we ask is that people submit their improvements and modifications back to us so that all WinMerge users may benefit."
 msgstr ""
-"Isto significa que todos podem transferir o <a href=\"%s\">código fonte</a>, "
-"melhorá-lo e modificá-lo.\n"
-"A única coisa que pedimos é que as pessoas nos enviem as suas melhorias e "
-"modificações para que todos os utilizadores do WinMerge possam beneficiar."
+"To pomeni, da lahko vsakdo prenese <a href=\"%s\">izvorno kodo</a>  ter jo izboljša in spremeni.\n"
+"Edino, kar zahtevamo je, da nam ljudje svoje izboljšave in modifikacije pošljejo nazaj, tako da bodo imeli koristi vsi uporabniki WinMerge."
 
 #: source-code/index.php:19
 msgid "GNU General Public License"
-msgstr "Licença Pública Geral - GNU"
+msgstr "GNU Splošna javna licenca"
 
 #: source-code/index.php:34
 msgid "Clone or download"
-msgstr "Clonar ou transferir"
+msgstr "Kloniraj ali prenesi"
 
 #: source-code/index.php:35
 #, c-format
 msgid ""
-"The source code is hosted on <a href=\"%1$s\">GitHub</a> in a <a href=\"%2$s"
-"\">Git</a> repository:"
+"The source code is hosted on <a href=\"%1$s\">GitHub</a> in a <a "
+"href=\"%2$s\">Git</a> repository:"
 msgstr ""
-"O código-fonte está alojado no <a href=\"%1$s\">GitHub</a> num repositório <a "
-"href=\"%2$s\">Git</a>:"
+"Izvorna koda gostuje na <a href=\"%1$s\">GitHub</a> v <a "
+"href=\"%2$s\">Git</a> odlagališču:"
 
 #: source-code/index.php:38
 msgid "You can also download the current branches as ZIP file:"
-msgstr "Também pode transferir os ramos (branches) atuais como ficheiro ZIP:"
+msgstr "Trenutne veje lahko prenesete tudi kot ZIP datoteko:"
 
 #: source-code/index.php:44
 msgid "Branch"
-msgstr "Branch"
+msgstr "Veja"
 
 #: source-code/index.php:66
 msgid "Y-m-d H:i"
-msgstr "Y-m-d H:i"
+msgstr "L-m-d U:i"
 
 #: source-code/index.php:69
 msgid "View all commits&hellip;"
-msgstr "Ver todos as submissões&hellip;"
-
-#: support/index.php:5
-msgid "The Open Discussion forum is the fastest way to get help."
-msgstr "O fórum de discussão aberta é a forma mais rápida de obter ajuda."
-
-#: support/index.php:6
-msgid ""
-"WinMerge, support, discussion forums, tracker, donate, bugs, support "
-"requests, patches, feature requests, todo, open source"
-msgstr ""
-"WinMerge, suporte, fóruns de discussão, rastreador, doar, erros, pedidos de "
-"suporte, correções, pedidos de funcionalidades, afazer, código aberto"
-
-#: support/index.php:10
-msgid "The <b>Discussion forums</b> are the fastest way to get help:"
-msgstr ""
-"Os <b>fóruns de discussão</b> são a maneira mais rápida de obter ajuda:"
-
-#: support/index.php:13
-msgid "WinMerge discussions"
-msgstr "Discussões do WinMerge"
-
-#: support/index.php:14
-msgid "Image Compare discussions"
-msgstr "Discussões de comparação de imagens"
-
-#: support/index.php:15
-msgid "Website discussions"
-msgstr "Discussões do Website"
-
-#: support/index.php:17
-msgid "Please be patient, it may take some time for somebody to answer."
-msgstr ""
-"Por favor, seja paciente, pode levar algum tempo até que alguém responda."
-
-#: support/index.php:19
-msgid "Issues"
-msgstr "Problemas"
+msgstr "Oglejte si vse storjeno&hellip;"
 
 #: support/index.php:20
 #, c-format
 msgid "If you find a bug, please submit it as a <a href=\"%s\">issue</a>."
 msgstr ""
-"Se encontrar um erro (bug), por favor submeta-o como um <a href=\"%s"
-"\">problema</a>."
+"Če naletite na programsko napako, nam jo prijavite in pošljite kot <a "
+"href=\"%s\">težavo</a>."
 
 #: support/index.php:21
 msgid ""
 "Please attach as much information as you can: at a minimum, the version "
 "number of WinMerge that you are using. If you can, also attach a "
-"configuration log which, you can display by clicking <span class=\"guimenu"
-"\">Help</span> &#8594; <span class=\"guimenuitem\">Configuration</span> in "
-"the WinMerge window."
+"configuration log which, you can display by clicking <span "
+"class=\"guimenu\">Help</span> &#8594; <span "
+"class=\"guimenuitem\">Configuration</span> in the WinMerge window."
 msgstr ""
-"Anexar o máximo de informação possível: no mínimo, o número de versão do "
-"WinMerge que está a utilizar. Se puder, também anexe um registo de "
-"configuração que pode ser exibido ao clicar em <span class=\"guimenu"
-"\">Ajuda</span> → <span class=\"guimenuitem\">Configuração</span> na janela "
-"do WinMerge."
+"Priložite čim več podatkov: vsaj številko različice WinMerge, ki jo "
+"uporabljate. Če lahko, priložite tudi Dnevnik nastavitev, ki ga lahko "
+"prikažete s klikom na <span class=\"guimenu\">Pomoč</span> &#8594; <span "
+"class=\"guimenuitem\">Nastavitve</span> v oknu WinMerge."
 
 #: support/index.php:22
 msgid ""
 "Good information in a bug report makes it more likely that your bug will be "
 "fixed quickly."
 msgstr ""
-"Uma boa informação num relatório de erros (bugs) torna mais provável que o "
-"seu erro (bug) seja corrigido rapidamente."
+"Zaradi dobrih informacij v prijavi programskih napak je verjetneje, da bo "
+"vaša napaka hitro odpravljena."
 
 #: support/index.php:23
 #, c-format
@@ -1066,8 +1006,8 @@ msgid ""
 "Wish list items on the <a href=\"%s\">issues list</a> will also be "
 "considered, but we make absolutely no promises."
 msgstr ""
-"Os itens da lista de desejos na <a href=\"%s\">lista de problemas</a> também "
-"serão considerados, mas não fazemos absolutamente nenhuma promessa."
+"Upoštevali bomo tudi vnose seznama želja na <a href=\"%s\">Seznamu težav</a>"
+" vendar ne dajemo popolnoma nobenih obljub."
 
 #: support/index.php:26
 #, c-format
@@ -1075,8 +1015,8 @@ msgid ""
 "Since WinMerge is an <a href=\"%s\">Open Source</a> project, you may use it "
 "free of charge."
 msgstr ""
-"Porque o WinMerge é um projeto de <a href=\"%s\">Código aberto</a>, poderá "
-"utilizá-lo gratuitamente."
+"Ker je WinMerge <a href=\"%s\">odprtokodni</a> projekt, ga lahko uporabljate"
+" brezplačno."
 
 #: support/index.php:27
 #, c-format
@@ -1084,62 +1024,63 @@ msgid ""
 "But please consider making a <a href=\"%s\">donation</a> to support the "
 "continued development of WinMerge."
 msgstr ""
-"Mas considere fazer uma <a href=\"%s\">doação</a> para apoiar o "
-"desenvolvimento contínuo do WinMerge."
+"Prosimo, razmislite o <a href=\"%s\">darovanju</a> za podporo nadaljnjemu "
+"razvoju WinMerge."
 
 #: support/index.php:29
 msgid "Buy WinMerge merchandise"
-msgstr "Compre artigos do WinMerge"
+msgstr "Kupite blago WinMerge"
 
 #: support/index.php:30
 #, c-format
 msgid ""
-"You can also support WinMerge by buying merchandise at the <a href=\"%s"
-"\">WinMerge CafePress store</a>. 20%% of the sales goes to WinMerge."
+"You can also support WinMerge by buying merchandise at the <a "
+"href=\"%s\">WinMerge CafePress store</a>. 20%% of the sales goes to "
+"WinMerge."
 msgstr ""
-"Também pode apoiar o WinMerge, ao comprar artigos na <a href=\"%s\">loja "
-"WinMerge CafePress</a>. 20%% das vendas vão para o WinMerge."
+"WinMerge lahko podprete tudi z nakupom blaga v <a href=\"%s\">trgovini "
+"WinMerge CafePress</a>. 20%% prodaje gre WinMergeju."
 
 #: translations/index.php:6
 msgid "Translations Status"
-msgstr "Estado das traduções"
+msgstr "Stanje prevodov"
 
 #: translations/index.php:15 translations/index.php:36
 #: translations/status_website.php:14
 msgid "Translators"
-msgstr "Tradutores"
+msgstr "Prevajalci"
 
 #: translations/index.php:16
 msgid "WinMerge Status"
-msgstr "Estado do WinMerge"
+msgstr "Stanje WinMerge"
 
 #: translations/index.php:17
 msgid "ShellExtension Status"
-msgstr "Estado da ShellExtension"
+msgstr "Stanje Integracije lupine"
 
 #: translations/index.php:18 translations/index.php:45
 msgid "InnoSetup Files"
-msgstr "Ficheiros InnoSetup"
+msgstr "Datoteke InnoSetup"
 
 #: translations/index.php:19 translations/index.php:48
 msgid "Readme Files"
-msgstr "Ficheiros Readme"
+msgstr "Datoteke Readme"
 
 #: translations/index.php:20
 msgid "Website Status"
-msgstr "Estado do Website"
+msgstr "Stanje spletne strani"
 
 #: translations/index.php:21
 msgid "Instructions"
-msgstr "Instruções"
+msgstr "Navodila"
 
 #: translations/index.php:24
 msgid "Translating"
-msgstr "Tradução"
+msgstr "Prevajanje"
 
 #: translations/index.php:25
 msgid "We currently have WinMerge translated into the languages listed below:"
-msgstr "Temos atualmente o WinMerge traduzido para os idiomas listados abaixo:"
+msgstr "Trenutno je WinMerge preveden v spodaj navedene jezike:"
 
 #: translations/index.php:34
 #, c-format
@@ -1147,26 +1088,26 @@ msgid ""
 "If you would like to update any of these translations or add another "
 "translation, then please follow <a href=\"%s\">these instructions</a>."
 msgstr ""
-"Se desejar atualizar alguma destas traduções ou adicionar outra tradução, "
-"então siga <a href=\"%s\">estas instruções</a>."
+"Če želite posodobiti katerega koli od teh prevodov ali dodati drug prevod, "
+"sledite <a href=\"%s\">tem navodilom</a>."
 
 #: translations/index.php:39
 #, c-format
 msgid "WinMerge Status <em>from %s</em>"
-msgstr "Estado do WinMerge <em>em %s</em>"
+msgstr "Stanje WinMerge <em>od %s</em>"
 
 #: translations/index.php:42
 #, c-format
 msgid "ShellExtension Status <em>from %s</em>"
-msgstr "Estado da ShellExtension <em>em %s</em>"
+msgstr "Stanje Integracije lupine <em>od %s</em>"
 
 #: translations/index.php:52 translations/status_website.php:21
 msgid "The translations status is currently not available..."
-msgstr "O estado das traduções está de momento indisponível..."
+msgstr "Stanje prevodov trenutno ni na voljo..."
 
 #: translations/status_website.php:6 translations/status_website.php:8
 msgid "Translations Status (Website)"
-msgstr "Estado das traduções (Website)"
+msgstr "Stanje prevodov (spletna stran)"
 
 #: translations/status_website.php:9
 #, c-format
@@ -1174,78 +1115,123 @@ msgid ""
 "We moved the sources from the website to a own <a href=\"%1$s\">GitHub "
 "repository</a>."
 msgstr ""
-"Transferimos as fontes do website para um <a href=\"%1$s\">repositório "
-"GitHub</a> próprio."
+"Preselili smo vire s spletne strani v lastno <a href=\"%1$s\">odlagališče na"
+" GitHubu</a>."
 
 #: translations/status_website.php:17
 #, c-format
 msgid "Website Status <em>from %s</em>"
-msgstr "Estado do Website <em>em %s</em>"
+msgstr "Stanje spletne strani <em>od %s</em>"
 
 #: translations/translations.inc:31
 msgid "File not valid."
-msgstr "Ficheiro inválido."
+msgstr "Datoteka ni veljavna."
 
 #: translations/translations.inc:34
 msgid "File not found."
-msgstr "Ficheiro não encontrado."
+msgstr "Datoteka ni bila najdena."
 
 #: translations/translations.inc:74 translations/translations.inc:88
 #: translations/translations.inc:106
 msgid "Translated"
-msgstr "Traduzido"
+msgstr "Prevedeno"
 
 #: translations/translations.inc:74
 #, c-format
 msgid "Translated: %d%%"
-msgstr "Traduzido: %d%%"
+msgstr "Prevedeno: %d%%"
 
 #: translations/translations.inc:76 translations/translations.inc:89
 #: translations/translations.inc:107
 msgid "Fuzzy"
-msgstr "Incerto"
+msgstr "Nejasno"
 
 #: translations/translations.inc:76
 #, c-format
 msgid "Fuzzy: %d%%"
-msgstr "Incerto: %d%%"
+msgstr "Nejasno: %d%%"
 
 #: translations/translations.inc:78 translations/translations.inc:90
 #: translations/translations.inc:108
 msgid "Untranslated"
-msgstr "Não traduzido"
+msgstr "Neprevedeno"
 
 #: translations/translations.inc:78
 #, c-format
 msgid "Untranslated: %d%%"
-msgstr "Não traduzido: %d%%"
+msgstr "Neprevedeno: %d%%"
 
 #: translations/translations.inc:104 translations/translations.inc:330
 msgid "Language"
-msgstr "Idioma"
+msgstr "Jezik"
 
 #: translations/translations.inc:105
 msgid "Graph"
-msgstr "Gráfico"
+msgstr "Diagram"
 
 #: translations/translations.inc:109
 msgid "Last Update"
-msgstr "Última atualização"
+msgstr "Zadnja posodobitev"
 
 #: translations/translations.inc:150 translations/translations.inc:179
 #: translations/translations.inc:182
 msgid "Template"
-msgstr "Modelo"
+msgstr "Predloga"
 
 #: translations/translations.inc:153
 #, c-format
 msgid "Total: %d"
-msgstr "Total: %d"
+msgstr "Skupaj: %d"
 
 #: translations/translations.inc:156
 msgid "Total: Unknown"
-msgstr "Total: desconhecido"
+msgstr "Skupaj: neznano"
 
 #: translations/translations.inc:310
 msgid "Maintainer"
-msgstr "Responsável"
+msgstr "Vzdrževalec"
+
+#: engine/engine.inc:34
+msgid "Slovenian"
+msgstr "Slovenščina"
+
+#: support/index.php:5
+msgid "The Open Discussion forum is the fastest way to get help."
+msgstr "Forum 'Odprta razprava' je najhitrejši način za pomoč."
+
+#: support/index.php:6
+msgid ""
+"WinMerge, support, discussion forums, tracker, donate, bugs, support "
+"requests, patches, feature requests, todo, open source"
+msgstr ""
+"WinMerge, podpora, forumi za razprave, sledilnik, darovanje, napake, podpora"
+" zahtev, popravki, zahteve za funkcije, todo, odprtokodna"
+
+#: support/index.php:10
+msgid "The <b>Discussion forums</b> are the fastest way to get help:"
+msgstr "<b>Forumi za razprave</b> so najhitrejši način za pomoč:"
+
+#: support/index.php:13
+msgid "WinMerge discussions"
+msgstr "Razprave o WinMerge"
+
+#: support/index.php:14
+msgid "Image Compare discussions"
+msgstr "Razprave o primerjavah slik"
+
+#: support/index.php:15
+msgid "Website discussions"
+msgstr "Spletne razprave"
+
+#: support/index.php:17
+msgid "Please be patient, it may take some time for somebody to answer."
+msgstr ""
+"Bodite potrpežljivi. Morda bo trajalo nekaj časa, da bo nekdo odgovoril."
+
+#: support/index.php:19
+msgid "Issues"
+msgstr "Težave"
+
+#: engine/engine.inc:22
+msgid "Corsican"
+msgstr ""

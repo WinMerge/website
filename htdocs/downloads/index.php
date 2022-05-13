@@ -6,14 +6,14 @@
   $stablerelease = $page->getStableRelease();
   $page->setDescription(__('Download the current WinMerge version %1$s, which was released at %2$s. For detailed info on what is new, read the change log and the release notes.', $stablerelease->getVersionNumber(), $stablerelease->getDate()));
   $page->setKeywords(__('WinMerge, free, download, Windows, setup, installer, binaries, runtimes, stable, beta, experimental, portable'));
-  $page->addRssFeed('https://sourceforge.net/projects/winmerge/rss?path=/', __('Project File Releases'));
+  $page->addRssFeed('https://github.com/WinMerge/winmerge/releases.atom', __('Project File Releases'));
   $page->printHead(__('Download WinMerge'), TAB_DOWNLOADS, 'toggle(\'checksumslist\');');
   
   $page->printHeading(__('Download WinMerge'));
   $page->printPara(__('The easiest way to install WinMerge is to download and run the Installer. Read the <a href="%s">online manual</a> for help using it.', 'https://manual.winmerge.org/en/Install.html'));
   $page->printSubHeading(__('WinMerge %s', $stablerelease->getVersionNumber()));
   $page->printPara(__('The current WinMerge version is <strong>%1$s</strong> and was released at <strong>%2$s</strong>.', $stablerelease->getVersionNumber(), $stablerelease->getDate()),
-                   __('For detailed info on what is new, read the <a href="%1$s">change log</a> and the <a href="%2$s">release notes</a>.', '/docs/changelog.php', '/docs/releasenotes.php'));
+                   __('For detailed info on what is new, read the <a href="%1$s">change log</a> and the <a href="%2$s">release notes</a>.', $translations->prepareLink('/docs/changelog.php'), $translations->prepareLink('/docs/releasenotes.php')));
 ?>
 <div class="table-scrollable">
   <table class="table is-striped">
@@ -24,26 +24,44 @@
       <th class="center"><?php __e('Format');?></th>
     </tr>
     <tr>
-      <td class="left"><a href="<?php echo $stablerelease->getDownload('setup.exe');?>" target="_blank" class="button"><?php echo $stablerelease->getDownloadFileName('setup.exe');?></a></td>
-      <td class="center"><?php __e('%s MB', $stablerelease->getDownloadSizeMb('setup.exe'));?></td>
-      <td class="center"><?php __e('Installer');?></td>
-      <td class="center"><?php __e('EXE');?></td>
-    </tr>
-    <tr>
-      <td class="left"><a href="<?php echo $stablerelease->getDownload('setup64.exe');?>" target="_blank" class="button is-dark is-small"><?php echo $stablerelease->getDownloadFileName('setup64.exe');?></a></td>
+      <td class="left"><a href="<?php echo $stablerelease->getDownload('setup64.exe');?>" target="_blank" class="button"><?php echo $stablerelease->getDownloadFileName('setup64.exe');?></a></td>
       <td class="center"><?php __e('%s MB', $stablerelease->getDownloadSizeMb('setup64.exe'));?></td>
       <td class="center"><?php __e('Installer');?></td>
       <td class="center"><?php __e('EXE');?></td>
     </tr>
     <tr>
-      <td class="left"><a href="<?php echo $stablerelease->getDownload('exe.zip');?>" target="_blank" class="button is-dark"><?php echo $stablerelease->getDownloadFileName('exe.zip');?></a></td>
-      <td class="center"><?php __e('%s MB', $stablerelease->getDownloadSizeMb('exe.zip'));?></td>
-      <td class="center"><?php __e('Binaries');?></td>
-      <td class="center"><?php __e('ZIP');?></td>
+      <td class="left"><a href="<?php echo $stablerelease->getDownload('setup64peruser.exe');?>" target="_blank" class="button is-dark"><?php echo $stablerelease->getDownloadFileName('setup64peruser.exe');?></a></td>
+      <td class="center"><?php __e('%s MB', $stablerelease->getDownloadSizeMb('setup64peruser.exe'));?></td>
+      <td class="center"><?php __e('Per-user installer');?></td>
+      <td class="center"><?php __e('EXE');?></td>
+    </tr>
+    <tr>
+      <td class="left"><a href="<?php echo $stablerelease->getDownload('setuparm64.exe');?>" target="_blank" class="button is-dark"><?php echo $stablerelease->getDownloadFileName('setuparm64.exe');?></a></td>
+      <td class="center"><?php __e('%s MB', $stablerelease->getDownloadSizeMb('setuparm64.exe'));?></td>
+      <td class="center"><?php __e('Installer');?></td>
+      <td class="center"><?php __e('EXE');?></td>
+    </tr>
+    <tr>
+      <td class="left"><a href="<?php echo $stablerelease->getDownload('setup.exe');?>" target="_blank" class="button is-dark"><?php echo $stablerelease->getDownloadFileName('setup.exe');?></a></td>
+      <td class="center"><?php __e('%s MB', $stablerelease->getDownloadSizeMb('setup.exe'));?></td>
+      <td class="center"><?php __e('Installer');?></td>
+      <td class="center"><?php __e('EXE');?></td>
     </tr>
     <tr>
       <td class="left"><a href="<?php echo $stablerelease->getDownload('exe64.zip');?>" target="_blank" class="button is-dark"><?php echo $stablerelease->getDownloadFileName('exe64.zip');?></a></td>
       <td class="center"><?php __e('%s MB', $stablerelease->getDownloadSizeMb('exe64.zip'));?></td>
+      <td class="center"><?php __e('Binaries');?></td>
+      <td class="center"><?php __e('ZIP');?></td>
+    </tr>
+    <tr>
+      <td class="left"><a href="<?php echo $stablerelease->getDownload('exearm64.zip');?>" target="_blank" class="button is-dark"><?php echo $stablerelease->getDownloadFileName('exearm64.zip');?></a></td>
+      <td class="center"><?php __e('%s MB', $stablerelease->getDownloadSizeMb('exearm64.zip'));?></td>
+      <td class="center"><?php __e('Binaries');?></td>
+      <td class="center"><?php __e('ZIP');?></td>
+    </tr>
+    <tr>
+      <td class="left"><a href="<?php echo $stablerelease->getDownload('exe.zip');?>" target="_blank" class="button is-dark"><?php echo $stablerelease->getDownloadFileName('exe.zip');?></a></td>
+      <td class="center"><?php __e('%s MB', $stablerelease->getDownloadSizeMb('exe.zip'));?></td>
       <td class="center"><?php __e('Binaries');?></td>
       <td class="center"><?php __e('ZIP');?></td>
     </tr>
@@ -62,10 +80,16 @@
     <dd><code><?php echo $stablerelease->getDownloadSha256Sum('setup.exe') ?></code></dd>
     <dt><?php echo $stablerelease->getDownloadFileName('setup64.exe'); ?></dt>
     <dd><code><?php echo $stablerelease->getDownloadSha256Sum('setup64.exe') ?></code></dd>
+    <dt><?php echo $stablerelease->getDownloadFileName('setup64peruser.exe'); ?></dt>
+    <dd><code><?php echo $stablerelease->getDownloadSha256Sum('setup64peruser.exe') ?></code></dd>
+    <dt><?php echo $stablerelease->getDownloadFileName('setuparm64.exe'); ?></dt>
+    <dd><code><?php echo $stablerelease->getDownloadSha256Sum('setuparm64.exe') ?></code></dd>
     <dt><?php echo $stablerelease->getDownloadFileName('exe.zip'); ?></dt>
     <dd><code><?php echo $stablerelease->getDownloadSha256Sum('exe.zip') ?></code></dd>
     <dt><?php echo $stablerelease->getDownloadFileName('exe64.zip'); ?></dt>
     <dd><code><?php echo $stablerelease->getDownloadSha256Sum('exe64.zip') ?></code></dd>
+    <dt><?php echo $stablerelease->getDownloadFileName('exearm64.zip'); ?></dt>
+    <dd><code><?php echo $stablerelease->getDownloadSha256Sum('exearm64.zip') ?></code></dd>
     <dt><?php echo $stablerelease->getDownloadFileName('src.7z'); ?></dt>
     <dd><code><?php echo $stablerelease->getDownloadSha256Sum('src.7z') ?></code></dd>
   </dl>
@@ -74,9 +98,9 @@
   $page->printSubSubHeading(__('Requirements'));
 ?>
 <ul>
-  <li><?php __e('Microsoft Windows XP or newer');?></li>
-  <li><?php __e('Microsoft Visual C++ 2013 Runtime Components (included in the installer)');?></li>
-  <li><?php __e('Admin rights for the installer');?></li>
+  <li><?php __e('32-bit installer: Microsoft Windows XP SP3 or newer');?></li>
+  <li><?php __e('64-bit installer: Microsoft Windows 7 or newer');?></li>
+  <li><?php __e('Admin rights for the installer (except for Per-user installer)');?></li>
 </ul>
 <?php
   $page->printSubHeading(__('Other Versions'));
@@ -95,36 +119,23 @@
 <ul>
   <li><a href="https://ci.appveyor.com/project/sdottaka/winmerge"><?php __e('Continuous Integration Builds');?></a></li>
   <li><a href="https://portableapps.com/apps/utilities/winmerge_portable"><?php __e('WinMerge Portable');?></a> <?php __e('(by PortableApps.com)');?></li>
-  <li><a href="https://bitbucket.org/jtuc/winmerge2011/">WinMerge 2011</a> (by Jochen Neubeck)</li>
+  <li><a href="https://osdn.net/projects/winmerge-jp/">WinMerge Japanese</a> (by Takashi Sawanaka)</li>
+  <li><a href="https://github.com/datadiode/winmerge2011/">WinMerge 2011</a> (by Jochen Neubeck)</li>
 </ul>
 <?php
-  $page->printRssSubHeading(__('Project File Releases'), 'https://sourceforge.net/projects/winmerge/rss?path=/');
+  $page->printRssSubHeading(__('Project File Releases'), 'https://github.com/WinMerge/winmerge/releases.atom');
 
   $feed = new SimplePie();
-  $feed->set_feed_url('https://sourceforge.net/projects/winmerge/rss?path=/');
+  $feed->set_feed_url('https://github.com/WinMerge/winmerge/releases.atom');
   $feed->set_cache_location('../engine/simplepie/cache');
   $feed->init();
   print("<ul class=\"rssfeeditems\">\n");
   foreach ($feed->get_items(0, 10) as $item) { //for the last 10 file releases...
-    $title = $item->get_title();
-    $title = preg_replace('#(\([A-Z][a-z][a-z],.*GMT\))#si', '', $title);
-    $title = str_replace('1. Stable versions', 'Stable version', $title);
-    $title = str_replace('2. Documentation', 'Documentation', $title);
-    $title = str_replace('3. 7-Zip plugin', '7-Zip plugin', $title);
-    $title = str_replace('4. Beta versions', 'Beta version', $title);
-    $title = str_replace('5. Experimental builds', 'Experimental build', $title);
-    $title = str_replace('6. Developer tools', 'Developer tool', $title);
-    print("  <li><a href=\"".$item->get_link()."\">".$title."</a> <em>".$item->get_date(__('Y-m-d'))."</em></li>\n");
+    print("  <li><a href=\"".$item->get_link()."\">".$item->get_title()."</a> <em>".$item->get_date(__('Y-m-d'))."</em></li>\n");
   }
-  print("  <li><a href=\"https://sourceforge.net/projects/winmerge/files/\">" . __('View all file releases&hellip;') . "</a></li>\n");
+  print("  <li><a href=\"https://github.com/WinMerge/winmerge/releases\">" . __('View all file releases&hellip;') . "</a></li>\n");
   print("</ul>\n");
 ?>
-<ul class="buttons">
-  <li><a href="https://sourceforge.net/projects/winmerge/files/stable/" class="button is-success"><?php __e('Stable Versions');?></a></li>
-  <li><a href="https://sourceforge.net/projects/winmerge/files/beta/" class="button is-warning"><?php __e('Beta Versions');?></a></li>
-  <li><a href="https://sourceforge.net/projects/winmerge/files/alpha/" class="button is-danger"><?php __e('Experimental Builds');?></a></li>
-  <!--<li><a href="https://sourceforge.net/projects/winmerge/files/" class="button"><?php __e('All File Releases');?></a></li>-->
-</ul>
 <script type="application/ld+json">
 {
   "@context": "http://schema.org",

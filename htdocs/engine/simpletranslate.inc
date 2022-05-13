@@ -53,7 +53,7 @@
     /**
      * Constructor
      */
-    function SimpleTranslate() {
+    function __construct() {
       $this->_urlparameter = 'lang';
       $this->_forceurlparameter = false;
       $this->_languages = array();
@@ -401,7 +401,7 @@
     function translate($text) {
       $text = str_replace("\r", '', $text);
       $text = str_replace("\n", '\n', $text);
-      if (array_key_exists($text, $this->_translations)) { //if the translation exists...
+      if (isset($this->_translations) && array_key_exists($text, $this->_translations)) { //if the translation exists...
         $translation = $this->_translations[$text];
         if ($translation != '') { //if the translation is NOT empty...
           return str_replace('\n', "\n", $translation);

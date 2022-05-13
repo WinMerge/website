@@ -1,0 +1,4 @@
+*.pyc
+*.bak
+
+/htdocs/engine/simplepie/cache/

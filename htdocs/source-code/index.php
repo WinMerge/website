@@ -14,7 +14,7 @@
 
   $page->printPara(__('WinMerge is <a href="%1$s">Open Source</a> software under the <a href="%2$s">GNU General Public License</a>.', 'https://www.opensource.org/', 'https://www.gnu.org/licenses/gpl-2.0.html'));
   $page->printPara(__('This means everybody can download the <a href="%s">source code</a> and improve and modify it.
-The only thing we ask is that people submit their improvements and modifications back to us so that all WinMerge users may benefit.', '#clone-or-download'));
+The only thing we ask is that people submit their improvements and modifications back to us so that all WinMerge users may benefit.', $translations->prepareLink('#clone-or-download')));
   
   $page->printAnchorSubHeading(__('GNU General Public License'), 'gpl');
 ?>
@@ -35,7 +35,7 @@ along with WinMerge.  If not, see &lt;<a href="https://www.gnu.org/licenses/">ht
   $page->printPara(__('The source code is hosted on <a href="%1$s">GitHub</a> in a <a href="%2$s">Git</a> repository:', 'https://github.com/', 'https://git-scm.com/'));
   $page->printPara('<a href="https://github.com/winmerge/winmerge.git" class="button">https://github.com/winmerge/winmerge.git</a>');
 
-  $page->printPara('You can also download the current branches as ZIP file:');
+  $page->printPara(__('You can also download the current branches as ZIP file:'));
 ?>
 <div class="table-scrollable">
   <table class="table is-striped">
