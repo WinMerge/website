@@ -440,7 +440,7 @@
      * @param string $name Name
      * @param string $pofile PO file
      */
-    function SimpleTranslateLanguage($id, $name, $pofile) {
+    function __construct($id, $name, $pofile) {
       $this->_id = $id;
       $this->_name = $name;
       $this->_pofile = $pofile;
@@ -550,7 +550,7 @@
      * @param string $id ID
      * @param string $name Name
      */
-    function SimpleTranslateBaseLanguage($id, $name) {
+    function __construct($id, $name) {
       $this->_id = $id;
       $this->_name = $name;
       $this->_pofile = '';
