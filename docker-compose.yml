@@ -1,0 +1,17 @@
+version: '3'
+
+services:
+  winmerge-web:
+    build: .
+    volumes:
+      - htdocs:/var/www/html
+    ports:
+      - "8080:80"
+
+volumes:
+  htdocs:
+#    driver: local
+#    driver_opts:
+#      type: none
+#      o: bind
+#      device: 'C:/Temp/Docker/winmerge-web'

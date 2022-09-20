@@ -23,3 +23,9 @@ We use this subdomains for nicer URLs in text files:
 | lists            | <https://sourceforge.net/p/winmerge/mailman/>          |
 | patches          | <https://sourceforge.net/p/winmerge/patches/>          |
 | project          | <https://sourceforge.net/projects/winmerge/>           |
+
+## Docker
+
+For local testing you can use [Docker](https://www.docker.com/).
+
+Just type `docker compose up` from the root directory and you can access the website under <http://localhost:8080/>.
