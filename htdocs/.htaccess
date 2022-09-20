@@ -49,8 +49,8 @@ RewriteEngine On
 RewriteBase   /
 RewriteRule   ^engine/css/(screen|print)-v[0-9]+.css$ /engine/css/$1.css [L]
 
-#Move some pages to the Bitbucket Wiki...
-Redirect permanent /about/history.php https://bitbucket.org/winmerge/winmerge/wiki/ReleaseHistory
+#Move some pages to the GitHub Wiki...
+Redirect permanent /about/history.php https://github.com/WinMerge/winmerge/wiki/Release-History
 
 #Move old screenshot page to new one...
 Redirect permanent /about/screenshots/ /screenshots/
