@@ -43,16 +43,16 @@
       $this->_tab = TAB_HOME;
       /* _Stable Release */
       $this->_stablerelease = new Release;
-      $this->_stablerelease->setVersionNumber('2.16.24');
-      $this->_stablerelease->setDate('2022-10-27');
-      $this->_stablerelease->addDownload('setup.exe', 'https://github.com/WinMerge/winmerge/releases/download/v2.16.24/WinMerge-2.16.24-Setup.exe', 8165536, 'f34f76da6a8559082b136925d53e4c5c3998dd79851889d1b8df0c6a9c02dc07');
-      $this->_stablerelease->addDownload('setup64.exe', 'https://github.com/WinMerge/winmerge/releases/download/v2.16.24/WinMerge-2.16.24-x64-Setup.exe', 8671352, 'dd90278f884c6fd632a704265e049634299da6c34a43bfe14a8be98b24cd308a');
-      $this->_stablerelease->addDownload('setup64peruser.exe', 'https://github.com/WinMerge/winmerge/releases/download/v2.16.24/WinMerge-2.16.24-x64-PerUser-Setup.exe', 8671488, '9f7d4dc4624f59ea9bb9707bf2483fcfc9827e6d3032856a86d48ef3df952047');
-      $this->_stablerelease->addDownload('setuparm64.exe', 'https://github.com/WinMerge/winmerge/releases/download/v2.16.24/WinMerge-2.16.24-ARM64-Setup.exe', 9516200, '41ecfecfcf6a13f0d94b3695fee97b2aca44d263eef3313104551dd841cfb4f8');
-      $this->_stablerelease->addDownload('exe.zip', 'https://github.com/WinMerge/winmerge/releases/download/v2.16.24/winmerge-2.16.24-exe.zip', 10443470, 'c8624f40b30b358d8cc43a0195c44a526d8c0dfba6f2fdb50c61b0cc14fc6905');
-      $this->_stablerelease->addDownload('exe64.zip', 'https://github.com/WinMerge/winmerge/releases/download/v2.16.24/winmerge-2.16.24-x64-exe.zip', 11062004, '2de08c9d1d83049ce78b0a1ba532b22b5697bf93fd0cd23cd8d77343b2654885');
-      $this->_stablerelease->addDownload('exearm64.zip', 'https://github.com/WinMerge/winmerge/releases/download/v2.16.24/winmerge-2.16.24-ARM64-exe.zip', 10503499, 'd14ce70517cba6e614b61ad54d54cfea484bf1d6cfe8a1ba8e99969cfbc274bd');
-      $this->_stablerelease->addDownload('src.7z', 'https://github.com/WinMerge/winmerge/releases/download/v2.16.24/winmerge-2.16.24-full-src.7z', 14279224, 'c2cf77d61bc883aa4fb7e196edad43b91e5aba242716f9b6098f857dc86dabf7');
+      $this->_stablerelease->setVersionNumber('2.16.26');
+      $this->_stablerelease->setDate('2023-01-27');
+      $this->_stablerelease->addDownload('setup.exe', 'https://github.com/WinMerge/winmerge/releases/download/v2.16.26/WinMerge-2.16.26-Setup.exe', 7782496, '7a9b355d8f14203fb144661da3cce2ae2cca7cb3fc3032263646bf1c0001ca53');
+      $this->_stablerelease->addDownload('setup64.exe', 'https://github.com/WinMerge/winmerge/releases/download/v2.16.26/WinMerge-2.16.26-x64-Setup.exe', 8291560, 'e956e7c2dac35f397e788632594a465ea055140bade1b7fc80e0d205962f4e21');
+      $this->_stablerelease->addDownload('setup64peruser.exe', 'https://github.com/WinMerge/winmerge/releases/download/v2.16.26/WinMerge-2.16.26-x64-PerUser-Setup.exe', 8291664, '2401e12029fe60521edd4b3b0ddd6d0915a5b6fc700ea5839807f6c770677db0');
+      $this->_stablerelease->addDownload('setuparm64.exe', 'https://github.com/WinMerge/winmerge/releases/download/v2.16.26/WinMerge-2.16.26-ARM64-Setup.exe', 9129952, '70ea467a7b35caa461aad86a446e6a86d485f59136ba065c8a614ca4441eb10b');
+      $this->_stablerelease->addDownload('exe.zip', 'https://github.com/WinMerge/winmerge/releases/download/v2.16.26/winmerge-2.16.26-exe.zip', 10126460, '853ba61b7b47eb49ac5b8f1d7311791d803867d58e37b68fbd9d14bcffa483c0');
+      $this->_stablerelease->addDownload('exe64.zip', 'https://github.com/WinMerge/winmerge/releases/download/v2.16.26/winmerge-2.16.26-x64-exe.zip', 10747841, 'ff84e19d78ce09953e3bea7e380d64ae9c5c3187693ed4b84ec4755748dacf3a');
+      $this->_stablerelease->addDownload('exearm64.zip', 'https://github.com/WinMerge/winmerge/releases/download/v2.16.26/winmerge-2.16.26-ARM64-exe.zip', 10190957, '1059770bb5ad2242de8bb504acd9cff3f14aa4bbdaaa5ef779f43f568c490cd2');
+      $this->_stablerelease->addDownload('src.7z', 'https://github.com/WinMerge/winmerge/releases/download/v2.16.26/winmerge-2.16.26-full-src.7z', 14185629, '01106cbe1aafc4bc3753ed1d48a43c406b886fb62b5b1f93908797d68e15e214');
       $this->_stablerelease->setBranchName('stable');
     }
 
