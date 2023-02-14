@@ -1,6 +1,9 @@
 # This file is part from WinMerge <http://winmerge.org/>
 # Released under the "GNU General Public License"
 #
+# Translators:
+# * VenusGirl <venusgirl at gmail.com>
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: WinMerge\n"
@@ -16,6 +19,7 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-Basepath: ../htdocs\n"
+"X-Poedit-Language: Korean\n"
 "X-Generator: Poedit 3.2.2\n"
 
 #: 404.php:9
