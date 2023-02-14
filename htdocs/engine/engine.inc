@@ -25,6 +25,7 @@
   $translations->addLanguage('de', __('German'), $languagesdir . 'de.po');
   $translations->addLanguage('fr', __('French'), $languagesdir . 'fr.po');
   $translations->addLanguage('ja', __('Japanese'), $languagesdir . 'ja.po');
+  $translations->addLanguage('ko', __('Korean'), $languagesdir . 'ko.po');
   $translations->addLanguage('pl', __('Polish'), $languagesdir . 'pl.po');
   $translations->addLanguage('pt_BR', __('Portuguese (Brazil)'), $languagesdir . 'pt_BR.po');
   $translations->addLanguage('pt_PT', __('Portuguese (Portugal)'), $languagesdir . 'pt_PT.po');
