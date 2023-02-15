@@ -114,7 +114,7 @@ msgstr "WinMerge, 문서, 설명서, 릴리스 노트, 알려진 문제, 변경 
 #: docs/index.php:11
 #, c-format
 msgid "The <a href=\"%s\">manual</a> explains how to use WinMerge, and documents its capabilities and limitations."
-msgstr "The <a href=\"%s\">설명서</a>에서는 WinMerge 사용 방법을 설명하고 WinMerge의 기능과 제한 사항을 설명합니다."
+msgstr "<a href=\"%s\">설명서</a>에서는 WinMerge 사용 방법을 설명하고 WinMerge의 기능과 제한 사항을 설명합니다."
 
 #: docs/index.php:12
 msgid "It is currently available in the following languages:"
@@ -181,7 +181,7 @@ msgstr "WinMerge %s"
 #: downloads/index.php:15
 #, c-format
 msgid "The current WinMerge version is <strong>%1$s</strong> and was released at <strong>%2$s</strong>."
-msgstr "현재 WinMerge 버전은 <strong>%1$s</strong>이며 <strong>%2$s</strong>으로 출시되었습니다."
+msgstr "현재 WinMerge 버전은 <strong>%1$s</strong>이며 <strong>%2$s</strong>일 출시되었습니다."
 
 #: downloads/index.php:16
 #, c-format
@@ -222,7 +222,7 @@ msgstr "EXE"
 
 #: downloads/index.php:35
 msgid "Per-user installer"
-msgstr "사용자별 설치 관리자"
+msgstr "사용자별 설치 프로그램"
 
 #: downloads/index.php:53 downloads/index.php:59 downloads/index.php:65
 msgid "Binaries"
@@ -246,15 +246,15 @@ msgstr "요구 사항"
 
 #: downloads/index.php:101
 msgid "32-bit installer: Microsoft Windows XP SP3 or newer"
-msgstr "32비트 설치 관리자: Microsoft Windows XP SP3 이상"
+msgstr "32비트 설치 프로그램: Microsoft Windows XP SP3 이상"
 
 #: downloads/index.php:102
 msgid "64-bit installer: Microsoft Windows 7 or newer"
-msgstr "64비트 설치 관리자: Microsoft Windows 7 이상"
+msgstr "64비트 설치 프로그램: Microsoft Windows 7 이상"
 
 #: downloads/index.php:103
 msgid "Admin rights for the installer (except for Per-user installer)"
-msgstr "설치 관리자에 대한 관리자 권한 (사용자별 설치 관리자 제외)"
+msgstr "설치 프로그램에 대한 관리자 권한 (사용자별 설치 프로그램 제외)"
 
 #: downloads/index.php:106
 msgid "Other Versions"
@@ -412,7 +412,7 @@ msgstr "버전 %1$s; %2$s MB"
 
 #: engine/page.inc:303
 msgid "Download Now!"
-msgstr "지금 다운로드하세요!"
+msgstr "지금 다운로드!"
 
 #: engine/page.inc:342
 msgid "Home"
@@ -486,7 +486,7 @@ msgstr "특징"
 
 #: index.php:22
 msgid "WinMerge is highly useful for determining what has changed between project versions, and then merging changes between versions. WinMerge can be used as an external differencing/merging tool or as a standalone application."
-msgstr "WinMerge는 프로젝트 버전 간에 무엇이 변경되었는지 확인한 다음 버전 간의 변경 사항을 병합하는 데 매우 유용합니다. WinMerge는 외부 차분/병합 도구 또는 독립 실행형 응용 프로그램으로 사용할 수 있습니다."
+msgstr "WinMerge는 프로젝트 버전 간에 무엇이 변경되었는지 확인한 다음 버전 간의 변경 사항을 병합하는 데 매우 유용합니다. WinMerge는 외부 차이/병합 도구 또는 독립 실행형 응용 프로그램으로 사용할 수 있습니다."
 
 #: index.php:23
 msgid "In addition, WinMerge has many helpful supporting features that make comparing, synchronising, and merging as easy and useful as possible:"
@@ -498,7 +498,7 @@ msgstr "일반"
 
 #: index.php:27
 msgid "Supports Microsoft Windows XP SP3 or newer"
-msgstr "Microsoft Windows XP SP3 이상을 지원합니다"
+msgstr "Microsoft Windows XP SP3 이상"
 
 #: index.php:28
 msgid "Handles Windows, Unix and Mac text file formats"
@@ -699,7 +699,7 @@ msgstr "폴더 비교 트리 보기"
 
 #: screenshots/index.php:25
 msgid "In the tree view, folders are expandable and collapsible, containing files and subfolders. This is useful for an easier navigation in deeply nested directory structures. <em>The tree view is available only in recursive compares."
-msgstr "트리 보기에서 폴더는 파일 및 하위 폴더를 포함하여 확장 및 축소 가능합니다. 이것은 깊이 중첩된 디렉토리 구조에서 쉽게 탐색하는 데 유용합니다. <em> 트리 보기는 재귀적 비교에서만 사용할 수 있습니다."
+msgstr "트리 보기에서 폴더는 파일 및 하위 폴더를 포함하여 확장 및 축소 가능합니다. 이것은 깊이 중첩된 디렉터리 구조에서 쉽게 탐색하는 데 유용합니다. <em> 트리 보기는 재귀적 비교에서만 사용할 수 있습니다."
 
 #: screenshots/index.php:27 screenshots/index.php:28
 msgid "Image Comparison"
@@ -735,7 +735,7 @@ msgstr "WinMerge를 사용하면 여러 가지 방법으로 경로를 선택/열
 
 #: source-code/index.php:8
 msgid "Download the source code of WinMerge, which is released under the GNU General Public License."
-msgstr "GNU General Public License로 출시된 WinMerge의 소스 코드를 다운로드하십시오."
+msgstr "GNU 일반 공용 라이선스로 출시된 WinMerge의 소스 코드를 다운로드합니다."
 
 #: source-code/index.php:9
 msgid "WinMerge, free, clone, download, source code, GPL, GitHub, Git"
@@ -798,7 +798,7 @@ msgstr "WinMerge, 지원, 토론 포럼, 추적기, 기부, 버그, 지원 요�
 
 #: support/index.php:10
 msgid "The <b>Discussion forums</b> are the fastest way to get help:"
-msgstr "The <b>토론 포럼</b은 도움을 받는 가장 빠른 방법입니다:"
+msgstr "<b>토론 포럼</b은 도움을 받는 가장 빠른 방법입니다:"
 
 #: support/index.php:13
 msgid "WinMerge discussions"
@@ -952,12 +952,12 @@ msgstr "번역: %d%%"
 #: translations/translations.inc:76 translations/translations.inc:89
 #: translations/translations.inc:107
 msgid "Fuzzy"
-msgstr "퍼지"
+msgstr "불분명"
 
 #: translations/translations.inc:76
 #, c-format
 msgid "Fuzzy: %d%%"
-msgstr "퍼지: %d%%"
+msgstr "불분명: %d%%"
 
 #: translations/translations.inc:78 translations/translations.inc:90
 #: translations/translations.inc:108
