@@ -9,6 +9,8 @@
 // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 // GNU General Public License for more details.
 
+  date_default_timezone_set('America/New_York'); //Avoid `Strict Standards` warning with SimplePie
+
   include('simpletranslate.inc');
   include('page.inc');
 
