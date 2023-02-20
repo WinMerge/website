@@ -16,7 +16,6 @@
     var $_versionnumber;
     var $_date;
     var $_downloads, $_downloadsizes, $_downloadsha256sums;
-    var $_branchname;
 
     /**
      * Constructor
@@ -121,20 +120,6 @@
      */
     function getDownloadFileName($id) {
       return basename($this->_downloads[$id]);
-    }
-
-    /**
-     * set the branch name from the release
-     */
-    function setBranchName($name) {
-      $this->_branchname = $name;
-    }
-
-    /**
-     * get the branch name from the release
-     */
-    function getBranchName() {
-      return $this->_branchname;
     }
 
     /**
