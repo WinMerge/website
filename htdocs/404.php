@@ -23,8 +23,8 @@
           <li><a href="https://manual.winmerge.org/jp/"><?php __e('Japanese');?></a></li>
         </ul>
       </li>
-      <li><a href="/docs/releasenotes.php"><?php __e('Release Notes');?></a></li>
-      <li><a href="/docs/changelog.php"><?php __e('Change Log');?></a></li>
+      <li><a href="<?php print($page->getStableRelease()->getReleaseNotes());?>"><?php __e('Release Notes');?></a></li>
+      <li><a href="<?php print($page->getStableRelease()->getChangeLog());?>"><?php __e('Change Log');?></a></li>
     </ul>
   </li>
   <li><a href="/downloads/"><?php __e('Downloads');?></a></li>

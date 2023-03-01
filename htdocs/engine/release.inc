@@ -16,6 +16,7 @@
     var $_versionnumber;
     var $_date;
     var $_downloads, $_downloadsizes, $_downloadsha256sums;
+    var $_releasenotes, $_knownissues, $_changeLog;
 
     /**
      * Constructor
@@ -26,6 +27,9 @@
       $this->_downloads = array();
       $this->_downloadsizes = array();
       $this->_downloadsha256sums = array();
+      $this->_releasenotes = '';
+      $this->_knownissues = '';
+      $this->_changeLog = '';
     }
 
     /**
@@ -120,6 +124,51 @@
      */
     function getDownloadFileName($id) {
       return basename($this->_downloads[$id]);
+    }
+
+    /**
+     * set the release notes URL from the release
+     * @param string $url release notes URL
+     */
+    function setReleaseNotes($url) {
+      $this->_releasenotes = $url;
+    }
+
+    /**
+     * get the release notes URL from the release
+     */
+    function getReleaseNotes() {
+      return $this->_releasenotes;
+    }
+
+    /**
+     * set the known issues URL from the release
+     * @param string $url known issues URL
+     */
+    function setKnownIssues($url) {
+      $this->_knownissues = $url;
+    }
+
+    /**
+     * get the known issues URL from the release
+     */
+    function getKnownIssues() {
+      return $this->_knownissues;
+    }
+
+    /**
+     * set the change log URL from the release
+     * @param string $url known issues URL
+     */
+    function setChangeLog($url) {
+      $this->_changeLog = $url;
+    }
+
+    /**
+     * get the change log URL from the release
+     */
+    function getChangeLog() {
+      return $this->_changeLog;
     }
 
     /**
