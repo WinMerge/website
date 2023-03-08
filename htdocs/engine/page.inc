@@ -52,7 +52,7 @@
       $this->_stablerelease->addDownload('exe.zip', 'https://github.com/WinMerge/winmerge/releases/download/v2.16.28/winmerge-2.16.28-exe.zip', 10125638, '5df7528f94432360b5c7a05f5a0a605344c18acf94f22d7c8d5506f07220c133');
       $this->_stablerelease->addDownload('exe64.zip', 'https://github.com/WinMerge/winmerge/releases/download/v2.16.28/winmerge-2.16.28-x64-exe.zip', 10747584, 'e1c6dca744b2022dc0f3a105164d29f151373fa067411e579e6e005ba7a98b8b');
       $this->_stablerelease->addDownload('exearm64.zip', 'https://github.com/WinMerge/winmerge/releases/download/v2.16.28/winmerge-2.16.28-ARM64-exe.zip', 10190321, '3740d6c1ed74b5f412490cedf2e28295f1bf07d8eee653530f94203c0db3f716');
-      $this->_stablerelease->addDownload('src.7z', 'https://github.com/WinMerge/winmerge/releases/download/v2.16.28/winmerge-2.16.28-full-src.7z', 14191248, 'f481cecbc9d5b5a16d085780b9060b25adb8a5c50edebd2s6ddcd2fd39dce13e0');
+      $this->_stablerelease->addDownload('src.7z', 'https://github.com/WinMerge/winmerge/releases/download/v2.16.28/winmerge-2.16.28-full-src.7z', 14191248, 'f481cecbc9d5b5a16d085780b9060b25adb8a5c50edebd26ddcd2fd39dce13e0');
       $this->_stablerelease->setReleaseNotes('https://github.com/WinMerge/winmerge/releases/tag/v2.16.28');
       $this->_stablerelease->setKnownIssues('https://github.com/WinMerge/winmerge/releases/tag/v2.16.26#known-issues');
       $this->_stablerelease->setChangeLog('https://github.com/WinMerge/winmerge/blob/v2.16.28/Docs/Users/ChangeLog.md');
