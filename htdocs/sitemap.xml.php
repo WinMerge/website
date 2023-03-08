@@ -6,8 +6,6 @@
   $baseUrls = [
     'https://winmerge.org/',
     'https://winmerge.org/docs/',
-    'https://winmerge.org/docs/changelog.php',
-    'https://winmerge.org/docs/releasenotes.php',
     'https://winmerge.org/downloads/',
     'https://winmerge.org/screenshots/',
     'https://winmerge.org/source-code/',
