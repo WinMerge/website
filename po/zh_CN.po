@@ -1,0 +1,1170 @@
+# This file is part from WinMerge <http://winmerge.org/>
+# Released under the "GNU General Public License"
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: WinMerge\n"
+"Report-Msgid-Bugs-To: http://bugs.winmerge.org\n"
+"POT-Creation-Date: 2021-12-08 05:58+0000\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Jason Ren <jason_pro114514@proton.me>\n"
+"Language-Team: English <winmerge-translate@lists.sourceforge.net>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-Basepath: ../htdocs\n"
+"X-Generator: Poedit 3.4.4\n"
+
+#: 404.php:9
+msgid "Error 404 (Page Not Found)"
+msgstr "404 错误（找不到页面）"
+
+#: 404.php:11
+msgid "Page Not Found..."
+msgstr "找不到页面..."
+
+#: 404.php:12
+msgid ""
+"For some reason (mis-typed URL, faulty referral from another site, out-of-"
+"date search engine listing or we simply deleted a file) the page you were "
+"looking for could not be found."
+msgstr ""
+"由于某些原因（URL 输入错误、其他网站的错误链接、搜索引擎结果过期或文件删"
+"除），无法找到您要查找的页面。"
+
+#: 404.php:13
+msgid ""
+"This site has recently undergone a major re-working, so that might explain "
+"why you got this page instead."
+msgstr "本网站最近进行了一次重大改版，这可能是您看到该页面的原因。"
+
+#: 404.php:15
+msgid "Were you looking for..."
+msgstr "您是否在寻找..."
+
+#: 404.php:18 docs/index.php:7 docs/index.php:9 engine/page.inc:343
+msgid "Documentation"
+msgstr "文档"
+
+#: 404.php:20 docs/index.php:10
+msgid "Manual"
+msgstr "手册"
+
+#: 404.php:22 docs/index.php:15 engine/engine.inc:19
+msgid "English"
+msgstr "英语"
+
+#: 404.php:23 docs/index.php:16 engine/engine.inc:27
+msgid "Japanese"
+msgstr "日语"
+
+#: 404.php:26 docs/index.php:19 docs/releasenotes.php:7
+#: docs/releasenotes.php:10
+msgid "Release Notes"
+msgstr "发行说明"
+
+#: 404.php:27 docs/changelog.php:7 docs/index.php:21
+msgid "Change Log"
+msgstr "更新日志"
+
+#: 404.php:30 engine/page.inc:344
+msgid "Downloads"
+msgstr "下载"
+
+#: 404.php:31 engine/page.inc:345 screenshots/index.php:7
+#: screenshots/index.php:9
+msgid "Screenshots"
+msgstr "屏幕截图"
+
+#: 404.php:32 downloads/index.php:71 engine/page.inc:346
+#: source-code/index.php:11 source-code/index.php:13
+msgid "Source Code"
+msgstr "源代码"
+
+#: 404.php:33 engine/page.inc:347 index.php:91 support/index.php:7
+#: support/index.php:9
+msgid "Support"
+msgstr "支持"
+
+#: 404.php:34 engine/page.inc:348 translations/index.php:7
+#: translations/index.php:9
+msgid "Translations"
+msgstr "翻译"
+
+#: docs/changelog.php:5
+msgid ""
+"The change log is a more complete list of changes in the last WinMerge "
+"releases."
+msgstr "更新日志中详细地列出了 WinMerge 最近几个版本的更改信息。"
+
+#: docs/changelog.php:6
+msgid "WinMerge, change log, changes, release, tracker item, revision number"
+msgstr "WinMerge, 更新日志, 改动, 发布, tracker item, 修订版本号"
+
+#: docs/changelog.php:10
+msgid "The change log is currently not available..."
+msgstr "暂时无法查看更新日志..."
+
+#: docs/index.php:5
+msgid ""
+"Documentation from WinMerge like manual, release notes, change log and "
+"Development Wiki."
+msgstr "WinMerge 的文档，如手册、发行说明、更改日志和开发 Wiki。"
+
+#: docs/index.php:6
+msgid ""
+"WinMerge, documentation, manual, release notes, known issues, change log, "
+"Development Wiki"
+msgstr "WinMerge, 文档, 手册, 发行说明, 已知问题, 更新日志, 开发 Wiki"
+
+#: docs/index.php:11
+#, c-format
+msgid ""
+"The <a href=\"%s\">manual</a> explains how to use WinMerge, and documents "
+"its capabilities and limitations."
+msgstr ""
+"<a href=\"%s\">手册</a>解释了如何使用 WinMerge，并记录了其功能和局限性。"
+
+#: docs/index.php:12
+msgid "It is currently available in the following languages:"
+msgstr "目前有以下语言版本："
+
+#: docs/index.php:20
+#, c-format
+msgid ""
+"The <a href=\"%1$s\">release notes</a> are a short summary of important "
+"changes, enhancements, bug fixes and <a href=\"%2$s\">known issues</a> in "
+"the current WinMerge release."
+msgstr ""
+"<a href=\"%1$s\">发行说明</a>是当前 WinMerge 版本中重要更改、增强功能、错误修"
+"复和<a href=\"%2$s\">已知问题</a>的简短摘要。"
+
+#: docs/index.php:22
+#, c-format
+msgid ""
+"The <a href=\"%s\">change log</a> is a more complete list of changes in the "
+"last WinMerge releases."
+msgstr "<a href=\"%s\">更新日志</a>是最近发布的 WinMerge 中更改的更完整列表。"
+
+#: docs/index.php:23
+msgid "Development Wiki"
+msgstr "开发 Wiki"
+
+#: docs/index.php:24
+#, c-format
+msgid ""
+"The <a href=\"%s\">Development Wiki</a> contains much information about the "
+"WinMerge development."
+msgstr "<a href=\"%s\">开发 Wiki</a> 包含许多有关 WinMerge 开发的信息。"
+
+#: docs/releasenotes.php:5
+msgid ""
+"The release notes are a short summary of important changes, enhancements, "
+"bug fixes and known issues in the current WinMerge release."
+msgstr ""
+"发行说明是当前 WinMerge 版本中重要更改、增强功能、错误修复和已知问题的简短摘"
+"要。"
+
+#: docs/releasenotes.php:6
+msgid ""
+"WinMerge, release notes, summary, changes, enhancements, bug fixes, known "
+"issues, release"
+msgstr "WinMerge, 发行说明, 概要, 改动, 增强, 错误修复, 已知问题, 发行"
+
+#: docs/releasenotes.php:11
+msgid "The release notes are currently not available..."
+msgstr "暂时无法查看发行说明..."
+
+#: downloads/index.php:7
+#, c-format
+msgid ""
+"Download the current WinMerge version %1$s, which was released at %2$s. For "
+"detailed info on what is new, read the change log and the release notes."
+msgstr ""
+"下载发布于 %2$s 的当前 WinMerge 版本 %1$s。有关新内容的详细信息，请阅读更新日"
+"志和发行说明。"
+
+#: downloads/index.php:8
+msgid ""
+"WinMerge, free, download, Windows, setup, installer, binaries, runtimes, "
+"stable, beta, experimental, portable"
+msgstr ""
+"WinMerge, 免费, 下载, Windows, 安装, 安装器, 二进制, 运行时, 稳定版, 测试版, "
+"实验性, 便携式"
+
+#: downloads/index.php:9 downloads/index.php:126
+msgid "Project File Releases"
+msgstr "项目文件发行版"
+
+#: downloads/index.php:10 downloads/index.php:12
+msgid "Download WinMerge"
+msgstr "下载 WinMerge"
+
+#: downloads/index.php:13
+#, c-format
+msgid ""
+"The easiest way to install WinMerge is to download and run the Installer. "
+"Read the <a href=\"%s\">online manual</a> for help using it."
+msgstr ""
+"安装 WinMerge 的最简单方法是下载并运行安装程序。请阅读<a href=\"%s\">在线手册"
+"</a>以了解如何使用。"
+
+#: downloads/index.php:14
+#, c-format
+msgid "WinMerge %s"
+msgstr "WinMerge %s"
+
+#: downloads/index.php:15
+#, c-format
+msgid ""
+"The current WinMerge version is <strong>%1$s</strong> and was released at "
+"<strong>%2$s</strong>."
+msgstr ""
+"当前 WinMerge 版本为 <strong>%1$s</strong>，发布于 <strong>%2$s</strong>。"
+
+#: downloads/index.php:16
+#, c-format
+msgid ""
+"For detailed info on what is new, read the <a href=\"%1$s\">change log</a> "
+"and the <a href=\"%2$s\">release notes</a>."
+msgstr ""
+"有关新内容的详细信息，请阅读<a href=\"%1$s\">更新日志</a>和<a href=\"%2$s\">"
+"发行说明</a>。"
+
+#: downloads/index.php:21 source-code/index.php:43
+msgid "Download"
+msgstr "下载"
+
+#: downloads/index.php:22
+msgid "Size"
+msgstr "大小"
+
+#: downloads/index.php:23
+msgid "Type"
+msgstr "类型"
+
+#: downloads/index.php:24
+msgid "Format"
+msgstr "格式"
+
+#: downloads/index.php:28 downloads/index.php:34 downloads/index.php:40
+#: downloads/index.php:46 downloads/index.php:52 downloads/index.php:58
+#: downloads/index.php:64 downloads/index.php:70
+#, c-format
+msgid "%s MB"
+msgstr "%s MB"
+
+#: downloads/index.php:29 downloads/index.php:41 downloads/index.php:47
+msgid "Installer"
+msgstr "安装器"
+
+#: downloads/index.php:30 downloads/index.php:36 downloads/index.php:42
+#: downloads/index.php:48
+msgid "EXE"
+msgstr "EXE"
+
+#: downloads/index.php:35
+msgid "Per-user installer"
+msgstr "单用户安装器"
+
+#: downloads/index.php:53 downloads/index.php:59 downloads/index.php:65
+msgid "Binaries"
+msgstr "二进制文件"
+
+#: downloads/index.php:54 downloads/index.php:60 downloads/index.php:66
+msgid "ZIP"
+msgstr "ZIP"
+
+#: downloads/index.php:72
+msgid "7z"
+msgstr "7z"
+
+#: downloads/index.php:77
+msgid "SHA-256 Checksums"
+msgstr "SHA-256 校验和"
+
+#: downloads/index.php:98
+msgid "Requirements"
+msgstr "需求"
+
+#: downloads/index.php:101
+msgid "32-bit installer: Microsoft Windows XP SP3 or newer"
+msgstr "32 位安装器：Microsoft Windows XP SP3 或以上版本"
+
+#: downloads/index.php:102
+msgid "64-bit installer: Microsoft Windows 7 or newer"
+msgstr "64 位安装器：Microsoft Windows 7 或以上版本"
+
+#: downloads/index.php:103
+msgid "Admin rights for the installer (except for Per-user installer)"
+msgstr "安装器具有管理员权限（除单用户安装器）"
+
+#: downloads/index.php:106
+msgid "Other Versions"
+msgstr "其他版本"
+
+#: downloads/index.php:107
+msgid "WinMerge 2.14.0 <em>for Windows 2000</em>"
+msgstr "WinMerge 2.14.0（<em>适用于 Windows 2000</em>）"
+
+#: downloads/index.php:108
+msgid ""
+"WinMerge version 2.14.0 was the last version to ship with Microsoft Visual C+"
+"+ 2008 runtimes that support Windows 2000."
+msgstr ""
+"WinMerge 2.14.0 版本是最后一个附带 Microsoft Visual C++ 2008 运行时并支持 "
+"Windows 2000 的版本。"
+
+#: downloads/index.php:110 downloads/index.php:115
+#, c-format
+msgid "Get version %s"
+msgstr "获取版本 %s"
+
+#: downloads/index.php:112
+msgid "WinMerge 2.12.4 <em>for Windows 95/98/ME/NT</em>"
+msgstr "WinMerge 2.12.4（<em>适用于 Windows 95/98/ME/NT</em>）"
+
+#: downloads/index.php:113
+msgid ""
+"WinMerge version 2.12.4 was the last version to ship with Microsoft Visual C+"
+"+ 2005 runtimes that support Windows 95/98/ME/NT. It was also the last "
+"version to ship with an ANSI version of WinMerge."
+msgstr ""
+"WinMerge 2.12.4 版本最后一个附带 ANSI 及 Microsoft Visual C++ 2005 运行时并支"
+"持 Windows 95/98/ME/NT 的版本。"
+
+#: downloads/index.php:117
+msgid "Unofficial Versions"
+msgstr "非官方版本"
+
+#: downloads/index.php:120
+msgid "Continuous Integration Builds"
+msgstr "持续集成构建"
+
+#: downloads/index.php:121
+msgid "WinMerge Portable"
+msgstr "WinMerge 便携版"
+
+#: downloads/index.php:121
+msgid "(by PortableApps.com)"
+msgstr "（由 PortableApps.com 提供）"
+
+#: downloads/index.php:142 index.php:86
+msgid "Y-m-d"
+msgstr "Y-m-d"
+
+#: downloads/index.php:144
+msgid "View all file releases&hellip;"
+msgstr "查看所有文件发行版&hellip;"
+
+#: downloads/index.php:148
+msgid "Stable Versions"
+msgstr "稳定版本"
+
+#: downloads/index.php:149
+msgid "Beta Versions"
+msgstr "测试版本"
+
+#: downloads/index.php:150
+msgid "Experimental Builds"
+msgstr "测试构建"
+
+#: downloads/index.php:151
+msgid "All File Releases"
+msgstr "所有文件发行版"
+
+#: engine/engine.inc:20
+msgid "Basque"
+msgstr "巴斯克语"
+
+#: engine/engine.inc:21
+msgid "Catalan"
+msgstr "加泰罗尼亚语"
+
+#: engine/engine.inc:22
+msgid "Corsican"
+msgstr "科西嘉语"
+
+#: engine/engine.inc:23
+msgid "Dutch"
+msgstr "荷兰语"
+
+#: engine/engine.inc:24
+msgid "Greek"
+msgstr "希腊语"
+
+#: engine/engine.inc:25
+msgid "German"
+msgstr "德语"
+
+#: engine/engine.inc:26
+msgid "French"
+msgstr "法语"
+
+#: engine/engine.inc:28
+msgid "Polish"
+msgstr "波兰语"
+
+#: engine/engine.inc:29
+msgid "Portuguese (Brazil)"
+msgstr "葡萄牙语（巴西）"
+
+#: engine/engine.inc:30
+msgid "Portuguese (Portugal)"
+msgstr "葡萄牙语（葡萄牙）"
+
+#: engine/engine.inc:31
+msgid "Russian"
+msgstr "俄语"
+
+#: engine/engine.inc:32
+msgid "Spanish"
+msgstr "西班牙语"
+
+#: engine/engine.inc:33
+msgid "Spanish (Venezuela)"
+msgstr "西班牙语（委内瑞拉）"
+
+#: engine/engine.inc:34
+msgid "Slovenian"
+msgstr "斯洛文尼亚语"
+
+#: engine/engine.inc:35
+msgid "Swedish"
+msgstr "瑞典语"
+
+#: engine/engine.inc:36
+msgid "Turkish"
+msgstr "土耳其语"
+
+#: engine/page.inc:128 engine/page.inc:171
+msgid "You will see the difference…"
+msgstr "差异显而易见…"
+
+#: engine/page.inc:193
+msgid "Change Language"
+msgstr "切换语言"
+
+#: engine/page.inc:210
+msgid "Project Pages"
+msgstr "项目页面"
+
+#: engine/page.inc:213
+msgid "Archive"
+msgstr "归档"
+
+#: engine/page.inc:217 support/index.php:25
+msgid "Donate"
+msgstr "捐赠"
+
+#: engine/page.inc:297
+#, c-format
+msgid "Version %1$s; %2$s MB"
+msgstr "版本 %1$s；%2$s MB"
+
+#: engine/page.inc:303
+msgid "Download Now!"
+msgstr "现在下载！"
+
+#: engine/page.inc:342
+msgid "Home"
+msgstr "主页"
+
+#: engine/page.inc:342
+msgid "WinMerge Home"
+msgstr "WinMerge 主页"
+
+#: engine/page.inc:343
+msgid "WinMerge Documentation"
+msgstr "WinMerge 文档"
+
+#: engine/page.inc:344
+msgid "WinMerge Downloads"
+msgstr "WinMerge 下载"
+
+#: engine/page.inc:345
+msgid "WinMerge Screenshots"
+msgstr "WinMerge 屏幕截图"
+
+#: engine/page.inc:346
+msgid "WinMerge Source Code"
+msgstr "WinMerge 源代码"
+
+#: engine/page.inc:347
+msgid "WinMerge Support"
+msgstr "WinMerge 支持"
+
+#: engine/page.inc:348
+msgid "WinMerge Translations"
+msgstr "WinMerge 翻译"
+
+#: index.php:6
+msgid ""
+"WinMerge is an Open Source differencing and merging tool for Windows. "
+"WinMerge can compare both folders and files, presenting differences in a "
+"visual text format that is easy to understand and handle."
+msgstr ""
+"WinMerge 是一款适用于 Windows 的开源差异和合并工具。WinMerge 可以比较文件夹和"
+"文件，以可视化文本格式显示差异，易于理解和处理。"
+
+#: index.php:7
+msgid ""
+"WinMerge, free, open source, Windows, windiff, diff, merge, compare, tool, "
+"utility, text, file, folder, directory, compare files, compare folders, "
+"merge files, merge folders, diff tool, merge tool, compare tool"
+msgstr ""
+"WinMerge, 免费, 开源, Windows, windiff, 列出差异, 合并, 比较, 工具, 实用性, "
+"文本, 文件, 文件夹, 目录, 比较文件, 比较文件夹, 合并文件, 合并文件夹, diff 工"
+"具, 合并工具, 比较工具"
+
+#: index.php:8 index.php:78
+msgid "Project News"
+msgstr "项目新闻"
+
+#: index.php:12
+msgid "What is WinMerge?"
+msgstr "什么是 WinMerge？"
+
+#: index.php:13
+#, c-format
+msgid ""
+"WinMerge is an <a href=\"%s\">Open Source</a> differencing and merging tool "
+"for Windows. WinMerge can compare both folders and files, presenting "
+"differences in a visual text format that is easy to understand and handle."
+msgstr ""
+"WinMerge 是一款适用于 Windows 的<a href=\"%s\">开源</a>差异和合并工具。"
+"WinMerge 可以比较文件夹和文件，以易于理解和处理的可视化文本格式显示差异。"
+
+#: index.php:15
+msgid "Screenshot"
+msgstr "屏幕截图"
+
+#: index.php:17 screenshots/index.php:11 screenshots/index.php:12
+msgid "File Comparison"
+msgstr "文件比较"
+
+#: index.php:19
+#, c-format
+msgid "See the <a href=\"%s\">screenshots page</a> for more screenshots."
+msgstr "有关更多屏幕截图，请参阅<a href=\"%s\">屏幕截图页面</a>。"
+
+#: index.php:21
+msgid "Features"
+msgstr "特性"
+
+#: index.php:22
+msgid ""
+"WinMerge is highly useful for determining what has changed between project "
+"versions, and then merging changes between versions. WinMerge can be used as "
+"an external differencing/merging tool or as a standalone application."
+msgstr ""
+"WinMerge 对于确定项目版本之间的变化以及合并版本之间的变化非常有用。WinMerge "
+"可作为外部差异/合并工具或独立应用程序使用。"
+
+#: index.php:23
+msgid ""
+"In addition, WinMerge has many helpful supporting features that make "
+"comparing, synchronising, and merging as easy and useful as possible:"
+msgstr ""
+"此外，WinMerge 还有许多有用的辅助功能，使比较、同步和合并尽可能简单实用："
+
+#: index.php:25
+msgid "General"
+msgstr "一般信息"
+
+#: index.php:27
+msgid "Supports Microsoft Windows XP SP3 or newer"
+msgstr "支持 Microsoft Windows XP SP3 及以上版本"
+
+#: index.php:28
+msgid "Handles Windows, Unix and Mac text file formats"
+msgstr "能够处理 Windows、Unix 和 Mac 文本文件格式"
+
+#: index.php:29
+msgid "Unicode support"
+msgstr "Unicode 支持"
+
+#: index.php:30
+msgid "Tabbed interface"
+msgstr "标签页式界面"
+
+#: index.php:32
+msgid "File Compare"
+msgstr "文件比较"
+
+#: index.php:34 screenshots/index.php:15 screenshots/index.php:16
+msgid "3-way File Comparison"
+msgstr "三路文件比较"
+
+#: index.php:34 index.php:50 index.php:56
+msgid "New!"
+msgstr "新功能！"
+
+#: index.php:35
+msgid "Visual differencing and merging of text files"
+msgstr "可视化差分和合并文本文件"
+
+#: index.php:36
+msgid "Flexible editor with syntax highlighting, line numbers and word-wrap"
+msgstr "灵活的编辑器，具有语法高亮、行号和换行功能"
+
+#: index.php:37
+msgid "Highlights differences inside lines"
+msgstr "行内高亮差异"
+
+#: index.php:38
+msgid "Difference pane shows current difference in two vertical panes"
+msgstr "差异面板在两个垂直窗格中显示当前差异"
+
+#: index.php:39
+msgid "Location pane shows map of files compared"
+msgstr "位置面板显示比所较文件的地图"
+
+#: index.php:40
+msgid "Moved lines detection"
+msgstr "移动行检测"
+
+#: index.php:42
+msgid "Folder Compare"
+msgstr "文件夹比较"
+
+#: index.php:44
+msgid ""
+"Regular Expression based file filters allow excluding and including items"
+msgstr "基于正则表达式的文件过滤器，允许排除或包含项目"
+
+#: index.php:45
+msgid "Fast compare using file sizes and dates"
+msgstr "使用文件大小和日期快速比较"
+
+#: index.php:46
+msgid "Compares one folder or includes all subfolders"
+msgstr "比较单一文件夹，或包含所有子文件夹"
+
+#: index.php:47
+msgid "Can show folder compare results in a tree-style view"
+msgstr "在树形风格视图中显示文件夹比较结果"
+
+#: index.php:48
+msgid "3-way Folder Comparison"
+msgstr "三路文件夹比较"
+
+#: index.php:50
+msgid "Image Compare"
+msgstr "图像比较"
+
+#: index.php:52
+msgid "Support many types of images"
+msgstr "支持很多类型的图像"
+
+#: index.php:53
+msgid "Can highlight the differences with blocks"
+msgstr "能够以区块形式高亮差异"
+
+#: index.php:54
+msgid "Overlaying of the pictures is possible"
+msgstr "可叠加图像"
+
+#: index.php:56
+msgid "Table Compare"
+msgstr "表格比较"
+
+#: index.php:58
+msgid "Shows CSV/TSV file contents in table format"
+msgstr "以表格格式显示 CSV/TSV 文件内容"
+
+#: index.php:59
+msgid "Text can be wrapped for each column"
+msgstr "在每一列中的文本可以换行"
+
+#: index.php:61
+msgid "Version Control"
+msgstr "版本控制"
+
+#: index.php:63
+msgid "Creates patch files (Normal-, Context- and Unified formats)"
+msgstr "创建补丁文件（普通格式、上下文格式和统一格式）"
+
+#: index.php:64
+msgid "Resolve conflict files"
+msgstr "解决冲突文件"
+
+#: index.php:66
+msgid "Other"
+msgstr "其他"
+
+#: index.php:68
+msgid "Shell Integration (supports 64-bit Windows versions)"
+msgstr "Shell 集成（支持 64 位 Windows 版本）"
+
+#: index.php:69
+msgid "Archive file support using 7-Zip"
+msgstr "通过 7-Zip 支持归档文件"
+
+#: index.php:70
+msgid "Plugin support"
+msgstr "插件支持"
+
+#: index.php:71
+msgid "Localizable interface"
+msgstr "本地化界面"
+
+#: index.php:72
+#, c-format
+msgid "<a href=\"%s\">Online manual</a> and installed HTML Help manual"
+msgstr "<a href=\"%s\">在线手册</a>和已安装的 HTML 帮助手册"
+
+#: index.php:75
+#, c-format
+msgid "WinMerge %s - latest stable version"
+msgstr "WinMerge %s - 最新稳定版本"
+
+#: index.php:76
+#, c-format
+msgid ""
+"<a href=\"%1$s\">WinMerge %2$s</a> is the latest stable version, and is "
+"recommended for most users."
+msgstr ""
+"<a href=\"%1$s\">WinMerge %2$s</a> 是最新的稳定版本，建议大多数用户使用。"
+
+#: index.php:88
+msgid "View all news&hellip;"
+msgstr "查看所有新闻&hellip;"
+
+#: index.php:92
+#, c-format
+msgid ""
+"If you need support, look at our <a href=\"%s\">support page</a> for more "
+"information how you can get it."
+msgstr ""
+"如果您需要支持，请访问我们的<a href=\"%s\">支持页面</a>，了解如何获得支持的更"
+"多信息。"
+
+#: index.php:94
+msgid "Developers"
+msgstr "开发者"
+
+#: index.php:95
+msgid ""
+"WinMerge is an open source project, which means that the program is "
+"maintained and developed by volunteers."
+msgstr "WinMerge 是一个开源项目，这意味着该程序由志愿者维护和开发。"
+
+#: index.php:96
+#, c-format
+msgid ""
+"In addition, WinMerge is translated into a number of different languages. "
+"See our <a href=\"%s\">information on translating WinMerge</a> into your own "
+"language."
+msgstr ""
+"此外，WinMerge 还被翻译成多种不同语言。查看<a href=\"%s\">如何将 WinMerge 翻"
+"译为您的语言</a>。"
+
+#: screenshots/index.php:5
+msgid ""
+"Screenshots from WinMerge features like file comparison, folder comparison "
+"results and location pane."
+msgstr "WinMerge 功能截图，如文件比较、文件夹比较结果和位置面板。"
+
+#: screenshots/index.php:6
+msgid ""
+"WinMerge, screenshots, file comparison, open-dialog, folder comparison "
+"results, highlight line diff, location pane, splash screen"
+msgstr ""
+"WinMerge, 屏幕截图, 文件比较, open-dialog, 文件夹比较结果, 高亮行差异, 位置面"
+"板, 启动画面"
+
+#: screenshots/index.php:13
+msgid ""
+"File compare window is basically two files opened to editor into two "
+"horizontal panes. Editing allows user to easily do small changes without "
+"need to open files to other editor or development environment."
+msgstr ""
+"文件比较窗口基本上是将编辑器打开的两个文件分成两个水平面板。通过编辑，用户可"
+"以轻松地进行小修改，而无需将文件在其他编辑器或开发环境中打开。"
+
+#: screenshots/index.php:17
+msgid ""
+"The 3-way file compare even allows comparing and editing three files at the "
+"same time."
+msgstr "三路文件比较功能甚至可以同时比较和编辑三个文件。"
+
+#: screenshots/index.php:19 screenshots/index.php:20
+msgid "Folder Comparison Results"
+msgstr "文件夹比较结果"
+
+#: screenshots/index.php:21
+msgid ""
+"Folder compare shows all files and subfolders found from compared folders as "
+"list. Folder compare allows synchronising folders by copying and deleting "
+"files and subfolders. Folder compare view can be versatile customised."
+msgstr ""
+"文件夹比较以列表形式显示从所比较的文件夹中找到的所有文件和子文件夹。文件夹比"
+"较功能允许通过复制和删除文件和子文件夹来同步文件夹。文件夹比较视图可进行多功"
+"能定制。"
+
+#: screenshots/index.php:23 screenshots/index.php:24
+msgid "Folder Compare Tree View"
+msgstr "文件夹比较树型视图"
+
+#: screenshots/index.php:25
+msgid ""
+"In the tree view, folders are expandable and collapsible, containing files "
+"and subfolders. This is useful for an easier navigation in deeply nested "
+"directory structures. <em>The tree view is available only in recursive "
+"compares."
+msgstr ""
+"在树型视图中，文件夹可展开和折叠，包含文件和子文件夹。这有助于在深度嵌套的目"
+"录结构中更轻松地导航。<em>树型视图仅在递归比较中可用。"
+
+#: screenshots/index.php:27 screenshots/index.php:28
+msgid "Image Comparison"
+msgstr "图像比较"
+
+#: screenshots/index.php:29
+msgid ""
+"WinMerge can compare images and highlight the differences in several ways."
+msgstr "WinMerge 可通过多种方式比较图像并高亮差异。"
+
+#: screenshots/index.php:31 screenshots/index.php:32
+msgid "Table Comparison"
+msgstr "表格比较"
+
+#: screenshots/index.php:33
+msgid "Table compare shows the contents of CSV/TSV files in table format."
+msgstr "表格比较以表格格式显示 CSV/TSV 文件的内容。"
+
+#: screenshots/index.php:35 screenshots/index.php:36
+msgid "Binary Comparison"
+msgstr "二进制比较"
+
+#: screenshots/index.php:37
+msgid ""
+"WinMerge can detect whether files are in text or binary format. When you "
+"launch a file compare operation on binary files, WinMerge opens each file in "
+"the binary file editor."
+msgstr ""
+"WinMerge 可以检测文件是文本格式还是二进制格式。对二进制文件执行文件比较操作"
+"时，WinMerge 会在二进制文件编辑器中打开每个文件。"
+
+#: screenshots/index.php:39 screenshots/index.php:40
+msgid "Open-dialog"
+msgstr "打开对话框"
+
+#: screenshots/index.php:41
+msgid ""
+"WinMerge allows selecting/opening paths in several ways. Using the Open-"
+"dialog is just one of them."
+msgstr "WinMerge 允许通过多种方式选择/打开路径。使用“打开对话框”只是其中之一。"
+
+#: source-code/index.php:8
+msgid ""
+"Download the source code of WinMerge, which is released under the GNU "
+"General Public License."
+msgstr "下载根据 GNU 通用公共许可证发布的 WinMerge 源代码。"
+
+#: source-code/index.php:9
+msgid "WinMerge, free, clone, download, source code, GPL, GitHub, Git"
+msgstr "WinMerge, 免费, 克隆, 下载, 源代码, GPL, GitHub, Git"
+
+#: source-code/index.php:10 source-code/index.php:57
+msgid "Recent Commits"
+msgstr "最近提交"
+
+#: source-code/index.php:15
+#, c-format
+msgid ""
+"WinMerge is <a href=\"%1$s\">Open Source</a> software under the <a "
+"href=\"%2$s\">GNU General Public License</a>."
+msgstr ""
+"WinMerge 是<a href=\"%1$s\">开源</a>软件，采用<a href=\"%2$s\">GNU 通用公共许"
+"可证</a>。"
+
+#: source-code/index.php:15
+#, c-format
+msgid ""
+"This means everybody can download the <a href=\"%s\">source code</a> and "
+"improve and modify it.\n"
+"The only thing we ask is that people submit their improvements and "
+"modifications back to us so that all WinMerge users may benefit."
+msgstr ""
+"这意味着每个人都可以下载<a href=\"%s\">源代码</a>并对其进行改进和修改。\n"
+"我们唯一的要求是，大家将改进和修改的内容提交给我们，以便所有 WinMerge 用户都"
+"能从中受益。"
+
+#: source-code/index.php:19
+msgid "GNU General Public License"
+msgstr "GNU 通用公共许可证"
+
+#: source-code/index.php:34
+msgid "Clone or download"
+msgstr "克隆或下载"
+
+#: source-code/index.php:35
+#, c-format
+msgid ""
+"The source code is hosted on <a href=\"%1$s\">GitHub</a> in a <a "
+"href=\"%2$s\">Git</a> repository:"
+msgstr ""
+"源代码托管在 <a href=\"%1$s\">GitHub</a> 的 <a href=\"%2$s\">Git</a> 仓库中："
+
+#: source-code/index.php:38
+msgid "You can also download the current branches as ZIP file:"
+msgstr "您还可以下载当前分支的 ZIP 文件："
+
+#: source-code/index.php:44
+msgid "Branch"
+msgstr "分支"
+
+#: source-code/index.php:66
+msgid "Y-m-d H:i"
+msgstr "Y-m-d H:i"
+
+#: source-code/index.php:69
+msgid "View all commits&hellip;"
+msgstr "查看所有提交&hellip;"
+
+#: support/index.php:5
+msgid "The Open Discussion forum is the fastest way to get help."
+msgstr "公开讨论区是获得帮助的最快途径。"
+
+#: support/index.php:6
+msgid ""
+"WinMerge, support, discussion forums, tracker, donate, bugs, support "
+"requests, patches, feature requests, todo, open source"
+msgstr ""
+"WinMerge, 支持, 讨论区, 跟踪, 捐赠, 问题, 支持请求, 补丁, 功能请求, todo, 开"
+"源"
+
+#: support/index.php:10
+msgid "The <b>Discussion forums</b> are the fastest way to get help:"
+msgstr "<b>讨论区</b>是获得帮助的最快途径："
+
+#: support/index.php:13
+msgid "WinMerge discussions"
+msgstr "WinMerge 讨论区"
+
+#: support/index.php:14
+msgid "Image Compare discussions"
+msgstr "图像比较讨论区"
+
+#: support/index.php:15
+msgid "Website discussions"
+msgstr "网站讨论区"
+
+#: support/index.php:17
+msgid "Please be patient, it may take some time for somebody to answer."
+msgstr "请耐心等待，可能需要一些时间才能有人回复。"
+
+#: support/index.php:19
+msgid "Issues"
+msgstr "问题"
+
+#: support/index.php:20
+#, c-format
+msgid "If you find a bug, please submit it as a <a href=\"%s\">issue</a>."
+msgstr "如果您发现了错误，请将其作为<a href=\"%s\"> 问题</a>提交。"
+
+#: support/index.php:21
+msgid ""
+"Please attach as much information as you can: at a minimum, the version "
+"number of WinMerge that you are using. If you can, also attach a "
+"configuration log which, you can display by clicking <span "
+"class=\"guimenu\">Help</span> &#8594; <span "
+"class=\"guimenuitem\">Configuration</span> in the WinMerge window."
+msgstr ""
+"请附上尽可能多的信息：至少包括您正在使用的 WinMerge 版本号。如果可以，还可以"
+"附加配置日志，通过单击 WinMerge 窗口中的 <span class=\"guimenu\">帮助</span> "
+"&#8594; <span class=\"guimenuitem\">配置</span> 来显示该日志。"
+
+#: support/index.php:22
+msgid ""
+"Good information in a bug report makes it more likely that your bug will be "
+"fixed quickly."
+msgstr "在错误报告中提供良好的信息更有可能使您的错误迅速得到修复。"
+
+#: support/index.php:23
+#, c-format
+msgid ""
+"Wish list items on the <a href=\"%s\">issues list</a> will also be "
+"considered, but we make absolutely no promises."
+msgstr ""
+"我们也会考虑<a href=\"%s\">问题列表</a>上的愿望清单项目，但我们绝对不做任何承"
+"诺。"
+
+#: support/index.php:26
+#, c-format
+msgid ""
+"Since WinMerge is an <a href=\"%s\">Open Source</a> project, you may use it "
+"free of charge."
+msgstr "由于 WinMerge 是<a href=\"%s\">开源</a>项目，因此您可以免费使用。"
+
+#: support/index.php:27
+#, c-format
+msgid ""
+"But please consider making a <a href=\"%s\">donation</a> to support the "
+"continued development of WinMerge."
+msgstr "但请考虑进行<a href=\"%s\">捐赠</a>，以支持 WinMerge 的持续开发。"
+
+#: support/index.php:29
+msgid "Buy WinMerge merchandise"
+msgstr "购买 WinMerge 商品"
+
+#: support/index.php:30
+#, c-format
+msgid ""
+"You can also support WinMerge by buying merchandise at the <a "
+"href=\"%s\">WinMerge CafePress store</a>. 20%% of the sales goes to WinMerge."
+msgstr ""
+"您还可以通过在 <a href=\"%s\">WinMerge CafePress 商店</a>购买商品来支持 "
+"WinMerge。销售额的 20%% 将归 WinMerge 所有。"
+
+#: translations/index.php:6
+msgid "Translations Status"
+msgstr "翻译状态"
+
+#: translations/index.php:15 translations/index.php:36
+#: translations/status_website.php:14
+msgid "Translators"
+msgstr "翻译者"
+
+#: translations/index.php:16
+msgid "WinMerge Status"
+msgstr "WinMerge 状态"
+
+#: translations/index.php:17
+msgid "ShellExtension Status"
+msgstr "ShellExtension 状态"
+
+#: translations/index.php:18 translations/index.php:45
+msgid "InnoSetup Files"
+msgstr "InnoSetup 文件"
+
+#: translations/index.php:19 translations/index.php:48
+msgid "Readme Files"
+msgstr "自述文件"
+
+#: translations/index.php:20
+msgid "Website Status"
+msgstr "网站状态"
+
+#: translations/index.php:21
+msgid "Instructions"
+msgstr "指引"
+
+#: translations/index.php:24
+msgid "Translating"
+msgstr "正在翻译"
+
+#: translations/index.php:25
+msgid "We currently have WinMerge translated into the languages listed below:"
+msgstr "目前，我们已将 WinMerge 翻译成下列语言："
+
+#: translations/index.php:34
+#, c-format
+msgid ""
+"If you would like to update any of these translations or add another "
+"translation, then please follow <a href=\"%s\">these instructions</a>."
+msgstr ""
+"如果您想更新这些翻译或添加其他翻译，请按照<a href=\"%s\">这些说明</a>进行操"
+"作。"
+
+#: translations/index.php:39
+#, c-format
+msgid "WinMerge Status <em>from %s</em>"
+msgstr "WinMerge 状态（<em>自 %s</em>）"
+
+#: translations/index.php:42
+#, c-format
+msgid "ShellExtension Status <em>from %s</em>"
+msgstr "ShellExtension 状态（<em>自 %s</em>）"
+
+#: translations/index.php:52 translations/status_website.php:21
+msgid "The translations status is currently not available..."
+msgstr "暂时无法查看翻译状态..."
+
+#: translations/status_website.php:6 translations/status_website.php:8
+msgid "Translations Status (Website)"
+msgstr "翻译状态（网站）"
+
+#: translations/status_website.php:9
+#, c-format
+msgid ""
+"We moved the sources from the website to a own <a href=\"%1$s\">GitHub "
+"repository</a>."
+msgstr "我们将源代码从网站移到了自己的 <a href=\"%1$s\">GitHub 代码库中</a>。"
+
+#: translations/status_website.php:17
+#, c-format
+msgid "Website Status <em>from %s</em>"
+msgstr "网站状态（<em>自 %s</em>）"
+
+#: translations/translations.inc:31
+msgid "File not valid."
+msgstr "文件无效。"
+
+#: translations/translations.inc:34
+msgid "File not found."
+msgstr "文件未找到。"
+
+#: translations/translations.inc:74 translations/translations.inc:88
+#: translations/translations.inc:106
+msgid "Translated"
+msgstr "已翻译"
+
+#: translations/translations.inc:74
+#, c-format
+msgid "Translated: %d%%"
+msgstr "已翻译：%d%%"
+
+#: translations/translations.inc:76 translations/translations.inc:89
+#: translations/translations.inc:107
+msgid "Fuzzy"
+msgstr "模糊"
+
+#: translations/translations.inc:76
+#, c-format
+msgid "Fuzzy: %d%%"
+msgstr "模糊：%d%%"
+
+#: translations/translations.inc:78 translations/translations.inc:90
+#: translations/translations.inc:108
+msgid "Untranslated"
+msgstr "未翻译"
+
+#: translations/translations.inc:78
+#, c-format
+msgid "Untranslated: %d%%"
+msgstr "未翻译：%d%%"
+
+#: translations/translations.inc:104 translations/translations.inc:330
+msgid "Language"
+msgstr "语言"
+
+#: translations/translations.inc:105
+msgid "Graph"
+msgstr "图表"
+
+#: translations/translations.inc:109
+msgid "Last Update"
+msgstr "上次更新"
+
+#: translations/translations.inc:150 translations/translations.inc:179
+#: translations/translations.inc:182
+msgid "Template"
+msgstr "模板"
+
+#: translations/translations.inc:153
+#, c-format
+msgid "Total: %d"
+msgstr "总数：%d"
+
+#: translations/translations.inc:156
+msgid "Total: Unknown"
+msgstr "总数：未知"
+
+#: translations/translations.inc:310
+msgid "Maintainer"
+msgstr "维护者"
