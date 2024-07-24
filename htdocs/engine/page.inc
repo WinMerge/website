@@ -296,7 +296,7 @@
      */
     function getDownloadNow($addparagraph = true) {
       $href = $this->_stablerelease->getDownload('setup.exe');
-      $title = __('Version %1$s; %2$s MB', $this->_stablerelease->getVersionNumber(), $this->_stablerelease->getDownloadSizeMb('setup.exe'));
+      $title = __('Version %1$s; %2$s MB; %3$s', $this->_stablerelease->getVersionNumber(), $this->_stablerelease->getDownloadSizeMb('setup.exe'), $this->_stablerelease->getDownloadArch('setup.exe'));
       
       $temp = "";
       if ($addparagraph) {
