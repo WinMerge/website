@@ -74,7 +74,7 @@ def main():
     for php_file in php_files: #For all php files...
         getTranslationsFromPhpFile(php_file, translations)
     
-    potfile = io.open('en-US.pot', 'w', encoding='utf-8', errors='ignore', newline='\n')
+    potfile = io.open('en-US.pot', 'w', encoding='utf-8', errors='ignore')
     potfile.write('# This file is part from WinMerge <http://winmerge.org/>\n')
     potfile.write('# Released under the "GNU General Public License"\n')
     potfile.write('# \n')
