@@ -85,7 +85,7 @@ msgstr "Scaricamenti"
 msgid "Screenshots"
 msgstr "Catture di screnu"
 
-#: 404.php:32 downloads/index.php:71 engine/page.inc:348
+#: 404.php:32 downloads/index.php:80 engine/page.inc:348
 #: source-code/index.php:11 source-code/index.php:13
 msgid "Source Code"
 msgstr "Codice di fonte"
@@ -180,7 +180,7 @@ msgstr ""
 "WinMerge, liberu, scaricà, Windows, cunfigurazione, stalladore, binarii, "
 "schedarii d’esecuzione, stabule, beta, esperimentale, purtavule"
 
-#: downloads/index.php:9 downloads/index.php:126
+#: downloads/index.php:9 downloads/index.php:135
 msgid "Project File Releases"
 msgstr "Versioni di schedariu di prughjettu"
 
@@ -226,81 +226,81 @@ msgstr ""
 msgid "Download"
 msgstr "Scaricà"
 
-#: downloads/index.php:22
+#: downloads/index.php:23
 msgid "Size"
 msgstr "Dimensione"
 
-#: downloads/index.php:23
+#: downloads/index.php:24
 msgid "Type"
 msgstr "Tipu"
 
-#: downloads/index.php:24
+#: downloads/index.php:25
 msgid "Format"
 msgstr "Furmatu"
 
-#: downloads/index.php:28 downloads/index.php:34 downloads/index.php:40
-#: downloads/index.php:46 downloads/index.php:52 downloads/index.php:58
-#: downloads/index.php:64 downloads/index.php:70
+#: downloads/index.php:30 downloads/index.php:37 downloads/index.php:44
+#: downloads/index.php:51 downloads/index.php:58 downloads/index.php:65
+#: downloads/index.php:72 downloads/index.php:79
 #, c-format
 msgid "%s MB"
 msgstr "%s Mo"
 
-#: downloads/index.php:29 downloads/index.php:41 downloads/index.php:47
+#: downloads/index.php:31 downloads/index.php:45 downloads/index.php:52
 msgid "Installer"
 msgstr "Stalladore"
 
-#: downloads/index.php:30 downloads/index.php:36 downloads/index.php:42
-#: downloads/index.php:48
+#: downloads/index.php:32 downloads/index.php:39 downloads/index.php:46
+#: downloads/index.php:53
 msgid "EXE"
 msgstr "EXE"
 
-#: downloads/index.php:35
+#: downloads/index.php:38
 msgid "Per-user installer"
 msgstr "Stalladore à l’utilizatore"
 
-#: downloads/index.php:53 downloads/index.php:59 downloads/index.php:65
+#: downloads/index.php:59 downloads/index.php:66 downloads/index.php:73
 msgid "Binaries"
 msgstr "Binarii"
 
-#: downloads/index.php:54 downloads/index.php:60 downloads/index.php:66
+#: downloads/index.php:60 downloads/index.php:67 downloads/index.php:74
 msgid "ZIP"
 msgstr "ZIP"
 
-#: downloads/index.php:72
+#: downloads/index.php:81
 msgid "7z"
 msgstr "7z"
 
-#: downloads/index.php:77
+#: downloads/index.php:86
 msgid "SHA-256 Checksums"
 msgstr "Somme di cuntrollu SHA-256"
 
-#: downloads/index.php:98
+#: downloads/index.php:107
 msgid "Requirements"
 msgstr "Cundizioni richieste"
 
-#: downloads/index.php:101
+#: downloads/index.php:110
 msgid "32-bit installer: Microsoft Windows XP SP3 or newer"
 msgstr "Stalladore 32-bit : Microsoft Windows XP SP3 o più recente"
 
-#: downloads/index.php:102
+#: downloads/index.php:111
 msgid "64-bit installer: Microsoft Windows 7 or newer"
 msgstr "Stalladore 64-bit : Microsoft Windows 7 o più recente"
 
-#: downloads/index.php:103
+#: downloads/index.php:112
 msgid "Admin rights for the installer (except for Per-user installer)"
 msgstr ""
 "Diritti d’amministratore per u stalladore (fora di u stalladore à "
 "l’utilizatore)"
 
-#: downloads/index.php:106
+#: downloads/index.php:115
 msgid "Other Versions"
 msgstr "Altre versioni"
 
-#: downloads/index.php:107
+#: downloads/index.php:116
 msgid "WinMerge 2.14.0 <em>for Windows 2000</em>"
 msgstr "WinMerge 2.14.0 <em>per Windows 2000</em>"
 
-#: downloads/index.php:108
+#: downloads/index.php:117
 msgid ""
 "WinMerge version 2.14.0 was the last version to ship with Microsoft Visual "
 "C++ 2008 runtimes that support Windows 2000."
@@ -308,16 +308,16 @@ msgstr ""
 "WinMerge versione 2.14.0 hè l’ultima versione distribuita cù i schedarii "
 "d’esecuzione di Microsoft Visual C++ 2008 chì accettanu Windows 2000."
 
-#: downloads/index.php:110 downloads/index.php:115
+#: downloads/index.php:119 downloads/index.php:124
 #, c-format
 msgid "Get version %s"
 msgstr "Ottinite a versione %s"
 
-#: downloads/index.php:112
+#: downloads/index.php:121
 msgid "WinMerge 2.12.4 <em>for Windows 95/98/ME/NT</em>"
 msgstr "WinMerge 2.12.4 <em>per Windows 95/98/ME/NT</em>"
 
-#: downloads/index.php:113
+#: downloads/index.php:122
 msgid ""
 "WinMerge version 2.12.4 was the last version to ship with Microsoft Visual "
 "C++ 2005 runtimes that support Windows 95/98/ME/NT. It was also the last "
@@ -327,27 +327,27 @@ msgstr ""
 "d’esecuzione di Microsoft Visual C++ 2005 chì accettanu Windows 95/98/ME/NT."
 " Hè dinù l’ultima versione distribuita cù una versione ANSI di WinMerge."
 
-#: downloads/index.php:117
+#: downloads/index.php:126
 msgid "Unofficial Versions"
 msgstr "Versioni micca ufficiale"
 
-#: downloads/index.php:120
+#: downloads/index.php:129
 msgid "Continuous Integration Builds"
 msgstr "Custruzzioni d’integrazione in cuntinuu"
 
-#: downloads/index.php:121
+#: downloads/index.php:130
 msgid "WinMerge Portable"
 msgstr "WinMerge purtavule"
 
-#: downloads/index.php:121
+#: downloads/index.php:130
 msgid "(by PortableApps.com)"
 msgstr "(da PortableApps.com)"
 
-#: downloads/index.php:134
+#: downloads/index.php:143
 msgid "Y-m-d"
 msgstr "d-m-Y"
 
-#: downloads/index.php:136
+#: downloads/index.php:145
 msgid "View all file releases&hellip;"
 msgstr "Fighjà tutte e versioni di schedariu&hellip;"
 
@@ -430,11 +430,6 @@ msgstr "Archiviu"
 #: engine/page.inc:219 support/index.php:25
 msgid "Donate"
 msgstr "Dunazione"
-
-#: engine/page.inc:299
-#, c-format
-msgid "Version %1$s; %2$s MB"
-msgstr "Versione %1$s; %2$s Mo"
 
 #: engine/page.inc:305
 msgid "Download Now!"
@@ -1210,6 +1205,31 @@ msgstr ""
 #: engine/engine.inc:41
 msgid "Traditional Chinese"
 msgstr ""
+
+#: downloads/index.php:22
+msgid "Architecture"
+msgstr ""
+
+#: engine/page.inc:48 engine/page.inc:52
+msgid "x86 (32-bit)"
+msgstr ""
+
+#: engine/page.inc:49 engine/page.inc:50 engine/page.inc:53
+msgid "x64 (64-bit)"
+msgstr ""
+
+#: engine/page.inc:51 engine/page.inc:54
+msgid "ARM64 (64-bit)"
+msgstr ""
+
+#: engine/page.inc:299
+#, c-format
+msgid "Version %1$s; %2$s MB; %3$s"
+msgstr ""
+
+#, c-format
+#~ msgid "Version %1$s; %2$s MB"
+#~ msgstr "Versione %1$s; %2$s Mo"
 
 #~ msgid ""
 #~ "The change log is a more complete list of changes in the last WinMerge "

@@ -25,7 +25,7 @@ msgstr ""
 msgid "What is WinMerge?"
 msgstr "Что такое WinMerge?"
 
-#: downloads/index.php:112
+#: downloads/index.php:121
 msgid "WinMerge 2.12.4 <em>for Windows 95/98/ME/NT</em>"
 msgstr "WinMerge 2.12.4 <em>для Windows 95/98/ME/NT</em>"
 
@@ -216,7 +216,7 @@ msgstr "Всего: %d"
 msgid "See the <a href=\"%s\">screenshots page</a> for more screenshots."
 msgstr "Смотрите <a href=\"%s\">страницу скриншотов</a> чтоб увидеть больше."
 
-#: downloads/index.php:113
+#: downloads/index.php:122
 msgid ""
 "WinMerge version 2.12.4 was the last version to ship with Microsoft Visual "
 "C++ 2005 runtimes that support Windows 95/98/ME/NT. It was also the last "
@@ -240,7 +240,7 @@ msgstr "Диалоговое окно открытия файлов и путе�
 msgid "Japanese"
 msgstr "Японский"
 
-#: downloads/index.php:121
+#: downloads/index.php:130
 msgid "(by PortableApps.com)"
 msgstr "(от PortableApps.com)"
 
@@ -254,7 +254,7 @@ msgstr ""
 "панелях. Редактирование позволяет пользователю легко делать небольшие "
 "изменения без необходимости открывать каждый раз файлы в редакторе или IDE."
 
-#: downloads/index.php:98
+#: downloads/index.php:107
 msgid "Requirements"
 msgstr "Требования"
 
@@ -312,7 +312,7 @@ msgstr ""
 "сборки, среда исполнения, стабильный, бета, эксперементальный, переносной, "
 "runtimes, stable, beta, experimental, portable"
 
-#: downloads/index.php:23
+#: downloads/index.php:24
 msgid "Type"
 msgstr "Тип"
 
@@ -346,7 +346,7 @@ msgstr "Статус переводов"
 msgid "Last Update"
 msgstr "Последнее обновление"
 
-#: 404.php:32 downloads/index.php:71 engine/page.inc:348
+#: 404.php:32 downloads/index.php:80 engine/page.inc:348
 #: source-code/index.php:11 source-code/index.php:13
 msgid "Source Code"
 msgstr "Исходный код"
@@ -368,7 +368,7 @@ msgstr ""
 "<a href=\"%s\">Wiki разработки</a> содержит много информации о разработке "
 "WinMerge."
 
-#: downloads/index.php:29 downloads/index.php:41 downloads/index.php:47
+#: downloads/index.php:31 downloads/index.php:45 downloads/index.php:52
 msgid "Installer"
 msgstr "Пакет установки"
 
@@ -445,7 +445,7 @@ msgstr "Y-m-d H:i"
 msgid "Language"
 msgstr "Язык"
 
-#: downloads/index.php:134
+#: downloads/index.php:143
 msgid "Y-m-d"
 msgstr "Y-m-d"
 
@@ -575,7 +575,7 @@ msgstr "Визуальная подсветка изменений и слиян
 msgid "Screenshots"
 msgstr "Скриншоты"
 
-#: downloads/index.php:9 downloads/index.php:126
+#: downloads/index.php:9 downloads/index.php:135
 msgid "Project File Releases"
 msgstr "Другие файлы проекта"
 
@@ -645,7 +645,7 @@ msgstr "GNU General Public License"
 msgid "Development Wiki"
 msgstr "Wiki разработчиков"
 
-#: downloads/index.php:106
+#: downloads/index.php:115
 msgid "Other Versions"
 msgstr "Другие версии"
 
@@ -685,7 +685,7 @@ msgstr ""
 "Сайт подвергался значительным изменениям и переработке, поэтому, возможно, "
 "вы и попали на эту страницу вместо желаемой."
 
-#: downloads/index.php:53 downloads/index.php:59 downloads/index.php:65
+#: downloads/index.php:59 downloads/index.php:66 downloads/index.php:73
 msgid "Binaries"
 msgstr "Двоичные файлы"
 
@@ -734,11 +734,6 @@ msgstr "Загрузки"
 #: engine/page.inc:350
 msgid "WinMerge Translations"
 msgstr "Переводы WinMerge"
-
-#: engine/page.inc:299
-#, c-format
-msgid "Version %1$s; %2$s MB"
-msgstr "Версия %1$s; %2$s МБ"
 
 #: engine/engine.inc:31
 msgid "Polish"
@@ -801,7 +796,7 @@ msgstr ""
 "<a href=\"%s\">Руководство</a> объяснит как использовать WinMerge, его "
 "возможности и ограничения."
 
-#: downloads/index.php:121
+#: downloads/index.php:130
 msgid "WinMerge Portable"
 msgstr "WinMerge Portable"
 
@@ -841,35 +836,35 @@ msgstr ""
 "кодом</a>, распространяющееся под условиями <a href=\"%2$s\">GNU General "
 "Public License</a>."
 
-#: downloads/index.php:136
+#: downloads/index.php:145
 msgid "View all file releases&hellip;"
 msgstr "Посмотреть все версии&hellip;"
 
-#: downloads/index.php:22
+#: downloads/index.php:23
 msgid "Size"
 msgstr ""
 
-#: downloads/index.php:24
+#: downloads/index.php:25
 msgid "Format"
 msgstr ""
 
-#: downloads/index.php:28 downloads/index.php:34 downloads/index.php:40
-#: downloads/index.php:46 downloads/index.php:52 downloads/index.php:58
-#: downloads/index.php:64 downloads/index.php:70
+#: downloads/index.php:30 downloads/index.php:37 downloads/index.php:44
+#: downloads/index.php:51 downloads/index.php:58 downloads/index.php:65
+#: downloads/index.php:72 downloads/index.php:79
 #, c-format
 msgid "%s MB"
 msgstr ""
 
-#: downloads/index.php:30 downloads/index.php:36 downloads/index.php:42
-#: downloads/index.php:48
+#: downloads/index.php:32 downloads/index.php:39 downloads/index.php:46
+#: downloads/index.php:53
 msgid "EXE"
 msgstr ""
 
-#: downloads/index.php:54 downloads/index.php:60 downloads/index.php:66
+#: downloads/index.php:60 downloads/index.php:67 downloads/index.php:74
 msgid "ZIP"
 msgstr ""
 
-#: downloads/index.php:72
+#: downloads/index.php:81
 msgid "7z"
 msgstr ""
 
@@ -932,26 +927,26 @@ msgstr ""
 msgid "Website Status <em>from %s</em>"
 msgstr ""
 
-#: downloads/index.php:77
+#: downloads/index.php:86
 msgid "SHA-256 Checksums"
 msgstr ""
 
-#: downloads/index.php:107
+#: downloads/index.php:116
 msgid "WinMerge 2.14.0 <em>for Windows 2000</em>"
 msgstr ""
 
-#: downloads/index.php:108
+#: downloads/index.php:117
 msgid ""
 "WinMerge version 2.14.0 was the last version to ship with Microsoft Visual "
 "C++ 2008 runtimes that support Windows 2000."
 msgstr ""
 
-#: downloads/index.php:110 downloads/index.php:115
+#: downloads/index.php:119 downloads/index.php:124
 #, c-format
 msgid "Get version %s"
 msgstr ""
 
-#: downloads/index.php:117
+#: downloads/index.php:126
 msgid "Unofficial Versions"
 msgstr ""
 
@@ -1031,7 +1026,7 @@ msgid ""
 "Development Wiki"
 msgstr ""
 
-#: downloads/index.php:120
+#: downloads/index.php:129
 msgid "Continuous Integration Builds"
 msgstr ""
 
@@ -1073,19 +1068,19 @@ msgstr ""
 msgid "Branch"
 msgstr ""
 
-#: downloads/index.php:35
+#: downloads/index.php:38
 msgid "Per-user installer"
 msgstr ""
 
-#: downloads/index.php:101
+#: downloads/index.php:110
 msgid "32-bit installer: Microsoft Windows XP SP3 or newer"
 msgstr ""
 
-#: downloads/index.php:102
+#: downloads/index.php:111
 msgid "64-bit installer: Microsoft Windows 7 or newer"
 msgstr ""
 
-#: downloads/index.php:103
+#: downloads/index.php:112
 msgid "Admin rights for the installer (except for Per-user installer)"
 msgstr ""
 
@@ -1166,6 +1161,31 @@ msgstr ""
 #: engine/engine.inc:41
 msgid "Traditional Chinese"
 msgstr ""
+
+#: downloads/index.php:22
+msgid "Architecture"
+msgstr ""
+
+#: engine/page.inc:48 engine/page.inc:52
+msgid "x86 (32-bit)"
+msgstr ""
+
+#: engine/page.inc:49 engine/page.inc:50 engine/page.inc:53
+msgid "x64 (64-bit)"
+msgstr ""
+
+#: engine/page.inc:51 engine/page.inc:54
+msgid "ARM64 (64-bit)"
+msgstr ""
+
+#: engine/page.inc:299
+#, c-format
+msgid "Version %1$s; %2$s MB; %3$s"
+msgstr ""
+
+#, c-format
+#~ msgid "Version %1$s; %2$s MB"
+#~ msgstr "Версия %1$s; %2$s МБ"
 
 #~ msgid "The change log is currently not available..."
 #~ msgstr "Список изменений в данный момент недоступен."
