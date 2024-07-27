@@ -37,6 +37,7 @@
   $translations->addLanguage('sl', __('Slovenian'), $languagesdir . 'sl.po');
   $translations->addLanguage('sv', __('Swedish'), $languagesdir . 'sv.po');
   $translations->addLanguage('tr', __('Turkish'), $languagesdir . 'tr.po');
+  $translations->addLanguage('zh_CN', __('Simplified Chinese'), $languagesdir . 'zh_CN.po');
   $translations->addLanguage('zh_TW', __('Traditional Chinese'), $languagesdir . 'zh_TW.po');
   if (!$translations->detectLanguageFromUrl()) { //if NOT detect language from URL...
     $translations->detectLanguageFromBrowser();

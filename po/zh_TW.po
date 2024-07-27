@@ -80,7 +80,7 @@ msgstr "下載"
 msgid "Screenshots"
 msgstr "螢幕截圖"
 
-#: 404.php:32 downloads/index.php:80 engine/page.inc:348
+#: 404.php:32 downloads/index.php:71 engine/page.inc:348
 #: source-code/index.php:11 source-code/index.php:13
 msgid "Source Code"
 msgstr "原始碼"
@@ -160,7 +160,7 @@ msgid ""
 msgstr ""
 "WinMerge, 免費, 下載, Windows, setup, 安裝程式, 二進位檔, runtimes, 穩定, 測試, Beta, 可攜式"
 
-#: downloads/index.php:9 downloads/index.php:135
+#: downloads/index.php:9 downloads/index.php:126
 msgid "Project File Releases"
 msgstr "專案檔案版本"
 
@@ -198,79 +198,79 @@ msgstr "有關新內容的詳細資訊，請參閱<a href=\"%1$s\">更新日誌<
 msgid "Download"
 msgstr "下載"
 
-#: downloads/index.php:23
+#: downloads/index.php:22
 msgid "Size"
 msgstr "大小"
 
-#: downloads/index.php:24
+#: downloads/index.php:23
 msgid "Type"
 msgstr "類型"
 
-#: downloads/index.php:25
+#: downloads/index.php:24
 msgid "Format"
 msgstr "格式"
 
-#: downloads/index.php:30 downloads/index.php:37 downloads/index.php:44
-#: downloads/index.php:51 downloads/index.php:58 downloads/index.php:65
-#: downloads/index.php:72 downloads/index.php:79
+#: downloads/index.php:28 downloads/index.php:34 downloads/index.php:40
+#: downloads/index.php:46 downloads/index.php:52 downloads/index.php:58
+#: downloads/index.php:64 downloads/index.php:70
 #, c-format
 msgid "%s MB"
 msgstr "%s MB"
 
-#: downloads/index.php:31 downloads/index.php:45 downloads/index.php:52
+#: downloads/index.php:29 downloads/index.php:41 downloads/index.php:47
 msgid "Installer"
 msgstr "安裝程式"
 
-#: downloads/index.php:32 downloads/index.php:39 downloads/index.php:46
-#: downloads/index.php:53
+#: downloads/index.php:30 downloads/index.php:36 downloads/index.php:42
+#: downloads/index.php:48
 msgid "EXE"
 msgstr "EXE"
 
-#: downloads/index.php:38
+#: downloads/index.php:35
 msgid "Per-user installer"
 msgstr "單一使用者安裝程式"
 
-#: downloads/index.php:59 downloads/index.php:66 downloads/index.php:73
+#: downloads/index.php:53 downloads/index.php:59 downloads/index.php:65
 msgid "Binaries"
 msgstr "二進位檔"
 
-#: downloads/index.php:60 downloads/index.php:67 downloads/index.php:74
+#: downloads/index.php:54 downloads/index.php:60 downloads/index.php:66
 msgid "ZIP"
 msgstr "ZIP"
 
-#: downloads/index.php:81
+#: downloads/index.php:72
 msgid "7z"
 msgstr "7z"
 
-#: downloads/index.php:86
+#: downloads/index.php:77
 msgid "SHA-256 Checksums"
 msgstr "SHA-256 總和檢查碼"
 
-#: downloads/index.php:107
+#: downloads/index.php:98
 msgid "Requirements"
 msgstr "需求"
 
-#: downloads/index.php:110
+#: downloads/index.php:101
 msgid "32-bit installer: Microsoft Windows XP SP3 or newer"
 msgstr "32 位元安裝程式：Microsoft Windows XP SP3 或以上版本"
 
-#: downloads/index.php:111
+#: downloads/index.php:102
 msgid "64-bit installer: Microsoft Windows 7 or newer"
 msgstr "64 位元安裝程式：Microsoft Windows 7 或以上版本"
 
-#: downloads/index.php:112
+#: downloads/index.php:103
 msgid "Admin rights for the installer (except for Per-user installer)"
 msgstr "安裝程式需取得系統管理員權限 (除了單一使用者安裝程式)"
 
-#: downloads/index.php:115
+#: downloads/index.php:106
 msgid "Other Versions"
 msgstr "其他版本"
 
-#: downloads/index.php:116
+#: downloads/index.php:107
 msgid "WinMerge 2.14.0 <em>for Windows 2000</em>"
 msgstr "WinMerge 2.14.0 <em>適用於 Windows 2000</em>"
 
-#: downloads/index.php:117
+#: downloads/index.php:108
 msgid ""
 "WinMerge version 2.14.0 was the last version to ship with Microsoft Visual "
 "C++ 2008 runtimes that support Windows 2000."
@@ -278,16 +278,16 @@ msgstr ""
 "WinMerge 版本 2.14.0 是最後一個附帶 Microsoft Visual C++ 2008 runtimes 並支援 Windows "
 "2000 的版本。"
 
-#: downloads/index.php:119 downloads/index.php:124
+#: downloads/index.php:110 downloads/index.php:115
 #, c-format
 msgid "Get version %s"
 msgstr "取得版本 %s"
 
-#: downloads/index.php:121
+#: downloads/index.php:112
 msgid "WinMerge 2.12.4 <em>for Windows 95/98/ME/NT</em>"
 msgstr "WinMerge 2.12.4 <em>適用於 Windows 95/98/ME/NT</em>"
 
-#: downloads/index.php:122
+#: downloads/index.php:113
 msgid ""
 "WinMerge version 2.12.4 was the last version to ship with Microsoft Visual "
 "C++ 2005 runtimes that support Windows 95/98/ME/NT. It was also the last "
@@ -296,27 +296,27 @@ msgstr ""
 "WinMerge 版本 2.12.4 是最後一個附帶 ANSI 版本及 Microsoft Visual C++ 2005 runtimes 並支援 "
 "Windows 95/98/ME/NT 的版本。"
 
-#: downloads/index.php:126
+#: downloads/index.php:117
 msgid "Unofficial Versions"
 msgstr "非官方版本"
 
-#: downloads/index.php:129
+#: downloads/index.php:120
 msgid "Continuous Integration Builds"
 msgstr "連續整合組建"
 
-#: downloads/index.php:130
+#: downloads/index.php:121
 msgid "WinMerge Portable"
 msgstr "WinMerge 可攜版"
 
-#: downloads/index.php:130
+#: downloads/index.php:121
 msgid "(by PortableApps.com)"
 msgstr "(由 PortableApps.com 提供)"
 
-#: downloads/index.php:143
+#: downloads/index.php:134
 msgid "Y-m-d"
 msgstr "Y-m-d"
 
-#: downloads/index.php:145
+#: downloads/index.php:136
 msgid "View all file releases&hellip;"
 msgstr "檢視所有檔案版本&hellip;"
 
@@ -1079,28 +1079,16 @@ msgstr "總共：未知"
 msgid "Maintainer"
 msgstr "維護者"
 
-#: downloads/index.php:22
-msgid "Architecture"
-msgstr ""
-
 #: engine/engine.inc:30
 msgid "Korean"
 msgstr ""
 
 #: engine/engine.inc:40
+msgid "Simplified Chinese"
+msgstr ""
+
+#: engine/engine.inc:41
 msgid "Traditional Chinese"
-msgstr ""
-
-#: engine/page.inc:48 engine/page.inc:52
-msgid "x86 (32-bit)"
-msgstr ""
-
-#: engine/page.inc:49 engine/page.inc:50 engine/page.inc:53
-msgid "x64 (64-bit)"
-msgstr ""
-
-#: engine/page.inc:51 engine/page.inc:54
-msgid "ARM64 (64-bit)"
 msgstr ""
 
 #~ msgid ""
