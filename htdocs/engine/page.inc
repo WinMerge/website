@@ -43,19 +43,19 @@
       $this->_tab = TAB_HOME;
       /* _Stable Release */
       $this->_stablerelease = new Release;
-      $this->_stablerelease->setVersionNumber('2.16.42');
-      $this->_stablerelease->setDate('2024-07-27');
-      $this->_stablerelease->addDownload('setup.exe', __('x86 (32-bit)'), 'https://downloads.sourceforge.net/winmerge/WinMerge-2.16.42-Setup.exe', 9434441, 'd923e9c0cff3877a724c01d16d32909ba4fb9c5e05811c8371062b8872ed0f33');
-      $this->_stablerelease->addDownload('setup64.exe', __('x64 (64-bit)'), 'https://downloads.sourceforge.net/winmerge/WinMerge-2.16.42-x64-Setup.exe', 9974115, '102ff8805c3c31881a7eae1677acdce5c94d3d637aa44d100dd7cdd33e54e2ed');
-      $this->_stablerelease->addDownload('setup64peruser.exe', __('x64 (64-bit)'), 'https://downloads.sourceforge.net/winmerge/WinMerge-2.16.42-x64-PerUser-Setup.exe', 9973879, '2000836be4b7641fd6a37f8a92c8c2934259b854496a635fa9a97195fd909a6c');
-      $this->_stablerelease->addDownload('setuparm64.exe', __('ARM64 (64-bit)'), 'https://downloads.sourceforge.net/winmerge/WinMerge-2.16.42-ARM64-Setup.exe', 10785595, '7782233ee10447a8766837bfb08787644bc4022903854209ec8833b4e8432f81');
-      $this->_stablerelease->addDownload('exe.zip', __('x86 (32-bit)'), 'https://downloads.sourceforge.net/winmerge/winmerge-2.16.42-exe.zip', 12172920, 'e27f2e65411aaf37054f0b726ddd8b91facc4451959a37068575519092d2a253');
-      $this->_stablerelease->addDownload('exe64.zip', __('x64 (64-bit)'), 'https://downloads.sourceforge.net/winmerge/winmerge-2.16.42-x64-exe.zip', 12938535, '2499c75e5c79f4d97302d13012590ff107572c048c41e77b1c32c0a875dd185c');
-      $this->_stablerelease->addDownload('exearm64.zip', __('ARM64 (64-bit)'), 'https://downloads.sourceforge.net/winmerge/winmerge-2.16.42-ARM64-exe.zip', 12335369, '8c89ba72efdea5872a1ac71a8d3a0377f36abb955edb3433471fbb7619f04436');
-      $this->_stablerelease->addDownload('src.7z', '-', 'https://downloads.sourceforge.net/winmerge/winmerge-2.16.42-full-src.7z', 15733017, 'a4d534489554dee5e4b939bb9f6fdb6b9afcc8543db01154847020b0db7c38ce');
-      $this->_stablerelease->setReleaseNotes('https://github.com/WinMerge/winmerge/releases/tag/v2.16.42');
-      $this->_stablerelease->setKnownIssues('https://github.com/WinMerge/winmerge/releases/tag/v2.16.42#known-issues');
-      $this->_stablerelease->setChangeLog('https://github.com/WinMerge/winmerge/blob/v2.16.42/Docs/Users/ChangeLog.md');
+      $this->_stablerelease->setVersionNumber('2.16.42.1');
+      $this->_stablerelease->setDate('2024-07-28');
+      $this->_stablerelease->addDownload('setup.exe', __('x86 (32-bit)'), 'https://downloads.sourceforge.net/winmerge/WinMerge-2.16.42.1-Setup.exe', 9460320, '0df72ad10ca01d21f15a0ee173a69bbd8f410f85a7c9738330b4d69628c1e3c1');
+      $this->_stablerelease->addDownload('setup64.exe', __('x64 (64-bit)'), 'https://downloads.sourceforge.net/winmerge/WinMerge-2.16.42.1-x64-Setup.exe', 9992352, '5771f2a0553f53684b0e74161ed8749c4dda270f166edac253982366aee39bd3');
+      $this->_stablerelease->addDownload('setup64peruser.exe', __('x64 (64-bit)'), 'https://downloads.sourceforge.net/winmerge/WinMerge-2.16.42.1-x64-PerUser-Setup.exe', 9992272, '468d12f7081fa79f92b5d8bc9f4fe96d2cfb11601378fa3133337a47f6a35b05');
+      $this->_stablerelease->addDownload('setuparm64.exe', __('ARM64 (64-bit)'), 'https://downloads.sourceforge.net/winmerge/WinMerge-2.16.42.1-ARM64-Setup.exe', 10935176, '433ad5eb77b54f0d1558dfb06ff829b6e10efb825675ac564d8cc3e60f16210c');
+      $this->_stablerelease->addDownload('exe.zip', __('x86 (32-bit)'), 'https://downloads.sourceforge.net/winmerge/winmerge-2.16.42.1-exe.zip', 12181008, 'a565504d1197a81f7e187d9b9b8a789357b5249084ea8a0895455891137442a5');
+      $this->_stablerelease->addDownload('exe64.zip', __('x64 (64-bit)'), 'https://downloads.sourceforge.net/winmerge/winmerge-2.16.42.1-x64-exe.zip', 12946857, '4051c4ba9c87cba7b82a4f708e242dc608a9ec1889782f015e7b39b42758100b');
+      $this->_stablerelease->addDownload('exearm64.zip', __('ARM64 (64-bit)'), 'https://downloads.sourceforge.net/winmerge/winmerge-2.16.42.1-ARM64-exe.zip', 12343588, '3414464d2cbbb0a458d54076d2d36c1abedee531b60139e293645fc7b5dab3f6');
+      $this->_stablerelease->addDownload('src.7z', '-', 'https://downloads.sourceforge.net/winmerge/winmerge-2.16.42.1-full-src.7z', 14015671, 'e1505311faf4a7b21882961dad630c8d7821f4c06a1b57054c14abd91bcceb27');
+      $this->_stablerelease->setReleaseNotes('https://github.com/WinMerge/winmerge/releases/tag/v2.16.42.1');
+      $this->_stablerelease->setKnownIssues('https://github.com/WinMerge/winmerge/releases/tag/v2.16.42.1#known-issues');
+      $this->_stablerelease->setChangeLog('https://github.com/WinMerge/winmerge/blob/v2.16.42.1/Docs/Users/ChangeLog.md');
     }
 
     /**
