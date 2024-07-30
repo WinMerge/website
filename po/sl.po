@@ -85,7 +85,7 @@ msgstr "Prenosi"
 msgid "Screenshots"
 msgstr "Posnetki zaslona"
 
-#: 404.php:32 downloads/index.php:71 engine/page.inc:348
+#: 404.php:32 downloads/index.php:80 engine/page.inc:348
 #: source-code/index.php:11 source-code/index.php:13
 msgid "Source Code"
 msgstr "Izvorna koda"
@@ -180,7 +180,7 @@ msgstr ""
 "WinMerge, brezplačno, prenos, Windows, namestitev, namestitveni program, "
 "dvojiške datoteke, časi izvajanja, stabilno, beta, poskusno, prenosno"
 
-#: downloads/index.php:9 downloads/index.php:126
+#: downloads/index.php:9 downloads/index.php:135
 msgid "Project File Releases"
 msgstr "Izdaje projektne datoteke"
 
@@ -224,81 +224,81 @@ msgstr ""
 msgid "Download"
 msgstr "Prenesi"
 
-#: downloads/index.php:22
+#: downloads/index.php:23
 msgid "Size"
 msgstr "Velikost"
 
-#: downloads/index.php:23
+#: downloads/index.php:24
 msgid "Type"
 msgstr "Vrsta"
 
-#: downloads/index.php:24
+#: downloads/index.php:25
 msgid "Format"
 msgstr "Format"
 
-#: downloads/index.php:28 downloads/index.php:34 downloads/index.php:40
-#: downloads/index.php:46 downloads/index.php:52 downloads/index.php:58
-#: downloads/index.php:64 downloads/index.php:70
+#: downloads/index.php:30 downloads/index.php:37 downloads/index.php:44
+#: downloads/index.php:51 downloads/index.php:58 downloads/index.php:65
+#: downloads/index.php:72 downloads/index.php:79
 #, c-format
 msgid "%s MB"
 msgstr "%s MB"
 
-#: downloads/index.php:29 downloads/index.php:41 downloads/index.php:47
+#: downloads/index.php:31 downloads/index.php:45 downloads/index.php:52
 msgid "Installer"
 msgstr "Namestitveni program"
 
-#: downloads/index.php:30 downloads/index.php:36 downloads/index.php:42
-#: downloads/index.php:48
+#: downloads/index.php:32 downloads/index.php:39 downloads/index.php:46
+#: downloads/index.php:53
 msgid "EXE"
 msgstr "EXE"
 
-#: downloads/index.php:35
+#: downloads/index.php:38
 msgid "Per-user installer"
 msgstr "Namestitveni program za posameznega uporabnika"
 
-#: downloads/index.php:53 downloads/index.php:59 downloads/index.php:65
+#: downloads/index.php:59 downloads/index.php:66 downloads/index.php:73
 msgid "Binaries"
 msgstr "Dvojiške datoteke"
 
-#: downloads/index.php:54 downloads/index.php:60 downloads/index.php:66
+#: downloads/index.php:60 downloads/index.php:67 downloads/index.php:74
 msgid "ZIP"
 msgstr "ZIP"
 
-#: downloads/index.php:72
+#: downloads/index.php:81
 msgid "7z"
 msgstr "7z"
 
-#: downloads/index.php:77
+#: downloads/index.php:86
 msgid "SHA-256 Checksums"
 msgstr "Kontrolne vsote SHA-256"
 
-#: downloads/index.php:98
+#: downloads/index.php:107
 msgid "Requirements"
 msgstr "Zahteve"
 
-#: downloads/index.php:101
+#: downloads/index.php:110
 msgid "32-bit installer: Microsoft Windows XP SP3 or newer"
 msgstr "32-bitni namestitveni program: Microsoft Windows XP SP3 ali novejši"
 
-#: downloads/index.php:102
+#: downloads/index.php:111
 msgid "64-bit installer: Microsoft Windows 7 or newer"
 msgstr "64-bitni namestitveni program: Microsoft Windows 7 ali novejši"
 
-#: downloads/index.php:103
+#: downloads/index.php:112
 msgid "Admin rights for the installer (except for Per-user installer)"
 msgstr ""
 "Skrbniške pravice za namestitveni program (razen namestitvenega programa za "
 "posameznega uporabnika)"
 
-#: downloads/index.php:106
+#: downloads/index.php:115
 msgid "Other Versions"
 msgstr "Druge različice"
 
-#: downloads/index.php:107
+#: downloads/index.php:116
 msgid "WinMerge 2.14.0 <em>for Windows 2000</em>"
 msgstr "WinMerge 2.14.0 <em>za Windows 2000</em>"
 
-#: downloads/index.php:108
+#: downloads/index.php:117
 msgid ""
 "WinMerge version 2.14.0 was the last version to ship with Microsoft Visual "
 "C++ 2008 runtimes that support Windows 2000."
@@ -306,16 +306,16 @@ msgstr ""
 "Različica WinMerge 2.14.0 je bila zadnja različica, ki je bila objavljena z "
 "Microsoft Visual C++ 2008 s podporo za Windows 2000."
 
-#: downloads/index.php:110 downloads/index.php:115
+#: downloads/index.php:119 downloads/index.php:124
 #, c-format
 msgid "Get version %s"
 msgstr "Pridobite različico %s"
 
-#: downloads/index.php:112
+#: downloads/index.php:121
 msgid "WinMerge 2.12.4 <em>for Windows 95/98/ME/NT</em>"
 msgstr "WinMerge 2.12.4 <em>za Windows 95/98/ME/NT</em>"
 
-#: downloads/index.php:113
+#: downloads/index.php:122
 msgid ""
 "WinMerge version 2.12.4 was the last version to ship with Microsoft Visual "
 "C++ 2005 runtimes that support Windows 95/98/ME/NT. It was also the last "
@@ -325,27 +325,27 @@ msgstr ""
 "Microsoft Visual C++ 2005 s podporo za Windows 95/98/ME/NT. To je bila tudi "
 "zadnja različica, ki je bila objavljena z ANSI različico WinMerge."
 
-#: downloads/index.php:117
+#: downloads/index.php:126
 msgid "Unofficial Versions"
 msgstr "Neuradne različice"
 
-#: downloads/index.php:120
+#: downloads/index.php:129
 msgid "Continuous Integration Builds"
 msgstr "Stalna integracija izgradenj"
 
-#: downloads/index.php:121
+#: downloads/index.php:130
 msgid "WinMerge Portable"
 msgstr "Prenosni WinMerge"
 
-#: downloads/index.php:121
+#: downloads/index.php:130
 msgid "(by PortableApps.com)"
 msgstr "(avtor PortableApps.com)"
 
-#: downloads/index.php:134
+#: downloads/index.php:143
 msgid "Y-m-d"
 msgstr "L-m-d"
 
-#: downloads/index.php:136
+#: downloads/index.php:145
 msgid "View all file releases&hellip;"
 msgstr "Oglejte si vse izdaje datotek&hellip;"
 
@@ -424,11 +424,6 @@ msgstr "Arhiv"
 #: engine/page.inc:219 support/index.php:25
 msgid "Donate"
 msgstr "Darujte"
-
-#: engine/page.inc:299
-#, c-format
-msgid "Version %1$s; %2$s MB"
-msgstr "Različica %1$s; %2$s MB"
 
 #: engine/page.inc:305
 msgid "Download Now!"
@@ -1185,6 +1180,31 @@ msgstr ""
 #: engine/engine.inc:41
 msgid "Traditional Chinese"
 msgstr ""
+
+#: downloads/index.php:22
+msgid "Architecture"
+msgstr ""
+
+#: engine/page.inc:48 engine/page.inc:52
+msgid "x86 (32-bit)"
+msgstr ""
+
+#: engine/page.inc:49 engine/page.inc:50 engine/page.inc:53
+msgid "x64 (64-bit)"
+msgstr ""
+
+#: engine/page.inc:51 engine/page.inc:54
+msgid "ARM64 (64-bit)"
+msgstr ""
+
+#: engine/page.inc:299
+#, c-format
+msgid "Version %1$s; %2$s MB; %3$s"
+msgstr ""
+
+#, c-format
+#~ msgid "Version %1$s; %2$s MB"
+#~ msgstr "Različica %1$s; %2$s MB"
 
 #~ msgid ""
 #~ "The change log is a more complete list of changes in the last WinMerge "
