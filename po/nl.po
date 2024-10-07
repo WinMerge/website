@@ -1,24 +1,24 @@
 # This file is part from WinMerge <http://winmerge.org/>
 # Released under the "GNU General Public License"
-#
+# 
 # Translators:
-# * Thomas De Rocker, 2020
-#
+# Thomas De Rocker, 2024
+# 
 msgid ""
 msgstr ""
-"Project-Id-Version: WinMerge Website\n"
+"Project-Id-Version: WinMerge\n"
 "Report-Msgid-Bugs-To: http://bugs.winmerge.org\n"
-"POT-Creation-Date: 2020-12-22 22:32+0000\n"
+"POT-Creation-Date: 2024-07-27 17:41+0000\n"
 "PO-Revision-Date: 2020-11-29 16:54+0000\n"
-"Last-Translator: Thomas De Rocker, 2020\n"
-"Language-Team: Dutch (https://www.transifex.com/rockytdr/teams/91037/nl/)\n"
-"Language: nl\n"
+"Last-Translator: Thomas De Rocker, 2024\n"
+"Language-Team: Dutch (https://app.transifex.com/rockytdr/teams/91037/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: nl\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Poedit-Basepath: ../htdocs/\n"
-"X-Poedit-Language: Dutch\n"
+"X-Poedit-Language: English\n"
 "X-Poedit-SourceCharset: utf-8\n"
 
 #: 404.php:9
@@ -223,7 +223,11 @@ msgstr ""
 
 #: downloads/index.php:21 source-code/index.php:43
 msgid "Download"
-msgstr "Downloaden"
+msgstr "Download"
+
+#: downloads/index.php:22
+msgid "Architecture"
+msgstr "Architectuur"
 
 #: downloads/index.php:23
 msgid "Size"
@@ -352,11 +356,15 @@ msgstr "Alle release-bestanden weergeven..."
 
 #: engine/engine.inc:22
 msgid "Basque"
-msgstr "Euskara"
+msgstr "Basque"
 
 #: engine/engine.inc:23
 msgid "Catalan"
-msgstr "Català"
+msgstr "Catalan"
+
+#: engine/engine.inc:24
+msgid "Corsican"
+msgstr "Corsican"
 
 #: engine/engine.inc:25
 msgid "Dutch"
@@ -364,55 +372,79 @@ msgstr "Nederlands"
 
 #: engine/engine.inc:26
 msgid "Greek"
-msgstr "ελληνικά"
+msgstr "Greek"
 
 #: engine/engine.inc:27
 msgid "German"
-msgstr "Deutsch"
+msgstr "German"
 
 #: engine/engine.inc:28
 msgid "French"
-msgstr "Français"
+msgstr "French"
+
+#: engine/engine.inc:30
+msgid "Korean"
+msgstr "Korean"
 
 #: engine/engine.inc:31
 msgid "Polish"
-msgstr "Polski"
+msgstr "Polish"
 
 #: engine/engine.inc:32
 msgid "Portuguese (Brazil)"
-msgstr "Português (Brasil)"
+msgstr "Portuguese (Brazil)"
 
 #: engine/engine.inc:33
 msgid "Portuguese (Portugal)"
-msgstr "Português (Portugal)"
+msgstr "Portuguese (Portugal)"
 
 #: engine/engine.inc:34
 msgid "Russian"
-msgstr "русский"
+msgstr "Russian"
 
 #: engine/engine.inc:35
 msgid "Spanish"
-msgstr "Español"
+msgstr "Spanish"
 
 #: engine/engine.inc:36
 msgid "Spanish (Venezuela)"
-msgstr "Español (Venezuela)"
+msgstr "Spanish (Venezuela)"
 
 #: engine/engine.inc:37
 msgid "Slovenian"
-msgstr "Slovenščina"
+msgstr "Slovenian"
 
 #: engine/engine.inc:38
 msgid "Swedish"
-msgstr "Svenska"
+msgstr "Swedish"
 
 #: engine/engine.inc:39
 msgid "Turkish"
 msgstr "Türkçe"
 
+#: engine/engine.inc:40
+msgid "Simplified Chinese"
+msgstr "Simplified Chinese"
+
+#: engine/engine.inc:41
+msgid "Traditional Chinese"
+msgstr "Traditional Chinese"
+
+#: engine/page.inc:48 engine/page.inc:52
+msgid "x86 (32-bit)"
+msgstr "x86 (32-bit)"
+
+#: engine/page.inc:49 engine/page.inc:50 engine/page.inc:53
+msgid "x64 (64-bit)"
+msgstr "x64 (64-bit)"
+
+#: engine/page.inc:51 engine/page.inc:54
+msgid "ARM64 (64-bit)"
+msgstr "ARM64 (64-bit)"
+
 #: engine/page.inc:130 engine/page.inc:173
 msgid "You will see the difference…"
-msgstr "U zult het verschil zien..."
+msgstr "U ziet het verschil..."
 
 #: engine/page.inc:195
 msgid "Change Language"
@@ -429,6 +461,11 @@ msgstr "Archief"
 #: engine/page.inc:219 support/index.php:25
 msgid "Donate"
 msgstr "Doneren"
+
+#: engine/page.inc:299
+#, c-format
+msgid "Version %1$s; %2$s MB; %3$s"
+msgstr "Versie %1$s; %2$s MB; %3$s"
 
 #: engine/page.inc:305
 msgid "Download Now!"
@@ -1174,94 +1211,3 @@ msgstr "Totaal: onbekend"
 #: translations/translations.inc:315
 msgid "Maintainer"
 msgstr "Beheerder"
-
-#: engine/engine.inc:24
-msgid "Corsican"
-msgstr ""
-
-#: engine/engine.inc:30
-msgid "Korean"
-msgstr ""
-
-#: engine/engine.inc:40
-msgid "Simplified Chinese"
-msgstr ""
-
-#: engine/engine.inc:41
-msgid "Traditional Chinese"
-msgstr ""
-
-#: downloads/index.php:22
-msgid "Architecture"
-msgstr ""
-
-#: engine/page.inc:48 engine/page.inc:52
-msgid "x86 (32-bit)"
-msgstr ""
-
-#: engine/page.inc:49 engine/page.inc:50 engine/page.inc:53
-msgid "x64 (64-bit)"
-msgstr ""
-
-#: engine/page.inc:51 engine/page.inc:54
-msgid "ARM64 (64-bit)"
-msgstr ""
-
-#: engine/page.inc:299
-#, c-format
-msgid "Version %1$s; %2$s MB; %3$s"
-msgstr ""
-
-#, c-format
-#~ msgid "Version %1$s; %2$s MB"
-#~ msgstr "Versie %1$s; %2$s MB"
-
-#~ msgid ""
-#~ "The change log is a more complete list of changes in the last WinMerge "
-#~ "releases."
-#~ msgstr ""
-#~ "De aanpassingslog is een meer complete lijst van aanpassingen in de laatste "
-#~ "releases van WinMerge."
-
-#~ msgid "WinMerge, change log, changes, release, tracker item, revision number"
-#~ msgstr ""
-#~ "WinMerge, aanpassingslog, aanpassingen, release, tracker item, revisienummer"
-
-#~ msgid "The change log is currently not available..."
-#~ msgstr "De lijst van aanpassingen is op dit moment niet beschikbaar..."
-
-#~ msgid ""
-#~ "The release notes are a short summary of important changes, enhancements, "
-#~ "bug fixes and known issues in the current WinMerge release."
-#~ msgstr ""
-#~ "De release-opmerkingen zijn een korte opsomming van belangrijke "
-#~ "aanpassingen, verbeteringen, bugfixes en gekende problemen in de huidige "
-#~ "WinMerge-release."
-
-#~ msgid ""
-#~ "WinMerge, release notes, summary, changes, enhancements, bug fixes, known "
-#~ "issues, release"
-#~ msgstr ""
-#~ "WinMerge, release-opmerkingen, opsomming, aanpassingen, verbeteringen, "
-#~ "bugfixes, gekende problemen, release"
-
-#~ msgid "The release notes are currently not available..."
-#~ msgstr "De release-opmerkingen zijn op dit moment niet beschikbaar..."
-
-#~ msgid "Stable Versions"
-#~ msgstr "Stabiele versies"
-
-#~ msgid "Beta Versions"
-#~ msgstr "Bèta-versies"
-
-#~ msgid "Experimental Builds"
-#~ msgstr "Experimentele builds"
-
-#~ msgid "All File Releases"
-#~ msgstr "Alle release-bestanden"
-
-#~ msgid "Project News"
-#~ msgstr "Projectnieuws"
-
-#~ msgid "View all news&hellip;"
-#~ msgstr "Alle nieuws weergeven..."
