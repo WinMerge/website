@@ -4,6 +4,8 @@
 # Translators:
 # * Patriccollu di Santa Maria è Sichè
 #
+msgid ""
+msgstr ""
 "Project-Id-Version: WinMerge in Corsican\n"
 "Report-Msgid-Bugs-To: http://bugs.winmerge.org\n"
 "POT-Creation-Date: 2024-07-27 17:41+0000\n"
