@@ -50,7 +50,7 @@ msgstr ""
 msgid "Were you looking for..."
 msgstr "Aradığınız..."
 
-#: 404.php:18 docs/index.php:8 docs/index.php:10 engine/page.inc:345
+#: 404.php:18 docs/index.php:8 docs/index.php:10 engine/page.inc:346
 msgid "Documentation"
 msgstr "Belgeler"
 
@@ -74,26 +74,26 @@ msgstr "Yayın Notları"
 msgid "Change Log"
 msgstr "Değişiklik Günlüğü"
 
-#: 404.php:30 engine/page.inc:346
+#: 404.php:30 engine/page.inc:347
 msgid "Downloads"
 msgstr "İndirmeler"
 
-#: 404.php:31 engine/page.inc:347 screenshots/index.php:7
+#: 404.php:31 engine/page.inc:348 screenshots/index.php:7
 #: screenshots/index.php:9
 msgid "Screenshots"
 msgstr "Ekran Görüntüleri"
 
-#: 404.php:32 downloads/index.php:80 engine/page.inc:348
+#: 404.php:32 downloads/index.php:80 engine/page.inc:349
 #: source-code/index.php:11 source-code/index.php:13
 msgid "Source Code"
 msgstr "Kaynak Kodu"
 
-#: 404.php:33 engine/page.inc:349 index.php:76 support/index.php:7
+#: 404.php:33 engine/page.inc:350 index.php:76 support/index.php:7
 #: support/index.php:9
 msgid "Support"
 msgstr "Destek"
 
-#: 404.php:34 engine/page.inc:350 translations/index.php:7
+#: 404.php:34 engine/page.inc:351 translations/index.php:7
 #: translations/index.php:9
 msgid "Translations"
 msgstr "Çeviriler"
@@ -430,39 +430,39 @@ msgstr "Arşiv"
 msgid "Donate"
 msgstr "Bağış Yapın"
 
-#: engine/page.inc:305
+#: engine/page.inc:306
 msgid "Download Now!"
 msgstr "Şimdi İndirin!"
 
-#: engine/page.inc:344
+#: engine/page.inc:345
 msgid "Home"
 msgstr "Anasayfa"
 
-#: engine/page.inc:344
+#: engine/page.inc:345
 msgid "WinMerge Home"
 msgstr "WinMerge Sitesi"
 
-#: engine/page.inc:345
+#: engine/page.inc:346
 msgid "WinMerge Documentation"
 msgstr "WinMerge Belgeleri"
 
-#: engine/page.inc:346
+#: engine/page.inc:347
 msgid "WinMerge Downloads"
 msgstr "WinMerge İndirmeleri"
 
-#: engine/page.inc:347
+#: engine/page.inc:348
 msgid "WinMerge Screenshots"
 msgstr "WinMerge Ekran Görüntüleri"
 
-#: engine/page.inc:348
+#: engine/page.inc:349
 msgid "WinMerge Source Code"
 msgstr "WinMerge Kaynak Kodu"
 
-#: engine/page.inc:349
+#: engine/page.inc:350
 msgid "WinMerge Support"
 msgstr "WinMerge Desteği"
 
-#: engine/page.inc:350
+#: engine/page.inc:351
 msgid "WinMerge Translations"
 msgstr "WinMerge Çevirileri"
 
@@ -1199,62 +1199,3 @@ msgstr ""
 #: engine/page.inc:51 engine/page.inc:54
 msgid "ARM64 (64-bit)"
 msgstr ""
-
-#: engine/page.inc:299
-#, c-format
-msgid "Version %1$s; %2$s MB; %3$s"
-msgstr ""
-
-#, c-format
-#~ msgid "Version %1$s; %2$s MB"
-#~ msgstr "Sürüm %1$s; %2$s MB"
-
-#~ msgid ""
-#~ "The change log is a more complete list of changes in the last WinMerge "
-#~ "releases."
-#~ msgstr ""
-#~ "Değişiklik günlüğünde son WinMerge yayınlarında yapılan tüm değişikliklerin "
-#~ "listesi bulunur."
-
-#~ msgid "WinMerge, change log, changes, release, tracker item, revision number"
-#~ msgstr ""
-#~ "WinMerge, değişiklik günlüğü, değişiklikler, yayın, izleyici ögesi, düzeltme"
-#~ " sayısı"
-
-#~ msgid "The change log is currently not available..."
-#~ msgstr "Değişiklik günlüğü şu anda görüntülenemiyor..."
-
-#~ msgid ""
-#~ "The release notes are a short summary of important changes, enhancements, "
-#~ "bug fixes and known issues in the current WinMerge release."
-#~ msgstr ""
-#~ "Yayın notları, geçerli WinMerge sürümündeki önemli değişiklik, geliştirme, "
-#~ "hata düzeltme ve bilinen sorunlarla ilgili özet bilgileri içerir."
-
-#~ msgid ""
-#~ "WinMerge, release notes, summary, changes, enhancements, bug fixes, known "
-#~ "issues, release"
-#~ msgstr ""
-#~ "WinMerge, yayın notları, özet, değişiklikler, geliştirmeler, hata "
-#~ "düzeltmeleri, bilinen sorunlar, yayın"
-
-#~ msgid "The release notes are currently not available..."
-#~ msgstr "Yayın notları şu anda görüntülenemiyor..."
-
-#~ msgid "Stable Versions"
-#~ msgstr "Kararlı Sürümler"
-
-#~ msgid "Beta Versions"
-#~ msgstr "Beta Sürümleri"
-
-#~ msgid "Experimental Builds"
-#~ msgstr "Deneysel Yayınlar"
-
-#~ msgid "All File Releases"
-#~ msgstr "Yayınlanmış Tüm Dosyalar"
-
-#~ msgid "Project News"
-#~ msgstr "Proje Haberleri"
-
-#~ msgid "View all news&hellip;"
-#~ msgstr "Tüm haberleri görüntüle&hellip;"

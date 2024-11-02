@@ -49,7 +49,7 @@ msgstr "이 사이트는 최근에 대규모 재작업을 거쳤기 때문에 �
 msgid "Were you looking for..."
 msgstr "찾고 계셨나요..."
 
-#: 404.php:18 docs/index.php:8 docs/index.php:10 engine/page.inc:345
+#: 404.php:18 docs/index.php:8 docs/index.php:10 engine/page.inc:346
 msgid "Documentation"
 msgstr "문서"
 
@@ -73,26 +73,26 @@ msgstr "릴리스 노트"
 msgid "Change Log"
 msgstr "변경 로그"
 
-#: 404.php:30 engine/page.inc:346
+#: 404.php:30 engine/page.inc:347
 msgid "Downloads"
 msgstr "다운로드"
 
-#: 404.php:31 engine/page.inc:347 screenshots/index.php:7
+#: 404.php:31 engine/page.inc:348 screenshots/index.php:7
 #: screenshots/index.php:9
 msgid "Screenshots"
 msgstr "스크린샷"
 
-#: 404.php:32 downloads/index.php:80 engine/page.inc:348
+#: 404.php:32 downloads/index.php:80 engine/page.inc:349
 #: source-code/index.php:11 source-code/index.php:13
 msgid "Source Code"
 msgstr "소스 코드"
 
-#: 404.php:33 engine/page.inc:349 index.php:76 support/index.php:7
+#: 404.php:33 engine/page.inc:350 index.php:76 support/index.php:7
 #: support/index.php:9
 msgid "Support"
 msgstr "지원"
 
-#: 404.php:34 engine/page.inc:350 translations/index.php:7
+#: 404.php:34 engine/page.inc:351 translations/index.php:7
 #: translations/index.php:9
 msgid "Translations"
 msgstr "번역"
@@ -413,39 +413,39 @@ msgstr "보관소"
 msgid "Donate"
 msgstr "기부"
 
-#: engine/page.inc:305
+#: engine/page.inc:306
 msgid "Download Now!"
 msgstr "지금 다운로드!"
 
-#: engine/page.inc:344
+#: engine/page.inc:345
 msgid "Home"
 msgstr "홈"
 
-#: engine/page.inc:344
+#: engine/page.inc:345
 msgid "WinMerge Home"
 msgstr "WinMerge 홈"
 
-#: engine/page.inc:345
+#: engine/page.inc:346
 msgid "WinMerge Documentation"
 msgstr "WinMerge 문서"
 
-#: engine/page.inc:346
+#: engine/page.inc:347
 msgid "WinMerge Downloads"
 msgstr "WinMerge 다운로드"
 
-#: engine/page.inc:347
+#: engine/page.inc:348
 msgid "WinMerge Screenshots"
 msgstr "WinMerge 스크린샷"
 
-#: engine/page.inc:348
+#: engine/page.inc:349
 msgid "WinMerge Source Code"
 msgstr "WinMerge 소스 코드"
 
-#: engine/page.inc:349
+#: engine/page.inc:350
 msgid "WinMerge Support"
 msgstr "WinMerge 지원"
 
-#: engine/page.inc:350
+#: engine/page.inc:351
 msgid "WinMerge Translations"
 msgstr "WinMerge 번역"
 
@@ -1121,55 +1121,3 @@ msgstr ""
 #: engine/page.inc:51 engine/page.inc:54
 msgid "ARM64 (64-bit)"
 msgstr ""
-
-#: engine/page.inc:299
-#, c-format
-msgid "Version %1$s; %2$s MB; %3$s"
-msgstr ""
-
-#, c-format
-#~ msgid "Version %1$s; %2$s MB"
-#~ msgstr "버전 %1$s; %2$s MB"
-
-#~ msgid ""
-#~ "The change log is a more complete list of changes in the last WinMerge "
-#~ "releases."
-#~ msgstr "변경 로그는 최근 WinMerge 릴리스의 변경 사항을 보다 완벽하게 나열한 목록입니다."
-
-#~ msgid "WinMerge, change log, changes, release, tracker item, revision number"
-#~ msgstr "WinMerge, 변경 로그, 변경 사항, 릴리스, 추적기 항목, 리비전 번호입니다"
-
-#~ msgid "The change log is currently not available..."
-#~ msgstr "변경 로그를 현재 사용할 수 없습니다..."
-
-#~ msgid ""
-#~ "The release notes are a short summary of important changes, enhancements, "
-#~ "bug fixes and known issues in the current WinMerge release."
-#~ msgstr ""
-#~ "릴리스 노트에는 현재 WinMerge 릴리스의 중요한 변경 사항, 향상된 기능, 버그 수정 및 알려진 문제가 간략하게 요약되어 있습니다."
-
-#~ msgid ""
-#~ "WinMerge, release notes, summary, changes, enhancements, bug fixes, known "
-#~ "issues, release"
-#~ msgstr "WinMerge, 릴리스 노트, 요약, 변경사항, 향상된 기능, 버그 수정, 알려진 문제, 릴리스"
-
-#~ msgid "The release notes are currently not available..."
-#~ msgstr "릴리스 노트를 현재 사용할 수 없습니다..."
-
-#~ msgid "Stable Versions"
-#~ msgstr "안정적인 버전"
-
-#~ msgid "Beta Versions"
-#~ msgstr "베타 버전"
-
-#~ msgid "Experimental Builds"
-#~ msgstr "실험적 빌드"
-
-#~ msgid "All File Releases"
-#~ msgstr "모든 파일 릴리스"
-
-#~ msgid "Project News"
-#~ msgstr "프로젝트 뉴스"
-
-#~ msgid "View all news&hellip;"
-#~ msgstr "모든 뉴스 보기&hellip;"

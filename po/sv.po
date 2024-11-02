@@ -47,7 +47,7 @@ msgstr ""
 "kataloger genom att kopiera och ta bort filer och underkataloger. "
 "Katalogjämförelseutseendet kan bli versantilt anpassat."
 
-#: engine/page.inc:349
+#: engine/page.inc:350
 msgid "WinMerge Support"
 msgstr "WinMerge-support"
 
@@ -100,7 +100,7 @@ msgstr ""
 msgid "Download"
 msgstr "Ladda ner"
 
-#: engine/page.inc:344
+#: engine/page.inc:345
 msgid "Home"
 msgstr "Hem"
 
@@ -114,7 +114,7 @@ msgstr ""
 "installationsprogrammet. Läs <a href=\"%s\">onlinemanualen</a> för hjälp att"
 " använda den."
 
-#: 404.php:33 engine/page.inc:349 index.php:76 support/index.php:7
+#: 404.php:33 engine/page.inc:350 index.php:76 support/index.php:7
 #: support/index.php:9
 msgid "Support"
 msgstr "Support"
@@ -188,7 +188,7 @@ msgstr "Baskiska"
 msgid "Archive"
 msgstr "Arkiv"
 
-#: engine/page.inc:345
+#: engine/page.inc:346
 msgid "WinMerge Documentation"
 msgstr "WinMerge Dokumentation"
 
@@ -326,7 +326,7 @@ msgstr "Sida hittades inte..."
 msgid "Resolve conflict files"
 msgstr "Lös konfliktfiler"
 
-#: 404.php:34 engine/page.inc:350 translations/index.php:7
+#: 404.php:34 engine/page.inc:351 translations/index.php:7
 #: translations/index.php:9
 msgid "Translations"
 msgstr "Översättningar"
@@ -349,7 +349,7 @@ msgstr "Översättningsstatus"
 msgid "Last Update"
 msgstr "Senaste uppdateringen"
 
-#: 404.php:32 downloads/index.php:80 engine/page.inc:348
+#: 404.php:32 downloads/index.php:80 engine/page.inc:349
 #: source-code/index.php:11 source-code/index.php:13
 msgid "Source Code"
 msgstr "Källkod"
@@ -392,7 +392,7 @@ msgstr ""
 msgid "Screenshot"
 msgstr "Skärmdump"
 
-#: engine/page.inc:347
+#: engine/page.inc:348
 msgid "WinMerge Screenshots"
 msgstr "WinMerges skärmdumpar"
 
@@ -412,7 +412,7 @@ msgstr ""
 "Ladda ner källkoden för WinMerge, som är släppt under GNU General Public "
 "licensen."
 
-#: engine/page.inc:344
+#: engine/page.inc:345
 msgid "WinMerge Home"
 msgstr "WinMerges startsida"
 
@@ -469,7 +469,7 @@ msgstr "Lanseringsnoteringar"
 msgid "Untranslated: %d%%"
 msgstr "Oöversatt: %d%%"
 
-#: engine/page.inc:346
+#: engine/page.inc:347
 msgid "WinMerge Downloads"
 msgstr "WinMerges nerladdningar"
 
@@ -545,7 +545,7 @@ msgstr "Oklar: %d%%"
 msgid "Folder Compare Tree View"
 msgstr "Katalogjämförelse trädfönster"
 
-#: 404.php:18 docs/index.php:8 docs/index.php:10 engine/page.inc:345
+#: 404.php:18 docs/index.php:8 docs/index.php:10 engine/page.inc:346
 msgid "Documentation"
 msgstr "Dokumentation"
 
@@ -576,7 +576,7 @@ msgstr ""
 msgid "Visual differencing and merging of text files"
 msgstr "Visuell urskillnad och ihopläggande av textfiler"
 
-#: 404.php:31 engine/page.inc:347 screenshots/index.php:7
+#: 404.php:31 engine/page.inc:348 screenshots/index.php:7
 #: screenshots/index.php:9
 msgid "Screenshots"
 msgstr "Skärmdumpar"
@@ -655,7 +655,7 @@ msgstr "UtvecklingsWiki"
 msgid "Other Versions"
 msgstr "Andra versioner"
 
-#: engine/page.inc:305
+#: engine/page.inc:306
 msgid "Download Now!"
 msgstr "Ladda ner nu!"
 
@@ -731,11 +731,11 @@ msgstr ""
 "Den aktuella WinMerge-versionen är <strong>%1$s</strong> och den släpptes "
 "<strong>%2$s</strong>."
 
-#: 404.php:30 engine/page.inc:346
+#: 404.php:30 engine/page.inc:347
 msgid "Downloads"
 msgstr "Filer"
 
-#: engine/page.inc:350
+#: engine/page.inc:351
 msgid "WinMerge Translations"
 msgstr "WinMerge Översättningar"
 
@@ -953,7 +953,7 @@ msgstr ""
 msgid "Unofficial Versions"
 msgstr ""
 
-#: engine/page.inc:348
+#: engine/page.inc:349
 msgid "WinMerge Source Code"
 msgstr ""
 
@@ -1180,63 +1180,3 @@ msgstr ""
 #: engine/page.inc:51 engine/page.inc:54
 msgid "ARM64 (64-bit)"
 msgstr ""
-
-#: engine/page.inc:299
-#, c-format
-msgid "Version %1$s; %2$s MB; %3$s"
-msgstr ""
-
-#, c-format
-#~ msgid "Version %1$s; %2$s MB"
-#~ msgstr "Version %1$s; %2$s MB"
-
-#~ msgid "The change log is currently not available..."
-#~ msgstr "Ändringsloggen är inte tillgänglig just nu..."
-
-#~ msgid ""
-#~ "The release notes are a short summary of important changes, enhancements, "
-#~ "bug fixes and known issues in the current WinMerge release."
-#~ msgstr ""
-#~ "Lanseringsnoteringarna är en kort sammanfattning av viktiga förändringar, "
-#~ "förbättringar, felfixar och kända problem i den aktuella lanseringen av "
-#~ "WinMerge."
-
-#~ msgid "View all news&hellip;"
-#~ msgstr "Visa alla nyheter&hellip;"
-
-#~ msgid ""
-#~ "The change log is a more complete list of changes in the last WinMerge "
-#~ "releases."
-#~ msgstr ""
-#~ "Ändringsloggen är en mer komplett lista på ändringar i den senaste "
-#~ "lanseringen av WinMerge"
-
-#~ msgid ""
-#~ "WinMerge, release notes, summary, changes, enhancements, bug fixes, known "
-#~ "issues, release"
-#~ msgstr ""
-#~ "WinMerge, lanseringsnoteringar, sammanfattning, ändringar, förbättringar, "
-#~ "felfixar, kända problem, lansering"
-
-#~ msgid "WinMerge, change log, changes, release, tracker item, revision number"
-#~ msgstr ""
-#~ "WinMerge, ändringslog, ändringar, lanseringar, trackerobjekt, "
-#~ "revisionsnummer"
-
-#~ msgid "The release notes are currently not available..."
-#~ msgstr "Lanseringsnoteringarna är nu inte tillgängliga just nu..."
-
-#~ msgid "Beta Versions"
-#~ msgstr "Beta-versioner"
-
-#~ msgid "Experimental Builds"
-#~ msgstr "Experimentella versioner"
-
-#~ msgid "Stable Versions"
-#~ msgstr "Stabila versioner"
-
-#~ msgid "Project News"
-#~ msgstr "Projekt-nyheter"
-
-#~ msgid "All File Releases"
-#~ msgstr ""

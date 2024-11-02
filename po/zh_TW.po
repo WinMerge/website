@@ -47,7 +47,7 @@ msgstr "此網站最近進行了一次重大改版，所以這可能解釋了為
 msgid "Were you looking for..."
 msgstr "您是否在找..."
 
-#: 404.php:18 docs/index.php:8 docs/index.php:10 engine/page.inc:345
+#: 404.php:18 docs/index.php:8 docs/index.php:10 engine/page.inc:346
 msgid "Documentation"
 msgstr "說明文件"
 
@@ -71,26 +71,26 @@ msgstr "版本資訊"
 msgid "Change Log"
 msgstr "更新日誌"
 
-#: 404.php:30 engine/page.inc:346
+#: 404.php:30 engine/page.inc:347
 msgid "Downloads"
 msgstr "下載"
 
-#: 404.php:31 engine/page.inc:347 screenshots/index.php:7
+#: 404.php:31 engine/page.inc:348 screenshots/index.php:7
 #: screenshots/index.php:9
 msgid "Screenshots"
 msgstr "螢幕截圖"
 
-#: 404.php:32 downloads/index.php:80 engine/page.inc:348
+#: 404.php:32 downloads/index.php:80 engine/page.inc:349
 #: source-code/index.php:11 source-code/index.php:13
 msgid "Source Code"
 msgstr "原始碼"
 
-#: 404.php:33 engine/page.inc:349 index.php:76 support/index.php:7
+#: 404.php:33 engine/page.inc:350 index.php:76 support/index.php:7
 #: support/index.php:9
 msgid "Support"
 msgstr "支援"
 
-#: 404.php:34 engine/page.inc:350 translations/index.php:7
+#: 404.php:34 engine/page.inc:351 translations/index.php:7
 #: translations/index.php:9
 msgid "Translations"
 msgstr "翻譯"
@@ -404,39 +404,39 @@ msgstr "封存"
 msgid "Donate"
 msgstr "贊助"
 
-#: engine/page.inc:305
+#: engine/page.inc:306
 msgid "Download Now!"
 msgstr "立刻下載！"
 
-#: engine/page.inc:344
+#: engine/page.inc:345
 msgid "Home"
 msgstr "主頁"
 
-#: engine/page.inc:344
+#: engine/page.inc:345
 msgid "WinMerge Home"
 msgstr "WinMerge 主頁"
 
-#: engine/page.inc:345
+#: engine/page.inc:346
 msgid "WinMerge Documentation"
 msgstr "WinMerge 說明文件"
 
-#: engine/page.inc:346
+#: engine/page.inc:347
 msgid "WinMerge Downloads"
 msgstr "WinMerge 下載"
 
-#: engine/page.inc:347
+#: engine/page.inc:348
 msgid "WinMerge Screenshots"
 msgstr "WinMerge 螢幕截圖"
 
-#: engine/page.inc:348
+#: engine/page.inc:349
 msgid "WinMerge Source Code"
 msgstr "WinMerge 原始碼"
 
-#: engine/page.inc:349
+#: engine/page.inc:350
 msgid "WinMerge Support"
 msgstr "WinMerge 支援"
 
-#: engine/page.inc:350
+#: engine/page.inc:351
 msgid "WinMerge Translations"
 msgstr "WinMerge 翻譯"
 
@@ -1101,54 +1101,3 @@ msgstr ""
 #: engine/page.inc:51 engine/page.inc:54
 msgid "ARM64 (64-bit)"
 msgstr ""
-
-#: engine/page.inc:299
-#, c-format
-msgid "Version %1$s; %2$s MB; %3$s"
-msgstr ""
-
-#, c-format
-#~ msgid "Version %1$s; %2$s MB"
-#~ msgstr "版本 %1$s；%2$s MB"
-
-#~ msgid ""
-#~ "The change log is a more complete list of changes in the last WinMerge "
-#~ "releases."
-#~ msgstr "更新日誌會較為完整的列出最新 WinMerge 版本中的改動。"
-
-#~ msgid "WinMerge, change log, changes, release, tracker item, revision number"
-#~ msgstr "WinMerge, 更新日誌, 更動, 版本, tracker item, revision number"
-
-#~ msgid "The change log is currently not available..."
-#~ msgstr "目前無法存取更新日誌..."
-
-#~ msgid ""
-#~ "The release notes are a short summary of important changes, enhancements, "
-#~ "bug fixes and known issues in the current WinMerge release."
-#~ msgstr "版本資訊是對目前 WinMerge 版本中重大變更、改進、Bug 修復及已知問題的簡短摘要。"
-
-#~ msgid ""
-#~ "WinMerge, release notes, summary, changes, enhancements, bug fixes, known "
-#~ "issues, release"
-#~ msgstr "WinMerge, 版本資訊, 摘要, 更動, enhancements, Bug 修復, 已知問題, 版本"
-
-#~ msgid "The release notes are currently not available..."
-#~ msgstr "目前無法存取翻譯狀態..."
-
-#~ msgid "Stable Versions"
-#~ msgstr "穩定版本"
-
-#~ msgid "Beta Versions"
-#~ msgstr "測試版本"
-
-#~ msgid "Experimental Builds"
-#~ msgstr "測試組建"
-
-#~ msgid "All File Releases"
-#~ msgstr "所有檔案版本"
-
-#~ msgid "Project News"
-#~ msgstr "專案新聞"
-
-#~ msgid "View all news&hellip;"
-#~ msgstr "檢視所有新聞&hellip;"

@@ -49,7 +49,7 @@ msgstr ""
 " синхронизацию каталогов копированием или удалением файлов и подкаталогов. "
 "Этот функционал может быть разносторонне настроен по своему усмотрению."
 
-#: engine/page.inc:349
+#: engine/page.inc:350
 msgid "WinMerge Support"
 msgstr "Поддержка WinMerge"
 
@@ -102,7 +102,7 @@ msgstr ""
 msgid "Download"
 msgstr "Скачать"
 
-#: engine/page.inc:344
+#: engine/page.inc:345
 msgid "Home"
 msgstr "Главная страница"
 
@@ -116,7 +116,7 @@ msgstr ""
 "инсталлятора. Смотрите <a href=\"%s\">онлайн руководство</a>, если нужна "
 "помощь в его использовании."
 
-#: 404.php:33 engine/page.inc:349 index.php:76 support/index.php:7
+#: 404.php:33 engine/page.inc:350 index.php:76 support/index.php:7
 #: support/index.php:9
 msgid "Support"
 msgstr "Поддержка"
@@ -189,7 +189,7 @@ msgstr "Баскский"
 msgid "Archive"
 msgstr "Архив"
 
-#: engine/page.inc:345
+#: engine/page.inc:346
 msgid "WinMerge Documentation"
 msgstr "Документация WinMerge"
 
@@ -324,7 +324,7 @@ msgstr "Страница не найдена..."
 msgid "Resolve conflict files"
 msgstr "Разрешить конфликты файлов"
 
-#: 404.php:34 engine/page.inc:350 translations/index.php:7
+#: 404.php:34 engine/page.inc:351 translations/index.php:7
 #: translations/index.php:9
 msgid "Translations"
 msgstr "Переводы"
@@ -346,7 +346,7 @@ msgstr "Статус переводов"
 msgid "Last Update"
 msgstr "Последнее обновление"
 
-#: 404.php:32 downloads/index.php:80 engine/page.inc:348
+#: 404.php:32 downloads/index.php:80 engine/page.inc:349
 #: source-code/index.php:11 source-code/index.php:13
 msgid "Source Code"
 msgstr "Исходный код"
@@ -389,7 +389,7 @@ msgstr ""
 msgid "Screenshot"
 msgstr "Скриншот"
 
-#: engine/page.inc:347
+#: engine/page.inc:348
 msgid "WinMerge Screenshots"
 msgstr "Скриншоты WinMerge"
 
@@ -408,7 +408,7 @@ msgid ""
 msgstr ""
 "Скачать исходный код WinMerge, выпущенный под GNU General Public License."
 
-#: engine/page.inc:344
+#: engine/page.inc:345
 msgid "WinMerge Home"
 msgstr "Главная страница WinMerge"
 
@@ -462,7 +462,7 @@ msgstr "Информация о выпуске"
 msgid "Untranslated: %d%%"
 msgstr "Непереведено: %d%%"
 
-#: engine/page.inc:346
+#: engine/page.inc:347
 msgid "WinMerge Downloads"
 msgstr "Загрузки WinMerge"
 
@@ -539,7 +539,7 @@ msgstr "Неопределено: %d%%"
 msgid "Folder Compare Tree View"
 msgstr "Режим просмотра сравнения деревьев директорий"
 
-#: 404.php:18 docs/index.php:8 docs/index.php:10 engine/page.inc:345
+#: 404.php:18 docs/index.php:8 docs/index.php:10 engine/page.inc:346
 msgid "Documentation"
 msgstr "Документация"
 
@@ -570,7 +570,7 @@ msgstr ""
 msgid "Visual differencing and merging of text files"
 msgstr "Визуальная подсветка изменений и слияния текстовых файлов"
 
-#: 404.php:31 engine/page.inc:347 screenshots/index.php:7
+#: 404.php:31 engine/page.inc:348 screenshots/index.php:7
 #: screenshots/index.php:9
 msgid "Screenshots"
 msgstr "Скриншоты"
@@ -649,7 +649,7 @@ msgstr "Wiki разработчиков"
 msgid "Other Versions"
 msgstr "Другие версии"
 
-#: engine/page.inc:305
+#: engine/page.inc:306
 msgid "Download Now!"
 msgstr "Скачать сейчас!"
 
@@ -727,11 +727,11 @@ msgstr ""
 "Текущая версия WinMerge - <strong>%1$s</strong>, которая вышла "
 "<strong>%2$s</strong>."
 
-#: 404.php:30 engine/page.inc:346
+#: 404.php:30 engine/page.inc:347
 msgid "Downloads"
 msgstr "Загрузки"
 
-#: engine/page.inc:350
+#: engine/page.inc:351
 msgid "WinMerge Translations"
 msgstr "Переводы WinMerge"
 
@@ -950,7 +950,7 @@ msgstr ""
 msgid "Unofficial Versions"
 msgstr ""
 
-#: engine/page.inc:348
+#: engine/page.inc:349
 msgid "WinMerge Source Code"
 msgstr ""
 
@@ -1177,62 +1177,3 @@ msgstr ""
 #: engine/page.inc:51 engine/page.inc:54
 msgid "ARM64 (64-bit)"
 msgstr ""
-
-#: engine/page.inc:299
-#, c-format
-msgid "Version %1$s; %2$s MB; %3$s"
-msgstr ""
-
-#, c-format
-#~ msgid "Version %1$s; %2$s MB"
-#~ msgstr "Версия %1$s; %2$s МБ"
-
-#~ msgid "The change log is currently not available..."
-#~ msgstr "Список изменений в данный момент недоступен."
-
-#~ msgid ""
-#~ "The release notes are a short summary of important changes, enhancements, "
-#~ "bug fixes and known issues in the current WinMerge release."
-#~ msgstr ""
-#~ "Примечания к выпуску -- это краткая сводка всех важных изменений, улучшений,"
-#~ " багфиксов и известных проблем текущей версии WinMerge."
-
-#~ msgid "View all news&hellip;"
-#~ msgstr "Смотреть все новости&hellip;"
-
-#~ msgid ""
-#~ "The change log is a more complete list of changes in the last WinMerge "
-#~ "releases."
-#~ msgstr ""
-#~ "Данный список изменений наиболее полно описывает все изменения в последних "
-#~ "версиях WinMerge."
-
-#~ msgid ""
-#~ "WinMerge, release notes, summary, changes, enhancements, bug fixes, known "
-#~ "issues, release"
-#~ msgstr ""
-#~ "WinMerge, примечания к релизу, сводка, изменения, улучшения, багфиксы, "
-#~ "известные проблемы, релиз"
-
-#~ msgid "WinMerge, change log, changes, release, tracker item, revision number"
-#~ msgstr ""
-#~ "WinMerge, список изменений, изменения, релиз, выпуск, элемент трекера, номер"
-#~ " ревизии"
-
-#~ msgid "The release notes are currently not available..."
-#~ msgstr "Примечания к выпуску сейчас недоступны..."
-
-#~ msgid "Beta Versions"
-#~ msgstr "Бета-версии"
-
-#~ msgid "Experimental Builds"
-#~ msgstr "Эксперементальные сборки"
-
-#~ msgid "Stable Versions"
-#~ msgstr "Стабильные версии"
-
-#~ msgid "Project News"
-#~ msgstr "Новости проекта"
-
-#~ msgid "All File Releases"
-#~ msgstr ""

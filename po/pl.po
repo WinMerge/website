@@ -49,7 +49,7 @@ msgstr ""
 "synchronizację folderów przez kopiowanie i usuwanie plików i podfolderów. "
 "Widok porównania folderów może być wszechstronnie dostosowywany."
 
-#: engine/page.inc:349
+#: engine/page.inc:350
 msgid "WinMerge Support"
 msgstr "Wsparcie WinMerge"
 
@@ -102,7 +102,7 @@ msgstr ""
 msgid "Download"
 msgstr "Pobranie"
 
-#: engine/page.inc:344
+#: engine/page.inc:345
 msgid "Home"
 msgstr "Początek"
 
@@ -116,7 +116,7 @@ msgstr ""
 "instalatora. Przeczytaj <a href=\"%s\">instrukcję online</a> by dowiedzieć "
 "się jak go użyć."
 
-#: 404.php:33 engine/page.inc:349 index.php:76 support/index.php:7
+#: 404.php:33 engine/page.inc:350 index.php:76 support/index.php:7
 #: support/index.php:9
 msgid "Support"
 msgstr "Wsparcie"
@@ -190,7 +190,7 @@ msgstr "Baskijski"
 msgid "Archive"
 msgstr "Archiwum"
 
-#: engine/page.inc:345
+#: engine/page.inc:346
 msgid "WinMerge Documentation"
 msgstr "Dokumentacja WinMerge"
 
@@ -331,7 +331,7 @@ msgstr "Nie Odnaleziono Strony..."
 msgid "Resolve conflict files"
 msgstr "Rozwiązanie konfliktu plików"
 
-#: 404.php:34 engine/page.inc:350 translations/index.php:7
+#: 404.php:34 engine/page.inc:351 translations/index.php:7
 #: translations/index.php:9
 msgid "Translations"
 msgstr "Tłumaczenia"
@@ -354,7 +354,7 @@ msgstr "Status Tłumaczenia"
 msgid "Last Update"
 msgstr "Ostatnia Aktualizacja"
 
-#: 404.php:32 downloads/index.php:80 engine/page.inc:348
+#: 404.php:32 downloads/index.php:80 engine/page.inc:349
 #: source-code/index.php:11 source-code/index.php:13
 msgid "Source Code"
 msgstr "Kod Źródłowy"
@@ -396,7 +396,7 @@ msgstr ""
 msgid "Screenshot"
 msgstr "Zrzut Ekranu"
 
-#: engine/page.inc:347
+#: engine/page.inc:348
 msgid "WinMerge Screenshots"
 msgstr "Zrzuty Ekranu WinMerge"
 
@@ -416,7 +416,7 @@ msgstr ""
 "Pobierz kod źródłowy WinMerge, który jest udostępniany na zasadach "
 "Powszechnej Licencji Publicznej GNU."
 
-#: engine/page.inc:344
+#: engine/page.inc:345
 msgid "WinMerge Home"
 msgstr "Strona domowa WinMerge"
 
@@ -472,7 +472,7 @@ msgstr "Uwagi do Wydania"
 msgid "Untranslated: %d%%"
 msgstr "Nieprzetłumaczone: %d%%"
 
-#: engine/page.inc:346
+#: engine/page.inc:347
 msgid "WinMerge Downloads"
 msgstr "Pliki WinMerge do Pobrania"
 
@@ -550,7 +550,7 @@ msgstr "Niewyraźnie: %d%%"
 msgid "Folder Compare Tree View"
 msgstr "Widok Drzewa Porównania Folderu"
 
-#: 404.php:18 docs/index.php:8 docs/index.php:10 engine/page.inc:345
+#: 404.php:18 docs/index.php:8 docs/index.php:10 engine/page.inc:346
 msgid "Documentation"
 msgstr "Dokumentacja"
 
@@ -580,7 +580,7 @@ msgstr ""
 msgid "Visual differencing and merging of text files"
 msgstr "Wizualne porównywanie i scalanie plików tekstowych"
 
-#: 404.php:31 engine/page.inc:347 screenshots/index.php:7
+#: 404.php:31 engine/page.inc:348 screenshots/index.php:7
 #: screenshots/index.php:9
 msgid "Screenshots"
 msgstr "Zrzuty Ekranu"
@@ -659,7 +659,7 @@ msgstr "Wiki Rozwoju"
 msgid "Other Versions"
 msgstr "Inne Wersje"
 
-#: engine/page.inc:305
+#: engine/page.inc:306
 msgid "Download Now!"
 msgstr "Pobierz Teraz!"
 
@@ -735,11 +735,11 @@ msgstr ""
 "Obecna wersja WinMerge to <strong>%1$s</strong> i została wydana "
 "<strong>%2$s</strong>."
 
-#: 404.php:30 engine/page.inc:346
+#: 404.php:30 engine/page.inc:347
 msgid "Downloads"
 msgstr "Pliki do Pobrania"
 
-#: engine/page.inc:350
+#: engine/page.inc:351
 msgid "WinMerge Translations"
 msgstr "Tłumaczenia WinMerge"
 
@@ -951,7 +951,7 @@ msgstr "Pobierz wersję %s"
 msgid "Unofficial Versions"
 msgstr "Nieoficjalne wersje"
 
-#: engine/page.inc:348
+#: engine/page.inc:349
 msgid "WinMerge Source Code"
 msgstr "Kod źródłowy WinMerge"
 
@@ -1194,67 +1194,3 @@ msgstr ""
 #: engine/page.inc:51 engine/page.inc:54
 msgid "ARM64 (64-bit)"
 msgstr ""
-
-#: engine/page.inc:299
-#, c-format
-msgid "Version %1$s; %2$s MB; %3$s"
-msgstr ""
-
-#, c-format
-#~ msgid "Version %1$s; %2$s MB"
-#~ msgstr "Wersja %1$s; %2$s MB"
-
-#~ msgid "The change log is currently not available..."
-#~ msgstr "Dziennik zmian nie jest aktualnie dostępny ..."
-
-#~ msgid ""
-#~ "The release notes are a short summary of important changes, enhancements, "
-#~ "bug fixes and known issues in the current WinMerge release."
-#~ msgstr ""
-#~ "Uwagi do wydania to krótkie podsumowanie istotnych zmian, ulepszeń, poprawek"
-#~ " i znanych problemów w bieżącej wersji WinMerge."
-
-#~ msgid "View all news&hellip;"
-#~ msgstr "Przegląd wszystkich aktualności&hellip;"
-
-#~ msgid ""
-#~ "The change log is a more complete list of changes in the last WinMerge "
-#~ "releases."
-#~ msgstr ""
-#~ "Dzienniku zmian zawiera pełną listę zmian pomiędzy ostatnimi wydaniami "
-#~ "WinMerge."
-
-#~ msgid ""
-#~ "WinMerge, release notes, summary, changes, enhancements, bug fixes, known "
-#~ "issues, release"
-#~ msgstr ""
-#~ "WinMerge, uwagi do wydania, streszczenie, zmiany, ulepszenia, poprawki "
-#~ "znanych problemów, wydania"
-
-#~ msgid "WinMerge, change log, changes, release, tracker item, revision number"
-#~ msgstr ""
-#~ "WinMerge, dziennik zmian, zmiany, wydania, element trackera, numer wersji"
-
-#~ msgid "The release notes are currently not available..."
-#~ msgstr "Uwagi do wydania nie są obecnie dostępne..."
-
-#~ msgid "Beta Versions"
-#~ msgstr "Wersje Beta"
-
-#~ msgid "Experimental Builds"
-#~ msgstr "Kompilacja Eksperymentalna"
-
-#~ msgid "Stable Versions"
-#~ msgstr "Stabilne Wersje"
-
-#~ msgid "Project News"
-#~ msgstr "Aktualności Projektu"
-
-#~ msgid "All File Releases"
-#~ msgstr "Wszystkie wydania plików"
-
-#~ msgid ""
-#~ "Wersja WinMerge 2.14.0 była ostatnią wersją dostarczaną z programem "
-#~ "Microsoft VisualC++ 2008 środowiska wykonawcze, które obsługują Windows "
-#~ "2000."
-#~ msgstr ""
