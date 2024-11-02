@@ -295,14 +295,15 @@
      * get the "Download Now!" link
      */
     function getDownloadNow($addparagraph = true) {
-      $href = $this->_stablerelease->getDownload('setup.exe');
-      $title = __('Version %1$s; %2$s MB; %3$s', $this->_stablerelease->getVersionNumber(), $this->_stablerelease->getDownloadSizeMb('setup.exe'), $this->_stablerelease->getDownloadArch('setup.exe'));
+      global $translations;
+      
+      $href = $translations->prepareLink('/downloads/');
       
       $temp = "";
       if ($addparagraph) {
         $temp .= "<p>";
       }
-      $temp .= "<a class=\"button is-large is-success\" href=\"{$href}\" title=\"{$title}\">" . __('Download Now!') . "</a>";
+      $temp .= "<a class=\"button is-large is-success\" href=\"{$href}\">" . __('Download Now!') . "</a>";
       if ($addparagraph) {
         $temp .= "</p>\n";
       }
