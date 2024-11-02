@@ -6,8 +6,8 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: WinMerge in Corsican\n"
-"Report-Msgid-Bugs-To: http://bugs.winmerge.org\n"
+"Project-Id-Version: WinMerge Website\n"
+"Report-Msgid-Bugs-To: https://github.com/WinMerge/website/issues\n"
 "POT-Creation-Date: 2024-07-27 17:41+0000\n"
 "PO-Revision-Date: 2024-10-23 17:51+0200\n"
 "Last-Translator: Patriccollu di Santa Maria è Sichè <https://github.com/Patriccollu/Lingua_Corsa-Infurmatica/#readme>\n"

@@ -9,7 +9,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: WinMerge Website\n"
-"Report-Msgid-Bugs-To: http://bugs.winmerge.org\n"
+"Report-Msgid-Bugs-To: https://github.com/WinMerge/website/issues\n"
 "POT-Creation-Date: 2013-04-29 21:48+0000\n"
 "PO-Revision-Date: 2018-06-13 21:15+0000\n"
 "Last-Translator: Freddydelanuit Dec <fred.dec at free.fr>\n"

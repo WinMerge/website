@@ -3,8 +3,8 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: WinMerge\n"
-"Report-Msgid-Bugs-To: http://bugs.winmerge.org\n"
+"Project-Id-Version: WinMerge Website\n"
+"Report-Msgid-Bugs-To: https://github.com/WinMerge/website/issues\n"
 "POT-Creation-Date: 2024-07-27 17:41+0000\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
