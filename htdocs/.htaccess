@@ -35,7 +35,7 @@ ErrorDocument 404 /404.php
 </FilesMatch>
 
 #Redirect PAD download URL to current WinMerge version...
-Redirect permanent /downloads/WinMerge-Setup.exe https://downloads.sourceforge.net/winmerge/WinMerge-2.16.44-Setup.exe
+Redirect permanent /downloads/WinMerge-Setup.exe https://downloads.sourceforge.net/winmerge/WinMerge-2.16.46-Setup.exe
 
 #Redirect HTTP to HTTPS and www.winmerge.org to winmerge.org...
 RewriteEngine On
