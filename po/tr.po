@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WinMerge Website\n"
 "Report-Msgid-Bugs-To: https://github.com/WinMerge/website/issues\n"
-"POT-Creation-Date: 2021-12-08 05:58+0000\n"
+"POT-Creation-Date: 2024-11-02 21:48+0000\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Kaya Zeren <translator@zeron.net>\n"
 "Language-Team: \n"
@@ -16,9 +16,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.4.2\n"
+"X-Generator: Poedit 3.5\n"
 "X-Poedit-Basepath: ../htdocs\n"
-"X-Poedit-Language: Turkish\n"
 "X-Poedit-SourceCharset: utf-8\n"
 
 #: 404.php:9
@@ -166,8 +165,8 @@ msgid ""
 "Download the current WinMerge version %1$s, which was released at %2$s. For "
 "detailed info on what is new, read the change log and the release notes."
 msgstr ""
-"%2$s tarihinde yayınlanmış olan WinMerge %1$s sürümünü indirin. Yeniliklerin"
-" neler olduğu hakkında bilgi almak için değişiklik günlüğünü ve yayın "
+"%2$s tarihinde yayınlanmış olan WinMerge %1$s sürümünü indirin. Yeniliklerin "
+"neler olduğu hakkında bilgi almak için değişiklik günlüğünü ve yayın "
 "notlarını okuyun."
 
 #: downloads/index.php:8
@@ -222,6 +221,10 @@ msgstr ""
 #: downloads/index.php:21 source-code/index.php:43
 msgid "Download"
 msgstr "İndir"
+
+#: downloads/index.php:22
+msgid "Architecture"
+msgstr "Mimari"
 
 #: downloads/index.php:23
 msgid "Size"
@@ -297,8 +300,8 @@ msgstr "<em>Windows 2000 için</em> WinMerge 2.14.0"
 
 #: downloads/index.php:117
 msgid ""
-"WinMerge version 2.14.0 was the last version to ship with Microsoft Visual "
-"C++ 2008 runtimes that support Windows 2000."
+"WinMerge version 2.14.0 was the last version to ship with Microsoft Visual C+"
+"+ 2008 runtimes that support Windows 2000."
 msgstr ""
 "WinMerge 2.14.0 sürümü Windows 2000 işletim sistemini destekleyen Microsoft "
 "Visual C++ 2008 runtime bileşenleri ile birlikte yayınlanan son sürümdür."
@@ -314,8 +317,8 @@ msgstr "<em>Windows 95/98/ME/NT için</em> WinMerge 2.12.4"
 
 #: downloads/index.php:122
 msgid ""
-"WinMerge version 2.12.4 was the last version to ship with Microsoft Visual "
-"C++ 2005 runtimes that support Windows 95/98/ME/NT. It was also the last "
+"WinMerge version 2.12.4 was the last version to ship with Microsoft Visual C+"
+"+ 2005 runtimes that support Windows 95/98/ME/NT. It was also the last "
 "version to ship with an ANSI version of WinMerge."
 msgstr ""
 "WinMerge 2.12.4 sürümü Windows 95/98/ME/NT işletim sistemlerini destekleyen "
@@ -374,6 +377,10 @@ msgstr "Almanca"
 msgid "French"
 msgstr "Fransızça"
 
+#: engine/engine.inc:30
+msgid "Korean"
+msgstr "Korece"
+
 #: engine/engine.inc:31
 msgid "Polish"
 msgstr "Lehçe"
@@ -409,6 +416,26 @@ msgstr "İsveçce"
 #: engine/engine.inc:39
 msgid "Turkish"
 msgstr "Türkçe"
+
+#: engine/engine.inc:40
+msgid "Simplified Chinese"
+msgstr "Basitleştirilmiş Çince"
+
+#: engine/engine.inc:41
+msgid "Traditional Chinese"
+msgstr "Geleneksel Çince"
+
+#: engine/page.inc:48 engine/page.inc:52
+msgid "x86 (32-bit)"
+msgstr "x86 (32 bit)"
+
+#: engine/page.inc:49 engine/page.inc:50 engine/page.inc:53
+msgid "x64 (64-bit)"
+msgstr "x64 (64 bit)"
+
+#: engine/page.inc:51 engine/page.inc:54
+msgid "ARM64 (64-bit)"
+msgstr "ARM64 (64 bit)"
 
 #: engine/page.inc:130 engine/page.inc:173
 msgid "You will see the difference…"
@@ -482,8 +509,8 @@ msgid ""
 "utility, text, file, folder, directory, compare files, compare folders, "
 "merge files, merge folders, diff tool, merge tool, compare tool"
 msgstr ""
-"WinMerge, ücretsiz, serbest, Windows, windiff, fark, birleştir, karşılaştır,"
-" araç, metin, dosya, klasör, dizin, dosya karşılaştırıcı, klasör "
+"WinMerge, ücretsiz, serbest, Windows, windiff, fark, birleştir, karşılaştır, "
+"araç, metin, dosya, klasör, dizin, dosya karşılaştırıcı, klasör "
 "karşılaştırıcı, dosya birleştirici, klasör birleştirici, fark aracı, "
 "birleştirme aracı, karşılaştırma aracı"
 
@@ -525,8 +552,8 @@ msgstr "Özellikler"
 #: index.php:20
 msgid ""
 "WinMerge is highly useful for determining what has changed between project "
-"versions, and then merging changes between versions. WinMerge can be used as"
-" an external differencing/merging tool or as a standalone application."
+"versions, and then merging changes between versions. WinMerge can be used as "
+"an external differencing/merging tool or as a standalone application."
 msgstr ""
 "WinMerge proje sürümleri arasındaki değişiklikleri belirlemenin ve "
 "birleştirmenin çok kullanışlı bir yoludur. WinMerge fark bulma ve "
@@ -730,8 +757,8 @@ msgstr ""
 #, c-format
 msgid ""
 "In addition, WinMerge is translated into a number of different languages. "
-"See our <a href=\"%s\">information on translating WinMerge</a> into your own"
-" language."
+"See our <a href=\"%s\">information on translating WinMerge</a> into your own "
+"language."
 msgstr ""
 "Ayrıca WinMerge pek çok dile çevrilmiştir. Kendi dilinize çevirmek için <a "
 "href=\"%s\">WinMerge çeviri bilgileri</a> bölümüne bakın."
@@ -777,8 +804,8 @@ msgstr "Klasör Karşılaştırma Sonuçları"
 
 #: screenshots/index.php:21
 msgid ""
-"Folder compare shows all files and subfolders found from compared folders as"
-" list. Folder compare allows synchronising folders by copying and deleting "
+"Folder compare shows all files and subfolders found from compared folders as "
+"list. Folder compare allows synchronising folders by copying and deleting "
 "files and subfolders. Folder compare view can be versatile customised."
 msgstr ""
 "Klasör karşılaştırma, karşılaştırılan klasörlerdeki tüm dosya ve alt "
@@ -829,8 +856,8 @@ msgstr "İkili Dosya Karşılaştırması"
 #: screenshots/index.php:37
 msgid ""
 "WinMerge can detect whether files are in text or binary format. When you "
-"launch a file compare operation on binary files, WinMerge opens each file in"
-" the binary file editor."
+"launch a file compare operation on binary files, WinMerge opens each file in "
+"the binary file editor."
 msgstr ""
 "WinMerge dosyaların metin ya da ikili biçiminde olup olmadığını "
 "algılayabilir. Bir dosya karşılaştırma işlemi başlattığınızda WinMerge "
@@ -876,11 +903,16 @@ msgstr ""
 #: source-code/index.php:15
 #, c-format
 msgid ""
-"This means everybody can download the <a href=\"%s\">source code</a> and improve and modify it.\n"
-"The only thing we ask is that people submit their improvements and modifications back to us so that all WinMerge users may benefit."
+"This means everybody can download the <a href=\"%s\">source code</a> and "
+"improve and modify it.\n"
+"The only thing we ask is that people submit their improvements and "
+"modifications back to us so that all WinMerge users may benefit."
 msgstr ""
-"Yani herkes <a href=\"%s\">kaynak kodunu</a> alıp değişiklik ve geliştirme yapabilir.\n"
-"Sizlerden tek isteğimiz yapacağınız geliştirme ve değişiklikleri bize iletmeniz. Böylece tüm WinMerge kullanıcıları yaptıklarınızdan faydalanabilir."
+"Yani herkes <a href=\"%s\">kaynak kodunu</a> alıp değişiklik ve geliştirme "
+"yapabilir.\n"
+"Sizlerden tek isteğimiz yapacağınız geliştirme ve değişiklikleri bize "
+"iletmeniz. Böylece tüm WinMerge kullanıcıları yaptıklarınızdan "
+"faydalanabilir."
 
 #: source-code/index.php:19
 msgid "GNU General Public License"
@@ -896,8 +928,8 @@ msgid ""
 "The source code is hosted on <a href=\"%1$s\">GitHub</a> in a <a "
 "href=\"%2$s\">Git</a> repository:"
 msgstr ""
-"Kaynak kod <a href=\"%1$s\">GitHub</a> üzerinde bir <a href=\"%2$s\">Git</a>"
-" deposunda bulunuyor:"
+"Kaynak kod <a href=\"%1$s\">GitHub</a> üzerinde bir <a href=\"%2$s\">Git</a> "
+"deposunda bulunuyor:"
 
 #: source-code/index.php:38
 msgid "You can also download the current branches as ZIP file:"
@@ -956,8 +988,8 @@ msgstr "Sorunlar"
 #, c-format
 msgid "If you find a bug, please submit it as a <a href=\"%s\">issue</a>."
 msgstr ""
-"Bir hatayla karşılaştığınızda lütfen <a href=\"%s\">sorun olarak "
-"bildirin</a>."
+"Bir hatayla karşılaştığınızda lütfen <a href=\"%s\">sorun olarak bildirin</"
+"a>."
 
 #: support/index.php:21
 msgid ""
@@ -970,8 +1002,8 @@ msgstr ""
 "Lütfen ekleyebildiğiniz kadar bilgi ekleyin. En azından kullandığınız "
 "WinMerge sürümünü yazın. Yapabilirseniz, WinMerge menüsünden <span "
 "class=\"guimenu\">Yardım</span> &#8594; <span "
-"class=\"guimenuitem\">Yapılandırma</span> üzerine tıklayarak elde edeceğiniz"
-" yapılandırma günlüğünü de ekleyin."
+"class=\"guimenuitem\">Yapılandırma</span> üzerine tıklayarak elde edeceğiniz "
+"yapılandırma günlüğünü de ekleyin."
 
 #: support/index.php:22
 msgid ""
@@ -1016,8 +1048,7 @@ msgstr "WinMerge hediyeliklerinden alın"
 #, c-format
 msgid ""
 "You can also support WinMerge by buying merchandise at the <a "
-"href=\"%s\">WinMerge CafePress store</a>. 20%% of the sales goes to "
-"WinMerge."
+"href=\"%s\">WinMerge CafePress store</a>. 20%% of the sales goes to WinMerge."
 msgstr ""
 "<a href=\"%s\">WinMerge CafePress mağazasından</a> hediyelik eşyalar alarak "
 "da projeye destek olabilirsiniz. Satış tutarının %%20 kadarı WinMerge "
@@ -1171,31 +1202,3 @@ msgstr "Toplam: Bilinmiyor"
 #: translations/translations.inc:315
 msgid "Maintainer"
 msgstr "Güncelleyen"
-
-#: engine/engine.inc:30
-msgid "Korean"
-msgstr ""
-
-#: engine/engine.inc:40
-msgid "Simplified Chinese"
-msgstr ""
-
-#: engine/engine.inc:41
-msgid "Traditional Chinese"
-msgstr ""
-
-#: downloads/index.php:22
-msgid "Architecture"
-msgstr ""
-
-#: engine/page.inc:48 engine/page.inc:52
-msgid "x86 (32-bit)"
-msgstr ""
-
-#: engine/page.inc:49 engine/page.inc:50 engine/page.inc:53
-msgid "x64 (64-bit)"
-msgstr ""
-
-#: engine/page.inc:51 engine/page.inc:54
-msgid "ARM64 (64-bit)"
-msgstr ""
