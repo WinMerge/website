@@ -26,8 +26,8 @@ def getPhpFiles(path):
 
 def getTranslationsFromPhpFile(filepath, translations):
     ''' Get the translations from a php file '''
-    rGettext = re.compile('_e?\([\'](.+?)[\']', re.DOTALL)
-    rGettextTestMultiLine = re.compile('_e?\([\']([^\'\n]+)\n')
+    rGettext = re.compile(r'_e?\([\'](.+?)[\']', re.DOTALL)
+    rGettextTestMultiLine = re.compile(r'_e?\([\']([^\'\n]+)\n')
     
     phpfile = io.open(filepath, 'r', encoding='utf-8', errors='ignore')
     lines = phpfile.readlines()
