@@ -1,0 +1,1210 @@
+# This file is part from WinMerge <http://winmerge.org/>
+# Released under the "GNU General Public License"
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: WinMerge Website\n"
+"Report-Msgid-Bugs-To: https://github.com/WinMerge/website/issues\n"
+"POT-Creation-Date: 2024-11-02 21:48+0000\n"
+"PO-Revision-Date: 2025-05-30 06:37\n"
+"Last-Translator: தமிழ்நேரம் <https://TamilNeram.github.io>\n"
+"Language-Team: தமிழ்நேரம் <https://TamilNeram.github.io>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Basepath: ../htdocs/\n"
+"X-Poedit-Language: Tamil\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: 404.php:9
+msgid "Error 404 (Page Not Found)"
+msgstr "பிழை 404 (பக்கம் கிடைக்கவில்லை)"
+
+#: 404.php:11
+msgid "Page Not Found..."
+msgstr "பக்கம் கிடைக்கவில்லை ..."
+
+#: 404.php:12
+msgid ""
+"For some reason (mis-typed URL, faulty referral from another site, out-of-"
+"date search engine listing or we simply deleted a file) the page you were "
+"looking for could not be found."
+msgstr ""
+"சில காரணங்களால் (தவறான தட்டச்சு செய்யப்பட்ட URL, வேறொரு தளத்திலிருந்து தவறான"
+" பரிந்துரை, காலாவதியான தேடுபொறி பட்டியல் அல்லது ஒரு கோப்பை நாங்கள் "
+"நீக்கிவிட்டோம்) நீங்கள் தேடும் பக்கத்தைக் கண்டுபிடிக்க முடியவில்லை."
+
+#: 404.php:13
+msgid ""
+"This site has recently undergone a major re-working, so that might explain "
+"why you got this page instead."
+msgstr ""
+"இந்த தளம் அண்மைக் காலத்தில் ஒரு பெரிய மறு வேலைக்கு உட்பட்டுள்ளது, எனவே "
+"அதற்கு பதிலாக இந்த பக்கத்தை ஏன் பெற்றீர்கள் என்பதை விளக்கக்கூடும்."
+
+#: 404.php:15
+msgid "Were you looking for..."
+msgstr "நீங்கள் தேடிக்கொண்டிருக்கிறீர்களா ..."
+
+#: 404.php:18 docs/index.php:8 docs/index.php:10 engine/page.inc:346
+msgid "Documentation"
+msgstr "ஆவணப்படுத்துதல்"
+
+#: 404.php:20 docs/index.php:11
+msgid "Manual"
+msgstr "கையேடு"
+
+#: 404.php:22 docs/index.php:16 engine/engine.inc:21
+msgid "English"
+msgstr "ஆங்கிலம்"
+
+#: 404.php:23 docs/index.php:17 engine/engine.inc:29
+msgid "Japanese"
+msgstr "சப்பானியர்கள்"
+
+#: 404.php:26 docs/index.php:20
+msgid "Release Notes"
+msgstr "வெளியீட்டு குறிப்புகள்"
+
+#: 404.php:27 docs/index.php:22
+msgid "Change Log"
+msgstr "பதிவை மாற்றவும்"
+
+#: 404.php:30 engine/page.inc:347
+msgid "Downloads"
+msgstr "பதிவிறக்கங்கள்"
+
+#: 404.php:31 engine/page.inc:348 screenshots/index.php:7
+#: screenshots/index.php:9
+msgid "Screenshots"
+msgstr "திரைக்காட்சிகள்"
+
+#: 404.php:32 downloads/index.php:80 engine/page.inc:349
+#: source-code/index.php:11 source-code/index.php:13
+msgid "Source Code"
+msgstr "மூலக் குறியீடு"
+
+#: 404.php:33 engine/page.inc:350 index.php:76 support/index.php:7
+#: support/index.php:9
+msgid "Support"
+msgstr "உதவி"
+
+#: 404.php:34 engine/page.inc:351 translations/index.php:7
+#: translations/index.php:9
+msgid "Translations"
+msgstr "மொழிபெயர்ப்புகள்"
+
+#: docs/index.php:6
+msgid ""
+"Documentation from WinMerge like manual, release notes, change log and "
+"Development Wiki."
+msgstr ""
+"கையேடு, வெளியீட்டுக் குறிப்புகள், மாற்று பதிவு மற்றும் மேம்பாட்டு விக்கி "
+"போன்ற வின்மெர்சிலிருந்து ஆவணங்கள்."
+
+#: docs/index.php:7
+msgid ""
+"WinMerge, documentation, manual, release notes, known issues, change log, "
+"Development Wiki"
+msgstr ""
+"வின்மெர்ச், ஆவணங்கள், கையேடு, வெளியீட்டுக் குறிப்புகள், அறியப்பட்ட "
+"சிக்கல்கள், மாற்று பதிவு, மேம்பாட்டு விக்கி"
+
+#: docs/index.php:12
+#, c-format
+msgid ""
+"The <a href=\"%s\">manual</a> explains how to use WinMerge, and documents "
+"its capabilities and limitations."
+msgstr ""
+"<a href=\"%s\"> கையேடு</a> சாளரஒன்றிணையை எவ்வாறு பயன்படுத்துவது என்பதை "
+"விளக்குகிறது, மேலும் அதன் திறன்களையும் வரம்புகளையும் ஆவணப்படுத்துகிறது."
+
+#: docs/index.php:13
+msgid "It is currently available in the following languages:"
+msgstr "இது தற்போது பின்வரும் மொழிகளில் கிடைக்கிறது:"
+
+#: docs/index.php:21
+#, c-format
+msgid ""
+"The <a href=\"%1$s\">release notes</a> are a short summary of important "
+"changes, enhancements, bug fixes and <a href=\"%2$s\">known issues</a> in "
+"the current WinMerge release."
+msgstr ""
+"<a href=\"%1$s\"> வெளியீட்டுக் குறிப்புகள்</a> தற்போதைய சாளரஒன்றிணை "
+"வெளியீட்டில் முக்கியமான மாற்றங்கள், மேம்பாடுகள், பிழை திருத்தங்கள் மற்றும் "
+"<a href=\"%2$s\"> அறியப்பட்ட சிக்கல்கள்</a> ஆகியவற்றின் சுருக்கமான "
+"சுருக்கமாகும்."
+
+#: docs/index.php:23
+#, c-format
+msgid ""
+"The <a href=\"%s\">change log</a> is a more complete list of changes in the "
+"last WinMerge releases."
+msgstr ""
+"<a href=\"%s\"> மாற்று பதிவு</a> என்பது கடைசி வின்மெர்ச் வெளியீடுகளில் "
+"ஏற்படும் மாற்றங்களின் முழுமையான பட்டியல்."
+
+#: docs/index.php:24
+msgid "Development Wiki"
+msgstr "வளர்ச்சி விக்கி"
+
+#: docs/index.php:25
+#, c-format
+msgid ""
+"The <a href=\"%s\">Development Wiki</a> contains much information about the "
+"WinMerge development."
+msgstr ""
+"<a href=\"%s\"> மேம்பாட்டு விக்கி</a> சாளரஒன்றிணை மேம்பாடு பற்றிய பல "
+"தகவல்களைக் கொண்டுள்ளது."
+
+#: downloads/index.php:7
+#, c-format
+msgid ""
+"Download the current WinMerge version %1$s, which was released at %2$s. For "
+"detailed info on what is new, read the change log and the release notes."
+msgstr ""
+"தற்போதைய வின்னர்ச் பதிப்பு %1$s ஐப் பதிவிறக்குக, இது %2$s இல் "
+"வெளியிடப்பட்டது. புதியது பற்றிய விரிவான தகவலுக்கு, மாற்ற பதிவு மற்றும் "
+"வெளியீட்டுக் குறிப்புகளைப் படியுங்கள்."
+
+#: downloads/index.php:8
+msgid ""
+"WinMerge, free, download, Windows, setup, installer, binaries, runtimes, "
+"stable, beta, experimental, portable"
+msgstr ""
+"வின்மெர்ச், இலவச, பதிவிறக்கம், சாளரங்கள், அமைவு, நிறுவி, பைனரிகள், இயக்க "
+"நேரங்கள், நிலையான, பீட்டா, சோதனை, சிறிய"
+
+#: downloads/index.php:9 downloads/index.php:135
+msgid "Project File Releases"
+msgstr "திட்ட கோப்பு வெளியீடுகள்"
+
+#: downloads/index.php:10 downloads/index.php:12
+msgid "Download WinMerge"
+msgstr "வின்னர்ச் பதிவிறக்கவும்"
+
+#: downloads/index.php:13
+#, c-format
+msgid ""
+"The easiest way to install WinMerge is to download and run the Installer. "
+"Read the <a href=\"%s\">online manual</a> for help using it."
+msgstr ""
+"சாளரஒன்றிணையை நிறுவுவதற்கான எளிதான வழி நிறுவியை பதிவிறக்கம் செய்து இயக்குவது. "
+"இதைப் பயன்படுத்த உதவ <a href=\"%s\"> நிகழ்நிலை கையேடு</a> ஐப் படிக்கவும்."
+
+#: downloads/index.php:14
+#, c-format
+msgid "WinMerge %s"
+msgstr "சாளரஒன்றிணை %s"
+
+#: downloads/index.php:15
+#, c-format
+msgid ""
+"The current WinMerge version is <strong>%1$s</strong> and was released at "
+"<strong>%2$s</strong>."
+msgstr ""
+"தற்போதைய சாளரஒன்றிணை பதிப்பு <strong>%1$s</strong> மற்றும் <strong>%2$s"
+"</strong> இல் வெளியிடப்பட்டது."
+
+#: downloads/index.php:16
+#, c-format
+msgid ""
+"For detailed info on what is new, read the <a href=\"%1$s\">change log</a> "
+"and the <a href=\"%2$s\">release notes</a>."
+msgstr ""
+"புதியது பற்றிய விரிவான தகவலுக்கு, <a href=\"%1$s\"> பதிவை மாற்றவும்</a> "
+"மற்றும் <a href=\"%2$s\"> வெளியீட்டு குறிப்புகள்</a> ஐப் படிக்கவும்."
+
+#: downloads/index.php:21 source-code/index.php:43
+msgid "Download"
+msgstr "பதிவிறக்கம்"
+
+#: downloads/index.php:22
+msgid "Architecture"
+msgstr "கட்டிடக்கலை"
+
+#: downloads/index.php:23
+msgid "Size"
+msgstr "அளவு"
+
+#: downloads/index.php:24
+msgid "Type"
+msgstr "வகை"
+
+#: downloads/index.php:25
+msgid "Format"
+msgstr "வடிவம்"
+
+#: downloads/index.php:30 downloads/index.php:37 downloads/index.php:44
+#: downloads/index.php:51 downloads/index.php:58 downloads/index.php:65
+#: downloads/index.php:72 downloads/index.php:79
+#, c-format
+msgid "%s MB"
+msgstr "%XSMB"
+
+#: downloads/index.php:31 downloads/index.php:45 downloads/index.php:52
+msgid "Installer"
+msgstr "நிறுவி"
+
+#: downloads/index.php:32 downloads/index.php:39 downloads/index.php:46
+#: downloads/index.php:53
+msgid "EXE"
+msgstr "Exe"
+
+#: downloads/index.php:38
+msgid "Per-user installer"
+msgstr "ஒவ்வொரு பயனர் நிறுவி"
+
+#: downloads/index.php:59 downloads/index.php:66 downloads/index.php:73
+msgid "Binaries"
+msgstr "பைனரிகள்"
+
+#: downloads/index.php:60 downloads/index.php:67 downloads/index.php:74
+msgid "ZIP"
+msgstr "சிப்"
+
+#: downloads/index.php:81
+msgid "7z"
+msgstr "7ஃ"
+
+#: downloads/index.php:86
+msgid "SHA-256 Checksums"
+msgstr "SHA-256 CHESKSUMS"
+
+#: downloads/index.php:107
+msgid "Requirements"
+msgstr "தேவைகள்"
+
+#: downloads/index.php:110
+msgid "32-bit installer: Microsoft Windows XP SP3 or newer"
+msgstr "32-இருமம் நிறுவி: மைக்ரோசாப்ட் சாளரங்கள் எக்ச்பி எச்பி 3 அல்லது புதியது"
+
+#: downloads/index.php:111
+msgid "64-bit installer: Microsoft Windows 7 or newer"
+msgstr "64-இருமம் நிறுவி: மைக்ரோசாப்ட் சாளரங்கள் 7 அல்லது புதியது"
+
+#: downloads/index.php:112
+msgid "Admin rights for the installer (except for Per-user installer)"
+msgstr "நிறுவிக்கான நிர்வாக உரிமைகள் (ஒவ்வொரு பயனர் நிறுவி தவிர)"
+
+#: downloads/index.php:115
+msgid "Other Versions"
+msgstr "பிற பதிப்புகள்"
+
+#: downloads/index.php:116
+msgid "WinMerge 2.14.0 <em>for Windows 2000</em>"
+msgstr "<em>சாளரங்கள் 2000</em> க்கு சாளரஒன்றிணை 2.14.0"
+
+#: downloads/index.php:117
+msgid ""
+"WinMerge version 2.14.0 was the last version to ship with Microsoft Visual "
+"C++ 2008 runtimes that support Windows 2000."
+msgstr ""
+"சாளரங்கள் 2000 ஐ ஆதரிக்கும் நுண்மென் விசுவல் சி ++ 2008 ரன் டைமுடன் "
+"அனுப்பப்பட்ட கடைசி பதிப்பாகும் சாளரஒன்றிணை பதிப்பு 2.14.0."
+
+#: downloads/index.php:119 downloads/index.php:124
+#, c-format
+msgid "Get version %s"
+msgstr "பதிப்பு %s கிடைக்கும்"
+
+#: downloads/index.php:121
+msgid "WinMerge 2.12.4 <em>for Windows 95/98/ME/NT</em>"
+msgstr "<em>சாளரங்கள் 95/98/me/nt </em> க்கு சாளரஒன்றிணை 2.12.4"
+
+#: downloads/index.php:122
+msgid ""
+"WinMerge version 2.12.4 was the last version to ship with Microsoft Visual "
+"C++ 2005 runtimes that support Windows 95/98/ME/NT. It was also the last "
+"version to ship with an ANSI version of WinMerge."
+msgstr ""
+"சாளரங்கள் 95/98/me/nt ஐ ஆதரிக்கும் நுண்மென் விசுவல் சி ++ 2005 ரன் டைமுடன் "
+"அனுப்பப்பட்ட கடைசி பதிப்பாகும் சாளரஒன்றிணை பதிப்பு 2.12.4. வின்னர்சின் ANSI "
+"பதிப்பைக் கொண்டு அனுப்பப்பட்ட கடைசி பதிப்பும் இதுவாகும்."
+
+#: downloads/index.php:126
+msgid "Unofficial Versions"
+msgstr "அதிகாரப்பூர்வமற்ற பதிப்புகள்"
+
+#: downloads/index.php:129
+msgid "Continuous Integration Builds"
+msgstr "தொடர்ச்சியான ஒருங்கிணைப்பு உருவாக்குகிறது"
+
+#: downloads/index.php:130
+msgid "WinMerge Portable"
+msgstr "சாளரஒன்றிணை போர்ட்டபிள்"
+
+#: downloads/index.php:130
+msgid "(by PortableApps.com)"
+msgstr "(by portableapps.com)"
+
+#: downloads/index.php:143
+msgid "Y-m-d"
+msgstr "Y-m-d"
+
+#: downloads/index.php:145
+msgid "View all file releases&hellip;"
+msgstr "அனைத்து கோப்பு வெளியீடுகளையும் காண்க &hellip;"
+
+#: engine/engine.inc:22
+msgid "Basque"
+msgstr "பாச்க்"
+
+#: engine/engine.inc:23
+msgid "Catalan"
+msgstr "கற்றலான்"
+
+#: engine/engine.inc:24
+msgid "Corsican"
+msgstr "கார்சிகன்"
+
+#: engine/engine.inc:25
+msgid "Dutch"
+msgstr "டச்சு"
+
+#: engine/engine.inc:26
+msgid "Greek"
+msgstr "கிரேக்கம்"
+
+#: engine/engine.inc:27
+msgid "German"
+msgstr "செர்மன்"
+
+#: engine/engine.inc:28
+msgid "French"
+msgstr "பிரஞ்சு"
+
+#: engine/engine.inc:30
+msgid "Korean"
+msgstr "கொரிய"
+
+#: engine/engine.inc:31
+msgid "Polish"
+msgstr "போலீச்"
+
+#: engine/engine.inc:32
+msgid "Portuguese (Brazil)"
+msgstr "போர்த்துகீசியம் (பிரேசில்)"
+
+#: engine/engine.inc:33
+msgid "Portuguese (Portugal)"
+msgstr "போர்த்துகீசியம் (போர்ச்சுகல்)"
+
+#: engine/engine.inc:34
+msgid "Russian"
+msgstr "ரச்ய"
+
+#: engine/engine.inc:35
+msgid "Spanish"
+msgstr "ச்பானிச்"
+
+#: engine/engine.inc:36
+msgid "Spanish (Venezuela)"
+msgstr "ச்பானிச் (வெனிசுலா)"
+
+#: engine/engine.inc:37
+msgid "Slovenian"
+msgstr "ச்லோவேனியன்"
+
+#: engine/engine.inc:38
+msgid "Swedish"
+msgstr "ச்வீடிச்"
+
+msgid "Tamil"
+msgstr "தமிழ்"
+
+#: engine/engine.inc:39
+msgid "Turkish"
+msgstr "துருக்கிய"
+
+#: engine/engine.inc:40
+msgid "Simplified Chinese"
+msgstr "எளிமைப்படுத்தப்பட்ட சீன"
+
+#: engine/engine.inc:41
+msgid "Traditional Chinese"
+msgstr "பாரம்பரிய சீன"
+
+#: engine/page.inc:48 engine/page.inc:52
+msgid "x86 (32-bit)"
+msgstr "x86 (32-இருமம்)"
+
+#: engine/page.inc:49 engine/page.inc:50 engine/page.inc:53
+msgid "x64 (64-bit)"
+msgstr "x64 (64-இருமம்)"
+
+#: engine/page.inc:51 engine/page.inc:54
+msgid "ARM64 (64-bit)"
+msgstr "ARM64 (64-இருமம்)"
+
+#: engine/page.inc:130 engine/page.inc:173
+msgid "You will see the difference…"
+msgstr "நீங்கள் வித்தியாசத்தைக் காண்பீர்கள்…"
+
+#: engine/page.inc:195
+msgid "Change Language"
+msgstr "மொழியை மாற்றவும்"
+
+#: engine/page.inc:212
+msgid "Project Pages"
+msgstr "திட்ட பக்கங்கள்"
+
+#: engine/page.inc:215
+msgid "Archive"
+msgstr "காப்பகம்"
+
+#: engine/page.inc:219 support/index.php:25
+msgid "Donate"
+msgstr "நன்கொடை"
+
+#: engine/page.inc:306
+msgid "Download Now!"
+msgstr "இப்போது பதிவிறக்கவும்!"
+
+#: engine/page.inc:345
+msgid "Home"
+msgstr "வீடு"
+
+#: engine/page.inc:345
+msgid "WinMerge Home"
+msgstr "சாளரஒன்றிணை ஓம்"
+
+#: engine/page.inc:346
+msgid "WinMerge Documentation"
+msgstr "சாளரஒன்றிணை ஆவணம்"
+
+#: engine/page.inc:347
+msgid "WinMerge Downloads"
+msgstr "சாளரஒன்றிணை பதிவிறக்கங்கள்"
+
+#: engine/page.inc:348
+msgid "WinMerge Screenshots"
+msgstr "வின்னர்ச் திரை சாட்கள்"
+
+#: engine/page.inc:349
+msgid "WinMerge Source Code"
+msgstr "சாளரஒன்றிணை மூலக் குறியீடு"
+
+#: engine/page.inc:350
+msgid "WinMerge Support"
+msgstr "சாளரஒன்றிணை உதவி"
+
+#: engine/page.inc:351
+msgid "WinMerge Translations"
+msgstr "வின்னர்ச் மொழிபெயர்ப்புகள்"
+
+#: index.php:5
+msgid ""
+"WinMerge is an Open Source differencing and merging tool for Windows. "
+"WinMerge can compare both folders and files, presenting differences in a "
+"visual text format that is easy to understand and handle."
+msgstr ""
+"சாளரஒன்றிணை என்பது விண்டோசிற்கான திறந்த மூல வேறுபாடு மற்றும் ஒன்றிணைக்கும் "
+"கருவியாகும். சாளரஒன்றிணை கோப்புறைகள் மற்றும் கோப்புகள் இரண்டையும் ஒப்பிட்டுப் "
+"பார்க்க முடியும், புரிந்துகொள்ளவும் கையாளவும் எளிதான காட்சி உரை வடிவத்தில் "
+"வேறுபாடுகளை முன்வைக்கிறது."
+
+#: index.php:6
+msgid ""
+"WinMerge, free, open source, Windows, windiff, diff, merge, compare, tool, "
+"utility, text, file, folder, directory, compare files, compare folders, "
+"merge files, merge folders, diff tool, merge tool, compare tool"
+msgstr ""
+"சாளரஒன்றிணை, இலவச, திறந்த மூல, சாளரங்கள், விண்டிஃப், வேறுபாடு, ஒன்றிணைத்தல், "
+"ஒப்பிட்டுப் பாருங்கள், கருவி, பயன்பாடு, உரை, கோப்பு, கோப்புறை, அடைவு, "
+"கோப்புகளை ஒப்பிட்டு, கோப்புகளை ஒன்றிணைத்தல், கோப்புறைகளை ஒன்றிணைத்தல், "
+"வேறுபாடு கருவி, கருவியை ஒப்பிட்டுப் பாருங்கள்"
+
+#: index.php:10
+msgid "What is WinMerge?"
+msgstr "சாளரஒன்றிணை என்றால் என்ன?"
+
+#: index.php:11
+#, c-format
+msgid ""
+"WinMerge is an <a href=\"%s\">Open Source</a> differencing and merging tool "
+"for Windows. WinMerge can compare both folders and files, presenting "
+"differences in a visual text format that is easy to understand and handle."
+msgstr ""
+"சாளரஒன்றிணை என்பது <a href=\"%s\"> திறந்த மூல</a> விண்டோசிற்கான வேறுபாடு "
+"மற்றும் ஒன்றிணைக்கும் கருவி. சாளரஒன்றிணை கோப்புறைகள் மற்றும் கோப்புகள் "
+"இரண்டையும் ஒப்பிட்டுப் பார்க்க முடியும், புரிந்துகொள்ளவும் கையாளவும் எளிதான "
+"காட்சி உரை வடிவத்தில் வேறுபாடுகளை முன்வைக்கிறது."
+
+#: index.php:13
+msgid "Screenshot"
+msgstr "திரைக்காட்சி"
+
+#: index.php:15 screenshots/index.php:11 screenshots/index.php:12
+msgid "File Comparison"
+msgstr "கோப்பு ஒப்பீடு"
+
+#: index.php:17
+#, c-format
+msgid "See the <a href=\"%s\">screenshots page</a> for more screenshots."
+msgstr ""
+"மேலும் திரை சாட்களுக்கு <a href=\"%s\"> திரை சாட்கள்</a> ஐப் பார்க்கவும்."
+
+#: index.php:19
+msgid "Features"
+msgstr "நற்பொருத்தங்கள்"
+
+#: index.php:20
+msgid ""
+"WinMerge is highly useful for determining what has changed between project "
+"versions, and then merging changes between versions. WinMerge can be used as"
+" an external differencing/merging tool or as a standalone application."
+msgstr ""
+"திட்ட பதிப்புகளுக்கு இடையில் என்ன மாறிவிட்டது என்பதை தீர்மானிக்க சாளரஒன்றிணை "
+"மிகவும் பயனுள்ளதாக இருக்கும், பின்னர் பதிப்புகளுக்கு இடையில் மாற்றங்களை "
+"ஒன்றிணைக்கவும். சாளரஒன்றிணை வெளிப்புற வேறுபாடு/ஒன்றிணைக்கும் கருவியாக அல்லது "
+"முழுமையான பயன்பாடாக பயன்படுத்தப்படலாம்."
+
+#: index.php:21
+msgid ""
+"In addition, WinMerge has many helpful supporting features that make "
+"comparing, synchronising, and merging as easy and useful as possible:"
+msgstr ""
+"கூடுதலாக, வின்மெர்ச் பல பயனுள்ள துணை அம்சங்களைக் கொண்டுள்ளது, இது ஒப்பீடு, "
+"ஒத்திசைவு மற்றும் ஒன்றிணைத்தல் முடிந்தவரை எளிதாகவும் பயனுள்ளதாகவும் "
+"இருக்கும்:"
+
+#: index.php:23
+msgid "General"
+msgstr "பொது"
+
+#: index.php:25
+msgid "Supports Microsoft Windows XP SP3 or newer"
+msgstr "மைக்ரோசாப்ட் சாளரங்கள் எக்ச்பி எச்பி 3 அல்லது புதியதை ஆதரிக்கிறது"
+
+#: index.php:26
+msgid "Handles Windows, Unix and Mac text file formats"
+msgstr "சாளரங்கள், யுனிக்ச் மற்றும் மேக் உரை கோப்பு வடிவங்களை கையாளுகிறது"
+
+#: index.php:27
+msgid "Unicode support"
+msgstr "யூனிகோட் உதவி"
+
+#: index.php:28
+msgid "Tabbed interface"
+msgstr "தாவலாக்கப்பட்ட இடைமுகம்"
+
+#: index.php:30
+msgid "File Compare"
+msgstr "கோப்பு ஒப்பிடுக"
+
+#: index.php:32 screenshots/index.php:15 screenshots/index.php:16
+msgid "3-way File Comparison"
+msgstr "3-வழி கோப்பு ஒப்பீடு"
+
+#: index.php:32 index.php:48 index.php:54
+msgid "New!"
+msgstr "புதியது!"
+
+#: index.php:33
+msgid "Visual differencing and merging of text files"
+msgstr "உரை கோப்புகளின் காட்சி வேறுபாடு மற்றும் ஒன்றிணைத்தல்"
+
+#: index.php:34
+msgid "Flexible editor with syntax highlighting, line numbers and word-wrap"
+msgstr ""
+"தொடரியல் சிறப்பம்சமாக, வரி எண்கள் மற்றும் சொல்-மடக்கு கொண்ட நெகிழ்வான "
+"எடிட்டர்"
+
+#: index.php:35
+msgid "Highlights differences inside lines"
+msgstr "வரிகளுக்குள் உள்ள வேறுபாடுகளை எடுத்துக்காட்டுகிறது"
+
+#: index.php:36
+msgid "Difference pane shows current difference in two vertical panes"
+msgstr ""
+"வேறுபாடு பலகம் இரண்டு செங்குத்து பேன்களில் தற்போதைய வேறுபாட்டைக் காட்டுகிறது"
+
+#: index.php:37
+msgid "Location pane shows map of files compared"
+msgstr "இருப்பிட பலகம் ஒப்பிடும்போது கோப்புகளின் வரைபடத்தைக் காட்டுகிறது"
+
+#: index.php:38
+msgid "Moved lines detection"
+msgstr "கோடுகள் கண்டறிதல் நகர்த்தப்பட்டது"
+
+#: index.php:40
+msgid "Folder Compare"
+msgstr "கோப்புறை ஒப்பிடுக"
+
+#: index.php:42
+msgid ""
+"Regular Expression based file filters allow excluding and including items"
+msgstr ""
+"வழக்கமான வெளிப்பாடு அடிப்படையிலான கோப்பு வடிப்பான்கள் உருப்படிகளைத் "
+"தவிர்த்து அனுமதிக்கின்றன"
+
+#: index.php:43
+msgid "Fast compare using file sizes and dates"
+msgstr "கோப்பு அளவுகள் மற்றும் தேதிகளைப் பயன்படுத்தி வேகமாக ஒப்பிடுங்கள்"
+
+#: index.php:44
+msgid "Compares one folder or includes all subfolders"
+msgstr ""
+"ஒரு கோப்புறையை ஒப்பிடுகிறது அல்லது அனைத்து துணை கோப்புறைகளையும் உள்ளடக்கியது"
+
+#: index.php:45
+msgid "Can show folder compare results in a tree-style view"
+msgstr "மரத்தின் பாணி பார்வையில் முடிவுகளை ஒப்பிடுக கோப்புறையைக் காட்டலாம்"
+
+#: index.php:46
+msgid "3-way Folder Comparison"
+msgstr "3-வழி கோப்புறை ஒப்பீடு"
+
+#: index.php:48
+msgid "Image Compare"
+msgstr "படம் ஒப்பிடுக"
+
+#: index.php:50
+msgid "Support many types of images"
+msgstr "பல வகையான படங்களை ஆதரிக்கவும்"
+
+#: index.php:51
+msgid "Can highlight the differences with blocks"
+msgstr "தொகுதிகளுடன் வேறுபாடுகளை முன்னிலைப்படுத்த முடியும்"
+
+#: index.php:52
+msgid "Overlaying of the pictures is possible"
+msgstr "படங்களை மேலெழுதுவது சாத்தியமாகும்"
+
+#: index.php:54
+msgid "Table Compare"
+msgstr "அட்டவணை ஒப்பிடுக"
+
+#: index.php:56
+msgid "Shows CSV/TSV file contents in table format"
+msgstr "CSV/TSV கோப்பு உள்ளடக்கங்களை அட்டவணை வடிவத்தில் காட்டுகிறது"
+
+#: index.php:57
+msgid "Text can be wrapped for each column"
+msgstr "ஒவ்வொரு நெடுவரிசைக்கும் உரையை மூடலாம்"
+
+#: index.php:59
+msgid "Version Control"
+msgstr "பதிப்பு கட்டுப்பாடு"
+
+#: index.php:61
+msgid "Creates patch files (Normal-, Context- and Unified formats)"
+msgstr ""
+"ஒட்டு கோப்புகளை உருவாக்குகிறது (இயல்பான-, சூழல்- மற்றும் ஒருங்கிணைந்த "
+"வடிவங்கள்)"
+
+#: index.php:62
+msgid "Resolve conflict files"
+msgstr "மோதல் கோப்புகளை தீர்க்கவும்"
+
+#: index.php:64
+msgid "Other"
+msgstr "மற்றொன்று"
+
+#: index.php:66
+msgid "Shell Integration (supports 64-bit Windows versions)"
+msgstr "செல் ஒருங்கிணைப்பு (64-இருமம் சாளரங்கள் பதிப்புகளை ஆதரிக்கிறது)"
+
+#: index.php:67
+msgid "Archive file support using 7-Zip"
+msgstr "7-சிப் பயன்படுத்தி காப்பக கோப்பு உதவி"
+
+#: index.php:68
+msgid "Plugin support"
+msgstr "சொருகி உதவி"
+
+#: index.php:69
+msgid "Localizable interface"
+msgstr "உள்ளூர்மயமாக்கக்கூடிய இடைமுகம்"
+
+#: index.php:70
+#, c-format
+msgid "<a href=\"%s\">Online manual</a> and installed HTML Help manual"
+msgstr ""
+"<a href=\"%s\"> நிகழ்நிலை கையேடு</a> மற்றும் நிறுவப்பட்ட உஉகுமொ உதவி "
+"கையேடு"
+
+#: index.php:73
+#, c-format
+msgid "WinMerge %s - latest stable version"
+msgstr "சாளரஒன்றிணை %s - அண்மைக் கால நிலையான பதிப்பு"
+
+#: index.php:74
+#, c-format
+msgid ""
+"<a href=\"%1$s\">WinMerge %2$s</a> is the latest stable version, and is "
+"recommended for most users."
+msgstr ""
+"<a href=\" %1$s\"> சாளரஒன்றிணை %2$s</a> என்பது அண்மைக் கால நிலையான "
+"பதிப்பாகும், மேலும் இது பெரும்பாலான பயனர்களுக்கு பரிந்துரைக்கப்படுகிறது."
+
+#: index.php:77
+#, c-format
+msgid ""
+"If you need support, look at our <a href=\"%s\">support page</a> for more "
+"information how you can get it."
+msgstr ""
+"உங்களுக்கு உதவி தேவைப்பட்டால், எங்கள் <a href=\"%s\"> உதவி பக்கத்தைப் "
+"பாருங்கள்</a> மேலும் தகவலுக்கு நீங்கள் அதை எவ்வாறு பெறலாம்."
+
+#: index.php:79
+msgid "Developers"
+msgstr "உருவாக்குநர்கள்"
+
+#: index.php:80
+msgid ""
+"WinMerge is an open source project, which means that the program is "
+"maintained and developed by volunteers."
+msgstr ""
+"சாளரஒன்றிணை ஒரு திறந்த மூல திட்டமாகும், அதாவது நிரல் தன்னார்வலர்களால் "
+"பராமரிக்கப்பட்டு உருவாக்கப்படுகிறது."
+
+#: index.php:81
+#, c-format
+msgid ""
+"In addition, WinMerge is translated into a number of different languages. "
+"See our <a href=\"%s\">information on translating WinMerge</a> into your own"
+" language."
+msgstr ""
+"கூடுதலாக, சாளரஒன்றிணை பல்வேறு மொழிகளில் மொழிபெயர்க்கப்பட்டுள்ளது. சாளரஒன்றிணை "
+"</a> ஐ உங்கள் சொந்த மொழியில் மொழிபெயர்ப்பது பற்றிய எங்கள் <a href=\"%s\"> "
+"தகவல்களைக் காண்க."
+
+#: screenshots/index.php:5
+msgid ""
+"Screenshots from WinMerge features like file comparison, folder comparison "
+"results and location pane."
+msgstr ""
+"வின்மெர்ச் அம்சங்களின் திரை சாட்கள் கோப்பு ஒப்பீடு, கோப்புறை ஒப்பீட்டு "
+"முடிவுகள் மற்றும் இருப்பிட பலகம் போன்றவை."
+
+#: screenshots/index.php:6
+msgid ""
+"WinMerge, screenshots, file comparison, open-dialog, folder comparison "
+"results, highlight line diff, location pane, splash screen"
+msgstr ""
+"சாளரஒன்றிணை, திரை சாட்கள், கோப்பு ஒப்பீடு, திறந்த-டயலாக், கோப்புறை ஒப்பீட்டு "
+"முடிவுகள், சிறப்பம்சமாக வரி வேறுபாடு, இருப்பிட பலகம், ச்பிளாச் திரை"
+
+#: screenshots/index.php:13
+msgid ""
+"File compare window is basically two files opened to editor into two "
+"horizontal panes. Editing allows user to easily do small changes without "
+"need to open files to other editor or development environment."
+msgstr ""
+"கோப்பு ஒப்பிடுக சாளரம் அடிப்படையில் இரண்டு கிடைமட்ட பேன்களாக எடிட்டருக்கு "
+"திறக்கப்பட்ட இரண்டு கோப்புகள். திருத்துதல் மற்ற எடிட்டர் அல்லது மேம்பாட்டு "
+"சூழலுக்கு கோப்புகளைத் திறக்க வேண்டிய அவசியமின்றி சிறிய மாற்றங்களை எளிதாக "
+"செய்ய பயனரை அனுமதிக்கிறது."
+
+#: screenshots/index.php:17
+msgid ""
+"The 3-way file compare even allows comparing and editing three files at the "
+"same time."
+msgstr ""
+"3-வழி கோப்பு ஒப்பிடுகையில் மூன்று கோப்புகளை ஒரே நேரத்தில் ஒப்பிட்டு திருத்த "
+"அனுமதிக்கிறது."
+
+#: screenshots/index.php:19 screenshots/index.php:20
+msgid "Folder Comparison Results"
+msgstr "கோப்புறை ஒப்பீட்டு முடிவுகள்"
+
+#: screenshots/index.php:21
+msgid ""
+"Folder compare shows all files and subfolders found from compared folders as"
+" list. Folder compare allows synchronising folders by copying and deleting "
+"files and subfolders. Folder compare view can be versatile customised."
+msgstr ""
+"கோப்புறை ஒப்பீடு அனைத்து கோப்புகள் மற்றும் துணை கோப்புறைகளை ஒப்பிடுகையில் "
+"கோப்புறைகளிலிருந்து பட்டியலாகக் காட்டுகிறது. கோப்புறை ஒப்பீடு கோப்புகள் "
+"மற்றும் துணை கோப்புறைகளை நகலெடுத்து நீக்குவதன் மூலம் கோப்புறைகளை ஒத்திசைக்க "
+"அனுமதிக்கிறது. கோப்புறை ஒப்பீட்டு பார்வை பல்துறை தனிப்பயனாக்கப்படலாம்."
+
+#: screenshots/index.php:23 screenshots/index.php:24
+msgid "Folder Compare Tree View"
+msgstr "கோப்புறை மரக் காட்சியை ஒப்பிடுக"
+
+#: screenshots/index.php:25
+msgid ""
+"In the tree view, folders are expandable and collapsible, containing files "
+"and subfolders. This is useful for an easier navigation in deeply nested "
+"directory structures. <em>The tree view is available only in recursive "
+"compares."
+msgstr ""
+"மரக் காட்சியில், கோப்புறைகள் விரிவாக்கக்கூடியவை மற்றும் மடக்கக்கூடியவை, "
+"இதில் கோப்புகள் மற்றும் துணை கோப்புறைகள் உள்ளன. ஆழமான உள்ளமைக்கப்பட்ட அடைவு "
+"கட்டமைப்புகளில் எளிதான வழிசெலுத்தலுக்கு இது பயனுள்ளதாக இருக்கும். <em> மரக் "
+"காட்சி சுழல்நிலை ஒப்பீடுகளில் மட்டுமே கிடைக்கிறது."
+
+#: screenshots/index.php:27 screenshots/index.php:28
+msgid "Image Comparison"
+msgstr "பட ஒப்பீடு"
+
+#: screenshots/index.php:29
+msgid ""
+"WinMerge can compare images and highlight the differences in several ways."
+msgstr ""
+"சாளரஒன்றிணை படங்களை ஒப்பிட்டு வேறுபாடுகளை பல வழிகளில் முன்னிலைப்படுத்தலாம்."
+
+#: screenshots/index.php:31 screenshots/index.php:32
+msgid "Table Comparison"
+msgstr "அட்டவணை ஒப்பீடு"
+
+#: screenshots/index.php:33
+msgid "Table compare shows the contents of CSV/TSV files in table format."
+msgstr "அட்டவணை வடிவத்தில் CSV/TSV கோப்புகளின் உள்ளடக்கங்களைக் காட்டுகிறது."
+
+#: screenshots/index.php:35 screenshots/index.php:36
+msgid "Binary Comparison"
+msgstr "பைனரி ஒப்பீடு"
+
+#: screenshots/index.php:37
+msgid ""
+"WinMerge can detect whether files are in text or binary format. When you "
+"launch a file compare operation on binary files, WinMerge opens each file in"
+" the binary file editor."
+msgstr ""
+"கோப்புகள் உரை அல்லது பைனரி வடிவத்தில் உள்ளதா என்பதை வின்மெர் கண்டறிய "
+"முடியும். பைனரி கோப்புகளில் ஒப்பீட்டு செயல்பாட்டை நீங்கள் தொடங்கும்போது, "
+"​​சாளரஒன்றிணை ஒவ்வொரு கோப்பையும் பைனரி கோப்பு எடிட்டரில் திறக்கிறது."
+
+#: screenshots/index.php:39 screenshots/index.php:40
+msgid "Open-dialog"
+msgstr "திறந்த-டயலாக்"
+
+#: screenshots/index.php:41
+msgid ""
+"WinMerge allows selecting/opening paths in several ways. Using the Open-"
+"dialog is just one of them."
+msgstr ""
+"வின்மெர் பல வழிகளில் பாதைகளைத் தேர்ந்தெடுக்க/திறக்க அனுமதிக்கிறது. "
+"திறந்த-டயலாக் பயன்படுத்துவது அவற்றில் ஒன்றாகும்."
+
+#: source-code/index.php:8
+msgid ""
+"Download the source code of WinMerge, which is released under the GNU "
+"General Public License."
+msgstr ""
+"குனு பொது பொது உரிமத்தின் கீழ் வெளியிடப்படும் வின்மர்சின் மூலக் குறியீட்டைப்"
+" பதிவிறக்கவும்."
+
+#: source-code/index.php:9
+msgid "WinMerge, free, clone, download, source code, GPL, GitHub, Git"
+msgstr ""
+"சாளரஒன்றிணை, இலவச, நகலி, பதிவிறக்கம், மூலக் குறியீடு, சிபிஎல், அறிவிலிமையம், "
+"அறிவிலி"
+
+#: source-code/index.php:10 source-code/index.php:57
+msgid "Recent Commits"
+msgstr "அண்மைக் கால கமிட்டுகள்"
+
+#: source-code/index.php:15
+#, c-format
+msgid ""
+"WinMerge is <a href=\"%1$s\">Open Source</a> software under the <a "
+"href=\"%2$s\">GNU General Public License</a>."
+msgstr ""
+"சாளரஒன்றிணை <a href=\"%1$s\"> திறந்த மூல</a> <a href=\"%2$s\"> குனு பொது "
+"பொது உரிமம்</a> இன் கீழ் மென்பொருள்."
+
+#: source-code/index.php:15
+#, c-format
+msgid ""
+"This means everybody can download the <a href=\"%s\">source code</a> and improve and modify it.\n"
+"The only thing we ask is that people submit their improvements and modifications back to us so that all WinMerge users may benefit."
+msgstr ""
+"இதன் பொருள் எல்லோரும் <a href=\"%s\"> மூலக் குறியீடு</a> ஐ பதிவிறக்கம் செய்து அதை மேம்படுத்தலாம் மற்றும் மாற்றலாம். \n"
+"நாங்கள் கேட்கும் ஒரே சேதி என்னவென்றால், மக்கள் தங்கள் மேம்பாடுகளையும் மாற்றங்களையும் எங்களிடம் சமர்ப்பிக்கிறார்கள், இதனால் அனைத்து வின்னர்ச் பயனர்களும் பயனடையக்கூடும்."
+
+#: source-code/index.php:19
+msgid "GNU General Public License"
+msgstr "குனு பொது பொது உரிமம்"
+
+#: source-code/index.php:34
+msgid "Clone or download"
+msgstr "நகலி அல்லது பதிவிறக்கம்"
+
+#: source-code/index.php:35
+#, c-format
+msgid ""
+"The source code is hosted on <a href=\"%1$s\">GitHub</a> in a <a "
+"href=\"%2$s\">Git</a> repository:"
+msgstr ""
+"மூலக் குறியீடு <a href=\"%1$s\"> github</a> இல் ஒரு <a href=\"%2$s\"> "
+"git</a> களஞ்சியத்தில் புரவலன் செய்யப்படுகிறது:"
+
+#: source-code/index.php:38
+msgid "You can also download the current branches as ZIP file:"
+msgstr "தற்போதைய கிளைகளையும் சிப் கோப்பாக பதிவிறக்கம் செய்யலாம்:"
+
+#: source-code/index.php:44
+msgid "Branch"
+msgstr "கிளை"
+
+#: source-code/index.php:66
+msgid "Y-m-d H:i"
+msgstr "Y-m-d H:i"
+
+#: source-code/index.php:69
+msgid "View all commits&hellip;"
+msgstr "எல்லா கமிட்டுகளையும் காண்க &hellip;"
+
+#: support/index.php:5
+msgid "The Open Discussion forum is the fastest way to get help."
+msgstr "திறந்த கலந்துரையாடல் மன்றம் உதவி பெறுவதற்கான விரைவான வழியாகும்."
+
+#: support/index.php:6
+msgid ""
+"WinMerge, support, discussion forums, tracker, donate, bugs, support "
+"requests, patches, feature requests, todo, open source"
+msgstr ""
+"சாளரஒன்றிணை, உதவி, கலந்துரையாடல் மன்றங்கள், டிராக்கர், நன்கொடை, பிழைகள், உதவி "
+"கோரிக்கைகள், திட்டுகள், அம்ச கோரிக்கைகள், செய்யவேண்டிய, திறந்த மூல"
+
+#: support/index.php:10
+msgid "The <b>Discussion forums</b> are the fastest way to get help:"
+msgstr "<b> கலந்துரையாடல் மன்றங்கள் </b> உதவி பெற விரைவான வழி:"
+
+#: support/index.php:13
+msgid "WinMerge discussions"
+msgstr "சாளரஒன்றிணை விவாதங்கள்"
+
+#: support/index.php:14
+msgid "Image Compare discussions"
+msgstr "பட விவாதங்களை ஒப்பிடுங்கள்"
+
+#: support/index.php:15
+msgid "Website discussions"
+msgstr "வலைத்தள விவாதங்கள்"
+
+#: support/index.php:17
+msgid "Please be patient, it may take some time for somebody to answer."
+msgstr "தயவுசெய்து பொறுமையாக இருங்கள், யாராவது பதிலளிக்க சிறிது நேரம் ஆகலாம்."
+
+#: support/index.php:19
+msgid "Issues"
+msgstr "சிக்கல்கள்"
+
+#: support/index.php:20
+#, c-format
+msgid "If you find a bug, please submit it as a <a href=\"%s\">issue</a>."
+msgstr ""
+"நீங்கள் ஒரு பிழையைக் கண்டால், தயவுசெய்து அதை <a href=\"%s\"> வெளியீடு</a>"
+" என சமர்ப்பிக்கவும்."
+
+#: support/index.php:21
+msgid ""
+"Please attach as much information as you can: at a minimum, the version "
+"number of WinMerge that you are using. If you can, also attach a "
+"configuration log which, you can display by clicking <span "
+"class=\"guimenu\">Help</span> &#8594; <span "
+"class=\"guimenuitem\">Configuration</span> in the WinMerge window."
+msgstr ""
+"தயவுசெய்து உங்களால் முடிந்தவரை தகவல்களை இணைக்கவும்: குறைந்தபட்சம், நீங்கள் "
+"பயன்படுத்தும் வின்னர்சின் பதிப்பு எண். உங்களால் முடிந்தால், ஒரு உள்ளமைவு "
+"பதிவையும் இணைக்கவும், <span வகுப்பு = \"guimenu\"> உதவி </span> &#8594; "
+"<span வகுப்பு = \"guimenuitem\"> உள்ளமைவு </span> சாளரஒன்றிணை சாளரத்தில்."
+
+#: support/index.php:22
+msgid ""
+"Good information in a bug report makes it more likely that your bug will be "
+"fixed quickly."
+msgstr ""
+"பிழை அறிக்கையில் உள்ள நல்ல தகவல்கள் உங்கள் பிழை விரைவாக சரி "
+"செய்யப்படுவதற்கான வாய்ப்பை அதிகரிக்கும்."
+
+#: support/index.php:23
+#, c-format
+msgid ""
+"Wish list items on the <a href=\"%s\">issues list</a> will also be "
+"considered, but we make absolutely no promises."
+msgstr ""
+"<a href=\"%s\"> சிக்கல்கள் பட்டியல்</a> இல் உள்ள விருப்பப்பட்டியல் "
+"உருப்படிகளும் பரிசீலிக்கப்படும், ஆனால் நாங்கள் எந்த வாக்குறுதியும் "
+"அளிக்கவில்லை."
+
+#: support/index.php:26
+#, c-format
+msgid ""
+"Since WinMerge is an <a href=\"%s\">Open Source</a> project, you may use it "
+"free of charge."
+msgstr ""
+"சாளரஒன்றிணை ஒரு <a href=\"%s\">திறந்த மூல</a> திட்டமாக இருப்பதால், நீங்கள்"
+" அதை இலவசமாகப் பயன்படுத்தலாம்."
+
+#: support/index.php:27
+#, c-format
+msgid ""
+"But please consider making a <a href=\"%s\">donation</a> to support the "
+"continued development of WinMerge."
+msgstr ""
+"ஆனால் வின்மர்சின் தொடர்ச்சியான வளர்ச்சியை ஆதரிக்க <a href=\"%s\">நன்கொடை"
+"</a> ஐ உருவாக்கவும்."
+
+#: support/index.php:29
+msgid "Buy WinMerge merchandise"
+msgstr "சாளரஒன்றிணை பொருட்களை வாங்கவும்"
+
+#: support/index.php:30
+#, c-format
+msgid ""
+"You can also support WinMerge by buying merchandise at the <a "
+"href=\"%s\">WinMerge CafePress store</a>. 20%% of the sales goes to "
+"WinMerge."
+msgstr ""
+"<a href=\"%s\">சாளரஒன்றிணை கஃபெப்ச் கடை</a> இல் பொருட்களை வாங்குவதன் மூலம்"
+" நீங்கள் சாளரஒன்றிணையை ஆதரிக்கலாம். விற்பனையின் 20 %% வின்மர்சுக்கு செல்கிறது."
+
+#: translations/index.php:6
+msgid "Translations Status"
+msgstr "மொழிபெயர்ப்பு நிலை"
+
+#: translations/index.php:15 translations/index.php:36
+#: translations/status_website.php:14
+msgid "Translators"
+msgstr "மொழிபெயர்ப்பாளர்கள்"
+
+#: translations/index.php:16
+msgid "WinMerge Status"
+msgstr "சாளரஒன்றிணை நிலை"
+
+#: translations/index.php:17
+msgid "ShellExtension Status"
+msgstr "ஓடுநீட்ப்பு நிலை"
+
+#: translations/index.php:18 translations/index.php:45
+msgid "InnoSetup Files"
+msgstr "Innosetup கோப்புகள்"
+
+#: translations/index.php:19 translations/index.php:48
+msgid "Readme Files"
+msgstr "என்னைப்படி கோப்புகள்"
+
+#: translations/index.php:20
+msgid "Website Status"
+msgstr "வலைத்தள நிலை"
+
+#: translations/index.php:21
+msgid "Instructions"
+msgstr "வழிமுறைகள்"
+
+#: translations/index.php:24
+msgid "Translating"
+msgstr "மொழிபெயர்ப்பு"
+
+#: translations/index.php:25
+msgid "We currently have WinMerge translated into the languages listed below:"
+msgstr ""
+"நாங்கள் தற்போது சாளரஒன்றிணை கீழே பட்டியலிடப்பட்ட மொழிகளில் "
+"மொழிபெயர்க்கப்பட்டுள்ளோம்:"
+
+#: translations/index.php:34
+#, c-format
+msgid ""
+"If you would like to update any of these translations or add another "
+"translation, then please follow <a href=\"%s\">these instructions</a>."
+msgstr ""
+"இந்த மொழிபெயர்ப்புகளில் ஏதேனும் ஒன்றை நீங்கள் புதுப்பிக்க விரும்பினால் "
+"அல்லது மற்றொரு மொழிபெயர்ப்பைச் சேர்க்க விரும்பினால், தயவுசெய்து <a href="
+"\"%s\"> இந்த வழிமுறைகளைப் பின்பற்றவும்</a>."
+
+#: translations/index.php:39
+#, c-format
+msgid "WinMerge Status <em>from %s</em>"
+msgstr "சாளரஒன்றிணை நிலை <em>%s இலிருந்து</em>"
+
+#: translations/index.php:42
+#, c-format
+msgid "ShellExtension Status <em>from %s</em>"
+msgstr "செல் நீட்டிப்பு நிலை <em>%s இலிருந்து</em>"
+
+#: translations/index.php:52 translations/status_website.php:21
+msgid "The translations status is currently not available..."
+msgstr "மொழிபெயர்ப்பு நிலை தற்போது கிடைக்கவில்லை..."
+
+#: translations/status_website.php:6 translations/status_website.php:8
+msgid "Translations Status (Website)"
+msgstr "மொழிபெயர்ப்பு நிலை (வலைத்தளம்)"
+
+#: translations/status_website.php:9
+#, c-format
+msgid ""
+"We moved the sources from the website to a own <a href=\"%1$s\">GitHub "
+"repository</a>."
+msgstr ""
+"வலைத்தளத்திலிருந்து ஆதாரங்களை ஒரு சொந்த <a href=\"%1$s\"> அறிவிலிமையம் "
+"களஞ்சியம்</a> க்கு நகர்த்தினோம்."
+
+#: translations/status_website.php:17
+#, c-format
+msgid "Website Status <em>from %s</em>"
+msgstr "வலைத்தள நிலை <em>%s இலிருந்து</em>"
+
+#: translations/translations.inc:31
+msgid "File not valid."
+msgstr "கோப்பு செல்லுபடியாகாது."
+
+#: translations/translations.inc:34
+msgid "File not found."
+msgstr "கோப்பு கிடைக்கவில்லை."
+
+#: translations/translations.inc:74 translations/translations.inc:88
+#: translations/translations.inc:111
+msgid "Translated"
+msgstr "மொழிபெயர்க்கப்பட்டுள்ளது"
+
+#: translations/translations.inc:74
+#, c-format
+msgid "Translated: %d%%"
+msgstr "மொழிபெயர்க்கப்பட்ட: %d%%"
+
+#: translations/translations.inc:76 translations/translations.inc:89
+#: translations/translations.inc:112
+msgid "Fuzzy"
+msgstr "தெளிவில்லாமல்"
+
+#: translations/translations.inc:76
+#, c-format
+msgid "Fuzzy: %d%%"
+msgstr "தெளிவில்லாமல்: %d%%"
+
+#: translations/translations.inc:78 translations/translations.inc:90
+#: translations/translations.inc:113
+msgid "Untranslated"
+msgstr "மொழிபெயர்க்கப்படாதது"
+
+#: translations/translations.inc:78
+#, c-format
+msgid "Untranslated: %d%%"
+msgstr "மொழிபெயர்க்கப்படாதது: %d%%"
+
+#: translations/translations.inc:109 translations/translations.inc:335
+msgid "Language"
+msgstr "மொழி"
+
+#: translations/translations.inc:110
+msgid "Graph"
+msgstr "வரைபடம்"
+
+#: translations/translations.inc:114
+msgid "Last Update"
+msgstr "கடைசி புதுப்பிப்பு"
+
+#: translations/translations.inc:155 translations/translations.inc:184
+#: translations/translations.inc:187
+msgid "Template"
+msgstr "வார்ப்புரு"
+
+#: translations/translations.inc:158
+#, c-format
+msgid "Total: %d"
+msgstr "மொத்தம்: %d"
+
+#: translations/translations.inc:161
+msgid "Total: Unknown"
+msgstr "மொத்தம்: தெரியவில்லை"
+
+#: translations/translations.inc:315
+msgid "Maintainer"
+msgstr "பராமரிப்பாளர்"
