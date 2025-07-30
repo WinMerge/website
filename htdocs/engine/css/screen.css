@@ -74,7 +74,7 @@ a[name]:hover { color:black; text-decoration:none; }
 	font-family: "Segoe Print","Bradley Hand",Calibri,Helvetica,Arial,sans-serif;
 	font-size: x-large;
 }
-#head div.hgroup {
+#head hgroup {
 	float: left;
 }
 #head p.downloadlink {
@@ -455,7 +455,7 @@ ul.buttons li .button {
 	}
 }
 @media (max-width: 30em) {
-	#head div.hgroup, #head p.downloadlink {
+	#head hgroup, #head p.downloadlink {
 		float: none;
 	}
 	#nav li {

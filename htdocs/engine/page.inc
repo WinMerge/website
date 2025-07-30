@@ -168,10 +168,10 @@
         $temp .= "<body>\n";
       $temp .= "<div id=\"topwrap\">\n";
       $temp .= "  <header id=\"head\">\n";
-      $temp .= "<div class=\"hgroup\">\n";
+      $temp .= "<hgroup>\n";
       $temp .= "  <h1>WinMerge</h1>\n";
       $temp .= "  <p class=\"tagline\">" . __('You will see the difference…') ."</p>\n";
-      $temp .= "</div>\n";
+      $temp .= "</hgroup>\n";
       $temp .= "<p class=\"downloadlink\">" . $this->getDownloadNow(false) . "</p>\n";
       $temp .= "  </header>\n";
       $temp .= $this->getTabs();
