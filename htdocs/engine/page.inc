@@ -142,9 +142,6 @@
       if ($this->_javascript == true || $onload != '') { //if JavaScript is needed...
         $temp .= "  <script src=\"/engine/javascript/winmerge.js\" type=\"text/javascript\"></script>\n";
       }
-      $temp .= "  <!--[if lt IE 9]>\n";
-      $temp .= "  <script src=\"/engine/javascript/html5shiv-printshiv.js\"></script>\n";
-      $temp .= "  <![endif]-->\n";
       $temp .= "  <link rel=\"shortcut icon\" type=\"image/x-icon\" href=\"/favicon.ico\">\n";
       $temp .= "  <link rel=\"icon\" type=\"image/png\" href=\"/engine/images/icon-32x32.png\" sizes=\"32x32\">\n";
       $temp .= "  <link rel=\"icon\" type=\"image/png\" href=\"/engine/images/icon-48x48.png\" sizes=\"48x48\">\n";
