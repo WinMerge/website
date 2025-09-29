@@ -1,6 +1,6 @@
 <?php
   include('../engine/engine.inc');
-  include('../engine/simplepie/simplepie.inc');
+  include('../engine/simplepie/simplepie.php');
 
   $page = new Page;
   $stablerelease = $page->getStableRelease();
