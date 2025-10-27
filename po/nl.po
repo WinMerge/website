@@ -51,7 +51,7 @@ msgstr ""
 msgid "Were you looking for..."
 msgstr "Was u op zoek naar..."
 
-#: 404.php:18 docs/index.php:8 docs/index.php:10 engine/page.inc:346
+#: 404.php:18 docs/index.php:8 docs/index.php:10 engine/page.inc:343
 msgid "Documentation"
 msgstr "Documentatie"
 
@@ -63,38 +63,38 @@ msgstr "Handleiding"
 msgid "English"
 msgstr "English"
 
-#: 404.php:23 docs/index.php:17 engine/engine.inc:29
+#: 404.php:23 docs/index.php:18 engine/engine.inc:29
 msgid "Japanese"
 msgstr "日本語 (Japanese)"
 
-#: 404.php:26 docs/index.php:20
+#: 404.php:26 docs/index.php:21
 msgid "Release Notes"
 msgstr "Release-opmerkingen"
 
-#: 404.php:27 docs/index.php:22
+#: 404.php:27 docs/index.php:23
 msgid "Change Log"
 msgstr "Lijst met aanpassingen"
 
-#: 404.php:30 engine/page.inc:347
+#: 404.php:30 engine/page.inc:344
 msgid "Downloads"
 msgstr "Downloads"
 
-#: 404.php:31 engine/page.inc:348 screenshots/index.php:7
+#: 404.php:31 engine/page.inc:345 screenshots/index.php:7
 #: screenshots/index.php:9
 msgid "Screenshots"
 msgstr "Screenshots"
 
-#: 404.php:32 downloads/index.php:80 engine/page.inc:349
+#: 404.php:32 downloads/index.php:80 engine/page.inc:346
 #: source-code/index.php:11 source-code/index.php:13
 msgid "Source Code"
 msgstr "Broncode"
 
-#: 404.php:33 engine/page.inc:350 index.php:76 support/index.php:7
+#: 404.php:33 engine/page.inc:347 index.php:76 support/index.php:7
 #: support/index.php:9
 msgid "Support"
 msgstr "Ondersteuning"
 
-#: 404.php:34 engine/page.inc:351 translations/index.php:7
+#: 404.php:34 engine/page.inc:348 translations/index.php:7
 #: translations/index.php:9
 msgid "Translations"
 msgstr "Vertalingen"
@@ -128,7 +128,7 @@ msgstr ""
 msgid "It is currently available in the following languages:"
 msgstr "Het is op dit moment beschikbaar in de volgende talen:"
 
-#: docs/index.php:21
+#: docs/index.php:22
 #, c-format
 msgid ""
 "The <a href=\"%1$s\">release notes</a> are a short summary of important "
@@ -139,7 +139,7 @@ msgstr ""
 "belangrijke aanpassingen, verbeteringen, bugfixes en <a "
 "href=\"%2$s\">gekende problemen</a> in de huidige release van WinMerge."
 
-#: docs/index.php:23
+#: docs/index.php:24
 #, c-format
 msgid ""
 "The <a href=\"%s\">change log</a> is a more complete list of changes in the "
@@ -148,11 +148,11 @@ msgstr ""
 "De <a href=\"%s\">aanpassingslog</a> is een meer complete lijst van "
 "aanpassingen in de laatste releases van WinMerge."
 
-#: docs/index.php:24
+#: docs/index.php:25
 msgid "Development Wiki"
 msgstr "Ontwikkelingswiki"
 
-#: docs/index.php:25
+#: docs/index.php:26
 #, c-format
 msgid ""
 "The <a href=\"%s\">Development Wiki</a> contains much information about the "
@@ -418,15 +418,15 @@ msgstr "Slovenian"
 msgid "Swedish"
 msgstr "Swedish"
 
-#: engine/engine.inc:39
+#: engine/engine.inc:40
 msgid "Turkish"
 msgstr "Türkçe"
 
-#: engine/engine.inc:40
+#: engine/engine.inc:41
 msgid "Simplified Chinese"
 msgstr "Simplified Chinese"
 
-#: engine/engine.inc:41
+#: engine/engine.inc:42
 msgid "Traditional Chinese"
 msgstr "Traditional Chinese"
 
@@ -442,59 +442,59 @@ msgstr "x64 (64-bit)"
 msgid "ARM64 (64-bit)"
 msgstr "ARM64 (64-bit)"
 
-#: engine/page.inc:130 engine/page.inc:173
+#: engine/page.inc:130 engine/page.inc:170
 msgid "You will see the difference…"
 msgstr "U ziet het verschil..."
 
-#: engine/page.inc:195
+#: engine/page.inc:192
 msgid "Change Language"
 msgstr "Taal wijzigen"
 
-#: engine/page.inc:212
+#: engine/page.inc:209
 msgid "Project Pages"
 msgstr "Projectpagina's"
 
-#: engine/page.inc:215
+#: engine/page.inc:212
 msgid "Archive"
 msgstr "Archief"
 
-#: engine/page.inc:219 support/index.php:25
+#: engine/page.inc:216 support/index.php:25
 msgid "Donate"
 msgstr "Doneren"
 
-#: engine/page.inc:306
+#: engine/page.inc:303
 msgid "Download Now!"
 msgstr "Nu downloaden!"
 
-#: engine/page.inc:345
+#: engine/page.inc:342
 msgid "Home"
 msgstr "Home"
 
-#: engine/page.inc:345
+#: engine/page.inc:342
 msgid "WinMerge Home"
 msgstr "WinMerge home"
 
-#: engine/page.inc:346
+#: engine/page.inc:343
 msgid "WinMerge Documentation"
 msgstr "WinMerge documentatie"
 
-#: engine/page.inc:347
+#: engine/page.inc:344
 msgid "WinMerge Downloads"
 msgstr "WinMerge downloads"
 
-#: engine/page.inc:348
+#: engine/page.inc:345
 msgid "WinMerge Screenshots"
 msgstr "WinMerge screenshots"
 
-#: engine/page.inc:349
+#: engine/page.inc:346
 msgid "WinMerge Source Code"
 msgstr "Winmerge broncode"
 
-#: engine/page.inc:350
+#: engine/page.inc:347
 msgid "WinMerge Support"
 msgstr "WinMerge ondersteuning"
 
-#: engine/page.inc:351
+#: engine/page.inc:348
 msgid "WinMerge Translations"
 msgstr "WinMerge vertalingen"
 
@@ -1206,3 +1206,11 @@ msgstr "Totaal: onbekend"
 #: translations/translations.inc:315
 msgid "Maintainer"
 msgstr "Beheerder"
+
+#: docs/index.php:17
+msgid "Hebrew"
+msgstr ""
+
+#: engine/engine.inc:39
+msgid "Tamil"
+msgstr ""

@@ -49,7 +49,7 @@ msgstr "이 사이트는 최근에 대규모 재작업을 거쳤기 때문에 �
 msgid "Were you looking for..."
 msgstr "찾고 계셨나요..."
 
-#: 404.php:18 docs/index.php:8 docs/index.php:10 engine/page.inc:346
+#: 404.php:18 docs/index.php:8 docs/index.php:10 engine/page.inc:343
 msgid "Documentation"
 msgstr "문서"
 
@@ -61,38 +61,38 @@ msgstr "설명서"
 msgid "English"
 msgstr "영어"
 
-#: 404.php:23 docs/index.php:17 engine/engine.inc:29
+#: 404.php:23 docs/index.php:18 engine/engine.inc:29
 msgid "Japanese"
 msgstr "일본어"
 
-#: 404.php:26 docs/index.php:20
+#: 404.php:26 docs/index.php:21
 msgid "Release Notes"
 msgstr "릴리스 노트"
 
-#: 404.php:27 docs/index.php:22
+#: 404.php:27 docs/index.php:23
 msgid "Change Log"
 msgstr "변경 로그"
 
-#: 404.php:30 engine/page.inc:347
+#: 404.php:30 engine/page.inc:344
 msgid "Downloads"
 msgstr "다운로드"
 
-#: 404.php:31 engine/page.inc:348 screenshots/index.php:7
+#: 404.php:31 engine/page.inc:345 screenshots/index.php:7
 #: screenshots/index.php:9
 msgid "Screenshots"
 msgstr "스크린샷"
 
-#: 404.php:32 downloads/index.php:80 engine/page.inc:349
+#: 404.php:32 downloads/index.php:80 engine/page.inc:346
 #: source-code/index.php:11 source-code/index.php:13
 msgid "Source Code"
 msgstr "소스 코드"
 
-#: 404.php:33 engine/page.inc:350 index.php:76 support/index.php:7
+#: 404.php:33 engine/page.inc:347 index.php:76 support/index.php:7
 #: support/index.php:9
 msgid "Support"
 msgstr "지원"
 
-#: 404.php:34 engine/page.inc:351 translations/index.php:7
+#: 404.php:34 engine/page.inc:348 translations/index.php:7
 #: translations/index.php:9
 msgid "Translations"
 msgstr "번역"
@@ -121,7 +121,7 @@ msgstr ""
 msgid "It is currently available in the following languages:"
 msgstr "현재 다음 언어로 제공됩니다:"
 
-#: docs/index.php:21
+#: docs/index.php:22
 #, c-format
 msgid ""
 "The <a href=\"%1$s\">release notes</a> are a short summary of important "
@@ -131,18 +131,18 @@ msgstr ""
 "<a href=\"%1$s\">릴리스 노트</a>에는 현재 WinMerge 릴리스의 중요한 변경 사항, 향상된 기능, 버그 수정 사항 및"
 " <a href=\"%2$s\">알려진 문제</a>가 간략하게 요약되어 있습니다."
 
-#: docs/index.php:23
+#: docs/index.php:24
 #, c-format
 msgid ""
 "The <a href=\"%s\">change log</a> is a more complete list of changes in the "
 "last WinMerge releases."
 msgstr "<a href=\"%s\">변경 로그</a>는 최근 WinMerge 릴리스의 변경 사항을 보다 완벽하게 나열한 목록입니다."
 
-#: docs/index.php:24
+#: docs/index.php:25
 msgid "Development Wiki"
 msgstr "개발 위키"
 
-#: docs/index.php:25
+#: docs/index.php:26
 #, c-format
 msgid ""
 "The <a href=\"%s\">Development Wiki</a> contains much information about the "
@@ -389,63 +389,63 @@ msgstr "슬로베니아어"
 msgid "Swedish"
 msgstr "스웨덴어"
 
-#: engine/engine.inc:39
+#: engine/engine.inc:40
 msgid "Turkish"
 msgstr "터키어"
 
-#: engine/page.inc:130 engine/page.inc:173
+#: engine/page.inc:130 engine/page.inc:170
 msgid "You will see the difference…"
 msgstr "차이를 알게 될 것입니다…"
 
-#: engine/page.inc:195
+#: engine/page.inc:192
 msgid "Change Language"
 msgstr "언어 변경"
 
-#: engine/page.inc:212
+#: engine/page.inc:209
 msgid "Project Pages"
 msgstr "프로젝트 페이지"
 
-#: engine/page.inc:215
+#: engine/page.inc:212
 msgid "Archive"
 msgstr "보관소"
 
-#: engine/page.inc:219 support/index.php:25
+#: engine/page.inc:216 support/index.php:25
 msgid "Donate"
 msgstr "기부"
 
-#: engine/page.inc:306
+#: engine/page.inc:303
 msgid "Download Now!"
 msgstr "지금 다운로드!"
 
-#: engine/page.inc:345
+#: engine/page.inc:342
 msgid "Home"
 msgstr "홈"
 
-#: engine/page.inc:345
+#: engine/page.inc:342
 msgid "WinMerge Home"
 msgstr "WinMerge 홈"
 
-#: engine/page.inc:346
+#: engine/page.inc:343
 msgid "WinMerge Documentation"
 msgstr "WinMerge 문서"
 
-#: engine/page.inc:347
+#: engine/page.inc:344
 msgid "WinMerge Downloads"
 msgstr "WinMerge 다운로드"
 
-#: engine/page.inc:348
+#: engine/page.inc:345
 msgid "WinMerge Screenshots"
 msgstr "WinMerge 스크린샷"
 
-#: engine/page.inc:349
+#: engine/page.inc:346
 msgid "WinMerge Source Code"
 msgstr "WinMerge 소스 코드"
 
-#: engine/page.inc:350
+#: engine/page.inc:347
 msgid "WinMerge Support"
 msgstr "WinMerge 지원"
 
-#: engine/page.inc:351
+#: engine/page.inc:348
 msgid "WinMerge Translations"
 msgstr "WinMerge 번역"
 
@@ -1098,11 +1098,11 @@ msgstr "유지관리"
 msgid "Korean"
 msgstr ""
 
-#: engine/engine.inc:40
+#: engine/engine.inc:41
 msgid "Simplified Chinese"
 msgstr ""
 
-#: engine/engine.inc:41
+#: engine/engine.inc:42
 msgid "Traditional Chinese"
 msgstr ""
 
@@ -1120,4 +1120,12 @@ msgstr ""
 
 #: engine/page.inc:51 engine/page.inc:54
 msgid "ARM64 (64-bit)"
+msgstr ""
+
+#: docs/index.php:17
+msgid "Hebrew"
+msgstr ""
+
+#: engine/engine.inc:39
+msgid "Tamil"
 msgstr ""

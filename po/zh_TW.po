@@ -47,7 +47,7 @@ msgstr "此網站最近進行了一次重大改版，所以這可能解釋了為
 msgid "Were you looking for..."
 msgstr "您是否在找..."
 
-#: 404.php:18 docs/index.php:8 docs/index.php:10 engine/page.inc:346
+#: 404.php:18 docs/index.php:8 docs/index.php:10 engine/page.inc:343
 msgid "Documentation"
 msgstr "說明文件"
 
@@ -59,38 +59,38 @@ msgstr "使用手冊"
 msgid "English"
 msgstr "英文"
 
-#: 404.php:23 docs/index.php:17 engine/engine.inc:29
+#: 404.php:23 docs/index.php:18 engine/engine.inc:29
 msgid "Japanese"
 msgstr "日文"
 
-#: 404.php:26 docs/index.php:20
+#: 404.php:26 docs/index.php:21
 msgid "Release Notes"
 msgstr "版本資訊"
 
-#: 404.php:27 docs/index.php:22
+#: 404.php:27 docs/index.php:23
 msgid "Change Log"
 msgstr "更新日誌"
 
-#: 404.php:30 engine/page.inc:347
+#: 404.php:30 engine/page.inc:344
 msgid "Downloads"
 msgstr "下載"
 
-#: 404.php:31 engine/page.inc:348 screenshots/index.php:7
+#: 404.php:31 engine/page.inc:345 screenshots/index.php:7
 #: screenshots/index.php:9
 msgid "Screenshots"
 msgstr "螢幕截圖"
 
-#: 404.php:32 downloads/index.php:80 engine/page.inc:349
+#: 404.php:32 downloads/index.php:80 engine/page.inc:346
 #: source-code/index.php:11 source-code/index.php:13
 msgid "Source Code"
 msgstr "原始碼"
 
-#: 404.php:33 engine/page.inc:350 index.php:76 support/index.php:7
+#: 404.php:33 engine/page.inc:347 index.php:76 support/index.php:7
 #: support/index.php:9
 msgid "Support"
 msgstr "支援"
 
-#: 404.php:34 engine/page.inc:351 translations/index.php:7
+#: 404.php:34 engine/page.inc:348 translations/index.php:7
 #: translations/index.php:9
 msgid "Translations"
 msgstr "翻譯"
@@ -118,7 +118,7 @@ msgstr "<a href=\"%s\">手冊</a>說明了如何使用 WinMerge，以及其功�
 msgid "It is currently available in the following languages:"
 msgstr "目前已被翻譯成以下語言："
 
-#: docs/index.php:21
+#: docs/index.php:22
 #, c-format
 msgid ""
 "The <a href=\"%1$s\">release notes</a> are a short summary of important "
@@ -128,18 +128,18 @@ msgstr ""
 "<a href=\"%1$s\">版本資訊</a>是對目前 WinMerge 版本中重大變更、改進、Bug 修復及<a "
 "href=\"%2$s\">已知問題</a>的簡短摘要。"
 
-#: docs/index.php:23
+#: docs/index.php:24
 #, c-format
 msgid ""
 "The <a href=\"%s\">change log</a> is a more complete list of changes in the "
 "last WinMerge releases."
 msgstr "<a href=\"%s\">更新日誌</a>會較為完整的列出上個 WinMerge 版本中的改動。"
 
-#: docs/index.php:24
+#: docs/index.php:25
 msgid "Development Wiki"
 msgstr "開發 Wiki"
 
-#: docs/index.php:25
+#: docs/index.php:26
 #, c-format
 msgid ""
 "The <a href=\"%s\">Development Wiki</a> contains much information about the "
@@ -380,63 +380,63 @@ msgstr "斯洛維尼亞文"
 msgid "Swedish"
 msgstr "瑞典文"
 
-#: engine/engine.inc:39
+#: engine/engine.inc:40
 msgid "Turkish"
 msgstr "土耳其文"
 
-#: engine/page.inc:130 engine/page.inc:173
+#: engine/page.inc:130 engine/page.inc:170
 msgid "You will see the difference…"
 msgstr "差異顯而易見…"
 
-#: engine/page.inc:195
+#: engine/page.inc:192
 msgid "Change Language"
 msgstr "切換語言"
 
-#: engine/page.inc:212
+#: engine/page.inc:209
 msgid "Project Pages"
 msgstr "專案頁面"
 
-#: engine/page.inc:215
+#: engine/page.inc:212
 msgid "Archive"
 msgstr "封存"
 
-#: engine/page.inc:219 support/index.php:25
+#: engine/page.inc:216 support/index.php:25
 msgid "Donate"
 msgstr "贊助"
 
-#: engine/page.inc:306
+#: engine/page.inc:303
 msgid "Download Now!"
 msgstr "立刻下載！"
 
-#: engine/page.inc:345
+#: engine/page.inc:342
 msgid "Home"
 msgstr "主頁"
 
-#: engine/page.inc:345
+#: engine/page.inc:342
 msgid "WinMerge Home"
 msgstr "WinMerge 主頁"
 
-#: engine/page.inc:346
+#: engine/page.inc:343
 msgid "WinMerge Documentation"
 msgstr "WinMerge 說明文件"
 
-#: engine/page.inc:347
+#: engine/page.inc:344
 msgid "WinMerge Downloads"
 msgstr "WinMerge 下載"
 
-#: engine/page.inc:348
+#: engine/page.inc:345
 msgid "WinMerge Screenshots"
 msgstr "WinMerge 螢幕截圖"
 
-#: engine/page.inc:349
+#: engine/page.inc:346
 msgid "WinMerge Source Code"
 msgstr "WinMerge 原始碼"
 
-#: engine/page.inc:350
+#: engine/page.inc:347
 msgid "WinMerge Support"
 msgstr "WinMerge 支援"
 
-#: engine/page.inc:351
+#: engine/page.inc:348
 msgid "WinMerge Translations"
 msgstr "WinMerge 翻譯"
 
@@ -1078,11 +1078,11 @@ msgstr "維護者"
 msgid "Korean"
 msgstr ""
 
-#: engine/engine.inc:40
+#: engine/engine.inc:41
 msgid "Simplified Chinese"
 msgstr ""
 
-#: engine/engine.inc:41
+#: engine/engine.inc:42
 msgid "Traditional Chinese"
 msgstr ""
 
@@ -1100,4 +1100,12 @@ msgstr ""
 
 #: engine/page.inc:51 engine/page.inc:54
 msgid "ARM64 (64-bit)"
+msgstr ""
+
+#: docs/index.php:17
+msgid "Hebrew"
+msgstr ""
+
+#: engine/engine.inc:39
+msgid "Tamil"
 msgstr ""

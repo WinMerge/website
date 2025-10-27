@@ -48,7 +48,7 @@ msgstr ""
 "de pastas ao copiar e excluir arquivos e subpastas. A visão da comparação de"
 " pastas pode ser personalizada de forma versátil."
 
-#: engine/page.inc:350
+#: engine/page.inc:347
 msgid "WinMerge Support"
 msgstr "Suporte do WinMerge"
 
@@ -101,7 +101,7 @@ msgstr ""
 msgid "Download"
 msgstr "Download"
 
-#: engine/page.inc:345
+#: engine/page.inc:342
 msgid "Home"
 msgstr "Inicial"
 
@@ -114,7 +114,7 @@ msgstr ""
 "A forma mais fácil de instalar o WinMerge é baixar e executar o instalador. "
 "Leia o <a href=\"%s\">manual online</a> para obter ajuda em usá-lo."
 
-#: 404.php:33 engine/page.inc:350 index.php:76 support/index.php:7
+#: 404.php:33 engine/page.inc:347 index.php:76 support/index.php:7
 #: support/index.php:9
 msgid "Support"
 msgstr "Suporte"
@@ -123,7 +123,7 @@ msgstr "Suporte"
 msgid "Location pane shows map of files compared"
 msgstr "O painel de localização mostra o mapa dos arquivos comparados"
 
-#: engine/page.inc:219 support/index.php:25
+#: engine/page.inc:216 support/index.php:25
 msgid "Donate"
 msgstr "Doação"
 
@@ -184,11 +184,11 @@ msgstr ""
 msgid "Basque"
 msgstr "Basca"
 
-#: engine/page.inc:215
+#: engine/page.inc:212
 msgid "Archive"
 msgstr "Arquivo"
 
-#: engine/page.inc:346
+#: engine/page.inc:343
 msgid "WinMerge Documentation"
 msgstr "Documentação do WinMerge"
 
@@ -239,7 +239,7 @@ msgstr ""
 msgid "Open-dialog"
 msgstr "Diálogo de abertura"
 
-#: 404.php:23 docs/index.php:17 engine/engine.inc:29
+#: 404.php:23 docs/index.php:18 engine/engine.inc:29
 msgid "Japanese"
 msgstr "Japonês"
 
@@ -305,7 +305,7 @@ msgstr ""
 "de comparação de pastas, Diferenciação de linha destacada, painel de "
 "localização, tela de apresentação"
 
-#: 404.php:27 docs/index.php:22
+#: 404.php:27 docs/index.php:23
 msgid "Change Log"
 msgstr "Log de mudanças"
 
@@ -329,7 +329,7 @@ msgstr "Página não encontrada..."
 msgid "Resolve conflict files"
 msgstr "Resolve arquivos conflitantes"
 
-#: 404.php:34 engine/page.inc:351 translations/index.php:7
+#: 404.php:34 engine/page.inc:348 translations/index.php:7
 #: translations/index.php:9
 msgid "Translations"
 msgstr "Traduções"
@@ -352,7 +352,7 @@ msgstr "Estado das traduções"
 msgid "Last Update"
 msgstr "Última atualização"
 
-#: 404.php:32 downloads/index.php:80 engine/page.inc:349
+#: 404.php:32 downloads/index.php:80 engine/page.inc:346
 #: source-code/index.php:11 source-code/index.php:13
 msgid "Source Code"
 msgstr "Código fonte"
@@ -365,7 +365,7 @@ msgstr ""
 "Documentação do WinMerge como manual, notas de lançamento, log de mudanças e"
 " o wiki de desenvolvimento."
 
-#: docs/index.php:25
+#: docs/index.php:26
 #, c-format
 msgid ""
 "The <a href=\"%s\">Development Wiki</a> contains much information about the "
@@ -395,7 +395,7 @@ msgstr ""
 msgid "Screenshot"
 msgstr "Capturas de tela"
 
-#: engine/page.inc:348
+#: engine/page.inc:345
 msgid "WinMerge Screenshots"
 msgstr "Capturas de tela do WinMerge"
 
@@ -415,7 +415,7 @@ msgstr ""
 "Baixar o código fonte do WinMerge, o qual é disponibilizado sob a Licença "
 "Pública Geral GNU."
 
-#: engine/page.inc:345
+#: engine/page.inc:342
 msgid "WinMerge Home"
 msgstr "Página inicical do WinMerge"
 
@@ -463,7 +463,7 @@ msgstr "A-m-d"
 msgid "Instructions"
 msgstr "Instruções"
 
-#: 404.php:26 docs/index.php:20
+#: 404.php:26 docs/index.php:21
 msgid "Release Notes"
 msgstr "Notas de lançamento"
 
@@ -472,7 +472,7 @@ msgstr "Notas de lançamento"
 msgid "Untranslated: %d%%"
 msgstr "Não traduzido: %d%%"
 
-#: engine/page.inc:347
+#: engine/page.inc:344
 msgid "WinMerge Downloads"
 msgstr "Downloads WinMerge"
 
@@ -552,7 +552,7 @@ msgstr "Incerto: %d%%"
 msgid "Folder Compare Tree View"
 msgstr "Visão de árvore de comparação de pastas"
 
-#: 404.php:18 docs/index.php:8 docs/index.php:10 engine/page.inc:346
+#: 404.php:18 docs/index.php:8 docs/index.php:10 engine/page.inc:343
 msgid "Documentation"
 msgstr "Documentação"
 
@@ -560,7 +560,7 @@ msgstr "Documentação"
 msgid "Manual"
 msgstr "Manual"
 
-#: docs/index.php:23
+#: docs/index.php:24
 #, c-format
 msgid ""
 "The <a href=\"%s\">change log</a> is a more complete list of changes in the "
@@ -582,7 +582,7 @@ msgstr ""
 msgid "Visual differencing and merging of text files"
 msgstr "Diferenciação e mesclagem visual de arquivos textos"
 
-#: 404.php:31 engine/page.inc:348 screenshots/index.php:7
+#: 404.php:31 engine/page.inc:345 screenshots/index.php:7
 #: screenshots/index.php:9
 msgid "Screenshots"
 msgstr "Capturas de tela"
@@ -591,7 +591,7 @@ msgstr "Capturas de tela"
 msgid "Project File Releases"
 msgstr "Lançamentos de arquivos do projeto"
 
-#: engine/engine.inc:39
+#: engine/engine.inc:40
 msgid "Turkish"
 msgstr "Turco"
 
@@ -653,7 +653,7 @@ msgstr "Outro"
 msgid "GNU General Public License"
 msgstr "Licença Pública Geral GNU"
 
-#: docs/index.php:24
+#: docs/index.php:25
 msgid "Development Wiki"
 msgstr "Wiki de desenvolvimento"
 
@@ -661,7 +661,7 @@ msgstr "Wiki de desenvolvimento"
 msgid "Other Versions"
 msgstr "Outras versões"
 
-#: engine/page.inc:306
+#: engine/page.inc:303
 msgid "Download Now!"
 msgstr "Baixar agora!"
 
@@ -700,7 +700,7 @@ msgstr ""
 msgid "Binaries"
 msgstr "Binários"
 
-#: docs/index.php:21
+#: docs/index.php:22
 #, c-format
 msgid ""
 "The <a href=\"%1$s\">release notes</a> are a short summary of important "
@@ -738,11 +738,11 @@ msgstr ""
 "A versão atual do WinMerge é <strong>%1$s</strong> e foi lançado em "
 "<strong>%2$s</strong>."
 
-#: 404.php:30 engine/page.inc:347
+#: 404.php:30 engine/page.inc:344
 msgid "Downloads"
 msgstr "Downloads"
 
-#: engine/page.inc:351
+#: engine/page.inc:348
 msgid "WinMerge Translations"
 msgstr "Traduções do WinMerge"
 
@@ -894,15 +894,15 @@ msgstr ""
 msgid "Spanish (Venezuela)"
 msgstr ""
 
-#: engine/page.inc:130 engine/page.inc:173
+#: engine/page.inc:130 engine/page.inc:170
 msgid "You will see the difference…"
 msgstr ""
 
-#: engine/page.inc:195
+#: engine/page.inc:192
 msgid "Change Language"
 msgstr ""
 
-#: engine/page.inc:212
+#: engine/page.inc:209
 msgid "Project Pages"
 msgstr ""
 
@@ -960,7 +960,7 @@ msgstr ""
 msgid "Unofficial Versions"
 msgstr ""
 
-#: engine/page.inc:349
+#: engine/page.inc:346
 msgid "WinMerge Source Code"
 msgstr ""
 
@@ -1164,11 +1164,11 @@ msgstr ""
 msgid "Korean"
 msgstr ""
 
-#: engine/engine.inc:40
+#: engine/engine.inc:41
 msgid "Simplified Chinese"
 msgstr ""
 
-#: engine/engine.inc:41
+#: engine/engine.inc:42
 msgid "Traditional Chinese"
 msgstr ""
 
@@ -1186,4 +1186,12 @@ msgstr ""
 
 #: engine/page.inc:51 engine/page.inc:54
 msgid "ARM64 (64-bit)"
+msgstr ""
+
+#: docs/index.php:17
+msgid "Hebrew"
+msgstr ""
+
+#: engine/engine.inc:39
+msgid "Tamil"
 msgstr ""
