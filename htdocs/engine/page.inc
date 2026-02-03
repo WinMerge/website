@@ -188,7 +188,7 @@
       $temp .= "</div> <!-- #wrap -->\n";
       $temp .= "  <footer id=\"foot\">\n";
       $temp .= "    <div class=\"columns\">\n";
-      $temp .= "      <div class=\"column\">\n";
+      $temp .= "      <nav class=\"column\" aria-label=\"". __('Change Language') . "\">\n";
       $temp .= "<h2>" . __('Change Language') ."</h2>\n";
       if ($translations->getLanguagesCount() > 1) { //if at least 2 languages exists...
         $temp .= "<ul class=\"languages\">\n";
@@ -196,7 +196,7 @@
         foreach ($languages as $language) { //for all languages...
           $link = "<a href=\"" . $translations->getLink($language, true) . "\" hreflang=\"" . $language->getId() . "\" title=\"" . __($language->getName()) .  "\">" . $language->getCultureName('&#8209;') . "</a>";
           if ($translations->isActiveLanguage($language)) { //if current language...
-            $temp .= "  <li><strong>$link</strong></li>\n";
+            $temp .= "  <li aria-current=\"true\" ><strong>$link</strong></li>\n";
           }
           else { //if NOT current language...
             $temp .= "  <li>$link</li>\n";
@@ -204,18 +204,18 @@
         }
         $temp .= "</ul> <!-- .languages -->\n";
       }
-      $temp .= "      </div> <!-- .column -->\n";
-      $temp .= "      <div class=\"column\">\n";
+      $temp .= "      </nav> <!-- .column -->\n";
+      $temp .= "      <nav class=\"column\" aria-label=\"". __('Project Pages') . "\">\n";
       $temp .= "<h2>" . __('Project Pages') ."</h2>\n";
       $temp .= "<ul>\n";
       $temp .= "  <li><a href=\"https://github.com/winmerge/winmerge\">GitHub</a></li>\n";
       $temp .= "  <li><a href=\"https://sourceforge.net/projects/winmerge\">SourceForge</a> <em>" . __('Archive') ."</em></li>\n";
       $temp .= "</ul>\n";
-      $temp .= "      </div> <!-- .column -->\n";
-      $temp .= "      <div class=\"column\">\n";
+      $temp .= "      </nav> <!-- .column -->\n";
+      $temp .= "      <nav class=\"column\" aria-label=\"". __('Donate') . "\">\n";
       $temp .= "<h2>" . __('Donate') ."</h2>\n";
       $temp .= "<p><a href=\"https://sourceforge.net/donate/index.php?group_id=13216\"><img src=\"/engine/images/project-support.jpg\" width=\"88\" height=\"32\" border=\"0\" alt=\"Donate\" title=\"Donate money to WinMerge\"></a></p>\n";
-      $temp .= "      </div> <!-- .column -->\n";
+      $temp .= "      </nav> <!-- .column -->\n";
       $temp .= "    </div> <!-- .columns -->\n";
       $temp .= "  </footer> <!-- #foot -->\n";
       $temp .= "</body>\n\n";
