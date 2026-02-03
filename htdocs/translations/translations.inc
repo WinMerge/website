@@ -85,9 +85,9 @@
      */
     private function getStatusGraphLegend() {
       $temp = "<ul class=\"inline\">\n";
-      $temp .= "  <li><img src=\"images/translated.png\" alt=\"*\" width=\"16\" height=\"16\"> " . __('Translated') . "</li>\n";
-      $temp .= "  <li><img src=\"images/fuzzy.png\" alt=\"*\" width=\"16\" height=\"16\"> " . __('Fuzzy') . "</li>\n";
-      $temp .= "  <li><img src=\"images/untranslated.png\" alt=\"*\" width=\"16\" height=\"16\"> " . __('Untranslated') . "</li>\n";
+      $temp .= "  <li><img src=\"images/translated.png\" alt=\"\" width=\"16\" height=\"16\"> " . __('Translated') . "</li>\n";
+      $temp .= "  <li><img src=\"images/fuzzy.png\" alt=\"\" width=\"16\" height=\"16\"> " . __('Fuzzy') . "</li>\n";
+      $temp .= "  <li><img src=\"images/untranslated.png\" alt=\"\" width=\"16\" height=\"16\"> " . __('Untranslated') . "</li>\n";
       $temp .= "</ul>\n";
       return $temp;
     }
