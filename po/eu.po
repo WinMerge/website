@@ -124,7 +124,7 @@ msgstr "Sostengua"
 msgid "Location pane shows map of files compared"
 msgstr "Kokaleku panelak alderatutako agirien mapa erakusten du"
 
-#: engine/page.inc:216 support/index.php:25
+#: engine/page.inc:215 engine/page.inc:216 support/index.php:25
 msgid "Donate"
 msgstr "Dirulaguntza"
 
@@ -240,7 +240,7 @@ msgstr ""
 msgid "Open-dialog"
 msgstr "Ireki-elkarrizketa"
 
-#: 404.php:23 docs/index.php:18 engine/engine.inc:29
+#: 404.php:23 docs/index.php:20 engine/engine.inc:29
 msgid "Japanese"
 msgstr "Japoniera"
 
@@ -305,7 +305,7 @@ msgstr ""
 "agiritegi alderaketa emaitzak, lerro ezberd. nabarmentzea, kokaleku panela, "
 "ongi etorri ikusleihoa"
 
-#: 404.php:27 docs/index.php:23
+#: 404.php:27 docs/index.php:25
 msgid "Change Log"
 msgstr "Aldaketa Oharra"
 
@@ -364,7 +364,7 @@ msgstr ""
 "WinMergetiko agiritza, eskuliburua, argitalpen oharrak, aldaketa oharra eta "
 "Garapen Wikia bezalakoak."
 
-#: docs/index.php:26
+#: docs/index.php:28
 #, c-format
 msgid ""
 "The <a href=\"%s\">Development Wiki</a> contains much information about the "
@@ -435,16 +435,6 @@ msgstr "Agiritegi Alderaketa Emaitzak"
 msgid "Unicode support"
 msgstr "Unicode sostengua"
 
-#: support/index.php:30
-#, c-format
-msgid ""
-"You can also support WinMerge by buying merchandise at the <a "
-"href=\"%s\">WinMerge CafePress store</a>. 20%% of the sales goes to "
-"WinMerge."
-msgstr ""
-"WinMerge sostengatu dezakezu ere merkatalgaiak erosiz <a "
-"href=\"%s\">WinMerge CafePress denda</a>n. Salmenten 20%% WinMerge-ra doa."
-
 #: source-code/index.php:66
 msgid "Y-m-d H:i"
 msgstr "U-h-e O:i"
@@ -461,7 +451,7 @@ msgstr "U-h-e"
 msgid "Instructions"
 msgstr "Jarraipideak"
 
-#: 404.php:26 docs/index.php:21
+#: 404.php:26 docs/index.php:23
 msgid "Release Notes"
 msgstr "Argitalpen Oharrak"
 
@@ -493,7 +483,7 @@ msgstr "Windows, Unix eta Mac idazki agiri heuskarriak kudeatzen ditu"
 msgid "Template"
 msgstr "Eredua"
 
-#: engine/engine.inc:28
+#: docs/index.php:17 engine/engine.inc:28
 msgid "French"
 msgstr "Frantziera"
 
@@ -559,7 +549,7 @@ msgstr "Agiritza"
 msgid "Manual"
 msgstr "Eskuliburua"
 
-#: docs/index.php:24
+#: docs/index.php:26
 #, c-format
 msgid ""
 "The <a href=\"%s\">change log</a> is a more complete list of changes in the "
@@ -655,7 +645,7 @@ msgstr "Besteak"
 msgid "GNU General Public License"
 msgstr "GNU Baimen Publiko Orokorra"
 
-#: docs/index.php:25
+#: docs/index.php:27
 msgid "Development Wiki"
 msgstr "Garapen Wikia"
 
@@ -703,7 +693,7 @@ msgstr ""
 msgid "Binaries"
 msgstr "Binarioak"
 
-#: docs/index.php:22
+#: docs/index.php:24
 #, c-format
 msgid ""
 "The <a href=\"%1$s\">release notes</a> are a short summary of important "
@@ -783,10 +773,6 @@ msgstr "Interfaze hegastua"
 #, c-format
 msgid "Translated: %d%%"
 msgstr "Itzulita: %d%%"
-
-#: support/index.php:29
-msgid "Buy WinMerge merchandise"
-msgstr "Erosi WinMerge merkatalgaiak"
 
 #: translations/translations.inc:76 translations/translations.inc:89
 #: translations/translations.inc:112
@@ -902,11 +888,11 @@ msgstr ""
 msgid "You will see the difference…"
 msgstr ""
 
-#: engine/page.inc:192
+#: engine/page.inc:191 engine/page.inc:192
 msgid "Change Language"
 msgstr ""
 
-#: engine/page.inc:209
+#: engine/page.inc:208 engine/page.inc:209
 msgid "Project Pages"
 msgstr ""
 
@@ -1192,10 +1178,14 @@ msgstr ""
 msgid "ARM64 (64-bit)"
 msgstr ""
 
-#: docs/index.php:17
+#: docs/index.php:18
 msgid "Hebrew"
 msgstr ""
 
 #: engine/engine.inc:39
 msgid "Tamil"
+msgstr ""
+
+#: docs/index.php:19
+msgid "Italian"
 msgstr ""

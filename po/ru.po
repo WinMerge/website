@@ -126,7 +126,7 @@ msgstr "Поддержка"
 msgid "Location pane shows map of files compared"
 msgstr "Панель расположения отображает карту сравниваемых файлов"
 
-#: engine/page.inc:216 support/index.php:25
+#: engine/page.inc:215 engine/page.inc:216 support/index.php:25
 msgid "Donate"
 msgstr "Пожертвования"
 
@@ -240,7 +240,7 @@ msgstr ""
 msgid "Open-dialog"
 msgstr "Диалоговое окно открытия файлов и путей"
 
-#: 404.php:23 docs/index.php:18 engine/engine.inc:29
+#: 404.php:23 docs/index.php:20 engine/engine.inc:29
 msgid "Japanese"
 msgstr "Японский"
 
@@ -303,7 +303,7 @@ msgstr ""
 "WinMerge, скриншоты, сравнение файлов, открытие файлов, результат сравнения "
 "папок, подсветка изменений строк, панель расположения, экран приветствия"
 
-#: 404.php:27 docs/index.php:23
+#: 404.php:27 docs/index.php:25
 msgid "Change Log"
 msgstr "Список изменений"
 
@@ -364,7 +364,7 @@ msgstr ""
 "Документация к WinMerge: руководства, примечания к релизу, список изменений,"
 " ссылки на Development Wiki."
 
-#: docs/index.php:26
+#: docs/index.php:28
 #, c-format
 msgid ""
 "The <a href=\"%s\">Development Wiki</a> contains much information about the "
@@ -434,17 +434,6 @@ msgstr "Результаты сравнения папок"
 msgid "Unicode support"
 msgstr "Поддержка Unicode"
 
-#: support/index.php:30
-#, c-format
-msgid ""
-"You can also support WinMerge by buying merchandise at the <a "
-"href=\"%s\">WinMerge CafePress store</a>. 20%% of the sales goes to "
-"WinMerge."
-msgstr ""
-"Вы также можете поддержать WinMerge, купив товары в магазине <a "
-"href=\"%s\">WinMerge CafePress</a>. 20%% от продаж идет на поддержку "
-"WinMerge."
-
 #: source-code/index.php:66
 msgid "Y-m-d H:i"
 msgstr "Y-m-d H:i"
@@ -461,7 +450,7 @@ msgstr "Y-m-d"
 msgid "Instructions"
 msgstr "Инструкции"
 
-#: 404.php:26 docs/index.php:21
+#: 404.php:26 docs/index.php:23
 msgid "Release Notes"
 msgstr "Информация о выпуске"
 
@@ -492,7 +481,7 @@ msgstr "Обработка текстовых форматов файлов Wind
 msgid "Template"
 msgstr "Шаблон"
 
-#: engine/engine.inc:28
+#: docs/index.php:17 engine/engine.inc:28
 msgid "French"
 msgstr "Французский"
 
@@ -555,7 +544,7 @@ msgstr "Документация"
 msgid "Manual"
 msgstr "Руководство пользователя"
 
-#: docs/index.php:24
+#: docs/index.php:26
 #, c-format
 msgid ""
 "The <a href=\"%s\">change log</a> is a more complete list of changes in the "
@@ -648,7 +637,7 @@ msgstr "Другое"
 msgid "GNU General Public License"
 msgstr "GNU General Public License"
 
-#: docs/index.php:25
+#: docs/index.php:27
 msgid "Development Wiki"
 msgstr "Wiki разработчиков"
 
@@ -696,7 +685,7 @@ msgstr ""
 msgid "Binaries"
 msgstr "Бинарные файлы"
 
-#: docs/index.php:22
+#: docs/index.php:24
 #, c-format
 msgid ""
 "The <a href=\"%1$s\">release notes</a> are a short summary of important "
@@ -775,10 +764,6 @@ msgstr "Интерфейс с закладками"
 #, c-format
 msgid "Translated: %d%%"
 msgstr "Переведено: %d%%"
-
-#: support/index.php:29
-msgid "Buy WinMerge merchandise"
-msgstr "Купить сувениры WinMerge"
 
 #: translations/translations.inc:76 translations/translations.inc:89
 #: translations/translations.inc:112
@@ -895,11 +880,11 @@ msgstr "Испанский (Венесуэла)"
 msgid "You will see the difference…"
 msgstr "Вы увидите разницу…"
 
-#: engine/page.inc:192
+#: engine/page.inc:191 engine/page.inc:192
 msgid "Change Language"
 msgstr "Изменить язык"
 
-#: engine/page.inc:209
+#: engine/page.inc:208 engine/page.inc:209
 msgid "Project Pages"
 msgstr "Страницы проекта"
 
@@ -1206,10 +1191,14 @@ msgstr "x64 (64-битная)"
 msgid "ARM64 (64-bit)"
 msgstr "ARM64 (64-битная)"
 
-#: docs/index.php:17
+#: docs/index.php:18
 msgid "Hebrew"
 msgstr ""
 
 #: engine/engine.inc:39
 msgid "Tamil"
+msgstr ""
+
+#: docs/index.php:19
+msgid "Italian"
 msgstr ""

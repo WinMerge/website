@@ -61,15 +61,15 @@ msgstr "கையேடு"
 msgid "English"
 msgstr "ஆங்கிலம்"
 
-#: 404.php:23 docs/index.php:18 engine/engine.inc:29
+#: 404.php:23 docs/index.php:20 engine/engine.inc:29
 msgid "Japanese"
 msgstr "சப்பானியர்கள்"
 
-#: 404.php:26 docs/index.php:21
+#: 404.php:26 docs/index.php:23
 msgid "Release Notes"
 msgstr "வெளியீட்டு குறிப்புகள்"
 
-#: 404.php:27 docs/index.php:23
+#: 404.php:27 docs/index.php:25
 msgid "Change Log"
 msgstr "மாற்றம் பதிவு"
 
@@ -126,7 +126,7 @@ msgstr ""
 msgid "It is currently available in the following languages:"
 msgstr "இது தற்போது பின்வரும் மொழிகளில் கிடைக்கிறது:"
 
-#: docs/index.php:22
+#: docs/index.php:24
 #, c-format
 msgid ""
 "The <a href=\"%1$s\">release notes</a> are a short summary of important "
@@ -138,7 +138,7 @@ msgstr ""
 "<a href=\"%2$s\">அறியப்பட்ட சிக்கல்கள்</a> ஆகியவற்றின் சுருக்கமான "
 "சுருக்கமாகும்."
 
-#: docs/index.php:24
+#: docs/index.php:26
 #, c-format
 msgid ""
 "The <a href=\"%s\">change log</a> is a more complete list of changes in the "
@@ -147,11 +147,11 @@ msgstr ""
 "<a href=\"%s\">மாற்றம் பதிவு</a> என்பது கடைசி சாளரஒன்றிணை வெளியீடுகளில் "
 "ஏற்படும் மாற்றங்களின் முழுமையான பட்டியல்."
 
-#: docs/index.php:25
+#: docs/index.php:27
 msgid "Development Wiki"
 msgstr "மேம்பாட்டு விக்கி"
 
-#: docs/index.php:26
+#: docs/index.php:28
 #, c-format
 msgid ""
 "The <a href=\"%s\">Development Wiki</a> contains much information about the "
@@ -375,7 +375,7 @@ msgstr "கிரேக்கம்"
 msgid "German"
 msgstr "செர்மன்"
 
-#: engine/engine.inc:28
+#: docs/index.php:17 engine/engine.inc:28
 msgid "French"
 msgstr "பிரஞ்சு"
 
@@ -447,11 +447,11 @@ msgstr "கை64 (64-இருமம்)"
 msgid "You will see the difference…"
 msgstr "நீங்கள் வேறுபாட்டைக் காண்பீர்கள்…"
 
-#: engine/page.inc:192
+#: engine/page.inc:191 engine/page.inc:192
 msgid "Change Language"
 msgstr "மொழியை மாற்று"
 
-#: engine/page.inc:209
+#: engine/page.inc:208 engine/page.inc:209
 msgid "Project Pages"
 msgstr "திட்ட பக்கங்கள்"
 
@@ -459,7 +459,7 @@ msgstr "திட்ட பக்கங்கள்"
 msgid "Archive"
 msgstr "காப்பகம்"
 
-#: engine/page.inc:216 support/index.php:25
+#: engine/page.inc:215 engine/page.inc:216 support/index.php:25
 msgid "Donate"
 msgstr "நன்கொடை"
 
@@ -1049,21 +1049,6 @@ msgstr ""
 "ஆனால் சாளரஒன்றிணையின் தொடர்ச்சியான வளர்ச்சியை ஆதரிக்க <a "
 "href=\"%s\">நன்கொடை</a> ஐ உருவாக்கவும்."
 
-#: support/index.php:29
-msgid "Buy WinMerge merchandise"
-msgstr "சாளரஒன்றிணை பொருட்களை வாங்கவும்"
-
-#: support/index.php:30
-#, c-format
-msgid ""
-"You can also support WinMerge by buying merchandise at the <a "
-"href=\"%s\">WinMerge CafePress store</a>. 20%% of the sales goes to "
-"WinMerge."
-msgstr ""
-"<a href=\"%s\">சாளரஒன்றிணை காபிஅச்சு கடையில்</a> பொருட்களை வாங்குவதன் மூலம் "
-"நீங்கள் சாளரஒன்றிணையை ஆதரிக்கலாம். விற்பனையின் 20%% சாளரஒன்றிணைக்கு "
-"செல்கிறது."
-
 #: translations/index.php:6
 msgid "Translations Status"
 msgstr "மொழிபெயர்ப்பு நிலை"
@@ -1217,6 +1202,10 @@ msgstr "மொத்தம்: தெரியவில்லை"
 msgid "Maintainer"
 msgstr "பராமரிப்பாளர்"
 
-#: docs/index.php:17
+#: docs/index.php:18
 msgid "Hebrew"
+msgstr ""
+
+#: docs/index.php:19
+msgid "Italian"
 msgstr ""

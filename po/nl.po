@@ -63,15 +63,15 @@ msgstr "Handleiding"
 msgid "English"
 msgstr "English"
 
-#: 404.php:23 docs/index.php:18 engine/engine.inc:29
+#: 404.php:23 docs/index.php:20 engine/engine.inc:29
 msgid "Japanese"
 msgstr "日本語 (Japanese)"
 
-#: 404.php:26 docs/index.php:21
+#: 404.php:26 docs/index.php:23
 msgid "Release Notes"
 msgstr "Release-opmerkingen"
 
-#: 404.php:27 docs/index.php:23
+#: 404.php:27 docs/index.php:25
 msgid "Change Log"
 msgstr "Lijst met aanpassingen"
 
@@ -128,7 +128,7 @@ msgstr ""
 msgid "It is currently available in the following languages:"
 msgstr "Het is op dit moment beschikbaar in de volgende talen:"
 
-#: docs/index.php:22
+#: docs/index.php:24
 #, c-format
 msgid ""
 "The <a href=\"%1$s\">release notes</a> are a short summary of important "
@@ -139,7 +139,7 @@ msgstr ""
 "belangrijke aanpassingen, verbeteringen, bugfixes en <a "
 "href=\"%2$s\">gekende problemen</a> in de huidige release van WinMerge."
 
-#: docs/index.php:24
+#: docs/index.php:26
 #, c-format
 msgid ""
 "The <a href=\"%s\">change log</a> is a more complete list of changes in the "
@@ -148,11 +148,11 @@ msgstr ""
 "De <a href=\"%s\">aanpassingslog</a> is een meer complete lijst van "
 "aanpassingen in de laatste releases van WinMerge."
 
-#: docs/index.php:25
+#: docs/index.php:27
 msgid "Development Wiki"
 msgstr "Ontwikkelingswiki"
 
-#: docs/index.php:26
+#: docs/index.php:28
 #, c-format
 msgid ""
 "The <a href=\"%s\">Development Wiki</a> contains much information about the "
@@ -378,7 +378,7 @@ msgstr "Greek"
 msgid "German"
 msgstr "German"
 
-#: engine/engine.inc:28
+#: docs/index.php:17 engine/engine.inc:28
 msgid "French"
 msgstr "French"
 
@@ -446,11 +446,11 @@ msgstr "ARM64 (64-bit)"
 msgid "You will see the difference…"
 msgstr "U ziet het verschil..."
 
-#: engine/page.inc:192
+#: engine/page.inc:191 engine/page.inc:192
 msgid "Change Language"
 msgstr "Taal wijzigen"
 
-#: engine/page.inc:209
+#: engine/page.inc:208 engine/page.inc:209
 msgid "Project Pages"
 msgstr "Projectpagina's"
 
@@ -458,7 +458,7 @@ msgstr "Projectpagina's"
 msgid "Archive"
 msgstr "Archief"
 
-#: engine/page.inc:216 support/index.php:25
+#: engine/page.inc:215 engine/page.inc:216 support/index.php:25
 msgid "Donate"
 msgstr "Doneren"
 
@@ -1042,21 +1042,6 @@ msgstr ""
 "Overweeg echter een <a href=\"%s\">donatie</a> om de verdere ontwikkeling "
 "van WinMerge te ondersteunen."
 
-#: support/index.php:29
-msgid "Buy WinMerge merchandise"
-msgstr "Winmerge-goederen kopen"
-
-#: support/index.php:30
-#, c-format
-msgid ""
-"You can also support WinMerge by buying merchandise at the <a "
-"href=\"%s\">WinMerge CafePress store</a>. 20%% of the sales goes to "
-"WinMerge."
-msgstr ""
-"U kunt WinMerge ook ondersteunen door artikelen te kopen in de <a "
-"href=\"%s\">WinMerge CafePress store</a>. 20 %% van de verkoop gaat naar "
-"WinMerge."
-
 #: translations/index.php:6
 msgid "Translations Status"
 msgstr "Status van vertaling"
@@ -1207,10 +1192,14 @@ msgstr "Totaal: onbekend"
 msgid "Maintainer"
 msgstr "Beheerder"
 
-#: docs/index.php:17
+#: docs/index.php:18
 msgid "Hebrew"
 msgstr ""
 
 #: engine/engine.inc:39
 msgid "Tamil"
+msgstr ""
+
+#: docs/index.php:19
+msgid "Italian"
 msgstr ""

@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WinMerge Website\n"
 "Report-Msgid-Bugs-To: https://github.com/WinMerge/website/issues\n"
-"POT-Creation-Date: 2025-10-27 22:11+0000\n"
+"POT-Creation-Date: 2026-04-27 17:48+0000\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: English <winmerge-translate@lists.sourceforge.net>\n"
@@ -48,15 +48,15 @@ msgstr ""
 msgid "English"
 msgstr ""
 
-#: 404.php:23 docs/index.php:18 engine/engine.inc:29
+#: 404.php:23 docs/index.php:20 engine/engine.inc:29
 msgid "Japanese"
 msgstr ""
 
-#: 404.php:26 docs/index.php:21
+#: 404.php:26 docs/index.php:23
 msgid "Release Notes"
 msgstr ""
 
-#: 404.php:27 docs/index.php:23
+#: 404.php:27 docs/index.php:25
 msgid "Change Log"
 msgstr ""
 
@@ -101,25 +101,33 @@ msgstr ""
 msgid "It is currently available in the following languages:"
 msgstr ""
 
-#: docs/index.php:17
+#: docs/index.php:17 engine/engine.inc:28
+msgid "French"
+msgstr ""
+
+#: docs/index.php:18
 msgid "Hebrew"
 msgstr ""
 
-#: docs/index.php:22
-#, c-format
-msgid "The <a href=\"%1$s\">release notes</a> are a short summary of important changes, enhancements, bug fixes and <a href=\"%2$s\">known issues</a> in the current WinMerge release."
+#: docs/index.php:19
+msgid "Italian"
 msgstr ""
 
 #: docs/index.php:24
 #, c-format
-msgid "The <a href=\"%s\">change log</a> is a more complete list of changes in the last WinMerge releases."
-msgstr ""
-
-#: docs/index.php:25
-msgid "Development Wiki"
+msgid "The <a href=\"%1$s\">release notes</a> are a short summary of important changes, enhancements, bug fixes and <a href=\"%2$s\">known issues</a> in the current WinMerge release."
 msgstr ""
 
 #: docs/index.php:26
+#, c-format
+msgid "The <a href=\"%s\">change log</a> is a more complete list of changes in the last WinMerge releases."
+msgstr ""
+
+#: docs/index.php:27
+msgid "Development Wiki"
+msgstr ""
+
+#: docs/index.php:28
 #, c-format
 msgid "The <a href=\"%s\">Development Wiki</a> contains much information about the WinMerge development."
 msgstr ""
@@ -306,10 +314,6 @@ msgstr ""
 msgid "German"
 msgstr ""
 
-#: engine/engine.inc:28
-msgid "French"
-msgstr ""
-
 #: engine/engine.inc:30
 msgid "Korean"
 msgstr ""
@@ -378,11 +382,11 @@ msgstr ""
 msgid "You will see the difference…"
 msgstr ""
 
-#: engine/page.inc:192
+#: engine/page.inc:191 engine/page.inc:192
 msgid "Change Language"
 msgstr ""
 
-#: engine/page.inc:209
+#: engine/page.inc:208 engine/page.inc:209
 msgid "Project Pages"
 msgstr ""
 
@@ -390,7 +394,7 @@ msgstr ""
 msgid "Archive"
 msgstr ""
 
-#: engine/page.inc:216 support/index.php:25
+#: engine/page.inc:215 engine/page.inc:216 support/index.php:25
 msgid "Donate"
 msgstr ""
 
@@ -818,15 +822,6 @@ msgstr ""
 #: support/index.php:27
 #, c-format
 msgid "But please consider making a <a href=\"%s\">donation</a> to support the continued development of WinMerge."
-msgstr ""
-
-#: support/index.php:29
-msgid "Buy WinMerge merchandise"
-msgstr ""
-
-#: support/index.php:30
-#, c-format
-msgid "You can also support WinMerge by buying merchandise at the <a href=\"%s\">WinMerge CafePress store</a>. 20%% of the sales goes to WinMerge."
 msgstr ""
 
 #: translations/index.php:6

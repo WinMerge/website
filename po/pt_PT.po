@@ -63,15 +63,15 @@ msgstr "Manual"
 msgid "English"
 msgstr "Inglês"
 
-#: 404.php:23 docs/index.php:18 engine/engine.inc:29
+#: 404.php:23 docs/index.php:20 engine/engine.inc:29
 msgid "Japanese"
 msgstr "Japonês"
 
-#: 404.php:26 docs/index.php:21
+#: 404.php:26 docs/index.php:23
 msgid "Release Notes"
 msgstr "Notas de lançamento"
 
-#: 404.php:27 docs/index.php:23
+#: 404.php:27 docs/index.php:25
 msgid "Change Log"
 msgstr "Registo de alterações"
 
@@ -128,7 +128,7 @@ msgstr ""
 msgid "It is currently available in the following languages:"
 msgstr "Está atualmente disponível nos seguintes idiomas:"
 
-#: docs/index.php:22
+#: docs/index.php:24
 #, c-format
 msgid ""
 "The <a href=\"%1$s\">release notes</a> are a short summary of important "
@@ -139,7 +139,7 @@ msgstr ""
 "alterações importantes, melhorias, correções de erros (bugs) e <a "
 "href=\"%2$s\">problemas conhecidos</a> na atual versão do WinMerge."
 
-#: docs/index.php:24
+#: docs/index.php:26
 #, c-format
 msgid ""
 "The <a href=\"%s\">change log</a> is a more complete list of changes in the "
@@ -148,11 +148,11 @@ msgstr ""
 "O <a href=\"%s\">registo de alterações</a> é uma lista mais completa de "
 "alterações nos últimos lançamentos do WinMerge."
 
-#: docs/index.php:25
+#: docs/index.php:27
 msgid "Development Wiki"
 msgstr "Wiki do Desenvolvimento"
 
-#: docs/index.php:26
+#: docs/index.php:28
 #, c-format
 msgid ""
 "The <a href=\"%s\">Development Wiki</a> contains much information about the "
@@ -375,7 +375,7 @@ msgstr "Grego"
 msgid "German"
 msgstr "Alemão"
 
-#: engine/engine.inc:28
+#: docs/index.php:17 engine/engine.inc:28
 msgid "French"
 msgstr "Francês"
 
@@ -419,11 +419,11 @@ msgstr "Turco"
 msgid "You will see the difference…"
 msgstr "Verá a diferença…"
 
-#: engine/page.inc:192
+#: engine/page.inc:191 engine/page.inc:192
 msgid "Change Language"
 msgstr "Alterar idioma"
 
-#: engine/page.inc:209
+#: engine/page.inc:208 engine/page.inc:209
 msgid "Project Pages"
 msgstr "Páginas do projeto"
 
@@ -431,7 +431,7 @@ msgstr "Páginas do projeto"
 msgid "Archive"
 msgstr "Arquivo"
 
-#: engine/page.inc:216 support/index.php:25
+#: engine/page.inc:215 engine/page.inc:216 support/index.php:25
 msgid "Donate"
 msgstr "Doação"
 
@@ -1017,20 +1017,6 @@ msgstr ""
 "Mas considere fazer uma <a href=\"%s\">doação</a> para apoiar o "
 "desenvolvimento contínuo do WinMerge."
 
-#: support/index.php:29
-msgid "Buy WinMerge merchandise"
-msgstr "Compre artigos do WinMerge"
-
-#: support/index.php:30
-#, c-format
-msgid ""
-"You can also support WinMerge by buying merchandise at the <a "
-"href=\"%s\">WinMerge CafePress store</a>. 20%% of the sales goes to "
-"WinMerge."
-msgstr ""
-"Também pode apoiar o WinMerge, ao comprar artigos na <a href=\"%s\">loja "
-"WinMerge CafePress</a>. 20%% das vendas vão para o WinMerge."
-
 #: translations/index.php:6
 msgid "Translations Status"
 msgstr "Estado das traduções"
@@ -1210,10 +1196,14 @@ msgstr ""
 msgid "ARM64 (64-bit)"
 msgstr ""
 
-#: docs/index.php:17
+#: docs/index.php:18
 msgid "Hebrew"
 msgstr ""
 
 #: engine/engine.inc:39
 msgid "Tamil"
+msgstr ""
+
+#: docs/index.php:19
+msgid "Italian"
 msgstr ""
