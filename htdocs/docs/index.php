@@ -14,6 +14,7 @@
 ?>
 <ul class="buttons">
   <li><a href="https://manual.winmerge.org/en/" class="button is-small"><?php __e('English');?></a></li>
+  <li><a href="https://manual.winmerge.org/es/" class="button is-small"><?php __e('Spanish');?></a></li>
   <li><a href="https://manual.winmerge.org/fr/" class="button is-small"><?php __e('French');?></a></li>
   <li><a href="https://manual.winmerge.org/he/" class="button is-small"><?php __e('Hebrew');?></a></li>
   <li><a href="https://manual.winmerge.org/it/" class="button is-small"><?php __e('Italian');?></a></li>
