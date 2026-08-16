@@ -47,10 +47,6 @@ along with WinMerge.  If not, see &lt;<a href="https://www.gnu.org/licenses/">ht
       <td class="left"><a href="https://github.com/WinMerge/winmerge/archive/master.zip" target="_blank" class="button">master.zip</a></td>
       <td class="center">Master</td>
     </tr>
-    <tr>
-      <td class="left"><a href="https://github.com/WinMerge/winmerge/archive/stable-gh.zip" target="_blank" class="button is-dark">stable-gh.zip</a></td>
-      <td class="center">Stable</td>
-    </tr>
   </table>
 </div> <!-- .table-scrollable -->
 <?php
