@@ -130,6 +130,7 @@
   <li><a href="https://portableapps.com/apps/utilities/winmerge_portable"><?php __e('WinMerge Portable');?></a> <?php __e('(by PortableApps.com)');?></li>
   <li><a href="https://winmergejp.bitbucket.io/">WinMerge Japanese</a> (by Takashi Sawanaka)</li>
   <li><a href="https://github.com/datadiode/winmerge2011/">WinMerge 2011</a> (by Jochen Neubeck)</li>
+  <li><a href="https://github.com/iagodpassos/libremerge/">LibreMerge</a> (by Iago Passos)</li>
 </ul>
 <?php
   $page->printRssSubHeading(__('Project File Releases'), 'https://github.com/WinMerge/winmerge/releases.atom');
