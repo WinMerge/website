@@ -1,6 +1,6 @@
 # syntax=docker/dockerfile:1
 
-FROM php:8.0-apache
+FROM php:8.4-apache
 
 RUN a2enmod rewrite
 RUN mv "$PHP_INI_DIR/php.ini-development" "$PHP_INI_DIR/php.ini"
