@@ -15,7 +15,7 @@
   class Release {
     var $_versionnumber;
     var $_date;
-    var $_downloads, $_downloadsizes, $_downloadsha256sums;
+    var $_downloads, $_downloadarch, $_downloadsizes, $_downloadsha256sums;
     var $_releasenotes, $_knownissues, $_changeLog;
 
     /**
