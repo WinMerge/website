@@ -19,6 +19,7 @@
   <li><a href="https://manual.winmerge.org/he/" class="button is-small"><?php __e('Hebrew');?></a></li>
   <li><a href="https://manual.winmerge.org/it/" class="button is-small"><?php __e('Italian');?></a></li>
   <li><a href="https://manual.winmerge.org/jp/" class="button is-small"><?php __e('Japanese');?></a></li>
+  <li><a href="https://manual.winmerge.org/pl/" class="button is-small"><?php __e('Polish');?></a></li>
 </ul>
 <?php
   $page->printLinkedSubHeading(__('Release Notes'), $stablerelease->getReleaseNotes());
