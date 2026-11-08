@@ -20,6 +20,7 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Poedit 3.10\n"
 "X-Poedit-Basepath: ../htdocs\n"
+"X-Poedit-Language: Traditional Chinese\n"
 "X-Poedit-SourceCharset: utf-8\n"
 
 #: 404.php:9
