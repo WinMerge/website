@@ -13,44 +13,37 @@
    * ...
    */
   class Release {
-    var $_versionnumber;
-    var $_date;
-    var $_downloads, $_downloadarch, $_downloadsizes, $_downloadsha256sums;
-    var $_releasenotes, $_knownissues, $_changeLog;
-
-    /**
-     * Constructor
-     */
-    function __construct() {
-      $this->_versionnumber = '';
-      $this->_date = '';
-      $this->_downloads = array();
-      $this->_downloadarch = array();
-      $this->_downloadsizes = array();
-      $this->_downloadsha256sums = array();
-      $this->_releasenotes = '';
-      $this->_knownissues = '';
-      $this->_changeLog = '';
-    }
+    
+    private string $_versionnumber = '';
+    private string $_date = '';
+    
+    private array $_downloads = [];
+    private array $_downloadarch = [];
+    private array $_downloadsizes = [];
+    private array $_downloadsha256sums = [];
+    
+    private string $_releasenotes = '';
+    private string $_knownissues = '';
+    private string $_changeLog = '';
 
     /**
      * set the version number from the release
      */
-    function setVersionNumber($versionnumber) {
+    public function setVersionNumber($versionnumber) {
       $this->_versionnumber = $versionnumber;
     }
 
     /**
      * get the version number from the release
      */
-    function getVersionNumber() {
+    public function getVersionNumber() {
       return $this->_versionnumber;
     }
 
     /**
      * get the (major) version number from the release
      */
-    function getVersionNumberMajor() {
+    public function getVersionNumberMajor() {
       $version = explode('.', $this->_versionnumber);
       return $version[0] . '.' . $version[1];
     }
@@ -58,21 +51,21 @@
     /**
      * set the date from the release
      */
-    function setDate($date) {
+    public function setDate($date) {
       $this->_date = $date;
     }
 
     /**
      * get the date from the release
      */
-    function getDate() {
+    public function getDate() {
       return $this->_date;
     }
 
     /**
      * add a download from the release
      */
-    function addDownload($id, $arch, $url, $size, $sha256 = '') {
+    public function addDownload($id, $arch, $url, $size, $sha256 = '') {
       $this->_downloads[$id] = $url;
       $this->_downloadarch[$id] = $arch;
       $this->_downloadsizes[$id] = $size;
@@ -82,56 +75,56 @@
     /**
      * get a download from the release
      */
-    function getDownload($id) {
+    public function getDownload($id) {
       return $this->_downloads[$id];
     }
 
     /**
      * get a download architecture from the release
      */
-    function getDownloadArch($id) {
+    public function getDownloadArch($id) {
       return $this->_downloadarch[$id];
     }
 
     /**
      * get a download size (in bytes) from the release
      */
-    function getDownloadSize($id) {
+    public function getDownloadSize($id) {
       return $this->_downloadsizes[$id];
     }
 
     /**
      * get a download size (in kilobytes) from the release
      */
-    function getDownloadSizeKb($id) {
-      return $this->formatSize($this->_downloadsizes[$id], 'kb');
+    public function getDownloadSizeKb($id) {
+      return self::formatSize($this->_downloadsizes[$id], 'kb');
     }
 
     /**
      * get a download size (in megabytes) from the release
      */
-    function getDownloadSizeMb($id) {
-      return $this->formatSize($this->_downloadsizes[$id], 'mb');
+    public function getDownloadSizeMb($id) {
+      return self::formatSize($this->_downloadsizes[$id], 'mb');
     }
 
     /**
      * get a formatted download size from the release
      */
-    function getDownloadSizeFormatted($id, $unit = '') {
-      return $this->formatSize($this->_downloadsizes[$id], $unit);
+    public function getDownloadSizeFormatted($id, $unit = '') {
+      return self::formatSize($this->_downloadsizes[$id], $unit);
     }
 
     /**
      * get a download SHA256 sum from the release
      */
-    function getDownloadSha256Sum($id) {
+    public function getDownloadSha256Sum($id) {
       return $this->_downloadsha256sums[$id];
     }
 
     /**
      * get a download filename from the release
      */
-    function getDownloadFileName($id) {
+    public function getDownloadFileName($id) {
       return basename($this->_downloads[$id]);
     }
 
@@ -139,14 +132,14 @@
      * set the release notes URL from the release
      * @param string $url release notes URL
      */
-    function setReleaseNotes($url) {
+    public function setReleaseNotes($url) {
       $this->_releasenotes = $url;
     }
 
     /**
      * get the release notes URL from the release
      */
-    function getReleaseNotes() {
+    public function getReleaseNotes() {
       return $this->_releasenotes;
     }
 
@@ -154,14 +147,14 @@
      * set the known issues URL from the release
      * @param string $url known issues URL
      */
-    function setKnownIssues($url) {
+    public function setKnownIssues($url) {
       $this->_knownissues = $url;
     }
 
     /**
      * get the known issues URL from the release
      */
-    function getKnownIssues() {
+    public function getKnownIssues() {
       return $this->_knownissues;
     }
 
@@ -169,21 +162,21 @@
      * set the change log URL from the release
      * @param string $url known issues URL
      */
-    function setChangeLog($url) {
+    public function setChangeLog($url) {
       $this->_changeLog = $url;
     }
 
     /**
      * get the change log URL from the release
      */
-    function getChangeLog() {
+    public function getChangeLog() {
       return $this->_changeLog;
     }
 
     /**
      * format the size
      */
-    function formatSize($bytes, $unit = '') {
+    private static function formatSize($bytes, $unit = '') {
       switch (strtolower($unit)) {
         case 'kb':
           return number_format($bytes / 1024);
@@ -196,4 +189,3 @@
       }
     }
   }
-?>

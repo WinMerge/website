@@ -13,13 +13,17 @@
    * ...
    */
   class Tab {
-    var $_id, $_link, $_title, $_tooltiptext;
-    var $_subtabs;
+
+    private $_id;
+    private $_link;
+    private $_title;
+    private $_tooltiptext;
+    private $_subtabs;
 
     /**
      * Constructor
      */
-    function __construct($id, $link, $title, $tooltiptext = '') {
+    public function __construct($id, $link, $title, $tooltiptext = '') {
       $this->_id = $id;
       $this->_link = $link;
       $this->_title = $title;
@@ -30,56 +34,56 @@
     /**
      * set the id from the tab
      */
-    function setId($id) {
+    public function setId($id) {
       $this->_id = $id;
     }
 
     /**
      * get the id from the tab
      */
-    function getId() {
+    public function getId() {
       return $this->_id;
     }
 
     /**
      * set the link from the tab
      */
-    function setLink($link) {
+    public function setLink($link) {
       $this->_link = $link;
     }
 
     /**
      * get the link from the tab
      */
-    function getLink() {
+    public function getLink() {
       return $this->_link;
     }
 
     /**
      * set the title from the tab
      */
-    function setTitle($title) {
+    public function setTitle($title) {
       $this->_title = $title;
     }
 
     /**
      * get the title from the tab
      */
-    function getTitle() {
+    public function getTitle() {
       return $this->_title;
     }
 
     /**
      * set the tool tip text from the tab
      */
-    function setToolTipText($id) {
+    public function setToolTipText($id) {
       $this->_tooltiptext = $id;
     }
 
     /**
      * get the tool tip text from the tab
      */
-    function getToolTipText() {
+    public function getToolTipText() {
       return $this->_tooltiptext;
     }
   }
@@ -88,12 +92,15 @@
    * ...
    */
   class Subtab {
-    var $_link, $_title, $_tooltiptext;
+
+    private $_link;
+    private $_title;
+    private $_tooltiptext;
 
     /**
      * Constructor
      */
-    function Subtab($link, $title, $tooltiptext = '') {
+    public function __construct($link, $title, $tooltiptext = '') {
       $this->_link = $link;
       $this->_title = $title;
       $this->_tooltiptext = $tooltiptext;
@@ -102,49 +109,49 @@
     /**
      * set the link from the sub tab
      */
-    function setLink($link) {
+    public function setLink($link) {
       $this->_link = $link;
     }
 
     /**
      * get the link from the sub tab
      */
-    function getLink() {
+    public function getLink() {
       return $this->_link;
     }
 
     /**
      * set the title from the sub tab
      */
-    function setTitle($title) {
+    public function setTitle($title) {
       $this->_title = $title;
     }
 
     /**
      * get the title from the sub tab
      */
-    function getTitle() {
+    public function getTitle() {
       return $this->_title;
     }
 
     /**
      * set the tool tip text from the sub tab
      */
-    function setToolTipText($id) {
+    public function setToolTipText($id) {
       $this->_tooltiptext = $id;
     }
 
     /**
      * get the tool tip text from the sub tab
      */
-    function getToolTipText() {
+    public function getToolTipText() {
       return $this->_tooltiptext;
     }
 
     /**
      * is the current sub tab?
      */
-    function isCurrent() {
+    public function isCurrent() {
       if ($this->_link == $_SERVER['PHP_SELF']) {
         return true;
       }
@@ -157,4 +164,3 @@
       return false;
     }
   }
-?>

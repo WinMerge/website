@@ -18,42 +18,42 @@
      * @var string
      * @access private
      */
-    var $_urlparameter;
+    private $_urlparameter;
     /**
      * Force URL parameter?
      * @var bool
      * @access private
      */
-    var $_forceurlparameter;
+    private $_forceurlparameter;
     /**
      * Languages
      * @var array
      * @access private
      */
-    var $_languages;
+    private $_languages;
     /**
      * ...
      * @var string
      * @access private
      */
-    var $_baselanguageid;
+    private $_baselanguageid;
     /**
      * ...
      * @var string
      * @access private
      */
-    var $_activelanguageid;
+    private $_activelanguageid;
     /**
      * Translations
      * @var array
      * @access private
      */
-    var $_translations;
+    private $_translations;
 
     /**
      * Constructor
      */
-    function __construct() {
+    public function __construct() {
       $this->_urlparameter = 'lang';
       $this->_forceurlparameter = false;
       $this->_languages = array();
@@ -66,7 +66,7 @@
      * get the URL parameter...
      * @return string URL parameter
      */
-    function getUrlParameter() {
+    public function getUrlParameter() {
       return $this->_urlparameter;
     }
 
@@ -74,7 +74,7 @@
      * set the URL parameter...
      * @param string $urlparameter URL parameter
      */
-    function setUrlParameter($urlparameter) {
+    public function setUrlParameter($urlparameter) {
       $this->_urlparameter = $urlparameter;
     }
 
@@ -85,7 +85,7 @@
      * @param string $id Language ID
      * @return string Link with URL parameter
      */
-    function appendUrlParameter($link, $urlparameter, $id = '') {
+    public function appendUrlParameter($link, $urlparameter, $id = '') {
       $urlparts = parse_url($link);
       
       $url = '';
@@ -148,7 +148,7 @@
      * get forcing of the URL parameter...
      * @return bool Force URL parameter?
      */
-    function getForceUrlParameter() {
+    public function getForceUrlParameter() {
       return $this->_forceurlparameter;
     }
 
@@ -156,7 +156,7 @@
      * set forcing of the URL parameter...
      * @param bool $force Force URL parameter?
      */
-    function setForceUrlParameter($force) {
+    public function setForceUrlParameter($force) {
       $this->_forceurlparameter = $force;
     }
 
@@ -166,7 +166,7 @@
      * @param string $name Language name
      * @param string $pofile PO file
      */
-    function addLanguage($id, $name, $pofile = '') {
+    public function addLanguage($id, $name, $pofile = '') {
       $id = strtolower($id);
       if ($pofile == '') { //if base language...
         $this->_languages[$id] = new SimpleTranslateBaseLanguage($id, $name);
@@ -184,7 +184,7 @@
      * @param string $id Language ID (in lower case)
      * @return bool Exists?
      */
-    function existsLanguage($id) {
+    public function existsLanguage($id) {
       return array_key_exists($id, $this->_languages);
     }
 
@@ -193,7 +193,7 @@
      * @param string $id Language ID
      * @return object Language
      */
-    function getLanguage($id) {
+    public function getLanguage($id) {
       $id = strtolower($id);
       if ($this->existsLanguage($id)) { //if the language exists...
         return $this->_languages[$id];
@@ -205,7 +205,7 @@
      * get the languages...
      * @return array Languages
      */
-    function getLanguages() {
+    public function getLanguages() {
       return $this->_languages;
     }
 
@@ -213,7 +213,7 @@
      * get the languages count...
      * @return int Languages count
      */
-    function getLanguagesCount() {
+    public function getLanguagesCount() {
       return count($this->_languages);
     }
 
@@ -221,7 +221,7 @@
      * get the base language ID...
      * @return string Base language ID
      */
-    function getBaseLanguageId() {
+    public function getBaseLanguageId() {
       return $this->_baselanguageid;
     }
 
@@ -229,7 +229,7 @@
      * get the base language...
      * @return object Base language
      */
-    function getBaseLanguage() {
+    public function getBaseLanguage() {
       return $this->_languages[$this->_baselanguageid];
     }
 
@@ -238,7 +238,7 @@
      * @param object $language Language
      * @return bool Is base language?
      */
-    function isBaseLanguage($language = null) {
+    public function isBaseLanguage($language = null) {
       if (isset($language)) { //if language committed...
         if ($language == $this->getBaseLanguage()) { //if base language...
           return true;
@@ -256,7 +256,7 @@
      * get the active language ID...
      * @return string Active language ID
      */
-    function getActiveLanguageId() {
+    public function getActiveLanguageId() {
       if ($this->_activelanguageid != '') {
         return $this->_activelanguageid;
       }
@@ -267,7 +267,7 @@
      * get the active language...
      * @return object Active language
      */
-    function getActiveLanguage() {
+    public function getActiveLanguage() {
       if ($this->_activelanguageid != '') {
         return $this->_languages[$this->_activelanguageid];
       }
@@ -279,7 +279,7 @@
      * @param string $id Language ID
      * @return bool Successful?
      */
-    function setActiveLanguage($id) {
+    public function setActiveLanguage($id) {
       $id = strtolower($id);
       if ($this->existsLanguage($id)) { //if the language exists...
         $this->_activelanguageid = $id;
@@ -295,7 +295,7 @@
      * @param object $language Language
      * @return bool Is active language?
      */
-    function isActiveLanguage($language) {
+    public function isActiveLanguage($language) {
       if ($language == $this->getActiveLanguage()) { //if active language...
         return true;
       }
@@ -307,7 +307,7 @@
      * @param string $id Language ID
      * @return bool Is valid language ID?
      */
-    function isValidLanguageId($id = null) {
+    public function isValidLanguageId($id = null) {
       if (isset($id)) { //if language ID committed...
         if (!empty($id)) { //if language ID NOT empty...
           return $this->existsLanguage(strtolower($id));
@@ -326,7 +326,7 @@
      * detect the language from the url...
      * @return bool Detected?
      */
-    function detectLanguageFromUrl() {
+    public function detectLanguageFromUrl() {
       if (isset($_GET[$this->_urlparameter])) {
         return $this->setActiveLanguage($_GET[$this->_urlparameter]);
       }
@@ -337,7 +337,7 @@
      * detect the language from the browser...
      * @return bool Detected?
      */
-    function detectLanguageFromBrowser() {
+    public function detectLanguageFromBrowser() {
       $acceptLanguageHeader = $_SERVER['HTTP_ACCEPT_LANGUAGE'];
       if (isset($acceptLanguageHeader) && is_string($acceptLanguageHeader) && !empty($acceptLanguageHeader)) { //if the "Accept-Language" header is set...
         $acceptLanguageHeader = strtolower($acceptLanguageHeader);
@@ -369,7 +369,7 @@
      * @param string $link Link
      * @return string Prepared link
      */
-    function prepareLink($link) {
+    public function prepareLink($link) {
       return $this->appendUrlParameter($link, $this->_urlparameter, $this->getActiveLanguageId());
     }
 
@@ -379,7 +379,7 @@
      * @param bool $forceurlparameter Force URL parameter?
      * @return string Language link
      */
-    function getLink($language = null, $forceurlparameter = null) {
+    public function getLink($language = null, $forceurlparameter = null) {
       $phpself = str_replace('index.php', '', $_SERVER['PHP_SELF']);
       if (isset($language)) { //if language committed...
         $forceing = $this->_forceurlparameter;
@@ -398,7 +398,7 @@
      * @param string $text Untranslated text
      * @return string Translated text
      */
-    function translate($text) {
+    public function translate($text) {
       $text = str_replace("\r", '', $text);
       $text = str_replace("\n", '\n', $text);
       if (isset($this->_translations) && array_key_exists($text, $this->_translations)) { //if the translation exists...
@@ -420,19 +420,19 @@
      * @var string
      * @access private
      */
-    var $_id;
+    protected $_id;
     /**
      * Name
      * @var string
      * @access private
      */
-    var $_name;
+    protected $_name;
     /**
      * PO file
      * @var string
      * @access private
      */
-    var $_pofile;
+    protected $_pofile;
 
     /**
      * Constructor
@@ -440,7 +440,7 @@
      * @param string $name Name
      * @param string $pofile PO file
      */
-    function __construct($id, $name, $pofile) {
+    public function __construct($id, $name, $pofile) {
       $this->_id = $id;
       $this->_name = $name;
       $this->_pofile = $pofile;
@@ -450,7 +450,7 @@
      * get the language id...
      * @return string ID
      */
-    function getId() {
+    public function getId() {
       return $this->_id;
     }
 
@@ -458,7 +458,7 @@
      * get the language name...
      * @return string Name
      */
-    function getName() {
+    public function getName() {
       return $this->_name;
     }
 
@@ -467,7 +467,7 @@
      * @param string $separator Separator
      * @return string Culture name
      */
-    function getCultureName($separator = '-') {
+    public function getCultureName($separator = '-') {
       return strtoupper(str_replace('_', $separator, $this->_id));
     }
 
@@ -475,7 +475,7 @@
      * get the language PO file...
      * @return string PO file
      */
-    function getPoFile() {
+    public function getPoFile() {
       return $this->_pofile;
     }
 
@@ -483,7 +483,7 @@
      * get the translations array...
      * @return array Translations
      */
-    function getTranslations() {
+    public function getTranslations() {
       $translations = array();
       if (file_exists($this->_pofile) == true) { //if the file exists...
         $msgstarted = 0;
@@ -550,7 +550,7 @@
      * @param string $id ID
      * @param string $name Name
      */
-    function __construct($id, $name) {
+    public function __construct($id, $name) {
       $this->_id = $id;
       $this->_name = $name;
       $this->_pofile = '';
@@ -560,8 +560,7 @@
      * get the translations array...
      * @return array Translations
      */
-    function getTranslations() {
+    public function getTranslations() {
       return array();
     }
   }
-?>

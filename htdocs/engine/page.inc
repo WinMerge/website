@@ -24,16 +24,20 @@
    * ...
    */
   class Page {
-    var $_title, $_charset;
-    var $_description, $_keywords;
-    var $_javascript, $_rssfeeds;
-    var $_tab;
-    var $_stablerelease;
+
+    private $_title;
+    private $_charset;
+    private $_description;
+    private $_keywords;
+    private $_javascript;
+    private $_rssfeeds;
+    private $_tab;
+    private $_stablerelease;
 
     /**
      * Constructor
      */
-    function __construct() {
+    public function __construct() {
       $this->_title = '';
       $this->_charset = 'utf-8';
       $this->_description = '';
@@ -61,56 +65,56 @@
     /**
      * set the title from the page
      */
-    function setTitle($title) {
+    public function setTitle($title) {
       $this->_title = $title;
     }
 
     /**
      * set the charset from the page
      */
-    function setCharset($charset) {
+    public function setCharset($charset) {
       $this->_charset = $charset;
     }
 
     /**
      * set the description from the page
      */
-    function setDescription($description) {
+    public function setDescription($description) {
       $this->_description = $description;
     }
 
     /**
      * set the keywords from the page
      */
-    function setKeywords($keywords) {
+    public function setKeywords($keywords) {
       $this->_keywords = $keywords;
     }
 
     /**
      * enable/disable JacaScript from the page
      */
-    function setJavaScript($value) {
+    public function setJavaScript($value) {
       $this->_javascript = $value;
     }
 
     /**
      * add RSS feed to the page head
      */
-    function addRssFeed($url, $title = 'RSS') {
+    public function addRssFeed($url, $title = 'RSS') {
       $this->_rssfeeds[$url] = $title;
     }
 
     /**
      * set the tab from the page
      */
-    function setTab($tab) {
+    public function setTab($tab) {
       $this->_tab = $tab;
     }
 
     /**
      * print the head from the page
      */
-    function printHead($title = '', $tab = '', $onload = '') {
+    public function printHead($title = '', $tab = '', $onload = '') {
       ob_start('ob_gzhandler'); //Use GZIP compression from PHP, since 1and1 don't support it from Apache!
       
       global $translations;
@@ -181,7 +185,7 @@
     /**
      * print the foot from the page
      */
-    function printFoot() {
+    public function printFoot() {
       global $translations;
       
       $temp = "  </main>\n";
@@ -226,56 +230,56 @@
     /**
      * print a <h2> heading
      */
-    function printHeading($title) {
+    public function printHeading($title) {
       print("<h2>" . $title . "</h2>\n");
     }
 
     /**
      * print a <h2> heading with a RSS feed link
      */
-    function printRssHeading($title, $rssfeedurl) {
+    public function printRssHeading($title, $rssfeedurl) {
       print("<h2>" . $title . " " . $this->getRssFeedLink($rssfeedurl) . "</h2>\n");
     }
 
     /**
      * print a <h3> heading
      */
-    function printSubHeading($title) {
+    public function printSubHeading($title) {
       print("<h3>" . $title . "</h3>\n");
     }
 
     /**
      * print a <h3> heading with link
      */
-    function printLinkedSubHeading($title, $link) {
+    public function printLinkedSubHeading($title, $link) {
       print("<h3><a href=\"" . $link . "\">" . $title . "</a></h3>\n");
     }
 
     /**
      * print a <h3> heading with anchor
      */
-    function printAnchorSubHeading($title, $anchor) {
+    public function printAnchorSubHeading($title, $anchor) {
       print("<h3><a name=\"" . $anchor . "\">" . $title . "</a></h3>\n");
     }
 
     /**
      * print a <h3> heading with a RSS feed link
      */
-    function printRssSubHeading($title, $rssfeedurl) {
+    public function printRssSubHeading($title, $rssfeedurl) {
       print("<h3>" . $title . " " . $this->getRssFeedLink($rssfeedurl) . "</h3>\n");
     }
 
     /**
      * print a <h4> heading
      */
-    function printSubSubHeading($title) {
+    public function printSubSubHeading($title) {
       print("<h4>" . $title . "</h4>\n");
     }
 
     /**
      * print a paragraph
      */
-    function printPara() {
+    public function printPara() {
       print("<p>");
       $numargs = func_num_args();
       $args = func_get_args();
@@ -291,7 +295,7 @@
     /**
      * get the "Download Now!" link
      */
-    function getDownloadNow($addparagraph = true) {
+    public function getDownloadNow($addparagraph = true) {
       global $translations;
       
       $href = $translations->prepareLink('/downloads/');
@@ -310,14 +314,14 @@
     /**
      * print the "Download Now!" link
      */
-    function printDownloadNow() {
+    public function printDownloadNow() {
       print($this->getDownloadNow());
     }
 
     /**
      * get a RSS feed link
      */
-    function getRssFeedLink($url, $text = '') {
+    public function getRssFeedLink($url, $text = '') {
       $temp = "<a href=\"" . $url . "\"><img src=\"/engine/images/rss.png\" alt=\"RSS\" border=\"0\"></a>";
       if ($text != '') { //if WITH text...
         $temp .= " <a href=\"" . $url . "\"> " . $text . "</a>";
@@ -328,14 +332,14 @@
     /**
      * print a RSS feed link
      */
-    function printRssFeedLink($url, $text = '') {
+    public function printRssFeedLink($url, $text = '') {
       print($this->getRssFeedLink($url, $text));
     }
 
     /**
      * get the tabs menu from the page
      */
-    function getTabs() {
+    private function getTabs() {
       global $translations;
       
       /* Main Tabs */
@@ -367,7 +371,7 @@
     /**
      * get the ads to display on the page
      */
-    function getAds() {
+    private function getAds() {
       $temp = "<div align=\"center\" id=\"ads\">\n";
       $temp .= "<script type=\"text/javascript\"><!--\n";
       $temp .= "google_ad_client = \"pub-1411904495533584\";\n";
@@ -392,14 +396,14 @@
     /**
      * get the stable release
      */
-    function getStableRelease() {
+    public function getStableRelease() {
       return $this->_stablerelease;
     }
     
     /**
      * get the content (between <body> and </body>) from a HTML file
      */
-    function getContentFromHtmlFile($filename, $patterns = '', $replacements = '') {
+    public function getContentFromHtmlFile($filename, $patterns = '', $replacements = '') {
       $html = "";
       if (file_exists($filename) == true) { //if the file exists...
         $lines = file($filename);
@@ -428,11 +432,10 @@
       return $html;
     }
     
-    
     /**
      * convert a (new) changelog file into html code
      */
-    function convertChangeLog2Html($filename) {
+    public function convertChangeLog2Html($filename) {
       $html = "";
       if (file_exists($filename) == true) { //if the file exists...
         $html .= "<pre>\n";
@@ -455,4 +458,3 @@
       return $html;
     }
   }
-?>
