@@ -25,26 +25,19 @@
    */
   class Page {
 
-    private $_title;
-    private $_charset;
-    private $_description;
-    private $_keywords;
-    private $_javascript;
-    private $_rssfeeds;
-    private $_tab;
-    private $_stablerelease;
+    private string $_title = '';
+    private string $_charset = 'utf-8';
+    private string $_description = '';
+    private string $_keywords = '';
+    private bool $_javascript = false;
+    private array $_rssfeeds = [];
+    private string $_tab = TAB_HOME;
+    private Release $_stablerelease;
 
     /**
      * Constructor
      */
     public function __construct() {
-      $this->_title = '';
-      $this->_charset = 'utf-8';
-      $this->_description = '';
-      $this->_keywords = '';
-      $this->_javascript = false;
-      $this->_rssfeeds = array();
-      $this->_tab = TAB_HOME;
       /* _Stable Release */
       $this->_stablerelease = new Release;
       $this->_stablerelease->setVersionNumber('2.16.60');

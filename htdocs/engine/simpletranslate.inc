@@ -15,52 +15,28 @@
   class SimpleTranslate {
     /**
      * URL parameter
-     * @var string
-     * @access private
      */
-    private $_urlparameter;
+    private string $_urlparameter = 'lang';
     /**
      * Force URL parameter?
-     * @var bool
-     * @access private
      */
-    private $_forceurlparameter;
+    private bool $_forceurlparameter = false;
     /**
      * Languages
-     * @var array
-     * @access private
      */
-    private $_languages;
+    private array $_languages = [];
     /**
      * ...
-     * @var string
-     * @access private
      */
-    private $_baselanguageid;
+    private string $_baselanguageid = '';
     /**
      * ...
-     * @var string
-     * @access private
      */
-    private $_activelanguageid;
+    private string $_activelanguageid = '';
     /**
      * Translations
-     * @var array
-     * @access private
      */
-    private $_translations;
-
-    /**
-     * Constructor
-     */
-    public function __construct() {
-      $this->_urlparameter = 'lang';
-      $this->_forceurlparameter = false;
-      $this->_languages = array();
-      $this->_baselanguageid = '';
-      $this->_activelanguageid = '';
-      $this->_translations = array();
-    }
+    private array $_translations = [];
 
     /**
      * get the URL parameter...
@@ -417,22 +393,16 @@
   class SimpleTranslateLanguage {
     /**
      * ID
-     * @var string
-     * @access private
      */
-    protected $_id;
+    protected string $_id;
     /**
      * Name
-     * @var string
-     * @access private
      */
-    protected $_name;
+    protected string $_name;
     /**
      * PO file
-     * @var string
-     * @access private
      */
-    protected $_pofile;
+    protected string $_pofile;
 
     /**
      * Constructor

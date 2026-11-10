@@ -14,11 +14,11 @@
    */
   class Tab {
 
-    private $_id;
-    private $_link;
-    private $_title;
-    private $_tooltiptext;
-    private $_subtabs;
+    private string $_id;
+    private string $_link;
+    private string $_title;
+    private string $_tooltiptext;
+    private array $_subtabs = [];
 
     /**
      * Constructor
@@ -28,7 +28,6 @@
       $this->_link = $link;
       $this->_title = $title;
       $this->_tooltiptext = $tooltiptext;
-      $this->_subtabs = array();
     }
 
     /**
@@ -93,9 +92,9 @@
    */
   class Subtab {
 
-    private $_link;
-    private $_title;
-    private $_tooltiptext;
+    private string $_link;
+    private string $_title;
+    private string $_tooltiptext;
 
     /**
      * Constructor
